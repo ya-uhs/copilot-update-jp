@@ -20,7 +20,26 @@ Roadmapは予定情報であり、GA予定日が書かれていても提供開�
 3. Settings → Pagesで Source を `GitHub Actions` に設定します。更新workflowが `docs` を直接デプロイします。
 4. Actionsの `Update Copilot feed` を手動実行します。以後は日本時間 7:00、13:00、19:00 頃に自動実行されます。
 
-必要に応じてRepository Variablesまたはworkflowのenvで `GEMINI_MODEL`、`GROQ_MODEL` を変更できます。既定値はそれぞれ `gemini-2.5-flash`、`llama-3.3-70b-versatile` です。
+必要に応じてRepository Variablesで `GEMINI_MODEL`、`GROQ_MODEL` を変更できます。既定値はそれぞれ `gemini-3.5-flash-lite`、`openai/gpt-oss-120b` です。APIキーはRepository Secretsへ登録します。モデルの提供状況・無料枠はプロバイダーにより変わります。
+
+## ソースとRSSの設定
+
+`config/sources.toml` でURL、enabled、family、取得件数を管理します。RSSは `adapter = "rss"` として追加でき、`keywords` で絞れます。独自HTML/APIの場合はPython側のadapter追加が必要です。既存の `id` は変更しないでください。無効にしても保存済み記事は残ります。
+
+`config/feeds.toml` で配信条件を管理します。`family`、`content_type`、`importance`、`translated_only`、`days`、`sort`、`limit` を組み合わせられます。次回Actions実行時に反映されます。
+
+| RSSパス | 内容 |
+|---|---|
+| `feed.xml` | 最新200件 |
+| `feeds/important.xml` | 翻訳済み・重要度high |
+| `feeds/top10.xml` | 過去7日の翻訳済み記事、重要度優先で最大10件 |
+| `feeds/microsoft365.xml` | Microsoft 365関連 |
+| `feeds/github.xml` | GitHub Copilot、CLI、VS Code |
+| `feeds/roadmap.xml` | Roadmap予定情報 |
+
+Top10は人気順ではありません。同じ重要度では新しい記事を優先します。リーダー側の表示順は異なることがあります。未翻訳は重要度未判定として重要更新・Top10から除外します。週刊ダイジェスト形式ではなく、通常の1記事1itemです。
+
+各RSSは固定GUID、self URL、カテゴリ、キャッシュ時間のヒントを出力します。クエリパラメータによる動的絞り込みは行いません。Webページの「RSSを選んで購読」からURLを選択できます。
 
 ## ローカル実行
 

@@ -14,7 +14,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-changelog",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-800b064ee1184a02ec91",
@@ -32,7 +34,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": "2026-09-26T08:54:30Z",
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-d26feaae96a6a7247582",
@@ -50,7 +54,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": "2026-09-26T08:54:30Z",
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-396929614",
@@ -67,7 +73,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-changelog-0a10d0252c63a3f9d568",
@@ -84,7 +92,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-changelog",
+    "family": "github"
   },
   {
     "id": "github-changelog-2653f5794fb9985f870e",
@@ -101,7 +111,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-changelog",
+    "family": "github"
   },
   {
     "id": "github-changelog-48eaa8bbafaa8bc422c9",
@@ -118,7 +130,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-changelog",
+    "family": "github"
   },
   {
     "id": "github-changelog-c1d4e08f8273da72d80c",
@@ -135,7 +149,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-changelog",
+    "family": "github"
   },
   {
     "id": "m365-blog-db5e9ebc132376747b28",
@@ -152,7 +168,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:41:37Z"
+    "processed_at": "2026-09-26T08:41:37Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365"
   },
   {
     "id": "github-changelog-9111ec33ec962e748182",
@@ -169,7 +187,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-changelog",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-9d70e2f3ea9c62c1af37",
@@ -187,7 +207,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-396087135",
@@ -204,7 +226,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-396006602",
@@ -221,7 +245,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-6c34d5ae75aec7606c23",
@@ -239,7 +265,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-395009465",
@@ -256,7 +284,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-release-notes-0d43a05fe828534a94f5",
@@ -273,7 +303,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "vscode-5c9dea62fc51b32650c2",
@@ -291,7 +323,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "vscode",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-ad99958cddeb03ad8b4d",
@@ -309,7 +343,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-394156139",
@@ -326,7 +362,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-394076851",
@@ -343,7 +381,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-393819449",
@@ -360,7 +400,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-393378971",
@@ -377,7 +419,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-b025d4163f393f484511",
@@ -395,7 +439,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-393207338",
@@ -412,7 +458,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-393077593",
@@ -429,7 +477,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-28ba3b49b28049b0e57e",
@@ -447,7 +497,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-383b00ac0d2d715b7a9c",
@@ -465,7 +517,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-8d7173afc072e398d295",
@@ -483,7 +537,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-391795903",
@@ -500,7 +556,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-391108341",
@@ -517,7 +575,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-390361151",
@@ -534,7 +594,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-390287381",
@@ -551,7 +613,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-389928292",
@@ -568,7 +632,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-389603482",
@@ -585,7 +651,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-832c68740f5301674f0d",
@@ -603,7 +671,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-9b5c4810fb5769c659d4",
@@ -621,7 +691,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-f2b9744f016dc66c43d9",
@@ -639,7 +711,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-b44bb7647a37dc80ff67",
@@ -657,7 +731,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-54f8637ef68ceaca8c0d",
@@ -675,7 +751,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-02dcfc8cd82141e550d4",
@@ -693,7 +771,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-26127eb687b1d4aa0f32",
@@ -711,7 +791,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-389443522",
@@ -728,7 +810,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-blog-f56099827510547fa8b8",
@@ -745,7 +829,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-388796513",
@@ -762,7 +848,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-388754125",
@@ -779,7 +867,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-388559614",
@@ -796,7 +886,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-0bf9c11184ef5565d433",
@@ -814,7 +906,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-387355425",
@@ -831,7 +925,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-a014c9c462db3bde5737",
@@ -849,7 +945,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-386484452",
@@ -866,7 +964,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-blog-7430075df12e4d0b8fff",
@@ -883,7 +983,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365"
   },
   {
     "id": "m365-blog-72237ba32e378ab933b6",
@@ -900,7 +1002,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-875936a9d73ed6670743",
@@ -918,7 +1022,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-1de1d1f9651de9e8031f",
@@ -936,7 +1042,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-385153310",
@@ -953,7 +1061,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-227c92063ebac7fcd0ec",
@@ -971,7 +1081,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-fa538e868f2b76669881",
@@ -989,7 +1101,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-f9eb61d3420151243c77",
@@ -1007,7 +1121,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-384770115",
@@ -1024,7 +1140,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-383060810",
@@ -1041,7 +1159,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-383018313",
@@ -1058,7 +1178,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-382838246",
@@ -1075,7 +1197,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-382451182",
@@ -1092,7 +1216,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "github-copilot-cli-382188685",
@@ -1109,7 +1235,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-df41e5e9b221c7d8c662",
@@ -1127,7 +1255,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-df4985f14ccff72d77a3",
@@ -1145,7 +1275,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "github-copilot-cli-381363817",
@@ -1162,7 +1294,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "github-copilot-cli",
+    "family": "github"
   },
   {
     "id": "m365-roadmap-3897773019dcda8b66db",
@@ -1180,7 +1314,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-43d80ec8258937f767d2",
@@ -1198,7 +1334,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-1d4a08028bd4848c885d",
@@ -1216,7 +1354,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-d8bf44d785a81b28cbfa",
@@ -1234,7 +1374,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-roadmap-dbb2cd2a6bf32a7c1d7f",
@@ -1252,7 +1394,9 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "content_type": "roadmap"
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-1eb781bec200fc92b38a",
@@ -1269,7 +1413,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-4fcf274104ca3c2e1ba3",
@@ -1286,7 +1432,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-blog-c0df935205d09a4e648c",
@@ -1303,7 +1451,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-91c8aee75396020f3410",
@@ -1320,7 +1470,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-dbdb0cf94353ec1b9114",
@@ -1337,7 +1489,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-121e6c489d6d40530f1c",
@@ -1354,7 +1508,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-blog-3f57e88d56c9537d3b1c",
@@ -1371,7 +1527,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365"
   },
   {
     "id": "m365-blog-675ce4910858546c3f7e",
@@ -1388,7 +1546,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-41720b53a8cdddb23403",
@@ -1405,7 +1565,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-b738696548177b5f62c0",
@@ -1422,7 +1584,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-blog-8e5d9aa67f231c3aa58e",
@@ -1439,7 +1603,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:41:58Z"
+    "processed_at": "2026-09-26T08:41:58Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-713a36255ed16757cc35",
@@ -1456,7 +1622,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-dc86f94af5cc4fe57602",
@@ -1473,7 +1641,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-a617a35b9d37f9899a0d",
@@ -1490,7 +1660,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-96af50a59f2536d2fc4d",
@@ -1507,7 +1679,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": null
+    "processed_at": null,
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-ba59ab0661fb92cd9c00",
@@ -1524,7 +1698,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-aa686f49fbc6f9d24ced",
@@ -1541,7 +1717,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-36de63ab396d12f139ed",
@@ -1558,7 +1736,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-29ae57f268a2d7a9bff6",
@@ -1575,7 +1755,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-8c96ac7ef59596aad978",
@@ -1592,7 +1774,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-4ab49e00aff7a1b0daad",
@@ -1609,7 +1793,9 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   },
   {
     "id": "m365-release-notes-f5e652adc501a3c236c6",
@@ -1626,6 +1812,8 @@
     "target_user": [],
     "importance": "low",
     "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z"
+    "processed_at": "2026-09-26T08:40:54Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365"
   }
 ]

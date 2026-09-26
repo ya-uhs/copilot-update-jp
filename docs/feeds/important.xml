@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Copilot Update — 重要更新</title>
+    <link>https://ya-uhs.github.io/copilot-update-jp/</link>
+    <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
+    <language>ja</language>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
+    <ttl>360</ttl>
+  </channel>
+</rss>

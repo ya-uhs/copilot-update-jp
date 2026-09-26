@@ -1,0 +1,37 @@
+[[feeds]]
+path = "feed.xml"
+title = "Copilot Update — 全更新"
+limit = 200
+
+[[feeds]]
+path = "feeds/important.xml"
+title = "Copilot Update — 重要更新"
+importance = ["high"]
+translated_only = true
+limit = 100
+
+[[feeds]]
+path = "feeds/top10.xml"
+title = "Copilot Update — 過去7日の重要更新 Top10"
+days = 7
+sort = "importance"
+translated_only = true
+limit = 10
+
+[[feeds]]
+path = "feeds/microsoft365.xml"
+title = "Copilot Update — Microsoft 365"
+family = "microsoft365"
+limit = 200
+
+[[feeds]]
+path = "feeds/github.xml"
+title = "Copilot Update — GitHub Copilot"
+family = "github"
+limit = 200
+
+[[feeds]]
+path = "feeds/roadmap.xml"
+title = "Copilot Update — Roadmap（予定情報）"
+content_type = "roadmap"
+limit = 100

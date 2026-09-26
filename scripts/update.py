@@ -5,7 +5,7 @@ import os
 
 from scripts.common import load_articles, save_articles
 from scripts.fetch_sources import fetch_all
-from scripts.generate_feed import generate_feed
+from scripts.generate_feed import generate_feeds
 from scripts.generate_site import generate_site
 from scripts.summarize import summarize_pending
 
@@ -19,7 +19,7 @@ def main() -> int:
     save_articles(articles)
     site_url = os.getenv("SITE_URL", "https://example.github.io/copilot-update-jp/")
     try:
-        generate_feed(articles, site_url)
+        generate_feeds(articles, site_url)
     except Exception:
         logging.exception("Feed generation failed; the previous feed was preserved")
     try:
@@ -35,4 +35,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

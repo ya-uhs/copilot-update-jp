@@ -70,6 +70,7 @@ def _providers() -> list[tuple[str, Callable[[str], str]]]:
 
 
 def summarize_article(article: dict[str, Any]) -> bool:
+    article['translation_attempted_at'] = now_iso()
     prompt = PROMPT.format(
         source=article.get("source", ""), title=article.get("title_original", ""),
         product=article.get("product", ""), status=article.get("status", "unknown"),
@@ -86,7 +87,8 @@ def summarize_article(article: dict[str, Any]) -> bool:
             article["llm_provider"] = name
             return True
         except Exception as exc:
-            LOGGER.warning("%s failed for %s: %s", name, article.get("id"), exc)
+            response = getattr(exc, 'response', None)
+            LOGGER.warning("%s failed for %s: %s HTTP=%s", name, article.get("id"), type(exc).__name__, getattr(response, 'status_code', 'n/a'))
     article["title_ja"] = ""
     article["summary_ja"] = ""
     article["changes"] = []
@@ -99,8 +101,13 @@ def summarize_article(article: dict[str, Any]) -> bool:
 
 def summarize_pending(articles: list[dict[str, Any]]) -> tuple[int, int]:
     success = failure = 0
+    if not _providers():
+        LOGGER.warning('No LLM API keys configured; publishing originals')
+        return success, failure
     limit = max(0, int(os.getenv("MAX_TRANSLATIONS_PER_RUN", "10")))
-    for article in sorted(articles, key=lambda item: item.get("published_at", ""), reverse=True):
+    pending = sorted(articles, key=lambda item: item.get('published_at', ''), reverse=True)
+    pending.sort(key=lambda item: item.get('translation_attempted_at', ''))
+    for article in pending:
         if article.get("translated") is True:
             continue
         if success + failure >= limit:

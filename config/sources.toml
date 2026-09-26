@@ -1,0 +1,55 @@
+# idは既存記事との対応に使うため変更しないでください。
+[[sources]]
+id = "github-changelog"
+name = "GitHub Changelog"
+adapter = "rss"
+url = "https://github.blog/changelog/feed/"
+product = "GitHub Copilot"
+keywords = ["copilot"]
+family = "github"
+enabled = true
+
+[[sources]]
+id = "github-copilot-cli"
+name = "GitHub Copilot CLI Releases"
+adapter = "cli"
+url = "https://api.github.com/repos/github/copilot-cli/releases"
+changelog_url = "https://raw.githubusercontent.com/github/copilot-cli/main/changelog.md"
+family = "github"
+limit = 30
+enabled = true
+
+[[sources]]
+id = "m365-blog"
+name = "Microsoft 365 Copilot Blog"
+adapter = "rss"
+url = "https://www.microsoft.com/en-us/microsoft-365/blog/feed/"
+product = "Microsoft 365 Copilot"
+keywords = ["copilot"]
+family = "microsoft365"
+enabled = true
+
+[[sources]]
+id = "m365-release-notes"
+name = "Microsoft 365 Copilot Release Notes"
+adapter = "m365_notes"
+url = "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+family = "microsoft365"
+enabled = true
+
+[[sources]]
+id = "vscode"
+name = "VS Code Release Notes"
+adapter = "vscode"
+url = "https://code.visualstudio.com/updates"
+family = "github"
+enabled = true
+
+[[sources]]
+id = "m365-roadmap"
+name = "Microsoft 365 Roadmap"
+adapter = "roadmap"
+url = "https://www.microsoft.com/en-us/microsoft-365/RoadmapFeatureRSS/"
+family = "microsoft365"
+limit = 30
+enabled = true

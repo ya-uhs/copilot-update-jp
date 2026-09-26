@@ -13,14 +13,10 @@ from bs4 import BeautifulSoup, Tag
 from dateutil import parser as date_parser
 
 from scripts.common import USER_AGENT, clean_text, normalize_title, now_iso, stable_id
+from scripts.config import load_config
 
 LOGGER = logging.getLogger(__name__)
 TIMEOUT = 25
-GITHUB_CHANGELOG_FEED = "https://github.blog/changelog/feed/"
-COPILOT_CLI_RELEASES = "https://api.github.com/repos/github/copilot-cli/releases"
-COPILOT_CLI_CHANGELOG = "https://raw.githubusercontent.com/github/copilot-cli/main/changelog.md"
-M365_BLOG_FEED = "https://www.microsoft.com/en-us/microsoft-365/blog/feed/"
-M365_RELEASE_NOTES = "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
 COPILOT_TERMS = ("copilot", "github copilot")
 
 
@@ -51,7 +47,7 @@ def _base_article(**values: Any) -> dict[str, Any]:
     }
 
 
-def fetch_rss(url: str, source: str, prefix: str, product: str, require_copilot: bool) -> list[dict[str, Any]]:
+def fetch_rss(url: str, source: str, prefix: str, product: str, require_copilot: bool, keywords=None) -> list[dict[str, Any]]:
     response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
     response.raise_for_status()
     parsed = feedparser.parse(response.content)
@@ -64,7 +60,7 @@ def fetch_rss(url: str, source: str, prefix: str, product: str, require_copilot:
         summary = clean_text(BeautifulSoup(summary_html, "html.parser").get_text(" "))
         tags = " ".join(tag.get("term", "") for tag in entry.get("tags", []))
         searchable = f"{title} {summary} {tags}".casefold()
-        if require_copilot and not any(term in searchable for term in COPILOT_TERMS):
+        if require_copilot and not any(term.casefold() in searchable for term in (keywords or COPILOT_TERMS)):
             continue
         link = entry.get("link", "").strip()
         guid = entry.get("id") or entry.get("guid") or link
@@ -79,23 +75,15 @@ def fetch_rss(url: str, source: str, prefix: str, product: str, require_copilot:
     return items
 
 
-def fetch_github_changelog() -> list[dict[str, Any]]:
-    return fetch_rss(GITHUB_CHANGELOG_FEED, "GitHub Changelog", "github-changelog", "GitHub Copilot", True)
-
-
-def fetch_m365_blog() -> list[dict[str, Any]]:
-    return fetch_rss(M365_BLOG_FEED, "Microsoft 365 Copilot Blog", "m365-blog", "Microsoft 365 Copilot", True)
-
-
-def fetch_cli_releases() -> list[dict[str, Any]]:
+def fetch_cli_releases(config) -> list[dict[str, Any]]:
     headers = {"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT}
     if os.getenv("GITHUB_TOKEN"):
         headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
-    response = requests.get(COPILOT_CLI_RELEASES, headers=headers, params={"per_page": 30}, timeout=TIMEOUT)
+    response = requests.get(config['url'], headers=headers, params={"per_page": config.get('limit', 30)}, timeout=TIMEOUT)
     response.raise_for_status()
     changelog: dict[str, str] = {}
     try:
-        changelog_response = requests.get(COPILOT_CLI_CHANGELOG, headers=headers, timeout=TIMEOUT)
+        changelog_response = requests.get(config['changelog_url'], headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
         changelog_response.raise_for_status()
         sections = re.split(r"(?m)^##\s+", changelog_response.text)
         for section in sections[1:]:
@@ -124,8 +112,8 @@ def fetch_cli_releases() -> list[dict[str, Any]]:
     return items
 
 
-def fetch_m365_release_notes() -> list[dict[str, Any]]:
-    response = requests.get(M365_RELEASE_NOTES, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+def fetch_m365_release_notes(config) -> list[dict[str, Any]]:
+    response = requests.get(config['url'], headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     main = soup.select_one("main") or soup
@@ -144,7 +132,7 @@ def fetch_m365_release_notes() -> list[dict[str, Any]]:
                     chunks.append(text)
         excerpt = clean_text(" ".join(chunks))[:12000]
         anchor = heading.get("id") or re.sub(r"[^a-z0-9]+", "-", label.casefold()).strip("-")
-        url = f"{M365_RELEASE_NOTES}#{anchor}"
+        url = f"{config['url']}#{anchor}"
         items.append(_base_article(
             id=stable_id("m365-release-notes", label), source="Microsoft 365 Copilot Release Notes",
             source_url=url, published_at=_iso_date(label),
@@ -154,8 +142,8 @@ def fetch_m365_release_notes() -> list[dict[str, Any]]:
     return items
 
 
-def fetch_vscode_updates() -> list[dict[str, Any]]:
-    response = requests.get("https://code.visualstudio.com/updates", headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+def fetch_vscode_updates(config) -> list[dict[str, Any]]:
+    response = requests.get(config['url'], headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     title = clean_text(soup.h1.get_text(" "))
@@ -182,9 +170,9 @@ def fetch_vscode_updates() -> list[dict[str, Any]]:
     )]
 
 
-def fetch_m365_roadmap() -> list[dict[str, Any]]:
+def fetch_m365_roadmap(config) -> list[dict[str, Any]]:
     items = fetch_rss(
-        "https://www.microsoft.com/en-us/microsoft-365/RoadmapFeatureRSS/",
+        config['url'],
         "Microsoft 365 Roadmap", "m365-roadmap", "Microsoft 365 Copilot", True,
     )
     # Roadmap dates describe plans, not evidence that a feature has shipped.
@@ -192,13 +180,11 @@ def fetch_m365_roadmap() -> list[dict[str, Any]]:
         item["status"] = "Roadmap"
         item["content_type"] = "roadmap"
         item["title_original"] = "[Roadmap] " + item["title_original"]
-    return sorted(items, key=lambda item: item["published_at"], reverse=True)[:30]
+    return sorted(items, key=lambda item: item["published_at"], reverse=True)[:config.get('limit', 30)]
 
 
-FETCHERS: tuple[Callable[[], list[dict[str, Any]]], ...] = (
-    fetch_github_changelog, fetch_cli_releases, fetch_m365_blog, fetch_m365_release_notes,
-    fetch_vscode_updates, fetch_m365_roadmap,
-)
+ADAPTERS = {"cli": fetch_cli_releases, "m365_notes": fetch_m365_release_notes,
+            "vscode": fetch_vscode_updates, "roadmap": fetch_m365_roadmap}
 
 
 def _is_duplicate(candidate: dict[str, Any], articles: list[dict[str, Any]]) -> bool:
@@ -219,14 +205,27 @@ def fetch_all(existing: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], lis
     added: list[dict[str, Any]] = []
     errors: list[str] = []
     combined = list(existing)
-    for fetcher in FETCHERS:
+    sources = load_config('sources')['sources']
+    for source in sources:
+        # Backfill stable source metadata without changing article IDs.
+        for item in existing:
+            if item.get('source_id') == source['id'] or item.get('source') == source['name']:
+                item.update(source_id=source['id'], family=source['family'])
+        if not source.get('enabled', True):
+            continue
         try:
-            for item in fetcher():
+            if source['adapter'] == 'rss':
+                fetched = fetch_rss(source['url'], source['name'], source['id'], source['product'], bool(source.get('keywords')), source.get('keywords'))
+                fetched = fetched[:source.get('limit', len(fetched))]
+            else:
+                fetched = ADAPTERS[source['adapter']](source)
+            for item in fetched:
+                item.update(source_id=source['id'], source=source['name'], family=source['family'])
                 if not _is_duplicate(item, combined):
                     added.append(item)
                     combined.append(item)
         except Exception as exc:  # one source must not block the rest
-            message = f"{fetcher.__name__}: {exc}"
+            message = f"{source['id']}: {exc}"
             LOGGER.exception(message)
             errors.append(message)
     return added, errors

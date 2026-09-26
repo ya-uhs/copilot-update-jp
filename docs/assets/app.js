@@ -1,4 +1,12 @@
 const state = { articles: [] };
+fetch('feeds.json').then(r => r.json()).then(feeds => {
+  const list = document.getElementById('feed-links');
+  list.replaceChildren(...feeds.map(feed => {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = feed.path; a.textContent = feed.title; li.appendChild(a); return li;
+  }));
+}).catch(() => {});
 const byId = (id) => document.getElementById(id);
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 
@@ -43,4 +51,3 @@ fetch("data.json", {cache: "no-cache"}).then(response => {
   ["product", "importance", "status"].forEach(id => byId(id).addEventListener("change", render));
   render();
 }).catch(error => { byId("articles").innerHTML = `<p class="empty">データを読み込めませんでした: ${escapeHtml(error.message)}</p>`; });
-

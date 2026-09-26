@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Copilot Update — Roadmap（予定情報）</title>
+    <link>https://ya-uhs.github.io/copilot-update-jp/</link>
+    <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
+    <language>ja</language>
+    <lastBuildDate>Sat, 26 Sep 2026 08:54:30 +0000</lastBuildDate>
+    <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
+    <ttl>360</ttl>
+    <item>
+      <title>[Roadmap] Microsoft Power Platform governance and administration: Maker Guidelines</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570967</link>
+      <guid isPermaLink="false">m365-roadmap-800b064ee1184a02ec91</guid>
+      <pubDate>Fri, 25 Sep 2026 22:37:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The Maker guidelines feature gives organizations a direct way to share guidance with Copilot Studio makers in the flow of work. Administrators can explain which tools, models, connectors, and channels are approved for an environment and point makers to the right policy, request process, or support contact. The message appears in the Review pane alongside the agent&amp;#x27;s blockers and warnings and remains available when the agent has no issues. This gives makers a consistent place to understand organizational expectations and find help without leaving Copilot Studio. GA date: November CY2026 Preview date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570967"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] PowerPoint: Async Notifications for Copilot in PowerPoint</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570436</link>
+      <guid isPermaLink="false">m365-roadmap-d26feaae96a6a7247582</guid>
+      <pubDate>Fri, 25 Sep 2026 22:37:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570436"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Dynamics 365 Field Service: Microsoft Copilot in Field Service Mobile app</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571663</link>
+      <guid isPermaLink="false">m365-roadmap-9d70e2f3ea9c62c1af37</guid>
+      <pubDate>Thu, 24 Sep 2026 22:58:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft Copilot in the Dynamics 365 Field Service mobile app brings conversational AI chat capabilities directly to frontline workers. Once enabled, technicians can ask natural-language questions about Dynamics 365 Field Service data and receive contextual answers based on the app experience and their organization’s Dataverse data. With standard capabilities, Dataverse Q&amp;amp;A supports questions such as “What is the work history of this asset?” or “Who worked on this job last?” Organizations can also extend the with custom experiences and agents available to frontline and back-office users. GA date: February CY2027&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571663"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] PowerPoint: Skills in Brand Kit</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=569018</link>
+      <guid isPermaLink="false">m365-roadmap-6c34d5ae75aec7606c23</guid>
+      <pubDate>Wed, 23 Sep 2026 22:59:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Upload skill (.md file) in Brand Kit and use within PPT Copilot GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569018"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Federated Copilot Connectors will support write, update and delete actions</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570964</link>
+      <guid isPermaLink="false">m365-roadmap-ad99958cddeb03ad8b4d</guid>
+      <pubDate>Tue, 22 Sep 2026 22:57:16 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Federated Copilot connectors (MCP type) currently let Microsoft 365 Copilot read data from third-party services in real time. With this update, the connector tools that create, update, and delete content in those services are unblocked in Copilot Chat, so users can complete work without leaving Copilot. Copilot acts with the user&amp;#x27;s own account and permissions at the third-party service, and every create, update, or delete action requires the user&amp;#x27;s explicit confirmation before it runs. Admins can view each connector&amp;#x27;s read and write/delete tools in the Microsoft 365 admin center and disable connectors that don&amp;#x27;t meet their organization&amp;#x27;s policies. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570964"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Local inferencing</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571886</link>
+      <guid isPermaLink="false">m365-roadmap-b025d4163f393f484511</guid>
+      <pubDate>Mon, 21 Sep 2026 23:04:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Local inferencing expands Microsoft Copilot’s sovereign controls by enabling AI inferencing for supported Copilot interactions to occur within the applicable local geography. Launching in Australia, India, the United Arab Emirates, the United Kingdom, and the United States, this capability gives organizations greater control over where AI inferencing occurs, helping them address sovereignty and regional requirements. Inferencing is the processing step when an AI model executes a prompt to produce an output or response. GA date: December CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571886"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Teams: Express face enrollment</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570846</link>
+      <guid isPermaLink="false">m365-roadmap-28ba3b49b28049b0e57e</guid>
+      <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization. GA date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570846"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Copilot Cowork for Government Clouds</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571637</link>
+      <guid isPermaLink="false">m365-roadmap-383b00ac0d2d715b7a9c</guid>
+      <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Cowork makes it easy to delegate work. Describe the outcome you want and Cowork automatically grounds the work in your emails, meetings, messages, files, and data. GA date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571637"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Purview: Data Lifecycle Management-Legacy Teams retention policies covering Copilot will be treated as Teams-only</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571306</link>
+      <guid isPermaLink="false">m365-roadmap-8d7173afc072e398d295</guid>
+      <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Some existing retention policies scoped to Microsoft Teams may currently also apply to Microsoft 365 Copilot interactions. As part of an upcoming change, these legacy Teams retention policies will be converted to—and treated as—Teams-only policies. They will no longer implicitly govern Copilot workloads. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571306"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Purview: DSPM-Copilot Readiness and Data Explorer</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571157</link>
+      <guid isPermaLink="false">m365-roadmap-832c68740f5301674f0d</guid>
+      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;We’re introducing the new readiness for Microsoft Copilot and data explorer experiences in Microsoft Purview Data Security Posture Management (DSPM). These new capabilities provide data security teams with greater visibility into their organization’s data security posture and help them assess risks, investigate findings, and prioritize remediation. The readiness for Microsoft Copilot experience in Purview DSPM helps organizations assess and improve their data readiness for Microsoft Copilot. It brings together insights into sensitive data exposure, oversharing, and protection coverage, helping security teams identify risks and assess progress toward a more secure Microsoft Copilot deployment. The new data explorer experience in Purview DSPM provides a centralized investigation experience that helps organizations understand where sensitive data exists across sites, review site-level access, and explore relevant data through preset views. It brings together sites, sensitive data, and preset views, to support more efficient investigations and reduce context switching. GA date: January CY2027 Preview date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571157"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Teams: Ask Copilot from Search on Mobile</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571299</link>
+      <guid isPermaLink="false">m365-roadmap-9b5c4810fb5769c659d4</guid>
+      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Get answers without leaving search. As you type in the Teams search bar, you&amp;#x27;ll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot conversation, helping you quickly find information, get answers, and ask follow-up questions in context. GA date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571299"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot Studio: Cost visibility in Monitor tab</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571196</link>
+      <guid isPermaLink="false">m365-roadmap-f2b9744f016dc66c43d9</guid>
+      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Now makers will have clear visibility into their consumption costs directly within Monitor tab at both a per-agent level and an estimated breakdown of those costs across the agents lifecylce. This will allow makers to see costs distributed across activities such as authoring, testing, evaluations, and production usage, helping connect overall consumption to specific actions and experiences. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571196"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot Studio: Cost visibility in Agent Evaluations</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571195</link>
+      <guid isPermaLink="false">m365-roadmap-b44bb7647a37dc80ff67</guid>
+      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Now makers will have clear visibility into their consumption costs directly associated with their evaluations, including a breakdown of usage for eval generation, test runs and model grading/judgement. Makers can see the costs as they test, iterate, and review conversations, making usage transparent throughout the development lifecycle. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571195"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot Studio: Cost visibility in Preview Chat and History</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571194</link>
+      <guid isPermaLink="false">m365-roadmap-54f8637ef68ceaca8c0d</guid>
+      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Now makers will have clear visibility into their consumption costs directly within preview tab and agent history for their preview/testing usage as well as all every historical run. Makers can see the costs as they test, iterate, and review conversations, making usage costs transparent throughout the development experience. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571194"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] PowerPoint: Async Notifications for PowerPoint Agent (Web)</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570438</link>
+      <guid isPermaLink="false">m365-roadmap-02dcfc8cd82141e550d4</guid>
+      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570438"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] PowerPoint: Async Notifications for PowerPoint Agent (Windows Desktop)</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570437</link>
+      <guid isPermaLink="false">m365-roadmap-26127eb687b1d4aa0f32</guid>
+      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570437"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Word: Copilot edit mode is available to users in Office 365 GCC</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570277</link>
+      <guid isPermaLink="false">m365-roadmap-0bf9c11184ef5565d433</guid>
+      <pubDate>Fri, 11 Sep 2026 22:10:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Edit with Copilot in Word is now available to users in Office 365 GCC, enabling government customers to work with Copilot as a co-creator directly in your document to create, refine, and transform documents more efficiently. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570277"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot (Microsoft M365): Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint file</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570469</link>
+      <guid isPermaLink="false">m365-roadmap-a014c9c462db3bde5737</guid>
+      <pubDate>Thu, 10 Sep 2026 23:01:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint files is user&amp;#x27;s working files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570469"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] SharePoint: Changes to the FAQ web part authoring experience</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570647</link>
+      <guid isPermaLink="false">m365-roadmap-875936a9d73ed6670743</guid>
+      <pubDate>Wed, 09 Sep 2026 22:36:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will continue to render without migration. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570647"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Outlook: Inline chat for email drafting</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570440</link>
+      <guid isPermaLink="false">m365-roadmap-1de1d1f9651de9e8031f</guid>
+      <pubDate>Wed, 09 Sep 2026 22:36:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Instead of opening Copilot Chat every time you want to use Copilot to draft a message, this change introduces an inline chat component that streamlines the process and lets you interact with Copilot without opening the sidebar. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570440"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Teams: Meeting Shared Files</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570427</link>
+      <guid isPermaLink="false">m365-roadmap-227c92063ebac7fcd0ec</guid>
+      <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The new Meeting Shared Files feature allows users to add relevant files and links to their meeting for easy access and to automatically share that content with all meeting participants. AI in the meeting, like the Facilitator agent, uses these files for targeted grounding to answer questions and enhance skill functionality. GA date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570427"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Viva: Copilot Analytics - Agent value insights in Agent 365 Dashboard</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570847</link>
+      <guid isPermaLink="false">m365-roadmap-fa538e868f2b76669881</guid>
+      <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Customers can now view value insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). These insights help business leaders and change and adoption specialists understand not only whether agents are being used, but also the estimated assisted hours agents provide and the types of work contributing to that value. This update builds on the existing Agent 365 Dashboard adoption experience by connecting agent activity with a clearer view of the work agents support across the organization. GA date: October CY2026 Preview date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570847"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Purview: Data Loss Prevention for Microsoft Cowork</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570845</link>
+      <guid isPermaLink="false">m365-roadmap-f9eb61d3420151243c77</guid>
+      <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by preventing the use of labeled knowledge sources, blocking prompts that contain supported sensitive information types, and restricting sensitive prompts from being sent to Bing for web search. GA date: October CY2026 Preview date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570845"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot Studio: Deliver rich interactive app experiences in Copilot Studio agents</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570433</link>
+      <guid isPermaLink="false">m365-roadmap-df41e5e9b221c7d8c662</guid>
+      <pubDate>Wed, 02 Sep 2026 22:56:59 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Studio agents can now render rich, interactive UI inline using MCP Apps, an extension of the Model Context Protocol. When an agent calls a UI-enabled tool from a compatible MCP server, interactive experiences like sortable tables and drilldowns render directly in the conversation. Users can now explore and act on data without leaving the chat or switching tools. A plain-text fallback keeps the agent working on surfaces that can&amp;#x27;t render the UI, and makers get this simply by connecting a compliant MCP server. GA date: November CY2026 Preview date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570433"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot Studio: Introducing an App- and Intent-First Agent Creation Experience</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=569474</link>
+      <guid isPermaLink="false">m365-roadmap-df4985f14ccff72d77a3</guid>
+      <pubDate>Wed, 02 Sep 2026 22:56:59 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Studio is evolving to an app-first agent creation experience. Makers start with the application their agent will work with and configure the capabilities it needs. This update brings tools and knowledge into a more unified experience, simplifying how agents are created and configured. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569474"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Teams: Copilot Chat for chats, channels, calls, and meetings in GCC, GCC High, and DoD</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=569214</link>
+      <guid isPermaLink="false">m365-roadmap-3897773019dcda8b66db</guid>
+      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Chat will soon be available across chats, channels, calls, and meetings, helping users stay informed and catch up quickly. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569214"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot Studio: Streamlining experiences from Copilot Studio Agents in Microsoft 365 Copilot</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570435</link>
+      <guid isPermaLink="false">m365-roadmap-43d80ec8258937f767d2</guid>
+      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;This update is meant to bridge the experience of using Copilot Studio agents in M365 Copilot with the Copilot Chat experience. With these updates, agent responses in Copilot Chat will look (similar formatting, compressed chain of thought), feel (smoother streaming, resume/retry and voice dictation) and behave (deliver clickable citations and tool execution traces) very similarly to Copilot Chat responses themselves. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570435"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Copilot Studio: Enabling makers to require human approval for tool calls</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570434</link>
+      <guid isPermaLink="false">m365-roadmap-1d4a08028bd4848c885d</guid>
+      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Studio now let’s makers require human approval before an agent runs specific tools. With a per-tool, per-agent toggle, any gated tool call pauses and shows an approval request describing what the agent intends to do, so a person can approve, approve for the session, or deny before the action runs. This gives organizations a deterministic guardrail for high-stakes or sensitive operations like sending emails, closing tickets, or processing payments, independent of the agent&amp;#x27;s instructions. Approval requests appear inline in the channel where the agent is deployed, including Microsoft Teams and Microsoft 365 Copilot. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570434"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft 365: Organizational Data Service is now available in GCC-High</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570431</link>
+      <guid isPermaLink="false">m365-roadmap-d8bf44d785a81b28cbfa</guid>
+      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;We’re excited to announce that Microsoft 365 Organizational Data Service is now available in the GCC-High (GCC-H) environment! Microsoft 365 Organizational Data Service enables rapid ingestion of organizational/HR data through connectors from multiple HRIS systems using a single unified ingestion point. This service also provides organizational data for use across Microsoft Copilot and Microsoft 365 apps to power various features with robust data quality framework that detects, communicates, and provides solutions for data quality issues before data is used. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570431"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>[Roadmap] Microsoft Viva: Viva Insights and Copilot Analytics in GCC-High</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570428</link>
+      <guid isPermaLink="false">m365-roadmap-dbb2cd2a6bf32a7c1d7f</guid>
+      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights and Copilot Analytics are coming to Microsoft 365 Government Community Cloud High (GCC High), providing eligible organizations with privacy-protected, role-based analytics experiences to help them understand Microsoft 365 Copilot adoption, usage, and impact. Viva Insights also provides data-driven behavioral insights into how employees collaborate, helping organizations improve productivity and wellbeing within the GCC High environment. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570428"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
+  </channel>
+</rss>

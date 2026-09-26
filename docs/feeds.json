@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Copilot Update — 全更新",
+    "path": "feed.xml"
+  },
+  {
+    "title": "Copilot Update — 重要更新",
+    "path": "feeds/important.xml"
+  },
+  {
+    "title": "Copilot Update — 過去7日の重要更新 Top10",
+    "path": "feeds/top10.xml"
+  },
+  {
+    "title": "Copilot Update — Microsoft 365",
+    "path": "feeds/microsoft365.xml"
+  },
+  {
+    "title": "Copilot Update — GitHub Copilot",
+    "path": "feeds/github.xml"
+  },
+  {
+    "title": "Copilot Update — Roadmap（予定情報）",
+    "path": "feeds/roadmap.xml"
+  }
+]

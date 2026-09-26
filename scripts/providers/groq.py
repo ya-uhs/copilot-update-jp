@@ -7,7 +7,7 @@ import requests
 
 def summarize(prompt: str, timeout: int = 45) -> str:
     key = os.environ["GROQ_API_KEY"]
-    model = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+    model = os.getenv("GROQ_MODEL") or "openai/gpt-oss-120b"
     response = requests.post(
         "https://api.groq.com/openai/v1/chat/completions", timeout=timeout,
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
@@ -20,4 +20,3 @@ def summarize(prompt: str, timeout: int = 45) -> str:
     )
     response.raise_for_status()
     return response.json()["choices"][0]["message"]["content"]
-
