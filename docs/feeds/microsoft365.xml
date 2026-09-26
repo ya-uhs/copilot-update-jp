@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 09:13:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 14:16:45 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -79,44 +79,44 @@
       <category>high</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Local inferencing</title>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: ローカル推論機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571886</link>
       <guid isPermaLink="false">m365-roadmap-b025d4163f393f484511</guid>
       <pubDate>Mon, 21 Sep 2026 23:04:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Local inferencing expands Microsoft Copilot’s sovereign controls by enabling AI inferencing for supported Copilot interactions to occur within the applicable local geography. Launching in Australia, India, the United Arab Emirates, the United Kingdom, and the United States, this capability gives organizations greater control over where AI inferencing occurs, helping them address sovereignty and regional requirements. Inferencing is the processing step when an AI model executes a prompt to produce an output or response. GA date: December CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571886"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにローカル推論機能が追加され、サポートされているCopilotの対話処理を指定された地域の国内で行うことが可能になります。これにより、組織はAI推論の実行場所をより詳細に制御でき、データ主権や地域の要件に対応できるようになります。本機能はオーストラリア、インド、アラブ首長国連邦、イギリス、アメリカで展開され、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているCopilotの対話処理におけるAI推論を、対象地域の国内で実行可能にするローカル推論機能の提供&lt;/li&gt;&lt;li&gt;オーストラリア、インド、アラブ首長国連邦、イギリス、アメリカでの順次展開&lt;/li&gt;&lt;li&gt;AI推論の実行場所に対する組織の制御力を高め、データ主権と地域要件への対応を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571886"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>high</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Teams: Express face enrollment</title>
+      <title>[提供予定・ロードマップ] Microsoft Teams: エクスプレス顔登録</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570846</link>
       <guid isPermaLink="false">m365-roadmap-28ba3b49b28049b0e57e</guid>
       <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization. GA date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570846"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsに、対象のミーティング中にカメラを使用して顔プロファイルを簡単に作成できる「エクスプレス顔登録」機能が追加されます。オプトインしたユーザーが登録を行うことで、対応するTeams Roomsでの認識精度が向上し、Copilotやリキャップなどの会議体験が改善されます。管理者は組織全体でこの機能の有効化または無効化を設定可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;対象ミーティング中のカメラ使用により、Teamsでの顔プロファイル作成が容易になる&lt;/li&gt;&lt;li&gt;オプトイン方式を採用し、登録後はTeams Roomsでの認識やCopilot、リキャップ等の会議体験が向上する&lt;/li&gt;&lt;li&gt;管理者が組織全体での機能の有効化・無効化を制御可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570846"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Copilot Cowork for Government Clouds</title>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: ガバメントクラウド向けCopilot Cowork</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571637</link>
       <guid isPermaLink="false">m365-roadmap-383b00ac0d2d715b7a9c</guid>
       <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Cowork makes it easy to delegate work. Describe the outcome you want and Cowork automatically grounds the work in your emails, meetings, messages, files, and data. GA date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571637"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ガバメントクラウド向けに、作業の委任を容易にする「Copilot Cowork」が提供されます。ユーザーが望む成果を記述するだけで、メール、会議、メッセージ、ファイル、データに基づいて自動的に処理が行われます。一般提供（GA）の時期は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Coworkの導入による作業委任の簡素化&lt;/li&gt;&lt;li&gt;メールや会議、ファイル等のデータに基づいた自動処理機能&lt;/li&gt;&lt;li&gt;一般提供（GA）時期: 2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571637"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Purview: Data Lifecycle Management-Legacy Teams retention policies covering Copilot will be treated as Teams-only</title>
+      <title>[提供予定・ロードマップ] Microsoft Purview: レガシーなTeams保持ポリシーのCopilot適用除外</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571306</link>
       <guid isPermaLink="false">m365-roadmap-8d7173afc072e398d295</guid>
       <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Some existing retention policies scoped to Microsoft Teams may currently also apply to Microsoft 365 Copilot interactions. As part of an upcoming change, these legacy Teams retention policies will be converted to—and treated as—Teams-only policies. They will no longer implicitly govern Copilot workloads. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571306"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;これまでMicrosoft Teamsを対象としていた一部の既存の保持ポリシーが、Microsoft 365 Copilotのインタラクションにも適用されていた仕様を変更します。今後はこれらのレガシーなTeams保持ポリシーがTeams専用のポリシーへと変換され、Copilotのワークロードを暗黙的に管理しなくなります。本変更は2026年10月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;レガシーなTeams保持ポリシーをTeams専用のポリシーに変更&lt;/li&gt;&lt;li&gt;保持ポリシーがMicrosoft 365 Copilotのワークロードを暗黙的に管理しないよう仕様を変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571306"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[Roadmap] Microsoft Purview: DSPM-Copilot Readiness and Data Explorer</title>

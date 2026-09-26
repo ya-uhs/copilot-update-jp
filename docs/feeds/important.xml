@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 09:13:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 14:16:45 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -24,6 +24,16 @@
       <guid isPermaLink="false">m365-roadmap-ad99958cddeb03ad8b4d</guid>
       <pubDate>Tue, 22 Sep 2026 22:57:16 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのフェデレーテッドCopilotコネクタ（MCP型）において、サードパーティサービスでのコンテンツ作成、更新、削除アクションがサポートされます。ユーザーはCopilot Chatを離れずに作業を完了できるようになり、すべての書き込み・削除アクションには実行前の明示的な確認が必要です。管理者はMicrosoft 365管理センターで各コネクタのツールを確認し、ポリシーに適合しないものを無効化できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サードパーティサービスにおける作成、更新、削除アクションのサポート追加&lt;/li&gt;&lt;li&gt;各アクション実行時にユーザーの明示的な確認を必須化&lt;/li&gt;&lt;li&gt;管理センターでの読み取り・書き込み/削除ツールの確認およびコネクタ無効化機能の提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570964"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: ローカル推論機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571886</link>
+      <guid isPermaLink="false">m365-roadmap-b025d4163f393f484511</guid>
+      <pubDate>Mon, 21 Sep 2026 23:04:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにローカル推論機能が追加され、サポートされているCopilotの対話処理を指定された地域の国内で行うことが可能になります。これにより、組織はAI推論の実行場所をより詳細に制御でき、データ主権や地域の要件に対応できるようになります。本機能はオーストラリア、インド、アラブ首長国連邦、イギリス、アメリカで展開され、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているCopilotの対話処理におけるAI推論を、対象地域の国内で実行可能にするローカル推論機能の提供&lt;/li&gt;&lt;li&gt;オーストラリア、インド、アラブ首長国連邦、イギリス、アメリカでの順次展開&lt;/li&gt;&lt;li&gt;AI推論の実行場所に対する組織の制御力を高め、データ主権と地域要件への対応を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571886"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>

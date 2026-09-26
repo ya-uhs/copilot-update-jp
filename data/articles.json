@@ -579,16 +579,22 @@
     "title_original": "GitHub Copilot CLI v1.0.88-2",
     "excerpt_original": "**Fixed** - Text selection now works in bottom-anchored dialogs, including login device codes",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.88-2 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.88-2がリリースされました。このアップデートでは、ログイン時のデバイスコードを含む、下部に固定されたダイアログ内でのテキスト選択に関する不具合が修正されました。",
+    "changes": [
+      "ログインデバイスコードを含む下部固定ダイアログでのテキスト選択機能の修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
     "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "translated": true,
+    "processed_at": "2026-09-26T14:14:52Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T14:14:50Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-393378971",
@@ -599,15 +605,24 @@
     "excerpt_original": "**Fixed** - Preserve /allow-all during managed-settings refresh failures, and remember exact session approvals for missing paths without granting their parent directory; exact grants are visible in /list-dirs and cleared by /reset-allowed-tools - Sandboxed network denials from proxy tunnel failures now show bypass guidance",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot CLI v1.0.88-1のアップデート",
+    "summary_ja": "GitHub Copilot CLI v1.0.88-1がリリースされました。マネージド設定の更新失敗時における「/allow-all」の維持、存在しないパスに対する正確なセッション承認の記憶機能、およびプロキシトンネル失敗時のサンドボックスネットワーク拒否に対するバイパス案内の表示が実装されました。",
+    "changes": [
+      "マネージド設定の更新失敗時に /allow-all を維持するように修正しました",
+      "親ディレクトリに権限を付与せず、存在しないパスに対する正確なセッション承認を記憶するようにしました（正確な権限は /list-dirs で確認可能で、/reset-allowed-tools でクリアされます）",
+      "プロキシトンネルの失敗によるサンドボックスネットワーク拒否時に、バイパスの案内を表示するようにしました"
+    ],
+    "target_user": [
+      "Developer",
+      "CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T14:14:53Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T14:14:52Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-b025d4163f393f484511",
@@ -618,16 +633,25 @@
     "excerpt_original": "Local inferencing expands Microsoft Copilot’s sovereign controls by enabling AI inferencing for supported Copilot interactions to occur within the applicable local geography. Launching in Australia, India, the United Arab Emirates, the United Kingdom, and the United States, this capability gives organizations greater control over where AI inferencing occurs, helping them address sovereignty and regional requirements. Inferencing is the processing step when an AI model executes a prompt to produce an output or response. GA date: December CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: ローカル推論機能",
+    "summary_ja": "Microsoft 365 Copilotにローカル推論機能が追加され、サポートされているCopilotの対話処理を指定された地域の国内で行うことが可能になります。これにより、組織はAI推論の実行場所をより詳細に制御でき、データ主権や地域の要件に対応できるようになります。本機能はオーストラリア、インド、アラブ首長国連邦、イギリス、アメリカで展開され、一般提供（GA）は2026年12月を予定しています。",
+    "changes": [
+      "サポートされているCopilotの対話処理におけるAI推論を、対象地域の国内で実行可能にするローカル推論機能の提供",
+      "オーストラリア、インド、アラブ首長国連邦、イギリス、アメリカでの順次展開",
+      "AI推論の実行場所に対する組織の制御力を高め、データ主権と地域要件への対応を支援"
+    ],
+    "target_user": [
+      "Organizations",
+      "Administrators"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-09-26T14:14:54Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T14:14:53Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-393207338",
@@ -638,15 +662,26 @@
     "excerpt_original": "**Added** - Add optional OSC 777 terminal notifications for direct Ghostty and WezTerm sessions. **Improved** - Support namespaced custom skills and ignored skill directories during skill discovery - MCP and plugin views show server display names and plugin descriptions for clearer status. - Resuming large local sessions keeps transcript memory bounded for smoother CLI performance. - Prompt to update GitHub authorization when Connectors need reauthorization - Indexed search supports glob filtering and --files listings with accurate ripgrep fallback behavior. - Run /fork during active turns to branch work without waiting. - In the Sessions tab, rows you can dismiss now take x then x again to confirm: a local session is permanently deleted, while a session backed by a server is only closed and its conversation is left on the server. The footer says which of the two the highlighted row will do, and shows no x hint for rows that cannot be dismissed. **Fixed** - Custom-agent startup now distinguishes model-list load failures from an empty catalog, preventing false unavailable warnings and silent required-agent deselection - Pressing Enter in freeform ask_user prompts adds a new line; submit with Ctrl+Enter or Ctrl+S as a fallback - A custom agent's `reasoning-effort` now applies when the agent is selected, instead of only its model. An explicit `--reasoning-effort` still wins, and a level the selected model does not offer is reported and left unapplied - Deferred MCP tools whose registered name needed sanitizing or shortening are now listed under that name, so tool search can find them, and deferred MCP tools with no resolvable server name are now listed with the other tools instead of being left out of the reminder - Prompt mode now warns when it stops waiting for background tasks and explains how to change the timeout limit. - Resuming sessions no longer stalls when MCP permission prompts are pending - MCP tools recover more reliably from transient listing, connection, and OAuth failures - Hook commands without an explicit `cwd` again run in the project root instead of the session's current directory, so repo-relative hook scripts still resolve from a subdirectory. - Enterprise managed settings now apply to sessions opened in ACP mode (`copilot --acp`), by AHP hosts (`copilot --ahp-host`), and by the published `--server` session, which previously ran with no managed MCP, permission, or plugin policy. - GitHub MCP scope escalation now uses the CLI OAuth app's registered /callback redirect URI - Agents from a plugin mounted with --plugin-dir now appear in server-mode sessions - Session and subagent start hooks combine successful additional-context contributions within the hook-output limit - Cached MCP tools stay scoped to environment-resolved server addresses and headers - Session resume preserves pending conversation events when saving fails and explains that retrying is safe",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot CLI v1.0.88-0のリリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.88-0がリリースされました。本バージョンでは、GhosttyおよびWezTerm向けのOSC 777ターミナル通知の追加や、カスタムスキル・MCP・プラグイン表示の改善が行われています。また、カスタムエージェントの起動エラー防止やMCPツールの安定性向上など、多数の不具合修正とパフォーマンス改善が含まれています。",
+    "changes": [
+      "GhosttyおよびWezTermセッション向けのオプショナルなOSC 777ターミナル通知を追加",
+      "カスタムスキルの名前空間サポートやMCP・プラグインビューの表示を改善",
+      "大規模なローカルセッション再開時のトランスクリプトメモリ管理を最適化し、CLIのパフォーマンスを向上",
+      "カスタムエージェントの起動失敗に関する判定や、freeformのask_userプロンプトにおける改行・送信操作の挙動を修正",
+      "エンタープライズ管理設定がACP、AHPホスト、--serverセッションにも適用されるよう修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T14:15:08Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T14:14:54Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-393077593",
@@ -657,15 +692,25 @@
     "excerpt_original": "2026-09-21 - Add user and managed startup defaults for the Auto routing tier, including strict and user-overridable organization policy - Consecutive steering prompts in the same mode combine into one pending message. Press Up in an empty chat input to take it back for editing, including pasted text and attachments. The recall hint appears in the pending message. Ctrl+C stops the running turn instead of removing pending prompts one at a time. Ctrl+Q queued prompts remain separate. Use Ctrl+P to browse history without withdrawing prompts. Available for local sessions; commands and prompts already being processed cannot be recalled. - A `worktreePathTemplate` setting decides where `/worktree`, `/move`, `/new` and `--worktree` create worktrees. Set for example `~/src/worktrees/{repo}/{branch}`; `{repoPath}`, `{repo}`, `{branch}` and `{branchSlug}` are supported. Unset keeps the current layout, ` .worktrees/` with slashes in the branch name flattened to dashes. - Number-key selection in the question dialog works for choices 10 and beyond - Sandbox proxies work on Windows, and a proxy with a username and password works on every platform - `/keep-alive` (and `/caffeinate`) no longer reports that sleep is prevented when the sleep inhibitor exits immediately on startup instead of acquiring the lock (e.g. no session bus on WSL/containers/headless); it now reports the failure. - Prompt mode exits successfully when a child task fails but the parent recovers. - Resume very large local sessions and continue with new prompts reliably. - Keep --yolo enabled after startup policy checks for authenticated unmanaged sessions - Empty strictKnownMarketplaces allowlists now hide and block built-in plugin marketplaces. - Mouse-selected text is visibly highlighted in /help and /mcp show screens - Tear down the processes an internal git command started when it times out, so a slow repository status check no longer leaves them running and consuming memory. - MCP auth status warnings stay accurate during reconnects and startup refreshes - Pull request badge and GitHub status tabs remain available after auth or branch refreshes - A failing MCP server no longer removes other servers' tools - `copilot mcp list` and `copilot mcp get` now report the built-in `github-mcp-server` when you are signed in, instead of showing it only in the interactive `/mcp` view - MCP servers that advertise list-change capabilities but do not implement subscriptions now connect instead of failing - Extension permission handlers approve subagent tool requests without leaving duplicate CLI prompts - Secrets exported in the launching shell are no longer written to debug logs when a session is created or resumed - Managed plugin commands load organization marketplace policy with environment, GitHub CLI, broker, and persisted authentication - Session resume no longer hangs while reconnecting MCP servers - Configure per-server MCP slow-connection warning thresholds with slowConnectionThresholdMs - Show live elapsed time for execution subagents in timeline entries - Enable the rubber-duck agent for every model family and for low-cost-tier session models - Reduce allocation overhead when repainting blank terminal areas.",
     "product": "GitHub Copilot CLI",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot CLI v1.0.87 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.87がリリースされ、Autoルーティング層の起動デフォルト設定や、連続するステアリングプロンプトの結合・編集機能が追加されました。また、worktreeのパス設定テンプレートの導入、MCP関連のバグ修正や仕様変更、Windows環境でのサンドイッチプロキシ対応など、多数の改善が行われています。",
+    "changes": [
+      "Autoルーティング層のユーザーおよびマネージド起動デフォルトを追加し、組織ポリシーによる制御に対応",
+      "同じモードでの連続するステアリングプロンプトを1つの保留中メッセージに結合し、空のチャット入力で上向きキーを押すことで編集や取り戻しが可能に",
+      "worktreeの作成場所を指定する `worktreePathTemplate` 設定を追加",
+      "質問ダイアログでの10番目以降の選択肢に対する数値キー選択に対応",
+      "Windowsでのサンドボックスプロキシや、ユーザー名・パスワード付きプロキシを全プラットフォームでサポート"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T14:15:12Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T14:15:08Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-28ba3b49b28049b0e57e",
@@ -676,16 +721,25 @@
     "excerpt_original": "Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization. GA date: November CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams: エクスプレス顔登録",
+    "summary_ja": "Microsoft Teamsに、対象のミーティング中にカメラを使用して顔プロファイルを簡単に作成できる「エクスプレス顔登録」機能が追加されます。オプトインしたユーザーが登録を行うことで、対応するTeams Roomsでの認識精度が向上し、Copilotやリキャップなどの会議体験が改善されます。管理者は組織全体でこの機能の有効化または無効化を設定可能です。",
+    "changes": [
+      "対象ミーティング中のカメラ使用により、Teamsでの顔プロファイル作成が容易になる",
+      "オプトイン方式を採用し、登録後はTeams Roomsでの認識やCopilot、リキャップ等の会議体験が向上する",
+      "管理者が組織全体での機能の有効化・無効化を制御可能"
+    ],
+    "target_user": [
+      "エンドユーザー",
+      "管理者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T14:15:13Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T14:15:12Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-383b00ac0d2d715b7a9c",
@@ -696,16 +750,24 @@
     "excerpt_original": "Copilot Cowork makes it easy to delegate work. Describe the outcome you want and Cowork automatically grounds the work in your emails, meetings, messages, files, and data. GA date: November CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: ガバメントクラウド向けCopilot Cowork",
+    "summary_ja": "ガバメントクラウド向けに、作業の委任を容易にする「Copilot Cowork」が提供されます。ユーザーが望む成果を記述するだけで、メール、会議、メッセージ、ファイル、データに基づいて自動的に処理が行われます。一般提供（GA）の時期は2026年11月を予定しています。",
+    "changes": [
+      "Copilot Coworkの導入による作業委任の簡素化",
+      "メールや会議、ファイル等のデータに基づいた自動処理機能",
+      "一般提供（GA）時期: 2026年11月"
+    ],
+    "target_user": [
+      "Government Cloud Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T14:15:42Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T14:15:13Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-8d7173afc072e398d295",
@@ -716,16 +778,24 @@
     "excerpt_original": "Some existing retention policies scoped to Microsoft Teams may currently also apply to Microsoft 365 Copilot interactions. As part of an upcoming change, these legacy Teams retention policies will be converted to—and treated as—Teams-only policies. They will no longer implicitly govern Copilot workloads. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Purview: レガシーなTeams保持ポリシーのCopilot適用除外",
+    "summary_ja": "これまでMicrosoft Teamsを対象としていた一部の既存の保持ポリシーが、Microsoft 365 Copilotのインタラクションにも適用されていた仕様を変更します。今後はこれらのレガシーなTeams保持ポリシーがTeams専用のポリシーへと変換され、Copilotのワークロードを暗黙的に管理しなくなります。本変更は2026年10月に一般提供（GA）が予定されています。",
+    "changes": [
+      "レガシーなTeams保持ポリシーをTeams専用のポリシーに変更",
+      "保持ポリシーがMicrosoft 365 Copilotのワークロードを暗黙的に管理しないよう仕様を変更"
+    ],
+    "target_user": [
+      "管理者",
+      "コンプライアンス担当者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T14:16:22Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T14:15:42Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-391795903",
@@ -735,16 +805,25 @@
     "title_original": "GitHub Copilot CLI v1.0.87-0",
     "excerpt_original": "**Added** - Add user and managed startup defaults for the Auto routing tier, including strict and user-overridable organization policy - Consecutive steering prompts in the same mode combine into one pending message. Press Up in an empty chat input to take it back for editing, including pasted text and attachments. The recall hint appears in the pending message. Ctrl+C stops the running turn instead of removing pending prompts one at a time. Ctrl+Q queued prompts remain separate. Use Ctrl+P to browse history without withdrawing prompts. Available for local sessions; commands and prompts already being processed cannot be recalled. - A `worktreePathTemplate` setting decides where `/worktree`, `/move`, `/new` and `--worktree` create worktrees. Set for example `~/src/worktrees/{repo}/{branch}`; `{repoPath}`, `{repo}`, `{branch}` and `{branchSlug}` are supported. Unset keeps the current layout, `<repo>.worktrees/` with slashes in the branch name flattened to dashes. **Improved** - Configure per-server MCP slow-connection warning thresholds with slowConnectionThresholdMs - Show live elapsed time for execution subagents in timeline entries - Enable the rubber-duck agent for every model family and for low-cost-tier session models - Reduce allocation overhead when repainting blank terminal areas. **Fixed** - Number-key selection in the question dialog works for choices 10 and beyond - Sandbox proxies work on Windows, and a proxy with a username and password works on every platform - `/keep-alive` (and `/caffeinate`) no longer reports that sleep is prevented when the sleep inhibitor exits immediately on startup instead of acquiring the lock (e.g. no session bus on WSL/containers/headless); it now reports the failure. - Prompt mode exits successfully when a child task fails but the parent recovers. - Resume very large local sessions and continue with new prompts reliably. - Keep --yolo enabled after startup policy checks for authenticated unmanaged sessions - Empty strictKnownMarketplaces allowlists now hide and block built-in plugin marketplaces. - Mouse-selected text is visibly highlighted in /help and /mcp show screens - Tear down the processes an internal git command started when it times out, so a slow repository status check no longer leaves them running and consuming memory. - MCP auth status warnings stay accurate during reconnects and startup refreshes - Pull request badge and GitHub status tabs remain available after auth or branch refreshes - A failing MCP server no longer removes other servers' tools - `copilot mcp list` and `copilot mcp get` now report the built-in `github-mcp-server` when you are signed in, instead of showing it only in the interactive `/mcp` view - MCP servers that advertise list-change capabilities but do not implement subscriptions now connect instead of failing - Extension permission handlers approve subagent tool requests without leaving duplicate CLI prompts - Secrets exported in the launching shell are no longer written to debug logs when a session is created or resumed - Managed plugin commands load organization marketplace policy with environment, GitHub CLI, broker, and persisted authentication - Session resume no longer hangs while reconnecting MCP servers",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.87-0のアップデート",
+    "summary_ja": "GitHub Copilot CLI v1.0.87-0がリリースされました。Auto routing tierのスタートアップデフォルト設定や、チャット入力を再編集するためのプロンプト記憶機能などが追加されています。また、MCP接続の警告しきい値設定や各種バグ修正が行われています。",
+    "changes": [
+      "Auto routing tierに対するユーザーおよびマネージドのスタートアップデフォルト設定を追加し、組織ポリシーによる制限やユーザーによる上書きをサポートしました。",
+      "連続するステアリングプロンプトを1つの保留中メッセージに統合し、Ctrl+CやCtrl+Pを使った履歴の操作や中断機能を改善しました。",
+      "worktreePathTemplate設定により、ワークツリーの作成先ディレクトリを柔軟に指定できるようになりました。",
+      "MCPの接続設定、プロキシ、サンドボックス、セッションのレジューム機能などにおける多数の不具合を修正しました。"
+    ],
+    "target_user": [
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T14:16:23Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T14:16:22Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-391108341",
@@ -755,15 +834,25 @@
     "excerpt_original": "2026-09-17 - Custom agents can opt into repository instruction files (AGENTS.md, copilot-instructions.md, CLAUDE.md) by setting `include-custom-instructions: true` in their frontmatter. - Resuming an active session without plugin-directory, discovery, or working-directory overrides preserves marketplace plugins and skills after reload. Configuration read or validation failures no longer discard active plugins; missing-file and intentional-removal behavior is unchanged. - /sandbox policy now reports local-network access using your configured setting - The status row now says it is waiting for background shells, instead of \"Working\", when a turn ends while an attached background shell such as a dev server is still running. - Resume sessions even when transcript files contain recoverable corruption - Expanded reasoning text in the compact timeline is no longer dimmed, so it is as readable as the rest of the timeline. - Autopilot stops after accepted task completion instead of continuing unexpectedly",
     "product": "GitHub Copilot CLI",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot CLI v1.0.86 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.86では、カスタムエージェントがリポジトリの指示ファイルを参照できる機能の追加や、アクティブセッション再開時のプラグイン・スキル保持の改善が行われました。また、サンドボックスポリシーでのローカルネットワークアクセスの報告機能や、バックグラウンドシェル実行時のステータス表示が更新されています。さらに、転送ファイルの破損耐性の向上やタイムラインの表示改善、オートパイロットの動作修正も含まれています。",
+    "changes": [
+      "カスタムエージェントのフロントマターに `include-custom-instructions: true` を設定することで、リポジトリ指示ファイル (AGENTS.md、copilot-instructions.md、CLAUDE.md) をオプトインできるようになりました。",
+      "プラグインディレクトリ、ディスカバリー、作業ディレクトリのオーバーライドなしでアクティブセッションを再開した際、再読み込み後もマーケットプレイスのプラグインとスキルが保持されるようになりました。",
+      "設定の読み込みや検証に失敗した場合でも、アクティブなプラグインが破棄されなくなりました。",
+      "`/sandbox` ポリシーで、設定された内容に基づいたローカルネットワークアクセスの報告が行われるようになりました。",
+      "バックグラウンドシェルが実行中の状態でターンが終了した場合、ステータス行の表示が「Working」から「waiting for background shells」に変更されました。"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T14:16:45Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T14:16:23Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-390361151",
