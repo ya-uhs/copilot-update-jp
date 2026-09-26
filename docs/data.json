@@ -8,15 +8,23 @@
     "excerpt_original": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent… The post Enterprise managed settings in-product validator appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilotの企業管理設定向けプロダクト内バリデーター",
+    "summary_ja": "GitHub Copilotの企業管理設定において、プロダクト内で利用できるバリデーターが導入されました。このバリデーターは、不正なJSON、サポートされていない構成、無効なチームマッピングなどのエラーを検出し、設定ミスを防ぎます。",
+    "changes": [
+      "企業管理設定向けバリデーターの追加",
+      "不正なJSONや未サポート構成の検出",
+      "無効なチームマッピングなどのエラー検出機能"
+    ],
+    "target_user": [
+      "Enterprise Administrators",
+      "GitHub Copilot Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:46Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:02:45Z"
   },
   {
     "id": "m365-roadmap-800b064ee1184a02ec91",
@@ -27,16 +35,24 @@
     "excerpt_original": "The Maker guidelines feature gives organizations a direct way to share guidance with Copilot Studio makers in the flow of work. Administrators can explain which tools, models, connectors, and channels are approved for an environment and point makers to the right policy, request process, or support contact. The message appears in the Review pane alongside the agent's blockers and warnings and remains available when the agent has no issues. This gives makers a consistent place to understand organizational expectations and find help without leaving Copilot Studio. GA date: November CY2026 Preview date: September CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:54:30Z",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Power Platform ガバナンスおよび管理：Maker Guidelines",
+    "summary_ja": "Maker guidelines機能により、組織はCopilot Studioのメーカーに対して作業フロー内で直接ガイダンスを提供できるようになります。管理者は、承認されたツール、モデル、コネクター、チャネルを説明し、ポリシーやサポートへの案内を表示することが可能です。このメッセージはCopilot Studio内のReviewペインに表示され、メーカーは作業を離れることなく組織の期待事項の把握やサポートへのアクセスが行えます。",
+    "changes": [
+      "管理者が環境内で承認されているツール、モデル、コネクター、チャネルを説明するガイダンスを提供可能に",
+      "ポリシー、リクエストプロセス、サポート連絡先への案内を表示",
+      "メッセージがエージェントのブロッカーや警告と並んでReviewペインに常時表示される機能を追加"
+    ],
+    "target_user": [
+      "Administrators",
+      "Makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:47Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T09:02:46Z"
   },
   {
     "id": "m365-roadmap-d26feaae96a6a7247582",
@@ -47,16 +63,24 @@
     "excerpt_original": "Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:54:30Z",
+    "title_ja": "[提供予定・ロードマップ] PowerPoint: Copilot向けの非同期通知機能",
+    "summary_ja": "PowerPointでのCopilotの処理完了や確認事項について、ユーザーがアプリを離れたり、デバイスを切り替えたり、オフラインになったりした後でも通知を受け取れるようになる機能です。作業の終了や対応が必要なタイミングを確実にお知らせします。一般提供（GA）は2026年10月を予定しています。",
+    "changes": [
+      "PowerPointでのCopilotの処理について非同期通知を有効化",
+      "アプリの終了、デバイスの切り替え、オフライン移行、作業終了後でも通知を受信可能",
+      "作業完了時や要対応時にユーザーへ通知を送信"
+    ],
+    "target_user": [
+      "PowerPoint ユーザー",
+      "Microsoft 365 Copilot 利用者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:48Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T09:02:47Z"
   },
   {
     "id": "github-copilot-cli-396929614",
@@ -67,15 +91,25 @@
     "excerpt_original": "**Added** - Auto suggests a routing tier and lets you switch with a shortcut or click - Auto shows a quick feedback prompt after switching away to a manually selected model **Improved** - Direct plugin installs can now be enabled and disabled. One already recorded as disabled now stops loading; re-enable it with copilot plugin enable **Fixed** - Fix Auto tier selection to cycle correctly in /model and remove the unsupported Fast profile; a previously stored, exported, or resumed Fast preference now falls back to Balance instead of routing on it - Run wrapped gh and git commands, such as `timeout 60 gh ...`, correctly in sandboxed sessions - ACP sessions stay connected when clients pause reading large responses - Gemini models no longer fail every request with 400 invalid request body when an MCP server exposes a tool whose schema puts a type or properties beside anyOf, such as a nullable discriminated union - GitHub MCP tools connect correctly on first CLI startup after sign-in",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot CLI v1.0.89-4 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.89-4がリリースされ、ルーティング階層の自動提案機能や手動選択後のフィードバックプロンプトが追加されました。また、プラグインの有効化・無効化の改善や、Autoモデル選択、サンドボックス内でのコマンド実行、ACPセッション維持に関する複数のバグ修正が行われています。さらに、GeminiモデルでのMCPサーバー利用時のエラーや、サインイン直後のGitHub MCPツールの接続に関する問題が解消されました。",
+    "changes": [
+      "ルーティング階層の自動提案とショートカットまたはクリックによる切り替え機能を追加し、手動選択後にクイックフィードバックプロンプトを表示するように変更",
+      "直接プラグインのインストールを有効化・無効化できるように改善し、無効化されたプラグインの読み込みを停止（再有効化は copilot plugin enable で実行可能）",
+      "/modelでのAuto階層選択の循環動作を修正し、サポートされていないFastプロファイル削除に伴い保存・エクスポート・再開されたFast設定をBalanceへフォールバックに変更",
+      "サンドボックスセッション内での `timeout 60 gh ...` などのラップされた gh および git コマンドの実行を修正",
+      "クライアントが大きな応答の読み取りを一時停止した際にもACPセッションが接続状態を維持するように修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:50Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:02:48Z"
   },
   {
     "id": "github-changelog-0a10d0252c63a3f9d568",
@@ -86,15 +120,23 @@
     "excerpt_original": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row… The post Usage metrics API adds pull request review stages appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "利用状況メトリクスAPIにプルリクエストのレビュー段階が追加",
+    "summary_ja": "企業および組織のレポジトリレベルにおけるGitHub Copilotの利用状況メトリクスレポートが、プルリクエストが各レビュー段階で費やす時間の内訳を表示するようになりました。各repos-1-day行に、新しいpull_request_review_times配列が追加されています。",
+    "changes": [
+      "プルリクエストのレビュー段階ごとの所要時間を内訳として表示するように変更",
+      "各repos-1-day行に新しい pull_request_review_times 配列を追加"
+    ],
+    "target_user": [
+      "Enterprise administrators",
+      "Organization owners",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:51Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:02:50Z"
   },
   {
     "id": "github-changelog-2653f5794fb9985f870e",
@@ -105,15 +147,22 @@
     "excerpt_original": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts. When it… The post Agentic autofix now uses Copilot Memory appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "エージェント型自動修正機能におけるCopilot Memoryの利用開始",
+    "summary_ja": "GitHub Copilotのエージェント型自動修正機能が、有効化しているユーザーに対してCopilot Memoryを利用できるようになりました。これにより、セキュリティアラートの解決を支援するコンテキストとして既存のメモリがレビューされます。",
+    "changes": [
+      "エージェント型自動修正機能でCopilot Memoryの利用が可能になりました",
+      "セキュリティアラート解決のためのコンテキストとして既存のメモリがレビューされます"
+    ],
+    "target_user": [
+      "GitHub Copilot users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:52Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:02:51Z"
   },
   {
     "id": "github-changelog-48eaa8bbafaa8bc422c9",
@@ -124,15 +173,22 @@
     "excerpt_original": "This week’s releases add new models to Copilot, local sandboxing in the Copilot app, and updates to Copilot in Slack, Microsoft Teams, JetBrains, and VS Code. GitHub Copilot Claude Opus… The post GitHub Copilot weekly releases — September 21 appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot 週次リリース (9月21日)",
+    "summary_ja": "GitHub Copilotの今週のリリースでは、新しいモデルの追加やCopilotアプリでのローカルサンドボックス機能が導入されました。また、Slack、Microsoft Teams、JetBrains、VS CodeにおけるCopilotのアップデートも含まれています。",
+    "changes": [
+      "Copilotへ新しいモデルを追加",
+      "Copilotアプリにローカルサンドボックス機能を追加",
+      "Slack、Microsoft Teams、JetBrains、VS CodeにおけるCopilotのアップデート"
+    ],
+    "target_user": [
+      "GitHub Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:53Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:02:52Z"
   },
   {
     "id": "github-changelog-c1d4e08f8273da72d80c",
@@ -143,15 +199,24 @@
     "excerpt_original": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you’re sharing files in Slack or… The post Updates to GitHub Copilot for Slack and Microsoft Teams appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot for Slack と Microsoft Teams の更新",
+    "summary_ja": "GitHub Copilot が Slack と Microsoft Teams で利用できる機能が強化され、会話に対してより多くのコンテキストが提供され、制御が向上しました。また、チャットから GitHub の作業へ移行する流れが明確になりました。",
+    "changes": [
+      "会話に対するコンテキストが増加",
+      "ユーザーが Copilot の動作をより細かく制御可能に",
+      "チャットから GitHub の作業への移行が分かりやすくなった"
+    ],
+    "target_user": [
+      "Developers",
+      "Slack users",
+      "Microsoft Teams users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:56Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:02:53Z"
   },
   {
     "id": "m365-blog-db5e9ebc132376747b28",
@@ -162,15 +227,23 @@
     "excerpt_original": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .",
     "product": "Microsoft 365 Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:41:37Z",
+    "title_ja": "新しいCopilotの導入：Home、Code、Autopilot機能の発表",
+    "summary_ja": "Microsoftは、個人の能力や組織の成果を拡大するためにMicrosoft Copilotを刷新することを発表しました。今回の更新では、Home、Code、Autopilotといった新しい要素が導入されています。",
+    "changes": [
+      "Microsoft Copilotの刷新と機能拡張の発表",
+      "Home、Code、Autopilotの導入"
+    ],
+    "target_user": [
+      "Microsoft Copilot users",
+      "organizations",
+      "individuals"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:57Z",
     "source_id": "m365-blog",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T09:02:56Z"
   },
   {
     "id": "github-changelog-9111ec33ec962e748182",
@@ -181,15 +254,23 @@
     "excerpt_original": "We’re introducing a new global default policy for generally available GitHub Copilot features and supported client capabilities in enterprise and organization Copilot settings. For the next 28 days, you can… The post Default Enablement of Copilot features for Copilot Business and Enterprise appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot BusinessおよびEnterpriseにおけるCopilot機能のデフォルト有効化",
+    "summary_ja": "Enterpriseおよび組織のGitHub Copilot設定において、一般提供（GA）されているGitHub Copilot機能およびサポートされるクライアント機能に対する新しいグローバルデフォルトポリシーが導入されました。今後28日間にわたり、管理者は設定の確認と調整を行うことができます。",
+    "changes": [
+      "Enterpriseおよび組織のCopilot設定に新しいグローバルデフォルトポリシーを導入",
+      "一般提供（GA）されているGitHub Copilot機能とサポートされるクライアント機能が対象",
+      "適用に向けた移行期間として今後28日間を設定"
+    ],
+    "target_user": [
+      "Enterprise administrators",
+      "Organization administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:02:58Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:02:57Z"
   },
   {
     "id": "m365-roadmap-9d70e2f3ea9c62c1af37",

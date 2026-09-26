@@ -5,78 +5,78 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 08:40:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 09:02:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
-      <title>Enterprise managed settings in-product validator</title>
+      <title>GitHub Copilotの企業管理設定向けプロダクト内バリデーター</title>
       <link>https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator</link>
       <guid isPermaLink="false">github-changelog-07dade88210664e3a861</guid>
       <pubDate>Fri, 25 Sep 2026 23:24:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent… The post Enterprise managed settings in-product validator appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの企業管理設定において、プロダクト内で利用できるバリデーターが導入されました。このバリデーターは、不正なJSON、サポートされていない構成、無効なチームマッピングなどのエラーを検出し、設定ミスを防ぎます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;企業管理設定向けバリデーターの追加&lt;/li&gt;&lt;li&gt;不正なJSONや未サポート構成の検出&lt;/li&gt;&lt;li&gt;無効なチームマッピングなどのエラー検出機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.89-4</title>
+      <title>GitHub Copilot CLI v1.0.89-4 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-4</link>
       <guid isPermaLink="false">github-copilot-cli-396929614</guid>
       <pubDate>Fri, 25 Sep 2026 21:13:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;**Added** - Auto suggests a routing tier and lets you switch with a shortcut or click - Auto shows a quick feedback prompt after switching away to a manually selected model **Improved** - Direct plugin installs can now be enabled and disabled. One already recorded as disabled now stops loading; re-enable it with copilot plugin enable **Fixed** - Fix Auto tier selection to cycle correctly in /model and remove the unsupported Fast profile; a previously stored, exported, or resumed Fast preference now falls back to Balance instead of routing on it - Run wrapped gh and git commands, such as `timeout 60 gh ...`, correctly in sandboxed sessions - ACP sessions stay connected when clients pause reading large responses - Gemini models no longer fail every request with 400 invalid request body when an MCP server exposes a tool whose schema puts a type or properties beside anyOf, such as a nullable discriminated union - GitHub MCP tools connect correctly on first CLI startup after sign-in&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89-4がリリースされ、ルーティング階層の自動提案機能や手動選択後のフィードバックプロンプトが追加されました。また、プラグインの有効化・無効化の改善や、Autoモデル選択、サンドボックス内でのコマンド実行、ACPセッション維持に関する複数のバグ修正が行われています。さらに、GeminiモデルでのMCPサーバー利用時のエラーや、サインイン直後のGitHub MCPツールの接続に関する問題が解消されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ルーティング階層の自動提案とショートカットまたはクリックによる切り替え機能を追加し、手動選択後にクイックフィードバックプロンプトを表示するように変更&lt;/li&gt;&lt;li&gt;直接プラグインのインストールを有効化・無効化できるように改善し、無効化されたプラグインの読み込みを停止（再有効化は copilot plugin enable で実行可能）&lt;/li&gt;&lt;li&gt;/modelでのAuto階層選択の循環動作を修正し、サポートされていないFastプロファイル削除に伴い保存・エクスポート・再開されたFast設定をBalanceへフォールバックに変更&lt;/li&gt;&lt;li&gt;サンドボックスセッション内での `timeout 60 gh ...` などのラップされた gh および git コマンドの実行を修正&lt;/li&gt;&lt;li&gt;クライアントが大きな応答の読み取りを一時停止した際にもACPセッションが接続状態を維持するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>Usage metrics API adds pull request review stages</title>
+      <title>利用状況メトリクスAPIにプルリクエストのレビュー段階が追加</title>
       <link>https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages</link>
       <guid isPermaLink="false">github-changelog-0a10d0252c63a3f9d568</guid>
       <pubDate>Fri, 25 Sep 2026 21:09:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row… The post Usage metrics API adds pull request review stages appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;企業および組織のレポジトリレベルにおけるGitHub Copilotの利用状況メトリクスレポートが、プルリクエストが各レビュー段階で費やす時間の内訳を表示するようになりました。各repos-1-day行に、新しいpull_request_review_times配列が追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プルリクエストのレビュー段階ごとの所要時間を内訳として表示するように変更&lt;/li&gt;&lt;li&gt;各repos-1-day行に新しい pull_request_review_times 配列を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>Agentic autofix now uses Copilot Memory</title>
+      <title>エージェント型自動修正機能におけるCopilot Memoryの利用開始</title>
       <link>https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory</link>
       <guid isPermaLink="false">github-changelog-2653f5794fb9985f870e</guid>
       <pubDate>Fri, 25 Sep 2026 17:25:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts. When it… The post Agentic autofix now uses Copilot Memory appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのエージェント型自動修正機能が、有効化しているユーザーに対してCopilot Memoryを利用できるようになりました。これにより、セキュリティアラートの解決を支援するコンテキストとして既存のメモリがレビューされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェント型自動修正機能でCopilot Memoryの利用が可能になりました&lt;/li&gt;&lt;li&gt;セキュリティアラート解決のためのコンテキストとして既存のメモリがレビューされます&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot weekly releases — September 21</title>
+      <title>GitHub Copilot 週次リリース (9月21日)</title>
       <link>https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21</link>
       <guid isPermaLink="false">github-changelog-48eaa8bbafaa8bc422c9</guid>
       <pubDate>Fri, 25 Sep 2026 16:42:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;This week’s releases add new models to Copilot, local sandboxing in the Copilot app, and updates to Copilot in Slack, Microsoft Teams, JetBrains, and VS Code. GitHub Copilot Claude Opus… The post GitHub Copilot weekly releases — September 21 appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの今週のリリースでは、新しいモデルの追加やCopilotアプリでのローカルサンドボックス機能が導入されました。また、Slack、Microsoft Teams、JetBrains、VS CodeにおけるCopilotのアップデートも含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilotへ新しいモデルを追加&lt;/li&gt;&lt;li&gt;Copilotアプリにローカルサンドボックス機能を追加&lt;/li&gt;&lt;li&gt;Slack、Microsoft Teams、JetBrains、VS CodeにおけるCopilotのアップデート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>Updates to GitHub Copilot for Slack and Microsoft Teams</title>
+      <title>GitHub Copilot for Slack と Microsoft Teams の更新</title>
       <link>https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams</link>
       <guid isPermaLink="false">github-changelog-c1d4e08f8273da72d80c</guid>
       <pubDate>Fri, 25 Sep 2026 16:33:42 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you’re sharing files in Slack or… The post Updates to GitHub Copilot for Slack and Microsoft Teams appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot が Slack と Microsoft Teams で利用できる機能が強化され、会話に対してより多くのコンテキストが提供され、制御が向上しました。また、チャットから GitHub の作業へ移行する流れが明確になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;会話に対するコンテキストが増加&lt;/li&gt;&lt;li&gt;ユーザーが Copilot の動作をより細かく制御可能に&lt;/li&gt;&lt;li&gt;チャットから GitHub の作業への移行が分かりやすくなった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>Default Enablement of Copilot features for Copilot Business and Enterprise</title>
+      <title>GitHub Copilot BusinessおよびEnterpriseにおけるCopilot機能のデフォルト有効化</title>
       <link>https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise</link>
       <guid isPermaLink="false">github-changelog-9111ec33ec962e748182</guid>
       <pubDate>Fri, 25 Sep 2026 03:13:23 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;We’re introducing a new global default policy for generally available GitHub Copilot features and supported client capabilities in enterprise and organization Copilot settings. For the next 28 days, you can… The post Default Enablement of Copilot features for Copilot Business and Enterprise appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Enterpriseおよび組織のGitHub Copilot設定において、一般提供（GA）されているGitHub Copilot機能およびサポートされるクライアント機能に対する新しいグローバルデフォルトポリシーが導入されました。今後28日間にわたり、管理者は設定の確認と調整を行うことができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Enterpriseおよび組織のCopilot設定に新しいグローバルデフォルトポリシーを導入&lt;/li&gt;&lt;li&gt;一般提供（GA）されているGitHub Copilot機能とサポートされるクライアント機能が対象&lt;/li&gt;&lt;li&gt;適用に向けた移行期間として今後28日間を設定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.89-3</title>

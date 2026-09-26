@@ -5,38 +5,38 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 08:54:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 09:02:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
-      <title>[Roadmap] Microsoft Power Platform governance and administration: Maker Guidelines</title>
+      <title>[提供予定・ロードマップ] Microsoft Power Platform ガバナンスおよび管理：Maker Guidelines</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570967</link>
       <guid isPermaLink="false">m365-roadmap-800b064ee1184a02ec91</guid>
       <pubDate>Fri, 25 Sep 2026 22:37:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The Maker guidelines feature gives organizations a direct way to share guidance with Copilot Studio makers in the flow of work. Administrators can explain which tools, models, connectors, and channels are approved for an environment and point makers to the right policy, request process, or support contact. The message appears in the Review pane alongside the agent&amp;#x27;s blockers and warnings and remains available when the agent has no issues. This gives makers a consistent place to understand organizational expectations and find help without leaving Copilot Studio. GA date: November CY2026 Preview date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570967"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Maker guidelines機能により、組織はCopilot Studioのメーカーに対して作業フロー内で直接ガイダンスを提供できるようになります。管理者は、承認されたツール、モデル、コネクター、チャネルを説明し、ポリシーやサポートへの案内を表示することが可能です。このメッセージはCopilot Studio内のReviewペインに表示され、メーカーは作業を離れることなく組織の期待事項の把握やサポートへのアクセスが行えます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者が環境内で承認されているツール、モデル、コネクター、チャネルを説明するガイダンスを提供可能に&lt;/li&gt;&lt;li&gt;ポリシー、リクエストプロセス、サポート連絡先への案内を表示&lt;/li&gt;&lt;li&gt;メッセージがエージェントのブロッカーや警告と並んでReviewペインに常時表示される機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570967"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] PowerPoint: Async Notifications for Copilot in PowerPoint</title>
+      <title>[提供予定・ロードマップ] PowerPoint: Copilot向けの非同期通知機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570436</link>
       <guid isPermaLink="false">m365-roadmap-d26feaae96a6a7247582</guid>
       <pubDate>Fri, 25 Sep 2026 22:37:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570436"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;PowerPointでのCopilotの処理完了や確認事項について、ユーザーがアプリを離れたり、デバイスを切り替えたり、オフラインになったりした後でも通知を受け取れるようになる機能です。作業の終了や対応が必要なタイミングを確実にお知らせします。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PowerPointでのCopilotの処理について非同期通知を有効化&lt;/li&gt;&lt;li&gt;アプリの終了、デバイスの切り替え、オフライン移行、作業終了後でも通知を受信可能&lt;/li&gt;&lt;li&gt;作業完了時や要対応時にユーザーへ通知を送信&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570436"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>Introducing the new Copilot with Home, Code and Autopilot</title>
+      <title>新しいCopilotの導入：Home、Code、Autopilot機能の発表</title>
       <link>https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/</link>
       <guid isPermaLink="false">m365-blog-db5e9ebc132376747b28</guid>
       <pubDate>Fri, 25 Sep 2026 12:07:25 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoftは、個人の能力や組織の成果を拡大するためにMicrosoft Copilotを刷新することを発表しました。今回の更新では、Home、Code、Autopilotといった新しい要素が導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Copilotの刷新と機能拡張の発表&lt;/li&gt;&lt;li&gt;Home、Code、Autopilotの導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[Roadmap] Dynamics 365 Field Service: Microsoft Copilot in Field Service Mobile app</title>
