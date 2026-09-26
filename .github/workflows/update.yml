@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: copilot-feed-update
@@ -42,4 +44,8 @@ jobs:
           git add data/articles.json docs/data.json docs/feed.xml
           git commit -m "chore: update Copilot feed [skip ci]"
           git push
-
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4

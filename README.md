@@ -8,12 +8,16 @@ Microsoft 365 Copilot、GitHub Copilot、GitHub Copilot CLI の公式更新情�
 - [GitHub Copilot CLI Releases](https://github.com/github/copilot-cli/releases)
 - [Microsoft 365 Blog](https://www.microsoft.com/en-us/microsoft-365/blog/)（Copilot関連のみ）
 - [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+- [VS Code Release Notes](https://code.visualstudio.com/updates)（最新安定版のCopilot・Chat・Agents節）
+- [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)（Copilot関連の最新30件。StatusはRoadmap）
+
+Roadmapは予定情報であり、GA予定日が書かれていても提供開始とは判断しません。現在は初回取得時のスナップショットを保存し、同じIDの後日変更は追跡しません。VS Codeもバージョンごとに1記事です。翻訳は無料枠と実行時間を抑えるため1回最大10件（`MAX_TRANSLATIONS_PER_RUN`で変更可能）、新しい順に処理します。
 
 ## セットアップ
 
 1. このリポジトリをGitHubへpushします。
 2. Settings → Secrets and variables → Actionsで `GEMINI_API_KEY` と `GROQ_API_KEY` を登録します。片方だけでも、両方なしでも更新処理は動作します。
-3. Settings → Pagesで Source を `Deploy from a branch`、branchを既定ブランチ、folderを `/docs` に設定します。
+3. Settings → Pagesで Source を `GitHub Actions` に設定します。更新workflowが `docs` を直接デプロイします。
 4. Actionsの `Update Copilot feed` を手動実行します。以後は日本時間 7:00、13:00、19:00 頃に自動実行されます。
 
 必要に応じてRepository Variablesまたはworkflowのenvで `GEMINI_MODEL`、`GROQ_MODEL` を変更できます。既定値はそれぞれ `gemini-2.5-flash`、`llama-3.3-70b-versatile` です。
@@ -41,4 +45,3 @@ python -m http.server 8000 --directory docs
 ## データと拡張
 
 正本は `data/articles.json`、Pages向けコピーは `docs/data.json` です。取得元は `scripts/fetch_sources.py` のfetcher、LLMは `scripts/providers/` のadapterとして追加できます。記事数が増えた場合は、`load_articles` / `save_articles` の境界を保ったまま年月別ファイルへ移行できます。
-

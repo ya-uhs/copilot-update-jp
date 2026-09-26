@@ -79,6 +79,9 @@ def summarize_article(article: dict[str, Any]) -> bool:
         try:
             result = parse_result(provider(prompt))
             article.update(result)
+            if article.get("content_type") == "roadmap":
+                article["status"] = "Roadmap"
+                article["title_ja"] = "[提供予定・ロードマップ] " + article["title_ja"]
             article["processed_at"] = now_iso()
             article["llm_provider"] = name
             return True
@@ -96,9 +99,12 @@ def summarize_article(article: dict[str, Any]) -> bool:
 
 def summarize_pending(articles: list[dict[str, Any]]) -> tuple[int, int]:
     success = failure = 0
-    for article in articles:
+    limit = max(0, int(os.getenv("MAX_TRANSLATIONS_PER_RUN", "10")))
+    for article in sorted(articles, key=lambda item: item.get("published_at", ""), reverse=True):
         if article.get("translated") is True:
             continue
+        if success + failure >= limit:
+            break
         if summarize_article(article):
             success += 1
         else:

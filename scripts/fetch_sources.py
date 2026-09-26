@@ -154,8 +154,50 @@ def fetch_m365_release_notes() -> list[dict[str, Any]]:
     return items
 
 
+def fetch_vscode_updates() -> list[dict[str, Any]]:
+    response = requests.get("https://code.visualstudio.com/updates", headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+    title = clean_text(soup.h1.get_text(" "))
+    released = re.search(r"Released\s+([A-Za-z]+\s+\d{1,2},\s+\d{4})", soup.get_text(" ", strip=True))
+    chunks = []
+    for heading in soup.find_all("h2"):
+        label = clean_text(heading.get_text(" "))
+        if not re.search(r"copilot|chat|agents?", label, re.I):
+            continue
+        chunks.append(label)
+        for sibling in heading.next_siblings:
+            if isinstance(sibling, Tag) and sibling.name == "h2":
+                break
+            if isinstance(sibling, Tag):
+                chunks.append(clean_text(sibling.get_text(" ")))
+    if not chunks:
+        raise ValueError("No Copilot/Chat/Agents sections found in VS Code release notes")
+    return [_base_article(
+        id=stable_id("vscode", response.url), source="VS Code Release Notes",
+        source_url=response.url, published_at=_iso_date(released.group(1)) if released else now_iso(),
+        date_basis="published" if released else "first_seen",
+        title_original=f"{title} — Copilot / Chat / Agents",
+        excerpt_original="\n".join(chunks)[:12000], product="GitHub Copilot in VS Code", status="Release",
+    )]
+
+
+def fetch_m365_roadmap() -> list[dict[str, Any]]:
+    items = fetch_rss(
+        "https://www.microsoft.com/en-us/microsoft-365/RoadmapFeatureRSS/",
+        "Microsoft 365 Roadmap", "m365-roadmap", "Microsoft 365 Copilot", True,
+    )
+    # Roadmap dates describe plans, not evidence that a feature has shipped.
+    for item in items:
+        item["status"] = "Roadmap"
+        item["content_type"] = "roadmap"
+        item["title_original"] = "[Roadmap] " + item["title_original"]
+    return sorted(items, key=lambda item: item["published_at"], reverse=True)[:30]
+
+
 FETCHERS: tuple[Callable[[], list[dict[str, Any]]], ...] = (
     fetch_github_changelog, fetch_cli_releases, fetch_m365_blog, fetch_m365_release_notes,
+    fetch_vscode_updates, fetch_m365_roadmap,
 )
 
 
@@ -166,6 +208,8 @@ def _is_duplicate(candidate: dict[str, Any], articles: list[dict[str, Any]]) -> 
             return True
         other = normalize_title(current.get("title_original", ""))
         if title and other and candidate.get("source") == current.get("source"):
+            if candidate.get("source") in {"GitHub Copilot CLI Releases", "VS Code Release Notes", "Microsoft 365 Roadmap", "Microsoft 365 Copilot Release Notes"}:
+                continue
             if title == other or SequenceMatcher(None, title, other).ratio() >= 0.96:
                 return True
     return False
