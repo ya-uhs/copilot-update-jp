@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 09:02:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 09:13:02 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -29,34 +29,34 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Dynamics 365 Field Service: Microsoft Copilot in Field Service Mobile app</title>
+      <title>[提供予定・ロードマップ] Dynamics 365 Field Service モバイルアプリにおける Microsoft Copilot</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571663</link>
       <guid isPermaLink="false">m365-roadmap-9d70e2f3ea9c62c1af37</guid>
       <pubDate>Thu, 24 Sep 2026 22:58:55 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft Copilot in the Dynamics 365 Field Service mobile app brings conversational AI chat capabilities directly to frontline workers. Once enabled, technicians can ask natural-language questions about Dynamics 365 Field Service data and receive contextual answers based on the app experience and their organization’s Dataverse data. With standard capabilities, Dataverse Q&amp;amp;A supports questions such as “What is the work history of this asset?” or “Who worked on this job last?” Organizations can also extend the with custom experiences and agents available to frontline and back-office users. GA date: February CY2027&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571663"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Field Service モバイルアプリに Microsoft Copilot が導入され、現場作業員向けに対話型AIチャット機能が提供されます。技術者は自然言語で Dynamics 365 Field Service のデータに関する質問を行い、アプリの操作画面や組織の Dataverse データに基づく文脈に沿った回答を得ることができます。標準機能による Dataverse のQ&amp;amp;Aに加え、組織はカスタムエクスペリエンスやエージェントを追加して機能を拡張することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モバイルアプリへの conversational AI chat 機能の追加&lt;/li&gt;&lt;li&gt;Dataverse データに関する自然言語での質問と文脈に沿った回答の取得&lt;/li&gt;&lt;li&gt;カスタムエクスペリエンスやエージェントによる機能拡張への対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571663"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] PowerPoint: Skills in Brand Kit</title>
+      <title>[提供予定・ロードマップ] PowerPoint: ブランドキットにおけるスキル</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=569018</link>
       <guid isPermaLink="false">m365-roadmap-6c34d5ae75aec7606c23</guid>
       <pubDate>Wed, 23 Sep 2026 22:59:12 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Upload skill (.md file) in Brand Kit and use within PPT Copilot GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569018"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;PowerPointのブランドキットにスキル（.mdファイル）をアップロードし、PPT Copilot内で使用できるようになります。この機能は2026年10月に一般提供（GA）が開始される予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ブランドキットへのスキル（.mdファイル）のアップロード機能の追加&lt;/li&gt;&lt;li&gt;PPT Copilot内でのスキル利用機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569018"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Federated Copilot Connectors will support write, update and delete actions</title>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot：フェデレーテッドCopilotコネクタが書き込み、更新、削除アクションをサポート</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570964</link>
       <guid isPermaLink="false">m365-roadmap-ad99958cddeb03ad8b4d</guid>
       <pubDate>Tue, 22 Sep 2026 22:57:16 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Federated Copilot connectors (MCP type) currently let Microsoft 365 Copilot read data from third-party services in real time. With this update, the connector tools that create, update, and delete content in those services are unblocked in Copilot Chat, so users can complete work without leaving Copilot. Copilot acts with the user&amp;#x27;s own account and permissions at the third-party service, and every create, update, or delete action requires the user&amp;#x27;s explicit confirmation before it runs. Admins can view each connector&amp;#x27;s read and write/delete tools in the Microsoft 365 admin center and disable connectors that don&amp;#x27;t meet their organization&amp;#x27;s policies. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570964"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのフェデレーテッドCopilotコネクタ（MCP型）において、サードパーティサービスでのコンテンツ作成、更新、削除アクションがサポートされます。ユーザーはCopilot Chatを離れずに作業を完了できるようになり、すべての書き込み・削除アクションには実行前の明示的な確認が必要です。管理者はMicrosoft 365管理センターで各コネクタのツールを確認し、ポリシーに適合しないものを無効化できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サードパーティサービスにおける作成、更新、削除アクションのサポート追加&lt;/li&gt;&lt;li&gt;各アクション実行時にユーザーの明示的な確認を必須化&lt;/li&gt;&lt;li&gt;管理センターでの読み取り・書き込み/削除ツールの確認およびコネクタ無効化機能の提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570964"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>high</category>
     </item>
     <item>
       <title>[Roadmap] Microsoft Copilot (Microsoft 365): Local inferencing</title>

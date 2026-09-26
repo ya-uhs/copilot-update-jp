@@ -281,16 +281,25 @@
     "excerpt_original": "Microsoft Copilot in the Dynamics 365 Field Service mobile app brings conversational AI chat capabilities directly to frontline workers. Once enabled, technicians can ask natural-language questions about Dynamics 365 Field Service data and receive contextual answers based on the app experience and their organization’s Dataverse data. With standard capabilities, Dataverse Q&A supports questions such as “What is the work history of this asset?” or “Who worked on this job last?” Organizations can also extend the with custom experiences and agents available to frontline and back-office users. GA date: February CY2027",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Field Service モバイルアプリにおける Microsoft Copilot",
+    "summary_ja": "Dynamics 365 Field Service モバイルアプリに Microsoft Copilot が導入され、現場作業員向けに対話型AIチャット機能が提供されます。技術者は自然言語で Dynamics 365 Field Service のデータに関する質問を行い、アプリの操作画面や組織の Dataverse データに基づく文脈に沿った回答を得ることができます。標準機能による Dataverse のQ&Aに加え、組織はカスタムエクスペリエンスやエージェントを追加して機能を拡張することが可能です。",
+    "changes": [
+      "モバイルアプリへの conversational AI chat 機能の追加",
+      "Dataverse データに関する自然言語での質問と文脈に沿った回答の取得",
+      "カスタムエクスペリエンスやエージェントによる機能拡張への対応"
+    ],
+    "target_user": [
+      "frontline workers",
+      "technicians",
+      "back-office users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:12:49Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T09:12:47Z"
   },
   {
     "id": "github-copilot-cli-396087135",
@@ -301,15 +310,21 @@
     "excerpt_original": "**Fixed** - Ask-user forms keep custom Other answers separate across questions",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
+    "title_ja": "GitHub Copilot CLI v1.0.89-3のリリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.89-3がリリースされました。今回のアップデートでは、Ask-userフォームにおける修正が含まれています。具体的には、複数の質問の間でカスタムの「Other」の回答がそれぞれ独立して保持されるようになります。",
+    "changes": [
+      "Ask-user forms keep custom Other answers separate across questions"
+    ],
+    "target_user": [
+      "Developers",
+      "GitHub Copilot CLI users"
+    ],
     "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "translated": true,
+    "processed_at": "2026-09-26T09:12:50Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:12:49Z"
   },
   {
     "id": "github-copilot-cli-396006602",
@@ -320,15 +335,24 @@
     "excerpt_original": "**Added** - MCP pre-registered OAuth clients honor configured oauthScopes. - In local sessions, Esc Esc in an empty chat input takes back a prompt whose turn the model has not started answering and removes it from the conversation **Improved** - Sandboxed commands on supported Windows versions can access localhost when Local network access is on - Autocomplete model IDs in /model and /model plan argument pickers **Fixed** - MCP config loading keeps valid workspace servers when sibling entries are invalid - Delete old sessions succeeds when run directly in the CLI - Claude requests above attachment size limits now recover automatically before sending. - Listing shells shows running shells first, so a shell still running in the background is no longer hidden behind a long list of finished ones",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot CLI v1.0.89-2 のアップデート",
+    "summary_ja": "GitHub Copilot CLI v1.0.89-2がリリースされました。MCPにおけるOAuthスコープの適用やローカルセッションでのプロンプト削除機能の追加に加え、Windows環境でのサンドボックス通信やモデルIDのオートコンプリートが改善されています。また、MCP設定の読み込みエラーや古いセッションの削除に関する不具合が修正されました。",
+    "changes": [
+      "MCP pre-registered OAuth clients honor configured oauthScopes.",
+      "In local sessions, Esc Esc in an empty chat input takes back a prompt whose turn the model has not started answering and removes it from the conversation.",
+      "Sandboxed commands on supported Windows versions can access localhost when Local network access is on.",
+      "Autocomplete model IDs in /model and /model plan argument pickers.",
+      "MCP config loading keeps valid workspace servers when sibling entries are invalid."
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:12:52Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:12:50Z"
   },
   {
     "id": "m365-roadmap-6c34d5ae75aec7606c23",
@@ -339,16 +363,22 @@
     "excerpt_original": "Upload skill (.md file) in Brand Kit and use within PPT Copilot GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] PowerPoint: ブランドキットにおけるスキル",
+    "summary_ja": "PowerPointのブランドキットにスキル（.mdファイル）をアップロードし、PPT Copilot内で使用できるようになります。この機能は2026年10月に一般提供（GA）が開始される予定です。",
+    "changes": [
+      "ブランドキットへのスキル（.mdファイル）のアップロード機能の追加",
+      "PPT Copilot内でのスキル利用機能の追加"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:12:53Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T09:12:52Z"
   },
   {
     "id": "github-copilot-cli-395009465",
@@ -359,15 +389,22 @@
     "excerpt_original": "**Added** - Add GPT-6 Sol and GPT-6 Luna to the model picker when available **Fixed** - View tool honors line ranges when providers send flattened view_range arguments - In local sessions, Up in an empty chat input recalls the pending message and leaves queued prompts in the queue",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot CLI v1.0.89-1",
+    "summary_ja": "GitHub Copilot CLI v1.0.89-1がリリースされました。モデルピッカーへのGPT-6 SolおよびGPT-6 Lunaの追加や、ビューツールの行範囲に関する修正、ローカルセッションでのチャット入力に関する修正が含まれています。",
+    "changes": [
+      "利用可能な場合にモデルピッカーへGPT-6 SolおよびGPT-6 Lunaを追加",
+      "プロバイダがflattened view_range引数を送信した際にビューツールが正しく行範囲を処理するよう修正",
+      "ローカルセッションにおいて、空のチャット入力で上キーを押すと保留中のメッセージが呼び出され、キュー内のプロンプトが維持されるよう修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:12:54Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:12:53Z"
   },
   {
     "id": "m365-release-notes-0d43a05fe828534a94f5",
@@ -378,15 +415,28 @@
     "excerpt_original": "Updates released between August 26, 2026, and September 22, 2026. Excel Navigate to your workbook changes directly from the Copilot chat pane response [Windows, Web, Mac] In Copilot in Excel, the response contains links to highlight where changes are made in your workbook. Navigate directly to new sheets, tables, ranges, and objects like charts and shapes. Details: What changed: In the Copilot chat response, there now is a link you can click that will take you directly to changes in the workbook. Previously, you would need to locate the change in the response and navigate in the sheet on your own. Why: We want you to understand where copilot made edits and connect you to them directly from the chat response. This will help build confidence in the changes and allow you to review while you're reading the response in the chat pane. Try this: Send a prompt to Copilot where the workbook is modified. The chat response will show the changes in a different format with a highlight to indicate a link you can click for navigation. New Sheets, tables, ranges, and objects will be highlighted. Why this matters: The feature allows quick review of document changes made by Copilot, increasing transparency of the edits. Business impact: Teams can understand changes made while reading the response from Copilot and quickly navigate to those places for review. Personal impact: You can review the Copilot Edits in your document. See Copilot usage in show changes pane [Windows, Mac, Web] Users can now view Copilot usage details directly within the Show Changes pane in Excel. Details: What changed: Previously, Copilot activity was not visible in the Show Changes pane. Now, the pane includes on-card attribution showing when Copilot made edits or suggestions. This transparency helps users track AI contributions alongside manual changes. Why: Providing clear visibility into Copilotâs actions increases user trust and accountability when reviewing workbook changes. Try this: Open an Excel workbook with Copilot edits. Select Review tab, then click Show Changes. Look for Copilot attribution cards indicating AI-generated changes. Why this matters: Understanding which changes come from Copilot helps users verify and manage AI-assisted edits. Business impact: Teams can audit AI contributions more effectively, improving collaboration and change management. Personal impact: You gain confidence reviewing workbook edits knowing which changes Copilot made. Microsoft 365 admin center New dedicated License Requests page in Microsoft 365 Admin Center [Web] We are introducing a new dedicated License Requests page in the Microsoft 365 Admin Center to help admins more easily discover, review, and manage Microsoft 365 Copilot license requests submitted by users. Roadmap ID: 561206 Details: What changed: The Microsoft 365 Admin Center now includes a dedicated License Requests page for Microsoft 365 Copilot. Previously, admins had to locate license requests through multiple menus or notifications. This new page centralizes all Copilot license requests, improving visibility and management efficiency. The page supports sorting, filtering, and bulk actions on license requests, enhancing administrative control and security oversight. Why: Admins need a streamlined way to handle Copilot license requests to reduce delays and errors in license allocation. This change enables admins to: Quickly identify pending license requests Approve or deny requests efficiently Maintain better control over license distribution and compliance Try this: Open the Microsoft 365 Admin Center and select 'License Requests' from the navigation menu. Review pending Microsoft 365 Copilot license requests and use filters to sort by user or date. Approve or deny requests directly from the License Requests page. Why this matters: Centralizing license requests reduces administrative overhead and speeds up user access to Microsoft 365 Copilot licenses. Business impact: IT teams can manage Copilot license requests more efficiently, improving license compliance and reducing support tickets. Personal impact: Admins save time reviewing and processing license requests, enabling faster user onboarding to Copilot. Microsoft 365 Copilot See email attachments as pills in Copilot search results [Windows, Web] When users search for an email in Microsoft 365 Copilot search, that email's attachments now appear as pills directly on the result, so users can spot and open attachments without opening the email. Details: What changed: Email results in Microsoft 365 Copilot search now display the email's attachments as inline pills within the search results. When a user's query surfaces an email, any attachments on that email are shown as clickable pills on the result, letting users navigate straight to a file. Previously, attachments were not surfaced on email results, users had to open the email to find and access them. Why: Surfacing attachments as pills on email results improves discoverability and saves clicks. Users can now: At a glance, see which emails have attachments and what they are. Open an attachment directly from the results page without first opening the email. Move faster from a search to the exact file they need. Try this: Open Microsoft 365 Copilot search. Search for an email you know has attachments. On the matching email result, look for the attachment pills. Click a pill to open the attachment directly. Why this matters: Showing attachments in line with email results removes an extra step, making it faster to find and open the files buried in your emails. Business impact: Teams reach the files attached to key emails faster, reducing back-and-forth and speeding up collaboration and decision making. Personal impact: You save time by spotting and opening email attachments right from your search results, without opening each email to hunt for them. \"Sort by\" filter for Outlook Mail in Copilot search [Windows, Web] Users can now sort Outlook Mail results by date in ascending or descending order within Copilot Search. Details: What changed: Copilot Search now includes a \"Sort by\" filter for Outlook Mail results, allowing sorting by date in both ascending and descending order. Previously, search results were presented without sorting options, limiting users' ability to organize emails by date. This update improves result relevance and user control over mail searches. Why: Sorting mail results by date helps users quickly find recent or older emails, improving efficiency in managing Outlook Mail through Copilot Search. Try this: Open Copilot Search and enter your query. Select the \"Sort by\" filter above the Outlook Mail results. Choose ascending or descending date order to reorder the emails. Why this matters: Sorting mail results by date saves time and reduces effort when locating specific emails in large mailboxes. Business impact: Teams can respond faster by locating relevant emails without manually scanning unsorted search results. Personal impact: You spend less time searching through emails and more time focusing on important messages. New profile cards for buildings, rooms and desks [Windows] Buildings, rooms and desks that are added to the Places directory will have new profile cards, accessible from Copilot Chat and across other Microsoft 365 entry points. Roadmap ID: 553219 Details: What changed: Buildings, rooms, and desks added to the Places directory now have dedicated profile cards. These cards are accessible through Copilot Chat and various Microsoft 365 interfaces, providing quick access to location details. Previously, such detailed location information was not consolidated or easily accessible within Microsoft 365. This update improves navigation and resource management without impacting security. Why: Providing detailed profile cards for physical spaces helps users find and manage locations efficiently, improving workplace coordination and resource utilization. Try this: Open Copilot Chat in Microsoft 365. Search for a building, room, or desk name. View the profile card with detailed information and availability. Why this matters: Quick access to location details reduces time spent searching for workspace resources and supports better planning. Business impact: Facilities and teams can manage space usage more effectively, improving workplace experience and operational efficiency. Personal impact: You quickly find and reserve appropriate workspaces, reducing delays and interruptions during your day. Find meetings based on topics and keywords [Android, Windows, iOS, Mac] Copilot will be able to find meetings based on topics or keywords from relevant data like meeting body, chat, and transcription. The search for meetings based on transcript text is based on meetings in last two months. Roadmap ID: 559110 Details: What changed: Copilot now searches meetings using topics or keywords found in the meeting body, chat messages, and transcription text from the past two months. Previously, meeting searches were limited and did not include chat or transcript content. This change improves search accuracy and relevance across multiple data sources. Why: Users need to locate meetings related to specific subjects quickly. Including chat and transcription data in searches provides a more comprehensive view and saves time. Try this: Open Copilot and enter a topic or keyword in the search box. Review the list of meetings that include the keyword in the body, chat, or transcript. Select a meeting to view details and related content. Why this matters: This update helps users find relevant meetings more efficiently by searching all related meeting content. Business impact: Teams can access complete meeting information faster, improving collaboration and decision-making. Personal impact: You spend less time searching for meetings and more time preparing for relevant discussions. Unlocking Deeper Copilot Insights with Enhanced Power BI Filtering [Web] Enable Global and Insights admins to turn on additional attributes as filters in Power BI reports, including reserved attributes and your organizationâs custom attributes. Users who have access to Power BI reports can then use these newly enabled filters to tailor reports to their business needs. Roadmap ID: 559995 Details: What changed: Admins now have the option to activate more attribute filters in Workplace Analytics Power BI reports. These include reserved attributes and custom attributes defined by the organization. Previously, filtering options were limited to default attributes, restricting report customization. Why: This update provides more granular control over report filtering, enabling more relevant and actionable insights tailored to organizational contexts. Try this: As a Global or Insights admin, go to the Workplace Analytics admin center. Enable additional reserved and custom attributes as filters. In Power BI, use the new filters to customize your reports. Why this matters: Enhanced filtering improves report relevance and helps users focus on the data that matters most to their roles and goals. Business impact: Teams gain more precise analytics capabilities, supporting better-informed decisions based on tailored data views. Personal impact: You can create more customized reports that reflect your specific business questions, saving time on data preparation. Additional resources: Learn: Enable filters for out-of-the-box reports Planner Agent chat [Windows, Web] Introducing built-in Planner Agent chat with natural language Q&A, smart task discovery, and in-plan task management. Roadmap ID: 560532 Details: What changed: Planner integrates Planner Agent chat directly into the app, enabling users to ask questions and manage tasks using natural language. Previously, task management required manual navigation and filtering. The chat supports smart discovery of relevant tasks and allows in-plan updates through conversational commands. Why: Adding natural language chat simplifies task management by reduc",
     "product": "Microsoft 365 Copilot",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "Microsoft 365 Copilot リリースノート（2026年9月23日）",
+    "summary_ja": "Microsoft 365 Copilotの2026年9月23日更新では、Excelでの変更箇所への直接移動やCopilot利用状況の可視化、管理者向けの専用ライセンスリクエストページの追加などが行われました。さらに、検索機能におけるメール添付ファイルの表示や日付での並び替え、会議のトピック・キーワード検索などが強化されています。また、Placesディレクトリの場所に関するプロフィールカードの追加や、Power BIレポートのフィルタリング機能の拡張、Planner Agentチャットの統合も実施されました。",
+    "changes": [
+      "ExcelのCopilotチャット応答にワークブック内の変更箇所へ直接移動できるリンクを追加",
+      "Excelの「変更の表示」ペインでCopilotの編集や提案の履歴を確認可能に",
+      "Microsoft 365 管理センターに専用のライセンスリクエストページを追加",
+      "Copilot検索のメール結果に添付ファイルをインラインのピル形式で表示",
+      "Copilot検索のOutlookメール結果に日付の昇順・降順「並び替え」フィルターを追加"
+    ],
+    "target_user": [
+      "エンドユーザー",
+      "Microsoft 365 管理者",
+      "Global Admin",
+      "Insights Admin",
+      "ビジネスチーム"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-09-26T09:12:56Z",
     "source_id": "m365-release-notes",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T09:12:54Z"
   },
   {
     "id": "vscode-5c9dea62fc51b32650c2",
@@ -398,15 +448,25 @@
     "excerpt_original": "Agents\nThe agent host runs agent harnesses in a dedicated process based on the Agent Host Protocol (AHP), so you can connect to the same session from multiple VS Code windows. Learn more about its architecture and workflows in the agent host blog post .\nRun agent sessions in Dev Containers on remote hosts\nSetting : chat.agentHost.devContainer.enabled Open in VS Code Open in VS Code Insiders (Agents Window only)\nLet agents build and test your remote project with the right tools and dependencies, without duplicating toolchain setup on your laptop or the remote host. This release extends Dev Container sessions from local folders to projects on SSH, Tunnel, and WSL hosts.\nTo get started, enable chat.agentHost.devContainer.enabled Open in VS Code Open in VS Code Insiders and select Use Dev Container from the folder menu in the Agents Window. The remote folder must have a supported Dev Container configuration, and Docker must be available on the remote host.\nNote : Dev Container sessions are rolling out gradually, so the setting might not be enabled by default for you yet. You can enable the setting manually to try the feature now.\nFaster session list loading\nVS Code loads and refreshes large agent session lists faster. The agent host keeps lightweight session and chat metadata in a central catalog instead of opening every conversation database each time the list is built. Full conversation content remains isolated in the individual session and chat databases.\nThe improvement grows with the number of sessions because the previous approach did work in proportion to your session count. Measured with around 645 sessions on a development machine:\nOperation Before After Improvement First session listing after launch 1.3 seconds 0.1 seconds About 12x faster Refresh the session list 0.6 seconds 0.15 seconds About 4x faster\nIf you have few sessions, expect a smaller difference. Sessions created before this release are migrated automatically in the background.\nCompact sessions list\nFit more sessions in the sessions list by enabling Compact View in the sessions list view of the Agents Window.\nCompact rows show the session title at rest and reveal workspace details when you hover over or focus the row. A row expands when the session needs input or approval, so these requests remain visible.\nProgress also appears on the row for the chat that owns the work. When you collapse a session, the parent row summarizes progress from its hidden chats.\n\nFilter empty session groups\nDisable Empty Groups from Filter Sessions to hide empty custom groups and the empty Chats section. This preference is stored in your profile and resets with the other sessions list filters.\nRename sessions and chats in place\nRename a session or nested chat directly in the sessions list. Double-click its title, use the Rename context menu action, or focus the row and press F2 for a session or F2 for a nested chat. Inline validation prevents blank titles, and canceling restores the previous title.\nChoose how chats appear in a session (Preview)\nSetting : sessions.showChatTabs Open in VS Code Open in VS Code Insiders (Agents Window only)\nAn agent session can contain multiple chats , each representing a different conversation or context. When a session contains multiple chats, choose the presentation that best fits your workflow from the session header menu:\nMultiple shows each chat on its own tab. Single shows only the active chat and hides the tab bar.\nSwitching presentations preserves your open chats, active chat, and conversation state. In Single mode, chats that you explicitly open to the side remain independent panes with their own header actions.\n\n\nChat\nPet naming contest update (Experimental)\nThank you to everyone who submitted a name for the VS Code pet. The naming contest closed on September 17, 2026, and we're reviewing the eligible entries. We'll announce the winner and the pet's new name soon.\nWhile you wait, enter /vscode-pet in chat to meet your companion and explore all its interactions and reactions .\n",
     "product": "GitHub Copilot in VS Code",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "Visual Studio Code 1.139: Copilot / Chat / Agents のアップデート",
+    "summary_ja": "Visual Studio Code 1.139では、Agent Host Protocolに基づくエージェントホストの導入やDev Containersサポートの拡張が行われました。また、エージェントセッション一覧の読み込み速度向上、UIのコンパクト表示、インラインでの名称変更などの新機能が追加されています。さらに、チャットの表示方法を選択する機能や、ペット命名コンテストの進捗報告も含まれています。",
+    "changes": [
+      "エージェントホストを専用プロセスで実行し、複数ウィンドウからの同一セッション接続に対応",
+      "SSH、Tunnel、WSLホストのリモートプロジェクトにおけるDev Containerでのエージェントセッション実行に対応",
+      "セッション一覧のメタデータを一元管理することで、セッションリストの読み込みと更新を高速化",
+      "Agents Windowにコンパクトビューを追加し、セッション一覧の表示効率を改善",
+      "セッションやネストされたチャットのタイトルをインラインで直接変更可能に"
+    ],
+    "target_user": [
+      "Developer",
+      "VS Code User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:12:58Z",
     "source_id": "vscode",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:12:56Z"
   },
   {
     "id": "m365-roadmap-ad99958cddeb03ad8b4d",
@@ -417,16 +477,24 @@
     "excerpt_original": "Federated Copilot connectors (MCP type) currently let Microsoft 365 Copilot read data from third-party services in real time. With this update, the connector tools that create, update, and delete content in those services are unblocked in Copilot Chat, so users can complete work without leaving Copilot. Copilot acts with the user's own account and permissions at the third-party service, and every create, update, or delete action requires the user's explicit confirmation before it runs. Admins can view each connector's read and write/delete tools in the Microsoft 365 admin center and disable connectors that don't meet their organization's policies. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot：フェデレーテッドCopilotコネクタが書き込み、更新、削除アクションをサポート",
+    "summary_ja": "Microsoft 365 CopilotのフェデレーテッドCopilotコネクタ（MCP型）において、サードパーティサービスでのコンテンツ作成、更新、削除アクションがサポートされます。ユーザーはCopilot Chatを離れずに作業を完了できるようになり、すべての書き込み・削除アクションには実行前の明示的な確認が必要です。管理者はMicrosoft 365管理センターで各コネクタのツールを確認し、ポリシーに適合しないものを無効化できます。",
+    "changes": [
+      "サードパーティサービスにおける作成、更新、削除アクションのサポート追加",
+      "各アクション実行時にユーザーの明示的な確認を必須化",
+      "管理センターでの読み取り・書き込み/削除ツールの確認およびコネクタ無効化機能の提供"
+    ],
+    "target_user": [
+      "Administrators",
+      "Users"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-09-26T09:12:59Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-26T09:12:58Z"
   },
   {
     "id": "github-copilot-cli-394156139",
@@ -436,16 +504,23 @@
     "title_original": "GitHub Copilot CLI v1.0.89-0",
     "excerpt_original": "**Added** - Adding support for claude-opus-5.5 **Improved** - Show managed Connector consent progress with a copyable authorization URL during connect and reconnect.",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.89-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.89-0がリリースされました。今回のアップデートにより、claude-opus-5.5モデルのサポートが追加されました。また、接続および再接続時に、管理対象のコネクター同意の進行状況とコピー可能な認証URLが表示されるように改善されました。",
+    "changes": [
+      "claude-opus-5.5のサポートを追加",
+      "接続および再接続時に、管理対象コネクターの同意進捗とコピー可能な認証URLを表示するように改善"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:13:00Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:12:59Z"
   },
   {
     "id": "github-copilot-cli-394076851",
@@ -456,15 +531,25 @@
     "excerpt_original": "2026-09-22 - Add optional OSC 777 terminal notifications for direct Ghostty and WezTerm sessions. - Text selection now works in bottom-anchored dialogs, including login device codes - Preserve /allow-all during managed-settings refresh failures, and remember exact session approvals for missing paths without granting their parent directory; exact grants are visible in /list-dirs and cleared by /reset-allowed-tools - Sandboxed network denials from proxy tunnel failures now show bypass guidance - Custom-agent startup now distinguishes model-list load failures from an empty catalog, preventing false unavailable warnings and silent required-agent deselection - Pressing Enter in freeform ask_user prompts adds a new line; submit with Ctrl+Enter or Ctrl+S as a fallback - A custom agent's `reasoning-effort` now applies when the agent is selected, instead of only its model. An explicit `--reasoning-effort` still wins, and a level the selected model does not offer is reported and left unapplied - Deferred MCP tools whose registered name needed sanitizing or shortening are now listed under that name, so tool search can find them, and deferred MCP tools with no resolvable server name are now listed with the other tools instead of being left out of the reminder - Prompt mode now warns when it stops waiting for background tasks and explains how to change the timeout limit. - Resuming sessions no longer stalls when MCP permission prompts are pending - MCP tools recover more reliably from transient listing, connection, and OAuth failures - Hook commands without an explicit `cwd` again run in the project root instead of the session's current directory, so repo-relative hook scripts still resolve from a subdirectory. - Enterprise managed settings now apply to sessions opened in ACP mode (`copilot --acp`), by AHP hosts (`copilot --ahp-host`), and by the published `--server` session, which previously ran with no managed MCP, permission, or plugin policy. - GitHub MCP scope escalation now uses the CLI OAuth app's registered /callback redirect URI - Agents from a plugin mounted with --plugin-dir now appear in server-mode sessions - Session and subagent start hooks combine successful additional-context contributions within the hook-output limit - Cached MCP tools stay scoped to environment-resolved server addresses and headers - Session resume preserves pending conversation events when saving fails and explains that retrying is safe - Support namespaced custom skills and ignored skill directories during skill discovery - MCP and plugin views show server display names and plugin descriptions for clearer status. - Resuming large local sessions keeps transcript memory bounded for smoother CLI performance. - Prompt to update GitHub authorization when Connectors need reauthorization - Indexed search supports glob filtering and --files listings with accurate ripgrep fallback behavior. - Run /fork during active turns to branch work without waiting. - In the Sessions tab, rows you can dismiss now take x then x again to confirm: a local session is permanently deleted, while a session backed by a server is only closed and its conversation is left on the server. The footer says which of the two the highlighted row will do, and shows no x hint for rows that cannot be dismissed.",
     "product": "GitHub Copilot CLI",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot CLI v1.0.88 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.88がリリースされました。GhosttyおよびWezTerm向けのオプションのOSC 777端末通知の追加、ダイアログでのテキスト選択の改善、managed-settings更新失敗時の設定保持など、多くの機能改善と不具合修正が含まれています。また、MCPツールの信頼性向上やエンタープライズ管理設定の適用範囲拡大なども行われています。",
+    "changes": [
+      "GhosttyおよびWezTermセッション向けに、オプションのOSC 777端末通知を追加",
+      "ログインデバイスコードを含む下部固定ダイアログでのテキスト選択機能を追加",
+      "managed-settings更新失敗時の/allow-allの維持と、親ディレクトリを付与しない正確なセッション承認の記憶",
+      "カスタムエージェントの起動時に、モデルリストの読み込み失敗と空のカタログを区別するように改善",
+      "freeform ask_userプロンプトでEnterキーによる改行を追加（送信はCtrl+EnterまたはCtrl+S）"
+    ],
+    "target_user": [
+      "Developers",
+      "CLI Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-26T09:13:02Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-26T09:13:00Z"
   },
   {
     "id": "github-copilot-cli-393819449",

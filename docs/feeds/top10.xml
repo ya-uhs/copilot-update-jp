@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 09:02:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 09:13:02 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年9月23日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026</link>
+      <guid isPermaLink="false">m365-release-notes-0d43a05fe828534a94f5</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年9月23日更新では、Excelでの変更箇所への直接移動やCopilot利用状況の可視化、管理者向けの専用ライセンスリクエストページの追加などが行われました。さらに、検索機能におけるメール添付ファイルの表示や日付での並び替え、会議のトピック・キーワード検索などが強化されています。また、Placesディレクトリの場所に関するプロフィールカードの追加や、Power BIレポートのフィルタリング機能の拡張、Planner Agentチャットの統合も実施されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ExcelのCopilotチャット応答にワークブック内の変更箇所へ直接移動できるリンクを追加&lt;/li&gt;&lt;li&gt;Excelの「変更の表示」ペインでCopilotの編集や提案の履歴を確認可能に&lt;/li&gt;&lt;li&gt;Microsoft 365 管理センターに専用のライセンスリクエストページを追加&lt;/li&gt;&lt;li&gt;Copilot検索のメール結果に添付ファイルをインラインのピル形式で表示&lt;/li&gt;&lt;li&gt;Copilot検索のOutlookメール結果に日付の昇順・降順「並び替え」フィルターを追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot：フェデレーテッドCopilotコネクタが書き込み、更新、削除アクションをサポート</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570964</link>
+      <guid isPermaLink="false">m365-roadmap-ad99958cddeb03ad8b4d</guid>
+      <pubDate>Tue, 22 Sep 2026 22:57:16 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのフェデレーテッドCopilotコネクタ（MCP型）において、サードパーティサービスでのコンテンツ作成、更新、削除アクションがサポートされます。ユーザーはCopilot Chatを離れずに作業を完了できるようになり、すべての書き込み・削除アクションには実行前の明示的な確認が必要です。管理者はMicrosoft 365管理センターで各コネクタのツールを確認し、ポリシーに適合しないものを無効化できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サードパーティサービスにおける作成、更新、削除アクションのサポート追加&lt;/li&gt;&lt;li&gt;各アクション実行時にユーザーの明示的な確認を必須化&lt;/li&gt;&lt;li&gt;管理センターでの読み取り・書き込み/削除ツールの確認およびコネクタ無効化機能の提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570964"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilotの企業管理設定向けプロダクト内バリデーター</title>
       <link>https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator</link>
@@ -84,26 +104,6 @@
       <guid isPermaLink="false">github-changelog-c1d4e08f8273da72d80c</guid>
       <pubDate>Fri, 25 Sep 2026 16:33:42 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot が Slack と Microsoft Teams で利用できる機能が強化され、会話に対してより多くのコンテキストが提供され、制御が向上しました。また、チャットから GitHub の作業へ移行する流れが明確になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;会話に対するコンテキストが増加&lt;/li&gt;&lt;li&gt;ユーザーが Copilot の動作をより細かく制御可能に&lt;/li&gt;&lt;li&gt;チャットから GitHub の作業への移行が分かりやすくなった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>新しいCopilotの導入：Home、Code、Autopilot機能の発表</title>
-      <link>https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/</link>
-      <guid isPermaLink="false">m365-blog-db5e9ebc132376747b28</guid>
-      <pubDate>Fri, 25 Sep 2026 12:07:25 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoftは、個人の能力や組織の成果を拡大するためにMicrosoft Copilotを刷新することを発表しました。今回の更新では、Home、Code、Autopilotといった新しい要素が導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Copilotの刷新と機能拡張の発表&lt;/li&gt;&lt;li&gt;Home、Code、Autopilotの導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot BusinessおよびEnterpriseにおけるCopilot機能のデフォルト有効化</title>
-      <link>https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise</link>
-      <guid isPermaLink="false">github-changelog-9111ec33ec962e748182</guid>
-      <pubDate>Fri, 25 Sep 2026 03:13:23 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Enterpriseおよび組織のGitHub Copilot設定において、一般提供（GA）されているGitHub Copilot機能およびサポートされるクライアント機能に対する新しいグローバルデフォルトポリシーが導入されました。今後28日間にわたり、管理者は設定の確認と調整を行うことができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Enterpriseおよび組織のCopilot設定に新しいグローバルデフォルトポリシーを導入&lt;/li&gt;&lt;li&gt;一般提供（GA）されているGitHub Copilot機能とサポートされるクライアント機能が対象&lt;/li&gt;&lt;li&gt;適用に向けた移行期間として今後28日間を設定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>medium</category>
