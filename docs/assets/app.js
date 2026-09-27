@@ -1,6 +1,22 @@
 const state = { articles: [] };
 const byId = (id) => document.getElementById(id);
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const formatDateTime = (value) => {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? "不明" : new Intl.DateTimeFormat("ja-JP", {
+    dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Tokyo"
+  }).format(date);
+};
+
+fetch("status.json", {cache: "no-cache"}).then(response => {
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.json();
+}).then(status => {
+  const error = status.source_error_count ? ` · 取得失敗 ${status.source_error_count}件` : "";
+  byId("refresh-info").textContent = `最終確認 ${formatDateTime(status.last_checked_at)} · 最新記事 ${formatDateTime(status.latest_article_at)} · 翻訳 ${status.translated_count}/${status.article_count}${error}`;
+}).catch(() => {
+  byId("refresh-info").textContent = "更新状況を取得できません · 日本時間 7 / 13 / 19時更新";
+});
 
 function addOptions(id, values) {
   const select = byId(id);

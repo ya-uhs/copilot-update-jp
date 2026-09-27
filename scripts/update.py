@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 import os
 
-from scripts.common import load_articles, save_articles
+from scripts.common import load_articles, now_iso, save_articles
 from scripts.fetch_sources import fetch_all
 from scripts.generate_feed import generate_feeds
 from scripts.generate_site import generate_site
@@ -23,7 +23,14 @@ def main() -> int:
     except Exception:
         logging.exception("Feed generation failed; the previous feed was preserved")
     try:
-        generate_site(articles)
+        generate_site(articles, status={
+            "last_checked_at": now_iso(),
+            "latest_article_at": max((item.get("published_at", "") for item in articles), default=None),
+            "article_count": len(articles),
+            "translated_count": sum(item.get("translated") is True for item in articles),
+            "new_article_count": len(added),
+            "source_error_count": len(source_errors),
+        })
     except Exception:
         logging.exception("Site data generation failed; the previous data was preserved")
     logging.info(

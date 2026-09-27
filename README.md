@@ -20,6 +20,8 @@ Roadmapは予定情報であり、GA予定日が書かれていても提供開�
 3. Settings → Pagesで Source を `GitHub Actions` に設定します。更新workflowが `docs` を直接デプロイします。
 4. Actionsの `Update Copilot feed` を手動実行します。以後は日本時間 7:00、13:00、19:00 頃に自動実行されます。
 
+Webページには、公式ソースを最後に確認した日時、最新記事の公開日時、翻訳済み件数を表示します。新着が0件でも `docs/status.json` を更新するため、定期実行が動いたことを確認できます。
+
 必要に応じてRepository Variablesで `GEMINI_MODEL`、`GROQ_MODEL` を変更できます。既定値はそれぞれ `gemini-3.5-flash-lite`、`openai/gpt-oss-120b` です。APIキーはRepository Secretsへ登録します。モデルの提供状況・無料枠はプロバイダーにより変わります。
 
 ## ソースとRSSの設定
