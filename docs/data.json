@@ -1,5 +1,34 @@
 [
   {
+    "id": "github-copilot-cli-397496781",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.89-5",
+    "published_at": "2026-09-27T03:36:32Z",
+    "title_original": "GitHub Copilot CLI v1.0.89-5",
+    "excerpt_original": "**Added** - Left-clicking supported ask_user and elicitation form inputs focuses them and places the cursor at the clicked position - Add support for Claude Code rule files in .claude/rules as custom instructions - Sessions in the sidebar show a blue dot when they finished a turn you have not opened yet **Fixed** - Extensions no longer fail to load under enterprise managed settings while managed MCP policy is still being applied - Fixed Git failures in applications launched from CLI shells when empty environment variables are dropped, on Git 2.36 or newer. - Sessions sidebar saves opened and closed tabs as they change, rather than only on exit - Agent shell commands in sandbox can access session files and logs",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.89-5 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.89-5がリリースされました。今回のアップデートでは、フォーム入力操作の改善、Claude Codeのルールファイルへの対応、サイドバーのセッション表示機能の強化が行われています。また、エンタープライズ管理設定における拡張機能読み込みのエラーや、CLIシェルから起動したアプリケーションでのGit関連の不具合などが修正されました。",
+    "changes": [
+      "ask_userおよびelicitationフォームの入力欄で左クリックによるフォーカスとカーソル位置の指定に対応",
+      "カスタム指示として .claude/rules 内のClaude Codeルールファイルのサポートを追加",
+      "サイドバーのセッションにおいて、未開封のターンが完了した際に青いドットを表示するように変更",
+      "マネージドMCPポリシー適用中のエンタープライズ管理設定下で拡張機能の読み込みが失敗する問題を修正",
+      "Git 2.36以降において、CLIシェルから起動したアプリケーションで空の環境変数が除外されることに伴うGitの失敗を修正"
+    ],
+    "target_user": [
+      "developers",
+      "administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:39Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T09:54:38Z"
+  },
+  {
     "id": "github-changelog-07dade88210664e3a861",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
@@ -1345,15 +1374,24 @@
     "excerpt_original": "**Added** - Add `copilot instruction list` and `copilot lsp list`, replacing `copilot plugins list --kind instruction` and `--kind lsp` - Add `--json` to `copilot plugin list`, `copilot plugin marketplace list` and `copilot plugin marketplace browse` - Add `enable` and `disable` to `copilot plugin`, `copilot mcp` and `copilot skill`, replacing `copilot plugins enable/disable --plugin|--mcp|--skill` **Fixed** - Show when sandboxing is only enabled for the current session in /sandbox status and settings. - Interactive --yolo startup remains available before authentication when no managed policy evidence is present - Indexed search shows when enabled, works on Windows ReFS volumes, supports explicit cloud-sync overrides, and keeps refreshing on Linux when native file watches are exhausted. **Removed** - Replace `copilot plugins install --skill [--scope project]` with `copilot skill add [--project]`; the `--scope` spelling is gone - Remove the cross-kind `--kind`, `--scope`, `--mcp` and `--skill` flags from `copilot plugins`; use `copilot mcp` and `copilot skill` - `copilot plugins list --json` now emits a flat array of plugins instead of the cross-kind `{ plugins, errors }` object; scripts reading `.plugins` must be updated - `copilot plugins list` is now an alias of `copilot plugin list` and reports only plugins, no longer MCP servers, skills, instructions or LSP servers",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot CLI v1.0.84-4のリリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.84-4がリリースされ、新しいコマンドの追加や一部コマンドの置き換えが行われました。プラグイン、MCP、スキルに関するコマンド体系が整理され、出力形式の変更や不具合の修正が含まれています。",
+    "changes": [
+      "copilot instruction listおよびcopilot lsp listを追加し、従来のプラグインリストコマンドからの置き換えを実施",
+      "copilot plugin list、copilot plugin marketplace list、copilot plugin marketplace browseに--jsonオプションを追加",
+      "copilot plugin、copilot mcp、copilot skillにenableおよびdisableコマンドを追加し、従来の個別有効化/無効化コマンドを置き換え",
+      "サンドボックスのステータス表示や、認証前のインタラクティブな--yolo起動、インデックス検索の動作を改善",
+      "copilot plugins install --skillなどの古いフラグや構文を削除し、copilot plugins listの出力形式を変更"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T14:58:50Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T14:58:48Z"
   },
   {
     "id": "m365-blog-7430075df12e4d0b8fff",
@@ -1364,15 +1402,23 @@
     "excerpt_original": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
     "product": "Microsoft 365 Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
+    "title_ja": "ESPC 2026がアムステルダムで開催予定",
+    "summary_ja": "Microsoftは、アムステルダムで開催されるESPC 2026への参加を案内しています。イベントでは、Microsoft 365、Copilot、エージェント、AIに関する最新のイノベーションが紹介されます。",
+    "changes": [
+      "ESPC 2026がアムステルダムで開催される予定であることの案内",
+      "Microsoft 365、Copilot、エージェント、AIの最新イノベーションの紹介"
+    ],
+    "target_user": [
+      "developers",
+      "IT professionals",
+      "community members"
+    ],
     "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "translated": true,
+    "processed_at": "2026-09-27T14:58:52Z",
     "source_id": "m365-blog",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T14:58:50Z"
   },
   {
     "id": "m365-blog-72237ba32e378ab933b6",
@@ -1383,15 +1429,22 @@
     "excerpt_original": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
     "product": "Microsoft 365 Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "Copilot CoworkおよびCopilot Studioでのアプリ構築機能の提供",
+    "summary_ja": "Copilot CoworkおよびCopilot Studioにおける、会話を通じたフルスタックのビジネスアプリ構築機能が発表されました。本機能により、保有データを基盤としたアプリケーションの作成が可能になります。",
+    "changes": [
+      "Copilot CoworkおよびCopilot Studioでの会話を通じたフルスタックビジネスアプリの構築",
+      "データに基づくアプリ生成機能の提供"
+    ],
+    "target_user": [
+      "developers",
+      "business users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T14:58:55Z",
     "source_id": "m365-blog",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T14:58:52Z"
   },
   {
     "id": "m365-roadmap-875936a9d73ed6670743",
@@ -1402,16 +1455,24 @@
     "excerpt_original": "The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will continue to render without migration. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] SharePoint：FAQ Webパーツのオーサリング体験の変更",
+    "summary_ja": "SharePointのFAQ Webパーツにおいて、手動での作成や編集などの標準的な非AI機能が提供されるようになります。AIを活用したFAQの作成およびインポート機能はCopilot in SharePointのオーサリング体験へ移行し、自然言語のプロンプトや指定したグラウンディングソースを使用してコンテンツを生成できるようになります。既存のFAQ Webパーツおよびそのコンテンツは、移行なしで引き続き表示されます。",
+    "changes": [
+      "FAQ Webパーツの標準機能が手動での作成・編集・管理に変更される",
+      "AI支援によるFAQ作成とインポート機能がCopilot in SharePointへ移行する",
+      "既存のFAQ Webパーツおよびコンテンツは移行なしで引き続き動作する"
+    ],
+    "target_user": [
+      "SharePoint Authors",
+      "Content Creators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T14:58:57Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T14:58:55Z"
   },
   {
     "id": "m365-roadmap-1de1d1f9651de9e8031f",
@@ -1422,16 +1483,23 @@
     "excerpt_original": "Instead of opening Copilot Chat every time you want to use Copilot to draft a message, this change introduces an inline chat component that streamlines the process and lets you interact with Copilot without opening the sidebar. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Outlook: メール作成用インラインチャット",
+    "summary_ja": "Outlookのメール作成において、サイドバーを開くことなくCopilotと対話できるインラインチャットコンポーネントが導入されます。この変更により、メッセージ作成プロセスが効率化されます。一般提供（GA）は2026年10月を予定しています。",
+    "changes": [
+      "メール作成時にサイドバーを開かずにCopilotを利用可能にするインラインチャットコンポーネントの追加",
+      "メッセージ作成プロセスの効率化"
+    ],
+    "target_user": [
+      "Outlook users",
+      "Microsoft 365 Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T14:58:58Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T14:58:57Z"
   },
   {
     "id": "github-copilot-cli-385153310",
@@ -1442,15 +1510,21 @@
     "excerpt_original": "**Fixed** - /copy includes task completion messages when available - OAuth-authenticated MCP servers connect reliably during session startup",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
+    "title_ja": "GitHub Copilot CLI v1.0.84-3 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.84-3がリリースされました。今回のアップデートでは、/copyコマンドに利用可能なタスク完了メッセージが含まれるようになり、セッション起動時にOAuth認証されたMCPサーバーが確実に接続されるように修正されました。",
+    "changes": [
+      "/copyコマンドに利用可能なタスク完了メッセージを含めるように修正",
+      "セッション起動時におけるOAuth認証されたMCPサーバーの確実な接続を実現"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users"
+    ],
     "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "translated": true,
+    "processed_at": "2026-09-27T14:59:00Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T14:58:58Z"
   },
   {
     "id": "m365-roadmap-227c92063ebac7fcd0ec",
@@ -1459,18 +1533,24 @@
     "published_at": "2026-09-08T22:57:21Z",
     "title_original": "[Roadmap] Microsoft Teams: Meeting Shared Files",
     "excerpt_original": "The new Meeting Shared Files feature allows users to add relevant files and links to their meeting for easy access and to automatically share that content with all meeting participants. AI in the meeting, like the Facilitator agent, uses these files for targeted grounding to answer questions and enhance skill functionality. GA date: November CY2026",
-    "product": "Microsoft 365 Copilot",
+    "product": "Microsoft Teams",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams：ミーティング共有ファイル機能",
+    "summary_ja": "Microsoft Teamsに、ミーティングに関連するファイルやリンクを追加して参加者と自動共有できる「Meeting Shared Files」機能が追加されます。AI（Facilitatorエージェントなど）がこれらのファイルをターゲットグラウンディングに活用し、質問への回答やスキル機能の向上を支援します。一般提供（GA）は2026年11月を予定しています。",
+    "changes": [
+      "ミーティングに関連するファイルやリンクを追加し、参加者間で自動共有が可能になる",
+      "Facilitatorエージェントなどのミーティング内AIが、追加されたファイルをターゲットグラウンディングに使用する"
+    ],
+    "target_user": [
+      "Microsoft Teams Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T14:59:03Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T14:59:00Z"
   },
   {
     "id": "m365-roadmap-fa538e868f2b76669881",
@@ -1481,16 +1561,23 @@
     "excerpt_original": "Customers can now view value insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). These insights help business leaders and change and adoption specialists understand not only whether agents are being used, but also the estimated assisted hours agents provide and the types of work contributing to that value. This update builds on the existing Agent 365 Dashboard adoption experience by connecting agent activity with a clearer view of the work agents support across the organization. GA date: October CY2026 Preview date: September CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Viva：Copilot Analytics - Agent 365 ダッシュボードにおけるエージェント価値インサイト",
+    "summary_ja": "Microsoft Viva InsightsのCopilot Analyticsにおいて、Agent 365 Dashboardで価値インサイトの閲覧が可能になりました。これにより、ビジネスリーダーや変革・定着化の専門家は、エージェントの利用状況だけでなく、推定アシスト時間や価値に寄与する業務の種類を把握できるようになります。本機能は、エージェントの活動と組織全体でのサポート業務をより明確に結びつけるものです。",
+    "changes": [
+      "Agent 365 Dashboardに価値インサイトの閲覧機能を追加",
+      "エージェントの推定アシスト時間や貢献する業務タイプの可視化に対応"
+    ],
+    "target_user": [
+      "ビジネスリーダー",
+      "変革および定着化の専門家"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T14:59:31Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T14:59:03Z"
   },
   {
     "id": "m365-roadmap-f9eb61d3420151243c77",
@@ -1501,16 +1588,23 @@
     "excerpt_original": "Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by preventing the use of labeled knowledge sources, blocking prompts that contain supported sensitive information types, and restricting sensitive prompts from being sent to Bing for web search. GA date: October CY2026 Preview date: September CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Purview：Microsoft Cowork向けデータ損失防止（DLP）",
+    "summary_ja": "Microsoft Purview Data Loss Prevention（DLP）がMicrosoft Coworkに拡張され、管理者はMicrosoft 365 CopilotとCoworkの間で単一のポリシーを適用できるようになります。この統合により、機密性の高いラベル付きナレッジソースの利用防止、機密情報タイプを含むプロンプトのブロック、Bingでのウェブ検索への機密プロンプトの送信制限を通じて、AIインタラクションにおけるデータ保護が強化されます。",
+    "changes": [
+      "Microsoft Purview DLPがMicrosoft Coworkに対応し、Microsoft 365 Copilotと共通のポリシー運用が可能に",
+      "ラベル付きナレッジソースの利用防止や、サポートされている機密情報タイプを含むプロンプトのブロック機能を追加",
+      "Bingを用いたウェブ検索への機密プロンプトの送信を制限"
+    ],
+    "target_user": [
+      "Data security admins"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T14:59:35Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T14:59:31Z"
   },
   {
     "id": "github-copilot-cli-384770115",
@@ -1520,16 +1614,26 @@
     "title_original": "GitHub Copilot CLI v1.0.84-2",
     "excerpt_original": "**New** - Vim mode is now available to everyone. Turn it on with `/vim` or by setting `editorMode` to `vim` for modal editing in the composer, with the current mode shown while you type. **Improved** - On supported Windows sandbox policies, interactive shell commands now record blocked accesses. One approved escalation retries with file and process restrictions recording instead of blocking while network policy remains active, then falls back to the disclosed full bypass only if still blocked - Speed up startup when resuming an existing local session by its exact UUID with `--resume` **Fixed** - `ctrl+h` no longer deletes a whole word in tmux, screen, and remote sessions that carry a Windows Terminal `WT_SESSION` from elsewhere. As an accepted tradeoff, `ctrl+backspace` now deletes a single character in those sessions — including a genuinely local Windows tmux or screen pane — where `ctrl+w` still deletes a word - MCP servers now see the same copilot-cli client identity when you add a server and when a session connects, carrying the shipped CLI version instead of 0.0.0 - Interactive mode starts and submits the initial prompt when using --auth-token-env - Use /settings taskbarPresence false to disable Windows taskbar session status. Loader-managed sessions restart immediately; standalone sessions require a manual restart. - Pressing Escape once cancels MCP inference approval prompts once - MCP reload summary shows servers still starting after timeout - Initial prompts start immediately for Entra-authenticated sessions while token refresh runs in the background. - Choosing approve-for-location now persists tool approval to avoid repeat prompts - Large sessions resume without freezing the interface during context token counting - Configured hooks keep running after an extension restarts instead of silently stopping and later denying every tool call; the extension's own callback hooks resume once it re-registers - The `allowManagedHooksOnly` policy now also blocks extension-registered `preToolUse`, `postToolUse` and `postToolUseFailure` callbacks, which previously bypassed the managed-only lockdown that every other hook event already applied",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.84-2 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.84-2がリリースされ、すべてのユーザーに向けてVimモードが追加されました。また、Windowsサンドボックスの動作改善、既存セッション再開時の起動高速化、各種不具合の修正と機能改善が行われています。",
+    "changes": [
+      "Vimモードが全ユーザー向けに利用可能になり、`/vim` または `editorMode` 設定で有効化できるようになりました",
+      "サポートされているWindowsサンドボックスポリシーにおける対話型シェルコマンドのブロックアクセス記録とエスカレーション処理が改善されました",
+      "`--resume` を使用して既存のローカルセッションをUUIDで再開する際の起動が高速化されました",
+      "tmux、screen、リモートセッションにおける `ctrl+h` の削除挙動に関する修正が行われました",
+      "MCPサーバーがセッション接続時と追加時に同じcopilot-cliクライアント識別子を認識するようになりました"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T14:59:37Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T14:59:35Z"
   },
   {
     "id": "github-copilot-cli-383060810",
@@ -2202,34 +2306,5 @@
     "processed_at": "2026-09-26T08:40:54Z",
     "source_id": "m365-release-notes",
     "family": "microsoft365"
-  },
-  {
-    "id": "github-copilot-cli-397496781",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.89-5",
-    "published_at": "2026-09-27T03:36:32Z",
-    "title_original": "GitHub Copilot CLI v1.0.89-5",
-    "excerpt_original": "**Added** - Left-clicking supported ask_user and elicitation form inputs focuses them and places the cursor at the clicked position - Add support for Claude Code rule files in .claude/rules as custom instructions - Sessions in the sidebar show a blue dot when they finished a turn you have not opened yet **Fixed** - Extensions no longer fail to load under enterprise managed settings while managed MCP policy is still being applied - Fixed Git failures in applications launched from CLI shells when empty environment variables are dropped, on Git 2.36 or newer. - Sessions sidebar saves opened and closed tabs as they change, rather than only on exit - Agent shell commands in sandbox can access session files and logs",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.89-5 リリース",
-    "summary_ja": "GitHub Copilot CLIのバージョン1.0.89-5がリリースされました。今回のアップデートでは、フォーム入力操作の改善、Claude Codeのルールファイルへの対応、サイドバーのセッション表示機能の強化が行われています。また、エンタープライズ管理設定における拡張機能読み込みのエラーや、CLIシェルから起動したアプリケーションでのGit関連の不具合などが修正されました。",
-    "changes": [
-      "ask_userおよびelicitationフォームの入力欄で左クリックによるフォーカスとカーソル位置の指定に対応",
-      "カスタム指示として .claude/rules 内のClaude Codeルールファイルのサポートを追加",
-      "サイドバーのセッションにおいて、未開封のターンが完了した際に青いドットを表示するように変更",
-      "マネージドMCPポリシー適用中のエンタープライズ管理設定下で拡張機能の読み込みが失敗する問題を修正",
-      "Git 2.36以降において、CLIシェルから起動したアプリケーションで空の環境変数が除外されることに伴うGitの失敗を修正"
-    ],
-    "target_user": [
-      "developers",
-      "administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-09-27T09:54:39Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-09-27T09:54:38Z"
   }
 ]

@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 27 Sep 2026 09:54:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 14:59:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -189,54 +189,54 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] SharePoint: Changes to the FAQ web part authoring experience</title>
+      <title>[提供予定・ロードマップ] SharePoint：FAQ Webパーツのオーサリング体験の変更</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570647</link>
       <guid isPermaLink="false">m365-roadmap-875936a9d73ed6670743</guid>
       <pubDate>Wed, 09 Sep 2026 22:36:54 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will continue to render without migration. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570647"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;SharePointのFAQ Webパーツにおいて、手動での作成や編集などの標準的な非AI機能が提供されるようになります。AIを活用したFAQの作成およびインポート機能はCopilot in SharePointのオーサリング体験へ移行し、自然言語のプロンプトや指定したグラウンディングソースを使用してコンテンツを生成できるようになります。既存のFAQ Webパーツおよびそのコンテンツは、移行なしで引き続き表示されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;FAQ Webパーツの標準機能が手動での作成・編集・管理に変更される&lt;/li&gt;&lt;li&gt;AI支援によるFAQ作成とインポート機能がCopilot in SharePointへ移行する&lt;/li&gt;&lt;li&gt;既存のFAQ Webパーツおよびコンテンツは移行なしで引き続き動作する&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570647"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Outlook: Inline chat for email drafting</title>
+      <title>[提供予定・ロードマップ] Outlook: メール作成用インラインチャット</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570440</link>
       <guid isPermaLink="false">m365-roadmap-1de1d1f9651de9e8031f</guid>
       <pubDate>Wed, 09 Sep 2026 22:36:54 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Instead of opening Copilot Chat every time you want to use Copilot to draft a message, this change introduces an inline chat component that streamlines the process and lets you interact with Copilot without opening the sidebar. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570440"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Outlookのメール作成において、サイドバーを開くことなくCopilotと対話できるインラインチャットコンポーネントが導入されます。この変更により、メッセージ作成プロセスが効率化されます。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;メール作成時にサイドバーを開かずにCopilotを利用可能にするインラインチャットコンポーネントの追加&lt;/li&gt;&lt;li&gt;メッセージ作成プロセスの効率化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570440"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Teams: Meeting Shared Files</title>
+      <title>[提供予定・ロードマップ] Microsoft Teams：ミーティング共有ファイル機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570427</link>
       <guid isPermaLink="false">m365-roadmap-227c92063ebac7fcd0ec</guid>
       <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The new Meeting Shared Files feature allows users to add relevant files and links to their meeting for easy access and to automatically share that content with all meeting participants. AI in the meeting, like the Facilitator agent, uses these files for targeted grounding to answer questions and enhance skill functionality. GA date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570427"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Teams&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsに、ミーティングに関連するファイルやリンクを追加して参加者と自動共有できる「Meeting Shared Files」機能が追加されます。AI（Facilitatorエージェントなど）がこれらのファイルをターゲットグラウンディングに活用し、質問への回答やスキル機能の向上を支援します。一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ミーティングに関連するファイルやリンクを追加し、参加者間で自動共有が可能になる&lt;/li&gt;&lt;li&gt;Facilitatorエージェントなどのミーティング内AIが、追加されたファイルをターゲットグラウンディングに使用する&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570427"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Teams</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Viva: Copilot Analytics - Agent value insights in Agent 365 Dashboard</title>
+      <title>[提供予定・ロードマップ] Microsoft Viva：Copilot Analytics - Agent 365 ダッシュボードにおけるエージェント価値インサイト</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570847</link>
       <guid isPermaLink="false">m365-roadmap-fa538e868f2b76669881</guid>
       <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Customers can now view value insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). These insights help business leaders and change and adoption specialists understand not only whether agents are being used, but also the estimated assisted hours agents provide and the types of work contributing to that value. This update builds on the existing Agent 365 Dashboard adoption experience by connecting agent activity with a clearer view of the work agents support across the organization. GA date: October CY2026 Preview date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570847"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva InsightsのCopilot Analyticsにおいて、Agent 365 Dashboardで価値インサイトの閲覧が可能になりました。これにより、ビジネスリーダーや変革・定着化の専門家は、エージェントの利用状況だけでなく、推定アシスト時間や価値に寄与する業務の種類を把握できるようになります。本機能は、エージェントの活動と組織全体でのサポート業務をより明確に結びつけるものです。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent 365 Dashboardに価値インサイトの閲覧機能を追加&lt;/li&gt;&lt;li&gt;エージェントの推定アシスト時間や貢献する業務タイプの可視化に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570847"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Purview: Data Loss Prevention for Microsoft Cowork</title>
+      <title>[提供予定・ロードマップ] Microsoft Purview：Microsoft Cowork向けデータ損失防止（DLP）</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570845</link>
       <guid isPermaLink="false">m365-roadmap-f9eb61d3420151243c77</guid>
       <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by preventing the use of labeled knowledge sources, blocking prompts that contain supported sensitive information types, and restricting sensitive prompts from being sent to Bing for web search. GA date: October CY2026 Preview date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570845"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Loss Prevention（DLP）がMicrosoft Coworkに拡張され、管理者はMicrosoft 365 CopilotとCoworkの間で単一のポリシーを適用できるようになります。この統合により、機密性の高いラベル付きナレッジソースの利用防止、機密情報タイプを含むプロンプトのブロック、Bingでのウェブ検索への機密プロンプトの送信制限を通じて、AIインタラクションにおけるデータ保護が強化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Purview DLPがMicrosoft Coworkに対応し、Microsoft 365 Copilotと共通のポリシー運用が可能に&lt;/li&gt;&lt;li&gt;ラベル付きナレッジソースの利用防止や、サポートされている機密情報タイプを含むプロンプトのブロック機能を追加&lt;/li&gt;&lt;li&gt;Bingを用いたウェブ検索への機密プロンプトの送信を制限&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570845"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[Roadmap] Microsoft Copilot Studio: Deliver rich interactive app experiences in Copilot Studio agents</title>
