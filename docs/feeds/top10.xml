@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 14:16:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 09:54:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -37,6 +37,16 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.89-5 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-5</link>
+      <guid isPermaLink="false">github-copilot-cli-397496781</guid>
+      <pubDate>Sun, 27 Sep 2026 03:36:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.89-5がリリースされました。今回のアップデートでは、フォーム入力操作の改善、Claude Codeのルールファイルへの対応、サイドバーのセッション表示機能の強化が行われています。また、エンタープライズ管理設定における拡張機能読み込みのエラーや、CLIシェルから起動したアプリケーションでのGit関連の不具合などが修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ask_userおよびelicitationフォームの入力欄で左クリックによるフォーカスとカーソル位置の指定に対応&lt;/li&gt;&lt;li&gt;カスタム指示として .claude/rules 内のClaude Codeルールファイルのサポートを追加&lt;/li&gt;&lt;li&gt;サイドバーのセッションにおいて、未開封のターンが完了した際に青いドットを表示するように変更&lt;/li&gt;&lt;li&gt;マネージドMCPポリシー適用中のエンタープライズ管理設定下で拡張機能の読み込みが失敗する問題を修正&lt;/li&gt;&lt;li&gt;Git 2.36以降において、CLIシェルから起動したアプリケーションで空の環境変数が除外されることに伴うGitの失敗を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilotの企業管理設定向けプロダクト内バリデーター</title>
@@ -94,16 +104,6 @@
       <guid isPermaLink="false">github-changelog-2653f5794fb9985f870e</guid>
       <pubDate>Fri, 25 Sep 2026 17:25:50 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのエージェント型自動修正機能が、有効化しているユーザーに対してCopilot Memoryを利用できるようになりました。これにより、セキュリティアラートの解決を支援するコンテキストとして既存のメモリがレビューされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェント型自動修正機能でCopilot Memoryの利用が可能になりました&lt;/li&gt;&lt;li&gt;セキュリティアラート解決のためのコンテキストとして既存のメモリがレビューされます&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot 週次リリース (9月21日)</title>
-      <link>https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21</link>
-      <guid isPermaLink="false">github-changelog-48eaa8bbafaa8bc422c9</guid>
-      <pubDate>Fri, 25 Sep 2026 16:42:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの今週のリリースでは、新しいモデルの追加やCopilotアプリでのローカルサンドボックス機能が導入されました。また、Slack、Microsoft Teams、JetBrains、VS CodeにおけるCopilotのアップデートも含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilotへ新しいモデルを追加&lt;/li&gt;&lt;li&gt;Copilotアプリにローカルサンドボックス機能を追加&lt;/li&gt;&lt;li&gt;Slack、Microsoft Teams、JetBrains、VS CodeにおけるCopilotのアップデート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>medium</category>

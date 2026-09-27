@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 27 Sep 2026 00:21:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 09:54:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -159,34 +159,34 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] PowerPoint: Async Notifications for PowerPoint Agent (Windows Desktop)</title>
+      <title>[提供予定・ロードマップ] PowerPoint：PowerPoint Agent向け非同期通知（Windows Desktop）</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570437</link>
       <guid isPermaLink="false">m365-roadmap-26127eb687b1d4aa0f32</guid>
       <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570437"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ユーザーは作業の完了や注意が必要な際、Copilotからの通知を受け取れるようになります。これにより、PowerPointを離れたり、デバイスを切り替えたり、オフラインにしたり、一日の仕事を終えたりすることが可能です。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PowerPoint Agent向け非同期通知機能の追加&lt;/li&gt;&lt;li&gt;PowerPointを離れる、デバイスの切り替え、オフライン化、作業終了時におけるCopilotからの通知対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570437"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Word: Copilot edit mode is available to users in Office 365 GCC</title>
+      <title>[提供予定・ロードマップ] [ロードマップ] Word: Office 365 GCCユーザー向けCopilot編集モードの提供</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570277</link>
       <guid isPermaLink="false">m365-roadmap-0bf9c11184ef5565d433</guid>
       <pubDate>Fri, 11 Sep 2026 22:10:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Edit with Copilot in Word is now available to users in Office 365 GCC, enabling government customers to work with Copilot as a co-creator directly in your document to create, refine, and transform documents more efficiently. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570277"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのWordにおける編集モードが、Office 365 GCCのユーザー向けに提供開始されました。政府機関の顧客は、ドキュメント内でCopilotを共同作成者として利用し、効率的に文書の作成、洗練、変換を行うことができます。一般提供（GA）の時期は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Office 365 GCCユーザー向けにWordのEdit with Copilot機能を利用可能化&lt;/li&gt;&lt;li&gt;政府機関の顧客が文書の作成、洗練、変換を効率的に行える機能の提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570277"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot (Microsoft M365): Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint file</title>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: 埋め込み画像内のテキスト検索精度の向上</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570469</link>
       <guid isPermaLink="false">m365-roadmap-a014c9c462db3bde5737</guid>
       <pubDate>Thu, 10 Sep 2026 23:01:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint files is user&amp;#x27;s working files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570469"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Chatにおいて、Word、Excel、PowerPointファイル内に埋め込まれた画像内のテキストに対する検索結果のマッチング精度が向上しました。スキャンされた契約書、表のスクリーンショット、ホワイトボードの写真など、従来は検索や発見が困難だったコンテンツに対応します。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Word、Excel、PowerPoint内の埋め込み画像内にあるテキストに対するCopilot Chatの検索マッチング精度が向上&lt;/li&gt;&lt;li&gt;スキャンされた契約書、表のスクリーンショット、ホワイトボードの写真などのコンテンツ検索が可能に&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期は2026年10月を予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570469"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[Roadmap] SharePoint: Changes to the FAQ web part authoring experience</title>

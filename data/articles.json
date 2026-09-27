@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-cli-397496781",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.89-5",
+    "published_at": "2026-09-27T03:36:32Z",
+    "title_original": "GitHub Copilot CLI v1.0.89-5",
+    "excerpt_original": "**Added** - Left-clicking supported ask_user and elicitation form inputs focuses them and places the cursor at the clicked position - Add support for Claude Code rule files in .claude/rules as custom instructions - Sessions in the sidebar show a blue dot when they finished a turn you have not opened yet **Fixed** - Extensions no longer fail to load under enterprise managed settings while managed MCP policy is still being applied - Fixed Git failures in applications launched from CLI shells when empty environment variables are dropped, on Git 2.36 or newer. - Sessions sidebar saves opened and closed tabs as they change, rather than only on exit - Agent shell commands in sandbox can access session files and logs",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.89-5 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.89-5がリリースされました。今回のアップデートでは、フォーム入力操作の改善、Claude Codeのルールファイルへの対応、サイドバーのセッション表示機能の強化が行われています。また、エンタープライズ管理設定における拡張機能読み込みのエラーや、CLIシェルから起動したアプリケーションでのGit関連の不具合などが修正されました。",
+    "changes": [
+      "ask_userおよびelicitationフォームの入力欄で左クリックによるフォーカスとカーソル位置の指定に対応",
+      "カスタム指示として .claude/rules 内のClaude Codeルールファイルのサポートを追加",
+      "サイドバーのセッションにおいて、未開封のターンが完了した際に青いドットを表示するように変更",
+      "マネージドMCPポリシー適用中のエンタープライズ管理設定下で拡張機能の読み込みが失敗する問題を修正",
+      "Git 2.36以降において、CLIシェルから起動したアプリケーションで空の環境変数が除外されることに伴うGitの失敗を修正"
+    ],
+    "target_user": [
+      "developers",
+      "administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:39Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T09:54:38Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-changelog-07dade88210664e3a861",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
@@ -1139,16 +1169,23 @@
     "excerpt_original": "Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] PowerPoint：PowerPoint Agent向け非同期通知（Windows Desktop）",
+    "summary_ja": "ユーザーは作業の完了や注意が必要な際、Copilotからの通知を受け取れるようになります。これにより、PowerPointを離れたり、デバイスを切り替えたり、オフラインにしたり、一日の仕事を終えたりすることが可能です。一般提供（GA）は2026年10月を予定しています。",
+    "changes": [
+      "PowerPoint Agent向け非同期通知機能の追加",
+      "PowerPointを離れる、デバイスの切り替え、オフライン化、作業終了時におけるCopilotからの通知対応"
+    ],
+    "target_user": [
+      "Windows Desktopユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:40Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T09:54:39Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-389443522",
@@ -1158,16 +1195,27 @@
     "title_original": "GitHub Copilot CLI v1.0.84-9",
     "excerpt_original": "**Added** - Add /settings options to opt in to context management tools for agents and subagents **Improved** - Reduce metadata scanning time for large local session histories, with increased thread and memory use **Fixed** - End and Ctrl+E move the cursor to the true end of a wrapped line, so typing or Ctrl+K no longer edits one character early inside a long word or URL. On such a line the landing spot is the wrap boundary, so pressing End or Ctrl+E again advances to the end of the next visual row - `--share=~/notes.md` now writes the exported session to your home directory instead of creating a folder named `~` in the current directory - Modified chords such as Ctrl+X, Alt+X or capital X no longer trigger the /tasks letter shortcuts; only unmodified a, f, x, r, b, j and k respond. Enter, Escape, the arrow keys and Ctrl+G / Ctrl+P / Ctrl+N are unaffected - Scheduled prompts show an error when they fail at runtime - CLI retries image prompts without images when providers reject image-limit requests - Authenticated model lists refresh after startup auth hydration - MCP servers no longer fail to load when the CLI is connected to a running IDE. The in-process IDE bridge was rejected by config validation, which failed the plugin reload and restricted the session - `copilot init` now removes the `.github` directory it created when the run exits without writing an instructions file. - MCP turns continue even if tool list refresh fails after a tool change - MCP servers keep correct workspace source labels after trusting a folder - An editor or shell that leaves mouse tracking on no longer leaves your terminal reporting clicks, during the session or after the CLI exits - The /permissions picker marks Allow all when --allow-all-tools, --allow-all-paths and --allow-all-urls are all set - Resumed sessions show completed reasoning as Thought instead of Thinking… - copilot --help describes the --no-* options again, and --no-auto-update says it runs the version bundled in the binary. --no-auto-login and --no-sandbox stay supported but remain hidden from help, as they were before the clap port - Restore keyboard input and screen output on macOS and Linux when you return from an external editor that reset the terminal",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.84-9 のアップデート",
+    "summary_ja": "GitHub Copilot CLI v1.0.84-9では、エージェントおよびサブエージェント向けのコンテキスト管理ツールを設定するオプトインオプションが追加されました。また、大規模なローカルセッション履歴におけるメタデータスキャン時間の短縮や、カーソル移動、MCPサーバーの読み込みに関する複数の不具合が修正されています。",
+    "changes": [
+      "エージェントやサブエージェントのコンテキスト管理ツールを有効化するための /settings オプションを追加",
+      "大規模なローカルセッション履歴に対するメタデータスキャン時間を短縮 (スレッドとメモリ使用量は増加)",
+      "折り返し行における End キーや Ctrl+E によるカーソル移動の動作を修正",
+      "--share=~/notes.md がカレントディレクトリに `~` フォルダを作成するのではなくホームディレクトリへ書き込むように変更",
+      "ID E接続時の設定検証エラーによる MCP サーバーの読み込み失敗を修正"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:42Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T09:54:40Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-blog-f56099827510547fa8b8",
@@ -1178,15 +1226,23 @@
     "excerpt_original": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on AI at Work Blog .",
     "product": "Microsoft 365 Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "Microsoft 365 G7の発表：政府機関向けのインテリジェンスと信頼性",
+    "summary_ja": "Microsoft 365 G7は、AI、Copilot、エージェントガバナンス、セキュリティ、コンプライアンスを統合し、政府機関の安全な近代化を支援します。本機能により、政府組織はミッションに向けてインテリジェンスと信頼性を高めることが可能です。",
+    "changes": [
+      "AI、Copilot、エージェントガバナンス、セキュリティ、コンプライアンスの統合",
+      "政府機関の安全な近代化の支援"
+    ],
+    "target_user": [
+      "政府機関",
+      "政府組織"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:43Z",
     "source_id": "m365-blog",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T09:54:42Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-388796513",
@@ -1196,16 +1252,25 @@
     "title_original": "GitHub Copilot CLI v1.0.84-8",
     "excerpt_original": "**Added** - Set transcriptView to \"concise\" to group tool activity into expandable work summaries. **Improved** - Pause and resume Agent Factory runs from the /factories dialog **Fixed** - Model lists refresh after signing in, switching accounts, or signing out",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.84-8 のアップデート",
+    "summary_ja": "GitHub Copilot CLI v1.0.84-8がリリースされました。 transcriptViewを「concise」に設定してツールのアactivityを展開可能な作業概要にグループ化できるようになり、Agent Factoryの実行の一時停止と再開機能が改善され、サインインやアカウント切り替え時のモデルリストの更新に関する不具合が修正されました。",
+    "changes": [
+      "transcriptViewを「concise」に設定することで、ツールのアクティビティを展開可能な作業概要にグループ化できるように機能を追加",
+      "/factoriesダイアログからAgent Factoryの実行を一時停止および再開できるように改善",
+      "サインイン、アカウントの切り替え、またはサインアウトを行った後にモデルリストが更新されるように修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:44Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T09:54:43Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-388754125",
@@ -1216,15 +1281,23 @@
     "excerpt_original": "**Fixed** - Fixed the thinking shape sent to Claude models classified as adaptive-only: they now stay adaptive instead of failing (turning thinking off lowers reasoning effort instead), and reasoning effort is capped at high whenever thinking is disabled - Run sessionEnd hooks when /clear closes an interactive session",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot CLI v1.0.84-7のリリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.84-7がリリースされました。Claudeモデル送信時の思考形状に関する不具合の修正や、インタラクティブセッション終了時のフック実行に関する改善が含まれています。",
+    "changes": [
+      "アダプティブ専用に分類されたClaudeモデルへ送信される思考形状の不具合を修正し、失敗せずにアダプティブを維持するように変更（思考が無効な場合は推論負荷がhighに上限設定される）",
+      "/clearコマンドでインタラクティブセッションが終了した際にsessionEndフックを実行するように変更"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:45Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T09:54:44Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-388559614",
@@ -1235,15 +1308,26 @@
     "excerpt_original": "**Added** - Add /config to open a sidebar configuration screen in the CLI - Add /sandbox Network host allow/deny rules without replacing your configured upstream proxy **Improved** - Apply managed Edit and Write rules to recognized native shell redirections and supported in-place sed operations - Show active scheduled prompts in the CLI footer by default - Use /worktree, /move, and --worktree without enabling experimental mode - Make /collect-debug-logs and --collect-debug-logs available to all users - /sandbox disable turns the sandbox off for the current session when your organization's policy allows bypass **Fixed** - Plugin agents expand ${PLUGIN_ROOT} placeholders in mcp-servers frontmatter - Skills from directories added with --add-dir are no longer missing when a skills load races the directory registration - A relative `--additional-mcp-config @<file>` path now resolves against the session working directory under `--resume=<id>` and `--worktree` instead of the launch directory, and `~/` expands. - Windows sandbox denials of loopback and local network access prompt to re-run the command outside the sandbox - Approved sandbox retries are labeled sandbox relaxed while network policy stays enforced, or sandbox bypassed when fully unsandboxed; failed bypasses explain that host permissions still apply - Cancelling an MCP tool call now notifies the MCP server and cleanly ends the turn. - Scrolling the wheel with mouse capture off no longer walks backwards through prompt history in terminals that report DEC private mode 1007 (alternate scroll), such as Ghostty - MCP OAuth requests additional scopes when needed and retries the tool call - Changing reasoning effort now takes effect before the next logical request in an active turn, while retries keep their original effort - Automatic compaction now saves a checkpoint that appears in /session checkpoints - Windows CLI artifacts run without requiring the Visual C++ Redistributable - Keep terminal theme colors consistent at startup and during live appearance changes - Interactive mode submits startup prompts even when model discovery is still loading. - MCP tools with boolean property or array-item schemas work with Gemini instead of causing a 400 error - An enterprise-managed sandbox policy delivered by MDM or a managed settings file no longer discards sandbox.allowBypass, so bypass prompts and /sandbox disable work as the policy intends - The managed sandbox startup notice no longer says sandboxing can't be turned off when your organization's policy allows a session opt-out; it names /sandbox disable instead - Viewing or attaching an image in a format the model cannot read, such as BMP or TIFF, no longer leaves the session unable to send any further message; the image is now reported as an unsupported format that you can convert to PNG, JPEG, WebP or GIF - The YOLO status indicator reflects the active session after switching sessions - Computer Use now stays in sync across /computer and whole-plugin /plugin toggles. - Pressing Enter in the Sessions tab now foregrounds the highlighted session, even when a background refresh rebuilds the list at that moment, instead of sometimes opening a different session - Indexed search on Windows prevents new disk-space leaks when updating indexes - Keep long /ask responses visible after generation completes - When session history is truncated or compacted just as a turn finishes, the \"Working\" indicator now clears instead of staying up for the rest of the session - COPILOT_ALLOW_ALL no longer refuses to start the CLI on values such as 1, 0, yes or an empty string, and falsey values now disable automatic tool approval instead of enabling it",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot CLI v1.0.84-6 のアップデート",
+    "summary_ja": "GitHub Copilot CLI v1.0.84-6がリリースされ、設定用サイドバーやネットワーク許可・拒否ルールなどの新機能が追加されました。また、各種機能の改善や、MCP、サンドボックス、Windows環境などにおける多数の不具合修正が行われています。",
+    "changes": [
+      "CLIにサイドバー設定画面を開く /config コマンドを追加しました。",
+      "上流プロキシを置き換えることなくネットワークホストの許可・拒否ルールを設定できる /sandbox を追加しました。",
+      "マネージドな Edit および Write ルールを認識されたネイティブのシェルリダイレクションやインプレースの sed 操作に適用するように改善しました。",
+      "CLIのフッターにアクティブなスケジュール済みプロンプトをデフォルトで表示するようにしました。",
+      "/worktree、/move、および --worktree を実験的モードの有効化なしで使用可能にしました。"
+    ],
+    "target_user": [
+      "Developer",
+      "CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:47Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T09:54:45Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-0bf9c11184ef5565d433",
@@ -1254,16 +1338,24 @@
     "excerpt_original": "Edit with Copilot in Word is now available to users in Office 365 GCC, enabling government customers to work with Copilot as a co-creator directly in your document to create, refine, and transform documents more efficiently. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] [ロードマップ] Word: Office 365 GCCユーザー向けCopilot編集モードの提供",
+    "summary_ja": "Microsoft 365 CopilotのWordにおける編集モードが、Office 365 GCCのユーザー向けに提供開始されました。政府機関の顧客は、ドキュメント内でCopilotを共同作成者として利用し、効率的に文書の作成、洗練、変換を行うことができます。一般提供（GA）の時期は2026年10月を予定しています。",
+    "changes": [
+      "Office 365 GCCユーザー向けにWordのEdit with Copilot機能を利用可能化",
+      "政府機関の顧客が文書の作成、洗練、変換を効率的に行える機能の提供"
+    ],
+    "target_user": [
+      "Office 365 GCC users",
+      "Government customers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:48Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T09:54:47Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-387355425",
@@ -1274,15 +1366,26 @@
     "excerpt_original": "**Added** - Add session and memory import commands for the semantic JSONL interchange format **Improved** - Shell completions are generated from the same grammar the CLI parses with, so `copilot <TAB>` offers root flags alongside subcommands and each subcommand offers only its own options - Command-line parsing moved from Commander to a Rust grammar; error and help wording changed, `copilot login --host` now works, and `--max-autopilot-continues` no longer accepts scientific notation - Show /sandbox filesystem paths as absolute paths; typing ~/path still expands to your home directory - Move the /sandbox Filesystem paths into their own list, opened from a Paths row - Show trust status, tier, and eligibility details for online resource catalogue results - /usage shows per-model AI Credit consumption in usage breakdowns - Improve /sandbox guidance and show /sandbox policy in command help **Fixed** - Subagent launches honor explicit model, reasoning effort, and context tier preferences from applicable global and custom instructions - A failed command whose EPERM or EACCES diagnostic names a sandbox-blocked path now offers to run outside the sandbox, even when the command line never named that path - A write blocked by a read-only sandbox path, and a Node or Go network failure blocked by the sandbox, are now recognized as sandbox denials instead of surfacing as raw errors - Report in-memory MCP servers as memory instead of local in copilot mcp list - /compact no longer reports an empty model response when a valid summary was returned - Streaming responses preserve message chunk ordering before final output. - Retry responses keep the correct streamed message and reasoning after mid-stream model failures - Workspace .mcp.json servers load correctly after trusting a folder on startup - When image-heavy requests exceed model limits, user-provided images are prioritized over tool-generated images, newer messages are kept first, and the CLI reports any removals. - Plugin-contributed agents discovered by the CLI can now be selected and run. - Fixed same-turn MCP tool-list refresh after received change notifications, including modern subscription-based servers. - The remote session timeline entry now advertises ctrl+o to show or hide the QR code, matching the key that actually toggles it",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot CLI v1.0.84-5 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョンv1.0.84-5がリリースされました。本アップデートでは、セッションおよびメモリのインポート機能の追加や、Rust文法へのコマンドライン解析の移行による挙動の改善が行われています。また、サンドボックス環境やMCPサーバーに関連する複数の不具合修正も含まれています。",
+    "changes": [
+      "セみがンティックJSONL交換形式に対応するセッションおよびメモリのインポートコマンドを追加",
+      "コマンドライン解析をCommanderからRust文法へ移行し、エラー・ヘルプ文言の変更や特定のオプション挙動を修正",
+      "/sandboxファイルシステムのパス表示を改善し、独立したリストとして表示するように変更",
+      "サブエージェント起動時に、グローバルおよびカスタム指示からのモデル、推論負荷、コンテキスト階層の設定が適用されるよう修正",
+      "サンドボックスによるブロックやNode/Goのネットワーク障害をサンドボックス拒否として正しく認識するように修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:50Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T09:54:48Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-a014c9c462db3bde5737",
@@ -1293,16 +1396,24 @@
     "excerpt_original": "Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint files is user's working files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: 埋め込み画像内のテキスト検索精度の向上",
+    "summary_ja": "Microsoft 365 CopilotのCopilot Chatにおいて、Word、Excel、PowerPointファイル内に埋め込まれた画像内のテキストに対する検索結果のマッチング精度が向上しました。スキャンされた契約書、表のスクリーンショット、ホワイトボードの写真など、従来は検索や発見が困難だったコンテンツに対応します。一般提供（GA）は2026年10月を予定しています。",
+    "changes": [
+      "Word、Excel、PowerPoint内の埋め込み画像内にあるテキストに対するCopilot Chatの検索マッチング精度が向上",
+      "スキャンされた契約書、表のスクリーンショット、ホワイトボードの写真などのコンテンツ検索が可能に",
+      "一般提供（GA）の時期は2026年10月を予定"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T09:54:52Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T09:54:50Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-386484452",
