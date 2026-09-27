@@ -832,16 +832,21 @@
     "title_original": "GitHub Copilot CLI v1.0.86-2",
     "excerpt_original": "Fixes and changes",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.86-2のリリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.86-2がリリースされました。今回のリリースには、各種の修正と変更が含まれています。",
+    "changes": [
+      "不具合の修正と変更の適用"
+    ],
+    "target_user": [
+      "developers"
+    ],
     "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:41Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T00:21:40Z"
   },
   {
     "id": "github-copilot-cli-390287381",
@@ -851,16 +856,26 @@
     "title_original": "GitHub Copilot CLI v1.0.86-1",
     "excerpt_original": "**Added** - Custom agents can opt into repository instruction files (AGENTS.md, copilot-instructions.md, CLAUDE.md) by setting `include-custom-instructions: true` in their frontmatter. **Fixed** - Resuming an active session without plugin-directory, discovery, or working-directory overrides preserves marketplace plugins and skills after reload. Configuration read or validation failures no longer discard active plugins; missing-file and intentional-removal behavior is unchanged. - /sandbox policy now reports local-network access using your configured setting - The status row now says it is waiting for background shells, instead of \"Working\", when a turn ends while an attached background shell such as a dev server is still running.",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.86-1 のアップデート",
+    "summary_ja": "GitHub Copilot CLI v1.0.86-1がリリースされました。カスタムエージェントがリポジトリの指示ファイルをオプトインできるようになり、アクティブセッションの再開時におけるプラグインやスキルの維持機能が修正されました。また、sandboxポリシーのローカルネットワークアクセス表示や、バックグラウンドシェル実行中のステータス表示が改善されています。",
+    "changes": [
+      "カスタムエージェントのフロントマターに `include-custom-instructions: true` を設定することで、リポジトリの指示ファイル（AGENTS.md、copilot-instructions.md、CLAUDE.md）をオプトインできるように追加",
+      "プラグインディレクトリ、ディスカバリー、作業ディレクトリのオーバーライドなしでアクティブセッションを再開した際に、再読み込み後もマーケットプレイスのプラグインとスキルが維持されるように修正",
+      "設定の読み込みや検証の失敗時にアクティブなプラグインが破棄されないよう変更（ファイルの欠損や意図的な削除の動作は変更なし）",
+      "/sandboxポリシーが設定済みの構成を使用してローカルネットワークアクセスをレポートするように変更",
+      "アタッチされたバックグラウンドシェル（開発サーバーなど）が実行中のままターンが終了した場合、ステータス行の表示を「Working」からバックグラウンドシェルの待機中であることを示す表示に変更"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:43Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T00:21:41Z"
   },
   {
     "id": "github-copilot-cli-389928292",
@@ -871,15 +886,22 @@
     "excerpt_original": "**Fixed** - Resume sessions even when transcript files contain recoverable corruption - Expanded reasoning text in the compact timeline is no longer dimmed, so it is as readable as the rest of the timeline. - Autopilot stops after accepted task completion instead of continuing unexpectedly",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot CLI v1.0.86-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.86-0がリリースされました。トランスクリプトファイルに修復可能な破損が含まれている場合のセッション再開機能の修正や、コンパクトタイムライン内の拡張推論テキストの視認性向上が含まれています。また、受け入れられたタスク完了後にAutopilotが予期せず継続する問題が修正されました。",
+    "changes": [
+      "トランスクリプトファイルに修復可能な破損がある場合でもセッションを再開できるように修正",
+      "コンパクトタイムライン内の拡張推論テキストのディミングを解除し、他のタイムラインと同等の可読性を確保",
+      "受け入れられたタスクの完了後にAutopilotが予期せず継続する動作を修正"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:44Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T00:21:43Z"
   },
   {
     "id": "github-copilot-cli-389603482",
@@ -890,15 +912,24 @@
     "excerpt_original": "2026-09-16 - Vim mode is now available to everyone. Turn it on with `/vim` or by setting `editorMode` to `vim` for modal editing in the composer, with the current mode shown while you type. - Add /settings options to opt in to context management tools for agents and subagents - Set transcriptView to \"concise\" to group tool activity into expandable work summaries. - Add /config to open a sidebar configuration screen in the CLI - Add /sandbox Network host allow/deny rules without replacing your configured upstream proxy - Add session and memory import commands for the semantic JSONL interchange format - Add `copilot instruction list` and `copilot lsp list`, replacing `copilot plugins list --kind instruction` and `--kind lsp` - Add `--json` to `copilot plugin list`, `copilot plugin marketplace list` and `copilot plugin marketplace browse` - Add `enable` and `disable` to `copilot plugin`, `copilot mcp` and `copilot skill`, replacing `copilot plugins enable/disable --plugin|--mcp|--skill` - Add support for GPT-6 Astra - Managed sandbox sessions can now be disabled for the rest of the session from an approved bypass prompt. - --add-dir rejects non-directory and inaccessible paths uniformly and aborts startup before session initialization - Streamer mode masks internal model names in /model, the footer, and startup diagnostics without restarting model initialization on toggles - Fixed the one-command sandbox bypass on Windows: when the sandbox container refuses a policy-blocked write for want of a privilege, approving the bypass now runs the command instead of stopping after the permissive retry, so it no longer takes disabling the sandbox for the whole session - Respect terminal color themes even when palettes are incomplete - Failed new-session handoffs stop unused clients from polling and preserve the current session, schedules, and unsent prompt. - Earlier messages remain visible when switching back to a background session with frequent hooks. - End and Ctrl+E move the cursor to the true end of a wrapped line, so typing or Ctrl+K no longer edits one character early inside a long word or URL. On such a line the landing spot is the wrap boundary, so pressing End or Ctrl+E again advances to the end of the next visual row - `--share=~/notes.md` now writes the exported session to your home directory instead of creating a folder named `~` in the current directory - Modified chords such as Ctrl+X, Alt+X or capital X no longer trigger the /tasks letter shortcuts; only unmodified a, f, x, r, b, j and k respond. Enter, Escape, the arrow keys and Ctrl+G / Ctrl+P / Ctrl+N are unaffected - Scheduled prompts show an error when they fail at runtime - CLI retries image prompts without images when providers reject image-limit requests - Authenticated model lists refresh after startup auth hydration - MCP servers no longer fail to load when the CLI is connected to a running IDE. The in-process IDE bridge was rejected by config validation, which failed the plugin reload and restricted the session - `copilot init` now removes the `.github` directory it created when the run exits without writing an instructions file. - MCP turns continue even if tool list refresh fails after a tool change - MCP servers keep correct workspace source labels after trusting a folder - An editor or shell that leaves mouse tracking on no longer leaves your terminal reporting clicks, during the session or after the CLI exits - The /permissions picker marks Allow all when --allow-all-tools, --allow-all-paths and --allow-all-urls are all set - Resumed sessions show completed reasoning as Thought instead of Thinking… - copilot --help describes the --no-\\* options again, and --no-auto-update says it runs the version bundled in the binary. --no-auto-login and --no-sandbox stay supported but remain hidden from help, as they were before the clap port - Restore keyboard input and screen output on macOS and Linux when you return from an external editor that reset the terminal - Model lists refresh after signing in, switching accounts, or signing out - Fixed the thinking shape sent to Claude models classified as adaptive-only: they now stay adaptive instead of failing (turning thinking off lowers reasoning effort instead), and reasoning effort is capped at high whenever thinking is disabled - Run sessionEnd hooks when /clear closes an interactive session - Plugin agents expand ${PLUGIN_ROOT} placeholders in mcp-servers frontmatter - Skills from directories added with --add-dir are no longer missing when a skills load races the directory registration - A relative `--additional-mcp-config @ ` path now resolves against the session working directory under `--resume= ` and `--worktree` instead of the launch directory, and `~/` expands. - Windows sandbox denials of loopback and local network access prompt to re-run the command outside the sandbox - Approved sandbox retries are labeled sandbox relaxed while network policy stays enforced, or sandbox bypassed when fully unsandboxed; failed bypasses explain that host permissions still apply - Cancelling an MCP tool call now notifies the MCP server and cleanly ends the turn. - Scrolling the wheel with mouse capture off no longer walks backwards through prompt history in terminals that report DEC private mode 1007 (alternate scroll), such as Ghostty - MCP OAuth requests additional scopes when needed and retries the tool call - Changing reasoning effort now takes effect before the next logical request in an active turn, while retries keep their original effort - Automatic compaction now saves a checkpoint that appears in /session checkpoints - Windows CLI artifacts run without requiring the Visual C++ Redistributable - Keep terminal theme colors consistent at startup and during live appearance changes - Interactive mode submits startup prompts even when model discovery is still loading. - MCP tools with boolean property or array-item schemas work with Gemini instead of causing a 400 error - An enterprise-managed sandbox policy delivered by MDM or a managed settings file no longer discards sandbox.allowBypass, so bypass prompts and /sandbox disable work as the policy intends - The managed sandbox startup notice no longer says sandboxing can't be turned off when your organization's policy allows a session opt-out; it names /sandbox disable instead - Viewing or attaching an image in a format the model cannot read, such as BMP or TIFF, no longer leaves the session unable to send any further message; the image is now reported as an unsupported format that you can convert to PNG, JPEG, WebP or GIF - The YOLO status indicator reflects the active session after switching sessions - Computer Use now stays in sync across /computer and whole-plugin /plugin toggles. - Pressing Enter in the Sessions tab now foregrounds the highlighted session, even when a background refresh rebuilds the list at that moment, instead of sometimes opening a different session - Indexed search on Windows prevents new disk-space leaks when updating indexes - Keep long /ask responses visible after generation completes - When session history is truncated or compacted just as a turn finishes, the \"Working\" indicator now clears instead of staying up for the rest of the session - COPILOT_ALLOW_ALL no longer refuses to start the CLI on values such as 1, 0, yes or an empty string, and falsey values now disable automatic tool approval instead of enabling it - Subagent launches honor explicit model, reasoning effort, and context tier preferences from applicable global and custom instructions - A failed command whose EPERM or EACCES diagnostic names a sandbox-blocked path now offers to run outside the sandbox, even when the command line never named that path - A write blocked by a read-only sandbox path, and a Node or Go network failure blocked by the sandbox, are now recognized as sandbox denials instead of surfacing as raw errors - Report in-memory MCP servers as memory instead of local in copilot mcp list - /compact no longer reports an empty model response when a valid summary was returned - Streaming responses preserve message chunk ordering before final output. - Retry responses keep the correct streamed message and reasoning after mid-stream model failures - Workspace .mcp.json servers load correctly after trusting a folder on startup - When image-heavy requests exceed model limits, user-provided images are prioritized over tool-generated images, newer messages are kept first, and the CLI reports any removals. - Plugin-contributed agents discovered by the CLI can now be selected and run. - Fixed same-turn MCP tool-list refresh after received change notifications, including modern subscription-based servers. - The remote session timeline entry now advertises ctrl+o to show or hide the QR code, matching the key that actually toggles it - Show when sandboxing is only enabled for the current session in /sandbox status and settings. - Interactive --yolo startup remains available before authentication when no managed policy evidence is present - Indexed search shows when enabled, works on Windows ReFS volumes, supports explicit cloud-sync overrides, and keeps refreshing on Linux when native file watches are exhausted. - /copy includes task completion messages when available - OAuth-authenticated MCP servers connect reliably during session startup - `ctrl+h` no longer deletes a whole word in tmux, screen, and remote sessions that carry a Windows Terminal `WT_SESSION` from elsewhere. As an accepted tradeoff, `ctrl+backspace` now deletes a single character in those sessions — including a genuinely local Windows tmux or screen pane — where `ctrl+w` still deletes a word - MCP servers now see the same copilot-cli client identity when you add a server and when a session connects, carrying the shipped CLI version instead of 0.0.0 - Interactive mode starts and submits the initial prompt when using --auth-token-env - Use /settings taskbarPresence false to disable Windows taskbar sess",
     "product": "GitHub Copilot CLI",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": "2026-09-26T08:40:54Z",
+    "title_ja": "GitHub Copilot CLI v1.0.85 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.85がリリースされ、Vimモードの一般提供や新しい設定・管理コマンドの追加が行われました。さらに、サンドボックス機能、MCP、プラグイン、およびWindows環境に関連する多数のバグ修正と動作改善が含まれています。",
+    "changes": [
+      "すべてのユーザーがVimモードを利用可能になり、`/vim` または `editorMode` 設定で有効化できるようになりました。",
+      "コンテキスト管理ツール、設定サイドバー、ネットワークホストの許可/拒否ルールを追加するための新しい `/settings` および `/config` オプションが追加されました。",
+      "GPT-6 Astra モデルのサポートが追加されました。",
+      "Windows環境での1コマンドサンドボックスバイパスの修正や、Visual C++ RedistributableなしでのCLI成果物の実行対応が行われました。"
+    ],
+    "target_user": [
+      "Developer",
+      "CLI User"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:45Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-09-27T00:21:44Z"
   },
   {
     "id": "m365-roadmap-832c68740f5301674f0d",
@@ -909,16 +940,23 @@
     "excerpt_original": "We’re introducing the new readiness for Microsoft Copilot and data explorer experiences in Microsoft Purview Data Security Posture Management (DSPM). These new capabilities provide data security teams with greater visibility into their organization’s data security posture and help them assess risks, investigate findings, and prioritize remediation. The readiness for Microsoft Copilot experience in Purview DSPM helps organizations assess and improve their data readiness for Microsoft Copilot. It brings together insights into sensitive data exposure, oversharing, and protection coverage, helping security teams identify risks and assess progress toward a more secure Microsoft Copilot deployment. The new data explorer experience in Purview DSPM provides a centralized investigation experience that helps organizations understand where sensitive data exists across sites, review site-level access, and explore relevant data through preset views. It brings together sites, sensitive data, and preset views, to support more efficient investigations and reduce context switching. GA date: January CY2027 Preview date: November CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Purview DSPMにおけるCopilot ReadinessおよびData Explorerの導入",
+    "summary_ja": "Microsoft Purview Data Security Posture Management（DSPM）に、Microsoft Copilotの準備状況を評価する機能と、データエクスプローラー体験が新たに導入されます。これにより、セキュリティチームは組織のデータセキュリティ体制の可視化、リスク評価、調査、および修復の優先順位付けを行うことが可能になります。本機能は2026年11月にプレビュー版の提供が開始され、2027年1月に一般提供（GA）が予定されています。",
+    "changes": [
+      "Microsoft Copilot向けのデータ準備状況を評価・改善する機能の追加",
+      "機密データの所在確認やサイトレベルのアクセス確認を行う中央集約型のデータエクスプローラー機能の追加"
+    ],
+    "target_user": [
+      "データセキュリティチーム",
+      "セキュリティ管理者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:46Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T00:21:45Z"
   },
   {
     "id": "m365-roadmap-9b5c4810fb5769c659d4",
@@ -929,16 +967,23 @@
     "excerpt_original": "Get answers without leaving search. As you type in the Teams search bar, you'll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot conversation, helping you quickly find information, get answers, and ask follow-up questions in context. GA date: November CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams: モバイルの検索機能からCopilotへ直接質問が可能に",
+    "summary_ja": "Microsoft Teamsのモバイル版検索バーにおいて、検索結果と一緒にCopilotへ質問するオプションが表示されるようになります。検索結果ページから直接Copilotとの会話に移行し、情報の検索や回答の取得、追加の質問をその場で行うことが可能です。本機能は2026年11月に一般提供（GA）が予定されています。",
+    "changes": [
+      "Teamsの検索バーへの入力時にCopilotへ質問するオプションを表示",
+      "検索結果ページから検索クエリをCopilotの会話に変換可能",
+      "情報検索や回答の取得、文脈に応じた追加の質問をサポート"
+    ],
+    "target_user": [
+      "Microsoft Teams Mobile Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:48Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T00:21:46Z"
   },
   {
     "id": "m365-roadmap-f2b9744f016dc66c43d9",
@@ -949,16 +994,23 @@
     "excerpt_original": "Now makers will have clear visibility into their consumption costs directly within Monitor tab at both a per-agent level and an estimated breakdown of those costs across the agents lifecylce. This will allow makers to see costs distributed across activities such as authoring, testing, evaluations, and production usage, helping connect overall consumption to specific actions and experiences. GA date: September CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio：Monitorタブにおけるコスト可視化",
+    "summary_ja": "Microsoft Copilot StudioのMonitorタブにおいて、エージェントごとの消費コストやライフサイクル全体にわたる推定内訳の可視化が可能になります。作成者は、オーサリング、テスト、評価、本番利用などのアクティビティ全体にわたるコストの分散を確認できるようになります。",
+    "changes": [
+      "Monitorタブでの消費コストの直接的な可視化",
+      "エージェントごとのコスト表示",
+      "ライフサイクル全体（オーサリング、テスト、評価、本番利用など）にわたるコストの推定内訳の表示"
+    ],
+    "target_user": [
+      "makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:49Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T00:21:48Z"
   },
   {
     "id": "m365-roadmap-b44bb7647a37dc80ff67",
@@ -969,16 +1021,22 @@
     "excerpt_original": "Now makers will have clear visibility into their consumption costs directly associated with their evaluations, including a breakdown of usage for eval generation, test runs and model grading/judgement. Makers can see the costs as they test, iterate, and review conversations, making usage transparent throughout the development lifecycle. GA date: September CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio：エージェント評価におけるコストの可視化",
+    "summary_ja": "Microsoft Copilot Studioのエージェント評価機能において、消費コストの明確な可視化が可能になります。作成者は評価生成、テスト実行、モデルの採点および判定に関する使用状況の内訳をテストや反復作業の段階で確認できるようになります。",
+    "changes": [
+      "評価生成、テスト実行、モデルの採点・判定における使用状況の内訳表示機能を追加",
+      "開発ライフサイクル全体を通じたコストの透明性向上"
+    ],
+    "target_user": [
+      "Makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:50Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T00:21:49Z"
   },
   {
     "id": "m365-roadmap-54f8637ef68ceaca8c0d",
@@ -989,16 +1047,23 @@
     "excerpt_original": "Now makers will have clear visibility into their consumption costs directly within preview tab and agent history for their preview/testing usage as well as all every historical run. Makers can see the costs as they test, iterate, and review conversations, making usage costs transparent throughout the development experience. GA date: September CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: プレビューチャットと履歴におけるコスト可視化機能",
+    "summary_ja": "Microsoft Copilot Studioにおいて、メイカーはプレビュータブおよびエージェントの履歴内で消費コストを直接確認できるようになります。テスト、反復、会話のレビューを通じてコストが可視化され、開発プロセス全体を通して利用コストの透明性が向上します。一般提供（GA）は2026年9月を予定しています。",
+    "changes": [
+      "プレビュータブおよびエージェントの履歴内で消費コストの表示に対応",
+      "テスト時や過去の実行履歴全体におけるコストの確認が可能",
+      "一般提供（GA）の時期は2026年9月を予定"
+    ],
+    "target_user": [
+      "makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:51Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T00:21:50Z"
   },
   {
     "id": "m365-roadmap-02dcfc8cd82141e550d4",
@@ -1009,16 +1074,21 @@
     "excerpt_original": "Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] PowerPoint：PowerPoint Agent向け非同期通知（Web）",
+    "summary_ja": "PowerPointにおけるCopilotの機能として、非同期通知のサポートが追加されます。これにより、ユーザーは作業の完了や注意が必要な際のお知らせを受け取ることができます。",
+    "changes": [
+      "PowerPoint AgentのWeb版で非同期通知機能が利用可能になる"
+    ],
+    "target_user": [
+      "PowerPointユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-27T00:21:52Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-27T00:21:51Z"
   },
   {
     "id": "m365-roadmap-26127eb687b1d4aa0f32",

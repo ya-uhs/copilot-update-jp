@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 14:16:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:21:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -119,64 +119,64 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Purview: DSPM-Copilot Readiness and Data Explorer</title>
+      <title>[提供予定・ロードマップ] Microsoft Purview DSPMにおけるCopilot ReadinessおよびData Explorerの導入</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571157</link>
       <guid isPermaLink="false">m365-roadmap-832c68740f5301674f0d</guid>
       <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;We’re introducing the new readiness for Microsoft Copilot and data explorer experiences in Microsoft Purview Data Security Posture Management (DSPM). These new capabilities provide data security teams with greater visibility into their organization’s data security posture and help them assess risks, investigate findings, and prioritize remediation. The readiness for Microsoft Copilot experience in Purview DSPM helps organizations assess and improve their data readiness for Microsoft Copilot. It brings together insights into sensitive data exposure, oversharing, and protection coverage, helping security teams identify risks and assess progress toward a more secure Microsoft Copilot deployment. The new data explorer experience in Purview DSPM provides a centralized investigation experience that helps organizations understand where sensitive data exists across sites, review site-level access, and explore relevant data through preset views. It brings together sites, sensitive data, and preset views, to support more efficient investigations and reduce context switching. GA date: January CY2027 Preview date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571157"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Security Posture Management（DSPM）に、Microsoft Copilotの準備状況を評価する機能と、データエクスプローラー体験が新たに導入されます。これにより、セキュリティチームは組織のデータセキュリティ体制の可視化、リスク評価、調査、および修復の優先順位付けを行うことが可能になります。本機能は2026年11月にプレビュー版の提供が開始され、2027年1月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Copilot向けのデータ準備状況を評価・改善する機能の追加&lt;/li&gt;&lt;li&gt;機密データの所在確認やサイトレベルのアクセス確認を行う中央集約型のデータエクスプローラー機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571157"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Teams: Ask Copilot from Search on Mobile</title>
+      <title>[提供予定・ロードマップ] Microsoft Teams: モバイルの検索機能からCopilotへ直接質問が可能に</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571299</link>
       <guid isPermaLink="false">m365-roadmap-9b5c4810fb5769c659d4</guid>
       <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Get answers without leaving search. As you type in the Teams search bar, you&amp;#x27;ll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot conversation, helping you quickly find information, get answers, and ask follow-up questions in context. GA date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571299"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsのモバイル版検索バーにおいて、検索結果と一緒にCopilotへ質問するオプションが表示されるようになります。検索結果ページから直接Copilotとの会話に移行し、情報の検索や回答の取得、追加の質問をその場で行うことが可能です。本機能は2026年11月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Teamsの検索バーへの入力時にCopilotへ質問するオプションを表示&lt;/li&gt;&lt;li&gt;検索結果ページから検索クエリをCopilotの会話に変換可能&lt;/li&gt;&lt;li&gt;情報検索や回答の取得、文脈に応じた追加の質問をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571299"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot Studio: Cost visibility in Monitor tab</title>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Monitorタブにおけるコスト可視化</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571196</link>
       <guid isPermaLink="false">m365-roadmap-f2b9744f016dc66c43d9</guid>
       <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Now makers will have clear visibility into their consumption costs directly within Monitor tab at both a per-agent level and an estimated breakdown of those costs across the agents lifecylce. This will allow makers to see costs distributed across activities such as authoring, testing, evaluations, and production usage, helping connect overall consumption to specific actions and experiences. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571196"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioのMonitorタブにおいて、エージェントごとの消費コストやライフサイクル全体にわたる推定内訳の可視化が可能になります。作成者は、オーサリング、テスト、評価、本番利用などのアクティビティ全体にわたるコストの分散を確認できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monitorタブでの消費コストの直接的な可視化&lt;/li&gt;&lt;li&gt;エージェントごとのコスト表示&lt;/li&gt;&lt;li&gt;ライフサイクル全体（オーサリング、テスト、評価、本番利用など）にわたるコストの推定内訳の表示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571196"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot Studio: Cost visibility in Agent Evaluations</title>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：エージェント評価におけるコストの可視化</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571195</link>
       <guid isPermaLink="false">m365-roadmap-b44bb7647a37dc80ff67</guid>
       <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Now makers will have clear visibility into their consumption costs directly associated with their evaluations, including a breakdown of usage for eval generation, test runs and model grading/judgement. Makers can see the costs as they test, iterate, and review conversations, making usage transparent throughout the development lifecycle. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571195"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioのエージェント評価機能において、消費コストの明確な可視化が可能になります。作成者は評価生成、テスト実行、モデルの採点および判定に関する使用状況の内訳をテストや反復作業の段階で確認できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;評価生成、テスト実行、モデルの採点・判定における使用状況の内訳表示機能を追加&lt;/li&gt;&lt;li&gt;開発ライフサイクル全体を通じたコストの透明性向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571195"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot Studio: Cost visibility in Preview Chat and History</title>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: プレビューチャットと履歴におけるコスト可視化機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571194</link>
       <guid isPermaLink="false">m365-roadmap-54f8637ef68ceaca8c0d</guid>
       <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Now makers will have clear visibility into their consumption costs directly within preview tab and agent history for their preview/testing usage as well as all every historical run. Makers can see the costs as they test, iterate, and review conversations, making usage costs transparent throughout the development experience. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571194"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、メイカーはプレビュータブおよびエージェントの履歴内で消費コストを直接確認できるようになります。テスト、反復、会話のレビューを通じてコストが可視化され、開発プロセス全体を通して利用コストの透明性が向上します。一般提供（GA）は2026年9月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プレビュータブおよびエージェントの履歴内で消費コストの表示に対応&lt;/li&gt;&lt;li&gt;テスト時や過去の実行履歴全体におけるコストの確認が可能&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期は2026年9月を予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571194"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] PowerPoint: Async Notifications for PowerPoint Agent (Web)</title>
+      <title>[提供予定・ロードマップ] PowerPoint：PowerPoint Agent向け非同期通知（Web）</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570438</link>
       <guid isPermaLink="false">m365-roadmap-02dcfc8cd82141e550d4</guid>
       <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570438"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;PowerPointにおけるCopilotの機能として、非同期通知のサポートが追加されます。これにより、ユーザーは作業の完了や注意が必要な際のお知らせを受け取ることができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PowerPoint AgentのWeb版で非同期通知機能が利用可能になる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570438"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[Roadmap] PowerPoint: Async Notifications for PowerPoint Agent (Windows Desktop)</title>

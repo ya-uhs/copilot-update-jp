@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 14:16:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:21:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -36,6 +36,16 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにローカル推論機能が追加され、サポートされているCopilotの対話処理を指定された地域の国内で行うことが可能になります。これにより、組織はAI推論の実行場所をより詳細に制御でき、データ主権や地域の要件に対応できるようになります。本機能はオーストラリア、インド、アラブ首長国連邦、イギリス、アメリカで展開され、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているCopilotの対話処理におけるAI推論を、対象地域の国内で実行可能にするローカル推論機能の提供&lt;/li&gt;&lt;li&gt;オーストラリア、インド、アラブ首長国連邦、イギリス、アメリカでの順次展開&lt;/li&gt;&lt;li&gt;AI推論の実行場所に対する組織の制御力を高め、データ主権と地域要件への対応を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571886"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.85 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.85</link>
+      <guid isPermaLink="false">github-copilot-cli-389603482</guid>
+      <pubDate>Wed, 16 Sep 2026 02:44:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.85がリリースされ、Vimモードの一般提供や新しい設定・管理コマンドの追加が行われました。さらに、サンドボックス機能、MCP、プラグイン、およびWindows環境に関連する多数のバグ修正と動作改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;すべてのユーザーがVimモードを利用可能になり、`/vim` または `editorMode` 設定で有効化できるようになりました。&lt;/li&gt;&lt;li&gt;コンテキスト管理ツール、設定サイドバー、ネットワークホストの許可/拒否ルールを追加するための新しい `/settings` および `/config` オプションが追加されました。&lt;/li&gt;&lt;li&gt;GPT-6 Astra モデルのサポートが追加されました。&lt;/li&gt;&lt;li&gt;Windows環境での1コマンドサンドボックスバイパスの修正や、Visual C++ RedistributableなしでのCLI成果物の実行対応が行われました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.85"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
       <category>high</category>
     </item>
   </channel>
