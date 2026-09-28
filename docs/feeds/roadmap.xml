@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Sep 2026 00:17:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 10:32:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -279,34 +279,34 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot Studio: Enabling makers to require human approval for tool calls</title>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：ツール実行における人間の承認を必須化する機能の追加</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570434</link>
       <guid isPermaLink="false">m365-roadmap-1d4a08028bd4848c885d</guid>
       <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Studio now let’s makers require human approval before an agent runs specific tools. With a per-tool, per-agent toggle, any gated tool call pauses and shows an approval request describing what the agent intends to do, so a person can approve, approve for the session, or deny before the action runs. This gives organizations a deterministic guardrail for high-stakes or sensitive operations like sending emails, closing tickets, or processing payments, independent of the agent&amp;#x27;s instructions. Approval requests appear inline in the channel where the agent is deployed, including Microsoft Teams and Microsoft 365 Copilot. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570434"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、エージェントが特定のツールを実行する前に人間の承認を必須とする機能が追加されました。作成者はエージェントおよびツールごとに承認を有効化でき、メール送信や決済処理などの重要・機密性の高い操作に対して、独立したガードレールを適用できます。承認依頼はMicrosoft TeamsやMicrosoft 365 Copilotなどの展開チャネルにインラインで表示されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントによる特定ツールの実行前に人間の承認を求める設定が可能になった&lt;/li&gt;&lt;li&gt;ツールごと・エージェントごとのトグルで承認の有効化を設定できる&lt;/li&gt;&lt;li&gt;承認依頼には「承認」「セッション中の承認」「拒否」の選択肢が含まれ、展開チャネルにインラインで表示される&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570434"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>high</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft 365: Organizational Data Service is now available in GCC-High</title>
+      <title>[提供予定・ロードマップ] Microsoft 365: Organizational Data ServiceがGCC-High環境で利用可能に</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570431</link>
       <guid isPermaLink="false">m365-roadmap-d8bf44d785a81b28cbfa</guid>
       <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;We’re excited to announce that Microsoft 365 Organizational Data Service is now available in the GCC-High (GCC-H) environment! Microsoft 365 Organizational Data Service enables rapid ingestion of organizational/HR data through connectors from multiple HRIS systems using a single unified ingestion point. This service also provides organizational data for use across Microsoft Copilot and Microsoft 365 apps to power various features with robust data quality framework that detects, communicates, and provides solutions for data quality issues before data is used. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570431"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365のOrganizational Data Serviceが、GCC-High環境で利用可能になりました。複数の人事管理システム（HRIS）からの組織・人事データの迅速な取り込みを単一の統合ポイントで実現し、Microsoft CopilotやMicrosoft 365アプリで活用できます。データの品質問題を事前に検知・通知・解決するフレームワークを備えており、一般提供（GA）の時期は2026年9月予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC-High環境におけるMicrosoft 365 Organizational Data Serviceの提供開始&lt;/li&gt;&lt;li&gt;単一の統合ポイントを通じた複数のHRISシステムからの組織・人事データの迅速な取り込み&lt;/li&gt;&lt;li&gt;Microsoft CopilotおよびMicrosoft 365アプリでの組織データの利用&lt;/li&gt;&lt;li&gt;データ品質問題を検知・通知・解決するフレームワークの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570431"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Viva: Viva Insights and Copilot Analytics in GCC-High</title>
+      <title>[提供予定・ロードマップ] Microsoft Viva: GCC-HighにおけるViva InsightsとCopilot Analytics</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570428</link>
       <guid isPermaLink="false">m365-roadmap-dbb2cd2a6bf32a7c1d7f</guid>
       <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights and Copilot Analytics are coming to Microsoft 365 Government Community Cloud High (GCC High), providing eligible organizations with privacy-protected, role-based analytics experiences to help them understand Microsoft 365 Copilot adoption, usage, and impact. Viva Insights also provides data-driven behavioral insights into how employees collaborate, helping organizations improve productivity and wellbeing within the GCC High environment. GA date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570428"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Government Community Cloud High (GCC High)環境において、Microsoft Viva InsightsとCopilot Analyticsの提供が開始されます。対象組織は、プライバシー保護されたロールベースの分析を通じて、Microsoft 365 Copilotの導入状況や利用状況、影響を把握できるようになります。また、従業員のコラボレーションに関するデータ駆動型の行動インサイトを提供し、組織の生産性とウェルビーイングの向上を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC High環境向けにMicrosoft 365 Copilotの導入、利用、影響を把握する分析機能を提供&lt;/li&gt;&lt;li&gt;プライバシー保護とロールベースの分析体験を実現&lt;/li&gt;&lt;li&gt;従業員のコラボレーションに関するデータ駆動型の行動インサイトにより、生産性とウェルビーイングの向上を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570428"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
   </channel>
 </rss>

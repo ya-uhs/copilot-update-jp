@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Sep 2026 00:17:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 10:32:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -55,6 +55,46 @@
       <pubDate>Fri, 04 Sep 2026 15:38:08 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.83 がリリースされ、Windows 11タスクバーでのライブホバーステータス表示や、MCP OAuthサインイン向けのClient ID Metadata Document (CIMD) サポートなどの新機能が追加されました。また、カスタムエージェントのフォールバックモデル機能や、セッションサイドバーの並び替えオプション、エンタープライズ向けの強制ログイン組織設定（forceLoginOrgs）などが導入されています。さらに、MCPサーバーやサンドボックス環境、メモリ管理、UI表示に関連する多数のバグ修正と安定性向上が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows 11タスクバーで実行中のCopilotセッションとライブホバーステータスカードを表示する機能を追加&lt;/li&gt;&lt;li&gt;MCP OAuthサインインのためのClient ID Metadata Document (CIMD) サポートを追加&lt;/li&gt;&lt;li&gt;カスタムエージェントで複数のモデルを順番に試行する設定と、モデル変更を維持する model-policy: required を追加&lt;/li&gt;&lt;li&gt;claude-fable-5.1 モデルのサポートを追加し、廃止されたClaudeおよびGeminiモデルを /model ピッカーから削除&lt;/li&gt;&lt;li&gt;セッションサイドバーの分割表示に Recent, Created, Name, None の並び替えオプションを追加し、選択した順序を保存&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.83"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：ツール実行における人間の承認を必須化する機能の追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570434</link>
+      <guid isPermaLink="false">m365-roadmap-1d4a08028bd4848c885d</guid>
+      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、エージェントが特定のツールを実行する前に人間の承認を必須とする機能が追加されました。作成者はエージェントおよびツールごとに承認を有効化でき、メール送信や決済処理などの重要・機密性の高い操作に対して、独立したガードレールを適用できます。承認依頼はMicrosoft TeamsやMicrosoft 365 Copilotなどの展開チャネルにインラインで表示されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントによる特定ツールの実行前に人間の承認を求める設定が可能になった&lt;/li&gt;&lt;li&gt;ツールごと・エージェントごとのトグルで承認の有効化を設定できる&lt;/li&gt;&lt;li&gt;承認依頼には「承認」「セッション中の承認」「拒否」の選択肢が含まれ、展開チャネルにインラインで表示される&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570434"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年8月25日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026</link>
+      <guid isPermaLink="false">m365-release-notes-1eb781bec200fc92b38a</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの更新プログラムがリリースされ、ExcelでのPython編集機能やOrganizational Messagesのハイブリッド結合デバイスへの対応、Viva Engageのプライベートコンテンツのグラウンディングソースとしての利用などが追加されました。また、Copilot NotebooksのUX刷新、Copilot Search利用時のCopilot Chatのサイドペイン表示、Outlookメールの直接参照やノートブックへのソース追加など、利便性とワークフローの効率化を図る機能拡張が含まれています。さらに、ウェブとワークチャットの統合、モバイルでのページ制御機能、デスクトップおよびウェブアプリのデザイン簡素化が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ExcelでのCopilot編集時にPythonコードを実行した高度なデータ分析、自動化、データ変換が可能に。&lt;/li&gt;&lt;li&gt;Microsoft 365 admin centerのOrganizational MessagesがハイブリッドAzure AD参加済みデバイスをサポート。&lt;/li&gt;&lt;li&gt;Viva EngageのプライベートコミュニティやイベントのコンテンツをMicrosoft 365 Copilotのグラウンディングソースとして利用可能に。&lt;/li&gt;&lt;li&gt;Copilot NotebooksのUX刷新、Copilot Search時のチャットサイドペイン表示、Outlookメールの直接閲覧・ノートブックへの追加に対応。&lt;/li&gt;&lt;li&gt;ウェブとワークチャットの統合（Work IQボタンの追加）およびモバイルでのページ自動生成・制御、アプリデザインの簡素化。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年7月15日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026</link>
+      <guid isPermaLink="false">m365-release-notes-dbdb0cf94353ec1b9114</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年7月15日更新では、Agent Builderで作成したエージェントの組織内ストアへの提出機能や、Copilot Prompt Galleryでの全社向けプロンプト公開機能が追加されました。また、Microsoft Edgeのデザイン刷新、Model Context Protocol（MCP）を用いたOfficeアプリでのエージェント利用、およびConfluenceやServiceNowにおける階層的アクセス権（ネストされた権限）のサポートが導入されています。さらに、管理センターのコネクタタブから連合型Copilotコネクタ（MCPベース）の展開と管理が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent Builderで作成したカスタムエージェントを、Microsoft 365 管理センターでの審査・承認を経てAgent Storeへ提出および公開可能になりました。&lt;/li&gt;&lt;li&gt;管理者がCopilot Prompt Galleryを通じて、企業向けのプロンプトコレクションをテナント内の全ユーザーに向けて公開できるようになりました。&lt;/li&gt;&lt;li&gt;Microsoft Edge（バージョン149）が、CopilotやBingと共通するデザイン言語（スペーシング、角丸、フォント、既定の色など）へと刷新されました。&lt;/li&gt;&lt;li&gt;Word、Excel、PowerPoint、Outlook、Catalystにおいて、Model Context Protocol（MCP）で構築されたエージェントの直接利用が可能になりました。&lt;/li&gt;&lt;li&gt;ConfluenceおよびServiceNowコネクタで階層的アクセス権（ネストされた権限）がサポートされ、親レベルの権限評価が行われるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年7月1日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-01-2026</link>
+      <guid isPermaLink="false">m365-release-notes-121e6c489d6d40530f1c</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年7月1日更新では、AI生成コンテンツへのウォーターマーク追加や、Windowsタスクバーでの長期実行エージェントタスクの表示機能が導入されました。また、Copilot NotebooksからのPowerPointおよびWord文書の直接作成やマインドマップ機能、生成ファイルへの機密ラベル自動継承などが追加されています。さらに、宣言型エージェントのプロンプト定期実行や部門情報に基づくCopilot検索、iOSでのアクションボタンやSiriによる迅速なアプリ起動が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AI生成された動画および音声コンテンツに対して、組織のポリシー設定に基づいてウォーターマークを追加できるようになりました。&lt;/li&gt;&lt;li&gt;Windowsのタスクバーで、エージェント型ワークフローの長期実行タスクの状態アイコンや進捗インジケーターを確認できるようになりました。&lt;/li&gt;&lt;li&gt;アナリストやアイデアコーチなどの宣言型エージェントに対して、繰り返しのプロンプトをスケジュール設定できるようになりました。&lt;/li&gt;&lt;li&gt;Copilot Notebooksに収集したコンテンツから、PowerPointおよびWordの構造化された編集可能なドキュメントを直接生成できるようになりました。&lt;/li&gt;&lt;li&gt;Copilot NotebooksおよびOneNoteで、トピックやテーマを視覚的に整理するインタラクティブなマインドマップを利用できるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-01-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
       <category>Release</category>
       <category>high</category>
     </item>
