@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 27 Sep 2026 00:21:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:17:35 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -44,6 +44,16 @@
       <guid isPermaLink="false">github-copilot-cli-389603482</guid>
       <pubDate>Wed, 16 Sep 2026 02:44:45 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.85がリリースされ、Vimモードの一般提供や新しい設定・管理コマンドの追加が行われました。さらに、サンドボックス機能、MCP、プラグイン、およびWindows環境に関連する多数のバグ修正と動作改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;すべてのユーザーがVimモードを利用可能になり、`/vim` または `editorMode` 設定で有効化できるようになりました。&lt;/li&gt;&lt;li&gt;コンテキスト管理ツール、設定サイドバー、ネットワークホストの許可/拒否ルールを追加するための新しい `/settings` および `/config` オプションが追加されました。&lt;/li&gt;&lt;li&gt;GPT-6 Astra モデルのサポートが追加されました。&lt;/li&gt;&lt;li&gt;Windows環境での1コマンドサンドボックスバイパスの修正や、Visual C++ RedistributableなしでのCLI成果物の実行対応が行われました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.85"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.83 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.83</link>
+      <guid isPermaLink="false">github-copilot-cli-382838246</guid>
+      <pubDate>Fri, 04 Sep 2026 15:38:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.83 がリリースされ、Windows 11タスクバーでのライブホバーステータス表示や、MCP OAuthサインイン向けのClient ID Metadata Document (CIMD) サポートなどの新機能が追加されました。また、カスタムエージェントのフォールバックモデル機能や、セッションサイドバーの並び替えオプション、エンタープライズ向けの強制ログイン組織設定（forceLoginOrgs）などが導入されています。さらに、MCPサーバーやサンドボックス環境、メモリ管理、UI表示に関連する多数のバグ修正と安定性向上が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows 11タスクバーで実行中のCopilotセッションとライブホバーステータスカードを表示する機能を追加&lt;/li&gt;&lt;li&gt;MCP OAuthサインインのためのClient ID Metadata Document (CIMD) サポートを追加&lt;/li&gt;&lt;li&gt;カスタムエージェントで複数のモデルを順番に試行する設定と、モデル変更を維持する model-policy: required を追加&lt;/li&gt;&lt;li&gt;claude-fable-5.1 モデルのサポートを追加し、廃止されたClaudeおよびGeminiモデルを /model ピッカーから削除&lt;/li&gt;&lt;li&gt;セッションサイドバーの分割表示に Recent, Created, Name, None の並び替えオプションを追加し、選択した順序を保存&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.83"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
       <category>high</category>
