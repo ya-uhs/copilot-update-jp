@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Sep 2026 10:32:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 18:00:28 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -94,6 +94,66 @@
       <guid isPermaLink="false">m365-release-notes-121e6c489d6d40530f1c</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年7月1日更新では、AI生成コンテンツへのウォーターマーク追加や、Windowsタスクバーでの長期実行エージェントタスクの表示機能が導入されました。また、Copilot NotebooksからのPowerPointおよびWord文書の直接作成やマインドマップ機能、生成ファイルへの機密ラベル自動継承などが追加されています。さらに、宣言型エージェントのプロンプト定期実行や部門情報に基づくCopilot検索、iOSでのアクションボタンやSiriによる迅速なアプリ起動が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AI生成された動画および音声コンテンツに対して、組織のポリシー設定に基づいてウォーターマークを追加できるようになりました。&lt;/li&gt;&lt;li&gt;Windowsのタスクバーで、エージェント型ワークフローの長期実行タスクの状態アイコンや進捗インジケーターを確認できるようになりました。&lt;/li&gt;&lt;li&gt;アナリストやアイデアコーチなどの宣言型エージェントに対して、繰り返しのプロンプトをスケジュール設定できるようになりました。&lt;/li&gt;&lt;li&gt;Copilot Notebooksに収集したコンテンツから、PowerPointおよびWordの構造化された編集可能なドキュメントを直接生成できるようになりました。&lt;/li&gt;&lt;li&gt;Copilot NotebooksおよびOneNoteで、トピックやテーマを視覚的に整理するインタラクティブなマインドマップを利用できるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-01-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Copilot Cowork が一般提供開始</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available/</link>
+      <guid isPermaLink="false">m365-blog-675ce4910858546c3f7e</guid>
+      <pubDate>Tue, 16 Jun 2026 15:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Copilot Cowork が一般提供 (GA) となりました。Cowork は Frontier プログラム史上最も成長が速い機能で、利用者満足度も高いことが報告されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Cowork が一般提供 (GA) に移行&lt;/li&gt;&lt;li&gt;利用者満足度が高いことが確認された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート — 2026年6月16日</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-16-2026</link>
+      <guid isPermaLink="false">m365-release-notes-41720b53a8cdddb23403</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;2026年6月2日から6月16日までの期間に、Microsoft 365 Copilot に複数の機能強化が行われました。Claude モデルの追加やチャット履歴の無限スクロール、Edge の統一デザイン、15Five 連携、PowerPoint の新画像生成モデルなどが提供され、ユーザーは柔軟なAI選択や作業効率の向上が期待できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Anthropic の Claude が Copilot Chat に追加され、複雑な分析や文書理解、構造化コンテンツ生成に利用できるようになった。&lt;/li&gt;&lt;li&gt;Web 版でチャット履歴が無限スクロールに変更され、過去の会話をスクロールするだけで自動的に読み込めるようになった。&lt;/li&gt;&lt;li&gt;Microsoft Edge の Copilot 体験が更新され、間隔・角丸・フォント・配色が他の Microsoft AI 製品と統一された。&lt;/li&gt;&lt;li&gt;15Five 用コネクタが追加され、チームの優先事項や表彰情報を Copilot 内で直接参照できるようになった。&lt;/li&gt;&lt;li&gt;PowerPoint で Black Forest Lab の FLUX.2 Flex 画像生成モデルが選択可能となり、テキストやレイアウトの描画品質が向上した。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-16-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート — 2026年6月2日</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-2-2026</link>
+      <guid isPermaLink="false">m365-release-notes-b738696548177b5f62c0</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot に対する複数の機能拡張が本リリースで提供されました。管理者は利用状況に基づくターゲティングやメール配信を用いて組織メッセージをより効果的に配信でき、Copilot はモデル駆動型アプリや Word で直接編集を行えるようになりました。また、フェデレーテッドコネクタが一般提供され、外部データへのリアルタイムアクセスが可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Organizational Messages が利用状況ベースのターゲティングを一般提供し、Copilot の採用促進に動的セグメントを利用できるようになった&lt;/li&gt;&lt;li&gt;Organizational Messages にメール配信が追加され、9 つのテンプレートとメール向けインサイトタブが利用可能となった&lt;/li&gt;&lt;li&gt;Microsoft 365 Copilot がモデル駆動型アプリに組み込まれ、アプリ内で質問やタスク実行ができるようになった&lt;/li&gt;&lt;li&gt;Federated Copilot コネクタが一般提供され、サードパーティ データソースへのリアルタイム接続が可能になった&lt;/li&gt;&lt;li&gt;Word の Copilot がデフォルトで文書編集を行えるようになり、変更は追跡・元に戻せる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-2-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年5月19日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#may-19-2026</link>
+      <guid isPermaLink="false">m365-release-notes-713a36255ed16757cc35</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年5月19日更新では、Outlookからのメール文脈追加機能やPDFの直接閲覧機能、Microsoft 365 Copilot ChatへのOpenAI GPT-5.5 InstantおよびThinkingモデルの導入が行われました。さらに、カスタムコネクタのGraph API拡張、IT管理者向けのAnthropicおよびxAIモデル有効化機能、OneDriveでのCopilotアクション表示、SharePoint Admin Agent、Viva Glintでのアクセス制御の統合が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 Copilot Chatにおいて、Outlookのメールやテキストをプロンプトコンテキストに直接追加できる機能を追加。&lt;/li&gt;&lt;li&gt;Microsoft 365 Copilot Chat内でPDFファイルを直接開き、閲覧や分析を行える機能を追加。&lt;/li&gt;&lt;li&gt;Copilot ChatにOpenAIのGPT-5.5 InstantおよびGPT-5.5 Thinkingモデルを利用可能にし、応答精度や複雑な推測機能を向上。&lt;/li&gt;&lt;li&gt;カスタムコネクタ向けGraph APIの機能強化により、アイコン、視覚設定、接続メタデータ、プロパティ説明、セマンティックラベルの設定が可能に。&lt;/li&gt;&lt;li&gt;管理者が特定のユーザーやグループに対してAnthropicおよびxAIモデルへのアクセスを管理できる機能を追加。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#may-19-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート — 2026年5月5日</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#may-5-2026</link>
+      <guid isPermaLink="false">m365-release-notes-dc86f94af5cc4fe57602</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot に複数の機能拡張が追加されました。Edge for Business では Copilot Chat を利用したページ要約のコンテキスト・ヌッジが提供され、Viva Glint の Copilot Highlights が多言語対応の AI 要約を生成します。また、Viva Insights の Power BI レポートが組織全体へ公開可能になり、Copilot Dashboard の Readiness ページが構成推奨を個別提示します。これらの変更は業務効率と意思決定の迅速化を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edge for Business に、Copilot Chat で開いているページを要約できるコンテキスト・ヌッジが追加されました。&lt;/li&gt;&lt;li&gt;Viva Glint の Copilot Highlights が、チームサマリーとエグゼクティブサマリー内で AI 生成の要約を提供し、多言語対応しました。&lt;/li&gt;&lt;li&gt;Viva Insights の Power BI レポートが、Copilot Dashboard の権限に関係なく組織内の任意のユーザーへ公開できるようになりました。&lt;/li&gt;&lt;li&gt;Copilot Dashboard の Readiness ページが、Copilot の構成設定に関するパーソナライズされた推奨事項を表示するよう改善されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#may-5-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート — 2026年4月7日</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#april-7-2026</link>
+      <guid isPermaLink="false">m365-release-notes-96af50a59f2536d2fc4d</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot に複数の機能拡張が加わり、Teams のチャット・チャンネル・会議での Copilot Chat 利用が可能になったほか、スケジュールされたプロンプトの編集や、エンタープライズ検索で見つかったファイルのコードインタープリタ分析、埋め込み画像の理解ができるようになりました。また、確認プロンプトが減少し、操作がスムーズになっています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Chat が Teams のチャット、チャンネル、通話、会議で利用可能になり、モバイル対応は近日予定です。&lt;/li&gt;&lt;li&gt;スケジュールされた Copilot プロンプトの実行時刻を編集でき、再作成の手間が省けます。&lt;/li&gt;&lt;li&gt;コードインタープリタがエンタープライズ検索で見つかったファイルを直接分析できるようになりました。&lt;/li&gt;&lt;li&gt;Declarative Agents が Word、PowerPoint、PDF の埋め込み画像を解析し、回答に活用できるようになりました。&lt;/li&gt;&lt;li&gt;読み取りアクション時の確認プロンプトが減少し、作業の中断が少なくなりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#april-7-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Release</category>
       <category>high</category>
