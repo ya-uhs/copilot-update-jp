@@ -1,5 +1,55 @@
 [
   {
+    "id": "github-copilot-cli-398964897",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-2",
+    "published_at": "2026-09-29T08:48:59Z",
+    "title_original": "GitHub Copilot CLI v1.0.90-2",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.90-2 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.90-2がリリースされました。このバージョンには、不具合の修正と変更が含まれています。",
+    "changes": [
+      "不具合の修正と変更の適用"
+    ],
+    "target_user": [
+      "developer"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-09-29T10:23:49Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-09-29T10:23:47Z"
+  },
+  {
+    "id": "github-copilot-cli-398769553",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-1",
+    "published_at": "2026-09-29T02:11:48Z",
+    "title_original": "GitHub Copilot CLI v1.0.90-1",
+    "excerpt_original": "**Fixed** - MCP OAuth sign-in to servers such as Datadog reuses a still-valid cached token - Withdrawn running prompts stay removed after session resume",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.90-1 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.90-1がリリースされました。Datadogなどのサーバーに対するMCP OAuthサインインにおいて、有効なキャッシュトークンが再利用されるように修正されました。また、セッション再開後も中止したプロンプトが非表示のまま維持されるようになります。",
+    "changes": [
+      "Datadogなどのサーバー向けMCP OAuthサインインで、有効なキャッシュトークンの再利用を修正",
+      "セッション再開後に中止したプロンプトが非表示のまま維持されるように修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-29T10:23:50Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-09-29T10:23:49Z"
+  },
+  {
     "id": "m365-roadmap-2c4785c74daaf5fc205c",
     "source": "Microsoft 365 Roadmap",
     "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571884",
@@ -2877,53 +2927,28 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-398964897",
+    "id": "github-copilot-cli-399273874",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-2",
-    "published_at": "2026-09-29T08:48:59Z",
-    "title_original": "GitHub Copilot CLI v1.0.90-2",
-    "excerpt_original": "Fixes and changes",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-3",
+    "published_at": "2026-09-29T15:18:34Z",
+    "title_original": "GitHub Copilot CLI v1.0.90-3",
+    "excerpt_original": "**Added** - Add --mcp-github-auth to scope GitHub account auth to approved MCP server origins - Add session-scoped read-only directory approvals to path access prompts",
     "product": "GitHub Copilot CLI",
     "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.90-2 のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.90-2がリリースされました。このバージョンには、不具合の修正と変更が含まれています。",
+    "title_ja": "GitHub Copilot CLI v1.0.90-3 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.90-3がリリースされました。今回のアップデートにより、GitHubアカウント認証を承認済みのMCPサーバーオリジンに制限するオプションと、セッションスコープでの読み取り専用ディレクトリ承認機能が追加されました。",
     "changes": [
-      "不具合の修正と変更の適用"
+      "--mcp-github-authを追加し、GitHubアカウント認証を承認済みのMCPサーバーオリジンにスコープ設定可能にした",
+      "パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認機能を追加した"
     ],
     "target_user": [
-      "developer"
-    ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-09-29T10:23:49Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-09-29T10:23:47Z"
-  },
-  {
-    "id": "github-copilot-cli-398769553",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-1",
-    "published_at": "2026-09-29T02:11:48Z",
-    "title_original": "GitHub Copilot CLI v1.0.90-1",
-    "excerpt_original": "**Fixed** - MCP OAuth sign-in to servers such as Datadog reuses a still-valid cached token - Withdrawn running prompts stay removed after session resume",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.90-1 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.90-1がリリースされました。Datadogなどのサーバーに対するMCP OAuthサインインにおいて、有効なキャッシュトークンが再利用されるように修正されました。また、セッション再開後も中止したプロンプトが非表示のまま維持されるようになります。",
-    "changes": [
-      "Datadogなどのサーバー向けMCP OAuthサインインで、有効なキャッシュトークンの再利用を修正",
-      "セッション再開後に中止したプロンプトが非表示のまま維持されるように修正"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI users",
-      "Developers"
+      "developers"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-09-29T10:23:50Z",
+    "processed_at": "2026-09-29T16:17:03Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-09-29T10:23:49Z"
+    "translation_attempted_at": "2026-09-29T16:17:02Z"
   }
 ]

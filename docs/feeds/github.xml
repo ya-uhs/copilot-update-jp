@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 10:23:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 16:17:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.90-3 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-3</link>
+      <guid isPermaLink="false">github-copilot-cli-399273874</guid>
+      <pubDate>Tue, 29 Sep 2026 15:18:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-3がリリースされました。今回のアップデートにより、GitHubアカウント認証を承認済みのMCPサーバーオリジンに制限するオプションと、セッションスコープでの読み取り専用ディレクトリ承認機能が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--mcp-github-authを追加し、GitHubアカウント認証を承認済みのMCPサーバーオリジンにスコープ設定可能にした&lt;/li&gt;&lt;li&gt;パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認機能を追加した&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.90-2 のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-2</link>

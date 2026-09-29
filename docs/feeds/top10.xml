@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 10:23:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 16:17:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -37,6 +37,16 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.90-3 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-3</link>
+      <guid isPermaLink="false">github-copilot-cli-399273874</guid>
+      <pubDate>Tue, 29 Sep 2026 15:18:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-3がリリースされました。今回のアップデートにより、GitHubアカウント認証を承認済みのMCPサーバーオリジンに制限するオプションと、セッションスコープでの読み取り専用ディレクトリ承認機能が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--mcp-github-authを追加し、GitHubアカウント認証を承認済みのMCPサーバーオリジンにスコープ設定可能にした&lt;/li&gt;&lt;li&gt;パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認機能を追加した&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.90-1 リリース</title>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89がリリースされ、UIインタラクションの改善、カスタム指示やMCP設定のサポート追加、各種バグ修正が行われました。サイドバーの動作向上やモデル選択・ルーティングの改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ask_userおよびエリシテーションフォームの入力欄で左クリックによるフォーカスとカーソル配置をサポートしました。&lt;/li&gt;&lt;li&gt;Claude Codeのルールファイルをカスタム指示として読み込む機能を追加しました。&lt;/li&gt;&lt;li&gt;未読のターンがあるサイドバーのセッションに青いドットを表示するようにしました。&lt;/li&gt;&lt;li&gt;ルーティング階層の自動提案と、ショートカットやクリックによる切り替えをサポートしました。&lt;/li&gt;&lt;li&gt;MCPの事前登録済みOAuthクライアントが設定されたoauthScopesを尊重するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-6のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-6</link>
-      <guid isPermaLink="false">github-copilot-cli-398203048</guid>
-      <pubDate>Mon, 28 Sep 2026 11:54:47 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89-6がリリースされました。プルリクエスト作成機能がテンプレートに準拠するよう改善され、インデックス検索の自動有効化を設定可能になりました。また、シェルの出力メタデータの表示修正や、エージェント応答中のキュー終了コマンドの処理など複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リポジトリのプルリクエストテンプレートに従うようにPR作成機能を改善し、必須セクションとチェックリスト構造を維持するように変更&lt;/li&gt;&lt;li&gt;TGREP_FILE_COUNT_THRESHOLD環境変数による自動インデックス検索の有効化を設定可能に修正&lt;/li&gt;&lt;li&gt;シェル出力から末尾のコマンド補完メタデータを削除&lt;/li&gt;&lt;li&gt;テキスト選択中はタイムライン出力の自動追従を停止するように修正&lt;/li&gt;&lt;li&gt;server/toolおよびserver/*ツールフィルターがスラッシュを含むMCPツール名に一致するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
       <category>medium</category>
     </item>
   </channel>
