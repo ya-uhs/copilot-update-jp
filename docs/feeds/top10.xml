@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 01:27:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 10:23:56 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -37,6 +37,16 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.90-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-1</link>
+      <guid isPermaLink="false">github-copilot-cli-398769553</guid>
+      <pubDate>Tue, 29 Sep 2026 02:11:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-1がリリースされました。Datadogなどのサーバーに対するMCP OAuthサインインにおいて、有効なキャッシュトークンが再利用されるように修正されました。また、セッション再開後も中止したプロンプトが非表示のまま維持されるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Datadogなどのサーバー向けMCP OAuthサインインで、有効なキャッシュトークンの再利用を修正&lt;/li&gt;&lt;li&gt;セッション再開後に中止したプロンプトが非表示のまま維持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] WordのCopilotにおけるリーガルプラグイン</title>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89-6がリリースされました。プルリクエスト作成機能がテンプレートに準拠するよう改善され、インデックス検索の自動有効化を設定可能になりました。また、シェルの出力メタデータの表示修正や、エージェント応答中のキュー終了コマンドの処理など複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リポジトリのプルリクエストテンプレートに従うようにPR作成機能を改善し、必須セクションとチェックリスト構造を維持するように変更&lt;/li&gt;&lt;li&gt;TGREP_FILE_COUNT_THRESHOLD環境変数による自動インデックス検索の有効化を設定可能に修正&lt;/li&gt;&lt;li&gt;シェル出力から末尾のコマンド補完メタデータを削除&lt;/li&gt;&lt;li&gt;テキスト選択中はタイムライン出力の自動追従を停止するように修正&lt;/li&gt;&lt;li&gt;server/toolおよびserver/*ツールフィルターがスラッシュを含むMCPツール名に一致するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-5 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-5</link>
-      <guid isPermaLink="false">github-copilot-cli-397496781</guid>
-      <pubDate>Sun, 27 Sep 2026 03:36:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.89-5がリリースされました。今回のアップデートでは、フォーム入力操作の改善、Claude Codeのルールファイルへの対応、サイドバーのセッション表示機能の強化が行われています。また、エンタープライズ管理設定における拡張機能読み込みのエラーや、CLIシェルから起動したアプリケーションでのGit関連の不具合などが修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ask_userおよびelicitationフォームの入力欄で左クリックによるフォーカスとカーソル位置の指定に対応&lt;/li&gt;&lt;li&gt;カスタム指示として .claude/rules 内のClaude Codeルールファイルのサポートを追加&lt;/li&gt;&lt;li&gt;サイドバーのセッションにおいて、未開封のターンが完了した際に青いドットを表示するように変更&lt;/li&gt;&lt;li&gt;マネージドMCPポリシー適用中のエンタープライズ管理設定下で拡張機能の読み込みが失敗する問題を修正&lt;/li&gt;&lt;li&gt;Git 2.36以降において、CLIシェルから起動したアプリケーションで空の環境変数が除外されることに伴うGitの失敗を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>

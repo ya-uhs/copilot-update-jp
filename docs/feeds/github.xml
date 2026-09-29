@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 01:27:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 10:23:56 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.90-2 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-2</link>
+      <guid isPermaLink="false">github-copilot-cli-398964897</guid>
+      <pubDate>Tue, 29 Sep 2026 08:48:59 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-2がリリースされました。このバージョンには、不具合の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.90-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-1</link>
+      <guid isPermaLink="false">github-copilot-cli-398769553</guid>
+      <pubDate>Tue, 29 Sep 2026 02:11:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-1がリリースされました。Datadogなどのサーバーに対するMCP OAuthサインインにおいて、有効なキャッシュトークンが再利用されるように修正されました。また、セッション再開後も中止したプロンプトが非表示のまま維持されるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Datadogなどのサーバー向けMCP OAuthサインインで、有効なキャッシュトークンの再利用を修正&lt;/li&gt;&lt;li&gt;セッション再開後に中止したプロンプトが非表示のまま維持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.90-0 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-0</link>
