@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Sep 2026 18:00:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 01:27:50 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.90-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-0</link>
+      <guid isPermaLink="false">github-copilot-cli-398638929</guid>
+      <pubDate>Mon, 28 Sep 2026 21:27:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-0がリリースされました。このバージョンには、不具合の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.89 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89</link>
+      <guid isPermaLink="false">github-copilot-cli-398551718</guid>
+      <pubDate>Mon, 28 Sep 2026 19:20:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89がリリースされ、UIインタラクションの改善、カスタム指示やMCP設定のサポート追加、各種バグ修正が行われました。サイドバーの動作向上やモデル選択・ルーティングの改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ask_userおよびエリシテーションフォームの入力欄で左クリックによるフォーカスとカーソル配置をサポートしました。&lt;/li&gt;&lt;li&gt;Claude Codeのルールファイルをカスタム指示として読み込む機能を追加しました。&lt;/li&gt;&lt;li&gt;未読のターンがあるサイドバーのセッションに青いドットを表示するようにしました。&lt;/li&gt;&lt;li&gt;ルーティング階層の自動提案と、ショートカットやクリックによる切り替えをサポートしました。&lt;/li&gt;&lt;li&gt;MCPの事前登録済みOAuthクライアントが設定されたoauthScopesを尊重するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるClaude Sonnet 5.5の提供開始</title>
+      <link>https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-469712811c22e040083a</guid>
+      <pubDate>Mon, 28 Sep 2026 18:03:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Anthropicの最新モデルであるClaude Sonnet 5.5がGitHub Copilotで一般提供（GA）開始されました。機能開発やバグ修正など、明確な範囲を持つ日常的な作業向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでClaude Sonnet 5.5が利用可能になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.89-7 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-7</link>

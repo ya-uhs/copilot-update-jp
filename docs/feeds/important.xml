@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Sep 2026 18:00:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 01:27:50 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub CopilotにおけるClaude Sonnet 5.5の提供開始</title>
+      <link>https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-469712811c22e040083a</guid>
+      <pubDate>Mon, 28 Sep 2026 18:03:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Anthropicの最新モデルであるClaude Sonnet 5.5がGitHub Copilotで一般提供（GA）開始されました。機能開発やバグ修正など、明確な範囲を持つ日常的な作業向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでClaude Sonnet 5.5が利用可能になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Microsoft 365 Copilot リリースノート（2026年9月23日）</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026</link>
@@ -154,6 +164,36 @@
       <guid isPermaLink="false">m365-release-notes-96af50a59f2536d2fc4d</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot に複数の機能拡張が加わり、Teams のチャット・チャンネル・会議での Copilot Chat 利用が可能になったほか、スケジュールされたプロンプトの編集や、エンタープライズ検索で見つかったファイルのコードインタープリタ分析、埋め込み画像の理解ができるようになりました。また、確認プロンプトが減少し、操作がスムーズになっています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Chat が Teams のチャット、チャンネル、通話、会議で利用可能になり、モバイル対応は近日予定です。&lt;/li&gt;&lt;li&gt;スケジュールされた Copilot プロンプトの実行時刻を編集でき、再作成の手間が省けます。&lt;/li&gt;&lt;li&gt;コードインタープリタがエンタープライズ検索で見つかったファイルを直接分析できるようになりました。&lt;/li&gt;&lt;li&gt;Declarative Agents が Word、PowerPoint、PDF の埋め込み画像を解析し、回答に活用できるようになりました。&lt;/li&gt;&lt;li&gt;読み取りアクション時の確認プロンプトが減少し、作業の中断が少なくなりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#april-7-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年3月24日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#march-24-2026</link>
+      <guid isPermaLink="false">m365-release-notes-ba59ab0661fb92cd9c00</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年3月10日から3月24日までの更新情報です。画像編集における新しい「Scatter」エフェクトの追加や、PDFリーダーでの要約・説明機能、カレンダーの代理検索機能が導入されました。また、Coda、Bitbucket、Zendesk、GitLab、Asana、Egnyte、Aha!、Smartsheetなどの外部サービスと連携する新しいCopilotコネクタが追加され、検索や情報の取得が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;画像エディターおよびCreateモジュールに、動的で分散した視覚スタイルを適用する「Scatter」エフェクトを追加&lt;/li&gt;&lt;li&gt;Microsoft EdgeのPDFリーダーに、文書を素早く理解するための「Summarize」および「Explain」アクションを追加&lt;/li&gt;&lt;li&gt;カレンダーのアクセス権を持つ代理人が、Copilot Chatで他のユーザーの会議を直接検索できる機能を追加&lt;/li&gt;&lt;li&gt;Coda、Bitbucket、Zendesk、GitLab（マージリクエストおよびイシュー）、Asana、Egnyte、Aha!、Smartsheetと連携するCopilotコネクタを追加し、外部ドキュメントやタスクのクエリ・検索に対応&lt;/li&gt;&lt;li&gt;Copilot Chatにおいて、ユーザーのプロンプトの意図に一致するインストール済みのエージェントを自動的に推奨する機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#march-24-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年3月10日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#march-10-2026</link>
+      <guid isPermaLink="false">m365-release-notes-aa686f49fbc6f9d24ced</guid>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの最新アップデートでは、E3およびE5ユーザー向けのAIスキル推論機能の拡張、チャット履歴のフィルタリング機能の刷新、コネクタ向け説明可能AIの導入が行われました。また、Microsoft EdgeでのPDF要約・アドレスバーからの直接質問機能や、Context IQによるTeamsチャンネルのプロンプト絞り込み機能が追加されました。さらに、ShortcutやAmazon S3との連携、Excelでの「Edit with Copilot」、PowerPointのDesigner Editorによる画像編集機能が導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 E3およびE5ユーザー向けにAIによるスキル推論機能が拡張され、管理者がMicrosoft 365 admin centerで有効化できるようになりました。&lt;/li&gt;&lt;li&gt;チャット履歴のフィルタリング画面が刷新され、過去の会話の検索やフィルターの解除が容易になりました。&lt;/li&gt;&lt;li&gt;コネクタを使用した結果に対して、インラインおよびディープシテーションを表示する説明可能AI機能が導入されました。&lt;/li&gt;&lt;li&gt;Microsoft EdgeのPDFリーダーに要約と説明のアクションが追加され、アドレスバーから直接Copilotへ質問できるようになりました。&lt;/li&gt;&lt;li&gt;ShortcutやAmazon S3とのデータ接続、Excelの「Edit with Copilot」、PowerPointのDesigner Editorによる画像編集機能が追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#march-10-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年2月24日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#february-24-2026</link>
+      <guid isPermaLink="false">m365-release-notes-36de63ab396d12f139ed</guid>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年2月24日の更新では、Monday.com、WordPress、Azure File Share、Veeva、Jira Data Centerとの新コネクタが追加されました。また、Copilot検索の動的フィルタリング、宣言型エージェントのGPT-5.1へのアップグレード、PowerPointでのオブジェクト解説機能などが導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monday.com、WordPress、Azure File Share、Veeva、Jira Data Centerに対応するCopilot Connectorが追加され、外部データの取得や要約が可能になりました。&lt;/li&gt;&lt;li&gt;Copilot検索において、選択したデータソースに応じて関連フィルタが自動表示される動的フィルタリング機能が追加されました。&lt;/li&gt;&lt;li&gt;宣言型エージェントがGPT-5.1モデルにアップグレードされ、自動モデル選択機能やローカルファイルの埋め込み知識サポートが追加されました。&lt;/li&gt;&lt;li&gt;PowerPointでオブジェクトやスライドを選択して詳細な説明を得られる「Explain」機能が追加され、プレゼンテーションの長さ、トーン、スタイルの調整が可能になりました。&lt;/li&gt;&lt;li&gt;Viva InsightsのCopilot Studioエージェントレポートが拡張され、自動エージェントの採用状況、インパクト、時間・コスト削減のインサイトが提供されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#february-24-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Release</category>
       <category>high</category>

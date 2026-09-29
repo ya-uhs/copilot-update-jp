@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Sep 2026 10:32:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 01:27:50 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] WordのCopilotにおけるリーガルプラグイン</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571884</link>
+      <guid isPermaLink="false">m365-roadmap-2c4785c74daaf5fc205c</guid>
+      <pubDate>Mon, 28 Sep 2026 22:58:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;WordおよびCoworkで利用可能なCopilotのリーガルプラグインは、法的文書の要約、ドラフト作成、レビュー、レッドライニングを支援します。Microsoft 365のワークコンテキストを活用し、サポートされているサードパーティの法的情報源と接続可能です。プレビューは2026年4月、一般提供（GA）は2026年10月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;法的文書の要約、ドラフト作成、レビュー、レッドライニングを行う専門的なスキルを提供&lt;/li&gt;&lt;li&gt;WordおよびCoworkで利用可能&lt;/li&gt;&lt;li&gt;Microsoft 365のワークコンテキストの利用およびサポートされるサードパーティ製法的情報源との接続に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571884"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Purview: SharePoint および OneDrive の自動ラベル付けの上限を拡大</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571309</link>
+      <guid isPermaLink="false">m365-roadmap-4cabaed563df0a400d5b</guid>
+      <pubDate>Mon, 28 Sep 2026 22:58:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purviewの情報保護機能において、SharePointとOneDriveの自動ラベル付けの最大容量が、テナントあたり1日あたり10万ファイルから50万ファイルに引き上げられます。これにより、組織は保存データをより迅速に保護し、Microsoft 365 Copilotに向けたデータ準備を強化できます。一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;SharePointおよびOneDriveの自動ラベル付けの最大容量を、テナントあたり1日あたり100,000ファイルから500,000ファイルに拡大&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期は2026年11月を予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571309"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] OneDrive: Copilot向けプロンプトギャラリー</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571308</link>
+      <guid isPermaLink="false">m365-roadmap-f01e5f4b741edf121322</guid>
+      <pubDate>Mon, 28 Sep 2026 22:58:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;OneDriveに、Copilotの利用を容易にする新しいプロンプトギャラリーが追加されます。一般的なファイルタスク向けのすぐに使えるプロンプトを提供し、カテゴリ別の探索やプロンプトのカスタことが可能です。アクセス方法には、OneDrive右下のCopilotボタンやチャットペイン内の「+」ボタンが含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;一般的なファイルタスク向けにすぐに使えるプロンプトを提供するPrompt Galleryを追加&lt;/li&gt;&lt;li&gt;Create、Analyze、Find、Collaborateなどのカテゴリ別プロンプトの探索機能を提供&lt;/li&gt;&lt;li&gt;OneDrive右下のCopilotボタンやチャットペインの「+」ボタンからプロンプトギャラリーへアクセス可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571308"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Clipchamp：Copilotによる動画作成機能のアップデート</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570963</link>
+      <guid isPermaLink="false">m365-roadmap-dc9076781a1b0632b11a</guid>
+      <pubDate>Mon, 28 Sep 2026 22:58:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Clipchampの動画ハブに、Copilotを活用したエージェント型動画作成機能が追加されます。ユーザーは明示的な文書やWorkIQの暗黙的な知識に基づき、プロンプトから動画の生成、編集、推敲を行うことが可能です。チャット内での動画のプレビューや再生、および完成に向けた反復的な作業の継続がサポートされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトを基にした動画の生成、編集、推敲機能の追加&lt;/li&gt;&lt;li&gt;明示的な文書やWorkIQの知識に基づく動画作成のグラウンディング&lt;/li&gt;&lt;li&gt;チャット内での直接的な動画プレビューと再生機能&lt;/li&gt;&lt;li&gt;完成に向けた反復的な編集プロセスの継続機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570963"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Power Platform ガバナンスおよび管理：Maker Guidelines</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570967</link>
