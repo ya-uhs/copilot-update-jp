@@ -1,5 +1,162 @@
 [
   {
+    "id": "m365-roadmap-21dfd50df4ab3681bf37",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571880",
+    "published_at": "2026-09-29T23:05:21Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Discover & Add Skills from the skill catalog",
+    "excerpt_original": "With the Skills catalog in Copilot Studio, makers can discover, reuse and selectively share approved organizational skills instead of recreating the same instructions and workflows for every agent. The shared catalog powered by Microsoft 365 App Store enables shared skills to extend across experiences such as Copilot Studio M365 copilot, and Cowork, helping organizations standardize proven ways of working while maintaining centralized governance. GA date: October CY2026 Preview date: September CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio：スキルカタログによるスキルの検出と追加",
+    "summary_ja": "Microsoft Copilot Studioにスキルカタログが導入され、開発者は承認された組織内のスキルを発見、再利用、選択的に共有できるようになります。Microsoft 365 App Storeを活用したこの共有カタログにより、複数のエクスペリエンス間でスキルを拡張し、組織全体の標準化と一元的なガバナンス維持が可能になります。",
+    "changes": [
+      "Copilot Studioのスキルカタログを通じた組織内スキルの検出と再利用",
+      "Microsoft 365 App Storeを活用した複数エクスペリエンスへのスキル拡張",
+      "プレビュー提供開始予定時期：2026年9月",
+      "一般提供（GA）開始予定時期：2026年10月"
+    ],
+    "target_user": [
+      "makers",
+      "developers",
+      "administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-30T01:02:27Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-30T01:02:26Z"
+  },
+  {
+    "id": "m365-roadmap-b07d63f5917545ae6fad",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570854",
+    "published_at": "2026-09-29T23:05:21Z",
+    "title_original": "[Roadmap] Work IQ: ExpandedContextIQ",
+    "excerpt_original": "Expand Context IQ so users can discover and select additional agents, skills, and content sources while composing prompts. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ: 拡張されたContext IQ",
+    "summary_ja": "Context IQが拡張され、ユーザーはプロンプトの作成時に追加のエージェント、スキル、コンテンツソースを発見して選択できるようになります。プレビュー版の提供開始は2026年10月、一般提供（GA）は2026年11月を予定しています。",
+    "changes": [
+      "プロンプト作成時における追加エージェント、スキル、コンテンツソースの発見・選択機能の追加"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-30T01:02:28Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-30T01:02:27Z"
+  },
+  {
+    "id": "m365-roadmap-ed5ce9aeb6a32b0af2c2",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570853",
+    "published_at": "2026-09-29T23:05:21Z",
+    "title_original": "[Roadmap] Work IQ: Custom agents + 3P calls",
+    "excerpt_original": "Enable Work IQ to invoke custom agents and agents that call supported third-party tools. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ：カスタムエージェントとサードパーティ製ツールの呼び出し",
+    "summary_ja": "Microsoft 365 Copilotにおいて、Work IQがカスタムエージェントおよびサポートされているサードパーティ製ツールを呼び出す機能が有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。",
+    "changes": [
+      "Work IQによるカスタムエージェントの呼び出し機能の追加",
+      "サポートされているサードパーティ製ツールを呼び出すエージェントの有効化"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users",
+      "Developers",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-09-30T01:02:29Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-09-30T01:02:28Z"
+  },
+  {
+    "id": "github-copilot-cli-399539598",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-5",
+    "published_at": "2026-09-29T21:25:01Z",
+    "title_original": "GitHub Copilot CLI v1.0.90-5",
+    "excerpt_original": "**Fixed** - \"No supported model available\" is no longer shown on launch or in the model picker when a configured provider already supplies a model - MCP tool calls complete even when servers keep sending progress updates after responding",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.90-5のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.90-5がリリースされました。今回のアップデートでは、設定済みのプロバイダーが存在する場合に起動時やモデルピッカーで「No supported model available」エラーが表示されないように修正されました。また、サーバーが応答後も進捗更新を送信し続ける場合にMCPツール呼び出しが完了する問題も修正されています。",
+    "changes": [
+      "設定済みのプロバイダーがモデルを供給している場合、起動時やモデルピッカーで「No supported model available」が表示されないように修正された",
+      "サーバーが応答後に進捗更新を送信し続ける場合でも、MCPツール呼び出しが完了するように修正された"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-09-30T01:02:31Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-09-30T01:02:29Z"
+  },
+  {
+    "id": "github-copilot-cli-399415595",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-4",
+    "published_at": "2026-09-29T18:26:52Z",
+    "title_original": "GitHub Copilot CLI v1.0.90-4",
+    "excerpt_original": "**Fixed** - A fresh launch no longer prints \"Failed to read model provider attribution\" errors while it signs in",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.90-4のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.90-4がリリースされました。初回起動時のサインイン中に発生していたモデルプロバイダー属性の読み込みエラーが出力されないように修正されました。",
+    "changes": [
+      "初回起動時のサインイン中に「Failed to read model provider attribution」エラーが出力される不具合を修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-09-30T01:02:32Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-09-30T01:02:31Z"
+  },
+  {
+    "id": "github-changelog-27fa41ed5cc26a14950e",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+    "published_at": "2026-09-29T17:02:27Z",
+    "title_original": "GPT-6.1 Sol in GitHub Copilot",
+    "excerpt_original": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep… The post GPT-6.1 Sol in GitHub Copilot appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "GitHub CopilotにおけるGPT-6.1 Solの提供開始",
+    "summary_ja": "OpenAIの最新モデルであるGPT-6.1 Solが一般提供され、GitHub Copilotへの展開が開始されました。ユーザーは、強力なマルチステップ処理を伴うエージェント型のコーディングおよびターミナルワークフローでこのモデルを利用できます。",
+    "changes": [
+      "OpenAIの最新モデル「GPT-6.1 Sol」が一般提供され、GitHub Copilotへの展開を開始",
+      "強力なマルチステップ処理によるエージェント型コーディングおよびターミナルワークフローでの利用が可能に"
+    ],
+    "target_user": [
+      "Developers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-09-30T01:02:33Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-09-30T01:02:32Z"
+  },
+  {
     "id": "github-copilot-cli-399273874",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-3",
@@ -2950,162 +3107,5 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
-  },
-  {
-    "id": "github-changelog-27fa41ed5cc26a14950e",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
-    "published_at": "2026-09-29T17:02:27Z",
-    "title_original": "GPT-6.1 Sol in GitHub Copilot",
-    "excerpt_original": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep… The post GPT-6.1 Sol in GitHub Copilot appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "GA",
-    "title_ja": "GitHub CopilotにおけるGPT-6.1 Solの提供開始",
-    "summary_ja": "OpenAIの最新モデルであるGPT-6.1 Solが一般提供され、GitHub Copilotへの展開が開始されました。ユーザーは、強力なマルチステップ処理を伴うエージェント型のコーディングおよびターミナルワークフローでこのモデルを利用できます。",
-    "changes": [
-      "OpenAIの最新モデル「GPT-6.1 Sol」が一般提供され、GitHub Copilotへの展開を開始",
-      "強力なマルチステップ処理によるエージェント型コーディングおよびターミナルワークフローでの利用が可能に"
-    ],
-    "target_user": [
-      "Developers"
-    ],
-    "importance": "high",
-    "translated": true,
-    "processed_at": "2026-09-30T01:02:33Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-09-30T01:02:32Z"
-  },
-  {
-    "id": "github-copilot-cli-399539598",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-5",
-    "published_at": "2026-09-29T21:25:01Z",
-    "title_original": "GitHub Copilot CLI v1.0.90-5",
-    "excerpt_original": "**Fixed** - \"No supported model available\" is no longer shown on launch or in the model picker when a configured provider already supplies a model - MCP tool calls complete even when servers keep sending progress updates after responding",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.90-5のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.90-5がリリースされました。今回のアップデートでは、設定済みのプロバイダーが存在する場合に起動時やモデルピッカーで「No supported model available」エラーが表示されないように修正されました。また、サーバーが応答後も進捗更新を送信し続ける場合にMCPツール呼び出しが完了する問題も修正されています。",
-    "changes": [
-      "設定済みのプロバイダーがモデルを供給している場合、起動時やモデルピッカーで「No supported model available」が表示されないように修正された",
-      "サーバーが応答後に進捗更新を送信し続ける場合でも、MCPツール呼び出しが完了するように修正された"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI users"
-    ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-09-30T01:02:31Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-09-30T01:02:29Z"
-  },
-  {
-    "id": "github-copilot-cli-399415595",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-4",
-    "published_at": "2026-09-29T18:26:52Z",
-    "title_original": "GitHub Copilot CLI v1.0.90-4",
-    "excerpt_original": "**Fixed** - A fresh launch no longer prints \"Failed to read model provider attribution\" errors while it signs in",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.90-4のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.90-4がリリースされました。初回起動時のサインイン中に発生していたモデルプロバイダー属性の読み込みエラーが出力されないように修正されました。",
-    "changes": [
-      "初回起動時のサインイン中に「Failed to read model provider attribution」エラーが出力される不具合を修正"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI ユーザー"
-    ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-09-30T01:02:32Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-09-30T01:02:31Z"
-  },
-  {
-    "id": "m365-roadmap-21dfd50df4ab3681bf37",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571880",
-    "published_at": "2026-09-29T23:05:21Z",
-    "title_original": "[Roadmap] Microsoft Copilot Studio: Discover & Add Skills from the skill catalog",
-    "excerpt_original": "With the Skills catalog in Copilot Studio, makers can discover, reuse and selectively share approved organizational skills instead of recreating the same instructions and workflows for every agent. The shared catalog powered by Microsoft 365 App Store enables shared skills to extend across experiences such as Copilot Studio M365 copilot, and Cowork, helping organizations standardize proven ways of working while maintaining centralized governance. GA date: October CY2026 Preview date: September CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio：スキルカタログによるスキルの検出と追加",
-    "summary_ja": "Microsoft Copilot Studioにスキルカタログが導入され、開発者は承認された組織内のスキルを発見、再利用、選択的に共有できるようになります。Microsoft 365 App Storeを活用したこの共有カタログにより、複数のエクスペリエンス間でスキルを拡張し、組織全体の標準化と一元的なガバナンス維持が可能になります。",
-    "changes": [
-      "Copilot Studioのスキルカタログを通じた組織内スキルの検出と再利用",
-      "Microsoft 365 App Storeを活用した複数エクスペリエンスへのスキル拡張",
-      "プレビュー提供開始予定時期：2026年9月",
-      "一般提供（GA）開始予定時期：2026年10月"
-    ],
-    "target_user": [
-      "makers",
-      "developers",
-      "administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-09-30T01:02:27Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-09-30T01:02:26Z"
-  },
-  {
-    "id": "m365-roadmap-b07d63f5917545ae6fad",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570854",
-    "published_at": "2026-09-29T23:05:21Z",
-    "title_original": "[Roadmap] Work IQ: ExpandedContextIQ",
-    "excerpt_original": "Expand Context IQ so users can discover and select additional agents, skills, and content sources while composing prompts. GA date: November CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Work IQ: 拡張されたContext IQ",
-    "summary_ja": "Context IQが拡張され、ユーザーはプロンプトの作成時に追加のエージェント、スキル、コンテンツソースを発見して選択できるようになります。プレビュー版の提供開始は2026年10月、一般提供（GA）は2026年11月を予定しています。",
-    "changes": [
-      "プロンプト作成時における追加エージェント、スキル、コンテンツソースの発見・選択機能の追加"
-    ],
-    "target_user": [
-      "Microsoft 365 Copilot ユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-09-30T01:02:28Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-09-30T01:02:27Z"
-  },
-  {
-    "id": "m365-roadmap-ed5ce9aeb6a32b0af2c2",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570853",
-    "published_at": "2026-09-29T23:05:21Z",
-    "title_original": "[Roadmap] Work IQ: Custom agents + 3P calls",
-    "excerpt_original": "Enable Work IQ to invoke custom agents and agents that call supported third-party tools. GA date: November CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Work IQ：カスタムエージェントとサードパーティ製ツールの呼び出し",
-    "summary_ja": "Microsoft 365 Copilotにおいて、Work IQがカスタムエージェントおよびサポートされているサードパーティ製ツールを呼び出す機能が有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。",
-    "changes": [
-      "Work IQによるカスタムエージェントの呼び出し機能の追加",
-      "サポートされているサードパーティ製ツールを呼び出すエージェントの有効化"
-    ],
-    "target_user": [
-      "Microsoft 365 Copilot users",
-      "Developers",
-      "Administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-09-30T01:02:29Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-09-30T01:02:28Z"
   }
 ]
