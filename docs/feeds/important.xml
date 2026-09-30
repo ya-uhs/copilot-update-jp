@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 30 Sep 2026 01:02:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:11:54 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.140 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_140</link>
+      <guid isPermaLink="false">vscode-fefbbe2fa28d302e6d44</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.140では、おなじみのワークフローを維持しながらエージェント機能を追加するCopilot harnessが導入されました。また、タスクごとに最適なモデルやワークフローを選択するHydraFusionモデルオーケストレーション（研究用プレビュー）や、複数のリポジトリやワークツリーを管理できるマルチフォルダーセッション（実験的機能）が追加されています。さらに、Dev Containerの自動クリーンアップや起動の高速化、リモートエージェントホストへのタスク委任などの機能拡張が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessの追加により、スタンドアロンのGitHub CopilotアプリやCopilot CLIと一貫したエージェント機能を利用可能にしました。&lt;/li&gt;&lt;li&gt;アダプティブなモデルオーケストレーションシステムであるHydraFusion（研究用プレビュー）を導入し、タスクに応じたモデル選択やエスカレーションを自動化しました。&lt;/li&gt;&lt;li&gt;複数のリポジトリや隔離されたワークツリーを1つのセッション内で調整できるマルチフォルダーセッション（実験的機能）を追加しました。&lt;/li&gt;&lt;li&gt;Dev Containerの自動クリーンアップ機能と、キャッシュされたダウンロードの再利用による起動の高速化を実現しました。&lt;/li&gt;&lt;li&gt;リモートエージェントホストでのワークスペースなしチャットの実行や、エージェントによるリモートホストへのタスク委任（実験的機能）に対応しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_140"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub CopilotにおけるGPT-6.1 Solの提供開始</title>
       <link>https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot</link>
