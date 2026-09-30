@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 10:23:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:02:33 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：スキルカタログによるスキルの検出と追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571880</link>
+      <guid isPermaLink="false">m365-roadmap-21dfd50df4ab3681bf37</guid>
+      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにスキルカタログが導入され、開発者は承認された組織内のスキルを発見、再利用、選択的に共有できるようになります。Microsoft 365 App Storeを活用したこの共有カタログにより、複数のエクスペリエンス間でスキルを拡張し、組織全体の標準化と一元的なガバナンス維持が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Studioのスキルカタログを通じた組織内スキルの検出と再利用&lt;/li&gt;&lt;li&gt;Microsoft 365 App Storeを活用した複数エクスペリエンスへのスキル拡張&lt;/li&gt;&lt;li&gt;プレビュー提供開始予定時期：2026年9月&lt;/li&gt;&lt;li&gt;一般提供（GA）開始予定時期：2026年10月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571880"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: 拡張されたContext IQ</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570854</link>
+      <guid isPermaLink="false">m365-roadmap-b07d63f5917545ae6fad</guid>
+      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Context IQが拡張され、ユーザーはプロンプトの作成時に追加のエージェント、スキル、コンテンツソースを発見して選択できるようになります。プレビュー版の提供開始は2026年10月、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプト作成時における追加エージェント、スキル、コンテンツソースの発見・選択機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570854"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ：カスタムエージェントとサードパーティ製ツールの呼び出し</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570853</link>
+      <guid isPermaLink="false">m365-roadmap-ed5ce9aeb6a32b0af2c2</guid>
+      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、Work IQがカスタムエージェントおよびサポートされているサードパーティ製ツールを呼び出す機能が有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQによるカスタムエージェントの呼び出し機能の追加&lt;/li&gt;&lt;li&gt;サポートされているサードパーティ製ツールを呼び出すエージェントの有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570853"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] WordのCopilotにおけるリーガルプラグイン</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571884</link>

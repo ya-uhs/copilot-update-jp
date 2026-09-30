@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 16:17:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:02:33 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub CopilotにおけるGPT-6.1 Solの提供開始</title>
+      <link>https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-27fa41ed5cc26a14950e</guid>
+      <pubDate>Tue, 29 Sep 2026 17:02:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;OpenAIの最新モデルであるGPT-6.1 Solが一般提供され、GitHub Copilotへの展開が開始されました。ユーザーは、強力なマルチステップ処理を伴うエージェント型のコーディングおよびターミナルワークフローでこのモデルを利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;OpenAIの最新モデル「GPT-6.1 Sol」が一般提供され、GitHub Copilotへの展開を開始&lt;/li&gt;&lt;li&gt;強力なマルチステップ処理によるエージェント型コーディングおよびターミナルワークフローでの利用が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub CopilotにおけるClaude Sonnet 5.5の提供開始</title>
       <link>https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot</link>
@@ -19,24 +29,34 @@
       <category>high</category>
     </item>
     <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年9月23日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026</link>
-      <guid isPermaLink="false">m365-release-notes-0d43a05fe828534a94f5</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年9月23日更新では、Excelでの変更箇所への直接移動やCopilot利用状況の可視化、管理者向けの専用ライセンスリクエストページの追加などが行われました。さらに、検索機能におけるメール添付ファイルの表示や日付での並び替え、会議のトピック・キーワード検索などが強化されています。また、Placesディレクトリの場所に関するプロフィールカードの追加や、Power BIレポートのフィルタリング機能の拡張、Planner Agentチャットの統合も実施されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ExcelのCopilotチャット応答にワークブック内の変更箇所へ直接移動できるリンクを追加&lt;/li&gt;&lt;li&gt;Excelの「変更の表示」ペインでCopilotの編集や提案の履歴を確認可能に&lt;/li&gt;&lt;li&gt;Microsoft 365 管理センターに専用のライセンスリクエストページを追加&lt;/li&gt;&lt;li&gt;Copilot検索のメール結果に添付ファイルをインラインのピル形式で表示&lt;/li&gt;&lt;li&gt;Copilot検索のOutlookメール結果に日付の昇順・降順「並び替え」フィルターを追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot：フェデレーテッドCopilotコネクタが書き込み、更新、削除アクションをサポート</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570964</link>
-      <guid isPermaLink="false">m365-roadmap-ad99958cddeb03ad8b4d</guid>
-      <pubDate>Tue, 22 Sep 2026 22:57:16 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのフェデレーテッドCopilotコネクタ（MCP型）において、サードパーティサービスでのコンテンツ作成、更新、削除アクションがサポートされます。ユーザーはCopilot Chatを離れずに作業を完了できるようになり、すべての書き込み・削除アクションには実行前の明示的な確認が必要です。管理者はMicrosoft 365管理センターで各コネクタのツールを確認し、ポリシーに適合しないものを無効化できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サードパーティサービスにおける作成、更新、削除アクションのサポート追加&lt;/li&gt;&lt;li&gt;各アクション実行時にユーザーの明示的な確認を必須化&lt;/li&gt;&lt;li&gt;管理センターでの読み取り・書き込み/削除ツールの確認およびコネクタ無効化機能の提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570964"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：スキルカタログによるスキルの検出と追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571880</link>
+      <guid isPermaLink="false">m365-roadmap-21dfd50df4ab3681bf37</guid>
+      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにスキルカタログが導入され、開発者は承認された組織内のスキルを発見、再利用、選択的に共有できるようになります。Microsoft 365 App Storeを活用したこの共有カタログにより、複数のエクスペリエンス間でスキルを拡張し、組織全体の標準化と一元的なガバナンス維持が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Studioのスキルカタログを通じた組織内スキルの検出と再利用&lt;/li&gt;&lt;li&gt;Microsoft 365 App Storeを活用した複数エクスペリエンスへのスキル拡張&lt;/li&gt;&lt;li&gt;プレビュー提供開始予定時期：2026年9月&lt;/li&gt;&lt;li&gt;一般提供（GA）開始予定時期：2026年10月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571880"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>high</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: 拡張されたContext IQ</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570854</link>
+      <guid isPermaLink="false">m365-roadmap-b07d63f5917545ae6fad</guid>
+      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Context IQが拡張され、ユーザーはプロンプトの作成時に追加のエージェント、スキル、コンテンツソースを発見して選択できるようになります。プレビュー版の提供開始は2026年10月、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプト作成時における追加エージェント、スキル、コンテンツソースの発見・選択機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570854"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ：カスタムエージェントとサードパーティ製ツールの呼び出し</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570853</link>
+      <guid isPermaLink="false">m365-roadmap-ed5ce9aeb6a32b0af2c2</guid>
+      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、Work IQがカスタムエージェントおよびサポートされているサードパーティ製ツールを呼び出す機能が有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQによるカスタムエージェントの呼び出し機能の追加&lt;/li&gt;&lt;li&gt;サポートされているサードパーティ製ツールを呼び出すエージェントの有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570853"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.90-3 リリース</title>
@@ -86,26 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;OneDriveに、Copilotの利用を容易にする新しいプロンプトギャラリーが追加されます。一般的なファイルタスク向けのすぐに使えるプロンプトを提供し、カテゴリ別の探索やプロンプトのカスタことが可能です。アクセス方法には、OneDrive右下のCopilotボタンやチャットペイン内の「+」ボタンが含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;一般的なファイルタスク向けにすぐに使えるプロンプトを提供するPrompt Galleryを追加&lt;/li&gt;&lt;li&gt;Create、Analyze、Find、Collaborateなどのカテゴリ別プロンプトの探索機能を提供&lt;/li&gt;&lt;li&gt;OneDrive右下のCopilotボタンやチャットペインの「+」ボタンからプロンプトギャラリーへアクセス可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571308"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Clipchamp：Copilotによる動画作成機能のアップデート</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570963</link>
-      <guid isPermaLink="false">m365-roadmap-dc9076781a1b0632b11a</guid>
-      <pubDate>Mon, 28 Sep 2026 22:58:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Clipchampの動画ハブに、Copilotを活用したエージェント型動画作成機能が追加されます。ユーザーは明示的な文書やWorkIQの暗黙的な知識に基づき、プロンプトから動画の生成、編集、推敲を行うことが可能です。チャット内での動画のプレビューや再生、および完成に向けた反復的な作業の継続がサポートされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトを基にした動画の生成、編集、推敲機能の追加&lt;/li&gt;&lt;li&gt;明示的な文書やWorkIQの知識に基づく動画作成のグラウンディング&lt;/li&gt;&lt;li&gt;チャット内での直接的な動画プレビューと再生機能&lt;/li&gt;&lt;li&gt;完成に向けた反復的な編集プロセスの継続機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570963"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89</link>
-      <guid isPermaLink="false">github-copilot-cli-398551718</guid>
-      <pubDate>Mon, 28 Sep 2026 19:20:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89がリリースされ、UIインタラクションの改善、カスタム指示やMCP設定のサポート追加、各種バグ修正が行われました。サイドバーの動作向上やモデル選択・ルーティングの改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ask_userおよびエリシテーションフォームの入力欄で左クリックによるフォーカスとカーソル配置をサポートしました。&lt;/li&gt;&lt;li&gt;Claude Codeのルールファイルをカスタム指示として読み込む機能を追加しました。&lt;/li&gt;&lt;li&gt;未読のターンがあるサイドバーのセッションに青いドットを表示するようにしました。&lt;/li&gt;&lt;li&gt;ルーティング階層の自動提案と、ショートカットやクリックによる切り替えをサポートしました。&lt;/li&gt;&lt;li&gt;MCPの事前登録済みOAuthクライアントが設定されたoauthScopesを尊重するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>

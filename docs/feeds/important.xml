@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 10:23:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:02:33 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub CopilotにおけるGPT-6.1 Solの提供開始</title>
+      <link>https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-27fa41ed5cc26a14950e</guid>
+      <pubDate>Tue, 29 Sep 2026 17:02:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;OpenAIの最新モデルであるGPT-6.1 Solが一般提供され、GitHub Copilotへの展開が開始されました。ユーザーは、強力なマルチステップ処理を伴うエージェント型のコーディングおよびターミナルワークフローでこのモデルを利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;OpenAIの最新モデル「GPT-6.1 Sol」が一般提供され、GitHub Copilotへの展開を開始&lt;/li&gt;&lt;li&gt;強力なマルチステップ処理によるエージェント型コーディングおよびターミナルワークフローでの利用が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub CopilotにおけるClaude Sonnet 5.5の提供開始</title>
       <link>https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot</link>
