@@ -1,5 +1,447 @@
 [
   {
+    "id": "m365-roadmap-6ce5e8fccee822afdff3",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573380",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Improve purchase order matching in Payables Agent",
+    "excerpt_original": "This feature improves PO matching quality in Payables Agent and aligns draft finalization behavior with existing posting controls. The agent uses an enriched PO Lines list page during matching that includes these fields: Line Amount — enables matching on value, not just description and quantity. This field is especially valuable for service lines where quantity (often just 1) isn't a meaningful discriminator. Expected Receipt Date — helps the agent factor in timing when multiple PO lines could match. By using these fields, the agent can more reliably distinguish between similar-looking PO lines, which improves accuracy in first-pass matches. The agent now respects the app's Never block draft finalization setting in the Receipt on Invoice field on purchase orders. This change means the agent doesn't block draft finalization because a matched PO line isn't yet marked as received. Whether goods are received is a posting time control, not a draft time control. The \"Receipt on Invoice\" setting on the order governs this behavior at posting. The \"Receipt on Invoice\" field is already available on purchase orders. With this release, we're expanding this setting to more entities: A new vendor-level \"Receipt on Invoice\" setting is introduced and automatically applied to new purchase orders created for a vendor. A new PO-line-level \"Receipt on Invoice\" setting allows per-line override. The inheritance chain for the setting is vendor, then purchase order, and then purchase order line, but each level can override the parent. We've also improved draft warnings. When the agent creates a purchase invoice draft matched to a PO, the draft surfaces warnings based not just on quantity, but also on amount. The draft warnings are for information only and don't block finalization. For example, they warn about the discrepancies in the draft and you can decide how to proceed. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Payables Agentにおける発注書マッチングの改善",
+    "summary_ja": "Dynamics 365 Business CentralのPayables Agentにおける発注書マッチング品質が向上し、金額や予定受入日を考慮した高精度な照合が可能になります。また、下書きの確定動作が既存の転記コントロールと整合され、受領に関する設定がベンダーレベルや発注書ラインレベルへと拡張されます。さらに、数量だけでなく金額に基づく情報提供型の下書き警告も追加されています。",
+    "changes": [
+      "行金額（Line Amount）と予定受入日（Expected Receipt Date）を活用した、より精度の高いPOマッチングの実現",
+      "「Receipt on Invoice」設定の適用範囲拡大（ベンダーレベルおよびPOラインレベルでの上書きに対応）",
+      "未受領ラインによる下書き確定ブロックを回避し、既存の転記コントロールとの整合性を確保",
+      "数量および金額の不一致に基づく、情報提供型の下書き警告の追加"
+    ],
+    "target_user": [
+      "Dynamics 365 Business Central ユーザー",
+      "経理担当者",
+      "システム管理者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:22Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:20Z"
+  },
+  {
+    "id": "m365-roadmap-704d5c53269144075b06",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573373",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Sales: Sales tools, skills and plugin are now available in Copilot Cowork",
+    "excerpt_original": "The updated Sales plugin brings expanded Dynamics 365 Sales context, actions, and guided workflows to Copilot Cowork, building on the native Sales skills already available in Cowork. Sellers can work with sales data and take supported actions directly in the flow of work, reducing the need to switch to Dynamics 365 Sales. The native Sales skills invoke tools published through the Dynamics 365 MCP server to retrieve sales context and perform supported actions in Dynamics 365 Sales. These native Sales skills are included in the Sales plugin, which will be delivered through the updated MOS package for the Sales app, providing administrators with a governed way to deploy and manage the capabilities. GA date: September CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Salesのツール、スキル、プラグインがCopilot Coworkで利用可能に",
+    "summary_ja": "更新されたSalesプラグインにより、Copilot Cowork内でDynamics 365 Salesのコンテキスト、アクション、ガイド付きワークフローが利用可能になりました。販売担当者は、アプリケーションを切り替えることなく、作業のフロー内で直接販売データの確認やサポートされているアクションの実行が行えます。これらの機能は、Salesアプリ向けの更新されたMOSパッケージを通じて展開され、管理者は一元的な管理が可能です。",
+    "changes": [
+      "Copilot CoworkでDynamics 365 Salesのコンテキスト、アクション、ガイド付きワークフローが利用可能になった",
+      "Dynamics 365 MCPサーバー経由で公開されたツールを呼び出し、販売データの取得やアクションの実行を実現",
+      "Salesアプリ向けの更新されたMOSパッケージを通じて展開され、管理者が管理可能"
+    ],
+    "target_user": [
+      "Sellers",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:23Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:22Z"
+  },
+  {
+    "id": "m365-roadmap-6bbf27c4decb77a7a241",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573372",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Updates to Agent UI experience",
+    "excerpt_original": "Manage agents more easily by grouping avatars and using a dedicated action to start new tasks. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilot とエージェント - エージェントUIエクスペリエンスの更新",
+    "summary_ja": "Dynamics 365 Business CentralにおけるCopilotとエージェントのUI体験が更新されます。アバターのグループ化や新規タスク開始のための専用アクションにより、エージェントの管理が容易になります。この機能は2026年10月に一般提供（GA）される予定です。",
+    "changes": [
+      "アバターのグループ化によるエージェント管理の簡素化",
+      "新規タスクを開始するための専用アクションの追加"
+    ],
+    "target_user": [
+      "Dynamics 365 Business Central ユーザー",
+      "管理者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:24Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:23Z"
+  },
+  {
+    "id": "m365-roadmap-24e65c0fd72ff374125e",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573370",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Manage agent permissions easier",
+    "excerpt_original": "Assign additional permissions to agents when they request them. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotとエージェント - エージェント権限の管理簡素化",
+    "summary_ja": "Dynamics 365 Business Centralにおいて、エージェントが追加の権限を要求した際に対象の権限を割り当てることができるようになります。この機能は、2026年10月に一般提供（GA）が予定されています。",
+    "changes": [
+      "エージェントからの要求時に追加権限を割り当て可能"
+    ],
+    "target_user": [
+      "管理者",
+      "ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:25Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:24Z"
+  },
+  {
+    "id": "m365-roadmap-fa63ca30e777c02cfafe",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573366",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Review content generated by agents directly on pages",
+    "excerpt_original": "This improvement introduces the ability for Business Central users to review and approve content generated by agents directly on the pages where they work. You no longer need to navigate to separate task pane to understand that a given document was created by an agent. Instead, agent‑generated suggestions—such as descriptions, text proposals, or field‑specific updates—appear inline where they can be evaluated and modified before being applied. By keeping the review process within the page context, users maintain flow, reduce clicks, and ensure content quality with minimal disruption. The feature builds on existing Business Central autofill user interface patterns ensuring admins and users can adopt it as part of existing agent‑powered daily workflows. Business Value: The ability to review agent‑generated content directly on pages helps organizations streamline their daily work while maintaining accuracy and control. You can evaluate suggestions in the context of the task you are performing, reducing interruptions and improving the quality of the final output. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: エージェントが生成したコンテンツをページ上で直接レビュー可能に",
+    "summary_ja": "Business Centralのユーザーは、エージェントが生成したコンテンツを専用の作業ウィンドウではなく、作業中のページ上で直接確認および承認できるようになります。提案内容はインラインで表示され、適用前に評価や修正を行うことが可能です。この機能は既存の自動入力UIパターンに基づいており、日常的なワークフローにスムーズに統合されます。",
+    "changes": [
+      "エージェントが生成した説明文やテキスト案などの提案を、ページ上のインラインで直接確認・修正できる機能の追加",
+      "別のタスクペインに移動する必要性をなくし、ページコンテキスト内でレビュープロセスを完結させる改善",
+      "既存のBusiness Centralの自動入力UIパターンを活用したシームレスな導入とワークフロー維持"
+    ],
+    "target_user": [
+      "Business Central users",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:27Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:25Z"
+  },
+  {
+    "id": "m365-roadmap-61b0bd981f15fd360ed6",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573364",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Show avatars for record creators and modifiers in list",
+    "excerpt_original": "This feature introduces visual avatars in Business Central list pages to indicate which user or agent created or last modified a record. The capability enhances traceability and supports collaborative work by making identity information immediately visible without opening the record. The avatars reflect either a named Business Central user, a system user or an AI agent, following the existing identity model. Users can hover over the avatar to see a tooltip with the full display name and record update timestamp (if available). This improvement benefits roles that frequently work with shared data—including accountants, order processors, warehouse staff, service teams, and administrators—by reducing time spent verifying ownership or responsibility for items, documents, or configuration entries. It also helps organizations adopting AI‑generated records understand when an automated agent has contributed. The feature surfaces existing Created By and Modified By fields more intuitively while respecting Business Central’s data privacy and permissions model. Business Value: Supporting avatars for the users or agents who created and last modified entries makes record ownership clearer and easier to understand across Business Central. By surfacing identity information directly in list pages, you can quickly determine responsibility, follow up with the right person, and work with shared data more confidently. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: リスト内のレコード作成者および変更者のアバター表示機能",
+    "summary_ja": "本機能により、Business Centralのリストページ上でレコードを作成または最後に変更したユーザーやエージェントの視覚的アバターが表示されるようになります。アバターにカーソルを合わせることで、完全な表示名と更新タイムスタンプを含むツールチップを確認でき、データの追跡性と共有作業の効率が向上します。表示されるアバターは、既存の識別モデルに基づき、名前付きのユーザー、システムユーザー、またはAIエージェントのいずれかとなります。",
+    "changes": [
+      "Business Centralのリストページにレコード作成者・変更者のアバターを表示",
+      "アバター上のホバーでフル表示名と更新タイムスタンプを表示",
+      "既存の「Created By」および「Modified By」フィールドをより直感的に表示"
+    ],
+    "target_user": [
+      "会計士",
+      "受注処理担当者",
+      "倉庫スタッフ",
+      "サービスチーム",
+      "管理者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:28Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:27Z"
+  },
+  {
+    "id": "m365-roadmap-14a3f83025d4d7b8e9c7",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573363",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Manage tasks from all agents in dedicated task pane",
+    "excerpt_original": "This feature introduces a dedicated task pane in Business Central that displays all tasks generated by the agents. The task pane appears as an additional panel in the user interface and can be opened from anywhere in Business Central. Tasks include suggestions, validations, follow‑ups access to draft documents, and other agent‑initiated actions. Users can review task details, navigate directly to the affected record, complete tasks, or dismiss them. This improvement primarily benefits roles that rely heavily on AI‑driven workflows—such as accountants, sales people, and managers—who often engage with multiple agents throughout the day. The task pane reduces friction by collecting all insights in a single location, minimizing missed tasks and improving throughput. Business Value: The Show all agent tasks on a separate task pane feature help organizations get more value from Microsoft Copilot in Business Central by giving users a single, structured place to review and act on AI‑generated tasks. Instead of relying on notifications scattered across different pages, users gain a clear, consolidated overview of all tasks created by agents working in finance, purchasing, sales, and operations. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotとエージェント - 専用タスクペインでの全エージェントのタスク管理",
+    "summary_ja": "Dynamics 365 Business Centralに、エージェントが生成したすべてのタスクを表示する専用タスクペインが追加されます。ユーザーはこの統合された場所でAI生成タスクの確認、関連レコードへの移動、タスクの完了や破棄を行うことができます。これにより、通知が分散するのを防ぎ、業務効率の向上が図られます。",
+    "changes": [
+      "Business Central内にエージェント生成タスクを表示する専用のタスクペインを追加",
+      "提案、検証、フォローアップ、下書きドキュメントへのアクセスなどのタスクを統合管理",
+      "タスクの詳細確認、関連レコードへの直接移動、タスクの完了や破棄が可能"
+    ],
+    "target_user": [
+      "accountants",
+      "sales people",
+      "managers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:29Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:28Z"
+  },
+  {
+    "id": "m365-roadmap-1aa959cc922266226b9c",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573362",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Enable Microsoft Copilot chat experience",
+    "excerpt_original": "The updated Microsoft Copilot chat experience introduces a modern, consistent, and intuitive interface that aligns Business Central with the broader Microsoft Copilot ecosystem. The enhancement modernizes the chat panel, streamlines navigation, and improves user workflows by adopting familiar interaction patterns from Microsoft Copilot. This update benefits users who regularly interact with Copilot to accelerate daily tasks - especially operations managers, accountants, sales representatives, and administrators who rely on conversational assistance to navigate and analyse data. It also provides a more predictable experience across Microsoft 365 applications, reducing onboarding time and helping organizations adopt AI capabilities more systematically. Business Value: The updated Copilot chat experience provides a familiar and consistent AI experience across Business Central and Microsoft applications. You get started faster, switch more easily between applications, and interact with AI more confidently, helping improve productivity and accelerate adoption. More info: https://learn.microsoft.com//dynamics365/business-central/chat-with-copilot GA date: October CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - Microsoft Copilotチャットエクスペリエンスの有効化",
+    "summary_ja": "Microsoft 365 Copilotの最新のチャットエクスペリエンスがDynamics 365 Business Centralに導入され、Microsoft Copilotエコシステム全体で一貫した直感的なインターフェイスを提供します。チャットパネルの近代化やナビゲーションの効率化により、日常業務のワークフローが向上します。本機能により、アプリケーション間の切り替えが容易になり、AI機能の導入と生産性の向上が促進されます。",
+    "changes": [
+      "Microsoft Copilotエコシステムに合わせたモダンで一貫性のある直感的なチャットインターフェイスの導入",
+      "チャットパネルの近代化とナビゲーションの効率化",
+      "Microsoft 365アプリケーション間で予測可能な共通のインタラクションパターンの採用"
+    ],
+    "target_user": [
+      "operations managers",
+      "accountants",
+      "sales representatives",
+      "administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:31Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:29Z"
+  },
+  {
+    "id": "m365-roadmap-7434353c0fd8aa152955",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573312",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Run data queries with MCP Server",
+    "excerpt_original": "Use new MCP tools to define, validate, and run custom data queries. Your MCP application can then query data for which no existing APIs exist. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: MCPサーバーを使用したデータクエリの実行",
+    "summary_ja": "Dynamics 365 Business Centralにおいて、新しいMCPツールを使用してカスタムデータクエリを定義、検証、実行できるようになります。これにより、既存のAPIが存在しないデータに対してもMCPアプリケーションからクエリを実行することが可能になります。一般提供（GA）は2026年10月を予定しています。",
+    "changes": [
+      "新しいMCPツールによるカスタムデータクエリの定義、検証、実行機能の追加",
+      "既存のAPIがないデータに対するMCPアプリケーションからのクエリ実行をサポート"
+    ],
+    "target_user": [
+      "Dynamics 365 Business Central users",
+      "Developers",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:32Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:31Z"
+  },
+  {
+    "id": "m365-roadmap-da170a9d4b06557cc036",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571678",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Cowork, Code and Scout",
+    "excerpt_original": "The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into supported Copilot experiences, including Chat, Cowork, Code, and Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365. First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's existing permissions on each call. The package provides a governed foundation for the supported tools and skills. Availability is tracked separately for each experience. GA date: September CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Service: Cowork、Code、Scout向けサービスツール、スキル、プラグインの提供開始",
+    "summary_ja": "更新されたServiceアプリケーションにより、Dynamics 365 Customer Serviceのコンテキスト、アクション、およびガイド付きワークフローがChat、Cowork、Code、ScoutなどのサポートされるCopilotエクスペリエンスに統合されます。カスタマーサービスチームは作業のフローの中でサービス情報の参照やサポートされているアクションの実行が可能になり、Dynamics 365への画面切り替えを削減できます。Dynamics 365 MCP上のServiceパッケージを通じて提供されるファーストパーティツールは、ビジネスロジックとユーザー権限に準拠します。",
+    "changes": [
+      "Dynamics 365 Customer Serviceのコンテキスト、アクション、ガイド付きワークフローをChat、Cowork、Code、ScoutのCopilotエクスペリエンスに統合",
+      "Dynamics 365 MCP上のServiceパッケージによるファーストパーティツールの提供（ビジネスロジックとユーザー権限を遵守）"
+    ],
+    "target_user": [
+      "Customer service teams"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T01:03:33Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T01:03:32Z"
+  },
+  {
+    "id": "m365-roadmap-7db51a094e0183264c20",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570432",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Self-learning for Copilot Studio Agents",
+    "excerpt_original": "Soon agents can help makers improve agents using lessons from completed runs. It will identify repeated tool sequences that can be handled by workflows to standardize agent behavior, minimize errors, and most importantly control costs. Makers will be presented with recommendations and supporting evidence, expected impact, and the related instruction and tool changes. Makers accept recommendations, configure, test, and publish a refined copy of the agent. This helps improve agent output quality and controls costs while preserving work that requires model judgment and keeping makers in control. GA date: October CY2026 Preview date: September CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: セルフラーニング機能の追加",
+    "summary_ja": "Microsoft Copilot Studioのエージェント向けに、完了した実行結果から学習するセルフラーニング機能が追加されます。エージェントは繰り返し使用されるツールシーケンスをワークフローとして提案し、メーカーがそれを承認、テスト、公開することで品質向上とコスト管理を実現します。プレビュー版の提供は2026年9月、GA（一般提供）は2026年10月の予定です。",
+    "changes": [
+      "完了した実行の履歴から学習し、エージェントの改善を支援する機能を追加",
+      "繰り返し使用されるツールシーケンスを検出し、ワークフロー化の推奨を提示",
+      "メーカーが推奨事項の確認、構成、テスト、およびエージェントの改良版の公開を実施可能"
+    ],
+    "target_user": [
+      "Makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:09Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T10:43:07Z"
+  },
+  {
+    "id": "m365-roadmap-3a3710f4875709db9a40",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570430",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Persistent identity for Copilot Studio Agents",
+    "excerpt_original": "Makers can now give their Copilot Studio agents their own accounts, making it a governed Microsoft 365 identity for shared, collaborative business processes that spans across teams. With its own mailbox, Teams presence & Office access, the agent can collaborate where work happens while admins can control and govern its access, policies and use as its own first-class entity. GA date: November CY2026 Preview date: September CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID",
+    "summary_ja": "メーカーはMicrosoft Copilot Studioのエージェントに独自のMicrosoft 365アカウントと永続IDを付与できるようになります。エージェントは専用のメールボックス、Teamsプレゼンス、Officeアクセスを持ち、管理者はファーストクラスのエンティティとしてアクセスやポリシーを統制可能です。",
+    "changes": [
+      "エージェントへの専用Microsoft 365アカウント（永続ID）の付与",
+      "専用メールボックス、Teamsプレゼンス、Officeアクセス機能の搭載",
+      "管理者の統制下でのチーム間における共同作業の実現"
+    ],
+    "target_user": [
+      "Makers",
+      "Administrators"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:10Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T10:43:09Z"
+  },
+  {
+    "id": "m365-roadmap-2c7a230be193f4d7fe3d",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565216",
+    "published_at": "2026-09-30T23:31:03Z",
+    "title_original": "[Roadmap] Microsoft Teams: Intelligent call delegation",
+    "excerpt_original": "Incoming Teams calls don't wait for a break in your day. Intelligent call delegation provides AI-powered calling assistance so you can focus on the conversations that matter most. It answers calls and gathers context, helping you decide whether to pick up and engage the caller. It can also schedule follow-up appointments through an integration with Microsoft Bookings so you can reconnect with callers at a more convenient time. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams: インテリジェント通話委任機能",
+    "summary_ja": "Microsoft TeamsにAIを活用した通話アシスタンス機能であるインテリジェント通話委任機能が追加されます。本機能は着信に応答してコンテキストを収集し、応答するかどうかを判断するのに役立ちます。また、Microsoft Bookingsとの統合を通じて後続の予定を調整することも可能です。",
+    "changes": [
+      "AIを活用した通話アシスタンスにより、着信への応答とコンテキストの収集が可能になります",
+      "Microsoft Bookingsとの統合により、都合の良い時間でのフォローアップ予定の調整が可能になります"
+    ],
+    "target_user": [
+      "Microsoft Teams Users"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:11Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T10:43:10Z"
+  },
+  {
+    "id": "github-copilot-cli-400504518",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.91-0",
+    "published_at": "2026-09-30T23:18:00Z",
+    "title_original": "GitHub Copilot CLI v1.0.91-0",
+    "excerpt_original": "**Improved** - Complete, statically analyzable read-only shell pipelines can now enter execution-evidence review, while incomplete or unbound pipelines require explicit approval. **Fixed** - Offer sandbox network bypass for Node/npm EACCES socket denials on Windows",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.91-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.91-0がリリースされました。完全で静的解析可能な読み取り専用シェルパイプラインの実行根拠レビューが可能になり、Windows環境でのNode/npm EACCESソケット拒否に対するサンドイッチネットワークバイパスの修正が行われました。",
+    "changes": [
+      "完全かつ静的解析可能な読み取り専用シェルパイプラインが実行根拠レビューに入ることが可能になりました（不完全または未バインドのパイプラインは引き続き明示的な承認が必要です）。",
+      "Windows上でのNode/npm EACCESソケット拒否に対するサンドボックスネットワークバイパスの問題を修正しました。"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:12Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:11Z"
+  },
+  {
+    "id": "github-copilot-cli-400456416",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90",
+    "published_at": "2026-09-30T21:38:30Z",
+    "title_original": "GitHub Copilot CLI v1.0.90",
+    "excerpt_original": "2026-09-30 - Add support for GPT-6.1 Sol in model selection - Add --mcp-github-auth to scope GitHub account auth to approved MCP server origins - Add session-scoped read-only directory approvals to path access prompts - Permission prompts remain answerable after resuming interrupted sessions. - Auto-approval now takes into account messages you type while the agent is working, as it already did for prompts sent while it was idle - Compaction now returns a summary even when instructions ask for tool use. - Copying selected text on Wayland now finishes as soon as wl-copy accepts it, instead of timing out and falling back to the in-process clipboard that can print \"Somebody else owns the clipboard now\" over the UI - A narrow Sessions sidebar drops keyboard hints that do not fit instead of cutting one off mid-word - MCP tools recover after transient discovery failures without restarting the session; unchanged catalogs remain available during recovery. - \"No supported model available\" is no longer shown on launch or in the model picker when a configured provider already supplies a model - MCP tool calls complete even when servers keep sending progress updates after responding - A fresh launch no longer prints \"Failed to read model provider attribution\" errors while it signs in - MCP OAuth sign-in to servers such as Datadog reuses a still-valid cached token - Withdrawn running prompts stay removed after session resume - Click anywhere on expanded tool calls in compact timeline to collapse them - Holding Space and Ctrl+X V explain when voice mode is off or still getting ready",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.90 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.90がリリースされ、モデル選択へのGPT-6.1 Solサポート追加や、MCP（Model Context Protocol）関連の機能強化、各種バグ修正が行われました。セキュリティと利便性の向上のため、GitHubアカウント認証のスコープ設定や読み取り専用ディレクトリの承認機能が追加されています。また、UIの表示改善やクリップボードの動作安定化なども含まれています。",
+    "changes": [
+      "モデル選択にGPT-6.1 Solのサポートを追加",
+      "承認されたMCPサーバーのオリジンにGitHubアカウント認証を制限する --mcp-github-auth オプションを追加",
+      "パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認を追加",
+      "中断されたセッションを再開した後も、権限プロンプトに応答可能な状態を維持",
+      "MCPツールが一時的なディスカバリー失敗からセッションの再起動なしで復旧する機能を追加"
+    ],
+    "target_user": [
+      "developers",
+      "CLI users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:14Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:12Z"
+  },
+  {
+    "id": "github-copilot-cli-400317361",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-7",
+    "published_at": "2026-09-30T18:17:23Z",
+    "title_original": "GitHub Copilot CLI v1.0.90-7",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.90-7",
+    "summary_ja": "GitHub Copilot CLI v1.0.90-7がリリースされました。このバージョンには不具合の修正と変更が含まれています。",
+    "changes": [
+      "不具合の修正と変更の適用"
+    ],
+    "target_user": [
+      "Developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:14Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:14Z"
+  },
+  {
     "id": "github-copilot-cli-400184498",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-6",
@@ -27,6 +469,33 @@
     "source_id": "github-copilot-cli",
     "family": "github",
     "translation_attempted_at": "2026-09-30T16:11:49Z"
+  },
+  {
+    "id": "github-changelog-cad13c49eff0df4a6694",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+    "published_at": "2026-09-30T14:31:19Z",
+    "title_original": "HydraFusion in VS Code and the GitHub Copilot app",
+    "excerpt_original": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being… The post HydraFusion in VS Code and the GitHub Copilot app appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "Preview",
+    "title_ja": "Visual Studio CodeとGitHub CopilotアプリにおけるHydraFusionの提供開始",
+    "summary_ja": "HydraFusionのリサーチプレビューがVisual Studio CodeおよびGitHub Copilotアプリで利用可能になりました。これにより、対応範囲がCopilot CLIから拡張され、モデルピッカーから選択できるようになりました。",
+    "changes": [
+      "HydraFusionのリサーチプレビューがVisual Studio CodeとGitHub Copilotアプリで利用可能に",
+      "対応範囲がCopilot CLIから拡張され、モデルピッカーに表示される仕様に変更"
+    ],
+    "target_user": [
+      "開発者",
+      "Visual Studio Codeユーザー",
+      "GitHub Copilotユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:15Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:14Z"
   },
   {
     "id": "vscode-fefbbe2fa28d302e6d44",
@@ -3168,422 +3637,31 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-changelog-cad13c49eff0df4a6694",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
-    "published_at": "2026-09-30T14:31:19Z",
-    "title_original": "HydraFusion in VS Code and the GitHub Copilot app",
-    "excerpt_original": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being… The post HydraFusion in VS Code and the GitHub Copilot app appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
-    "source_id": "github-changelog",
-    "family": "github"
-  },
-  {
-    "id": "github-copilot-cli-400504518",
+    "id": "github-copilot-cli-400693850",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.91-0",
-    "published_at": "2026-09-30T23:18:00Z",
-    "title_original": "GitHub Copilot CLI v1.0.91-0",
-    "excerpt_original": "**Improved** - Complete, statically analyzable read-only shell pipelines can now enter execution-evidence review, while incomplete or unbound pipelines require explicit approval. **Fixed** - Offer sandbox network bypass for Node/npm EACCES socket denials on Windows",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.91-1",
+    "published_at": "2026-10-01T06:15:57Z",
+    "title_original": "GitHub Copilot CLI v1.0.91-1",
+    "excerpt_original": "**Added** - Add `copilot sandbox ca` commands to check, create, trust, rotate, and remove proxy CA trust, including unattended Windows setup; `/sandbox ca install` becomes `create` and `trust` **Improved** - CLI shutdown flushes pending telemetry before exit, with a bounded delay when telemetry is still initializing. **Fixed** - Session timelines now clear busy status after interrupted turns finish. - Sandboxed commands run on Windows versions without filesystem enumeration support, with a warning that PowerShell's current location may be wrong - Footer text selection stays on the same visible line when the footer grows or shrinks.",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot CLI v1.0.91-1 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.91-1がリリースされました。プロキシCA信頼を管理する新しいsandbox caコマンドの追加、終了時のテレメトリ送信の改善、および割り込み処理やWindows環境における不具合の修正が含まれています。",
+    "changes": [
+      "プロキシCA信頼の確認、作成、信頼、ローテーション、削除を行う `copilot sandbox ca` コマンドを追加（無人Windowsセットアップを含む）。",
+      "/sandbox ca install コマンドを create と trust に変更。",
+      "CLIの終了時に未送信のテレメトリをフラッシュするよう改善（初期化中の場合は制限時間付きで待機）。",
+      "中断されたターンの終了後にセッションタイムラインのビジー状態がクリアされるよう修正。",
+      "ファイルシステム列挙をサポートしていないWindowsバージョンでもサンドボックスコマンドが実行可能になり、PowerShellの現在位置に関する警告を表示。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:07Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
-  },
-  {
-    "id": "github-copilot-cli-400456416",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90",
-    "published_at": "2026-09-30T21:38:30Z",
-    "title_original": "GitHub Copilot CLI v1.0.90",
-    "excerpt_original": "2026-09-30 - Add support for GPT-6.1 Sol in model selection - Add --mcp-github-auth to scope GitHub account auth to approved MCP server origins - Add session-scoped read-only directory approvals to path access prompts - Permission prompts remain answerable after resuming interrupted sessions. - Auto-approval now takes into account messages you type while the agent is working, as it already did for prompts sent while it was idle - Compaction now returns a summary even when instructions ask for tool use. - Copying selected text on Wayland now finishes as soon as wl-copy accepts it, instead of timing out and falling back to the in-process clipboard that can print \"Somebody else owns the clipboard now\" over the UI - A narrow Sessions sidebar drops keyboard hints that do not fit instead of cutting one off mid-word - MCP tools recover after transient discovery failures without restarting the session; unchanged catalogs remain available during recovery. - \"No supported model available\" is no longer shown on launch or in the model picker when a configured provider already supplies a model - MCP tool calls complete even when servers keep sending progress updates after responding - A fresh launch no longer prints \"Failed to read model provider attribution\" errors while it signs in - MCP OAuth sign-in to servers such as Datadog reuses a still-valid cached token - Withdrawn running prompts stay removed after session resume - Click anywhere on expanded tool calls in compact timeline to collapse them - Holding Space and Ctrl+X V explain when voice mode is off or still getting ready",
-    "product": "GitHub Copilot CLI",
-    "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
-    "source_id": "github-copilot-cli",
-    "family": "github"
-  },
-  {
-    "id": "github-copilot-cli-400317361",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.90-7",
-    "published_at": "2026-09-30T18:17:23Z",
-    "title_original": "GitHub Copilot CLI v1.0.90-7",
-    "excerpt_original": "Fixes and changes",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
-    "source_id": "github-copilot-cli",
-    "family": "github"
-  },
-  {
-    "id": "m365-roadmap-6ce5e8fccee822afdff3",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573380",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Improve purchase order matching in Payables Agent",
-    "excerpt_original": "This feature improves PO matching quality in Payables Agent and aligns draft finalization behavior with existing posting controls. The agent uses an enriched PO Lines list page during matching that includes these fields: Line Amount — enables matching on value, not just description and quantity. This field is especially valuable for service lines where quantity (often just 1) isn't a meaningful discriminator. Expected Receipt Date — helps the agent factor in timing when multiple PO lines could match. By using these fields, the agent can more reliably distinguish between similar-looking PO lines, which improves accuracy in first-pass matches. The agent now respects the app's Never block draft finalization setting in the Receipt on Invoice field on purchase orders. This change means the agent doesn't block draft finalization because a matched PO line isn't yet marked as received. Whether goods are received is a posting time control, not a draft time control. The \"Receipt on Invoice\" setting on the order governs this behavior at posting. The \"Receipt on Invoice\" field is already available on purchase orders. With this release, we're expanding this setting to more entities: A new vendor-level \"Receipt on Invoice\" setting is introduced and automatically applied to new purchase orders created for a vendor. A new PO-line-level \"Receipt on Invoice\" setting allows per-line override. The inheritance chain for the setting is vendor, then purchase order, and then purchase order line, but each level can override the parent. We've also improved draft warnings. When the agent creates a purchase invoice draft matched to a PO, the draft surfaces warnings based not just on quantity, but also on amount. The draft warnings are for information only and don't block finalization. For example, they warn about the discrepancies in the draft and you can decide how to proceed. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Payables Agentにおける発注書マッチングの改善",
-    "summary_ja": "Dynamics 365 Business CentralのPayables Agentにおける発注書マッチング品質が向上し、金額や予定受入日を考慮した高精度な照合が可能になります。また、下書きの確定動作が既存の転記コントロールと整合され、受領に関する設定がベンダーレベルや発注書ラインレベルへと拡張されます。さらに、数量だけでなく金額に基づく情報提供型の下書き警告も追加されています。",
-    "changes": [
-      "行金額（Line Amount）と予定受入日（Expected Receipt Date）を活用した、より精度の高いPOマッチングの実現",
-      "「Receipt on Invoice」設定の適用範囲拡大（ベンダーレベルおよびPOラインレベルでの上書きに対応）",
-      "未受領ラインによる下書き確定ブロックを回避し、既存の転記コントロールとの整合性を確保",
-      "数量および金額の不一致に基づく、情報提供型の下書き警告の追加"
-    ],
-    "target_user": [
-      "Dynamics 365 Business Central ユーザー",
-      "経理担当者",
-      "システム管理者"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:22Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:20Z"
-  },
-  {
-    "id": "m365-roadmap-704d5c53269144075b06",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573373",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Sales: Sales tools, skills and plugin are now available in Copilot Cowork",
-    "excerpt_original": "The updated Sales plugin brings expanded Dynamics 365 Sales context, actions, and guided workflows to Copilot Cowork, building on the native Sales skills already available in Cowork. Sellers can work with sales data and take supported actions directly in the flow of work, reducing the need to switch to Dynamics 365 Sales. The native Sales skills invoke tools published through the Dynamics 365 MCP server to retrieve sales context and perform supported actions in Dynamics 365 Sales. These native Sales skills are included in the Sales plugin, which will be delivered through the updated MOS package for the Sales app, providing administrators with a governed way to deploy and manage the capabilities. GA date: September CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Salesのツール、スキル、プラグインがCopilot Coworkで利用可能に",
-    "summary_ja": "更新されたSalesプラグインにより、Copilot Cowork内でDynamics 365 Salesのコンテキスト、アクション、ガイド付きワークフローが利用可能になりました。販売担当者は、アプリケーションを切り替えることなく、作業のフロー内で直接販売データの確認やサポートされているアクションの実行が行えます。これらの機能は、Salesアプリ向けの更新されたMOSパッケージを通じて展開され、管理者は一元的な管理が可能です。",
-    "changes": [
-      "Copilot CoworkでDynamics 365 Salesのコンテキスト、アクション、ガイド付きワークフローが利用可能になった",
-      "Dynamics 365 MCPサーバー経由で公開されたツールを呼び出し、販売データの取得やアクションの実行を実現",
-      "Salesアプリ向けの更新されたMOSパッケージを通じて展開され、管理者が管理可能"
-    ],
-    "target_user": [
-      "Sellers",
-      "Administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:23Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:22Z"
-  },
-  {
-    "id": "m365-roadmap-6bbf27c4decb77a7a241",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573372",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Updates to Agent UI experience",
-    "excerpt_original": "Manage agents more easily by grouping avatars and using a dedicated action to start new tasks. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilot とエージェント - エージェントUIエクスペリエンスの更新",
-    "summary_ja": "Dynamics 365 Business CentralにおけるCopilotとエージェントのUI体験が更新されます。アバターのグループ化や新規タスク開始のための専用アクションにより、エージェントの管理が容易になります。この機能は2026年10月に一般提供（GA）される予定です。",
-    "changes": [
-      "アバターのグループ化によるエージェント管理の簡素化",
-      "新規タスクを開始するための専用アクションの追加"
-    ],
-    "target_user": [
-      "Dynamics 365 Business Central ユーザー",
-      "管理者"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:24Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:23Z"
-  },
-  {
-    "id": "m365-roadmap-24e65c0fd72ff374125e",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573370",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Manage agent permissions easier",
-    "excerpt_original": "Assign additional permissions to agents when they request them. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotとエージェント - エージェント権限の管理簡素化",
-    "summary_ja": "Dynamics 365 Business Centralにおいて、エージェントが追加の権限を要求した際に対象の権限を割り当てることができるようになります。この機能は、2026年10月に一般提供（GA）が予定されています。",
-    "changes": [
-      "エージェントからの要求時に追加権限を割り当て可能"
-    ],
-    "target_user": [
-      "管理者",
-      "ユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:25Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:24Z"
-  },
-  {
-    "id": "m365-roadmap-fa63ca30e777c02cfafe",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573366",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Review content generated by agents directly on pages",
-    "excerpt_original": "This improvement introduces the ability for Business Central users to review and approve content generated by agents directly on the pages where they work. You no longer need to navigate to separate task pane to understand that a given document was created by an agent. Instead, agent‑generated suggestions—such as descriptions, text proposals, or field‑specific updates—appear inline where they can be evaluated and modified before being applied. By keeping the review process within the page context, users maintain flow, reduce clicks, and ensure content quality with minimal disruption. The feature builds on existing Business Central autofill user interface patterns ensuring admins and users can adopt it as part of existing agent‑powered daily workflows. Business Value: The ability to review agent‑generated content directly on pages helps organizations streamline their daily work while maintaining accuracy and control. You can evaluate suggestions in the context of the task you are performing, reducing interruptions and improving the quality of the final output. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: エージェントが生成したコンテンツをページ上で直接レビュー可能に",
-    "summary_ja": "Business Centralのユーザーは、エージェントが生成したコンテンツを専用の作業ウィンドウではなく、作業中のページ上で直接確認および承認できるようになります。提案内容はインラインで表示され、適用前に評価や修正を行うことが可能です。この機能は既存の自動入力UIパターンに基づいており、日常的なワークフローにスムーズに統合されます。",
-    "changes": [
-      "エージェントが生成した説明文やテキスト案などの提案を、ページ上のインラインで直接確認・修正できる機能の追加",
-      "別のタスクペインに移動する必要性をなくし、ページコンテキスト内でレビュープロセスを完結させる改善",
-      "既存のBusiness Centralの自動入力UIパターンを活用したシームレスな導入とワークフロー維持"
-    ],
-    "target_user": [
-      "Business Central users",
-      "Administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:27Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:25Z"
-  },
-  {
-    "id": "m365-roadmap-61b0bd981f15fd360ed6",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573364",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Show avatars for record creators and modifiers in list",
-    "excerpt_original": "This feature introduces visual avatars in Business Central list pages to indicate which user or agent created or last modified a record. The capability enhances traceability and supports collaborative work by making identity information immediately visible without opening the record. The avatars reflect either a named Business Central user, a system user or an AI agent, following the existing identity model. Users can hover over the avatar to see a tooltip with the full display name and record update timestamp (if available). This improvement benefits roles that frequently work with shared data—including accountants, order processors, warehouse staff, service teams, and administrators—by reducing time spent verifying ownership or responsibility for items, documents, or configuration entries. It also helps organizations adopting AI‑generated records understand when an automated agent has contributed. The feature surfaces existing Created By and Modified By fields more intuitively while respecting Business Central’s data privacy and permissions model. Business Value: Supporting avatars for the users or agents who created and last modified entries makes record ownership clearer and easier to understand across Business Central. By surfacing identity information directly in list pages, you can quickly determine responsibility, follow up with the right person, and work with shared data more confidently. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: リスト内のレコード作成者および変更者のアバター表示機能",
-    "summary_ja": "本機能により、Business Centralのリストページ上でレコードを作成または最後に変更したユーザーやエージェントの視覚的アバターが表示されるようになります。アバターにカーソルを合わせることで、完全な表示名と更新タイムスタンプを含むツールチップを確認でき、データの追跡性と共有作業の効率が向上します。表示されるアバターは、既存の識別モデルに基づき、名前付きのユーザー、システムユーザー、またはAIエージェントのいずれかとなります。",
-    "changes": [
-      "Business Centralのリストページにレコード作成者・変更者のアバターを表示",
-      "アバター上のホバーでフル表示名と更新タイムスタンプを表示",
-      "既存の「Created By」および「Modified By」フィールドをより直感的に表示"
-    ],
-    "target_user": [
-      "会計士",
-      "受注処理担当者",
-      "倉庫スタッフ",
-      "サービスチーム",
-      "管理者"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:28Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:27Z"
-  },
-  {
-    "id": "m365-roadmap-14a3f83025d4d7b8e9c7",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573363",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Manage tasks from all agents in dedicated task pane",
-    "excerpt_original": "This feature introduces a dedicated task pane in Business Central that displays all tasks generated by the agents. The task pane appears as an additional panel in the user interface and can be opened from anywhere in Business Central. Tasks include suggestions, validations, follow‑ups access to draft documents, and other agent‑initiated actions. Users can review task details, navigate directly to the affected record, complete tasks, or dismiss them. This improvement primarily benefits roles that rely heavily on AI‑driven workflows—such as accountants, sales people, and managers—who often engage with multiple agents throughout the day. The task pane reduces friction by collecting all insights in a single location, minimizing missed tasks and improving throughput. Business Value: The Show all agent tasks on a separate task pane feature help organizations get more value from Microsoft Copilot in Business Central by giving users a single, structured place to review and act on AI‑generated tasks. Instead of relying on notifications scattered across different pages, users gain a clear, consolidated overview of all tasks created by agents working in finance, purchasing, sales, and operations. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotとエージェント - 専用タスクペインでの全エージェントのタスク管理",
-    "summary_ja": "Dynamics 365 Business Centralに、エージェントが生成したすべてのタスクを表示する専用タスクペインが追加されます。ユーザーはこの統合された場所でAI生成タスクの確認、関連レコードへの移動、タスクの完了や破棄を行うことができます。これにより、通知が分散するのを防ぎ、業務効率の向上が図られます。",
-    "changes": [
-      "Business Central内にエージェント生成タスクを表示する専用のタスクペインを追加",
-      "提案、検証、フォローアップ、下書きドキュメントへのアクセスなどのタスクを統合管理",
-      "タスクの詳細確認、関連レコードへの直接移動、タスクの完了や破棄が可能"
-    ],
-    "target_user": [
-      "accountants",
-      "sales people",
-      "managers"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:29Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:28Z"
-  },
-  {
-    "id": "m365-roadmap-1aa959cc922266226b9c",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573362",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Enable Microsoft Copilot chat experience",
-    "excerpt_original": "The updated Microsoft Copilot chat experience introduces a modern, consistent, and intuitive interface that aligns Business Central with the broader Microsoft Copilot ecosystem. The enhancement modernizes the chat panel, streamlines navigation, and improves user workflows by adopting familiar interaction patterns from Microsoft Copilot. This update benefits users who regularly interact with Copilot to accelerate daily tasks - especially operations managers, accountants, sales representatives, and administrators who rely on conversational assistance to navigate and analyse data. It also provides a more predictable experience across Microsoft 365 applications, reducing onboarding time and helping organizations adopt AI capabilities more systematically. Business Value: The updated Copilot chat experience provides a familiar and consistent AI experience across Business Central and Microsoft applications. You get started faster, switch more easily between applications, and interact with AI more confidently, helping improve productivity and accelerate adoption. More info: https://learn.microsoft.com//dynamics365/business-central/chat-with-copilot GA date: October CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - Microsoft Copilotチャットエクスペリエンスの有効化",
-    "summary_ja": "Microsoft 365 Copilotの最新のチャットエクスペリエンスがDynamics 365 Business Centralに導入され、Microsoft Copilotエコシステム全体で一貫した直感的なインターフェイスを提供します。チャットパネルの近代化やナビゲーションの効率化により、日常業務のワークフローが向上します。本機能により、アプリケーション間の切り替えが容易になり、AI機能の導入と生産性の向上が促進されます。",
-    "changes": [
-      "Microsoft Copilotエコシステムに合わせたモダンで一貫性のある直感的なチャットインターフェイスの導入",
-      "チャットパネルの近代化とナビゲーションの効率化",
-      "Microsoft 365アプリケーション間で予測可能な共通のインタラクションパターンの採用"
-    ],
-    "target_user": [
-      "operations managers",
-      "accountants",
-      "sales representatives",
-      "administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:31Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:29Z"
-  },
-  {
-    "id": "m365-roadmap-7434353c0fd8aa152955",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573312",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Run data queries with MCP Server",
-    "excerpt_original": "Use new MCP tools to define, validate, and run custom data queries. Your MCP application can then query data for which no existing APIs exist. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: MCPサーバーを使用したデータクエリの実行",
-    "summary_ja": "Dynamics 365 Business Centralにおいて、新しいMCPツールを使用してカスタムデータクエリを定義、検証、実行できるようになります。これにより、既存のAPIが存在しないデータに対してもMCPアプリケーションからクエリを実行することが可能になります。一般提供（GA）は2026年10月を予定しています。",
-    "changes": [
-      "新しいMCPツールによるカスタムデータクエリの定義、検証、実行機能の追加",
-      "既存のAPIがないデータに対するMCPアプリケーションからのクエリ実行をサポート"
-    ],
-    "target_user": [
-      "Dynamics 365 Business Central users",
-      "Developers",
-      "Administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:32Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:31Z"
-  },
-  {
-    "id": "m365-roadmap-da170a9d4b06557cc036",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571678",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Cowork, Code and Scout",
-    "excerpt_original": "The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into supported Copilot experiences, including Chat, Cowork, Code, and Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365. First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's existing permissions on each call. The package provides a governed foundation for the supported tools and skills. Availability is tracked separately for each experience. GA date: September CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Service: Cowork、Code、Scout向けサービスツール、スキル、プラグインの提供開始",
-    "summary_ja": "更新されたServiceアプリケーションにより、Dynamics 365 Customer Serviceのコンテキスト、アクション、およびガイド付きワークフローがChat、Cowork、Code、ScoutなどのサポートされるCopilotエクスペリエンスに統合されます。カスタマーサービスチームは作業のフローの中でサービス情報の参照やサポートされているアクションの実行が可能になり、Dynamics 365への画面切り替えを削減できます。Dynamics 365 MCP上のServiceパッケージを通じて提供されるファーストパーティツールは、ビジネスロジックとユーザー権限に準拠します。",
-    "changes": [
-      "Dynamics 365 Customer Serviceのコンテキスト、アクション、ガイド付きワークフローをChat、Cowork、Code、ScoutのCopilotエクスペリエンスに統合",
-      "Dynamics 365 MCP上のServiceパッケージによるファーストパーティツールの提供（ビジネスロジックとユーザー権限を遵守）"
-    ],
-    "target_user": [
-      "Customer service teams"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T01:03:33Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-01T01:03:32Z"
-  },
-  {
-    "id": "m365-roadmap-7db51a094e0183264c20",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570432",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Microsoft Copilot Studio: Self-learning for Copilot Studio Agents",
-    "excerpt_original": "Soon agents can help makers improve agents using lessons from completed runs. It will identify repeated tool sequences that can be handled by workflows to standardize agent behavior, minimize errors, and most importantly control costs. Makers will be presented with recommendations and supporting evidence, expected impact, and the related instruction and tool changes. Makers accept recommendations, configure, test, and publish a refined copy of the agent. This helps improve agent output quality and controls costs while preserving work that requires model judgment and keeping makers in control. GA date: October CY2026 Preview date: September CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365"
-  },
-  {
-    "id": "m365-roadmap-3a3710f4875709db9a40",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570430",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Microsoft Copilot Studio: Persistent identity for Copilot Studio Agents",
-    "excerpt_original": "Makers can now give their Copilot Studio agents their own accounts, making it a governed Microsoft 365 identity for shared, collaborative business processes that spans across teams. With its own mailbox, Teams presence & Office access, the agent can collaborate where work happens while admins can control and govern its access, policies and use as its own first-class entity. GA date: November CY2026 Preview date: September CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365"
-  },
-  {
-    "id": "m365-roadmap-2c7a230be193f4d7fe3d",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565216",
-    "published_at": "2026-09-30T23:31:03Z",
-    "title_original": "[Roadmap] Microsoft Teams: Intelligent call delegation",
-    "excerpt_original": "Incoming Teams calls don't wait for a break in your day. Intelligent call delegation provides AI-powered calling assistance so you can focus on the conversations that matter most. It answers calls and gathers context, helping you decide whether to pick up and engage the caller. It can also schedule follow-up appointments through an integration with Microsoft Bookings so you can reconnect with callers at a more convenient time. GA date: November CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:06Z"
   }
 ]

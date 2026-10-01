@@ -1,5 +1,34 @@
 [
   {
+    "id": "github-copilot-cli-400693850",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.91-1",
+    "published_at": "2026-10-01T06:15:57Z",
+    "title_original": "GitHub Copilot CLI v1.0.91-1",
+    "excerpt_original": "**Added** - Add `copilot sandbox ca` commands to check, create, trust, rotate, and remove proxy CA trust, including unattended Windows setup; `/sandbox ca install` becomes `create` and `trust` **Improved** - CLI shutdown flushes pending telemetry before exit, with a bounded delay when telemetry is still initializing. **Fixed** - Session timelines now clear busy status after interrupted turns finish. - Sandboxed commands run on Windows versions without filesystem enumeration support, with a warning that PowerShell's current location may be wrong - Footer text selection stays on the same visible line when the footer grows or shrinks.",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.91-1 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.91-1がリリースされました。プロキシCA信頼を管理する新しいsandbox caコマンドの追加、終了時のテレメトリ送信の改善、および割り込み処理やWindows環境における不具合の修正が含まれています。",
+    "changes": [
+      "プロキシCA信頼の確認、作成、信頼、ローテーション、削除を行う `copilot sandbox ca` コマンドを追加（無人Windowsセットアップを含む）。",
+      "/sandbox ca install コマンドを create と trust に変更。",
+      "CLIの終了時に未送信のテレメトリをフラッシュするよう改善（初期化中の場合は制限時間付きで待機）。",
+      "中断されたターンの終了後にセッションタイムラインのビジー状態がクリアされるよう修正。",
+      "ファイルシステム列挙をサポートしていないWindowsバージョンでもサンドボックスコマンドが実行可能になり、PowerShellの現在位置に関する警告を表示。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:07Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:06Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "m365-roadmap-6ce5e8fccee822afdff3",
     "source": "Microsoft 365 Roadmap",
     "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573380",
@@ -301,16 +330,24 @@
     "excerpt_original": "Soon agents can help makers improve agents using lessons from completed runs. It will identify repeated tool sequences that can be handled by workflows to standardize agent behavior, minimize errors, and most importantly control costs. Makers will be presented with recommendations and supporting evidence, expected impact, and the related instruction and tool changes. Makers accept recommendations, configure, test, and publish a refined copy of the agent. This helps improve agent output quality and controls costs while preserving work that requires model judgment and keeping makers in control. GA date: October CY2026 Preview date: September CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: セルフラーニング機能の追加",
+    "summary_ja": "Microsoft Copilot Studioのエージェント向けに、完了した実行結果から学習するセルフラーニング機能が追加されます。エージェントは繰り返し使用されるツールシーケンスをワークフローとして提案し、メーカーがそれを承認、テスト、公開することで品質向上とコスト管理を実現します。プレビュー版の提供は2026年9月、GA（一般提供）は2026年10月の予定です。",
+    "changes": [
+      "完了した実行の履歴から学習し、エージェントの改善を支援する機能を追加",
+      "繰り返し使用されるツールシーケンスを検出し、ワークフロー化の推奨を提示",
+      "メーカーが推奨事項の確認、構成、テスト、およびエージェントの改良版の公開を実施可能"
+    ],
+    "target_user": [
+      "Makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:09Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T10:43:07Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-3a3710f4875709db9a40",
@@ -321,16 +358,25 @@
     "excerpt_original": "Makers can now give their Copilot Studio agents their own accounts, making it a governed Microsoft 365 identity for shared, collaborative business processes that spans across teams. With its own mailbox, Teams presence & Office access, the agent can collaborate where work happens while admins can control and govern its access, policies and use as its own first-class entity. GA date: November CY2026 Preview date: September CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID",
+    "summary_ja": "メーカーはMicrosoft Copilot Studioのエージェントに独自のMicrosoft 365アカウントと永続IDを付与できるようになります。エージェントは専用のメールボックス、Teamsプレゼンス、Officeアクセスを持ち、管理者はファーストクラスのエンティティとしてアクセスやポリシーを統制可能です。",
+    "changes": [
+      "エージェントへの専用Microsoft 365アカウント（永続ID）の付与",
+      "専用メールボックス、Teamsプレゼンス、Officeアクセス機能の搭載",
+      "管理者の統制下でのチーム間における共同作業の実現"
+    ],
+    "target_user": [
+      "Makers",
+      "Administrators"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:10Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T10:43:09Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-2c7a230be193f4d7fe3d",
@@ -341,16 +387,23 @@
     "excerpt_original": "Incoming Teams calls don't wait for a break in your day. Intelligent call delegation provides AI-powered calling assistance so you can focus on the conversations that matter most. It answers calls and gathers context, helping you decide whether to pick up and engage the caller. It can also schedule follow-up appointments through an integration with Microsoft Bookings so you can reconnect with callers at a more convenient time. GA date: November CY2026 Preview date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams: インテリジェント通話委任機能",
+    "summary_ja": "Microsoft TeamsにAIを活用した通話アシスタンス機能であるインテリジェント通話委任機能が追加されます。本機能は着信に応答してコンテキストを収集し、応答するかどうかを判断するのに役立ちます。また、Microsoft Bookingsとの統合を通じて後続の予定を調整することも可能です。",
+    "changes": [
+      "AIを活用した通話アシスタンスにより、着信への応答とコンテキストの収集が可能になります",
+      "Microsoft Bookingsとの統合により、都合の良い時間でのフォローアップ予定の調整が可能になります"
+    ],
+    "target_user": [
+      "Microsoft Teams Users"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:11Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-01T10:43:10Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-400504518",
@@ -360,16 +413,23 @@
     "title_original": "GitHub Copilot CLI v1.0.91-0",
     "excerpt_original": "**Improved** - Complete, statically analyzable read-only shell pipelines can now enter execution-evidence review, while incomplete or unbound pipelines require explicit approval. **Fixed** - Offer sandbox network bypass for Node/npm EACCES socket denials on Windows",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.91-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.91-0がリリースされました。完全で静的解析可能な読み取り専用シェルパイプラインの実行根拠レビューが可能になり、Windows環境でのNode/npm EACCESソケット拒否に対するサンドイッチネットワークバイパスの修正が行われました。",
+    "changes": [
+      "完全かつ静的解析可能な読み取り専用シェルパイプラインが実行根拠レビューに入ることが可能になりました（不完全または未バインドのパイプラインは引き続き明示的な承認が必要です）。",
+      "Windows上でのNode/npm EACCESソケット拒否に対するサンドボックスネットワークバイパスの問題を修正しました。"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:12Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:11Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-400456416",
@@ -380,15 +440,26 @@
     "excerpt_original": "2026-09-30 - Add support for GPT-6.1 Sol in model selection - Add --mcp-github-auth to scope GitHub account auth to approved MCP server origins - Add session-scoped read-only directory approvals to path access prompts - Permission prompts remain answerable after resuming interrupted sessions. - Auto-approval now takes into account messages you type while the agent is working, as it already did for prompts sent while it was idle - Compaction now returns a summary even when instructions ask for tool use. - Copying selected text on Wayland now finishes as soon as wl-copy accepts it, instead of timing out and falling back to the in-process clipboard that can print \"Somebody else owns the clipboard now\" over the UI - A narrow Sessions sidebar drops keyboard hints that do not fit instead of cutting one off mid-word - MCP tools recover after transient discovery failures without restarting the session; unchanged catalogs remain available during recovery. - \"No supported model available\" is no longer shown on launch or in the model picker when a configured provider already supplies a model - MCP tool calls complete even when servers keep sending progress updates after responding - A fresh launch no longer prints \"Failed to read model provider attribution\" errors while it signs in - MCP OAuth sign-in to servers such as Datadog reuses a still-valid cached token - Withdrawn running prompts stay removed after session resume - Click anywhere on expanded tool calls in compact timeline to collapse them - Holding Space and Ctrl+X V explain when voice mode is off or still getting ready",
     "product": "GitHub Copilot CLI",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot CLI v1.0.90 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.90がリリースされ、モデル選択へのGPT-6.1 Solサポート追加や、MCP（Model Context Protocol）関連の機能強化、各種バグ修正が行われました。セキュリティと利便性の向上のため、GitHubアカウント認証のスコープ設定や読み取り専用ディレクトリの承認機能が追加されています。また、UIの表示改善やクリップボードの動作安定化なども含まれています。",
+    "changes": [
+      "モデル選択にGPT-6.1 Solのサポートを追加",
+      "承認されたMCPサーバーのオリジンにGitHubアカウント認証を制限する --mcp-github-auth オプションを追加",
+      "パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認を追加",
+      "中断されたセッションを再開した後も、権限プロンプトに応答可能な状態を維持",
+      "MCPツールが一時的なディスカバリー失敗からセッションの再起動なしで復旧する機能を追加"
+    ],
+    "target_user": [
+      "developers",
+      "CLI users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:14Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:12Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-400317361",
@@ -398,16 +469,22 @@
     "title_original": "GitHub Copilot CLI v1.0.90-7",
     "excerpt_original": "Fixes and changes",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.90-7",
+    "summary_ja": "GitHub Copilot CLI v1.0.90-7がリリースされました。このバージョンには不具合の修正と変更が含まれています。",
+    "changes": [
+      "不具合の修正と変更の適用"
+    ],
+    "target_user": [
+      "Developers"
+    ],
     "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:14Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:14Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-400184498",
@@ -447,16 +524,25 @@
     "title_original": "HydraFusion in VS Code and the GitHub Copilot app",
     "excerpt_original": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being… The post HydraFusion in VS Code and the GitHub Copilot app appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Preview",
+    "title_ja": "Visual Studio CodeとGitHub CopilotアプリにおけるHydraFusionの提供開始",
+    "summary_ja": "HydraFusionのリサーチプレビューがVisual Studio CodeおよびGitHub Copilotアプリで利用可能になりました。これにより、対応範囲がCopilot CLIから拡張され、モデルピッカーから選択できるようになりました。",
+    "changes": [
+      "HydraFusionのリサーチプレビューがVisual Studio CodeとGitHub Copilotアプリで利用可能に",
+      "対応範囲がCopilot CLIから拡張され、モデルピッカーに表示される仕様に変更"
+    ],
+    "target_user": [
+      "開発者",
+      "Visual Studio Codeユーザー",
+      "GitHub Copilotユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:15Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:14Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "vscode-fefbbe2fa28d302e6d44",

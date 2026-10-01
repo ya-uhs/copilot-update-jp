@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:03:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 10:43:15 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570430</link>
+      <guid isPermaLink="false">m365-roadmap-3a3710f4875709db9a40</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;メーカーはMicrosoft Copilot Studioのエージェントに独自のMicrosoft 365アカウントと永続IDを付与できるようになります。エージェントは専用のメールボックス、Teamsプレゼンス、Officeアクセスを持ち、管理者はファーストクラスのエンティティとしてアクセスやポリシーを統制可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントへの専用Microsoft 365アカウント（永続ID）の付与&lt;/li&gt;&lt;li&gt;専用メールボックス、Teamsプレゼンス、Officeアクセス機能の搭載&lt;/li&gt;&lt;li&gt;管理者の統制下でのチーム間における共同作業の実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570430"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Teams: インテリジェント通話委任機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=565216</link>
+      <guid isPermaLink="false">m365-roadmap-2c7a230be193f4d7fe3d</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft TeamsにAIを活用した通話アシスタンス機能であるインテリジェント通話委任機能が追加されます。本機能は着信に応答してコンテキストを収集し、応答するかどうかを判断するのに役立ちます。また、Microsoft Bookingsとの統合を通じて後続の予定を調整することも可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIを活用した通話アシスタンスにより、着信への応答とコンテキストの収集が可能になります&lt;/li&gt;&lt;li&gt;Microsoft Bookingsとの統合により、都合の良い時間でのフォローアップ予定の調整が可能になります&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=565216"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.140 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_140</link>
@@ -37,6 +57,16 @@
       <category>GitHub Copilot</category>
       <category>GA</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.91-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.91-1</link>
+      <guid isPermaLink="false">github-copilot-cli-400693850</guid>
+      <pubDate>Thu, 01 Oct 2026 06:15:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.91-1がリリースされました。プロキシCA信頼を管理する新しいsandbox caコマンドの追加、終了時のテレメトリ送信の改善、および割り込み処理やWindows環境における不具合の修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロキシCA信頼の確認、作成、信頼、ローテーション、削除を行う `copilot sandbox ca` コマンドを追加（無人Windowsセットアップを含む）。&lt;/li&gt;&lt;li&gt;/sandbox ca install コマンドを create と trust に変更。&lt;/li&gt;&lt;li&gt;CLIの終了時に未送信のテレメトリをフラッシュするよう改善（初期化中の場合は制限時間付きで待機）。&lt;/li&gt;&lt;li&gt;中断されたターンの終了後にセッションタイムラインのビジー状態がクリアされるよう修正。&lt;/li&gt;&lt;li&gt;ファイルシステム列挙をサポートしていないWindowsバージョンでもサンドボックスコマンドが実行可能になり、PowerShellの現在位置に関する警告を表示。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.91-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Payables Agentにおける発注書マッチングの改善</title>
@@ -74,36 +104,6 @@
       <guid isPermaLink="false">m365-roadmap-24e65c0fd72ff374125e</guid>
       <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralにおいて、エージェントが追加の権限を要求した際に対象の権限を割り当てることができるようになります。この機能は、2026年10月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントからの要求時に追加権限を割り当て可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573370"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: エージェントが生成したコンテンツをページ上で直接レビュー可能に</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573366</link>
-      <guid isPermaLink="false">m365-roadmap-fa63ca30e777c02cfafe</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Business Centralのユーザーは、エージェントが生成したコンテンツを専用の作業ウィンドウではなく、作業中のページ上で直接確認および承認できるようになります。提案内容はインラインで表示され、適用前に評価や修正を行うことが可能です。この機能は既存の自動入力UIパターンに基づいており、日常的なワークフローにスムーズに統合されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントが生成した説明文やテキスト案などの提案を、ページ上のインラインで直接確認・修正できる機能の追加&lt;/li&gt;&lt;li&gt;別のタスクペインに移動する必要性をなくし、ページコンテキスト内でレビュープロセスを完結させる改善&lt;/li&gt;&lt;li&gt;既存のBusiness Centralの自動入力UIパターンを活用したシームレスな導入とワークフロー維持&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573366"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: リスト内のレコード作成者および変更者のアバター表示機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573364</link>
-      <guid isPermaLink="false">m365-roadmap-61b0bd981f15fd360ed6</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本機能により、Business Centralのリストページ上でレコードを作成または最後に変更したユーザーやエージェントの視覚的アバターが表示されるようになります。アバターにカーソルを合わせることで、完全な表示名と更新タイムスタンプを含むツールチップを確認でき、データの追跡性と共有作業の効率が向上します。表示されるアバターは、既存の識別モデルに基づき、名前付きのユーザー、システムユーザー、またはAIエージェントのいずれかとなります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Business Centralのリストページにレコード作成者・変更者のアバターを表示&lt;/li&gt;&lt;li&gt;アバター上のホバーでフル表示名と更新タイムスタンプを表示&lt;/li&gt;&lt;li&gt;既存の「Created By」および「Modified By」フィールドをより直感的に表示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573364"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotとエージェント - 専用タスクペインでの全エージェントのタスク管理</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573363</link>
-      <guid isPermaLink="false">m365-roadmap-14a3f83025d4d7b8e9c7</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralに、エージェントが生成したすべてのタスクを表示する専用タスクペインが追加されます。ユーザーはこの統合された場所でAI生成タスクの確認、関連レコードへの移動、タスクの完了や破棄を行うことができます。これにより、通知が分散するのを防ぎ、業務効率の向上が図られます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Business Central内にエージェント生成タスクを表示する専用のタスクペインを追加&lt;/li&gt;&lt;li&gt;提案、検証、フォローアップ、下書きドキュメントへのアクセスなどのタスクを統合管理&lt;/li&gt;&lt;li&gt;タスクの詳細確認、関連レコードへの直接移動、タスクの完了や破棄が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573363"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

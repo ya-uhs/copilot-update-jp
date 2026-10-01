@@ -5,38 +5,48 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:03:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 10:43:15 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
-      <title>GitHub Copilot CLI v1.0.91-0</title>
+      <title>GitHub Copilot CLI v1.0.91-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.91-1</link>
+      <guid isPermaLink="false">github-copilot-cli-400693850</guid>
+      <pubDate>Thu, 01 Oct 2026 06:15:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.91-1がリリースされました。プロキシCA信頼を管理する新しいsandbox caコマンドの追加、終了時のテレメトリ送信の改善、および割り込み処理やWindows環境における不具合の修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロキシCA信頼の確認、作成、信頼、ローテーション、削除を行う `copilot sandbox ca` コマンドを追加（無人Windowsセットアップを含む）。&lt;/li&gt;&lt;li&gt;/sandbox ca install コマンドを create と trust に変更。&lt;/li&gt;&lt;li&gt;CLIの終了時に未送信のテレメトリをフラッシュするよう改善（初期化中の場合は制限時間付きで待機）。&lt;/li&gt;&lt;li&gt;中断されたターンの終了後にセッションタイムラインのビジー状態がクリアされるよう修正。&lt;/li&gt;&lt;li&gt;ファイルシステム列挙をサポートしていないWindowsバージョンでもサンドボックスコマンドが実行可能になり、PowerShellの現在位置に関する警告を表示。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.91-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.91-0 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.91-0</link>
       <guid isPermaLink="false">github-copilot-cli-400504518</guid>
       <pubDate>Wed, 30 Sep 2026 23:18:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;**Improved** - Complete, statically analyzable read-only shell pipelines can now enter execution-evidence review, while incomplete or unbound pipelines require explicit approval. **Fixed** - Offer sandbox network bypass for Node/npm EACCES socket denials on Windows&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.91-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.91-0がリリースされました。完全で静的解析可能な読み取り専用シェルパイプラインの実行根拠レビューが可能になり、Windows環境でのNode/npm EACCESソケット拒否に対するサンドイッチネットワークバイパスの修正が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;完全かつ静的解析可能な読み取り専用シェルパイプラインが実行根拠レビューに入ることが可能になりました（不完全または未バインドのパイプラインは引き続き明示的な承認が必要です）。&lt;/li&gt;&lt;li&gt;Windows上でのNode/npm EACCESソケット拒否に対するサンドボックスネットワークバイパスの問題を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.91-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>unclassified</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.90</title>
+      <title>GitHub Copilot CLI v1.0.90 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90</link>
       <guid isPermaLink="false">github-copilot-cli-400456416</guid>
       <pubDate>Wed, 30 Sep 2026 21:38:30 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;2026-09-30 - Add support for GPT-6.1 Sol in model selection - Add --mcp-github-auth to scope GitHub account auth to approved MCP server origins - Add session-scoped read-only directory approvals to path access prompts - Permission prompts remain answerable after resuming interrupted sessions. - Auto-approval now takes into account messages you type while the agent is working, as it already did for prompts sent while it was idle - Compaction now returns a summary even when instructions ask for tool use. - Copying selected text on Wayland now finishes as soon as wl-copy accepts it, instead of timing out and falling back to the in-process clipboard that can print &amp;quot;Somebody else owns the clipboard now&amp;quot; over the UI - A narrow Sessions sidebar drops keyboard hints that do not fit instead of cutting one off mid-word - MCP tools recover after transient discovery failures without restarting the session; unchanged catalogs remain available during recovery. - &amp;quot;No supported model available&amp;quot; is no longer shown on launch or in the model picker when a configured provider already supplies a model - MCP tool calls complete even when servers keep sending progress updates after responding - A fresh launch no longer prints &amp;quot;Failed to read model provider attribution&amp;quot; errors while it signs in - MCP OAuth sign-in to servers such as Datadog reuses a still-valid cached token - Withdrawn running prompts stay removed after session resume - Click anywhere on expanded tool calls in compact timeline to collapse them - Holding Space and Ctrl+X V explain when voice mode is off or still getting ready&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90がリリースされ、モデル選択へのGPT-6.1 Solサポート追加や、MCP（Model Context Protocol）関連の機能強化、各種バグ修正が行われました。セキュリティと利便性の向上のため、GitHubアカウント認証のスコープ設定や読み取り専用ディレクトリの承認機能が追加されています。また、UIの表示改善やクリップボードの動作安定化なども含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モデル選択にGPT-6.1 Solのサポートを追加&lt;/li&gt;&lt;li&gt;承認されたMCPサーバーのオリジンにGitHubアカウント認証を制限する --mcp-github-auth オプションを追加&lt;/li&gt;&lt;li&gt;パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認を追加&lt;/li&gt;&lt;li&gt;中断されたセッションを再開した後も、権限プロンプトに応答可能な状態を維持&lt;/li&gt;&lt;li&gt;MCPツールが一時的なディスカバリー失敗からセッションの再起動なしで復旧する機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.90-7</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-7</link>
       <guid isPermaLink="false">github-copilot-cli-400317361</guid>
       <pubDate>Wed, 30 Sep 2026 18:17:23 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Fixes and changes&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-7"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-7がリリースされました。このバージョンには不具合の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-7"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>unclassified</category>
+      <category>Preview</category>
+      <category>low</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.90-6 リリース</title>
@@ -49,14 +59,14 @@
       <category>medium</category>
     </item>
     <item>
-      <title>HydraFusion in VS Code and the GitHub Copilot app</title>
+      <title>Visual Studio CodeとGitHub CopilotアプリにおけるHydraFusionの提供開始</title>
       <link>https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app</link>
       <guid isPermaLink="false">github-changelog-cad13c49eff0df4a6694</guid>
       <pubDate>Wed, 30 Sep 2026 14:31:19 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being… The post HydraFusion in VS Code and the GitHub Copilot app appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;HydraFusionのリサーチプレビューがVisual Studio CodeおよびGitHub Copilotアプリで利用可能になりました。これにより、対応範囲がCopilot CLIから拡張され、モデルピッカーから選択できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HydraFusionのリサーチプレビューがVisual Studio CodeとGitHub Copilotアプリで利用可能に&lt;/li&gt;&lt;li&gt;対応範囲がCopilot CLIから拡張され、モデルピッカーに表示される仕様に変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>unclassified</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>Visual Studio Code 1.140 — Copilot / Chat / Agents</title>

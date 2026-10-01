@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 30 Sep 2026 16:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 10:43:15 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570430</link>
+      <guid isPermaLink="false">m365-roadmap-3a3710f4875709db9a40</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;メーカーはMicrosoft Copilot Studioのエージェントに独自のMicrosoft 365アカウントと永続IDを付与できるようになります。エージェントは専用のメールボックス、Teamsプレゼンス、Officeアクセスを持ち、管理者はファーストクラスのエンティティとしてアクセスやポリシーを統制可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントへの専用Microsoft 365アカウント（永続ID）の付与&lt;/li&gt;&lt;li&gt;専用メールボックス、Teamsプレゼンス、Officeアクセス機能の搭載&lt;/li&gt;&lt;li&gt;管理者の統制下でのチーム間における共同作業の実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570430"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Teams: インテリジェント通話委任機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=565216</link>
+      <guid isPermaLink="false">m365-roadmap-2c7a230be193f4d7fe3d</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft TeamsにAIを活用した通話アシスタンス機能であるインテリジェント通話委任機能が追加されます。本機能は着信に応答してコンテキストを収集し、応答するかどうかを判断するのに役立ちます。また、Microsoft Bookingsとの統合を通じて後続の予定を調整することも可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIを活用した通話アシスタンスにより、着信への応答とコンテキストの収集が可能になります&lt;/li&gt;&lt;li&gt;Microsoft Bookingsとの統合により、都合の良い時間でのフォローアップ予定の調整が可能になります&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=565216"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.140 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_140</link>

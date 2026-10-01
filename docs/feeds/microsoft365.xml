@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:03:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 10:43:15 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -109,34 +109,34 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot Studio: Self-learning for Copilot Studio Agents</title>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: セルフラーニング機能の追加</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570432</link>
       <guid isPermaLink="false">m365-roadmap-7db51a094e0183264c20</guid>
       <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Soon agents can help makers improve agents using lessons from completed runs. It will identify repeated tool sequences that can be handled by workflows to standardize agent behavior, minimize errors, and most importantly control costs. Makers will be presented with recommendations and supporting evidence, expected impact, and the related instruction and tool changes. Makers accept recommendations, configure, test, and publish a refined copy of the agent. This helps improve agent output quality and controls costs while preserving work that requires model judgment and keeping makers in control. GA date: October CY2026 Preview date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570432"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioのエージェント向けに、完了した実行結果から学習するセルフラーニング機能が追加されます。エージェントは繰り返し使用されるツールシーケンスをワークフローとして提案し、メーカーがそれを承認、テスト、公開することで品質向上とコスト管理を実現します。プレビュー版の提供は2026年9月、GA（一般提供）は2026年10月の予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;完了した実行の履歴から学習し、エージェントの改善を支援する機能を追加&lt;/li&gt;&lt;li&gt;繰り返し使用されるツールシーケンスを検出し、ワークフロー化の推奨を提示&lt;/li&gt;&lt;li&gt;メーカーが推奨事項の確認、構成、テスト、およびエージェントの改良版の公開を実施可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570432"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot Studio: Persistent identity for Copilot Studio Agents</title>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570430</link>
       <guid isPermaLink="false">m365-roadmap-3a3710f4875709db9a40</guid>
       <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Makers can now give their Copilot Studio agents their own accounts, making it a governed Microsoft 365 identity for shared, collaborative business processes that spans across teams. With its own mailbox, Teams presence &amp;amp; Office access, the agent can collaborate where work happens while admins can control and govern its access, policies and use as its own first-class entity. GA date: November CY2026 Preview date: September CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570430"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;メーカーはMicrosoft Copilot Studioのエージェントに独自のMicrosoft 365アカウントと永続IDを付与できるようになります。エージェントは専用のメールボックス、Teamsプレゼンス、Officeアクセスを持ち、管理者はファーストクラスのエンティティとしてアクセスやポリシーを統制可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントへの専用Microsoft 365アカウント（永続ID）の付与&lt;/li&gt;&lt;li&gt;専用メールボックス、Teamsプレゼンス、Officeアクセス機能の搭載&lt;/li&gt;&lt;li&gt;管理者の統制下でのチーム間における共同作業の実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570430"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>high</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Teams: Intelligent call delegation</title>
+      <title>[提供予定・ロードマップ] Microsoft Teams: インテリジェント通話委任機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=565216</link>
       <guid isPermaLink="false">m365-roadmap-2c7a230be193f4d7fe3d</guid>
       <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Incoming Teams calls don&amp;#x27;t wait for a break in your day. Intelligent call delegation provides AI-powered calling assistance so you can focus on the conversations that matter most. It answers calls and gathers context, helping you decide whether to pick up and engage the caller. It can also schedule follow-up appointments through an integration with Microsoft Bookings so you can reconnect with callers at a more convenient time. GA date: November CY2026 Preview date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=565216"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft TeamsにAIを活用した通話アシスタンス機能であるインテリジェント通話委任機能が追加されます。本機能は着信に応答してコンテキストを収集し、応答するかどうかを判断するのに役立ちます。また、Microsoft Bookingsとの統合を通じて後続の予定を調整することも可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIを活用した通話アシスタンスにより、着信への応答とコンテキストの収集が可能になります&lt;/li&gt;&lt;li&gt;Microsoft Bookingsとの統合により、都合の良い時間でのフォローアップ予定の調整が可能になります&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=565216"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>high</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot Studio：スキルカタログによるスキルの検出と追加</title>
