@@ -1,5 +1,33 @@
 [
   {
+    "id": "github-copilot-cli-400693850",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.91-1",
+    "published_at": "2026-10-01T06:15:57Z",
+    "title_original": "GitHub Copilot CLI v1.0.91-1",
+    "excerpt_original": "**Added** - Add `copilot sandbox ca` commands to check, create, trust, rotate, and remove proxy CA trust, including unattended Windows setup; `/sandbox ca install` becomes `create` and `trust` **Improved** - CLI shutdown flushes pending telemetry before exit, with a bounded delay when telemetry is still initializing. **Fixed** - Session timelines now clear busy status after interrupted turns finish. - Sandboxed commands run on Windows versions without filesystem enumeration support, with a warning that PowerShell's current location may be wrong - Footer text selection stays on the same visible line when the footer grows or shrinks.",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.91-1 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.91-1がリリースされました。プロキシCA信頼を管理する新しいsandbox caコマンドの追加、終了時のテレメトリ送信の改善、および割り込み処理やWindows環境における不具合の修正が含まれています。",
+    "changes": [
+      "プロキシCA信頼の確認、作成、信頼、ローテーション、削除を行う `copilot sandbox ca` コマンドを追加（無人Windowsセットアップを含む）。",
+      "/sandbox ca install コマンドを create と trust に変更。",
+      "CLIの終了時に未送信のテレメトリをフラッシュするよう改善（初期化中の場合は制限時間付きで待機）。",
+      "中断されたターンの終了後にセッションタイムラインのビジー状態がクリアされるよう修正。",
+      "ファイルシステム列挙をサポートしていないWindowsバージョンでもサンドボックスコマンドが実行可能になり、PowerShellの現在位置に関する警告を表示。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-01T10:43:07Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-01T10:43:06Z"
+  },
+  {
     "id": "m365-roadmap-6ce5e8fccee822afdff3",
     "source": "Microsoft 365 Roadmap",
     "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573380",
@@ -3635,33 +3663,5 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
-  },
-  {
-    "id": "github-copilot-cli-400693850",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.91-1",
-    "published_at": "2026-10-01T06:15:57Z",
-    "title_original": "GitHub Copilot CLI v1.0.91-1",
-    "excerpt_original": "**Added** - Add `copilot sandbox ca` commands to check, create, trust, rotate, and remove proxy CA trust, including unattended Windows setup; `/sandbox ca install` becomes `create` and `trust` **Improved** - CLI shutdown flushes pending telemetry before exit, with a bounded delay when telemetry is still initializing. **Fixed** - Session timelines now clear busy status after interrupted turns finish. - Sandboxed commands run on Windows versions without filesystem enumeration support, with a warning that PowerShell's current location may be wrong - Footer text selection stays on the same visible line when the footer grows or shrinks.",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.91-1 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.91-1がリリースされました。プロキシCA信頼を管理する新しいsandbox caコマンドの追加、終了時のテレメトリ送信の改善、および割り込み処理やWindows環境における不具合の修正が含まれています。",
-    "changes": [
-      "プロキシCA信頼の確認、作成、信頼、ローテーション、削除を行う `copilot sandbox ca` コマンドを追加（無人Windowsセットアップを含む）。",
-      "/sandbox ca install コマンドを create と trust に変更。",
-      "CLIの終了時に未送信のテレメトリをフラッシュするよう改善（初期化中の場合は制限時間付きで待機）。",
-      "中断されたターンの終了後にセッションタイムラインのビジー状態がクリアされるよう修正。",
-      "ファイルシステム列挙をサポートしていないWindowsバージョンでもサンドボックスコマンドが実行可能になり、PowerShellの現在位置に関する警告を表示。"
-    ],
-    "target_user": [
-      "Developer"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-01T10:43:07Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-01T10:43:06Z"
   }
 ]
