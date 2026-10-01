@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 30 Sep 2026 16:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 01:03:34 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -39,71 +39,71 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.90-6 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-6</link>
-      <guid isPermaLink="false">github-copilot-cli-400184498</guid>
-      <pubDate>Wed, 30 Sep 2026 15:27:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-6がリリースされ、モデル選択におけるGPT-6.1 Solのサポートが追加されました。また、コンパクトタイムラインの操作性向上や、中断されたセッション再開時の権限プロンプトに関する不具合修正が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モデル選択にGPT-6.1 Solのサポートを追加&lt;/li&gt;&lt;li&gt;コンパクトタイムラインで展開されたツールコールをクリックして折りたためるように改善&lt;/li&gt;&lt;li&gt;中断されたセッション再開後も権限プロンプトに応答可能な状態を維持するよう修正&lt;/li&gt;&lt;li&gt;エージェント稼働中の入力メッセージを自動承認の考慮対象に修正&lt;/li&gt;&lt;li&gt;MCPツールがセッションを再起動せずに一時的な検出失敗から回復するよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：スキルカタログによるスキルの検出と追加</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571880</link>
-      <guid isPermaLink="false">m365-roadmap-21dfd50df4ab3681bf37</guid>
-      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにスキルカタログが導入され、開発者は承認された組織内のスキルを発見、再利用、選択的に共有できるようになります。Microsoft 365 App Storeを活用したこの共有カタログにより、複数のエクスペリエンス間でスキルを拡張し、組織全体の標準化と一元的なガバナンス維持が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Studioのスキルカタログを通じた組織内スキルの検出と再利用&lt;/li&gt;&lt;li&gt;Microsoft 365 App Storeを活用した複数エクスペリエンスへのスキル拡張&lt;/li&gt;&lt;li&gt;プレビュー提供開始予定時期：2026年9月&lt;/li&gt;&lt;li&gt;一般提供（GA）開始予定時期：2026年10月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571880"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Payables Agentにおける発注書マッチングの改善</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573380</link>
+      <guid isPermaLink="false">m365-roadmap-6ce5e8fccee822afdff3</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business CentralのPayables Agentにおける発注書マッチング品質が向上し、金額や予定受入日を考慮した高精度な照合が可能になります。また、下書きの確定動作が既存の転記コントロールと整合され、受領に関する設定がベンダーレベルや発注書ラインレベルへと拡張されます。さらに、数量だけでなく金額に基づく情報提供型の下書き警告も追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;行金額（Line Amount）と予定受入日（Expected Receipt Date）を活用した、より精度の高いPOマッチングの実現&lt;/li&gt;&lt;li&gt;「Receipt on Invoice」設定の適用範囲拡大（ベンダーレベルおよびPOラインレベルでの上書きに対応）&lt;/li&gt;&lt;li&gt;未受領ラインによる下書き確定ブロックを回避し、既存の転記コントロールとの整合性を確保&lt;/li&gt;&lt;li&gt;数量および金額の不一致に基づく、情報提供型の下書き警告の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573380"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Work IQ: 拡張されたContext IQ</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570854</link>
-      <guid isPermaLink="false">m365-roadmap-b07d63f5917545ae6fad</guid>
-      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Context IQが拡張され、ユーザーはプロンプトの作成時に追加のエージェント、スキル、コンテンツソースを発見して選択できるようになります。プレビュー版の提供開始は2026年10月、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプト作成時における追加エージェント、スキル、コンテンツソースの発見・選択機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570854"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Dynamics 365 Salesのツール、スキル、プラグインがCopilot Coworkで利用可能に</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573373</link>
+      <guid isPermaLink="false">m365-roadmap-704d5c53269144075b06</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;更新されたSalesプラグインにより、Copilot Cowork内でDynamics 365 Salesのコンテキスト、アクション、ガイド付きワークフローが利用可能になりました。販売担当者は、アプリケーションを切り替えることなく、作業のフロー内で直接販売データの確認やサポートされているアクションの実行が行えます。これらの機能は、Salesアプリ向けの更新されたMOSパッケージを通じて展開され、管理者は一元的な管理が可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot CoworkでDynamics 365 Salesのコンテキスト、アクション、ガイド付きワークフローが利用可能になった&lt;/li&gt;&lt;li&gt;Dynamics 365 MCPサーバー経由で公開されたツールを呼び出し、販売データの取得やアクションの実行を実現&lt;/li&gt;&lt;li&gt;Salesアプリ向けの更新されたMOSパッケージを通じて展開され、管理者が管理可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573373"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Work IQ：カスタムエージェントとサードパーティ製ツールの呼び出し</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570853</link>
-      <guid isPermaLink="false">m365-roadmap-ed5ce9aeb6a32b0af2c2</guid>
-      <pubDate>Tue, 29 Sep 2026 23:05:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、Work IQがカスタムエージェントおよびサポートされているサードパーティ製ツールを呼び出す機能が有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQによるカスタムエージェントの呼び出し機能の追加&lt;/li&gt;&lt;li&gt;サポートされているサードパーティ製ツールを呼び出すエージェントの有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570853"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilot とエージェント - エージェントUIエクスペリエンスの更新</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573372</link>
+      <guid isPermaLink="false">m365-roadmap-6bbf27c4decb77a7a241</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business CentralにおけるCopilotとエージェントのUI体験が更新されます。アバターのグループ化や新規タスク開始のための専用アクションにより、エージェントの管理が容易になります。この機能は2026年10月に一般提供（GA）される予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アバターのグループ化によるエージェント管理の簡素化&lt;/li&gt;&lt;li&gt;新規タスクを開始するための専用アクションの追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573372"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.90-3 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-3</link>
-      <guid isPermaLink="false">github-copilot-cli-399273874</guid>
-      <pubDate>Tue, 29 Sep 2026 15:18:34 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-3がリリースされました。今回のアップデートにより、GitHubアカウント認証を承認済みのMCPサーバーオリジンに制限するオプションと、セッションスコープでの読み取り専用ディレクトリ承認機能が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--mcp-github-authを追加し、GitHubアカウント認証を承認済みのMCPサーバーオリジンにスコープ設定可能にした&lt;/li&gt;&lt;li&gt;パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認機能を追加した&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotとエージェント - エージェント権限の管理簡素化</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573370</link>
+      <guid isPermaLink="false">m365-roadmap-24e65c0fd72ff374125e</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralにおいて、エージェントが追加の権限を要求した際に対象の権限を割り当てることができるようになります。この機能は、2026年10月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントからの要求時に追加権限を割り当て可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573370"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.90-1 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-1</link>
-      <guid isPermaLink="false">github-copilot-cli-398769553</guid>
-      <pubDate>Tue, 29 Sep 2026 02:11:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-1がリリースされました。Datadogなどのサーバーに対するMCP OAuthサインインにおいて、有効なキャッシュトークンが再利用されるように修正されました。また、セッション再開後も中止したプロンプトが非表示のまま維持されるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Datadogなどのサーバー向けMCP OAuthサインインで、有効なキャッシュトークンの再利用を修正&lt;/li&gt;&lt;li&gt;セッション再開後に中止したプロンプトが非表示のまま維持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: エージェントが生成したコンテンツをページ上で直接レビュー可能に</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573366</link>
+      <guid isPermaLink="false">m365-roadmap-fa63ca30e777c02cfafe</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Business Centralのユーザーは、エージェントが生成したコンテンツを専用の作業ウィンドウではなく、作業中のページ上で直接確認および承認できるようになります。提案内容はインラインで表示され、適用前に評価や修正を行うことが可能です。この機能は既存の自動入力UIパターンに基づいており、日常的なワークフローにスムーズに統合されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントが生成した説明文やテキスト案などの提案を、ページ上のインラインで直接確認・修正できる機能の追加&lt;/li&gt;&lt;li&gt;別のタスクペインに移動する必要性をなくし、ページコンテキスト内でレビュープロセスを完結させる改善&lt;/li&gt;&lt;li&gt;既存のBusiness Centralの自動入力UIパターンを活用したシームレスな導入とワークフロー維持&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573366"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] WordのCopilotにおけるリーガルプラグイン</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571884</link>
-      <guid isPermaLink="false">m365-roadmap-2c4785c74daaf5fc205c</guid>
-      <pubDate>Mon, 28 Sep 2026 22:58:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;WordおよびCoworkで利用可能なCopilotのリーガルプラグインは、法的文書の要約、ドラフト作成、レビュー、レッドライニングを支援します。Microsoft 365のワークコンテキストを活用し、サポートされているサードパーティの法的情報源と接続可能です。プレビューは2026年4月、一般提供（GA）は2026年10月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;法的文書の要約、ドラフト作成、レビュー、レッドライニングを行う専門的なスキルを提供&lt;/li&gt;&lt;li&gt;WordおよびCoworkで利用可能&lt;/li&gt;&lt;li&gt;Microsoft 365のワークコンテキストの利用およびサポートされるサードパーティ製法的情報源との接続に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571884"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: リスト内のレコード作成者および変更者のアバター表示機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573364</link>
+      <guid isPermaLink="false">m365-roadmap-61b0bd981f15fd360ed6</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本機能により、Business Centralのリストページ上でレコードを作成または最後に変更したユーザーやエージェントの視覚的アバターが表示されるようになります。アバターにカーソルを合わせることで、完全な表示名と更新タイムスタンプを含むツールチップを確認でき、データの追跡性と共有作業の効率が向上します。表示されるアバターは、既存の識別モデルに基づき、名前付きのユーザー、システムユーザー、またはAIエージェントのいずれかとなります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Business Centralのリストページにレコード作成者・変更者のアバターを表示&lt;/li&gt;&lt;li&gt;アバター上のホバーでフル表示名と更新タイムスタンプを表示&lt;/li&gt;&lt;li&gt;既存の「Created By」および「Modified By」フィールドをより直感的に表示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573364"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotとエージェント - 専用タスクペインでの全エージェントのタスク管理</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573363</link>
+      <guid isPermaLink="false">m365-roadmap-14a3f83025d4d7b8e9c7</guid>
+      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralに、エージェントが生成したすべてのタスクを表示する専用タスクペインが追加されます。ユーザーはこの統合された場所でAI生成タスクの確認、関連レコードへの移動、タスクの完了や破棄を行うことができます。これにより、通知が分散するのを防ぎ、業務効率の向上が図られます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Business Central内にエージェント生成タスクを表示する専用のタスクペインを追加&lt;/li&gt;&lt;li&gt;提案、検証、フォローアップ、下書きドキュメントへのアクセスなどのタスクを統合管理&lt;/li&gt;&lt;li&gt;タスクの詳細確認、関連レコードへの直接移動、タスクの完了や破棄が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573363"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
