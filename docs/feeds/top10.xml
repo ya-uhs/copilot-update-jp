@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 01 Oct 2026 10:43:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 01:17:17 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilotがデスクトップアプリと連携するコンピューター使用機能に対応</title>
+      <link>https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</link>
+      <guid isPermaLink="false">github-changelog-e11a5d7f0be16c7ae710</guid>
+      <pubDate>Thu, 01 Oct 2026 19:11:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIおよびmacoshとWindows上のGitHub Copilotアプリにおいて、コンピューター使用機能がパブリックプレビューとして利用可能になりました。これにより、Copilotがユーザーの代わりにデスクトップアプリケーションと対話できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIおよびmacOS/Windows向けGitHub Copilotアプリでコンピューター使用機能が利用可能に&lt;/li&gt;&lt;li&gt;Copilotがユーザーに代わってデスクトップアプリケーションと対話することが可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Public Preview</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570430</link>
@@ -59,6 +69,36 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot in VS Code: 2026年9月リリース</title>
+      <link>https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases</link>
+      <guid isPermaLink="false">github-changelog-20cb5bafb529461d3752</guid>
+      <pubDate>Thu, 01 Oct 2026 19:09:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本チャングロッグは、2026年9月にリリースされたVS Code v1.136からv1.140におけるGitHub Copilotの更新情報をカバーしています。9月のリリースでは、実装からプルリクエストのマージに至るまでのエージェント主導型開発が効率化されています。また、自動化機能による反復作業の処理や、エージェントマージ機能などが導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;VS Code v1.136からv1.140における変更を網羅&lt;/li&gt;&lt;li&gt;実装からプルリクエストのマージまでのエージェント主導型開発の効率化&lt;/li&gt;&lt;li&gt;反復作業を処理する自動化機能の追加&lt;/li&gt;&lt;li&gt;エージェントマージ機能の導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.91のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.91</link>
+      <guid isPermaLink="false">github-copilot-cli-401192726</guid>
+      <pubDate>Thu, 01 Oct 2026 17:25:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.91がリリースされ、プロキシCA管理用の新しいサンドボックスコマンドやWindows環境向けの改善が追加されました。また、セッションのビジー状態のクリア機能や、テレメトリーの確実な送信処理などが実装されています。さらに、読み取り専用のシェルパイプラインにおける実行エビデンスレビューの挙動が改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロキシCA証明書の確認・作成・信頼・ローテーション・削除を行う `copilot sandbox ca` コマンドを追加（`/sandbox ca install` は `create` と `trust` に変更）&lt;/li&gt;&lt;li&gt;中断されたターンが終了した後にセッションタイムラインのビジー状態がクリアされるように修正&lt;/li&gt;&lt;li&gt;ファイルシステム列挙サポートのないWindowsバージョンでもサンドボックスコマンドの実行が可能になり、PowerShellの現在位置に関する警告を表示&lt;/li&gt;&lt;li&gt;フッターの拡大・縮小時にフッター内のテキスト選択が同じ表示行にとどまるよう修正&lt;/li&gt;&lt;li&gt;WindowsでのNode/npm EACCESソケット拒否に対するサンドボックスネットワークバイパスを提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.91"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Copilot CLI、Copilotアプリ、Copilot SDKにおけるDynamic workflowsの提供開始</title>
+      <link>https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app</link>
+      <guid isPermaLink="false">github-changelog-20f94898ac7397b2decb</guid>
+      <pubDate>Thu, 01 Oct 2026 16:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI、GitHub Copilotアプリ、およびGitHub Copilot SDKでDynamic workflowsが利用可能になりました。これにより、コード内でオーケストレーションを定義し、信頼性などを向上させることが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIでDynamic workflowsを利用可能に&lt;/li&gt;&lt;li&gt;GitHub CopilotアプリでDynamic workflowsを利用可能に&lt;/li&gt;&lt;li&gt;GitHub Copilot SDKでDynamic workflowsを利用可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.91-1 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.91-1</link>
       <guid isPermaLink="false">github-copilot-cli-400693850</guid>
@@ -66,46 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.91-1がリリースされました。プロキシCA信頼を管理する新しいsandbox caコマンドの追加、終了時のテレメトリ送信の改善、および割り込み処理やWindows環境における不具合の修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロキシCA信頼の確認、作成、信頼、ローテーション、削除を行う `copilot sandbox ca` コマンドを追加（無人Windowsセットアップを含む）。&lt;/li&gt;&lt;li&gt;/sandbox ca install コマンドを create と trust に変更。&lt;/li&gt;&lt;li&gt;CLIの終了時に未送信のテレメトリをフラッシュするよう改善（初期化中の場合は制限時間付きで待機）。&lt;/li&gt;&lt;li&gt;中断されたターンの終了後にセッションタイムラインのビジー状態がクリアされるよう修正。&lt;/li&gt;&lt;li&gt;ファイルシステム列挙をサポートしていないWindowsバージョンでもサンドボックスコマンドが実行可能になり、PowerShellの現在位置に関する警告を表示。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.91-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Payables Agentにおける発注書マッチングの改善</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573380</link>
-      <guid isPermaLink="false">m365-roadmap-6ce5e8fccee822afdff3</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business CentralのPayables Agentにおける発注書マッチング品質が向上し、金額や予定受入日を考慮した高精度な照合が可能になります。また、下書きの確定動作が既存の転記コントロールと整合され、受領に関する設定がベンダーレベルや発注書ラインレベルへと拡張されます。さらに、数量だけでなく金額に基づく情報提供型の下書き警告も追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;行金額（Line Amount）と予定受入日（Expected Receipt Date）を活用した、より精度の高いPOマッチングの実現&lt;/li&gt;&lt;li&gt;「Receipt on Invoice」設定の適用範囲拡大（ベンダーレベルおよびPOラインレベルでの上書きに対応）&lt;/li&gt;&lt;li&gt;未受領ラインによる下書き確定ブロックを回避し、既存の転記コントロールとの整合性を確保&lt;/li&gt;&lt;li&gt;数量および金額の不一致に基づく、情報提供型の下書き警告の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573380"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Salesのツール、スキル、プラグインがCopilot Coworkで利用可能に</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573373</link>
-      <guid isPermaLink="false">m365-roadmap-704d5c53269144075b06</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;更新されたSalesプラグインにより、Copilot Cowork内でDynamics 365 Salesのコンテキスト、アクション、ガイド付きワークフローが利用可能になりました。販売担当者は、アプリケーションを切り替えることなく、作業のフロー内で直接販売データの確認やサポートされているアクションの実行が行えます。これらの機能は、Salesアプリ向けの更新されたMOSパッケージを通じて展開され、管理者は一元的な管理が可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot CoworkでDynamics 365 Salesのコンテキスト、アクション、ガイド付きワークフローが利用可能になった&lt;/li&gt;&lt;li&gt;Dynamics 365 MCPサーバー経由で公開されたツールを呼び出し、販売データの取得やアクションの実行を実現&lt;/li&gt;&lt;li&gt;Salesアプリ向けの更新されたMOSパッケージを通じて展開され、管理者が管理可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573373"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilot とエージェント - エージェントUIエクスペリエンスの更新</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573372</link>
-      <guid isPermaLink="false">m365-roadmap-6bbf27c4decb77a7a241</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business CentralにおけるCopilotとエージェントのUI体験が更新されます。アバターのグループ化や新規タスク開始のための専用アクションにより、エージェントの管理が容易になります。この機能は2026年10月に一般提供（GA）される予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アバターのグループ化によるエージェント管理の簡素化&lt;/li&gt;&lt;li&gt;新規タスクを開始するための専用アクションの追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573372"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotとエージェント - エージェント権限の管理簡素化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573370</link>
-      <guid isPermaLink="false">m365-roadmap-24e65c0fd72ff374125e</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralにおいて、エージェントが追加の権限を要求した際に対象の権限を割り当てることができるようになります。この機能は、2026年10月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントからの要求時に追加権限を割り当て可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573370"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>

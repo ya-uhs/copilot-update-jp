@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 01 Oct 2026 10:43:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 01:17:17 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilotがデスクトップアプリと連携するコンピューター使用機能に対応</title>
+      <link>https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</link>
+      <guid isPermaLink="false">github-changelog-e11a5d7f0be16c7ae710</guid>
+      <pubDate>Thu, 01 Oct 2026 19:11:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIおよびmacoshとWindows上のGitHub Copilotアプリにおいて、コンピューター使用機能がパブリックプレビューとして利用可能になりました。これにより、Copilotがユーザーの代わりにデスクトップアプリケーションと対話できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIおよびmacOS/Windows向けGitHub Copilotアプリでコンピューター使用機能が利用可能に&lt;/li&gt;&lt;li&gt;Copilotがユーザーに代わってデスクトップアプリケーションと対話することが可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Public Preview</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570430</link>

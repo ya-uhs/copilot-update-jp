@@ -3663,5 +3663,139 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-e11a5d7f0be16c7ae710",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+    "published_at": "2026-10-01T19:11:26Z",
+    "title_original": "GitHub Copilot can now interact with desktop apps with computer use",
+    "excerpt_original": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf… The post GitHub Copilot can now interact with desktop apps with computer use appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "Public Preview",
+    "title_ja": "GitHub Copilotがデスクトップアプリと連携するコンピューター使用機能に対応",
+    "summary_ja": "GitHub Copilot CLIおよびmacoshとWindows上のGitHub Copilotアプリにおいて、コンピューター使用機能がパブリックプレビューとして利用可能になりました。これにより、Copilotがユーザーの代わりにデスクトップアプリケーションと対話できるようになります。",
+    "changes": [
+      "GitHub Copilot CLIおよびmacOS/Windows向けGitHub Copilotアプリでコンピューター使用機能が利用可能に",
+      "Copilotがユーザーに代わってデスクトップアプリケーションと対話することが可能に"
+    ],
+    "target_user": [
+      "GitHub Copilotユーザー",
+      "開発者"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-02T01:17:12Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-02T01:16:45Z"
+  },
+  {
+    "id": "github-changelog-20cb5bafb529461d3752",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+    "published_at": "2026-10-01T19:09:10Z",
+    "title_original": "GitHub Copilot in VS Code, September 2026 releases",
+    "excerpt_original": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps… The post GitHub Copilot in VS Code, September 2026 releases appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilot in VS Code: 2026年9月リリース",
+    "summary_ja": "本チャングロッグは、2026年9月にリリースされたVS Code v1.136からv1.140におけるGitHub Copilotの更新情報をカバーしています。9月のリリースでは、実装からプルリクエストのマージに至るまでのエージェント主導型開発が効率化されています。また、自動化機能による反復作業の処理や、エージェントマージ機能などが導入されています。",
+    "changes": [
+      "VS Code v1.136からv1.140における変更を網羅",
+      "実装からプルリクエストのマージまでのエージェント主導型開発の効率化",
+      "反復作業を処理する自動化機能の追加",
+      "エージェントマージ機能の導入"
+    ],
+    "target_user": [
+      "VS Code users",
+      "GitHub Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-02T01:17:14Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-02T01:17:12Z"
+  },
+  {
+    "id": "github-changelog-20f94898ac7397b2decb",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
+    "published_at": "2026-10-01T16:30:10Z",
+    "title_original": "Dynamic workflows in Copilot CLI and the Copilot app",
+    "excerpt_original": "Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and… The post Dynamic workflows in Copilot CLI and the Copilot app appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "Copilot CLI、Copilotアプリ、Copilot SDKにおけるDynamic workflowsの提供開始",
+    "summary_ja": "GitHub Copilot CLI、GitHub Copilotアプリ、およびGitHub Copilot SDKでDynamic workflowsが利用可能になりました。これにより、コード内でオーケストレーションを定義し、信頼性などを向上させることが可能です。",
+    "changes": [
+      "GitHub Copilot CLIでDynamic workflowsを利用可能に",
+      "GitHub CopilotアプリでDynamic workflowsを利用可能に",
+      "GitHub Copilot SDKでDynamic workflowsを利用可能に"
+    ],
+    "target_user": [
+      "開発者",
+      "GitHub Copilot利用者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-02T01:17:17Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-02T01:17:15Z"
+  },
+  {
+    "id": "github-copilot-cli-401381666",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-0",
+    "published_at": "2026-10-01T21:49:15Z",
+    "title_original": "GitHub Copilot CLI v1.0.92-0",
+    "excerpt_original": "**Fixed** - MCP tools continue working after OAuth reauthentication when tool definitions are unchanged",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.92-0のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.92-0がリリースされました。ツール定義に変更がない場合、OAuthの再認証後もMCPツールが継続して機能する不具合が修正されました。",
+    "changes": [
+      "ツール定義が変更されていない場合に、OAuth再認証後もMCPツールが動作し続ける問題を修正"
+    ],
+    "target_user": [
+      "Developers",
+      "GitHub Copilot CLI Users"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-02T01:16:45Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-02T01:16:44Z"
+  },
+  {
+    "id": "github-copilot-cli-401192726",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.91",
+    "published_at": "2026-10-01T17:25:02Z",
+    "title_original": "GitHub Copilot CLI v1.0.91",
+    "excerpt_original": "2026-10-01 - Add `copilot sandbox ca` commands to check, create, trust, rotate, and remove proxy CA trust, including unattended Windows setup; `/sandbox ca install` becomes `create` and `trust` - Session timelines now clear busy status after interrupted turns finish. - Sandboxed commands run on Windows versions without filesystem enumeration support, with a warning that PowerShell's current location may be wrong - Footer text selection stays on the same visible line when the footer grows or shrinks. - Offer sandbox network bypass for Node/npm EACCES socket denials on Windows - CLI shutdown flushes pending telemetry before exit, with a bounded delay when telemetry is still initializing. - Complete, statically analyzable read-only shell pipelines can now enter execution-evidence review, while incomplete or unbound pipelines require explicit approval.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.91のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.91がリリースされ、プロキシCA管理用の新しいサンドボックスコマンドやWindows環境向けの改善が追加されました。また、セッションのビジー状態のクリア機能や、テレメトリーの確実な送信処理などが実装されています。さらに、読み取り専用のシェルパイプラインにおける実行エビデンスレビューの挙動が改善されました。",
+    "changes": [
+      "プロキシCA証明書の確認・作成・信頼・ローテーション・削除を行う `copilot sandbox ca` コマンドを追加（`/sandbox ca install` は `create` と `trust` に変更）",
+      "中断されたターンが終了した後にセッションタイムラインのビジー状態がクリアされるように修正",
+      "ファイルシステム列挙サポートのないWindowsバージョンでもサンドボックスコマンドの実行が可能になり、PowerShellの現在位置に関する警告を表示",
+      "フッターの拡大・縮小時にフッター内のテキスト選択が同じ表示行にとどまるよう修正",
+      "WindowsでのNode/npm EACCESソケット拒否に対するサンドボックスネットワークバイパスを提供"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-02T01:17:15Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-02T01:17:14Z"
   }
 ]
