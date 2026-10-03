@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 02 Oct 2026 01:17:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 00:55:04 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilotにおける特定モデルの廃止</title>
+      <link>https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated</link>
+      <guid isPermaLink="false">github-changelog-705956e4f1fcd62c79bb</guid>
+      <pubDate>Fri, 02 Oct 2026 18:24:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;2026年10月2日より、すべてのGitHub Copilot体験において特定のモデルが非推奨となりました。この変更はCopilot Chat、インライン編集、質問およびエージェントモード、コード補完に影響します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;すべてのGitHub Copilot体験における特定モデルの非推奨化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilotがデスクトップアプリと連携するコンピューター使用機能に対応</title>
       <link>https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</link>

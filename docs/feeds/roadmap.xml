@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 01 Oct 2026 10:43:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 00:55:04 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] OutlookでのCopilotを通じた会話型メール作成・編集機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573280</link>
+      <guid isPermaLink="false">m365-roadmap-166e7b2b0073cc84817c</guid>
+      <pubDate>Fri, 02 Oct 2026 22:01:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotがOutlookに統合され、WordやExcel、PowerPointと同様のエージェント機能を活用して、会話形式でメールの下書き作成や編集、フォーマット調整を行えるようになります。本機能はサイドパネル形式でユーザーと並行して動作します。一般提供（GA）の時期は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;会話形式でのメールの下書き作成、推敲、フォーマット調整機能の追加&lt;/li&gt;&lt;li&gt;Word、Excel、PowerPointと共通のエージェント機能によるサポート&lt;/li&gt;&lt;li&gt;ユーザーの作業をサイドバイサイドで支援するUIの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573280"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 CopilotのチャットにおけるモデルセレクターからのUBBモデルへのアクセス</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571400</link>
+      <guid isPermaLink="false">m365-roadmap-c66e0d2622e439eb8bc5</guid>
+      <pubDate>Fri, 02 Oct 2026 22:01:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのチャット内モデルセレクターから、従量制課金（UBB）を必要とするモデルにアクセスできるようになります。テナント管理者はユーザーがこれらのモデルを利用できるようにクレジットを割り当てる必要があり、ユーザーはクレジットを消費した場合に追加をリクエストできます。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;チャットのモデルセレクターからUBBモデルへのアクセスが可能になる&lt;/li&gt;&lt;li&gt;テナント管理者がユーザー向けにクレジットを割り当てる必要がある&lt;/li&gt;&lt;li&gt;割り当てられたクレジットを消費したユーザーは、管理者に追加クレジットをリクエストできる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571400"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] [ロードマップ] Microsoft Copilot (Microsoft 365): Sales AgentでのDataverse Business Skillsの利用</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571394</link>
+      <guid isPermaLink="false">m365-roadmap-a81a766c91c6d87d8ff7</guid>
+      <pubDate>Fri, 02 Oct 2026 22:01:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのSales Agentにおいて、Microsoft Dataverseに保存された自然言語の指示である「Business Skills」を利用できるようになります。これにより、組織固有のビジネスプロセスやポリシーに沿ったセールスワークフローの実行や、カスタマイズされた応答の取得が可能になります。管理者はDataverse上でBusiness Skillsを作成、管理し、アクセス権を制御することができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales AgentがMicrosoft DataverseのBusiness Skills（自然言語による指示）をサポート&lt;/li&gt;&lt;li&gt;リード修飾、パイプラインレビュー、アカウントプランニングなどの一般的なセールスワークフローや組織固有の手法を表現可能&lt;/li&gt;&lt;li&gt;管理者がDataverse上でBusiness Skillsの作成、管理、アクセス制御を実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571394"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Edge: 商用利用におけるMicrosoft 365 Copilotを活用したAI駆動型タスク完了機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=561040</link>
+      <guid isPermaLink="false">m365-roadmap-e72e04a3700e8a598642</guid>
+      <pubDate>Fri, 02 Oct 2026 22:01:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Commercial Journeysは、Microsoft EdgeのCopilot新規タブページ上で、AIを活用して未完了や新規、定期的なタスクを文脈に応じたカード形式で積極的に提示します。ユーザーは1クリックでガイド付きの実行フローを開始し、メールやドキュメントなどのすぐに使える成果物を生成して作業を効率化できます。この機能は、Microsoft 365 Copilot Premiumライセンスを持つEdgeユーザーを対象に提供されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot新タブページへの未完了・新規・定期タスクの文脈付きカード表示機能の追加&lt;/li&gt;&lt;li&gt;1クリックで成果物（メール、ドキュメント、プレゼンテーション等）を生成するガイド付き実行フローの提供&lt;/li&gt;&lt;li&gt;Microsoft 365 Copilot Premiumライセンス保有者向けのEdgeでの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=561040"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Payables Agentにおける発注書マッチングの改善</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=573380</link>

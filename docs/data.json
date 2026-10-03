@@ -3797,5 +3797,249 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-be3b1d34107991259e7d",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+    "published_at": "2026-10-02T19:13:50Z",
+    "title_original": "Copilot code review: API support and new default effort level",
+    "excerpt_original": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default… The post Copilot code review: API support and new default effort level appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilotコードレビュー：APIサポートと新しいデフォルトの処理負荷レベル",
+    "summary_ja": "GitHub Copilotのコードレビュー機能がRESTおよびGraphQL APIを通じてリクエスト可能になりました。また、各リクエストのレビュー処理負荷レベルを設定できるようになり、「Balanced」が新しいデフォルトとして設定されています。",
+    "changes": [
+      "RESTおよびGraphQL APIを通じたGitHub Copilotコードレビューのリクエスト機能を追加",
+      "リクエストごとにレビューの処理負荷レベルを設定することが可能に",
+      "「Balanced」レベルが新たなデフォルトとして適用"
+    ],
+    "target_user": [
+      "開発者",
+      "API利用者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-03T00:55:01Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-03T00:55:00Z"
+  },
+  {
+    "id": "github-changelog-705956e4f1fcd62c79bb",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+    "published_at": "2026-10-02T18:24:19Z",
+    "title_original": "Selected models in GitHub Copilot deprecated",
+    "excerpt_original": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Selected models in GitHub Copilot deprecated appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilotにおける特定モデルの廃止",
+    "summary_ja": "2026年10月2日より、すべてのGitHub Copilot体験において特定のモデルが非推奨となりました。この変更はCopilot Chat、インライン編集、質問およびエージェントモード、コード補完に影響します。",
+    "changes": [
+      "すべてのGitHub Copilot体験における特定モデルの非推奨化"
+    ],
+    "target_user": [
+      "GitHub Copilot ユーザー",
+      "開発者"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-03T00:55:03Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-03T00:55:02Z"
+  },
+  {
+    "id": "github-copilot-cli-402185992",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-3",
+    "published_at": "2026-10-02T22:06:14Z",
+    "title_original": "GitHub Copilot CLI v1.0.92-3",
+    "excerpt_original": "**Added** - Add a pre-conversation Ctrl+E environment picker to switch between local and cloud runs **Fixed** - Keyboard, paste, and mouse input now stay ordered and responsive during rapid interaction. - Sandboxed shell commands offer a network bypass prompt whenever the proxy blocks a destination - Sandboxed scripts that run Git now authenticate with masked credentials and SSH remote rewrites - Sub-agents keep working after you replace your GitHub authentication credentials **Removed** - Remove retired models from the model picker and supported CLI selections",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.92-3のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.92-3がリリースされました。ローカル実行とクラウド実行を切り替える環境ピッカーの追加、入力応答性やサンドボックス関連の不具合修正、および廃止されたモデルの削除が行われました。",
+    "changes": [
+      "ローカル実行とクラウド実行を切り替えるためのプレ会話Ctrl+E環境ピッカーを追加",
+      "迅速な操作中のキーボード、貼り付け、マウス入力を整列させ、応答性を維持するように修正",
+      "プロキシが宛先をブロックした際に、サンドボックス化されたシェルコマンドがネットワークバイパスプロンプトを表示するように修正",
+      "Gitを実行するサンドボックス化されたスクリプトが、マスクされた認証情報とSSHリモート書き換えで認証するように修正",
+      "GitHub認証情報を置き換えた後もサブエージェントが動作し続けるように修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-03T00:54:55Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-03T00:54:53Z"
+  },
+  {
+    "id": "github-copilot-cli-402081249",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-2",
+    "published_at": "2026-10-02T19:04:04Z",
+    "title_original": "GitHub Copilot CLI v1.0.92-2",
+    "excerpt_original": "**Fixed** - Sandboxed commands on Windows write temporary files to the granted temp directory, so tools that rename a temp file into place work - Prompt-mode sessions fire a single sessionEnd hook after Stop-hook continuations complete",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.92-2のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.92-2がリリースされました。Windows環境におけるサンドボックス化されたコマンドのファイル一時保存の修正や、プロンプトモードセッションのフック動作の改善が含まれています。",
+    "changes": [
+      "Windows上のサンドボックス化されたコマンドが許可された一時ディレクトリに一時ファイルを書き込むようになり、一時ファイルをリネームして配置するツールが正常に動作するようになりました",
+      "プロンプトモードセッションが、Stopフックの継続処理完了後に単一のsessionEndフックを実行するように修正されました"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-03T00:55:02Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-03T00:55:01Z"
+  },
+  {
+    "id": "github-copilot-cli-401965605",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-1",
+    "published_at": "2026-10-02T16:09:17Z",
+    "title_original": "GitHub Copilot CLI v1.0.92-1",
+    "excerpt_original": "**Fixed** - Reconnect to remote MCP servers after idle Streamable HTTP sessions expire - Messaging a running background agent now steers its active turn at the next processing opportunity. - Context rollovers keep your latest requests in the recovery context. - Hide the automatic sandbox CA setup prompt on Windows accounts that cannot self-elevate - Copilot no longer describes a subagent as configured when the current session cannot run it. Previously a session that could not use rubber-duck still reported it as set up in /subagents, and asking for it failed instead of being skipped cleanly.",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.92-1 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.92-1がリリースされました。アイドル状態のStreamable HTTPセッション期限切れ後のリモートMCPサーバーへの再接続機能の修正や、バックグラウンドエージェントの制御改善、コンテキストロールオーバーの調整、Windows環境におけるサンドボックスCA設定プロンプトの非表示化、サブエージェントの設定状態に関する表示の修正が含まれています。",
+    "changes": [
+      "アイドル状態のStreamable HTTPセッション期限切れ後にリモートMCPサーバーへ再接続する問題を修正",
+      "実行中のバックグラウンドエージェントへのメッセージングにより、次の処理機会でアクティブなターンを制御するように改善",
+      "最新のリクエストを回復コンテキストに保持するコンテキストロールオーバーの調整",
+      "自己昇格できないWindowsアカウントで自動サンドボックスCA設定プロンプトを非表示化",
+      "現在のセッションで実行できないサブエージェントが「設定済み」と誤って説明されないように修正"
+    ],
+    "target_user": [
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-03T00:55:04Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-03T00:55:03Z"
+  },
+  {
+    "id": "m365-roadmap-166e7b2b0073cc84817c",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573280",
+    "published_at": "2026-10-02T22:01:21Z",
+    "title_original": "[Roadmap] Outlook: Draft, edit and format emails conversationally with Copilot in Outlook",
+    "excerpt_original": "In Outlook, Copilot now works side by side with users to draft, refine, and format emails conversationally, powered by the same agentic capabilities available in Word, Excel, and PowerPoint. GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] OutlookでのCopilotを通じた会話型メール作成・編集機能",
+    "summary_ja": "Microsoft 365 CopilotがOutlookに統合され、WordやExcel、PowerPointと同様のエージェント機能を活用して、会話形式でメールの下書き作成や編集、フォーマット調整を行えるようになります。本機能はサイドパネル形式でユーザーと並行して動作します。一般提供（GA）の時期は2026年11月を予定しています。",
+    "changes": [
+      "会話形式でのメールの下書き作成、推敲、フォーマット調整機能の追加",
+      "Word、Excel、PowerPointと共通のエージェント機能によるサポート",
+      "ユーザーの作業をサイドバイサイドで支援するUIの提供"
+    ],
+    "target_user": [
+      "Outlook users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-03T00:54:56Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-03T00:54:55Z"
+  },
+  {
+    "id": "m365-roadmap-c66e0d2622e439eb8bc5",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571400",
+    "published_at": "2026-10-02T22:01:21Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Chat: Access to UBB models via the model selector",
+    "excerpt_original": "Users will be able to access models that require usage-based billing (UBB) from the model selector in Chat. Tenant admins will need to allocate credits so that users can interact with these models. If users consume their allotted credits, they will be able to request credits from their tenant admins. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 CopilotのチャットにおけるモデルセレクターからのUBBモデルへのアクセス",
+    "summary_ja": "Microsoft 365 Copilotのチャット内モデルセレクターから、従量制課金（UBB）を必要とするモデルにアクセスできるようになります。テナント管理者はユーザーがこれらのモデルを利用できるようにクレジットを割り当てる必要があり、ユーザーはクレジットを消費した場合に追加をリクエストできます。一般提供（GA）は2026年10月を予定しています。",
+    "changes": [
+      "チャットのモデルセレクターからUBBモデルへのアクセスが可能になる",
+      "テナント管理者がユーザー向けにクレジットを割り当てる必要がある",
+      "割り当てられたクレジットを消費したユーザーは、管理者に追加クレジットをリクエストできる"
+    ],
+    "target_user": [
+      "Users",
+      "Tenant admins"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-03T00:54:57Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-03T00:54:56Z"
+  },
+  {
+    "id": "m365-roadmap-a81a766c91c6d87d8ff7",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571394",
+    "published_at": "2026-10-02T22:01:21Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Use Dataverse Business Skills in Sales Agent",
+    "excerpt_original": "Business Skills are natural language instructions authored and stored in Microsoft Dataverse that teach Sales Agent how work gets done within a specific organization. Business Skills enable organizations to create natural language instructions for Sales Agent to follow, which represent their business processes, policies, and business knowledge. Business skills can represent common sales workflows such as lead qualification, pipeline reviews, account planning, opportunity scoring, account brief creation, or organization-specific sales methodologies. Sales Agent uses the instructions in Business Skills to deliver responses that align with the customer's business processes and guidance. Sellers can interact with Sales agent using natural language and receive responses that are guided by their organization's Business Skills, following admin defined sales processes, applying company specific guidance, and surface insights that reflect how the organization operations. Administrators enable the required Dataverse capabilities, create and manage Business skills within Dataverse, and control Business skill access. Business skills can be authored using natural language instructions and associated with the organization's CRM environment. GA date: November CY2026 Preview date: September CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] [ロードマップ] Microsoft Copilot (Microsoft 365): Sales AgentでのDataverse Business Skillsの利用",
+    "summary_ja": "Microsoft 365 CopilotのSales Agentにおいて、Microsoft Dataverseに保存された自然言語の指示である「Business Skills」を利用できるようになります。これにより、組織固有のビジネスプロセスやポリシーに沿ったセールスワークフローの実行や、カスタマイズされた応答の取得が可能になります。管理者はDataverse上でBusiness Skillsを作成、管理し、アクセス権を制御することができます。",
+    "changes": [
+      "Sales AgentがMicrosoft DataverseのBusiness Skills（自然言語による指示）をサポート",
+      "リード修飾、パイプラインレビュー、アカウントプランニングなどの一般的なセールスワークフローや組織固有の手法を表現可能",
+      "管理者がDataverse上でBusiness Skillsの作成、管理、アクセス制御を実施"
+    ],
+    "target_user": [
+      "Administrators",
+      "Sellers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-03T00:54:59Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-03T00:54:57Z"
+  },
+  {
+    "id": "m365-roadmap-e72e04a3700e8a598642",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=561040",
+    "published_at": "2026-10-02T22:01:21Z",
+    "title_original": "[Roadmap] Microsoft Edge: Commercial Journeys - AI-powered task completion for Microsoft 365 Copilot users",
+    "excerpt_original": "Commercial Journeys helps information workers stay on top of their most important work when browsing in Microsoft Edge. Powered by AI, it proactively surfaces unfinished, new, and recurring tasks on the Copilot new tab page- with context-rich cards that explain why each task matters now. One click opens a guided execution flow that delivers ready-to-use outputs (emails, documents, presentations, and more), so users can complete their unfinished work faster with higher quality. This feature will be available to users with a Microsoft 365 Copilot Premium license in Edge. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Edge: 商用利用におけるMicrosoft 365 Copilotを活用したAI駆動型タスク完了機能",
+    "summary_ja": "Commercial Journeysは、Microsoft EdgeのCopilot新規タブページ上で、AIを活用して未完了や新規、定期的なタスクを文脈に応じたカード形式で積極的に提示します。ユーザーは1クリックでガイド付きの実行フローを開始し、メールやドキュメントなどのすぐに使える成果物を生成して作業を効率化できます。この機能は、Microsoft 365 Copilot Premiumライセンスを持つEdgeユーザーを対象に提供されます。",
+    "changes": [
+      "Copilot新タブページへの未完了・新規・定期タスクの文脈付きカード表示機能の追加",
+      "1クリックで成果物（メール、ドキュメント、プレゼンテーション等）を生成するガイド付き実行フローの提供",
+      "Microsoft 365 Copilot Premiumライセンス保有者向けのEdgeでの提供"
+    ],
+    "target_user": [
+      "情報ワーカー",
+      "Microsoft 365 Copilot Premiumライセンス保有者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-03T00:55:00Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-03T00:54:59Z"
   }
 ]

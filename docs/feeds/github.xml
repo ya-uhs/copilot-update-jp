@@ -5,9 +5,59 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 02 Oct 2026 01:17:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 00:55:04 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.92-3のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-3</link>
+      <guid isPermaLink="false">github-copilot-cli-402185992</guid>
+      <pubDate>Fri, 02 Oct 2026 22:06:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92-3がリリースされました。ローカル実行とクラウド実行を切り替える環境ピッカーの追加、入力応答性やサンドボックス関連の不具合修正、および廃止されたモデルの削除が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ローカル実行とクラウド実行を切り替えるためのプレ会話Ctrl+E環境ピッカーを追加&lt;/li&gt;&lt;li&gt;迅速な操作中のキーボード、貼り付け、マウス入力を整列させ、応答性を維持するように修正&lt;/li&gt;&lt;li&gt;プロキシが宛先をブロックした際に、サンドボックス化されたシェルコマンドがネットワークバイパスプロンプトを表示するように修正&lt;/li&gt;&lt;li&gt;Gitを実行するサンドボックス化されたスクリプトが、マスクされた認証情報とSSHリモート書き換えで認証するように修正&lt;/li&gt;&lt;li&gt;GitHub認証情報を置き換えた後もサブエージェントが動作し続けるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilotコードレビュー：APIサポートと新しいデフォルトの処理負荷レベル</title>
+      <link>https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level</link>
+      <guid isPermaLink="false">github-changelog-be3b1d34107991259e7d</guid>
+      <pubDate>Fri, 02 Oct 2026 19:13:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのコードレビュー機能がRESTおよびGraphQL APIを通じてリクエスト可能になりました。また、各リクエストのレビュー処理負荷レベルを設定できるようになり、「Balanced」が新しいデフォルトとして設定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;RESTおよびGraphQL APIを通じたGitHub Copilotコードレビューのリクエスト機能を追加&lt;/li&gt;&lt;li&gt;リクエストごとにレビューの処理負荷レベルを設定することが可能に&lt;/li&gt;&lt;li&gt;「Balanced」レベルが新たなデフォルトとして適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.92-2のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-2</link>
+      <guid isPermaLink="false">github-copilot-cli-402081249</guid>
+      <pubDate>Fri, 02 Oct 2026 19:04:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92-2がリリースされました。Windows環境におけるサンドボックス化されたコマンドのファイル一時保存の修正や、プロンプトモードセッションのフック動作の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows上のサンドボックス化されたコマンドが許可された一時ディレクトリに一時ファイルを書き込むようになり、一時ファイルをリネームして配置するツールが正常に動作するようになりました&lt;/li&gt;&lt;li&gt;プロンプトモードセッションが、Stopフックの継続処理完了後に単一のsessionEndフックを実行するように修正されました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilotにおける特定モデルの廃止</title>
+      <link>https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated</link>
+      <guid isPermaLink="false">github-changelog-705956e4f1fcd62c79bb</guid>
+      <pubDate>Fri, 02 Oct 2026 18:24:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;2026年10月2日より、すべてのGitHub Copilot体験において特定のモデルが非推奨となりました。この変更はCopilot Chat、インライン編集、質問およびエージェントモード、コード補完に影響します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;すべてのGitHub Copilot体験における特定モデルの非推奨化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.92-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-1</link>
+      <guid isPermaLink="false">github-copilot-cli-401965605</guid>
+      <pubDate>Fri, 02 Oct 2026 16:09:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92-1がリリースされました。アイドル状態のStreamable HTTPセッション期限切れ後のリモートMCPサーバーへの再接続機能の修正や、バックグラウンドエージェントの制御改善、コンテキストロールオーバーの調整、Windows環境におけるサンドボックスCA設定プロンプトの非表示化、サブエージェントの設定状態に関する表示の修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アイドル状態のStreamable HTTPセッション期限切れ後にリモートMCPサーバーへ再接続する問題を修正&lt;/li&gt;&lt;li&gt;実行中のバックグラウンドエージェントへのメッセージングにより、次の処理機会でアクティブなターンを制御するように改善&lt;/li&gt;&lt;li&gt;最新のリクエストを回復コンテキストに保持するコンテキストロールオーバーの調整&lt;/li&gt;&lt;li&gt;自己昇格できないWindowsアカウントで自動サンドボックスCA設定プロンプトを非表示化&lt;/li&gt;&lt;li&gt;現在のセッションで実行できないサブエージェントが「設定済み」と誤って説明されないように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.92-0のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-0</link>
