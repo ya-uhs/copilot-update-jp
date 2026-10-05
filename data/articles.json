@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-cli-403175150",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-4",
+    "published_at": "2026-10-04T19:32:32Z",
+    "title_original": "GitHub Copilot CLI v1.0.92-4",
+    "excerpt_original": "**Added** - Add `copilot config` subcommands to list, read, set, and remove settings. **Improved** - Improve first-run startup by extracting the bundled CLI package in a child process - Improve startup responsiveness when connecting many MCP servers at once - Canvas actions can now return images to the model in invoke_canvas_action. **Fixed** - Legacy HTTP+SSE MCP connections no longer hang indefinitely when a message POST is never acknowledged; the acknowledgement is bounded by the server's configured timeout - Voice runtime install errors name why the download from nuget.org failed, not only the fallback feed's 401 - Compaction keeps your latest prompt when requests exceed context limits - Large Anthropic requests rejected by provider size limits now retry after downscaling images or removing attachments - Custom agent model entries keep model-bound reasoning effort only when that model is selected - Shell tool calls now stream live stdout and stderr output reliably in the timeline - Usage reporting preserves provider-reported reasoning token totals when available - Sessions no longer slow to a crawl for minutes after the agent writes a very large file in one step - Sandboxed shells now withhold ambient GITHUB_TOKEN unless explicitly configured. - Plan usage reflects the current billing period after quota resets - Custom agents launched through ACP task calls now resolve and run correctly - Remote session resume now uses your configured GitHub auth for --resume and --connect - Entra sign-in falls back to browser auth when no broker is available and shows a manual URL when auto-open fails - `copilot sandbox ca` commands now respect `--config-dir` (including with `-C`). - Search commands avoid sandbox bypass prompts when access is already granted - Sandboxed uv commands can write to the uv cache by default when dev tool access is enabled - pnpm commands run in sandboxed sessions without lock-file permission errors - Pressing `n` repeatedly in the Sessions tab reliably creates each new session - Reverse search updates results when command history finishes loading at startup - MCP tools recover within the same turn when server instructions change - Changing experimental mode with /experimental or /settings takes effect after restart even when launched with an opposing experimental flag",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.92-4 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.92-4がリリースされ、設定管理用の`copilot config`サブコマンドの追加や、初回起動および多数のMCPサーバー接続時の応答性向上の改善が行われました。また、HTTP+SSE MCP接続のハングアップ防止、音声ランタイムのインストールエラー表示の改善、大規模リクエスト時の自動再試行などの多数の不具合修正が含まれています。",
+    "changes": [
+      "設定のリスト、読み取り、設定、削除を行う `copilot config` サブコマンドを追加",
+      "バンドルされたCLIパッケージを子プロセスで抽出し、初回起動時のパフォーマンスを改善",
+      "多数のMCPサーバーに同時接続する際の起動時の応答性を向上",
+      "レガシーなHTTP+SSE MCP接続が無期限にハングアップしないよう修正",
+      "大規模なAnthropicリクエストがプロバイダのサイズ制限で拒否された際、画像のダウンスケールや添付ファイルの削除後に再試行するよう修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-05T00:25:18Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-05T00:25:16Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-402185992",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-3",

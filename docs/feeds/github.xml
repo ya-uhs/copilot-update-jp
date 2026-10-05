@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 03 Oct 2026 00:55:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:25:18 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.92-4 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-4</link>
+      <guid isPermaLink="false">github-copilot-cli-403175150</guid>
+      <pubDate>Sun, 04 Oct 2026 19:32:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92-4がリリースされ、設定管理用の`copilot config`サブコマンドの追加や、初回起動および多数のMCPサーバー接続時の応答性向上の改善が行われました。また、HTTP+SSE MCP接続のハングアップ防止、音声ランタイムのインストールエラー表示の改善、大規模リクエスト時の自動再試行などの多数の不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定のリスト、読み取り、設定、削除を行う `copilot config` サブコマンドを追加&lt;/li&gt;&lt;li&gt;バンドルされたCLIパッケージを子プロセスで抽出し、初回起動時のパフォーマンスを改善&lt;/li&gt;&lt;li&gt;多数のMCPサーバーに同時接続する際の起動時の応答性を向上&lt;/li&gt;&lt;li&gt;レガシーなHTTP+SSE MCP接続が無期限にハングアップしないよう修正&lt;/li&gt;&lt;li&gt;大規模なAnthropicリクエストがプロバイダのサイズ制限で拒否された際、画像のダウンスケールや添付ファイルの削除後に再試行するよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.92-3のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-3</link>
