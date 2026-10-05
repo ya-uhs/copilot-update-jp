@@ -1,5 +1,32 @@
 [
   {
+    "id": "github-copilot-cli-403782354",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-5",
+    "published_at": "2026-10-05T14:04:54Z",
+    "title_original": "GitHub Copilot CLI v1.0.92-5",
+    "excerpt_original": "**Improved** - Select which account to use after Microsoft Entra sign-in, and let /logout sign out those OAuth sessions. **Fixed** - Entra-protected MCP servers can silently renew access-token-only credentials.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.92-5のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.92-5がリリースされました。Microsoft Entraサインイン後のアカウント選択機能の改善や、/logoutコマンドによるOAuthセッションのサインアウト機能が追加されています。また、Entraで保護されたMCPサーバーにおけるアクセストークン専用認証情報のサイレント更新に関するバグが修正されました。",
+    "changes": [
+      "Microsoft Entraサインイン後に使用するアカウントを選択可能にし、/logoutコマンドでそれらのOAuthセッションをサインアウトできるように改善しました。",
+      "Entraで保護されたMCPサーバーがアクセストークン専用の認証情報をサイレント更新できる問題を修正しました。"
+    ],
+    "target_user": [
+      "Developers",
+      "GitHub Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-05T18:59:29Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-05T18:59:27Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-403175150",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-4",

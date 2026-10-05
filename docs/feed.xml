@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 05 Oct 2026 00:25:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 18:59:29 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.92-5のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-5</link>
+      <guid isPermaLink="false">github-copilot-cli-403782354</guid>
+      <pubDate>Mon, 05 Oct 2026 14:04:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92-5がリリースされました。Microsoft Entraサインイン後のアカウント選択機能の改善や、/logoutコマンドによるOAuthセッションのサインアウト機能が追加されています。また、Entraで保護されたMCPサーバーにおけるアクセストークン専用認証情報のサイレント更新に関するバグが修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Entraサインイン後に使用するアカウントを選択可能にし、/logoutコマンドでそれらのOAuthセッションをサインアウトできるように改善しました。&lt;/li&gt;&lt;li&gt;Entraで保護されたMCPサーバーがアクセストークン専用の認証情報をサイレント更新できる問題を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.92-4 のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-4</link>
