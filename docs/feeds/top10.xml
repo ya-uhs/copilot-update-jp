@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 05 Oct 2026 18:59:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 02:03:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -69,6 +69,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.92 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92</link>
+      <guid isPermaLink="false">github-copilot-cli-404054639</guid>
+      <pubDate>Mon, 05 Oct 2026 19:42:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92では、設定管理サブコマンドの追加、環境ピッカーの導入、およびMCPサーバーや認証機能の改善が行われました。サンドボックス環境におけるシェル実行、キャッシュ書き込み、Git認証の安定性が向上しています。また、音声ランタイムのエラー詳細化、コンテキスト制限超過時の処理改善、各種バグ修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定のリスト表示、読み取り、設定、削除を行う `copilot config` サブコマンドを追加&lt;/li&gt;&lt;li&gt;ローカル実行とクラウド実行を切り替える、会話前のCtrl+E環境ピッカーを追加&lt;/li&gt;&lt;li&gt;Entra保護されたMCPサーバーにおけるアクセストークン専用認証情報のサイレント更新に対応&lt;/li&gt;&lt;li&gt;サンドボックス化されたシェルが、明示的に設定されない限り周囲のGITHUB_TOKENを非公開にするように変更&lt;/li&gt;&lt;li&gt;リタイアしたモデルをモデルピッカーおよびサポートされるCLI選択肢から削除&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.92-5のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-5</link>
       <guid isPermaLink="false">github-copilot-cli-403782354</guid>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92-3がリリースされました。ローカル実行とクラウド実行を切り替える環境ピッカーの追加、入力応答性やサンドボックス関連の不具合修正、および廃止されたモデルの削除が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ローカル実行とクラウド実行を切り替えるためのプレ会話Ctrl+E環境ピッカーを追加&lt;/li&gt;&lt;li&gt;迅速な操作中のキーボード、貼り付け、マウス入力を整列させ、応答性を維持するように修正&lt;/li&gt;&lt;li&gt;プロキシが宛先をブロックした際に、サンドボックス化されたシェルコマンドがネットワークバイパスプロンプトを表示するように修正&lt;/li&gt;&lt;li&gt;Gitを実行するサンドボックス化されたスクリプトが、マスクされた認証情報とSSHリモート書き換えで認証するように修正&lt;/li&gt;&lt;li&gt;GitHub認証情報を置き換えた後もサブエージェントが動作し続けるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] OutlookでのCopilotを通じた会話型メール作成・編集機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573280</link>
-      <guid isPermaLink="false">m365-roadmap-166e7b2b0073cc84817c</guid>
-      <pubDate>Fri, 02 Oct 2026 22:01:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotがOutlookに統合され、WordやExcel、PowerPointと同様のエージェント機能を活用して、会話形式でメールの下書き作成や編集、フォーマット調整を行えるようになります。本機能はサイドパネル形式でユーザーと並行して動作します。一般提供（GA）の時期は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;会話形式でのメールの下書き作成、推敲、フォーマット調整機能の追加&lt;/li&gt;&lt;li&gt;Word、Excel、PowerPointと共通のエージェント機能によるサポート&lt;/li&gt;&lt;li&gt;ユーザーの作業をサイドバイサイドで支援するUIの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573280"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>

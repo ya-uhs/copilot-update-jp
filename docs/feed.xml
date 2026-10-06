@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 05 Oct 2026 18:59:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 02:03:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.93-0 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-0</link>
+      <guid isPermaLink="false">github-copilot-cli-404176787</guid>
+      <pubDate>Mon, 05 Oct 2026 23:47:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93-0がリリースされました。サンドボックスが無効な場合にウォーム状態の言語サーバーがLSPリクエスト間で常駐し続ける問題が修正されました。また、省略表示されたコンパクトなシェルコマンドをクリックして展開できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サンドボックスが無効な環境において、LSPリクエスト間でウォーム状態の言語サーバーが起動し続ける不具合を修正&lt;/li&gt;&lt;li&gt;省略表示されたコンパクトなシェルコマンドをクリックした際に行全体を展開する機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.92 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92</link>
+      <guid isPermaLink="false">github-copilot-cli-404054639</guid>
+      <pubDate>Mon, 05 Oct 2026 19:42:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92では、設定管理サブコマンドの追加、環境ピッカーの導入、およびMCPサーバーや認証機能の改善が行われました。サンドボックス環境におけるシェル実行、キャッシュ書き込み、Git認証の安定性が向上しています。また、音声ランタイムのエラー詳細化、コンテキスト制限超過時の処理改善、各種バグ修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定のリスト表示、読み取り、設定、削除を行う `copilot config` サブコマンドを追加&lt;/li&gt;&lt;li&gt;ローカル実行とクラウド実行を切り替える、会話前のCtrl+E環境ピッカーを追加&lt;/li&gt;&lt;li&gt;Entra保護されたMCPサーバーにおけるアクセストークン専用認証情報のサイレント更新に対応&lt;/li&gt;&lt;li&gt;サンドボックス化されたシェルが、明示的に設定されない限り周囲のGITHUB_TOKENを非公開にするように変更&lt;/li&gt;&lt;li&gt;リタイアしたモデルをモデルピッカーおよびサポートされるCLI選択肢から削除&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.92-5のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-5</link>
