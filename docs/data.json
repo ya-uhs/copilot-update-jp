@@ -1,5 +1,30 @@
 [
   {
+    "id": "github-copilot-cli-404237018",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-1",
+    "published_at": "2026-10-06T02:08:22Z",
+    "title_original": "GitHub Copilot CLI v1.0.93-1",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.93-1 のリリース",
+    "summary_ja": "GitHub Copilot CLI のバージョン v1.0.93-1 がリリースされました。このバージョンには、不具合の修正と変更が含まれています。",
+    "changes": [
+      "不具合の修正と変更の実施"
+    ],
+    "target_user": [
+      "Developers",
+      "GitHub Copilot CLI users"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-06T11:00:04Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-06T11:00:03Z"
+  },
+  {
     "id": "github-copilot-cli-404176787",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-0",
@@ -4150,30 +4175,5 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
-  },
-  {
-    "id": "github-copilot-cli-404237018",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-1",
-    "published_at": "2026-10-06T02:08:22Z",
-    "title_original": "GitHub Copilot CLI v1.0.93-1",
-    "excerpt_original": "Fixes and changes",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.93-1 のリリース",
-    "summary_ja": "GitHub Copilot CLI のバージョン v1.0.93-1 がリリースされました。このバージョンには、不具合の修正と変更が含まれています。",
-    "changes": [
-      "不具合の修正と変更の実施"
-    ],
-    "target_user": [
-      "Developers",
-      "GitHub Copilot CLI users"
-    ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-10-06T11:00:04Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-06T11:00:03Z"
   }
 ]
