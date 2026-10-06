@@ -1,5 +1,59 @@
 [
   {
+    "id": "github-copilot-cli-404176787",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-0",
+    "published_at": "2026-10-05T23:47:49Z",
+    "title_original": "GitHub Copilot CLI v1.0.93-0",
+    "excerpt_original": "**Fixed** - Warmed language servers stay running across LSP requests when sandboxing is disabled - Clicking a truncated compact shell command expands it",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.93-0 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.93-0がリリースされました。サンドボックスが無効な場合にウォーム状態の言語サーバーがLSPリクエスト間で常駐し続ける問題が修正されました。また、省略表示されたコンパクトなシェルコマンドをクリックして展開できるようになりました。",
+    "changes": [
+      "サンドボックスが無効な環境において、LSPリクエスト間でウォーム状態の言語サーバーが起動し続ける不具合を修正",
+      "省略表示されたコンパクトなシェルコマンドをクリックした際に行全体を展開する機能を追加"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-06T02:03:01Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-06T02:03:00Z"
+  },
+  {
+    "id": "github-copilot-cli-404054639",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92",
+    "published_at": "2026-10-05T19:42:08Z",
+    "title_original": "GitHub Copilot CLI v1.0.92",
+    "excerpt_original": "2026-10-05 - Add `copilot config` subcommands to list, read, set, and remove settings. - Add a pre-conversation Ctrl+E environment picker to switch between local and cloud runs - Entra-protected MCP servers can silently renew access-token-only credentials. - Legacy HTTP+SSE MCP connections no longer hang indefinitely when a message POST is never acknowledged; the acknowledgement is bounded by the server's configured timeout - Voice runtime install errors name why the download from nuget.org failed, not only the fallback feed's 401 - Compaction keeps your latest prompt when requests exceed context limits - Large Anthropic requests rejected by provider size limits now retry after downscaling images or removing attachments - Custom agent model entries keep model-bound reasoning effort only when that model is selected - Shell tool calls now stream live stdout and stderr output reliably in the timeline - Usage reporting preserves provider-reported reasoning token totals when available - Sessions no longer slow to a crawl for minutes after the agent writes a very large file in one step - Sandboxed shells now withhold ambient GITHUB_TOKEN unless explicitly configured. - Plan usage reflects the current billing period after quota resets - Custom agents launched through ACP task calls now resolve and run correctly - Remote session resume now uses your configured GitHub auth for --resume and --connect - Entra sign-in falls back to browser auth when no broker is available and shows a manual URL when auto-open fails - `copilot sandbox ca` commands now respect `--config-dir` (including with `-C`). - Search commands avoid sandbox bypass prompts when access is already granted - Sandboxed uv commands can write to the uv cache by default when dev tool access is enabled - pnpm commands run in sandboxed sessions without lock-file permission errors - Pressing `n` repeatedly in the Sessions tab reliably creates each new session - Reverse search updates results when command history finishes loading at startup - MCP tools recover within the same turn when server instructions change - Changing experimental mode with /experimental or /settings takes effect after restart even when launched with an opposing experimental flag - Keyboard, paste, and mouse input now stay ordered and responsive during rapid interaction. - Sandboxed shell commands offer a network bypass prompt whenever the proxy blocks a destination - Sandboxed scripts that run Git now authenticate with masked credentials and SSH remote rewrites - Sub-agents keep working after you replace your GitHub authentication credentials - Sandboxed commands on Windows write temporary files to the granted temp directory, so tools that rename a temp file into place work - Prompt-mode sessions fire a single sessionEnd hook after Stop-hook continuations complete - Reconnect to remote MCP servers after idle Streamable HTTP sessions expire - Messaging a running background agent now steers its active turn at the next processing opportunity. - Context rollovers keep your latest requests in the recovery context. - Hide the automatic sandbox CA setup prompt on Windows accounts that cannot self-elevate - Copilot no longer describes a subagent as configured when the current session cannot run it. Previously a session that could not use rubber-duck still reported it as set up in /subagents, and asking for it failed instead of being skipped cleanly. - MCP tools continue working after OAuth reauthentication when tool definitions are unchanged - Select which account to use after Microsoft Entra sign-in, and let /logout sign out those OAuth sessions. - Improve first-run startup by extracting the bundled CLI package in a child process - Improve startup responsiveness when connecting many MCP servers at once - Canvas actions can now return images to the model in invoke_canvas_action. - Remove retired models from the model picker and supported CLI selections",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.92 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.92では、設定管理サブコマンドの追加、環境ピッカーの導入、およびMCPサーバーや認証機能の改善が行われました。サンドボックス環境におけるシェル実行、キャッシュ書き込み、Git認証の安定性が向上しています。また、音声ランタイムのエラー詳細化、コンテキスト制限超過時の処理改善、各種バグ修正が含まれています。",
+    "changes": [
+      "設定のリスト表示、読み取り、設定、削除を行う `copilot config` サブコマンドを追加",
+      "ローカル実行とクラウド実行を切り替える、会話前のCtrl+E環境ピッカーを追加",
+      "Entra保護されたMCPサーバーにおけるアクセストークン専用認証情報のサイレント更新に対応",
+      "サンドボックス化されたシェルが、明示的に設定されない限り周囲のGITHUB_TOKENを非公開にするように変更",
+      "リタイアしたモデルをモデルピッカーおよびサポートされるCLI選択肢から削除"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-06T02:03:03Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-06T02:03:01Z"
+  },
+  {
     "id": "github-copilot-cli-403782354",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92-5",
@@ -4098,57 +4152,28 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-404176787",
+    "id": "github-copilot-cli-404237018",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-0",
-    "published_at": "2026-10-05T23:47:49Z",
-    "title_original": "GitHub Copilot CLI v1.0.93-0",
-    "excerpt_original": "**Fixed** - Warmed language servers stay running across LSP requests when sandboxing is disabled - Clicking a truncated compact shell command expands it",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-1",
+    "published_at": "2026-10-06T02:08:22Z",
+    "title_original": "GitHub Copilot CLI v1.0.93-1",
+    "excerpt_original": "Fixes and changes",
     "product": "GitHub Copilot CLI",
     "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.93-0 リリースノート",
-    "summary_ja": "GitHub Copilot CLI v1.0.93-0がリリースされました。サンドボックスが無効な場合にウォーム状態の言語サーバーがLSPリクエスト間で常駐し続ける問題が修正されました。また、省略表示されたコンパクトなシェルコマンドをクリックして展開できるようになりました。",
+    "title_ja": "GitHub Copilot CLI v1.0.93-1 のリリース",
+    "summary_ja": "GitHub Copilot CLI のバージョン v1.0.93-1 がリリースされました。このバージョンには、不具合の修正と変更が含まれています。",
     "changes": [
-      "サンドボックスが無効な環境において、LSPリクエスト間でウォーム状態の言語サーバーが起動し続ける不具合を修正",
-      "省略表示されたコンパクトなシェルコマンドをクリックした際に行全体を展開する機能を追加"
+      "不具合の修正と変更の実施"
     ],
     "target_user": [
-      "Developer"
+      "Developers",
+      "GitHub Copilot CLI users"
     ],
     "importance": "low",
     "translated": true,
-    "processed_at": "2026-10-06T02:03:01Z",
+    "processed_at": "2026-10-06T11:00:04Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-10-06T02:03:00Z"
-  },
-  {
-    "id": "github-copilot-cli-404054639",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.92",
-    "published_at": "2026-10-05T19:42:08Z",
-    "title_original": "GitHub Copilot CLI v1.0.92",
-    "excerpt_original": "2026-10-05 - Add `copilot config` subcommands to list, read, set, and remove settings. - Add a pre-conversation Ctrl+E environment picker to switch between local and cloud runs - Entra-protected MCP servers can silently renew access-token-only credentials. - Legacy HTTP+SSE MCP connections no longer hang indefinitely when a message POST is never acknowledged; the acknowledgement is bounded by the server's configured timeout - Voice runtime install errors name why the download from nuget.org failed, not only the fallback feed's 401 - Compaction keeps your latest prompt when requests exceed context limits - Large Anthropic requests rejected by provider size limits now retry after downscaling images or removing attachments - Custom agent model entries keep model-bound reasoning effort only when that model is selected - Shell tool calls now stream live stdout and stderr output reliably in the timeline - Usage reporting preserves provider-reported reasoning token totals when available - Sessions no longer slow to a crawl for minutes after the agent writes a very large file in one step - Sandboxed shells now withhold ambient GITHUB_TOKEN unless explicitly configured. - Plan usage reflects the current billing period after quota resets - Custom agents launched through ACP task calls now resolve and run correctly - Remote session resume now uses your configured GitHub auth for --resume and --connect - Entra sign-in falls back to browser auth when no broker is available and shows a manual URL when auto-open fails - `copilot sandbox ca` commands now respect `--config-dir` (including with `-C`). - Search commands avoid sandbox bypass prompts when access is already granted - Sandboxed uv commands can write to the uv cache by default when dev tool access is enabled - pnpm commands run in sandboxed sessions without lock-file permission errors - Pressing `n` repeatedly in the Sessions tab reliably creates each new session - Reverse search updates results when command history finishes loading at startup - MCP tools recover within the same turn when server instructions change - Changing experimental mode with /experimental or /settings takes effect after restart even when launched with an opposing experimental flag - Keyboard, paste, and mouse input now stay ordered and responsive during rapid interaction. - Sandboxed shell commands offer a network bypass prompt whenever the proxy blocks a destination - Sandboxed scripts that run Git now authenticate with masked credentials and SSH remote rewrites - Sub-agents keep working after you replace your GitHub authentication credentials - Sandboxed commands on Windows write temporary files to the granted temp directory, so tools that rename a temp file into place work - Prompt-mode sessions fire a single sessionEnd hook after Stop-hook continuations complete - Reconnect to remote MCP servers after idle Streamable HTTP sessions expire - Messaging a running background agent now steers its active turn at the next processing opportunity. - Context rollovers keep your latest requests in the recovery context. - Hide the automatic sandbox CA setup prompt on Windows accounts that cannot self-elevate - Copilot no longer describes a subagent as configured when the current session cannot run it. Previously a session that could not use rubber-duck still reported it as set up in /subagents, and asking for it failed instead of being skipped cleanly. - MCP tools continue working after OAuth reauthentication when tool definitions are unchanged - Select which account to use after Microsoft Entra sign-in, and let /logout sign out those OAuth sessions. - Improve first-run startup by extracting the bundled CLI package in a child process - Improve startup responsiveness when connecting many MCP servers at once - Canvas actions can now return images to the model in invoke_canvas_action. - Remove retired models from the model picker and supported CLI selections",
-    "product": "GitHub Copilot CLI",
-    "status": "Release",
-    "title_ja": "GitHub Copilot CLI v1.0.92 リリースノート",
-    "summary_ja": "GitHub Copilot CLI v1.0.92では、設定管理サブコマンドの追加、環境ピッカーの導入、およびMCPサーバーや認証機能の改善が行われました。サンドボックス環境におけるシェル実行、キャッシュ書き込み、Git認証の安定性が向上しています。また、音声ランタイムのエラー詳細化、コンテキスト制限超過時の処理改善、各種バグ修正が含まれています。",
-    "changes": [
-      "設定のリスト表示、読み取り、設定、削除を行う `copilot config` サブコマンドを追加",
-      "ローカル実行とクラウド実行を切り替える、会話前のCtrl+E環境ピッカーを追加",
-      "Entra保護されたMCPサーバーにおけるアクセストークン専用認証情報のサイレント更新に対応",
-      "サンドボックス化されたシェルが、明示的に設定されない限り周囲のGITHUB_TOKENを非公開にするように変更",
-      "リタイアしたモデルをモデルピッカーおよびサポートされるCLI選択肢から削除"
-    ],
-    "target_user": [
-      "Developer",
-      "GitHub Copilot CLI User"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-06T02:03:03Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-06T02:03:01Z"
+    "translation_attempted_at": "2026-10-06T11:00:03Z"
   }
 ]
