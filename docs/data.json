@@ -1,5 +1,88 @@
 [
   {
+    "id": "github-copilot-cli-405414304",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-4",
+    "published_at": "2026-10-07T05:34:55Z",
+    "title_original": "GitHub Copilot CLI v1.0.93-4",
+    "excerpt_original": "**Improved** - Command sandboxing is available to all users via /sandbox and --sandbox. **Fixed** - Run safe /user commands immediately during active turns, reject unsafe remote commands during active turns without opening dialogs, and queue commands advertised by relay hosts - Plugin skill commands stay available after reloading enabled plugins - Sandbox local-network allowlists now include localhost and loopback hosts.",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.93-4のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.93-4がリリースされ、すべてのユーザーがコマンドサンドボックス機能を利用できるようになりました。また、コマンド実行やプラグイン機能、サンドボックスのネットワーク許可リストに関する複数の不具合が修正されています。",
+    "changes": [
+      "/sandboxコマンドおよび--sandboxフラグによるコマンドサンドboxingがすべてのユーザーで利用可能になりました。",
+      "アクティブターン中の安全な/userコマンドの即時実行、および安全でないリモートコマンドの拒否処理を改善しました。",
+      "中継ホストによってアドバタイズされたコマンドをキューに追加する機能を修正しました。",
+      "有効なプラグインを再読み込みした後もプラグインのスキルコマンドが利用可能な状態を維持するように修正しました。",
+      "サンドボックスのローカルネットワーク許可リストにlocalhostおよびループバックホストを追加しました。"
+    ],
+    "target_user": [
+      "Developers",
+      "GitHub Copilot CLI Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-07T10:50:17Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-07T10:50:16Z"
+  },
+  {
+    "id": "github-copilot-cli-405270988",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-3",
+    "published_at": "2026-10-07T01:12:27Z",
+    "title_original": "GitHub Copilot CLI v1.0.93-3",
+    "excerpt_original": "**Improved** - MCP server configuration changes apply between turns without restarting the session.",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.93-3 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.93-3がリリースされました。MCPサーバーの設定変更がセッションの再起動なしにターン間で適用されるように改善されました。",
+    "changes": [
+      "MCPサーバーの設定変更がセッションの再起動なしにターン間で適用されるように改善"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-07T10:50:18Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-07T10:50:17Z"
+  },
+  {
+    "id": "vscode-3edcfec6dc5c735a0b84",
+    "source": "VS Code Release Notes",
+    "source_url": "https://code.visualstudio.com/updates/v1_141",
+    "published_at": "2026-10-07T00:00:00Z",
+    "date_basis": "published",
+    "title_original": "Visual Studio Code 1.141 — Copilot / Chat / Agents",
+    "excerpt_original": "Agent loop\nCopilot harness\nThe Copilot harness adds exciting new agent functionality to VS Code. It's powered by the Copilot SDK, so its behavior and capabilities are consistent with other Copilot products, including the standalone GitHub Copilot app and the Copilot CLI.\nTo start using the Copilot harness, select it from the harness picker in the chat input. In this release, it might already be the default selection for you. You can continue working as you normally do.\n\nThe harness runs in a dedicated agent host process based on the Agent Host Protocol (AHP), so you can connect to the same agent session from multiple VS Code windows.\nLearn how to work with the Copilot harness , or explore the architecture and workflows in the agent host blog post . If you have feedback or requests, please file an issue .\nReclaim storage from inactive worktrees\nRun Chat: Open Worktree Cleanup to see how much disk space inactive agent session worktrees use and remove the ones you no longer need. Filter sessions by how long they have been inactive, review each worktree's size, and select the worktrees to clean up.\nThe cleanup editor also lets you configure automatic cleanup for sessions with merged pull requests and control whether VS Code suggests cleanup when session storage grows large.\n\nWhen chat.agentSessions.sessionStorageCleanupSuggestion.enabled Open in VS Code Open in VS Code Insiders is enabled, the Agents window notifies you when enough inactive worktrees accumulate or they use enough disk space to make cleanup worthwhile.\n\nCleaning up marks the selected sessions as done and deletes their worktrees. You can restore a session later to recreate its worktree. Active, running, needs-input, and pinned sessions are protected from cleanup.\nKeep track of background shells\nWhen the agent runs a command in the background, it keeps working on other steps while the command runs. In Copilot harness sessions, a Background Shells pill above the chat input lists the shells that are still running, in both the Agents window and the editor window.\nSelect the pill to see each shell's command and how long it has been running, and select a shell to watch its output stream as the command runs, if output is available. A shell leaves the list when its command finishes.\n\nMore control for agent-triggered messages\nWhen agents delegate work across conversations, they can adjust the delegated task as requirements change instead of waiting for the other session to finish. The send_message tool supports these actions between sessions and nested sessions on the same agent host:\nSteer an active conversation with a correction. Queue a follow-up as a separate turn. Replace a queued message while preserving its place in the queue. Cancel a queued message before processing begins.\nQueued messages run in order. After a message starts processing, it can no longer be replaced or cancelled.\n\nAgent UX\nArrange sessions in a grid\nCompare results, monitor long-running tasks, or work across related conversations without repeatedly switching between sessions. Like in the editor window, the two-dimensional session grid in the Agents window lets you drag sessions into horizontal or vertical splits and resize the panes.\nMaximize a session when you need to focus, then return to the grid to continue working across conversations.\n\nCompact layout density\nSetting : window.density.layout Open in VS Code Open in VS Code Insiders\nFit more content in the Agents window with the Compact layout density. Compact density uses a shorter title bar, removes the gaps between workbench parts, and reduces pane spacing.\nBy default, the Agents window follows the user-level window.density.layout Open in VS Code Open in VS Code Insiders setting, which also applies to editor windows. To set a different density for the Agents window only, open it and choose View > Layout Density . The density of editor windows remains unchanged.\n\nAdditional session-filtering options\nFocus your sessions list on the work you care about. Open Filter Sessions to filter independently by:\nEnvironment : Where the session runs, such as locally, in the cloud, or on a remote host. Harness : Which agent harness the session uses. Created In : Which application created the session, such as VS Code, Copilot CLI, or the Copilot app.\nThe menu also brings together ordering, grouping, Show Done , and Created Externally controls.\n\nTrack activity across nested sessions\nNested sessions let you split related work across separate conversations. In the Agents window, each nested session shows its unread status and last-modified time, helping you find recent activity and conversations that need your attention without opening them individually.\n\nStatus is tracked independently for each conversation:\nOpening a nested session marks only that conversation as read. An unread nested session does not make the main session appear unread. The last-modified time reflects activity in that conversation, not activity in the main session or another nested session.\nRead status and last-modified times persist when you reload the window or restart VS Code.\nTo clear unread status for an entire session tree, right-click the main session and select Mark as Read . Unrelated sessions are not affected.\nSimplified new-session controls (Experimental)\nSettings : sessions.chat.experimental.newSessionComposerLayout Open in VS Code Open in VS Code Insiders , sessions.chat.unifiedWorkspacePicker.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nThe experimental new-session composer keeps your prompt at the center while making session choices easier to review. Workspace, repository, and harness controls now appear in a collapsible Session Options tray above the chat input.\n\nGetting-started tips now appear in a rounded notice below the chat input, so they no longer separate the session controls from your prompt.\n\nCollapse the tray to reduce visual clutter without changing your selections. The composer remembers your choice, adapts labels as the window narrows, and keeps the options expanded when screen reader optimized mode is active. When you use a custom chat background, the tray has an opaque surface to keep its controls readable.\nImproved context picker positioning\nThe Add Context picker now opens next to the button that invoked it and closes when you select the button again. This keeps the picker visually connected to the chat input in the editor and Agents windows.\n\nMove agent picker in context control (Experimental)\nSetting : sessions.chat.experimental.agentsPickerInAttachContextMenu Open in VS Code Open in VS Code Insiders (Agents window only)\nIf you prefer to have the Agent picker initially hidden from the chat input to reduce the number of controls, you can configure this setting to move it into the Add Context menu. After you select an agent, the picker returns to the chat input.\n\nCustomize new-session welcome messages (Experimental)\nSettings : sessions.chat.experimental.welcomePhrases Open in VS Code Open in VS Code Insiders , sessions.chat.experimental.welcomeMessages Open in VS Code Open in VS Code Insiders (Agents window only)\nNew-session welcome messages add personality to the Agents window. In this release, you can add your own phrases to the defaults or replace the default phrases. Use the {name} placeholder to position your welcome name anywhere in a phrase.\n\nSelect Customize Welcome Message beside the heading to change your name or open the phrase setting. You can also right-click the heading and select Hide Welcome Message to turn welcome phrases off.\n\nAgent environments\nContinue local external Copilot sessions without reloading\nNew conversations from the Copilot CLI and GitHub Copilot app are now picked up automatically as external sessions as soon as you send the first request, even when the Agents window is already open. You can open and continue these conversations directly from the Agents window.\n\nUse the Created In and Created Externally filters to choose which conversations appear in the sessions list.\nCodex chat handoff between apps\nPick up a Codex chat started in the ChatGPT app or Codex CLI and continue it in VS Code's Agents window on the same machine, with your conversation history intact. You can switch back to the ChatGPT app or Codex CLI later and continue the same chat.\nTo use your GitHub Copilot subscription in VS Code, choose a Copilot model in the model picker. For example, you can keep working with Copilot after reaching your ChatGPT usage limit.\nWith Codex enabled and Created Externally sessions visible, chats created or updated in ChatGPT or Codex CLI appear within a few seconds without reloading VS Code.\nOnly one application can send messages to the chat at a time. If ChatGPT or Codex CLI still has the chat open, a This chat is open in another app banner in VS Code explains why sending is unavailable. Fully quit ChatGPT or exit the Codex CLI session, then select Retry . Your draft and attachments stay in place, and Retry checks access without sending your message.\n\nDownload remote files from the editor\nSave an open remote file locally, without having to navigate for it in the Files panel. In the Agents window, open the editor's More Actions menu and select Download... to download the file to a local destination.\nDev Container samples (Experimental)\nSetting : chat.agentHost.devContainer.samples.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nTry an agent with a ready-to-use development environment without first cloning a repository or installing its language tools locally. The Agents window now offers Dev Container samples for Go, .NET, Node.js, PHP, Python, and Rust.\n\nInstall and start Docker , and then enable the setting. Open a new session in the desktop Agents window, select Dev Container Sample from the workspace picker, and send a prompt.\nThis also requires chat.agentHost.devContainer.enabled Open in VS Code Open in VS Code Insiders and chat.remoteAgentHostsEnabled Open in VS Code Open in VS Code Insiders to be enabled.\n\nAgent security\nSandboxing in the Copilot agent host\nSettings : chat.agent.sandbox.enabled Open in VS Code Open in VS Code Insiders\nSandboxing gives you more control over what Copilot can access while working on a task. It limits how supported agent operations access files and network resources, and helps to reduce the impact of model mistakes, prompt injection, untrusted dependencies, and locally launched tool servers.\nDepending on the operation and platform, these restrictions use operating-system protections or checks within the agent host process. Sandboxing adds a layer of protection, but does not replace endpoint security or provide a standalone security boundary.\nSandboxing is available on Windows, macOS, and Linux . On Windows, required operating-system updates must be installed. Refer to Check platform availability for more details.\nTo configure sandboxing for all your sessions, enable the chat.agent.sandbox.enabled Open in VS Code Open in VS Code Insiders setting. You can also control sandboxing at the session level with the Sandboxing for terminal toggle in the Permissions menu.\n\nYou can further customize filesystem permissions and network access via their respective settings in VS Code.\nSandboxing works with both local and connected remote sessions. For local sessions, restrictions are enforced on your machine. For remote sessions, they are enforced on the remote host where Copilot runs tools and commands. Filesystem permissions refer to paths on the machine running the agent.\nLocally launched MCP and language servers are sandboxed by default when sandboxing is enabled.\n\nChat experience\nPersistent progress in chat\nSettings : chat.experimental.persistentProgress Open in VS Code Open in VS Code Insiders , chat.experimental.persistentProgressVerbosity Open in VS Code Open in VS Code Insiders\nPersistent progress is rolling out to all users. It keeps in-progress responses visible and lets you control how much progr",
+    "product": "GitHub Copilot in VS Code",
+    "status": "Release",
+    "title_ja": "Visual Studio Code 1.141 — Copilot / チャット / エージェントの更新情報",
+    "summary_ja": "Visual Studio Code 1.141では、Copilotハネスやエージェントのセッション管理、UX、環境連携に関する多数の機能追加と改善が行われました。Agent Host Protocol (AHP)に基づく専用エージェントホストプロセスによる柔軟なセッション制御や、ストレージ管理機能が導入されています。また、サンドボックス機能によるセキュリティ向上や、外部Copilot・Codexチャットの継続利用が可能になりました。",
+    "changes": [
+      "Copilot SDKを基盤とするCopilotハネスを追加し、複数ウィンドウでのエージェントセッション接続やバックグラウンドシェルの追跡に対応しました。",
+      "非アクティブなワークツリーのディスク容量を確認して削除できるストレージクリーンアップ機能を追加しました。",
+      "Agentsウィンドウでのグリッド状のセッション配置やコンパクトレイアウト密度の設定など、UXを改善しました。",
+      "Copilot CLIやChatGPTアプリなどの外部セッションの自動検出および、Codexチャットのアプリ間ハンドオフに対応しました。",
+      "エージェントのファイルおよびネットワークアクセスを制限するサンドボックス機能を導入しました。"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot User"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-07T10:50:20Z",
+    "source_id": "vscode",
+    "family": "github",
+    "translation_attempted_at": "2026-10-07T10:50:18Z"
+  },
+  {
     "id": "github-changelog-f833eccb65deeb7db0bf",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
@@ -4262,86 +4345,32 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-405414304",
+    "id": "github-copilot-cli-405830978",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-4",
-    "published_at": "2026-10-07T05:34:55Z",
-    "title_original": "GitHub Copilot CLI v1.0.93-4",
-    "excerpt_original": "**Improved** - Command sandboxing is available to all users via /sandbox and --sandbox. **Fixed** - Run safe /user commands immediately during active turns, reject unsafe remote commands during active turns without opening dialogs, and queue commands advertised by relay hosts - Plugin skill commands stay available after reloading enabled plugins - Sandbox local-network allowlists now include localhost and loopback hosts.",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93",
+    "published_at": "2026-10-07T14:06:47Z",
+    "title_original": "GitHub Copilot CLI v1.0.93",
+    "excerpt_original": "2026-10-07 - Add enterprise permissions.limitTo to enforce managed domain boundaries for network requests - Run safe /user commands immediately during active turns, reject unsafe remote commands during active turns without opening dialogs, and queue commands advertised by relay hosts - Plugin skill commands stay available after reloading enabled plugins - Sandbox local-network allowlists now include localhost and loopback hosts. - GitHub.com Connector users can expand GitHub CLI permissions in place and retry connections without switching sign-in methods. - Honor --context long_context at startup and show accurate context allowance in /context - Connecting a Connector without the required GitHub scope now prompts to update your authorization instead of failing with an authentication error - Warmed language servers stay running across LSP requests when sandboxing is disabled - Clicking a truncated compact shell command expands it - Command sandboxing is available to all users via /sandbox and --sandbox. - MCP server configuration changes apply between turns without restarting the session. - Model picker updates the recommended list to prioritize GPT-6.1 Sol, GPT-6 Astra/Luna, and Claude 5.5 models. - Read user settings only from ~/.copilot/settings.json; user-setting keys in ~/.copilot/config.json are ignored.",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.93-4のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.93-4がリリースされ、すべてのユーザーがコマンドサンドボックス機能を利用できるようになりました。また、コマンド実行やプラグイン機能、サンドボックスのネットワーク許可リストに関する複数の不具合が修正されています。",
-    "changes": [
-      "/sandboxコマンドおよび--sandboxフラグによるコマンドサンドboxingがすべてのユーザーで利用可能になりました。",
-      "アクティブターン中の安全な/userコマンドの即時実行、および安全でないリモートコマンドの拒否処理を改善しました。",
-      "中継ホストによってアドバタイズされたコマンドをキューに追加する機能を修正しました。",
-      "有効なプラグインを再読み込みした後もプラグインのスキルコマンドが利用可能な状態を維持するように修正しました。",
-      "サンドボックスのローカルネットワーク許可リストにlocalhostおよびループバックホストを追加しました。"
-    ],
-    "target_user": [
-      "Developers",
-      "GitHub Copilot CLI Users"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-07T10:50:17Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-07T10:50:16Z"
-  },
-  {
-    "id": "github-copilot-cli-405270988",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-3",
-    "published_at": "2026-10-07T01:12:27Z",
-    "title_original": "GitHub Copilot CLI v1.0.93-3",
-    "excerpt_original": "**Improved** - MCP server configuration changes apply between turns without restarting the session.",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.93-3 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.93-3がリリースされました。MCPサーバーの設定変更がセッションの再起動なしにターン間で適用されるように改善されました。",
-    "changes": [
-      "MCPサーバーの設定変更がセッションの再起動なしにターン間で適用されるように改善"
-    ],
-    "target_user": [
-      "developers"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-07T10:50:18Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-07T10:50:17Z"
-  },
-  {
-    "id": "vscode-3edcfec6dc5c735a0b84",
-    "source": "VS Code Release Notes",
-    "source_url": "https://code.visualstudio.com/updates/v1_141",
-    "published_at": "2026-10-07T00:00:00Z",
-    "date_basis": "published",
-    "title_original": "Visual Studio Code 1.141 — Copilot / Chat / Agents",
-    "excerpt_original": "Agent loop\nCopilot harness\nThe Copilot harness adds exciting new agent functionality to VS Code. It's powered by the Copilot SDK, so its behavior and capabilities are consistent with other Copilot products, including the standalone GitHub Copilot app and the Copilot CLI.\nTo start using the Copilot harness, select it from the harness picker in the chat input. In this release, it might already be the default selection for you. You can continue working as you normally do.\n\nThe harness runs in a dedicated agent host process based on the Agent Host Protocol (AHP), so you can connect to the same agent session from multiple VS Code windows.\nLearn how to work with the Copilot harness , or explore the architecture and workflows in the agent host blog post . If you have feedback or requests, please file an issue .\nReclaim storage from inactive worktrees\nRun Chat: Open Worktree Cleanup to see how much disk space inactive agent session worktrees use and remove the ones you no longer need. Filter sessions by how long they have been inactive, review each worktree's size, and select the worktrees to clean up.\nThe cleanup editor also lets you configure automatic cleanup for sessions with merged pull requests and control whether VS Code suggests cleanup when session storage grows large.\n\nWhen chat.agentSessions.sessionStorageCleanupSuggestion.enabled Open in VS Code Open in VS Code Insiders is enabled, the Agents window notifies you when enough inactive worktrees accumulate or they use enough disk space to make cleanup worthwhile.\n\nCleaning up marks the selected sessions as done and deletes their worktrees. You can restore a session later to recreate its worktree. Active, running, needs-input, and pinned sessions are protected from cleanup.\nKeep track of background shells\nWhen the agent runs a command in the background, it keeps working on other steps while the command runs. In Copilot harness sessions, a Background Shells pill above the chat input lists the shells that are still running, in both the Agents window and the editor window.\nSelect the pill to see each shell's command and how long it has been running, and select a shell to watch its output stream as the command runs, if output is available. A shell leaves the list when its command finishes.\n\nMore control for agent-triggered messages\nWhen agents delegate work across conversations, they can adjust the delegated task as requirements change instead of waiting for the other session to finish. The send_message tool supports these actions between sessions and nested sessions on the same agent host:\nSteer an active conversation with a correction. Queue a follow-up as a separate turn. Replace a queued message while preserving its place in the queue. Cancel a queued message before processing begins.\nQueued messages run in order. After a message starts processing, it can no longer be replaced or cancelled.\n\nAgent UX\nArrange sessions in a grid\nCompare results, monitor long-running tasks, or work across related conversations without repeatedly switching between sessions. Like in the editor window, the two-dimensional session grid in the Agents window lets you drag sessions into horizontal or vertical splits and resize the panes.\nMaximize a session when you need to focus, then return to the grid to continue working across conversations.\n\nCompact layout density\nSetting : window.density.layout Open in VS Code Open in VS Code Insiders\nFit more content in the Agents window with the Compact layout density. Compact density uses a shorter title bar, removes the gaps between workbench parts, and reduces pane spacing.\nBy default, the Agents window follows the user-level window.density.layout Open in VS Code Open in VS Code Insiders setting, which also applies to editor windows. To set a different density for the Agents window only, open it and choose View > Layout Density . The density of editor windows remains unchanged.\n\nAdditional session-filtering options\nFocus your sessions list on the work you care about. Open Filter Sessions to filter independently by:\nEnvironment : Where the session runs, such as locally, in the cloud, or on a remote host. Harness : Which agent harness the session uses. Created In : Which application created the session, such as VS Code, Copilot CLI, or the Copilot app.\nThe menu also brings together ordering, grouping, Show Done , and Created Externally controls.\n\nTrack activity across nested sessions\nNested sessions let you split related work across separate conversations. In the Agents window, each nested session shows its unread status and last-modified time, helping you find recent activity and conversations that need your attention without opening them individually.\n\nStatus is tracked independently for each conversation:\nOpening a nested session marks only that conversation as read. An unread nested session does not make the main session appear unread. The last-modified time reflects activity in that conversation, not activity in the main session or another nested session.\nRead status and last-modified times persist when you reload the window or restart VS Code.\nTo clear unread status for an entire session tree, right-click the main session and select Mark as Read . Unrelated sessions are not affected.\nSimplified new-session controls (Experimental)\nSettings : sessions.chat.experimental.newSessionComposerLayout Open in VS Code Open in VS Code Insiders , sessions.chat.unifiedWorkspacePicker.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nThe experimental new-session composer keeps your prompt at the center while making session choices easier to review. Workspace, repository, and harness controls now appear in a collapsible Session Options tray above the chat input.\n\nGetting-started tips now appear in a rounded notice below the chat input, so they no longer separate the session controls from your prompt.\n\nCollapse the tray to reduce visual clutter without changing your selections. The composer remembers your choice, adapts labels as the window narrows, and keeps the options expanded when screen reader optimized mode is active. When you use a custom chat background, the tray has an opaque surface to keep its controls readable.\nImproved context picker positioning\nThe Add Context picker now opens next to the button that invoked it and closes when you select the button again. This keeps the picker visually connected to the chat input in the editor and Agents windows.\n\nMove agent picker in context control (Experimental)\nSetting : sessions.chat.experimental.agentsPickerInAttachContextMenu Open in VS Code Open in VS Code Insiders (Agents window only)\nIf you prefer to have the Agent picker initially hidden from the chat input to reduce the number of controls, you can configure this setting to move it into the Add Context menu. After you select an agent, the picker returns to the chat input.\n\nCustomize new-session welcome messages (Experimental)\nSettings : sessions.chat.experimental.welcomePhrases Open in VS Code Open in VS Code Insiders , sessions.chat.experimental.welcomeMessages Open in VS Code Open in VS Code Insiders (Agents window only)\nNew-session welcome messages add personality to the Agents window. In this release, you can add your own phrases to the defaults or replace the default phrases. Use the {name} placeholder to position your welcome name anywhere in a phrase.\n\nSelect Customize Welcome Message beside the heading to change your name or open the phrase setting. You can also right-click the heading and select Hide Welcome Message to turn welcome phrases off.\n\nAgent environments\nContinue local external Copilot sessions without reloading\nNew conversations from the Copilot CLI and GitHub Copilot app are now picked up automatically as external sessions as soon as you send the first request, even when the Agents window is already open. You can open and continue these conversations directly from the Agents window.\n\nUse the Created In and Created Externally filters to choose which conversations appear in the sessions list.\nCodex chat handoff between apps\nPick up a Codex chat started in the ChatGPT app or Codex CLI and continue it in VS Code's Agents window on the same machine, with your conversation history intact. You can switch back to the ChatGPT app or Codex CLI later and continue the same chat.\nTo use your GitHub Copilot subscription in VS Code, choose a Copilot model in the model picker. For example, you can keep working with Copilot after reaching your ChatGPT usage limit.\nWith Codex enabled and Created Externally sessions visible, chats created or updated in ChatGPT or Codex CLI appear within a few seconds without reloading VS Code.\nOnly one application can send messages to the chat at a time. If ChatGPT or Codex CLI still has the chat open, a This chat is open in another app banner in VS Code explains why sending is unavailable. Fully quit ChatGPT or exit the Codex CLI session, then select Retry . Your draft and attachments stay in place, and Retry checks access without sending your message.\n\nDownload remote files from the editor\nSave an open remote file locally, without having to navigate for it in the Files panel. In the Agents window, open the editor's More Actions menu and select Download... to download the file to a local destination.\nDev Container samples (Experimental)\nSetting : chat.agentHost.devContainer.samples.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nTry an agent with a ready-to-use development environment without first cloning a repository or installing its language tools locally. The Agents window now offers Dev Container samples for Go, .NET, Node.js, PHP, Python, and Rust.\n\nInstall and start Docker , and then enable the setting. Open a new session in the desktop Agents window, select Dev Container Sample from the workspace picker, and send a prompt.\nThis also requires chat.agentHost.devContainer.enabled Open in VS Code Open in VS Code Insiders and chat.remoteAgentHostsEnabled Open in VS Code Open in VS Code Insiders to be enabled.\n\nAgent security\nSandboxing in the Copilot agent host\nSettings : chat.agent.sandbox.enabled Open in VS Code Open in VS Code Insiders\nSandboxing gives you more control over what Copilot can access while working on a task. It limits how supported agent operations access files and network resources, and helps to reduce the impact of model mistakes, prompt injection, untrusted dependencies, and locally launched tool servers.\nDepending on the operation and platform, these restrictions use operating-system protections or checks within the agent host process. Sandboxing adds a layer of protection, but does not replace endpoint security or provide a standalone security boundary.\nSandboxing is available on Windows, macOS, and Linux . On Windows, required operating-system updates must be installed. Refer to Check platform availability for more details.\nTo configure sandboxing for all your sessions, enable the chat.agent.sandbox.enabled Open in VS Code Open in VS Code Insiders setting. You can also control sandboxing at the session level with the Sandboxing for terminal toggle in the Permissions menu.\n\nYou can further customize filesystem permissions and network access via their respective settings in VS Code.\nSandboxing works with both local and connected remote sessions. For local sessions, restrictions are enforced on your machine. For remote sessions, they are enforced on the remote host where Copilot runs tools and commands. Filesystem permissions refer to paths on the machine running the agent.\nLocally launched MCP and language servers are sandboxed by default when sandboxing is enabled.\n\nChat experience\nPersistent progress in chat\nSettings : chat.experimental.persistentProgress Open in VS Code Open in VS Code Insiders , chat.experimental.persistentProgressVerbosity Open in VS Code Open in VS Code Insiders\nPersistent progress is rolling out to all users. It keeps in-progress responses visible and lets you control how much progr",
-    "product": "GitHub Copilot in VS Code",
     "status": "Release",
-    "title_ja": "Visual Studio Code 1.141 — Copilot / チャット / エージェントの更新情報",
-    "summary_ja": "Visual Studio Code 1.141では、Copilotハネスやエージェントのセッション管理、UX、環境連携に関する多数の機能追加と改善が行われました。Agent Host Protocol (AHP)に基づく専用エージェントホストプロセスによる柔軟なセッション制御や、ストレージ管理機能が導入されています。また、サンドボックス機能によるセキュリティ向上や、外部Copilot・Codexチャットの継続利用が可能になりました。",
+    "title_ja": "GitHub Copilot CLI v1.0.93 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.93がリリースされ、エンタープライズ権限の追加や安全性向上のためのコマンド実行制御、プラグインやサンドボックス機能の改善が行われました。また、GitHub.comコネクターの権限拡張の簡素化や、モデルピッカーにおける推奨モデルの更新などが含まれています。",
     "changes": [
-      "Copilot SDKを基盤とするCopilotハネスを追加し、複数ウィンドウでのエージェントセッション接続やバックグラウンドシェルの追跡に対応しました。",
-      "非アクティブなワークツリーのディスク容量を確認して削除できるストレージクリーンアップ機能を追加しました。",
-      "Agentsウィンドウでのグリッド状のセッション配置やコンパクトレイアウト密度の設定など、UXを改善しました。",
-      "Copilot CLIやChatGPTアプリなどの外部セッションの自動検出および、Codexチャットのアプリ間ハンドオフに対応しました。",
-      "エージェントのファイルおよびネットワークアクセスを制限するサンドボックス機能を導入しました。"
+      "ネットワークリクエストの管理ドメイン境界を強制するための企業向け権限 `permissions.limitTo` を追加",
+      "アクティブターン中の安全な `/user` コマンドの即時実行、およびダイアログを開かずに安全でないリモートコマンドを拒否する仕様に変更",
+      "プラグインの有効化を再読み込みした後もプラグインのスキルコマンドを利用可能に維持",
+      "サンドボックスのローカルネットワークホワイトリストにlocalhostおよびループバックホストを追加",
+      "GitHub.comコネクターユーザーがサインイン方法を切り替えることなく、その場でGitHub CLIの権限を拡張して接続を再試行できるように改善"
     ],
     "target_user": [
-      "Developer",
-      "GitHub Copilot User"
+      "GitHub Copilot CLI users",
+      "Enterprise administrators"
     ],
-    "importance": "high",
+    "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-07T10:50:20Z",
-    "source_id": "vscode",
+    "processed_at": "2026-10-07T17:08:38Z",
+    "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-10-07T10:50:18Z"
+    "translation_attempted_at": "2026-10-07T17:08:35Z"
   }
 ]

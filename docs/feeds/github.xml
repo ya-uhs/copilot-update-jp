@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 10:50:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 17:08:38 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.93 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93</link>
+      <guid isPermaLink="false">github-copilot-cli-405830978</guid>
+      <pubDate>Wed, 07 Oct 2026 14:06:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93がリリースされ、エンタープライズ権限の追加や安全性向上のためのコマンド実行制御、プラグインやサンドボックス機能の改善が行われました。また、GitHub.comコネクターの権限拡張の簡素化や、モデルピッカーにおける推奨モデルの更新などが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ネットワークリクエストの管理ドメイン境界を強制するための企業向け権限 `permissions.limitTo` を追加&lt;/li&gt;&lt;li&gt;アクティブターン中の安全な `/user` コマンドの即時実行、およびダイアログを開かずに安全でないリモートコマンドを拒否する仕様に変更&lt;/li&gt;&lt;li&gt;プラグインの有効化を再読み込みした後もプラグインのスキルコマンドを利用可能に維持&lt;/li&gt;&lt;li&gt;サンドボックスのローカルネットワークホワイトリストにlocalhostおよびループバックホストを追加&lt;/li&gt;&lt;li&gt;GitHub.comコネクターユーザーがサインイン方法を切り替えることなく、その場でGitHub CLIの権限を拡張して接続を再試行できるように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.93-4のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-4</link>

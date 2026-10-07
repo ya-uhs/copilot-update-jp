@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-cli-405830978",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93",
+    "published_at": "2026-10-07T14:06:47Z",
+    "title_original": "GitHub Copilot CLI v1.0.93",
+    "excerpt_original": "2026-10-07 - Add enterprise permissions.limitTo to enforce managed domain boundaries for network requests - Run safe /user commands immediately during active turns, reject unsafe remote commands during active turns without opening dialogs, and queue commands advertised by relay hosts - Plugin skill commands stay available after reloading enabled plugins - Sandbox local-network allowlists now include localhost and loopback hosts. - GitHub.com Connector users can expand GitHub CLI permissions in place and retry connections without switching sign-in methods. - Honor --context long_context at startup and show accurate context allowance in /context - Connecting a Connector without the required GitHub scope now prompts to update your authorization instead of failing with an authentication error - Warmed language servers stay running across LSP requests when sandboxing is disabled - Clicking a truncated compact shell command expands it - Command sandboxing is available to all users via /sandbox and --sandbox. - MCP server configuration changes apply between turns without restarting the session. - Model picker updates the recommended list to prioritize GPT-6.1 Sol, GPT-6 Astra/Luna, and Claude 5.5 models. - Read user settings only from ~/.copilot/settings.json; user-setting keys in ~/.copilot/config.json are ignored.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.93 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.93がリリースされ、エンタープライズ権限の追加や安全性向上のためのコマンド実行制御、プラグインやサンドボックス機能の改善が行われました。また、GitHub.comコネクターの権限拡張の簡素化や、モデルピッカーにおける推奨モデルの更新などが含まれています。",
+    "changes": [
+      "ネットワークリクエストの管理ドメイン境界を強制するための企業向け権限 `permissions.limitTo` を追加",
+      "アクティブターン中の安全な `/user` コマンドの即時実行、およびダイアログを開かずに安全でないリモートコマンドを拒否する仕様に変更",
+      "プラグインの有効化を再読み込みした後もプラグインのスキルコマンドを利用可能に維持",
+      "サンドボックスのローカルネットワークホワイトリストにlocalhostおよびループバックホストを追加",
+      "GitHub.comコネクターユーザーがサインイン方法を切り替えることなく、その場でGitHub CLIの権限を拡張して接続を再試行できるように改善"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Enterprise administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-07T17:08:38Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-07T17:08:35Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-405414304",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-4",

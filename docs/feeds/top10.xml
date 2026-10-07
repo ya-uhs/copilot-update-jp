@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 10:50:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 17:08:38 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -69,6 +69,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.93 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93</link>
+      <guid isPermaLink="false">github-copilot-cli-405830978</guid>
+      <pubDate>Wed, 07 Oct 2026 14:06:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93がリリースされ、エンタープライズ権限の追加や安全性向上のためのコマンド実行制御、プラグインやサンドボックス機能の改善が行われました。また、GitHub.comコネクターの権限拡張の簡素化や、モデルピッカーにおける推奨モデルの更新などが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ネットワークリクエストの管理ドメイン境界を強制するための企業向け権限 `permissions.limitTo` を追加&lt;/li&gt;&lt;li&gt;アクティブターン中の安全な `/user` コマンドの即時実行、およびダイアログを開かずに安全でないリモートコマンドを拒否する仕様に変更&lt;/li&gt;&lt;li&gt;プラグインの有効化を再読み込みした後もプラグインのスキルコマンドを利用可能に維持&lt;/li&gt;&lt;li&gt;サンドボックスのローカルネットワークホワイトリストにlocalhostおよびループバックホストを追加&lt;/li&gt;&lt;li&gt;GitHub.comコネクターユーザーがサインイン方法を切り替えることなく、その場でGitHub CLIの権限を拡張して接続を再試行できるように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.93-4のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-4</link>
       <guid isPermaLink="false">github-copilot-cli-405414304</guid>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Rolling Out&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの使用量が増加しているにもかかわらず、エージェントの活動量やエージェント経由のコード行数が減少して表示される問題の原因が特定されました。現在、この問題を解消するための修正が順次展開されています。影響を受けるユーザーはIDEをアップデートすることで、正しいメトリクスを復元できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot使用状況メトリクスでエージェント活動量が低下して表示される不具合の修正を展開&lt;/li&gt;&lt;li&gt;IDEのアップデートによるメトリクスの復元&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>Rolling Out</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.93-2 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-2</link>
-      <guid isPermaLink="false">github-copilot-cli-405005553</guid>
-      <pubDate>Tue, 06 Oct 2026 18:03:12 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93-2がリリースされました。エンタープライズ向けのネットワーク制限機能の追加、モデルピッカーの推奨モデルの更新、および各種不具合の修正と設定ファイルの読み込み仕様の変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;enterprise permissions.limitToを追加し、ネットワークリクエストに対する管理ドメイン境界を強制&lt;/li&gt;&lt;li&gt;モデルピッカーの推奨リストを更新し、GPT-6.1 Sol、GPT-6 Astra/Luna、Claude 5.5モデルを優先&lt;/li&gt;&lt;li&gt;GitHub.com Connectorユーザーがその場でGitHub CLI権限を拡張し、サインイン方法を変更せずに接続を再試行できるように修正&lt;/li&gt;&lt;li&gt;起動時に--context long_contextを適用し、/contextで正確なコンテキスト許容量を表示するよう修正&lt;/li&gt;&lt;li&gt;必要なGitHubスコープを持たないConnectorの接続時に、認証エラーで失敗する代わりに承認の更新を促すように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>
