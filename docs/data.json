@@ -4175,5 +4175,90 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-f833eccb65deeb7db0bf",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+    "published_at": "2026-10-06T23:43:00Z",
+    "title_original": "Update your IDE to restore agent activity in Copilot usage metrics",
+    "excerpt_original": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out… The post Update your IDE to restore agent activity in Copilot usage metrics appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "Rolling Out",
+    "title_ja": "GitHub Copilot使用状況メトリクスにおけるエージェント活動量低下の修正",
+    "summary_ja": "GitHub Copilotの使用量が増加しているにもかかわらず、エージェントの活動量やエージェント経由のコード行数が減少して表示される問題の原因が特定されました。現在、この問題を解消するための修正が順次展開されています。影響を受けるユーザーはIDEをアップデートすることで、正しいメトリクスを復元できます。",
+    "changes": [
+      "Copilot使用状況メトリクスでエージェント活動量が低下して表示される不具合の修正を展開",
+      "IDEのアップデートによるメトリクスの復元"
+    ],
+    "target_user": [
+      "GitHub Copilot ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-07T01:12:21Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-07T01:12:20Z"
+  },
+  {
+    "id": "github-copilot-cli-405005553",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93-2",
+    "published_at": "2026-10-06T18:03:12Z",
+    "title_original": "GitHub Copilot CLI v1.0.93-2",
+    "excerpt_original": "**Added** - Add enterprise permissions.limitTo to enforce managed domain boundaries for network requests **Improved** - Model picker updates the recommended list to prioritize GPT-6.1 Sol, GPT-6 Astra/Luna, and Claude 5.5 models. **Fixed** - GitHub.com Connector users can expand GitHub CLI permissions in place and retry connections without switching sign-in methods. - Honor --context long_context at startup and show accurate context allowance in /context - Connecting a Connector without the required GitHub scope now prompts to update your authorization instead of failing with an authentication error **Removed** - Read user settings only from ~/.copilot/settings.json; user-setting keys in ~/.copilot/config.json are ignored.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.93-2 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.93-2がリリースされました。エンタープライズ向けのネットワーク制限機能の追加、モデルピッカーの推奨モデルの更新、および各種不具合の修正と設定ファイルの読み込み仕様の変更が含まれています。",
+    "changes": [
+      "enterprise permissions.limitToを追加し、ネットワークリクエストに対する管理ドメイン境界を強制",
+      "モデルピッカーの推奨リストを更新し、GPT-6.1 Sol、GPT-6 Astra/Luna、Claude 5.5モデルを優先",
+      "GitHub.com Connectorユーザーがその場でGitHub CLI権限を拡張し、サインイン方法を変更せずに接続を再試行できるように修正",
+      "起動時に--context long_contextを適用し、/contextで正確なコンテキスト許容量を表示するよう修正",
+      "必要なGitHubスコープを持たないConnectorの接続時に、認証エラーで失敗する代わりに承認の更新を促すように変更"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-07T01:12:23Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-07T01:12:21Z"
+  },
+  {
+    "id": "m365-release-notes-a3ddaa992de2b3735893",
+    "source": "Microsoft 365 Copilot Release Notes",
+    "source_url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+    "published_at": "2026-10-06T00:00:00Z",
+    "title_original": "Microsoft 365 Copilot release notes — October 06, 2026",
+    "excerpt_original": "Updates released between September 22, 2026, and October 06, 2026. Microsoft 365 Copilot Seamless Search and Chat Integration [Windows, Web] Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate contentâall in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organizationâs knowledge. Roadmap ID: 512429 Details: What changed: Microsoft 365 Copilot Search now embeds conversational AI chat directly within search results. Previously, users had to switch between search and chat tools separately. This update allows follow-up questions, insight synthesis, and content generation based on search context in a unified interface, reducing workflow fragmentation. Why: Integrating chat with search streamlines user interaction with organizational knowledge, accelerating decision-making and reducing the need to switch tools. Try this: Open Microsoft 365 Copilot Search. Enter a query and review the search results. Use the chat pane to ask follow-up questions or generate content based on the results. Why this matters: This integration simplifies workflows by combining search and chat, helping users act on information faster. Business impact: Teams experience faster decision cycles and less disruption from switching between search and chat applications. Personal impact: You save time by accessing search results and conversational AI in one place, reducing task switching. Regenerate response for alternative answers [Web] The Regenerate action lets you quickly get an alternative response to your latest prompt using options like Try Again or Switch Model, helping you explore different answers and improve output quality. Details: What changed: Previously, users had to re-enter prompts to get different responses from Copilot. Now, the Regenerate action provides simple buttons to request alternative answers or switch AI models without starting over. This streamlines refining outputs and exploring variations. Why: This change reduces friction when iterating on AI-generated content, enabling faster exploration of ideas and improved response quality. Try this: Enter a prompt in Microsoft 365 Copilot Chat. At the end of Copilot's response, open the \"More options\" menu. Select 'Try Again' to get a new response. Choose 'Switch Model' to see answers from a different AI model. Why this matters: Quickly generating alternative responses helps users find the best information or phrasing without repeating input steps. Business impact: Teams can iterate on AI-generated content more efficiently, improving decision-making and content creation speed. Personal impact: You save time by refining outputs with fewer steps and can explore more options easily. Microsoft 365 Copilot extensibility Edit query string and user identity mapping rules for Copilot connectors [Windows, Web] Admins can now edit query string and user identity mapping rules directly in connector settings without opening a support ticket. Details: What changed: Query string parameters and user identity mapping rules are now editable after a connection is created. Admins can update them in the Microsoft 365 admin center under Settings > Search & intelligence > Data sources, then select the connection and edit its configuration. Previously, these values were fixed at connection setup and changing them required support intervention. Why: Source systems change, teams re-scope projects, filters need tightening, and identity mappings drift as directory attributes are updated. Locking these rules at setup meant every adjustment became a support request, leaving connections stale or over-scoped in the interim. Try this: Go to the Microsoft 365 admin center > Settings > Search & intelligence > Data sources. Select your connection (for example, Azure DevOps or ServiceNow) and open its configuration. Update the query string or user identity mapping rule and save. Confirm the change took effect on the next crawl and spot-check results for an affected user. Why this matters: Access scope and content scope are now self-serve. Admins can correct a mis-scoped connection or a broken identity mapping in minutes instead of waiting on a support cycle. Business impact: Faster remediation when a connection surfaces content to the wrong audience, fewer support tickets per connection, and configuration that keeps pace with changes in the source systemâall of which support access-governance and compliance commitments. Personal impact: You fix scoping and permission-mapping issues yourself, on your own schedule, instead of filing a ticket and waiting for someone else to make a change. Microsoft 365 SharePoint Admin Center - detailed report on Everyone except external user permissions [Web] The new report provides SharePoint Advanced Management admins complete item-level details of permissions granted to special SharePoint groups: Everyone and Everyone except external users. Roadmap ID: 561038 Details: What changed: The SharePoint Admin Center now includes a detailed report that shows item-level permissions for special SharePoint groups: Everyone and Everyone except external users. Previously, admins had limited visibility into these item-level permissions. This report helps identify exactly which items have these special SharePoint groups as recipients, improving permission auditing and security management. Why: Admins need precise visibility into permissions granted to broad groups to manage access risks effectively. This report enables admins to: Audit permissions at a granular level Detect unintended access Enhance security compliance Try this: Open the SharePoint Admin Center and navigate to Advanced Management > All features > Data access governance reports. Select the new report 'Sites and files shared via special SharePoint group' and trigger the relevant report. Export the prepared report and review item-level permission details. Why this matters: Detailed permission reports help prevent unauthorized access and support compliance with organizational security policies. Business impact: Teams can better manage SharePoint permissions, reducing security risks and simplifying audits. Personal impact: Admins save time identifying and resolving permission issues with clearer, item-level insights. Learn Get item-level permission details for \"Everyone except external users\" and \"Everyone\" Generate a report on sites and files shared via special SharePoint groups PowerPoint Create custom skills in Copilot in PowerPoint [Windows] Create custom skills in Copilot in PowerPoint for tailored workflows for your specific presentation needs. Details: What changed: Copilot now supports user defined custom skills, allowing users to extend its capabilities with personalized commands and workflows in PowerPoint. Previously, Copilot operated only with built-in skills and predefined functions in PowerPoint. This update enables customization within Microsoft 365 security and compliance standards. Why: Users need more flexibility to automate unique presentation tasks and workflows. Custom skills let users: Define specific commands suited to their content style. Automate repetitive or specialized tasks. Enhance productivity by tailoring Copilot to their needs. Try this: Open PowerPoint and access the Copilot pane. Select 'Create custom skill' to define new commands. Test your custom skill within your presentation workflow. Why this matters: Custom skills let users personalize Copilot to match their unique presentation workflows, reducing manual effort. Business impact: Teams can standardize and automate specialized presentation tasks, improving consistency and efficiency. Personal impact: You save time by automating repetitive tasks and gain more control over Copilotâs assistance. Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint [Mac] You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint. Roadmap ID: 555897 Details: What changed: Copilot in PowerPoint can now recognize references to files stored in SharePoint and OneDrive when you mention them in your prompt, such as by file or document name. Previously, these implicit file references were not supported for files stored in these locations. This update makes it easier to use relevant Microsoft 365 content without manually attaching or uploading the file. Why: This change makes it easier to create presentations using content you already have in Microsoft 365. You can naturally reference a relevant file in your prompt, and Copilot can use that file as context when creating your presentation. Try this: Open PowerPoint and start creating a presentation with Copilot. In your prompt, reference a file saved in SharePoint or OneDrive by the document name and/or owner of the document. Ask Copilot to create a presentation using information from that file. For example: âCreate a presentation summarizing the key findings from the DOCUMENT NAME.â Why this matters: You can bring existing SharePoint and OneDrive content into your presentation workflow more naturally, without first locating the file and manually attaching it. Business impact: Teams can create presentations faster by integrating cloud-stored resources without switching apps or manually uploading files. Personal impact: You save time locating and incorporating relevant files, reducing friction in presentation creation. Viva Insights Copilot Analytics - Cowork adoption and impact [Web] Deeper insights into Cowork adoption and impact, accessible from Copilot dashboard and Consumption dashboard in the Microsoft 365 services tab. Includes export capability. All metrics can be queried by analysts with the new Consumption query (credit usage data) and through the Person query (Cowork usage data) in advanced insights. Roadmap ID: 567005 Details: What changed: The Consumption dashboard and Copilot dashboard now include expanded metrics on Cowork adoption and its impact. Analysts can export data and use the new Consumption query in advanced insights to explore all metrics. Previously, such detailed analytics and export options were unavailable. Why: Providing deeper, exportable insights enables data-driven decisions about AI usage and investment, improving transparency and cost management. Try this: Open the Copilot dashboard in Copilot analytics. Navigate to the Consumption dashboard > Microsoft 365 Services tab to view Cowork metrics. Use the export option or run the Consumption query or Person query including Cowork usage metrics in advanced insights for detailed analysis. Why this matters: Better visibility into AI adoption helps organizations optimize usage and understand its business impact. Business impact: Teams gain actionable data to manage AI resource allocation and measure productivity improvements. Personal impact: You can analyze Cowork usage trends and costs more effectively, supporting informed decision-making. Learn: How to use the Consumption Dashboard in Insights",
+    "product": "Microsoft 365 Copilot",
+    "status": "Release",
+    "title_ja": "Microsoft 365 Copilot リリースノート (2026年10月6日)",
+    "summary_ja": "Microsoft 365 Copilotのアップデートでは、検索とチャットの統合や、Copilotでの代替レスポンスの生成機能が追加されました。また、コネクタ設定の直接編集機能、SharePointの権限に関する詳細レポート、PowerPointでのカスタムスキル作成などが導入されました。さらに、Viva InsightsによるCoworkの採用状況や影響に関する分析機能も拡充されています。",
+    "changes": [
+      "Microsoft 365 Copilot Searchに会話型AIチャットが直接埋め込まれ、検索とチャットの統合体験が可能になりました。",
+      "「もう一度試す」や「モデルの切り替え」オプションを使用して、プロンプトに対する代替レスポンスを素早く取得できるようになりました。",
+      "管理者がサポートチケットなしでCopilotコネクタのクエリ文字列やユーザーIDマッピング規則を直接編集できるようになりました。",
+      "SharePoint Admin Centerに、「全員」および「外部ユーザー以外の全員」グループに対するアイテムレベルの権限を詳細に表示するレポートが追加されました。",
+      "PowerPointのCopilotでカスタムスキルの作成や、SharePointおよびOneDriveに保存されたファイルの参照が可能になりました。"
+    ],
+    "target_user": [
+      "End Users",
+      "Administrators",
+      "Analysts"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-07T01:12:25Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-07T01:12:23Z"
   }
 ]

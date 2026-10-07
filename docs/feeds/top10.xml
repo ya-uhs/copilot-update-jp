@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Oct 2026 02:03:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 01:12:25 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート (2026年10月6日)</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026</link>
+      <guid isPermaLink="false">m365-release-notes-a3ddaa992de2b3735893</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのアップデートでは、検索とチャットの統合や、Copilotでの代替レスポンスの生成機能が追加されました。また、コネクタ設定の直接編集機能、SharePointの権限に関する詳細レポート、PowerPointでのカスタムスキル作成などが導入されました。さらに、Viva InsightsによるCoworkの採用状況や影響に関する分析機能も拡充されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 Copilot Searchに会話型AIチャットが直接埋め込まれ、検索とチャットの統合体験が可能になりました。&lt;/li&gt;&lt;li&gt;「もう一度試す」や「モデルの切り替え」オプションを使用して、プロンプトに対する代替レスポンスを素早く取得できるようになりました。&lt;/li&gt;&lt;li&gt;管理者がサポートチケットなしでCopilotコネクタのクエリ文字列やユーザーIDマッピング規則を直接編集できるようになりました。&lt;/li&gt;&lt;li&gt;SharePoint Admin Centerに、「全員」および「外部ユーザー以外の全員」グループに対するアイテムレベルの権限を詳細に表示するレポートが追加されました。&lt;/li&gt;&lt;li&gt;PowerPointのCopilotでカスタムスキルの作成や、SharePointおよびOneDriveに保存されたファイルの参照が可能になりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilotにおける特定モデルの廃止</title>
       <link>https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated</link>
@@ -49,24 +59,24 @@
       <category>high</category>
     </item>
     <item>
-      <title>Visual Studio Code 1.140 — Copilot / Chat / Agents</title>
-      <link>https://code.visualstudio.com/updates/v1_140</link>
-      <guid isPermaLink="false">vscode-fefbbe2fa28d302e6d44</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.140では、おなじみのワークフローを維持しながらエージェント機能を追加するCopilot harnessが導入されました。また、タスクごとに最適なモデルやワークフローを選択するHydraFusionモデルオーケストレーション（研究用プレビュー）や、複数のリポジトリやワークツリーを管理できるマルチフォルダーセッション（実験的機能）が追加されています。さらに、Dev Containerの自動クリーンアップや起動の高速化、リモートエージェントホストへのタスク委任などの機能拡張が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessの追加により、スタンドアロンのGitHub CopilotアプリやCopilot CLIと一貫したエージェント機能を利用可能にしました。&lt;/li&gt;&lt;li&gt;アダプティブなモデルオーケストレーションシステムであるHydraFusion（研究用プレビュー）を導入し、タスクに応じたモデル選択やエスカレーションを自動化しました。&lt;/li&gt;&lt;li&gt;複数のリポジトリや隔離されたワークツリーを1つのセッション内で調整できるマルチフォルダーセッション（実験的機能）を追加しました。&lt;/li&gt;&lt;li&gt;Dev Containerの自動クリーンアップ機能と、キャッシュされたダウンロードの再利用による起動の高速化を実現しました。&lt;/li&gt;&lt;li&gt;リモートエージェントホストでのワークスペースなしチャットの実行や、エージェントによるリモートホストへのタスク委任（実験的機能）に対応しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_140"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot in VS Code</category>
-      <category>Release</category>
-      <category>high</category>
+      <title>GitHub Copilot使用状況メトリクスにおけるエージェント活動量低下の修正</title>
+      <link>https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</link>
+      <guid isPermaLink="false">github-changelog-f833eccb65deeb7db0bf</guid>
+      <pubDate>Tue, 06 Oct 2026 23:43:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Rolling Out&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの使用量が増加しているにもかかわらず、エージェントの活動量やエージェント経由のコード行数が減少して表示される問題の原因が特定されました。現在、この問題を解消するための修正が順次展開されています。影響を受けるユーザーはIDEをアップデートすることで、正しいメトリクスを復元できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot使用状況メトリクスでエージェント活動量が低下して表示される不具合の修正を展開&lt;/li&gt;&lt;li&gt;IDEのアップデートによるメトリクスの復元&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Rolling Out</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub CopilotにおけるGPT-6.1 Solの提供開始</title>
-      <link>https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot</link>
-      <guid isPermaLink="false">github-changelog-27fa41ed5cc26a14950e</guid>
-      <pubDate>Tue, 29 Sep 2026 17:02:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;OpenAIの最新モデルであるGPT-6.1 Solが一般提供され、GitHub Copilotへの展開が開始されました。ユーザーは、強力なマルチステップ処理を伴うエージェント型のコーディングおよびターミナルワークフローでこのモデルを利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;OpenAIの最新モデル「GPT-6.1 Sol」が一般提供され、GitHub Copilotへの展開を開始&lt;/li&gt;&lt;li&gt;強力なマルチステップ処理によるエージェント型コーディングおよびターミナルワークフローでの利用が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
+      <title>GitHub Copilot CLI v1.0.93-2 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-2</link>
+      <guid isPermaLink="false">github-copilot-cli-405005553</guid>
+      <pubDate>Tue, 06 Oct 2026 18:03:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93-2がリリースされました。エンタープライズ向けのネットワーク制限機能の追加、モデルピッカーの推奨モデルの更新、および各種不具合の修正と設定ファイルの読み込み仕様の変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;enterprise permissions.limitToを追加し、ネットワークリクエストに対する管理ドメイン境界を強制&lt;/li&gt;&lt;li&gt;モデルピッカーの推奨リストを更新し、GPT-6.1 Sol、GPT-6 Astra/Luna、Claude 5.5モデルを優先&lt;/li&gt;&lt;li&gt;GitHub.com Connectorユーザーがその場でGitHub CLI権限を拡張し、サインイン方法を変更せずに接続を再試行できるように修正&lt;/li&gt;&lt;li&gt;起動時に--context long_contextを適用し、/contextで正確なコンテキスト許容量を表示するよう修正&lt;/li&gt;&lt;li&gt;必要なGitHubスコープを持たないConnectorの接続時に、認証エラーで失敗する代わりに承認の更新を促すように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.92 リリースノート</title>
@@ -94,16 +104,6 @@
       <guid isPermaLink="false">github-copilot-cli-403175150</guid>
       <pubDate>Sun, 04 Oct 2026 19:32:32 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92-4がリリースされ、設定管理用の`copilot config`サブコマンドの追加や、初回起動および多数のMCPサーバー接続時の応答性向上の改善が行われました。また、HTTP+SSE MCP接続のハングアップ防止、音声ランタイムのインストールエラー表示の改善、大規模リクエスト時の自動再試行などの多数の不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定のリスト、読み取り、設定、削除を行う `copilot config` サブコマンドを追加&lt;/li&gt;&lt;li&gt;バンドルされたCLIパッケージを子プロセスで抽出し、初回起動時のパフォーマンスを改善&lt;/li&gt;&lt;li&gt;多数のMCPサーバーに同時接続する際の起動時の応答性を向上&lt;/li&gt;&lt;li&gt;レガシーなHTTP+SSE MCP接続が無期限にハングアップしないよう修正&lt;/li&gt;&lt;li&gt;大規模なAnthropicリクエストがプロバイダのサイズ制限で拒否された際、画像のダウンスケールや添付ファイルの削除後に再試行するよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.92-3のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.92-3</link>
-      <guid isPermaLink="false">github-copilot-cli-402185992</guid>
-      <pubDate>Fri, 02 Oct 2026 22:06:14 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.92-3がリリースされました。ローカル実行とクラウド実行を切り替える環境ピッカーの追加、入力応答性やサンドボックス関連の不具合修正、および廃止されたモデルの削除が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ローカル実行とクラウド実行を切り替えるためのプレ会話Ctrl+E環境ピッカーを追加&lt;/li&gt;&lt;li&gt;迅速な操作中のキーボード、貼り付け、マウス入力を整列させ、応答性を維持するように修正&lt;/li&gt;&lt;li&gt;プロキシが宛先をブロックした際に、サンドボックス化されたシェルコマンドがネットワークバイパスプロンプトを表示するように修正&lt;/li&gt;&lt;li&gt;Gitを実行するサンドボックス化されたスクリプトが、マスクされた認証情報とSSHリモート書き換えで認証するように修正&lt;/li&gt;&lt;li&gt;GitHub認証情報を置き換えた後もサブエージェントが動作し続けるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.92-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>medium</category>

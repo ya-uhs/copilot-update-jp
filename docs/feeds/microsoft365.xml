@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 03 Oct 2026 00:55:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 01:12:25 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート (2026年10月6日)</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026</link>
+      <guid isPermaLink="false">m365-release-notes-a3ddaa992de2b3735893</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのアップデートでは、検索とチャットの統合や、Copilotでの代替レスポンスの生成機能が追加されました。また、コネクタ設定の直接編集機能、SharePointの権限に関する詳細レポート、PowerPointでのカスタムスキル作成などが導入されました。さらに、Viva InsightsによるCoworkの採用状況や影響に関する分析機能も拡充されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 Copilot Searchに会話型AIチャットが直接埋め込まれ、検索とチャットの統合体験が可能になりました。&lt;/li&gt;&lt;li&gt;「もう一度試す」や「モデルの切り替え」オプションを使用して、プロンプトに対する代替レスポンスを素早く取得できるようになりました。&lt;/li&gt;&lt;li&gt;管理者がサポートチケットなしでCopilotコネクタのクエリ文字列やユーザーIDマッピング規則を直接編集できるようになりました。&lt;/li&gt;&lt;li&gt;SharePoint Admin Centerに、「全員」および「外部ユーザー以外の全員」グループに対するアイテムレベルの権限を詳細に表示するレポートが追加されました。&lt;/li&gt;&lt;li&gt;PowerPointのCopilotでカスタムスキルの作成や、SharePointおよびOneDriveに保存されたファイルの参照が可能になりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] OutlookでのCopilotを通じた会話型メール作成・編集機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=573280</link>
