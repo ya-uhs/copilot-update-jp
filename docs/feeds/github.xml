@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 01:12:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 10:50:20 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.93-4のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-4</link>
+      <guid isPermaLink="false">github-copilot-cli-405414304</guid>
+      <pubDate>Wed, 07 Oct 2026 05:34:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93-4がリリースされ、すべてのユーザーがコマンドサンドボックス機能を利用できるようになりました。また、コマンド実行やプラグイン機能、サンドボックスのネットワーク許可リストに関する複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/sandboxコマンドおよび--sandboxフラグによるコマンドサンドboxingがすべてのユーザーで利用可能になりました。&lt;/li&gt;&lt;li&gt;アクティブターン中の安全な/userコマンドの即時実行、および安全でないリモートコマンドの拒否処理を改善しました。&lt;/li&gt;&lt;li&gt;中継ホストによってアドバタイズされたコマンドをキューに追加する機能を修正しました。&lt;/li&gt;&lt;li&gt;有効なプラグインを再読み込みした後もプラグインのスキルコマンドが利用可能な状態を維持するように修正しました。&lt;/li&gt;&lt;li&gt;サンドボックスのローカルネットワーク許可リストにlocalhostおよびループバックホストを追加しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.93-3 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-3</link>
+      <guid isPermaLink="false">github-copilot-cli-405270988</guid>
+      <pubDate>Wed, 07 Oct 2026 01:12:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93-3がリリースされました。MCPサーバーの設定変更がセッションの再起動なしにターン間で適用されるように改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCPサーバーの設定変更がセッションの再起動なしにターン間で適用されるように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Visual Studio Code 1.141 — Copilot / チャット / エージェントの更新情報</title>
+      <link>https://code.visualstudio.com/updates/v1_141</link>
+      <guid isPermaLink="false">vscode-3edcfec6dc5c735a0b84</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.141では、Copilotハネスやエージェントのセッション管理、UX、環境連携に関する多数の機能追加と改善が行われました。Agent Host Protocol (AHP)に基づく専用エージェントホストプロセスによる柔軟なセッション制御や、ストレージ管理機能が導入されています。また、サンドボックス機能によるセキュリティ向上や、外部Copilot・Codexチャットの継続利用が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot SDKを基盤とするCopilotハネスを追加し、複数ウィンドウでのエージェントセッション接続やバックグラウンドシェルの追跡に対応しました。&lt;/li&gt;&lt;li&gt;非アクティブなワークツリーのディスク容量を確認して削除できるストレージクリーンアップ機能を追加しました。&lt;/li&gt;&lt;li&gt;Agentsウィンドウでのグリッド状のセッション配置やコンパクトレイアウト密度の設定など、UXを改善しました。&lt;/li&gt;&lt;li&gt;Copilot CLIやChatGPTアプリなどの外部セッションの自動検出および、Codexチャットのアプリ間ハンドオフに対応しました。&lt;/li&gt;&lt;li&gt;エージェントのファイルおよびネットワークアクセスを制限するサンドボックス機能を導入しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_141"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot使用状況メトリクスにおけるエージェント活動量低下の修正</title>
       <link>https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</link>
