@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 17:08:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 01:33:47 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilotのローカルサンドボックス機能が一般提供（GA）開始</title>
+      <link>https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available</link>
+      <guid isPermaLink="false">github-changelog-1e174328109aea325ae3</guid>
+      <pubDate>Wed, 07 Oct 2026 15:46:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotのローカルサンドボックス機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびAgent Hostを使用するVS Codeセッションで一般提供（GA）開始されました。この機能により、開発者はセキュアな環境で作業を行えるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;li&gt;GitHub Copilotアプリでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;li&gt;Agent Hostを使用するVS Codeセッションでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.141 — Copilot / チャット / エージェントの更新情報</title>
       <link>https://code.visualstudio.com/updates/v1_141</link>
@@ -49,24 +59,44 @@
       <category>high</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570430</link>
-      <guid isPermaLink="false">m365-roadmap-3a3710f4875709db9a40</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;メーカーはMicrosoft Copilot Studioのエージェントに独自のMicrosoft 365アカウントと永続IDを付与できるようになります。エージェントは専用のメールボックス、Teamsプレゼンス、Officeアクセスを持ち、管理者はファーストクラスのエンティティとしてアクセスやポリシーを統制可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントへの専用Microsoft 365アカウント（永続ID）の付与&lt;/li&gt;&lt;li&gt;専用メールボックス、Teamsプレゼンス、Officeアクセス機能の搭載&lt;/li&gt;&lt;li&gt;管理者の統制下でのチーム間における共同作業の実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570430"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
+      <title>GitHub CopilotにおけるClaude Haiku 5.5の提供開始</title>
+      <link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-d309be13e53a281a3c73</guid>
+      <pubDate>Wed, 07 Oct 2026 20:12:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Anthropicの軽量モデルであるClaude Haiku 5.5がGitHub Copilotで一般提供開始されました。本モデルは、サブエージェント、クイックエディット、ターミナルタスクなどの高速で大量の処理を実行する作業向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでClaude Haiku 5.5が一般提供（一般公開）されるようになりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Microsoft Teams: インテリジェント通話委任機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=565216</link>
-      <guid isPermaLink="false">m365-roadmap-2c7a230be193f4d7fe3d</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft TeamsにAIを活用した通話アシスタンス機能であるインテリジェント通話委任機能が追加されます。本機能は着信に応答してコンテキストを収集し、応答するかどうかを判断するのに役立ちます。また、Microsoft Bookingsとの統合を通じて後続の予定を調整することも可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIを活用した通話アシスタンスにより、着信への応答とコンテキストの収集が可能になります&lt;/li&gt;&lt;li&gt;Microsoft Bookingsとの統合により、都合の良い時間でのフォローアップ予定の調整が可能になります&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=565216"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
+      <title>GitHub Copilot CLI v1.0.94-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-0</link>
+      <guid isPermaLink="false">github-copilot-cli-406044330</guid>
+      <pubDate>Wed, 07 Oct 2026 18:28:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94-0がリリースされました。管理設定により新しいCLIバージョンが要求された際、通常のプロンプトをブロックせずにアップデートガイダンスを表示する改善が含まれています。また、管理ポリシーによってAssisted Permissionsを無効化し、セッションをManual Approvalモードに維持できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理設定が新しいCLIバージョンを要求した際、通常のプロンプトをブロックせずにアップデートガイダンスを表示するよう改善&lt;/li&gt;&lt;li&gt;管理ポリシーによるAssisted Permissionsの無効化と、セッションのManual Approvalモード維持に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>漏洩シークレット検出用の専用モデルの提供</title>
+      <link>https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection</link>
+      <guid isPermaLink="false">github-changelog-d6b735286b3739eabb6b</guid>
+      <pubDate>Wed, 07 Oct 2026 16:13:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、漏洩したシークレットを検出するための専用モデルが導入されました。この新モデルにより、ソフトウェア開発のスタイルに関わらず、コンテキストを認識したシークレット保護が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンテキストを認識したシークレット検出のための専用モデルの追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLIでのローカルモデルの検出</title>
+      <link>https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli</link>
+      <guid isPermaLink="false">github-changelog-8241d56116d90ff33b6b</guid>
+      <pubDate>Wed, 07 Oct 2026 15:46:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIに新機能が追加され、ワークフローを離れることなくローカルモデルの選択が容易になりました。CLIバージョン1.0.94-0以降では、実行中の環境からサポートされているモデルを検出するために「/model」コマンドを使用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;CLIバージョン1.0.94-0以降で「/model」コマンドを使用してサポートされているローカルモデルの検出が可能になった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.93 リリースノート</title>
@@ -76,36 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93がリリースされ、エンタープライズ権限の追加や安全性向上のためのコマンド実行制御、プラグインやサンドボックス機能の改善が行われました。また、GitHub.comコネクターの権限拡張の簡素化や、モデルピッカーにおける推奨モデルの更新などが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ネットワークリクエストの管理ドメイン境界を強制するための企業向け権限 `permissions.limitTo` を追加&lt;/li&gt;&lt;li&gt;アクティブターン中の安全な `/user` コマンドの即時実行、およびダイアログを開かずに安全でないリモートコマンドを拒否する仕様に変更&lt;/li&gt;&lt;li&gt;プラグインの有効化を再読み込みした後もプラグインのスキルコマンドを利用可能に維持&lt;/li&gt;&lt;li&gt;サンドボックスのローカルネットワークホワイトリストにlocalhostおよびループバックホストを追加&lt;/li&gt;&lt;li&gt;GitHub.comコネクターユーザーがサインイン方法を切り替えることなく、その場でGitHub CLIの権限を拡張して接続を再試行できるように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.93-4のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-4</link>
-      <guid isPermaLink="false">github-copilot-cli-405414304</guid>
-      <pubDate>Wed, 07 Oct 2026 05:34:55 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93-4がリリースされ、すべてのユーザーがコマンドサンドボックス機能を利用できるようになりました。また、コマンド実行やプラグイン機能、サンドボックスのネットワーク許可リストに関する複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/sandboxコマンドおよび--sandboxフラグによるコマンドサンドboxingがすべてのユーザーで利用可能になりました。&lt;/li&gt;&lt;li&gt;アクティブターン中の安全な/userコマンドの即時実行、および安全でないリモートコマンドの拒否処理を改善しました。&lt;/li&gt;&lt;li&gt;中継ホストによってアドバタイズされたコマンドをキューに追加する機能を修正しました。&lt;/li&gt;&lt;li&gt;有効なプラグインを再読み込みした後もプラグインのスキルコマンドが利用可能な状態を維持するように修正しました。&lt;/li&gt;&lt;li&gt;サンドボックスのローカルネットワーク許可リストにlocalhostおよびループバックホストを追加しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.93-3 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-3</link>
-      <guid isPermaLink="false">github-copilot-cli-405270988</guid>
-      <pubDate>Wed, 07 Oct 2026 01:12:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93-3がリリースされました。MCPサーバーの設定変更がセッションの再起動なしにターン間で適用されるように改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCPサーバーの設定変更がセッションの再起動なしにターン間で適用されるように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot使用状況メトリクスにおけるエージェント活動量低下の修正</title>
-      <link>https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</link>
-      <guid isPermaLink="false">github-changelog-f833eccb65deeb7db0bf</guid>
-      <pubDate>Tue, 06 Oct 2026 23:43:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Rolling Out&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの使用量が増加しているにもかかわらず、エージェントの活動量やエージェント経由のコード行数が減少して表示される問題の原因が特定されました。現在、この問題を解消するための修正が順次展開されています。影響を受けるユーザーはIDEをアップデートすることで、正しいメトリクスを復元できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot使用状況メトリクスでエージェント活動量が低下して表示される不具合の修正を展開&lt;/li&gt;&lt;li&gt;IDEのアップデートによるメトリクスの復元&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>Rolling Out</category>
       <category>medium</category>
     </item>
   </channel>

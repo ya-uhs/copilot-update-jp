@@ -5,9 +5,79 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 17:08:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 01:33:47 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.94-2のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-2</link>
+      <guid isPermaLink="false">github-copilot-cli-406253101</guid>
+      <pubDate>Wed, 07 Oct 2026 23:43:16 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.94-2がリリースされました。本バージョンには、各種の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;各種の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.94-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-1</link>
+      <guid isPermaLink="false">github-copilot-cli-406180306</guid>
+      <pubDate>Wed, 07 Oct 2026 21:31:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94-1がリリースされました。今回のアップデートには、バグ修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;分割ビューの再調整時に、セッションサイドバーの行をクリックした際のセッション切り替えの信頼性を向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるClaude Haiku 5.5の提供開始</title>
+      <link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-d309be13e53a281a3c73</guid>
+      <pubDate>Wed, 07 Oct 2026 20:12:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Anthropicの軽量モデルであるClaude Haiku 5.5がGitHub Copilotで一般提供開始されました。本モデルは、サブエージェント、クイックエディット、ターミナルタスクなどの高速で大量の処理を実行する作業向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでClaude Haiku 5.5が一般提供（一般公開）されるようになりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.94-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-0</link>
+      <guid isPermaLink="false">github-copilot-cli-406044330</guid>
+      <pubDate>Wed, 07 Oct 2026 18:28:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94-0がリリースされました。管理設定により新しいCLIバージョンが要求された際、通常のプロンプトをブロックせずにアップデートガイダンスを表示する改善が含まれています。また、管理ポリシーによってAssisted Permissionsを無効化し、セッションをManual Approvalモードに維持できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理設定が新しいCLIバージョンを要求した際、通常のプロンプトをブロックせずにアップデートガイダンスを表示するよう改善&lt;/li&gt;&lt;li&gt;管理ポリシーによるAssisted Permissionsの無効化と、セッションのManual Approvalモード維持に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>漏洩シークレット検出用の専用モデルの提供</title>
+      <link>https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection</link>
+      <guid isPermaLink="false">github-changelog-d6b735286b3739eabb6b</guid>
+      <pubDate>Wed, 07 Oct 2026 16:13:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、漏洩したシークレットを検出するための専用モデルが導入されました。この新モデルにより、ソフトウェア開発のスタイルに関わらず、コンテキストを認識したシークレット保護が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンテキストを認識したシークレット検出のための専用モデルの追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilotのローカルサンドボックス機能が一般提供（GA）開始</title>
+      <link>https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available</link>
+      <guid isPermaLink="false">github-changelog-1e174328109aea325ae3</guid>
+      <pubDate>Wed, 07 Oct 2026 15:46:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotのローカルサンドボックス機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびAgent Hostを使用するVS Codeセッションで一般提供（GA）開始されました。この機能により、開発者はセキュアな環境で作業を行えるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;li&gt;GitHub Copilotアプリでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;li&gt;Agent Hostを使用するVS Codeセッションでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLIでのローカルモデルの検出</title>
+      <link>https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli</link>
+      <guid isPermaLink="false">github-changelog-8241d56116d90ff33b6b</guid>
+      <pubDate>Wed, 07 Oct 2026 15:46:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIに新機能が追加され、ワークフローを離れることなくローカルモデルの選択が容易になりました。CLIバージョン1.0.94-0以降では、実行中の環境からサポートされているモデルを検出するために「/model」コマンドを使用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;CLIバージョン1.0.94-0以降で「/model」コマンドを使用してサポートされているローカルモデルの検出が可能になった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.93 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93</link>
