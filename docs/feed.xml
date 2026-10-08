@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Oct 2026 01:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 11:08:06 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.94-3 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-3</link>
+      <guid isPermaLink="false">github-copilot-cli-406326076</guid>
+      <pubDate>Thu, 08 Oct 2026 01:50:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94-3がリリースされました。モデル選択と--model補完にClaude Haiku 5.5が追加され、管理設定によって起動時のバイパス権限フラグが抑制された場合にポリシー警告が表示されるように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モデル選択および--model補完へのClaude Haiku 5.5の追加&lt;/li&gt;&lt;li&gt;管理設定により起動時のバイパス権限フラグが抑制された際のポリシー警告表示の修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.94-2のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-2</link>

@@ -1,5 +1,180 @@
 [
   {
+    "id": "github-copilot-cli-406253101",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-2",
+    "published_at": "2026-10-07T23:43:16Z",
+    "title_original": "GitHub Copilot CLI v1.0.94-2",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.94-2のリリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.94-2がリリースされました。本バージョンには、各種の修正と変更が含まれています。",
+    "changes": [
+      "各種の修正と変更の適用"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー",
+      "開発者"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-08T01:32:58Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-08T01:32:51Z"
+  },
+  {
+    "id": "github-copilot-cli-406180306",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-1",
+    "published_at": "2026-10-07T21:31:02Z",
+    "title_original": "GitHub Copilot CLI v1.0.94-1",
+    "excerpt_original": "**Fixed** - Clicking a Sessions sidebar row now reliably switches sessions during split-view reconciliation",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.94-1 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.94-1がリリースされました。今回のアップデートには、バグ修正が含まれています。",
+    "changes": [
+      "分割ビューの再調整時に、セッションサイドバーの行をクリックした際のセッション切り替えの信頼性を向上"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-08T01:33:08Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-08T01:32:58Z"
+  },
+  {
+    "id": "github-changelog-d309be13e53a281a3c73",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+    "published_at": "2026-10-07T20:12:18Z",
+    "title_original": "Claude Haiku 5.5 in GitHub Copilot",
+    "excerpt_original": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early… The post Claude Haiku 5.5 in GitHub Copilot appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "GitHub CopilotにおけるClaude Haiku 5.5の提供開始",
+    "summary_ja": "Anthropicの軽量モデルであるClaude Haiku 5.5がGitHub Copilotで一般提供開始されました。本モデルは、サブエージェント、クイックエディット、ターミナルタスクなどの高速で大量の処理を実行する作業向けに設計されています。",
+    "changes": [
+      "GitHub CopilotでClaude Haiku 5.5が一般提供（一般公開）されるようになりました"
+    ],
+    "target_user": [
+      "GitHub Copilot利用者",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-08T01:33:17Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-08T01:33:08Z"
+  },
+  {
+    "id": "github-copilot-cli-406044330",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-0",
+    "published_at": "2026-10-07T18:28:17Z",
+    "title_original": "GitHub Copilot CLI v1.0.94-0",
+    "excerpt_original": "**Improved** - Show update guidance when managed settings request a newer CLI version without blocking normal prompts - Managed policy can disable Assisted Permissions and keep sessions in Manual Approval mode.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.94-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.94-0がリリースされました。管理設定により新しいCLIバージョンが要求された際、通常のプロンプトをブロックせずにアップデートガイダンスを表示する改善が含まれています。また、管理ポリシーによってAssisted Permissionsを無効化し、セッションをManual Approvalモードに維持できるようになりました。",
+    "changes": [
+      "管理設定が新しいCLIバージョンを要求した際、通常のプロンプトをブロックせずにアップデートガイダンスを表示するよう改善",
+      "管理ポリシーによるAssisted Permissionsの無効化と、セッションのManual Approvalモード維持に対応"
+    ],
+    "target_user": [
+      "Developer",
+      "Administrator"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-08T01:33:22Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-08T01:33:17Z"
+  },
+  {
+    "id": "github-changelog-d6b735286b3739eabb6b",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
+    "published_at": "2026-10-07T16:13:56Z",
+    "title_original": "Purpose-built model for leaked secret detection",
+    "excerpt_original": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware… The post Purpose-built model for leaked secret detection appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "漏洩シークレット検出用の専用モデルの提供",
+    "summary_ja": "GitHub Copilotにおいて、漏洩したシークレットを検出するための専用モデルが導入されました。この新モデルにより、ソフトウェア開発のスタイルに関わらず、コンテキストを認識したシークレット保護が可能になります。",
+    "changes": [
+      "コンテキストを認識したシークレット検出のための専用モデルの追加"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-08T01:33:31Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-08T01:33:22Z"
+  },
+  {
+    "id": "github-changelog-1e174328109aea325ae3",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+    "published_at": "2026-10-07T15:46:17Z",
+    "title_original": "Local sandboxing for GitHub Copilot now generally available",
+    "excerpt_original": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure… The post Local sandboxing for GitHub Copilot now generally available appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "GitHub Copilotのローカルサンドボックス機能が一般提供（GA）開始",
+    "summary_ja": "GitHub Copilotのローカルサンドボックス機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびAgent Hostを使用するVS Codeセッションで一般提供（GA）開始されました。この機能により、開発者はセキュアな環境で作業を行えるようになります。",
+    "changes": [
+      "GitHub Copilot CLIでローカルサンドボックス機能が一般提供（GA）を開始",
+      "GitHub Copilotアプリでローカルサンドボックス機能が一般提供（GA）を開始",
+      "Agent Hostを使用するVS Codeセッションでローカルサンドボックス機能が一般提供（GA）を開始"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-08T01:33:38Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-08T01:33:31Z"
+  },
+  {
+    "id": "github-changelog-8241d56116d90ff33b6b",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+    "published_at": "2026-10-07T15:46:13Z",
+    "title_original": "Discover local models in GitHub Copilot CLI",
+    "excerpt_original": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running… The post Discover local models in GitHub Copilot CLI appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilot CLIでのローカルモデルの検出",
+    "summary_ja": "GitHub Copilot CLIに新機能が追加され、ワークフローを離れることなくローカルモデルの選択が容易になりました。CLIバージョン1.0.94-0以降では、実行中の環境からサポートされているモデルを検出するために「/model」コマンドを使用できます。",
+    "changes": [
+      "CLIバージョン1.0.94-0以降で「/model」コマンドを使用してサポートされているローカルモデルの検出が可能になった"
+    ],
+    "target_user": [
+      "開発者",
+      "GitHub Copilot CLIユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-08T01:33:47Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-08T01:33:38Z"
+  },
+  {
     "id": "github-copilot-cli-405830978",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.93",
@@ -4374,178 +4549,28 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-changelog-d309be13e53a281a3c73",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-    "published_at": "2026-10-07T20:12:18Z",
-    "title_original": "Claude Haiku 5.5 in GitHub Copilot",
-    "excerpt_original": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early… The post Claude Haiku 5.5 in GitHub Copilot appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "GA",
-    "title_ja": "GitHub CopilotにおけるClaude Haiku 5.5の提供開始",
-    "summary_ja": "Anthropicの軽量モデルであるClaude Haiku 5.5がGitHub Copilotで一般提供開始されました。本モデルは、サブエージェント、クイックエディット、ターミナルタスクなどの高速で大量の処理を実行する作業向けに設計されています。",
-    "changes": [
-      "GitHub CopilotでClaude Haiku 5.5が一般提供（一般公開）されるようになりました"
-    ],
-    "target_user": [
-      "GitHub Copilot利用者",
-      "開発者"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-08T01:33:17Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-08T01:33:08Z"
-  },
-  {
-    "id": "github-changelog-d6b735286b3739eabb6b",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
-    "published_at": "2026-10-07T16:13:56Z",
-    "title_original": "Purpose-built model for leaked secret detection",
-    "excerpt_original": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware… The post Purpose-built model for leaked secret detection appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "漏洩シークレット検出用の専用モデルの提供",
-    "summary_ja": "GitHub Copilotにおいて、漏洩したシークレットを検出するための専用モデルが導入されました。この新モデルにより、ソフトウェア開発のスタイルに関わらず、コンテキストを認識したシークレット保護が可能になります。",
-    "changes": [
-      "コンテキストを認識したシークレット検出のための専用モデルの追加"
-    ],
-    "target_user": [
-      "developers"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-08T01:33:31Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-08T01:33:22Z"
-  },
-  {
-    "id": "github-changelog-1e174328109aea325ae3",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
-    "published_at": "2026-10-07T15:46:17Z",
-    "title_original": "Local sandboxing for GitHub Copilot now generally available",
-    "excerpt_original": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure… The post Local sandboxing for GitHub Copilot now generally available appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "GA",
-    "title_ja": "GitHub Copilotのローカルサンドボックス機能が一般提供（GA）開始",
-    "summary_ja": "GitHub Copilotのローカルサンドボックス機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびAgent Hostを使用するVS Codeセッションで一般提供（GA）開始されました。この機能により、開発者はセキュアな環境で作業を行えるようになります。",
-    "changes": [
-      "GitHub Copilot CLIでローカルサンドボックス機能が一般提供（GA）を開始",
-      "GitHub Copilotアプリでローカルサンドボックス機能が一般提供（GA）を開始",
-      "Agent Hostを使用するVS Codeセッションでローカルサンドボックス機能が一般提供（GA）を開始"
-    ],
-    "target_user": [
-      "developers"
-    ],
-    "importance": "high",
-    "translated": true,
-    "processed_at": "2026-10-08T01:33:38Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-08T01:33:31Z"
-  },
-  {
-    "id": "github-changelog-8241d56116d90ff33b6b",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
-    "published_at": "2026-10-07T15:46:13Z",
-    "title_original": "Discover local models in GitHub Copilot CLI",
-    "excerpt_original": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running… The post Discover local models in GitHub Copilot CLI appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "GitHub Copilot CLIでのローカルモデルの検出",
-    "summary_ja": "GitHub Copilot CLIに新機能が追加され、ワークフローを離れることなくローカルモデルの選択が容易になりました。CLIバージョン1.0.94-0以降では、実行中の環境からサポートされているモデルを検出するために「/model」コマンドを使用できます。",
-    "changes": [
-      "CLIバージョン1.0.94-0以降で「/model」コマンドを使用してサポートされているローカルモデルの検出が可能になった"
-    ],
-    "target_user": [
-      "開発者",
-      "GitHub Copilot CLIユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-08T01:33:47Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-08T01:33:38Z"
-  },
-  {
-    "id": "github-copilot-cli-406253101",
+    "id": "github-copilot-cli-406326076",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-2",
-    "published_at": "2026-10-07T23:43:16Z",
-    "title_original": "GitHub Copilot CLI v1.0.94-2",
-    "excerpt_original": "Fixes and changes",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-3",
+    "published_at": "2026-10-08T01:50:48Z",
+    "title_original": "GitHub Copilot CLI v1.0.94-3",
+    "excerpt_original": "**Added** - Add Claude Haiku 5.5 to model selection and --model completions **Fixed** - Show a policy warning when startup bypass-permission flags are suppressed by managed settings",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.94-2のリリース",
-    "summary_ja": "GitHub Copilot CLIのバージョン1.0.94-2がリリースされました。本バージョンには、各種の修正と変更が含まれています。",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.94-3 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.94-3がリリースされました。モデル選択と--model補完にClaude Haiku 5.5が追加され、管理設定によって起動時のバイパス権限フラグが抑制された場合にポリシー警告が表示されるように修正されました。",
     "changes": [
-      "各種の修正と変更の適用"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI ユーザー",
-      "開発者"
-    ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-10-08T01:32:58Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-08T01:32:51Z"
-  },
-  {
-    "id": "github-copilot-cli-406180306",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-1",
-    "published_at": "2026-10-07T21:31:02Z",
-    "title_original": "GitHub Copilot CLI v1.0.94-1",
-    "excerpt_original": "**Fixed** - Clicking a Sessions sidebar row now reliably switches sessions during split-view reconciliation",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.94-1 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.94-1がリリースされました。今回のアップデートには、バグ修正が含まれています。",
-    "changes": [
-      "分割ビューの再調整時に、セッションサイドバーの行をクリックした際のセッション切り替えの信頼性を向上"
+      "モデル選択および--model補完へのClaude Haiku 5.5の追加",
+      "管理設定により起動時のバイパス権限フラグが抑制された際のポリシー警告表示の修正"
     ],
     "target_user": [
       "Developer"
     ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-10-08T01:33:08Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-08T01:32:58Z"
-  },
-  {
-    "id": "github-copilot-cli-406044330",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-0",
-    "published_at": "2026-10-07T18:28:17Z",
-    "title_original": "GitHub Copilot CLI v1.0.94-0",
-    "excerpt_original": "**Improved** - Show update guidance when managed settings request a newer CLI version without blocking normal prompts - Managed policy can disable Assisted Permissions and keep sessions in Manual Approval mode.",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.94-0 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.94-0がリリースされました。管理設定により新しいCLIバージョンが要求された際、通常のプロンプトをブロックせずにアップデートガイダンスを表示する改善が含まれています。また、管理ポリシーによってAssisted Permissionsを無効化し、セッションをManual Approvalモードに維持できるようになりました。",
-    "changes": [
-      "管理設定が新しいCLIバージョンを要求した際、通常のプロンプトをブロックせずにアップデートガイダンスを表示するよう改善",
-      "管理ポリシーによるAssisted Permissionsの無効化と、セッションのManual Approvalモード維持に対応"
-    ],
-    "target_user": [
-      "Developer",
-      "Administrator"
-    ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-08T01:33:22Z",
+    "processed_at": "2026-10-08T11:08:06Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-10-08T01:33:17Z"
+    "translation_attempted_at": "2026-10-08T11:08:05Z"
   }
 ]

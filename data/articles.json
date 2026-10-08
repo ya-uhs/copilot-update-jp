@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-cli-406326076",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-3",
+    "published_at": "2026-10-08T01:50:48Z",
+    "title_original": "GitHub Copilot CLI v1.0.94-3",
+    "excerpt_original": "**Added** - Add Claude Haiku 5.5 to model selection and --model completions **Fixed** - Show a policy warning when startup bypass-permission flags are suppressed by managed settings",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.94-3 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.94-3がリリースされました。モデル選択と--model補完にClaude Haiku 5.5が追加され、管理設定によって起動時のバイパス権限フラグが抑制された場合にポリシー警告が表示されるように修正されました。",
+    "changes": [
+      "モデル選択および--model補完へのClaude Haiku 5.5の追加",
+      "管理設定により起動時のバイパス権限フラグが抑制された際のポリシー警告表示の修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-08T11:08:06Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-08T11:08:05Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-406253101",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-2",
