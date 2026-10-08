@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Oct 2026 11:08:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 17:06:32 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.94-4</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-4</link>
+      <guid isPermaLink="false">github-copilot-cli-406808519</guid>
+      <pubDate>Thu, 08 Oct 2026 12:33:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;MCP の有効化/無効化がサーバー検出前に、MCP サーバーを起動せずに動作するようになりました。また、Assisted permissions は不要な手動承認を求める代わりに、可視化されたシェルコードをパーミッションジャッジに送信します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCP の有効化/無効化がサーバー検出前に、MCP サーバーを起動せずに機能するよう改善された&lt;/li&gt;&lt;li&gt;Assisted permissions が可視シェルコードをパーミッションジャッジに送信し、不要な手動承認を省くよう変更された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.94-3 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-3</link>

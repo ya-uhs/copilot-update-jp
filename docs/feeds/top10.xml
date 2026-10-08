@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Oct 2026 11:08:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 17:06:32 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,6 +59,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.94-4</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-4</link>
+      <guid isPermaLink="false">github-copilot-cli-406808519</guid>
+      <pubDate>Thu, 08 Oct 2026 12:33:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;MCP の有効化/無効化がサーバー検出前に、MCP サーバーを起動せずに動作するようになりました。また、Assisted permissions は不要な手動承認を求める代わりに、可視化されたシェルコードをパーミッションジャッジに送信します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCP の有効化/無効化がサーバー検出前に、MCP サーバーを起動せずに機能するよう改善された&lt;/li&gt;&lt;li&gt;Assisted permissions が可視シェルコードをパーミッションジャッジに送信し、不要な手動承認を省くよう変更された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.94-3 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-3</link>
       <guid isPermaLink="false">github-copilot-cli-406326076</guid>
@@ -94,16 +104,6 @@
       <guid isPermaLink="false">github-changelog-d6b735286b3739eabb6b</guid>
       <pubDate>Wed, 07 Oct 2026 16:13:56 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、漏洩したシークレットを検出するための専用モデルが導入されました。この新モデルにより、ソフトウェア開発のスタイルに関わらず、コンテキストを認識したシークレット保護が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンテキストを認識したシークレット検出のための専用モデルの追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLIでのローカルモデルの検出</title>
-      <link>https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli</link>
-      <guid isPermaLink="false">github-changelog-8241d56116d90ff33b6b</guid>
-      <pubDate>Wed, 07 Oct 2026 15:46:13 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIに新機能が追加され、ワークフローを離れることなくローカルモデルの選択が容易になりました。CLIバージョン1.0.94-0以降では、実行中の環境からサポートされているモデルを検出するために「/model」コマンドを使用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;CLIバージョン1.0.94-0以降で「/model」コマンドを使用してサポートされているローカルモデルの検出が可能になった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>medium</category>
