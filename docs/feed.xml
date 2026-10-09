@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 09 Oct 2026 01:44:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 11:07:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.95-3 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95-3</link>
+      <guid isPermaLink="false">github-copilot-cli-407818776</guid>
+      <pubDate>Fri, 09 Oct 2026 10:47:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.95-3がリリースされました。このバージョンには各種の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.95-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.95-2 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95-2</link>
+      <guid isPermaLink="false">github-copilot-cli-407436710</guid>
+      <pubDate>Fri, 09 Oct 2026 02:33:59 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.95-2がリリースされました。今回の更新では、copilot configコマンドがサンドボックス認証情報のinjectHostsキーをサポートするよう修正され、Bash、Zsh、Fishでのキー補完も利用可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;copilot configがサンドボックス認証情報のinjectHostsキーをサポートするように修正&lt;/li&gt;&lt;li&gt;Bash、Zsh、Fishシェルでのキー補完に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.95-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.95-1 のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95-1</link>

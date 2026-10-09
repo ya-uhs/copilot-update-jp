@@ -1,5 +1,220 @@
 [
   {
+    "id": "github-copilot-cli-407379143",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-1",
+    "published_at": "2026-10-09T00:37:15Z",
+    "title_original": "GitHub Copilot CLI v1.0.95-1",
+    "excerpt_original": "**Added** - Use native Microsoft Entra broker authentication on macOS when available, with browser fallback.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.95-1 のリリース",
+    "summary_ja": "GitHub Copilot CLI のバージョン 1.0.95-1 がリリースされました。今回のアップデートにより、macOS環境において利用可能な場合はブラウザフォールバック付きのネイティブな Microsoft Entra ブローカー認証を使用できるようになりました。",
+    "changes": [
+      "macOS環境で利用可能な場合に、ブラウザフォールバック付きのネイティブなMicrosoft Entra ブローカー認証を使用する機能を追加"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-09T01:43:55Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-09T01:43:54Z"
+  },
+  {
+    "id": "m365-roadmap-d1e5aaac8154d4b7756b",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574106",
+    "published_at": "2026-10-08T23:04:12Z",
+    "title_original": "[Roadmap] SharePoint: AI input widget and content preview in Copilot",
+    "excerpt_original": "With this new capability, users of Copilot in SharePoint will be able to view saved and unsaved preview content side by side with chat. Users will also be able to interact with created HTML forms and confirm responses to send to chat. GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] SharePoint向けCopilot：AI入力ウィジェットとコンテンツプレビュー機能",
+    "summary_ja": "SharePointのCopilotにおいて、保存済みおよび未保存のプレビューコンテンツをチャット画面の横に並べて表示できるようになります。また、作成されたHTMLフォームの操作や、チャットに送信する回答の確認も可能になります。一般提供（GA）は2026年11月を予定しています。",
+    "changes": [
+      "保存済みおよび未保存のプレビューコンテンツをチャットと並行して表示する機能の追加",
+      "作成されたHTMLフォームの操作機能の追加",
+      "チャットへ送信する回答を確認する機能の追加",
+      "一般提供（GA）の時期：2026年11月予定"
+    ],
+    "target_user": [
+      "SharePoint users",
+      "Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-09T01:43:56Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-09T01:43:55Z"
+  },
+  {
+    "id": "m365-roadmap-7e42744cc5e451de391f",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573446",
+    "published_at": "2026-10-08T23:04:12Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Copilot Chat in OneNote can create, edit, and refine content",
+    "excerpt_original": "Copilot in OneNote can generate new content and directly edit when in edit mode. In this mode you can create, rename, and delete pages, sections, or notebooks as well as add or edit content in pages. Copilot can bring content from across WorkIQ as well as complete actions across other workflows such as creating Word, Excel, and PowerPoint files. GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: OneNoteのCopilot Chatによるコンテンツ作成・編集・洗練機能",
+    "summary_ja": "OneNote内のCopilotは、編集モード時に新しいコンテンツの生成や直接的な編集が可能になります。このモードでは、ページ、セクション、ノートブックの作成・名前変更・削除に加え、ページ内のコンテンツ追加や編集が行えます。また、WorkIQ全体からのコンテンツ統合や、Word、Excel、PowerPointファイルの作成といった他ワークフローのアクションも実行可能です。",
+    "changes": [
+      "編集モード時における新しいコンテンツの生成と直接編集機能の提供",
+      "ページ、セクション、ノートブックの作成、名前変更、削除機能のサポート",
+      "WorkIQからのコンテンツ取得およびWord、Excel、PowerPointファイル作成などの他ワークフローの実行"
+    ],
+    "target_user": [
+      "Microsoft 365ユーザー",
+      "OneNoteユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-09T01:43:57Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-09T01:43:56Z"
+  },
+  {
+    "id": "m365-roadmap-7820e8aa00b45f4b3592",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573169",
+    "published_at": "2026-10-08T23:04:12Z",
+    "title_original": "[Roadmap] Microsoft Viva: Expanded agent coverage in Agent Dashboard",
+    "excerpt_original": "Customers can now view reporting for agents from third-party platforms in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). This expanded coverage provides a more comprehensive view of agent activity across their organization. GA date: October CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Viva: Agent Dashboardにおけるエージェント対応範囲の拡大",
+    "summary_ja": "Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、サードパーティ製プラットフォームのエージェントに関するレポート表示が可能になりました。この機能拡張により、組織全体のエージェント活動をより包括的に把握できるようになります。プレビューおよびGA（一般提供）の時期は2026年10月が予定されています。",
+    "changes": [
+      "サードパーティ製プラットフォームのエージェントに関するレポート表示機能の追加",
+      "Agent 365 Dashboard（Microsoft Viva Insights / Copilot Analytics）での対応範囲拡大"
+    ],
+    "target_user": [
+      "Administrators",
+      "Analytics Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-09T01:43:58Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-09T01:43:57Z"
+  },
+  {
+    "id": "m365-roadmap-398065f9f98aa1176187",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570966",
+    "published_at": "2026-10-08T23:04:12Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Audio Overview updates in Copilot Notebooks",
+    "excerpt_original": "We're rolling out new capabilities for Copilot Notebook audio overview that make it easier to navigate longer content with topic-based episodes, new audio formats such as Critique and Debate, support enterprise information protection with sensitivity labels, and expand audio overview context to more content types. GA date: October CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilotノートブックのオーディオ概要における更新情報",
+    "summary_ja": "Microsoft 365 Copilotノートブックのオーディオ概要機能に新しい機能が追加されます。トピック別のエピソードによる長文コンテンツのナビゲーション向上、 CritiqueやDebateなどの新しい音声形式のサポート、機密ラベルによる企業情報保護、および対応コンテンツの拡大が含まれます。一般提供およびプレビューは2026年10月を予定しています。",
+    "changes": [
+      "トピックベースのエピソードによる、長文コンテンツのナビゲーション性の向上",
+      "CritiqueやDebateを含む新しい音声形式の追加",
+      "機密ラベルを用いたエンタープライズ情報保護（EIP）のサポート",
+      "オーディオ概要のコンテキストに対応するコンテンツタイプの拡大"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-09T01:43:59Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-09T01:43:58Z"
+  },
+  {
+    "id": "github-copilot-cli-407307754",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-0",
+    "published_at": "2026-10-08T22:19:33Z",
+    "title_original": "GitHub Copilot CLI v1.0.95-0",
+    "excerpt_original": "**Improved** - Managed plugin setup retries hourly or after policy changes instead of on every message failure **Fixed** - --context now applies to new and resumed ACP sessions instead of silently using the default or previously saved context tier",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.95-0 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.95-0がリリースされました。管理プラグインのセットアップリトライ頻度がメッセージ失敗時ではなく、1時間ごとまたはポリシー変更後に調整されました。また、--contextフラグが新規および再開されたACPセッションに適用されるように修正されました。",
+    "changes": [
+      "管理プラグインのセットアップリトライを、メッセージの失敗時ではなく1時間ごとまたはポリシー変更後に実施するよう改善",
+      "--contextオプションが、デフォルトまたは以前保存されたコンテキスト階層をサイレントに使用するのではなく、新規および再開されたACPセッションに適用されるよう修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-09T01:44:00Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-09T01:43:59Z"
+  },
+  {
+    "id": "github-copilot-cli-407235738",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94",
+    "published_at": "2026-10-08T20:28:44Z",
+    "title_original": "GitHub Copilot CLI v1.0.94",
+    "excerpt_original": "2026-10-08 - Add Claude Haiku 5.5 to model selection and --model completions - copilot mcp add recovers cleanly after interrupted MCP config initialization - MCP enable/disable now works before server discovery without starting MCP servers - Assisted permissions send visible shell code to the permission judge instead of requiring unnecessary manual approval - Show a policy warning when startup bypass-permission flags are suppressed by managed settings - Clicking a Sessions sidebar row now reliably switches sessions during split-view reconciliation - Show update guidance when managed settings request a newer CLI version without blocking normal prompts - Managed policy can disable Assisted Permissions and keep sessions in Manual Approval mode.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.94 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.94がリリースされ、モデル選択と補完へのClaude Haiku 5.5の追加が行われました。また、MCP設定の初期化中断からの復旧改善や、MCPの有効化・無効化の挙動最適化が含まれています。さらに、アシステッドパーミッションやマネージド設定に関する改善とポリシー警告の表示が追加されました。",
+    "changes": [
+      "モデル選択および --model 補完に Claude Haiku 5.5 を追加",
+      "中断された MCP 設定初期化からのクリーンな復旧に対応",
+      "MCP の有効化および無効化がサーバー検出前、かつサーバー起動なしで動作するように改善",
+      "アシステッドパーミッションで不要な手動承認の代わりに可視化されたシェルコードをパーミッション判定に送信",
+      "起動時のバイパスパーミッションフラグが管理設定で抑制された際にポリシー警告を表示"
+    ],
+    "target_user": [
+      "開発者",
+      "CLIユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-09T01:44:02Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-09T01:44:00Z"
+  },
+  {
+    "id": "github-copilot-cli-407113523",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-5",
+    "published_at": "2026-10-08T17:54:02Z",
+    "title_original": "GitHub Copilot CLI v1.0.94-5",
+    "excerpt_original": "**Fixed** - copilot mcp add recovers cleanly after interrupted MCP config initialization",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.94-5 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.94-5がリリースされました。MCP設定の初期化が中断された際、copilot mcp addコマンドが正常に復帰するよう修正が行われました。",
+    "changes": [
+      "copilot mcp add command recovers cleanly after interrupted MCP config initialization"
+    ],
+    "target_user": [
+      "Developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-09T01:44:02Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-09T01:44:02Z"
+  },
+  {
     "id": "github-copilot-cli-406808519",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-4",
@@ -4600,218 +4815,53 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-407379143",
+    "id": "github-copilot-cli-407818776",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-1",
-    "published_at": "2026-10-09T00:37:15Z",
-    "title_original": "GitHub Copilot CLI v1.0.95-1",
-    "excerpt_original": "**Added** - Use native Microsoft Entra broker authentication on macOS when available, with browser fallback.",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-3",
+    "published_at": "2026-10-09T10:47:02Z",
+    "title_original": "GitHub Copilot CLI v1.0.95-3",
+    "excerpt_original": "Fixes and changes",
     "product": "GitHub Copilot CLI",
     "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.95-1 のリリース",
-    "summary_ja": "GitHub Copilot CLI のバージョン 1.0.95-1 がリリースされました。今回のアップデートにより、macOS環境において利用可能な場合はブラウザフォールバック付きのネイティブな Microsoft Entra ブローカー認証を使用できるようになりました。",
+    "title_ja": "GitHub Copilot CLI v1.0.95-3 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.95-3がリリースされました。このバージョンには各種の修正と変更が含まれています。",
     "changes": [
-      "macOS環境で利用可能な場合に、ブラウザフォールバック付きのネイティブなMicrosoft Entra ブローカー認証を使用する機能を追加"
+      "不具合の修正と変更の適用"
     ],
     "target_user": [
-      "Developer"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-09T01:43:55Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-09T01:43:54Z"
-  },
-  {
-    "id": "github-copilot-cli-407307754",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-0",
-    "published_at": "2026-10-08T22:19:33Z",
-    "title_original": "GitHub Copilot CLI v1.0.95-0",
-    "excerpt_original": "**Improved** - Managed plugin setup retries hourly or after policy changes instead of on every message failure **Fixed** - --context now applies to new and resumed ACP sessions instead of silently using the default or previously saved context tier",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.95-0 のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.95-0がリリースされました。管理プラグインのセットアップリトライ頻度がメッセージ失敗時ではなく、1時間ごとまたはポリシー変更後に調整されました。また、--contextフラグが新規および再開されたACPセッションに適用されるように修正されました。",
-    "changes": [
-      "管理プラグインのセットアップリトライを、メッセージの失敗時ではなく1時間ごとまたはポリシー変更後に実施するよう改善",
-      "--contextオプションが、デフォルトまたは以前保存されたコンテキスト階層をサイレントに使用するのではなく、新規および再開されたACPセッションに適用されるよう修正"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI users",
-      "Developers"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-09T01:44:00Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-09T01:43:59Z"
-  },
-  {
-    "id": "github-copilot-cli-407235738",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94",
-    "published_at": "2026-10-08T20:28:44Z",
-    "title_original": "GitHub Copilot CLI v1.0.94",
-    "excerpt_original": "2026-10-08 - Add Claude Haiku 5.5 to model selection and --model completions - copilot mcp add recovers cleanly after interrupted MCP config initialization - MCP enable/disable now works before server discovery without starting MCP servers - Assisted permissions send visible shell code to the permission judge instead of requiring unnecessary manual approval - Show a policy warning when startup bypass-permission flags are suppressed by managed settings - Clicking a Sessions sidebar row now reliably switches sessions during split-view reconciliation - Show update guidance when managed settings request a newer CLI version without blocking normal prompts - Managed policy can disable Assisted Permissions and keep sessions in Manual Approval mode.",
-    "product": "GitHub Copilot CLI",
-    "status": "Release",
-    "title_ja": "GitHub Copilot CLI v1.0.94 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.94がリリースされ、モデル選択と補完へのClaude Haiku 5.5の追加が行われました。また、MCP設定の初期化中断からの復旧改善や、MCPの有効化・無効化の挙動最適化が含まれています。さらに、アシステッドパーミッションやマネージド設定に関する改善とポリシー警告の表示が追加されました。",
-    "changes": [
-      "モデル選択および --model 補完に Claude Haiku 5.5 を追加",
-      "中断された MCP 設定初期化からのクリーンな復旧に対応",
-      "MCP の有効化および無効化がサーバー検出前、かつサーバー起動なしで動作するように改善",
-      "アシステッドパーミッションで不要な手動承認の代わりに可視化されたシェルコードをパーミッション判定に送信",
-      "起動時のバイパスパーミッションフラグが管理設定で抑制された際にポリシー警告を表示"
-    ],
-    "target_user": [
-      "開発者",
-      "CLIユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-09T01:44:02Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-09T01:44:00Z"
-  },
-  {
-    "id": "github-copilot-cli-407113523",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.94-5",
-    "published_at": "2026-10-08T17:54:02Z",
-    "title_original": "GitHub Copilot CLI v1.0.94-5",
-    "excerpt_original": "**Fixed** - copilot mcp add recovers cleanly after interrupted MCP config initialization",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.94-5 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.94-5がリリースされました。MCP設定の初期化が中断された際、copilot mcp addコマンドが正常に復帰するよう修正が行われました。",
-    "changes": [
-      "copilot mcp add command recovers cleanly after interrupted MCP config initialization"
-    ],
-    "target_user": [
-      "Developers"
+      "GitHub Copilot CLI ユーザー"
     ],
     "importance": "low",
     "translated": true,
-    "processed_at": "2026-10-09T01:44:02Z",
+    "processed_at": "2026-10-09T11:07:02Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-10-09T01:44:02Z"
+    "translation_attempted_at": "2026-10-09T11:07:01Z"
   },
   {
-    "id": "m365-roadmap-d1e5aaac8154d4b7756b",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574106",
-    "published_at": "2026-10-08T23:04:12Z",
-    "title_original": "[Roadmap] SharePoint: AI input widget and content preview in Copilot",
-    "excerpt_original": "With this new capability, users of Copilot in SharePoint will be able to view saved and unsaved preview content side by side with chat. Users will also be able to interact with created HTML forms and confirm responses to send to chat. GA date: November CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] SharePoint向けCopilot：AI入力ウィジェットとコンテンツプレビュー機能",
-    "summary_ja": "SharePointのCopilotにおいて、保存済みおよび未保存のプレビューコンテンツをチャット画面の横に並べて表示できるようになります。また、作成されたHTMLフォームの操作や、チャットに送信する回答の確認も可能になります。一般提供（GA）は2026年11月を予定しています。",
+    "id": "github-copilot-cli-407436710",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-2",
+    "published_at": "2026-10-09T02:33:59Z",
+    "title_original": "GitHub Copilot CLI v1.0.95-2",
+    "excerpt_original": "**Fixed** - copilot config supports sandbox credential injectHosts keys, with key completion in Bash, Zsh, and Fish.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.95-2 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.95-2がリリースされました。今回の更新では、copilot configコマンドがサンドボックス認証情報のinjectHostsキーをサポートするよう修正され、Bash、Zsh、Fishでのキー補完も利用可能になりました。",
     "changes": [
-      "保存済みおよび未保存のプレビューコンテンツをチャットと並行して表示する機能の追加",
-      "作成されたHTMLフォームの操作機能の追加",
-      "チャットへ送信する回答を確認する機能の追加",
-      "一般提供（GA）の時期：2026年11月予定"
+      "copilot configがサンドボックス認証情報のinjectHostsキーをサポートするように修正",
+      "Bash、Zsh、Fishシェルでのキー補完に対応"
     ],
     "target_user": [
-      "SharePoint users",
-      "Copilot users"
+      "Developers",
+      "CLI Users"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-09T01:43:56Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-09T01:43:55Z"
-  },
-  {
-    "id": "m365-roadmap-7e42744cc5e451de391f",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573446",
-    "published_at": "2026-10-08T23:04:12Z",
-    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Copilot Chat in OneNote can create, edit, and refine content",
-    "excerpt_original": "Copilot in OneNote can generate new content and directly edit when in edit mode. In this mode you can create, rename, and delete pages, sections, or notebooks as well as add or edit content in pages. Copilot can bring content from across WorkIQ as well as complete actions across other workflows such as creating Word, Excel, and PowerPoint files. GA date: November CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: OneNoteのCopilot Chatによるコンテンツ作成・編集・洗練機能",
-    "summary_ja": "OneNote内のCopilotは、編集モード時に新しいコンテンツの生成や直接的な編集が可能になります。このモードでは、ページ、セクション、ノートブックの作成・名前変更・削除に加え、ページ内のコンテンツ追加や編集が行えます。また、WorkIQ全体からのコンテンツ統合や、Word、Excel、PowerPointファイルの作成といった他ワークフローのアクションも実行可能です。",
-    "changes": [
-      "編集モード時における新しいコンテンツの生成と直接編集機能の提供",
-      "ページ、セクション、ノートブックの作成、名前変更、削除機能のサポート",
-      "WorkIQからのコンテンツ取得およびWord、Excel、PowerPointファイル作成などの他ワークフローの実行"
-    ],
-    "target_user": [
-      "Microsoft 365ユーザー",
-      "OneNoteユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-09T01:43:57Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-09T01:43:56Z"
-  },
-  {
-    "id": "m365-roadmap-7820e8aa00b45f4b3592",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573169",
-    "published_at": "2026-10-08T23:04:12Z",
-    "title_original": "[Roadmap] Microsoft Viva: Expanded agent coverage in Agent Dashboard",
-    "excerpt_original": "Customers can now view reporting for agents from third-party platforms in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). This expanded coverage provides a more comprehensive view of agent activity across their organization. GA date: October CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft Viva: Agent Dashboardにおけるエージェント対応範囲の拡大",
-    "summary_ja": "Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、サードパーティ製プラットフォームのエージェントに関するレポート表示が可能になりました。この機能拡張により、組織全体のエージェント活動をより包括的に把握できるようになります。プレビューおよびGA（一般提供）の時期は2026年10月が予定されています。",
-    "changes": [
-      "サードパーティ製プラットフォームのエージェントに関するレポート表示機能の追加",
-      "Agent 365 Dashboard（Microsoft Viva Insights / Copilot Analytics）での対応範囲拡大"
-    ],
-    "target_user": [
-      "Administrators",
-      "Analytics Users"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-09T01:43:58Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-09T01:43:57Z"
-  },
-  {
-    "id": "m365-roadmap-398065f9f98aa1176187",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570966",
-    "published_at": "2026-10-08T23:04:12Z",
-    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Audio Overview updates in Copilot Notebooks",
-    "excerpt_original": "We're rolling out new capabilities for Copilot Notebook audio overview that make it easier to navigate longer content with topic-based episodes, new audio formats such as Critique and Debate, support enterprise information protection with sensitivity labels, and expand audio overview context to more content types. GA date: October CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilotノートブックのオーディオ概要における更新情報",
-    "summary_ja": "Microsoft 365 Copilotノートブックのオーディオ概要機能に新しい機能が追加されます。トピック別のエピソードによる長文コンテンツのナビゲーション向上、 CritiqueやDebateなどの新しい音声形式のサポート、機密ラベルによる企業情報保護、および対応コンテンツの拡大が含まれます。一般提供およびプレビューは2026年10月を予定しています。",
-    "changes": [
-      "トピックベースのエピソードによる、長文コンテンツのナビゲーション性の向上",
-      "CritiqueやDebateを含む新しい音声形式の追加",
-      "機密ラベルを用いたエンタープライズ情報保護（EIP）のサポート",
-      "オーディオ概要のコンテキストに対応するコンテンツタイプの拡大"
-    ],
-    "target_user": [
-      "Microsoft 365 Copilot users"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-09T01:43:59Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-09T01:43:58Z"
+    "processed_at": "2026-10-09T11:07:03Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-09T11:07:02Z"
   }
 ]

@@ -1,5 +1,57 @@
 [
   {
+    "id": "github-copilot-cli-407818776",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-3",
+    "published_at": "2026-10-09T10:47:02Z",
+    "title_original": "GitHub Copilot CLI v1.0.95-3",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.95-3 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.95-3がリリースされました。このバージョンには各種の修正と変更が含まれています。",
+    "changes": [
+      "不具合の修正と変更の適用"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-09T11:07:02Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-09T11:07:01Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-407436710",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-2",
+    "published_at": "2026-10-09T02:33:59Z",
+    "title_original": "GitHub Copilot CLI v1.0.95-2",
+    "excerpt_original": "**Fixed** - copilot config supports sandbox credential injectHosts keys, with key completion in Bash, Zsh, and Fish.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.95-2 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.95-2がリリースされました。今回の更新では、copilot configコマンドがサンドボックス認証情報のinjectHostsキーをサポートするよう修正され、Bash、Zsh、Fishでのキー補完も利用可能になりました。",
+    "changes": [
+      "copilot configがサンドボックス認証情報のinjectHostsキーをサポートするように修正",
+      "Bash、Zsh、Fishシェルでのキー補完に対応"
+    ],
+    "target_user": [
+      "Developers",
+      "CLI Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-09T11:07:03Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-09T11:07:02Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-407379143",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95-1",
