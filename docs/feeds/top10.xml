@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 09 Oct 2026 11:07:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 16:44:35 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -47,6 +47,16 @@
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.95 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95</link>
+      <guid isPermaLink="false">github-copilot-cli-408085682</guid>
+      <pubDate>Fri, 09 Oct 2026 16:04:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.95がリリースされました。本バージョンでは、macOSにおけるネイティブなMicrosoft Entraブローカー認証のサポート、sandbox credential injectHostsキーに対応したcopilot config、およびACPセッションにおける--contextの適用動作の修正が含まれています。また、管理対象プラグインのセットアップに関するリトライ処理の改善も行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;macOS環境で利用可能な場合に、ブラウザフォールバック付きのネイティブなMicrosoft Entraブローカー認証を使用するように変更&lt;/li&gt;&lt;li&gt;copilot configがsandbox credential injectHostsキーをサポートし、Bash、Zsh、Fishでのキー補完を追加&lt;/li&gt;&lt;li&gt;--contextフラグが、デフォルトや以前保存されたコンテキスト階層を暗黙的に使用するのではなく、新規および再開されたACPセッションに適用されるように修正&lt;/li&gt;&lt;li&gt;管理対象プラグインのセットアップにおけるリトライが、メッセージ失敗時ごとではなく、1時間ごとまたはポリシー変更後に実行されるように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.95"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.95-2 リリースノート</title>
@@ -94,16 +104,6 @@
       <guid isPermaLink="false">m365-roadmap-7820e8aa00b45f4b3592</guid>
       <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、サードパーティ製プラットフォームのエージェントに関するレポート表示が可能になりました。この機能拡張により、組織全体のエージェント活動をより包括的に把握できるようになります。プレビューおよびGA（一般提供）の時期は2026年10月が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サードパーティ製プラットフォームのエージェントに関するレポート表示機能の追加&lt;/li&gt;&lt;li&gt;Agent 365 Dashboard（Microsoft Viva Insights / Copilot Analytics）での対応範囲拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573169"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilotノートブックのオーディオ概要における更新情報</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570966</link>
-      <guid isPermaLink="false">m365-roadmap-398065f9f98aa1176187</guid>
-      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotノートブックのオーディオ概要機能に新しい機能が追加されます。トピック別のエピソードによる長文コンテンツのナビゲーション向上、 CritiqueやDebateなどの新しい音声形式のサポート、機密ラベルによる企業情報保護、および対応コンテンツの拡大が含まれます。一般提供およびプレビューは2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;トピックベースのエピソードによる、長文コンテンツのナビゲーション性の向上&lt;/li&gt;&lt;li&gt;CritiqueやDebateを含む新しい音声形式の追加&lt;/li&gt;&lt;li&gt;機密ラベルを用いたエンタープライズ情報保護（EIP）のサポート&lt;/li&gt;&lt;li&gt;オーディオ概要のコンテキストに対応するコンテンツタイプの拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570966"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
