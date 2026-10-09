@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Oct 2026 17:06:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 01:44:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.95-1 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95-1</link>
+      <guid isPermaLink="false">github-copilot-cli-407379143</guid>
+      <pubDate>Fri, 09 Oct 2026 00:37:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI のバージョン 1.0.95-1 がリリースされました。今回のアップデートにより、macOS環境において利用可能な場合はブラウザフォールバック付きのネイティブな Microsoft Entra ブローカー認証を使用できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;macOS環境で利用可能な場合に、ブラウザフォールバック付きのネイティブなMicrosoft Entra ブローカー認証を使用する機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.95-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.95-0 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95-0</link>
+      <guid isPermaLink="false">github-copilot-cli-407307754</guid>
+      <pubDate>Thu, 08 Oct 2026 22:19:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.95-0がリリースされました。管理プラグインのセットアップリトライ頻度がメッセージ失敗時ではなく、1時間ごとまたはポリシー変更後に調整されました。また、--contextフラグが新規および再開されたACPセッションに適用されるように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理プラグインのセットアップリトライを、メッセージの失敗時ではなく1時間ごとまたはポリシー変更後に実施するよう改善&lt;/li&gt;&lt;li&gt;--contextオプションが、デフォルトまたは以前保存されたコンテキスト階層をサイレントに使用するのではなく、新規および再開されたACPセッションに適用されるよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.95-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.94 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94</link>
+      <guid isPermaLink="false">github-copilot-cli-407235738</guid>
+      <pubDate>Thu, 08 Oct 2026 20:28:44 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94がリリースされ、モデル選択と補完へのClaude Haiku 5.5の追加が行われました。また、MCP設定の初期化中断からの復旧改善や、MCPの有効化・無効化の挙動最適化が含まれています。さらに、アシステッドパーミッションやマネージド設定に関する改善とポリシー警告の表示が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モデル選択および --model 補完に Claude Haiku 5.5 を追加&lt;/li&gt;&lt;li&gt;中断された MCP 設定初期化からのクリーンな復旧に対応&lt;/li&gt;&lt;li&gt;MCP の有効化および無効化がサーバー検出前、かつサーバー起動なしで動作するように改善&lt;/li&gt;&lt;li&gt;アシステッドパーミッションで不要な手動承認の代わりに可視化されたシェルコードをパーミッション判定に送信&lt;/li&gt;&lt;li&gt;起動時のバイパスパーミッションフラグが管理設定で抑制された際にポリシー警告を表示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.94-5 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-5</link>
+      <guid isPermaLink="false">github-copilot-cli-407113523</guid>
+      <pubDate>Thu, 08 Oct 2026 17:54:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94-5がリリースされました。MCP設定の初期化が中断された際、copilot mcp addコマンドが正常に復帰するよう修正が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;copilot mcp add command recovers cleanly after interrupted MCP config initialization&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.94-4</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-4</link>

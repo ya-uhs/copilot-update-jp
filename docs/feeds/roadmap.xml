@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 03 Oct 2026 00:55:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 01:44:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] SharePoint向けCopilot：AI入力ウィジェットとコンテンツプレビュー機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574106</link>
+      <guid isPermaLink="false">m365-roadmap-d1e5aaac8154d4b7756b</guid>
+      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;SharePointのCopilotにおいて、保存済みおよび未保存のプレビューコンテンツをチャット画面の横に並べて表示できるようになります。また、作成されたHTMLフォームの操作や、チャットに送信する回答の確認も可能になります。一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;保存済みおよび未保存のプレビューコンテンツをチャットと並行して表示する機能の追加&lt;/li&gt;&lt;li&gt;作成されたHTMLフォームの操作機能の追加&lt;/li&gt;&lt;li&gt;チャットへ送信する回答を確認する機能の追加&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期：2026年11月予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574106"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: OneNoteのCopilot Chatによるコンテンツ作成・編集・洗練機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573446</link>
+      <guid isPermaLink="false">m365-roadmap-7e42744cc5e451de391f</guid>
+      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;OneNote内のCopilotは、編集モード時に新しいコンテンツの生成や直接的な編集が可能になります。このモードでは、ページ、セクション、ノートブックの作成・名前変更・削除に加え、ページ内のコンテンツ追加や編集が行えます。また、WorkIQ全体からのコンテンツ統合や、Word、Excel、PowerPointファイルの作成といった他ワークフローのアクションも実行可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;編集モード時における新しいコンテンツの生成と直接編集機能の提供&lt;/li&gt;&lt;li&gt;ページ、セクション、ノートブックの作成、名前変更、削除機能のサポート&lt;/li&gt;&lt;li&gt;WorkIQからのコンテンツ取得およびWord、Excel、PowerPointファイル作成などの他ワークフローの実行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573446"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Viva: Agent Dashboardにおけるエージェント対応範囲の拡大</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573169</link>
+      <guid isPermaLink="false">m365-roadmap-7820e8aa00b45f4b3592</guid>
+      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、サードパーティ製プラットフォームのエージェントに関するレポート表示が可能になりました。この機能拡張により、組織全体のエージェント活動をより包括的に把握できるようになります。プレビューおよびGA（一般提供）の時期は2026年10月が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サードパーティ製プラットフォームのエージェントに関するレポート表示機能の追加&lt;/li&gt;&lt;li&gt;Agent 365 Dashboard（Microsoft Viva Insights / Copilot Analytics）での対応範囲拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573169"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilotノートブックのオーディオ概要における更新情報</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570966</link>
+      <guid isPermaLink="false">m365-roadmap-398065f9f98aa1176187</guid>
+      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotノートブックのオーディオ概要機能に新しい機能が追加されます。トピック別のエピソードによる長文コンテンツのナビゲーション向上、 CritiqueやDebateなどの新しい音声形式のサポート、機密ラベルによる企業情報保護、および対応コンテンツの拡大が含まれます。一般提供およびプレビューは2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;トピックベースのエピソードによる、長文コンテンツのナビゲーション性の向上&lt;/li&gt;&lt;li&gt;CritiqueやDebateを含む新しい音声形式の追加&lt;/li&gt;&lt;li&gt;機密ラベルを用いたエンタープライズ情報保護（EIP）のサポート&lt;/li&gt;&lt;li&gt;オーディオ概要のコンテキストに対応するコンテンツタイプの拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570966"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] OutlookでのCopilotを通じた会話型メール作成・編集機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=573280</link>

@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Oct 2026 17:06:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 01:44:02 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -49,63 +49,63 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub Copilotがデスクトップアプリと連携するコンピューター使用機能に対応</title>
-      <link>https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</link>
-      <guid isPermaLink="false">github-changelog-e11a5d7f0be16c7ae710</guid>
-      <pubDate>Thu, 01 Oct 2026 19:11:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIおよびmacoshとWindows上のGitHub Copilotアプリにおいて、コンピューター使用機能がパブリックプレビューとして利用可能になりました。これにより、Copilotがユーザーの代わりにデスクトップアプリケーションと対話できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIおよびmacOS/Windows向けGitHub Copilotアプリでコンピューター使用機能が利用可能に&lt;/li&gt;&lt;li&gt;Copilotがユーザーに代わってデスクトップアプリケーションと対話することが可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>Public Preview</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.94-4</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-4</link>
-      <guid isPermaLink="false">github-copilot-cli-406808519</guid>
-      <pubDate>Thu, 08 Oct 2026 12:33:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;MCP の有効化/無効化がサーバー検出前に、MCP サーバーを起動せずに動作するようになりました。また、Assisted permissions は不要な手動承認を求める代わりに、可視化されたシェルコードをパーミッションジャッジに送信します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCP の有効化/無効化がサーバー検出前に、MCP サーバーを起動せずに機能するよう改善された&lt;/li&gt;&lt;li&gt;Assisted permissions が可視シェルコードをパーミッションジャッジに送信し、不要な手動承認を省くよう変更された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>GitHub Copilot CLI v1.0.95-1 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95-1</link>
+      <guid isPermaLink="false">github-copilot-cli-407379143</guid>
+      <pubDate>Fri, 09 Oct 2026 00:37:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI のバージョン 1.0.95-1 がリリースされました。今回のアップデートにより、macOS環境において利用可能な場合はブラウザフォールバック付きのネイティブな Microsoft Entra ブローカー認証を使用できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;macOS環境で利用可能な場合に、ブラウザフォールバック付きのネイティブなMicrosoft Entra ブローカー認証を使用する機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.95-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.94-3 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-3</link>
-      <guid isPermaLink="false">github-copilot-cli-406326076</guid>
-      <pubDate>Thu, 08 Oct 2026 01:50:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94-3がリリースされました。モデル選択と--model補完にClaude Haiku 5.5が追加され、管理設定によって起動時のバイパス権限フラグが抑制された場合にポリシー警告が表示されるように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モデル選択および--model補完へのClaude Haiku 5.5の追加&lt;/li&gt;&lt;li&gt;管理設定により起動時のバイパス権限フラグが抑制された際のポリシー警告表示の修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] SharePoint向けCopilot：AI入力ウィジェットとコンテンツプレビュー機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574106</link>
+      <guid isPermaLink="false">m365-roadmap-d1e5aaac8154d4b7756b</guid>
+      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;SharePointのCopilotにおいて、保存済みおよび未保存のプレビューコンテンツをチャット画面の横に並べて表示できるようになります。また、作成されたHTMLフォームの操作や、チャットに送信する回答の確認も可能になります。一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;保存済みおよび未保存のプレビューコンテンツをチャットと並行して表示する機能の追加&lt;/li&gt;&lt;li&gt;作成されたHTMLフォームの操作機能の追加&lt;/li&gt;&lt;li&gt;チャットへ送信する回答を確認する機能の追加&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期：2026年11月予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574106"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: OneNoteのCopilot Chatによるコンテンツ作成・編集・洗練機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573446</link>
+      <guid isPermaLink="false">m365-roadmap-7e42744cc5e451de391f</guid>
+      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;OneNote内のCopilotは、編集モード時に新しいコンテンツの生成や直接的な編集が可能になります。このモードでは、ページ、セクション、ノートブックの作成・名前変更・削除に加え、ページ内のコンテンツ追加や編集が行えます。また、WorkIQ全体からのコンテンツ統合や、Word、Excel、PowerPointファイルの作成といった他ワークフローのアクションも実行可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;編集モード時における新しいコンテンツの生成と直接編集機能の提供&lt;/li&gt;&lt;li&gt;ページ、セクション、ノートブックの作成、名前変更、削除機能のサポート&lt;/li&gt;&lt;li&gt;WorkIQからのコンテンツ取得およびWord、Excel、PowerPointファイル作成などの他ワークフローの実行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573446"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Viva: Agent Dashboardにおけるエージェント対応範囲の拡大</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573169</link>
+      <guid isPermaLink="false">m365-roadmap-7820e8aa00b45f4b3592</guid>
+      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、サードパーティ製プラットフォームのエージェントに関するレポート表示が可能になりました。この機能拡張により、組織全体のエージェント活動をより包括的に把握できるようになります。プレビューおよびGA（一般提供）の時期は2026年10月が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サードパーティ製プラットフォームのエージェントに関するレポート表示機能の追加&lt;/li&gt;&lt;li&gt;Agent 365 Dashboard（Microsoft Viva Insights / Copilot Analytics）での対応範囲拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573169"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilotノートブックのオーディオ概要における更新情報</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570966</link>
+      <guid isPermaLink="false">m365-roadmap-398065f9f98aa1176187</guid>
+      <pubDate>Thu, 08 Oct 2026 23:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotノートブックのオーディオ概要機能に新しい機能が追加されます。トピック別のエピソードによる長文コンテンツのナビゲーション向上、 CritiqueやDebateなどの新しい音声形式のサポート、機密ラベルによる企業情報保護、および対応コンテンツの拡大が含まれます。一般提供およびプレビューは2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;トピックベースのエピソードによる、長文コンテンツのナビゲーション性の向上&lt;/li&gt;&lt;li&gt;CritiqueやDebateを含む新しい音声形式の追加&lt;/li&gt;&lt;li&gt;機密ラベルを用いたエンタープライズ情報保護（EIP）のサポート&lt;/li&gt;&lt;li&gt;オーディオ概要のコンテキストに対応するコンテンツタイプの拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570966"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.95-0 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95-0</link>
+      <guid isPermaLink="false">github-copilot-cli-407307754</guid>
+      <pubDate>Thu, 08 Oct 2026 22:19:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.95-0がリリースされました。管理プラグインのセットアップリトライ頻度がメッセージ失敗時ではなく、1時間ごとまたはポリシー変更後に調整されました。また、--contextフラグが新規および再開されたACPセッションに適用されるように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理プラグインのセットアップリトライを、メッセージの失敗時ではなく1時間ごとまたはポリシー変更後に実施するよう改善&lt;/li&gt;&lt;li&gt;--contextオプションが、デフォルトまたは以前保存されたコンテキスト階層をサイレントに使用するのではなく、新規および再開されたACPセッションに適用されるよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.95-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub CopilotにおけるClaude Haiku 5.5の提供開始</title>
-      <link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
-      <guid isPermaLink="false">github-changelog-d309be13e53a281a3c73</guid>
-      <pubDate>Wed, 07 Oct 2026 20:12:18 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Anthropicの軽量モデルであるClaude Haiku 5.5がGitHub Copilotで一般提供開始されました。本モデルは、サブエージェント、クイックエディット、ターミナルタスクなどの高速で大量の処理を実行する作業向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでClaude Haiku 5.5が一般提供（一般公開）されるようになりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.94-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.94-0</link>
-      <guid isPermaLink="false">github-copilot-cli-406044330</guid>
-      <pubDate>Wed, 07 Oct 2026 18:28:17 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94-0がリリースされました。管理設定により新しいCLIバージョンが要求された際、通常のプロンプトをブロックせずにアップデートガイダンスを表示する改善が含まれています。また、管理ポリシーによってAssisted Permissionsを無効化し、セッションをManual Approvalモードに維持できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理設定が新しいCLIバージョンを要求した際、通常のプロンプトをブロックせずにアップデートガイダンスを表示するよう改善&lt;/li&gt;&lt;li&gt;管理ポリシーによるAssisted Permissionsの無効化と、セッションのManual Approvalモード維持に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>漏洩シークレット検出用の専用モデルの提供</title>
-      <link>https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection</link>
-      <guid isPermaLink="false">github-changelog-d6b735286b3739eabb6b</guid>
-      <pubDate>Wed, 07 Oct 2026 16:13:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、漏洩したシークレットを検出するための専用モデルが導入されました。この新モデルにより、ソフトウェア開発のスタイルに関わらず、コンテキストを認識したシークレット保護が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンテキストを認識したシークレット検出のための専用モデルの追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>
