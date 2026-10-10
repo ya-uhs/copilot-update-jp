@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 10 Oct 2026 01:30:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 10:24:44 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.96-2のアップデート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.96-2</link>
+      <guid isPermaLink="false">github-copilot-cli-408528301</guid>
+      <pubDate>Sat, 10 Oct 2026 02:13:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;/modelおよび/configコマンドにおけるモデルIDの大文字小文字を区別しないように修正しました。また、正規化されたcanonical IDを保存するよう変更されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Make model IDs in /model and /config model case-insensitive and save canonical IDs&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.96-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.96-1 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.96-1</link>

@@ -1,5 +1,139 @@
 [
   {
+    "id": "github-copilot-cli-408444590",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.96-1",
+    "published_at": "2026-10-10T00:12:22Z",
+    "title_original": "GitHub Copilot CLI v1.0.96-1",
+    "excerpt_original": "**Added** - Interactive sandbox settings suggest possible environment secrets and let you add masking hosts before saving. **Fixed** - Keep /allow-all available during startup while enterprise policy is still resolving",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.96-1 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.96-1がリリースされました。インタラクティブなサンドボックス設定において環境シークレットの候補提示や保存前のマスキングホスト追加が可能になり、エンタープライズポリシーの解決中も起動時に/allow-allが維持されるように修正されました。",
+    "changes": [
+      "インタラクティブなサンドボックス設定で環境シークレットの候補提示と保存前のマスキングホスト追加が可能になりました。",
+      "エンタープライズポリシーの解決中も、起動時に /allow-all が利用可能な状態を維持するように修正されました。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-10T01:30:31Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-10T01:30:30Z"
+  },
+  {
+    "id": "github-changelog-ec899f104655cd5da0d3",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+    "published_at": "2026-10-09T22:58:23Z",
+    "title_original": "GitHub Copilot weekly releases — October 5",
+    "excerpt_original": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilot 週次リリース (10月5日)",
+    "summary_ja": "今週のアップデートにより、複数のアカウントや環境でCopilotが使いやすくなりました。エージェントがアクセスできる範囲や作業管理の制御が強化されています。さらに、GitHub CopilotにClaude Haikuが追加されました。",
+    "changes": [
+      "複数アカウントおよび環境でのCopilotの利便性向上",
+      "エージェントのアクセス範囲と作業管理に関する制御の強化",
+      "GitHub CopilotにおけるClaude Haikuの導入"
+    ],
+    "target_user": [
+      "開発者",
+      "GitHub Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-10T01:30:33Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-10T01:30:31Z"
+  },
+  {
+    "id": "m365-roadmap-e16f0fbeeb6fa40fc299",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573220",
+    "published_at": "2026-10-09T22:04:35Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Scheduling with Copilot",
+    "excerpt_original": "Users can now schedule appointments and meetings directly from chat. Simply ask Copilot to create an appointment or schedule a meeting with colleagues, and it will find available times, book rooms, draft agendas, and send invites—all within the chat experience. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Copilotによるスケジュール管理機能",
+    "summary_ja": "ユーザーはチャットから直接、予定や会議の作成ができるようになります。Copilotに依頼することで、空き時間の検索、会議室の予約、アジェンダのドラフト作成、招待の送信をチャット内で実行可能です。一般提供（GA）は2026年10月を予定しています。",
+    "changes": [
+      "チャットからの直接的な予定および会議のスケジュール設定",
+      "空き時間の検索、会議室の予約、アジェンダ作成、招待送信の自動化"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-10T01:30:34Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-10T01:30:33Z"
+  },
+  {
+    "id": "m365-roadmap-f9788ba60638c8dc4180",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570669",
+    "published_at": "2026-10-09T22:04:35Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Discover and use shared plugins in Copilot Studio",
+    "excerpt_original": "Copilot Studio now connects to Microsoft's shared plugin registry, making it easier for makers to discover and use plugins, connectors, and other available capabilities. This integration provides a more consistent way to extend agents with capabilities across Microsoft's AI ecosystem. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: 共有プラグインの検出と利用",
+    "summary_ja": "Microsoft Copilot StudioがMicrosoftの共有プラグインレジストリと接続し、メーカーがプラグインやコネクタをより簡単に発見して利用できるようになります。この統合により、MicrosoftのAIエコシステム全体でエージェントの機能を一貫した方法で拡張することが可能になります。プレビューは2026年10月、一般提供（GA）は2026年11月に予定されています。",
+    "changes": [
+      "Microsoftの共有プラグインレジストリとの接続機能の追加",
+      "プラグイン、コネクタ、および利用可能な機能の発見と利用の簡易化",
+      "MicrosoftのAIエコシステム全体におけるエージェント拡張の一貫性向上"
+    ],
+    "target_user": [
+      "Makers",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-10T01:30:35Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-10T01:30:34Z"
+  },
+  {
+    "id": "github-copilot-cli-408261843",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.96-0",
+    "published_at": "2026-10-09T19:22:22Z",
+    "title_original": "GitHub Copilot CLI v1.0.96-0",
+    "excerpt_original": "**Improved** - Interactive sessions in git repositories reach the input prompt sooner - Timeline now shows whether you, Assisted Permissions, policy, or unattended fallback made each permission decision. **Fixed** - /add-dir grants sandbox access to added directories for the current session - /user list shows the authentication source for each signed-in account - Show retry progress messages before recovered responses after transient model failures - Model completions no longer show an authentication warning when an account-owned catalog is unavailable while signed out",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.96-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.96-0がリリースされ、Gitリポジトリ内の対話型セッションにおける入力プロンプト表示の高速化や、パーミッション決定のタイムライン表示の改善が行われました。また、サンドボックスアクセスや認証ソースの表示、一時的なモデル障害からの回復処理に関する複数の不具合が修正されました。",
+    "changes": [
+      "Gitリポジトリ内の対話型セッションで入力プロンプトに到達するまでの速度を改善",
+      "タイムラインにパーミッションの決定主体（ユーザー、Assisted Permissions、ポリシー、unattended fallback）を表示するように変更",
+      "/add-dirコマンドが現在のセッションに対して追加されたディレクトリへのサンドボックスアクセスを付与するように修正",
+      "/user listコマンドで各サインインアカウントの認証元を表示するように修正",
+      "一時的なモデル障害からの回復後に、再試行の進捗メッセージを表示するように修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-10T01:30:36Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-10T01:30:35Z"
+  },
+  {
     "id": "github-copilot-cli-408085682",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.95",
@@ -267,6 +401,32 @@
     "source_id": "github-copilot-cli",
     "family": "github",
     "translation_attempted_at": "2026-10-09T01:44:00Z"
+  },
+  {
+    "id": "github-changelog-24caa334278b69fd5760",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
+    "published_at": "2026-10-08T19:43:05Z",
+    "title_original": "Copilot code review: New organization billing options and controls",
+    "excerpt_original": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s… The post Copilot code review: New organization billing options and controls appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "Copilotコードレビュー：新しい組織の課金オプションと制御機能",
+    "summary_ja": "GitHub Copilotのコードレビュー管理者を対象に、新たな課金およびライセンス制御機能が追加されました。組織の所有者は、Copilotライセンスを持つメンバーからのCopilotコードレビューの課金を組織アカウントに適用できるようになります。",
+    "changes": [
+      "Copilotコードレビュー管理者のための新しい課金およびライセンス制御機能を追加",
+      "組織の所有者がCopilotライセンスを持つメンバーのコードレビュー費用を組織へ請求可能に"
+    ],
+    "target_user": [
+      "Copilot code review admins",
+      "Organization owners"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-10T01:30:37Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-10T01:30:36Z"
   },
   {
     "id": "github-copilot-cli-407113523",
@@ -4893,163 +5053,27 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-changelog-ec899f104655cd5da0d3",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-    "published_at": "2026-10-09T22:58:23Z",
-    "title_original": "GitHub Copilot weekly releases — October 5",
-    "excerpt_original": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "GitHub Copilot 週次リリース (10月5日)",
-    "summary_ja": "今週のアップデートにより、複数のアカウントや環境でCopilotが使いやすくなりました。エージェントがアクセスできる範囲や作業管理の制御が強化されています。さらに、GitHub CopilotにClaude Haikuが追加されました。",
-    "changes": [
-      "複数アカウントおよび環境でのCopilotの利便性向上",
-      "エージェントのアクセス範囲と作業管理に関する制御の強化",
-      "GitHub CopilotにおけるClaude Haikuの導入"
-    ],
-    "target_user": [
-      "開発者",
-      "GitHub Copilot ユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-10T01:30:33Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-10T01:30:31Z"
-  },
-  {
-    "id": "github-changelog-24caa334278b69fd5760",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
-    "published_at": "2026-10-08T19:43:05Z",
-    "title_original": "Copilot code review: New organization billing options and controls",
-    "excerpt_original": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s… The post Copilot code review: New organization billing options and controls appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "Copilotコードレビュー：新しい組織の課金オプションと制御機能",
-    "summary_ja": "GitHub Copilotのコードレビュー管理者を対象に、新たな課金およびライセンス制御機能が追加されました。組織の所有者は、Copilotライセンスを持つメンバーからのCopilotコードレビューの課金を組織アカウントに適用できるようになります。",
-    "changes": [
-      "Copilotコードレビュー管理者のための新しい課金およびライセンス制御機能を追加",
-      "組織の所有者がCopilotライセンスを持つメンバーのコードレビュー費用を組織へ請求可能に"
-    ],
-    "target_user": [
-      "Copilot code review admins",
-      "Organization owners"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-10T01:30:37Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-10T01:30:36Z"
-  },
-  {
-    "id": "github-copilot-cli-408444590",
+    "id": "github-copilot-cli-408528301",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.96-1",
-    "published_at": "2026-10-10T00:12:22Z",
-    "title_original": "GitHub Copilot CLI v1.0.96-1",
-    "excerpt_original": "**Added** - Interactive sandbox settings suggest possible environment secrets and let you add masking hosts before saving. **Fixed** - Keep /allow-all available during startup while enterprise policy is still resolving",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.96-2",
+    "published_at": "2026-10-10T02:13:47Z",
+    "title_original": "GitHub Copilot CLI v1.0.96-2",
+    "excerpt_original": "**Fixed** - Make model IDs in /model and /config model case-insensitive and save canonical IDs",
     "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.96-1 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.96-1がリリースされました。インタラクティブなサンドボックス設定において環境シークレットの候補提示や保存前のマスキングホスト追加が可能になり、エンタープライズポリシーの解決中も起動時に/allow-allが維持されるように修正されました。",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.96-2のアップデート",
+    "summary_ja": "/modelおよび/configコマンドにおけるモデルIDの大文字小文字を区別しないように修正しました。また、正規化されたcanonical IDを保存するよう変更されました。",
     "changes": [
-      "インタラクティブなサンドボックス設定で環境シークレットの候補提示と保存前のマスキングホスト追加が可能になりました。",
-      "エンタープライズポリシーの解決中も、起動時に /allow-all が利用可能な状態を維持するように修正されました。"
+      "Make model IDs in /model and /config model case-insensitive and save canonical IDs"
     ],
     "target_user": [
       "Developer"
     ],
-    "importance": "medium",
+    "importance": "low",
     "translated": true,
-    "processed_at": "2026-10-10T01:30:31Z",
+    "processed_at": "2026-10-10T10:24:44Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-10-10T01:30:30Z"
-  },
-  {
-    "id": "github-copilot-cli-408261843",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.96-0",
-    "published_at": "2026-10-09T19:22:22Z",
-    "title_original": "GitHub Copilot CLI v1.0.96-0",
-    "excerpt_original": "**Improved** - Interactive sessions in git repositories reach the input prompt sooner - Timeline now shows whether you, Assisted Permissions, policy, or unattended fallback made each permission decision. **Fixed** - /add-dir grants sandbox access to added directories for the current session - /user list shows the authentication source for each signed-in account - Show retry progress messages before recovered responses after transient model failures - Model completions no longer show an authentication warning when an account-owned catalog is unavailable while signed out",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.96-0 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.96-0がリリースされ、Gitリポジトリ内の対話型セッションにおける入力プロンプト表示の高速化や、パーミッション決定のタイムライン表示の改善が行われました。また、サンドボックスアクセスや認証ソースの表示、一時的なモデル障害からの回復処理に関する複数の不具合が修正されました。",
-    "changes": [
-      "Gitリポジトリ内の対話型セッションで入力プロンプトに到達するまでの速度を改善",
-      "タイムラインにパーミッションの決定主体（ユーザー、Assisted Permissions、ポリシー、unattended fallback）を表示するように変更",
-      "/add-dirコマンドが現在のセッションに対して追加されたディレクトリへのサンドボックスアクセスを付与するように修正",
-      "/user listコマンドで各サインインアカウントの認証元を表示するように修正",
-      "一時的なモデル障害からの回復後に、再試行の進捗メッセージを表示するように修正"
-    ],
-    "target_user": [
-      "Developer"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-10T01:30:36Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-10T01:30:35Z"
-  },
-  {
-    "id": "m365-roadmap-e16f0fbeeb6fa40fc299",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573220",
-    "published_at": "2026-10-09T22:04:35Z",
-    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Scheduling with Copilot",
-    "excerpt_original": "Users can now schedule appointments and meetings directly from chat. Simply ask Copilot to create an appointment or schedule a meeting with colleagues, and it will find available times, book rooms, draft agendas, and send invites—all within the chat experience. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Copilotによるスケジュール管理機能",
-    "summary_ja": "ユーザーはチャットから直接、予定や会議の作成ができるようになります。Copilotに依頼することで、空き時間の検索、会議室の予約、アジェンダのドラフト作成、招待の送信をチャット内で実行可能です。一般提供（GA）は2026年10月を予定しています。",
-    "changes": [
-      "チャットからの直接的な予定および会議のスケジュール設定",
-      "空き時間の検索、会議室の予約、アジェンダ作成、招待送信の自動化"
-    ],
-    "target_user": [
-      "Microsoft 365 Copilot users"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-10T01:30:34Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-10T01:30:33Z"
-  },
-  {
-    "id": "m365-roadmap-f9788ba60638c8dc4180",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570669",
-    "published_at": "2026-10-09T22:04:35Z",
-    "title_original": "[Roadmap] Microsoft Copilot Studio: Discover and use shared plugins in Copilot Studio",
-    "excerpt_original": "Copilot Studio now connects to Microsoft's shared plugin registry, making it easier for makers to discover and use plugins, connectors, and other available capabilities. This integration provides a more consistent way to extend agents with capabilities across Microsoft's AI ecosystem. GA date: November CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: 共有プラグインの検出と利用",
-    "summary_ja": "Microsoft Copilot StudioがMicrosoftの共有プラグインレジストリと接続し、メーカーがプラグインやコネクタをより簡単に発見して利用できるようになります。この統合により、MicrosoftのAIエコシステム全体でエージェントの機能を一貫した方法で拡張することが可能になります。プレビューは2026年10月、一般提供（GA）は2026年11月に予定されています。",
-    "changes": [
-      "Microsoftの共有プラグインレジストリとの接続機能の追加",
-      "プラグイン、コネクタ、および利用可能な機能の発見と利用の簡易化",
-      "MicrosoftのAIエコシステム全体におけるエージェント拡張の一貫性向上"
-    ],
-    "target_user": [
-      "Makers",
-      "Developers"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-10T01:30:35Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-10T01:30:34Z"
+    "translation_attempted_at": "2026-10-10T10:24:43Z"
   }
 ]
