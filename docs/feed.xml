@@ -5,9 +5,59 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 09 Oct 2026 16:44:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 01:30:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.96-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.96-1</link>
+      <guid isPermaLink="false">github-copilot-cli-408444590</guid>
+      <pubDate>Sat, 10 Oct 2026 00:12:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.96-1がリリースされました。インタラクティブなサンドボックス設定において環境シークレットの候補提示や保存前のマスキングホスト追加が可能になり、エンタープライズポリシーの解決中も起動時に/allow-allが維持されるように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;インタラクティブなサンドボックス設定で環境シークレットの候補提示と保存前のマスキングホスト追加が可能になりました。&lt;/li&gt;&lt;li&gt;エンタープライズポリシーの解決中も、起動時に /allow-all が利用可能な状態を維持するように修正されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.96-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot 週次リリース (10月5日)</title>
+      <link>https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5</link>
+      <guid isPermaLink="false">github-changelog-ec899f104655cd5da0d3</guid>
+      <pubDate>Fri, 09 Oct 2026 22:58:23 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;今週のアップデートにより、複数のアカウントや環境でCopilotが使いやすくなりました。エージェントがアクセスできる範囲や作業管理の制御が強化されています。さらに、GitHub CopilotにClaude Haikuが追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;複数アカウントおよび環境でのCopilotの利便性向上&lt;/li&gt;&lt;li&gt;エージェントのアクセス範囲と作業管理に関する制御の強化&lt;/li&gt;&lt;li&gt;GitHub CopilotにおけるClaude Haikuの導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Copilotによるスケジュール管理機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573220</link>
+      <guid isPermaLink="false">m365-roadmap-e16f0fbeeb6fa40fc299</guid>
+      <pubDate>Fri, 09 Oct 2026 22:04:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ユーザーはチャットから直接、予定や会議の作成ができるようになります。Copilotに依頼することで、空き時間の検索、会議室の予約、アジェンダのドラフト作成、招待の送信をチャット内で実行可能です。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;チャットからの直接的な予定および会議のスケジュール設定&lt;/li&gt;&lt;li&gt;空き時間の検索、会議室の予約、アジェンダ作成、招待送信の自動化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573220"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: 共有プラグインの検出と利用</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570669</link>
+      <guid isPermaLink="false">m365-roadmap-f9788ba60638c8dc4180</guid>
+      <pubDate>Fri, 09 Oct 2026 22:04:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioがMicrosoftの共有プラグインレジストリと接続し、メーカーがプラグインやコネクタをより簡単に発見して利用できるようになります。この統合により、MicrosoftのAIエコシステム全体でエージェントの機能を一貫した方法で拡張することが可能になります。プレビューは2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoftの共有プラグインレジストリとの接続機能の追加&lt;/li&gt;&lt;li&gt;プラグイン、コネクタ、および利用可能な機能の発見と利用の簡易化&lt;/li&gt;&lt;li&gt;MicrosoftのAIエコシステム全体におけるエージェント拡張の一貫性向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570669"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.96-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.96-0</link>
+      <guid isPermaLink="false">github-copilot-cli-408261843</guid>
+      <pubDate>Fri, 09 Oct 2026 19:22:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.96-0がリリースされ、Gitリポジトリ内の対話型セッションにおける入力プロンプト表示の高速化や、パーミッション決定のタイムライン表示の改善が行われました。また、サンドボックスアクセスや認証ソースの表示、一時的なモデル障害からの回復処理に関する複数の不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gitリポジトリ内の対話型セッションで入力プロンプトに到達するまでの速度を改善&lt;/li&gt;&lt;li&gt;タイムラインにパーミッションの決定主体（ユーザー、Assisted Permissions、ポリシー、unattended fallback）を表示するように変更&lt;/li&gt;&lt;li&gt;/add-dirコマンドが現在のセッションに対して追加されたディレクトリへのサンドボックスアクセスを付与するように修正&lt;/li&gt;&lt;li&gt;/user listコマンドで各サインインアカウントの認証元を表示するように修正&lt;/li&gt;&lt;li&gt;一時的なモデル障害からの回復後に、再試行の進捗メッセージを表示するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.96-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.95 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.95</link>
@@ -106,6 +156,16 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.94がリリースされ、モデル選択と補完へのClaude Haiku 5.5の追加が行われました。また、MCP設定の初期化中断からの復旧改善や、MCPの有効化・無効化の挙動最適化が含まれています。さらに、アシステッドパーミッションやマネージド設定に関する改善とポリシー警告の表示が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モデル選択および --model 補完に Claude Haiku 5.5 を追加&lt;/li&gt;&lt;li&gt;中断された MCP 設定初期化からのクリーンな復旧に対応&lt;/li&gt;&lt;li&gt;MCP の有効化および無効化がサーバー検出前、かつサーバー起動なしで動作するように改善&lt;/li&gt;&lt;li&gt;アシステッドパーミッションで不要な手動承認の代わりに可視化されたシェルコードをパーミッション判定に送信&lt;/li&gt;&lt;li&gt;起動時のバイパスパーミッションフラグが管理設定で抑制された際にポリシー警告を表示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.94"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Copilotコードレビュー：新しい組織の課金オプションと制御機能</title>
+      <link>https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls</link>
+      <guid isPermaLink="false">github-changelog-24caa334278b69fd5760</guid>
+      <pubDate>Thu, 08 Oct 2026 19:43:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのコードレビュー管理者を対象に、新たな課金およびライセンス制御機能が追加されました。組織の所有者は、Copilotライセンスを持つメンバーからのCopilotコードレビューの課金を組織アカウントに適用できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilotコードレビュー管理者のための新しい課金およびライセンス制御機能を追加&lt;/li&gt;&lt;li&gt;組織の所有者がCopilotライセンスを持つメンバーのコードレビュー費用を組織へ請求可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
       <category>medium</category>
     </item>
     <item>

@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 09 Oct 2026 01:44:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 01:30:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Copilotによるスケジュール管理機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573220</link>
+      <guid isPermaLink="false">m365-roadmap-e16f0fbeeb6fa40fc299</guid>
+      <pubDate>Fri, 09 Oct 2026 22:04:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ユーザーはチャットから直接、予定や会議の作成ができるようになります。Copilotに依頼することで、空き時間の検索、会議室の予約、アジェンダのドラフト作成、招待の送信をチャット内で実行可能です。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;チャットからの直接的な予定および会議のスケジュール設定&lt;/li&gt;&lt;li&gt;空き時間の検索、会議室の予約、アジェンダ作成、招待送信の自動化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573220"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: 共有プラグインの検出と利用</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570669</link>
+      <guid isPermaLink="false">m365-roadmap-f9788ba60638c8dc4180</guid>
+      <pubDate>Fri, 09 Oct 2026 22:04:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioがMicrosoftの共有プラグインレジストリと接続し、メーカーがプラグインやコネクタをより簡単に発見して利用できるようになります。この統合により、MicrosoftのAIエコシステム全体でエージェントの機能を一貫した方法で拡張することが可能になります。プレビューは2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoftの共有プラグインレジストリとの接続機能の追加&lt;/li&gt;&lt;li&gt;プラグイン、コネクタ、および利用可能な機能の発見と利用の簡易化&lt;/li&gt;&lt;li&gt;MicrosoftのAIエコシステム全体におけるエージェント拡張の一貫性向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570669"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] SharePoint向けCopilot：AI入力ウィジェットとコンテンツプレビュー機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=574106</link>
