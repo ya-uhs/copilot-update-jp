@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 10 Oct 2026 10:24:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 00:39:43 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>JetBrains向けGitHub Copilotの新しいコントロールとチャットの改善</title>
+      <link>https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains</link>
+      <guid isPermaLink="false">github-changelog-a91405951b83e93930a5</guid>
+      <pubDate>Sat, 10 Oct 2026 18:53:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;JetBrains向けGitHub Copilotのアップデートにより、デフォルトモデルやMCPサーバーの管理機能が追加されました。また、診断プロセスの効率化、チャットのナビゲーション改善、アカウントコントロールの向上などが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;デフォルトモデルとMCPサーバーに対するより細かな制御機能の追加&lt;/li&gt;&lt;li&gt;診断プロセスの改善による問題解決の容易化&lt;/li&gt;&lt;li&gt;チャットのナビゲーション機能の向上&lt;/li&gt;&lt;li&gt;アカウントコントロールの改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.96-2のアップデート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.96-2</link>

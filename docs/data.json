@@ -5075,5 +5075,33 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-a91405951b83e93930a5",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+    "published_at": "2026-10-10T18:53:39Z",
+    "title_original": "New controls and chat improvements in Copilot for JetBrains",
+    "excerpt_original": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "JetBrains向けGitHub Copilotの新しいコントロールとチャットの改善",
+    "summary_ja": "JetBrains向けGitHub Copilotのアップデートにより、デフォルトモデルやMCPサーバーの管理機能が追加されました。また、診断プロセスの効率化、チャットのナビゲーション改善、アカウントコントロールの向上などが含まれています。",
+    "changes": [
+      "デフォルトモデルとMCPサーバーに対するより細かな制御機能の追加",
+      "診断プロセスの改善による問題解決の容易化",
+      "チャットのナビゲーション機能の向上",
+      "アカウントコントロールの改善"
+    ],
+    "target_user": [
+      "JetBrains developers",
+      "GitHub Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-11T00:39:43Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-11T00:39:39Z"
   }
 ]
