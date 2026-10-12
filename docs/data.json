@@ -5103,5 +5103,33 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-copilot-cli-410909545",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.96",
+    "published_at": "2026-10-12T18:52:01Z",
+    "title_original": "GitHub Copilot CLI v1.0.96",
+    "excerpt_original": "2026-10-12 - Interactive sandbox settings suggest possible environment secrets and let you add masking hosts before saving. - Make model IDs in /model and /config model case-insensitive and save canonical IDs - Keep /allow-all available during startup while enterprise policy is still resolving - /add-dir grants sandbox access to added directories for the current session - /user list shows the authentication source for each signed-in account - Show retry progress messages before recovered responses after transient model failures - Model completions no longer show an authentication warning when an account-owned catalog is unavailable while signed out - Interactive sessions in git repositories reach the input prompt sooner - Timeline now shows whether you, Assisted Permissions, policy, or unattended fallback made each permission decision.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.96リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.96がリリースされ、インタラクティブサンドボックス設定やモデルIDの大文字小文字を区別しない処理などの機能改善と修正が行われました。企業ポリシー解決中の起動時における `/allow-all` の維持や、タイムラインでの権限決定元の表示など、利便性とセキュリティ機能が向上しています。",
+    "changes": [
+      "インタラクティブなサンドボックス設定で環境シークレットの候補提示とマスク対象ホストの追加が可能になりました。",
+      "/model および /config でのモデルIDが大文字小文字を区別しないようになり、正規化されたIDが保存されるようになりました。",
+      "企業ポリシーの解決中も起動時に `/allow-all` が利用可能な状態を維持します。",
+      "/add-dir コマンドにより、現在のセッションに限り追加したディレクトリへのサンドボックスアクセスが許可されます。",
+      "/user list コマンドで、サインインしている各アカウントの認証ソースが表示されるようになりました。"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-12T19:32:31Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-12T19:32:29Z"
   }
 ]
