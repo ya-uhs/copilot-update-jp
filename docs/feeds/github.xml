@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 13 Oct 2026 02:49:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 11:24:12 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -27,6 +27,16 @@
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
       <category>low</category>
+    </item>
+    <item>
+      <title>クライアントテレメトリーのユーザー属性付与と設定可能なキャプチャ</title>
+      <link>https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture</link>
+      <guid isPermaLink="false">github-changelog-9d90bbd97b85568370c7</guid>
+      <pubDate>Mon, 12 Oct 2026 22:38:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;エンタープライズ管理者は、管理設定のテレメトリー機能を使用して、プロンプトや応答、ツールコンテンツを収集せずにGitHub Copilotのアクティビティを特定のユーザーに紐づけることができるようになりました。telemetry.capture.identity設定により、新たなオプションが追加されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理設定内のテレメトリー機能による、ユーザーコンテンツを収集しないGitHub Copilotアクティビティのユーザー属性付与&lt;/li&gt;&lt;li&gt;telemetry.capture.identity設定の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.97-0 リリースノート</title>

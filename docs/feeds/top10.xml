@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 13 Oct 2026 02:49:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 11:24:12 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,6 +59,16 @@
       <category>medium</category>
     </item>
     <item>
+      <title>クライアントテレメトリーのユーザー属性付与と設定可能なキャプチャ</title>
+      <link>https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture</link>
+      <guid isPermaLink="false">github-changelog-9d90bbd97b85568370c7</guid>
+      <pubDate>Mon, 12 Oct 2026 22:38:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;エンタープライズ管理者は、管理設定のテレメトリー機能を使用して、プロンプトや応答、ツールコンテンツを収集せずにGitHub Copilotのアクティビティを特定のユーザーに紐づけることができるようになりました。telemetry.capture.identity設定により、新たなオプションが追加されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理設定内のテレメトリー機能による、ユーザーコンテンツを収集しないGitHub Copilotアクティビティのユーザー属性付与&lt;/li&gt;&lt;li&gt;telemetry.capture.identity設定の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.97-0 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-0</link>
       <guid isPermaLink="false">github-copilot-cli-410983388</guid>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.96-1がリリースされました。インタラクティブなサンドボックス設定において環境シークレットの候補提示や保存前のマスキングホスト追加が可能になり、エンタープライズポリシーの解決中も起動時に/allow-allが維持されるように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;インタラクティブなサンドボックス設定で環境シークレットの候補提示と保存前のマスキングホスト追加が可能になりました。&lt;/li&gt;&lt;li&gt;エンタープライズポリシーの解決中も、起動時に /allow-all が利用可能な状態を維持するように修正されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.96-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot 週次リリース (10月5日)</title>
-      <link>https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5</link>
-      <guid isPermaLink="false">github-changelog-ec899f104655cd5da0d3</guid>
-      <pubDate>Fri, 09 Oct 2026 22:58:23 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;今週のアップデートにより、複数のアカウントや環境でCopilotが使いやすくなりました。エージェントがアクセスできる範囲や作業管理の制御が強化されています。さらに、GitHub CopilotにClaude Haikuが追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;複数アカウントおよび環境でのCopilotの利便性向上&lt;/li&gt;&lt;li&gt;エージェントのアクセス範囲と作業管理に関する制御の強化&lt;/li&gt;&lt;li&gt;GitHub CopilotにおけるClaude Haikuの導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>

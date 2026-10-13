@@ -137,6 +137,32 @@
     "llm_provider": "Gemini"
   },
   {
+    "id": "github-changelog-9d90bbd97b85568370c7",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+    "published_at": "2026-10-12T22:38:00Z",
+    "title_original": "Client telemetry user attribution and configurable capture",
+    "excerpt_original": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and configurable capture appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "クライアントテレメトリーのユーザー属性付与と設定可能なキャプチャ",
+    "summary_ja": "エンタープライズ管理者は、管理設定のテレメトリー機能を使用して、プロンプトや応答、ツールコンテンツを収集せずにGitHub Copilotのアクティビティを特定のユーザーに紐づけることができるようになりました。telemetry.capture.identity設定により、新たなオプションが追加されます。",
+    "changes": [
+      "管理設定内のテレメトリー機能による、ユーザーコンテンツを収集しないGitHub Copilotアクティビティのユーザー属性付与",
+      "telemetry.capture.identity設定の追加"
+    ],
+    "target_user": [
+      "Enterprise administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-13T11:24:12Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-13T11:24:11Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-410983388",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-0",

@@ -1,5 +1,165 @@
 [
   {
+    "id": "github-copilot-cli-411129595",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-2",
+    "published_at": "2026-10-13T01:09:14Z",
+    "title_original": "GitHub Copilot CLI v1.0.97-2",
+    "excerpt_original": "**Fixed** - Discover all custom agents even when repositories define more than 100 or nest agent files deeply.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.97-2 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.97-2がリリースされました。今回のアップデートでは、リポジトリに100を超えるカスタムエージェントが定義されている場合や、エージェントファイルが深くネストされている場合でも、すべてのカスタムエージェントを検出できるように修正されました。",
+    "changes": [
+      "リポジトリ内のカスタムエージェントの数が100を超える場合や、ファイルが深くネストされている場合でも、すべてのカスタムエージェントを正しく検出できるように修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-13T02:49:53Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-13T02:49:52Z"
+  },
+  {
+    "id": "m365-roadmap-c55f87aff9bac74ee82b",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574105",
+    "published_at": "2026-10-12T23:01:05Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Integrate the Sales Development agent with Salesforce",
+    "excerpt_original": "Sales Development Agent now integrates with Salesforce, enabling organizations to use SDA with their existing Salesforce CRM. SDA can access leads, manage prospect records, log sales activities, and keep engagement actions—including qualification, disqualification, and ownership changes—connected to the CRM workflow. The integration uses Microsoft’s Salesforce Model Context Protocol (MCP) server to connect SDA with Salesforce. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Sales Development agentとSalesforceの統合",
+    "summary_ja": "Sales Development AgentがSalesforceと統合され、組織が既存のSalesforce CRMと連携して利用できるようになります。この機能はMicrosoftのSalesforce Model Context Protocol (MCP)サーバーを使用して接続を実現します。GA（一般提供）は2026年10月を予定しています。",
+    "changes": [
+      "Sales Development AgentとSalesforce CRMの統合機能の追加",
+      "リードへのアクセス、見込み客レコードの管理、営業活動のログ記録、CRMワークフローとの連動に対応",
+      "MicrosoftのSalesforce Model Context Protocol (MCP)サーバーを使用した接続方式の採用"
+    ],
+    "target_user": [
+      "Salesforce users",
+      "Administrators",
+      "Sales professionals"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-13T02:49:55Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-13T02:49:53Z"
+  },
+  {
+    "id": "m365-roadmap-d2ce2513f8ed889c7ef3",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571888",
+    "published_at": "2026-10-12T23:01:05Z",
+    "title_original": "[Roadmap] Power Apps: Model-driven applications in Business Apps in Work IQ",
+    "excerpt_original": "Power Apps model-driven apps are now available as Business Apps in Work IQ. They can be accessed through the Work IQ (Preview) tool in Copilot Studio or through a natural-language chat experience powered by Work IQ MCP. In either experience, natural-language prompts let users list and read records or create, update, and delete them. For create and update, Work IQ maps supplied values to the appropriate app fields. Before a change is submitted, the proposed values require explicit user confirmation. GA date: November CY2026 Preview date: September CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Power Apps: Work IQにおけるモデル駆動型アプリケーション",
+    "summary_ja": "Power Appsのモデル駆動型アプリがWork IQのビジネスアプリとして利用可能になりました。ユーザーはCopilot StudioのWork IQ (Preview) ツールやWork IQ MCPによる自然言語チャットを通じて、レコードの閲覧、作成、更新、削除を行うことができます。変更の送信前には、提示された値に対する明示的なユーザー確認が必要です。",
+    "changes": [
+      "Work IQのビジネスアプリとしてPower Appsモデル駆動型アプリを利用可能化",
+      "Copilot StudioのWork IQ (Preview) ツールまたはWork IQ MCPによる自然言語チャットでのアクセスに対応",
+      "自然言語プロンプトを通じたレコードのリスト表示、閲覧、作成、更新、削除機能の提供",
+      "作成および更新時のフィールドマッピングと、変更送信前の明示的なユーザー確認の必須化"
+    ],
+    "target_user": [
+      "Developer",
+      "Admin",
+      "User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-13T02:49:56Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-13T02:49:55Z"
+  },
+  {
+    "id": "m365-roadmap-af483f97710e307bc602",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570871",
+    "published_at": "2026-10-12T23:01:05Z",
+    "title_original": "[Roadmap] Work IQ: Updating documents in Office",
+    "excerpt_original": "Work IQ enables agents to create and edit Microsoft Office documents using organizational context, helping users produce and update content more efficiently. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ: Officeドキュメントの更新機能",
+    "summary_ja": "Work IQにより、エージェントは組織のコンテキストを活用してMicrosoft Officeドキュメントの作成および編集が可能になります。これにより、ユーザーはより効率的にコンテンツの作成と更新を行えるようになります。プレビューは2026年11月、一般提供（GA）は2027年1月に予定されています。",
+    "changes": [
+      "組織のコンテキストを使用したMicrosoft Officeドキュメントの作成および編集機能の追加"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-13T02:49:57Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-13T02:49:56Z"
+  },
+  {
+    "id": "github-copilot-cli-411059083",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-1",
+    "published_at": "2026-10-12T22:56:58Z",
+    "title_original": "GitHub Copilot CLI v1.0.97-1",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.97-1 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.97-1がリリースされました。今回のアップデートでは、不具合の修正と変更が行われています。",
+    "changes": [
+      "不具合の修正と変更の実施"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-13T02:49:58Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-13T02:49:57Z"
+  },
+  {
+    "id": "github-copilot-cli-410983388",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-0",
+    "published_at": "2026-10-12T20:45:05Z",
+    "title_original": "GitHub Copilot CLI v1.0.97-0",
+    "excerpt_original": "**Added** - Add agent-scoped declarative hooks for custom agents **Improved** - Inline images render by default on supported terminals without enabling experimental mode. Use `/settings inlineImages false` to turn them off **Fixed** - Autopilot denies a preToolUse hook's \"ask\" decision instead of stopping on a permission dialog nobody is watching - Keep Windows taskbar agent icons grouped across CLI updates by using a stable icon path - Keep saved settings such as dismissed prompts, trusted folders and sign-ins when one entry in config.json is invalid, instead of resetting them on every launch - In /config, managed permission rules are read-only and hidden unless set by your organization. - Show billed AI Credits in /usage for token-billed sessions, including after resume - File reads using a view_range that is not exactly two elements, such as a lone start line, now show their line range and line count in the timeline, and session exports no longer contain the literal text undefined - Dragging to select text in the transcript no longer occasionally highlights and copies the row below the pointer. - Power BI and Bluebird MCP servers accept their published resource scopes during sign-in - Redact secrets safely in --output-format json output while preserving valid variable references - Resuming suspended sessions now reports interrupted tool calls and avoids replaying canceled writes. - Synchronous /task JSON output now includes failed child error and lifecycle events before completion. - Explicit GitHub MCP tool and toolset selections use the correct endpoint, so requested write tools stay available. - Cached MCP tool calls recheck their definition when a concurrent tool-list refresh changes the catalog. - Skills and custom agents from --plugin-dir plugins now reach autocomplete and invocation instead of going missing. - Fixed resumed sessions rebuilding plugin hooks from the wrong plugin list, so hooks from repository-local marketplace plugins now keep running after `--resume`, and hooks from plugins your configuration disabled no longer come back - Keep /user switch new-session choices visible after account checks in short terminals - Unavailable permission recovery attempts are now tracked per request, so unrelated calls no longer consume each other's retry budget. - Background-shell wait status no longer animates when no foreground work is running - Emergency memory relief in long sessions can now bypass its cooldown before V8 aborts, so a session that would have been killed by a JavaScript heap out of memory crash may survive with compacted history instead",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.97-0 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.97-0がリリースされました。カスタムエージェント向けの宣言型フックの追加、サポートされている端末でのインライン画像表示のデフォルト有効化、AutopilotやMCPサーバー関連の不具合修正が行われています。また、設定ファイルの堅牢性向上やメモリ管理の改善も含まれています。",
+    "changes": [
+      "カスタムエージェント向けのエージェントスコープの宣言型フックを追加",
+      "サポートされている端末でインライン画像をデフォルトで描画するように改善",
+      "無効なconfig.jsonエントリが存在する場合でも、起動時に設定がリセットされないように修正",
+      "長時間のセッションにおける緊急メモリ解放がクールダウンをバイパスできるように改善"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-13T02:49:59Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-13T02:49:58Z"
+  },
+  {
     "id": "github-copilot-cli-410909545",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.96",
@@ -5133,163 +5293,28 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-411129595",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-2",
-    "published_at": "2026-10-13T01:09:14Z",
-    "title_original": "GitHub Copilot CLI v1.0.97-2",
-    "excerpt_original": "**Fixed** - Discover all custom agents even when repositories define more than 100 or nest agent files deeply.",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.97-2 のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.97-2がリリースされました。今回のアップデートでは、リポジトリに100を超えるカスタムエージェントが定義されている場合や、エージェントファイルが深くネストされている場合でも、すべてのカスタムエージェントを検出できるように修正されました。",
+    "id": "github-changelog-9d90bbd97b85568370c7",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+    "published_at": "2026-10-12T22:38:00Z",
+    "title_original": "Client telemetry user attribution and configurable capture",
+    "excerpt_original": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and configurable capture appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "クライアントテレメトリーのユーザー属性付与と設定可能なキャプチャ",
+    "summary_ja": "エンタープライズ管理者は、管理設定のテレメトリー機能を使用して、プロンプトや応答、ツールコンテンツを収集せずにGitHub Copilotのアクティビティを特定のユーザーに紐づけることができるようになりました。telemetry.capture.identity設定により、新たなオプションが追加されます。",
     "changes": [
-      "リポジトリ内のカスタムエージェントの数が100を超える場合や、ファイルが深くネストされている場合でも、すべてのカスタムエージェントを正しく検出できるように修正"
+      "管理設定内のテレメトリー機能による、ユーザーコンテンツを収集しないGitHub Copilotアクティビティのユーザー属性付与",
+      "telemetry.capture.identity設定の追加"
     ],
     "target_user": [
-      "Developer"
+      "Enterprise administrators"
     ],
-    "importance": "low",
+    "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-13T02:49:53Z",
-    "source_id": "github-copilot-cli",
+    "processed_at": "2026-10-13T11:24:12Z",
+    "source_id": "github-changelog",
     "family": "github",
-    "translation_attempted_at": "2026-10-13T02:49:52Z"
-  },
-  {
-    "id": "github-copilot-cli-411059083",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-1",
-    "published_at": "2026-10-12T22:56:58Z",
-    "title_original": "GitHub Copilot CLI v1.0.97-1",
-    "excerpt_original": "Fixes and changes",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.97-1 リリース",
-    "summary_ja": "GitHub Copilot CLIのバージョン1.0.97-1がリリースされました。今回のアップデートでは、不具合の修正と変更が行われています。",
-    "changes": [
-      "不具合の修正と変更の実施"
-    ],
-    "target_user": [
-      "Developer"
-    ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-10-13T02:49:58Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-13T02:49:57Z"
-  },
-  {
-    "id": "github-copilot-cli-410983388",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-0",
-    "published_at": "2026-10-12T20:45:05Z",
-    "title_original": "GitHub Copilot CLI v1.0.97-0",
-    "excerpt_original": "**Added** - Add agent-scoped declarative hooks for custom agents **Improved** - Inline images render by default on supported terminals without enabling experimental mode. Use `/settings inlineImages false` to turn them off **Fixed** - Autopilot denies a preToolUse hook's \"ask\" decision instead of stopping on a permission dialog nobody is watching - Keep Windows taskbar agent icons grouped across CLI updates by using a stable icon path - Keep saved settings such as dismissed prompts, trusted folders and sign-ins when one entry in config.json is invalid, instead of resetting them on every launch - In /config, managed permission rules are read-only and hidden unless set by your organization. - Show billed AI Credits in /usage for token-billed sessions, including after resume - File reads using a view_range that is not exactly two elements, such as a lone start line, now show their line range and line count in the timeline, and session exports no longer contain the literal text undefined - Dragging to select text in the transcript no longer occasionally highlights and copies the row below the pointer. - Power BI and Bluebird MCP servers accept their published resource scopes during sign-in - Redact secrets safely in --output-format json output while preserving valid variable references - Resuming suspended sessions now reports interrupted tool calls and avoids replaying canceled writes. - Synchronous /task JSON output now includes failed child error and lifecycle events before completion. - Explicit GitHub MCP tool and toolset selections use the correct endpoint, so requested write tools stay available. - Cached MCP tool calls recheck their definition when a concurrent tool-list refresh changes the catalog. - Skills and custom agents from --plugin-dir plugins now reach autocomplete and invocation instead of going missing. - Fixed resumed sessions rebuilding plugin hooks from the wrong plugin list, so hooks from repository-local marketplace plugins now keep running after `--resume`, and hooks from plugins your configuration disabled no longer come back - Keep /user switch new-session choices visible after account checks in short terminals - Unavailable permission recovery attempts are now tracked per request, so unrelated calls no longer consume each other's retry budget. - Background-shell wait status no longer animates when no foreground work is running - Emergency memory relief in long sessions can now bypass its cooldown before V8 aborts, so a session that would have been killed by a JavaScript heap out of memory crash may survive with compacted history instead",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.97-0 リリースノート",
-    "summary_ja": "GitHub Copilot CLI v1.0.97-0がリリースされました。カスタムエージェント向けの宣言型フックの追加、サポートされている端末でのインライン画像表示のデフォルト有効化、AutopilotやMCPサーバー関連の不具合修正が行われています。また、設定ファイルの堅牢性向上やメモリ管理の改善も含まれています。",
-    "changes": [
-      "カスタムエージェント向けのエージェントスコープの宣言型フックを追加",
-      "サポートされている端末でインライン画像をデフォルトで描画するように改善",
-      "無効なconfig.jsonエントリが存在する場合でも、起動時に設定がリセットされないように修正",
-      "長時間のセッションにおける緊急メモリ解放がクールダウンをバイパスできるように改善"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI users",
-      "Developers"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-13T02:49:59Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-13T02:49:58Z"
-  },
-  {
-    "id": "m365-roadmap-c55f87aff9bac74ee82b",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574105",
-    "published_at": "2026-10-12T23:01:05Z",
-    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Integrate the Sales Development agent with Salesforce",
-    "excerpt_original": "Sales Development Agent now integrates with Salesforce, enabling organizations to use SDA with their existing Salesforce CRM. SDA can access leads, manage prospect records, log sales activities, and keep engagement actions—including qualification, disqualification, and ownership changes—connected to the CRM workflow. The integration uses Microsoft’s Salesforce Model Context Protocol (MCP) server to connect SDA with Salesforce. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Sales Development agentとSalesforceの統合",
-    "summary_ja": "Sales Development AgentがSalesforceと統合され、組織が既存のSalesforce CRMと連携して利用できるようになります。この機能はMicrosoftのSalesforce Model Context Protocol (MCP)サーバーを使用して接続を実現します。GA（一般提供）は2026年10月を予定しています。",
-    "changes": [
-      "Sales Development AgentとSalesforce CRMの統合機能の追加",
-      "リードへのアクセス、見込み客レコードの管理、営業活動のログ記録、CRMワークフローとの連動に対応",
-      "MicrosoftのSalesforce Model Context Protocol (MCP)サーバーを使用した接続方式の採用"
-    ],
-    "target_user": [
-      "Salesforce users",
-      "Administrators",
-      "Sales professionals"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-13T02:49:55Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-13T02:49:53Z"
-  },
-  {
-    "id": "m365-roadmap-d2ce2513f8ed889c7ef3",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571888",
-    "published_at": "2026-10-12T23:01:05Z",
-    "title_original": "[Roadmap] Power Apps: Model-driven applications in Business Apps in Work IQ",
-    "excerpt_original": "Power Apps model-driven apps are now available as Business Apps in Work IQ. They can be accessed through the Work IQ (Preview) tool in Copilot Studio or through a natural-language chat experience powered by Work IQ MCP. In either experience, natural-language prompts let users list and read records or create, update, and delete them. For create and update, Work IQ maps supplied values to the appropriate app fields. Before a change is submitted, the proposed values require explicit user confirmation. GA date: November CY2026 Preview date: September CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Power Apps: Work IQにおけるモデル駆動型アプリケーション",
-    "summary_ja": "Power Appsのモデル駆動型アプリがWork IQのビジネスアプリとして利用可能になりました。ユーザーはCopilot StudioのWork IQ (Preview) ツールやWork IQ MCPによる自然言語チャットを通じて、レコードの閲覧、作成、更新、削除を行うことができます。変更の送信前には、提示された値に対する明示的なユーザー確認が必要です。",
-    "changes": [
-      "Work IQのビジネスアプリとしてPower Appsモデル駆動型アプリを利用可能化",
-      "Copilot StudioのWork IQ (Preview) ツールまたはWork IQ MCPによる自然言語チャットでのアクセスに対応",
-      "自然言語プロンプトを通じたレコードのリスト表示、閲覧、作成、更新、削除機能の提供",
-      "作成および更新時のフィールドマッピングと、変更送信前の明示的なユーザー確認の必須化"
-    ],
-    "target_user": [
-      "Developer",
-      "Admin",
-      "User"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-13T02:49:56Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-13T02:49:55Z"
-  },
-  {
-    "id": "m365-roadmap-af483f97710e307bc602",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570871",
-    "published_at": "2026-10-12T23:01:05Z",
-    "title_original": "[Roadmap] Work IQ: Updating documents in Office",
-    "excerpt_original": "Work IQ enables agents to create and edit Microsoft Office documents using organizational context, helping users produce and update content more efficiently. GA date: January CY2027 Preview date: November CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Work IQ: Officeドキュメントの更新機能",
-    "summary_ja": "Work IQにより、エージェントは組織のコンテキストを活用してMicrosoft Officeドキュメントの作成および編集が可能になります。これにより、ユーザーはより効率的にコンテンツの作成と更新を行えるようになります。プレビューは2026年11月、一般提供（GA）は2027年1月に予定されています。",
-    "changes": [
-      "組織のコンテキストを使用したMicrosoft Officeドキュメントの作成および編集機能の追加"
-    ],
-    "target_user": [
-      "Microsoft 365 Copilot ユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-13T02:49:57Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-13T02:49:56Z"
+    "translation_attempted_at": "2026-10-13T11:24:11Z"
   }
 ]
