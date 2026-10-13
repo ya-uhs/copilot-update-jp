@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 13 Oct 2026 11:24:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 17:17:19 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.97-3 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-3</link>
+      <guid isPermaLink="false">github-copilot-cli-411883031</guid>
+      <pubDate>Tue, 13 Oct 2026 16:25:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.97-3がリリースされました。リモートプラグインマーケットプレイスとプラグインの取得処理における認証リトライの改善、TLSインターセプティングプロキシ環境下でのストリーミング応答の修正、およびGitHub SCPリモートの絶対パスの解析修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HTTPS認証失敗時に、サインイン済みのGitHubトークンを使用してリモートプラグインマーケットプレイスおよびプラグインの取得を1回リトライするよう修正しました。&lt;/li&gt;&lt;li&gt;TLSインターセプティングプロキシ環境下で close_notify が省略された場合にストリーミング応答が完了するように修正しました。&lt;/li&gt;&lt;li&gt;絶対パスを持つGitHub SCPリモートの解析を修正し、リポジトリのオーナー名と名前が正しく解決されるようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>エンタープライズ管理設定の強制に関するアップデート</title>
+      <link>https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates</link>
+      <guid isPermaLink="false">github-changelog-cfe3062e249fdf7fbd68</guid>
+      <pubDate>Tue, 13 Oct 2026 15:20:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのエンタープライズ管理者は、サポートされているクライアントに対し、キャッシュされたポリシーではなく、起動時に現在のサーバー管理設定を取得することを必須にできるようになりました。また、最小クライアントバージョンの要件も追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているGitHub Copilotクライアントが起動時にキャッシュされたポリシーではなくサーバー管理設定を取得することを必須にする機能を追加&lt;/li&gt;&lt;li&gt;最小クライアントバージョンの要件を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.97-2 のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-2</link>
