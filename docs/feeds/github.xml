@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 12 Oct 2026 19:32:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 02:49:59 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.97-2 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-2</link>
+      <guid isPermaLink="false">github-copilot-cli-411129595</guid>
+      <pubDate>Tue, 13 Oct 2026 01:09:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.97-2がリリースされました。今回のアップデートでは、リポジトリに100を超えるカスタムエージェントが定義されている場合や、エージェントファイルが深くネストされている場合でも、すべてのカスタムエージェントを検出できるように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リポジトリ内のカスタムエージェントの数が100を超える場合や、ファイルが深くネストされている場合でも、すべてのカスタムエージェントを正しく検出できるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.97-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-1</link>
+      <guid isPermaLink="false">github-copilot-cli-411059083</guid>
+      <pubDate>Mon, 12 Oct 2026 22:56:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.97-1がリリースされました。今回のアップデートでは、不具合の修正と変更が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.97-0 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-0</link>
+      <guid isPermaLink="false">github-copilot-cli-410983388</guid>
+      <pubDate>Mon, 12 Oct 2026 20:45:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.97-0がリリースされました。カスタムエージェント向けの宣言型フックの追加、サポートされている端末でのインライン画像表示のデフォルト有効化、AutopilotやMCPサーバー関連の不具合修正が行われています。また、設定ファイルの堅牢性向上やメモリ管理の改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムエージェント向けのエージェントスコープの宣言型フックを追加&lt;/li&gt;&lt;li&gt;サポートされている端末でインライン画像をデフォルトで描画するように改善&lt;/li&gt;&lt;li&gt;無効なconfig.jsonエントリが存在する場合でも、起動時に設定がリセットされないように修正&lt;/li&gt;&lt;li&gt;長時間のセッションにおける緊急メモリ解放がクールダウンをバイパスできるように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.96リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.96</link>

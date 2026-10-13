@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 12 Oct 2026 19:32:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 02:49:59 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -29,14 +29,44 @@
       <category>high</category>
     </item>
     <item>
-      <title>Microsoft 365 Copilot リリースノート (2026年10月6日)</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026</link>
-      <guid isPermaLink="false">m365-release-notes-a3ddaa992de2b3735893</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのアップデートでは、検索とチャットの統合や、Copilotでの代替レスポンスの生成機能が追加されました。また、コネクタ設定の直接編集機能、SharePointの権限に関する詳細レポート、PowerPointでのカスタムスキル作成などが導入されました。さらに、Viva InsightsによるCoworkの採用状況や影響に関する分析機能も拡充されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 Copilot Searchに会話型AIチャットが直接埋め込まれ、検索とチャットの統合体験が可能になりました。&lt;/li&gt;&lt;li&gt;「もう一度試す」や「モデルの切り替え」オプションを使用して、プロンプトに対する代替レスポンスを素早く取得できるようになりました。&lt;/li&gt;&lt;li&gt;管理者がサポートチケットなしでCopilotコネクタのクエリ文字列やユーザーIDマッピング規則を直接編集できるようになりました。&lt;/li&gt;&lt;li&gt;SharePoint Admin Centerに、「全員」および「外部ユーザー以外の全員」グループに対するアイテムレベルの権限を詳細に表示するレポートが追加されました。&lt;/li&gt;&lt;li&gt;PowerPointのCopilotでカスタムスキルの作成や、SharePointおよびOneDriveに保存されたファイルの参照が可能になりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Sales Development agentとSalesforceの統合</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574105</link>
+      <guid isPermaLink="false">m365-roadmap-c55f87aff9bac74ee82b</guid>
+      <pubDate>Mon, 12 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Sales Development AgentがSalesforceと統合され、組織が既存のSalesforce CRMと連携して利用できるようになります。この機能はMicrosoftのSalesforce Model Context Protocol (MCP)サーバーを使用して接続を実現します。GA（一般提供）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales Development AgentとSalesforce CRMの統合機能の追加&lt;/li&gt;&lt;li&gt;リードへのアクセス、見込み客レコードの管理、営業活動のログ記録、CRMワークフローとの連動に対応&lt;/li&gt;&lt;li&gt;MicrosoftのSalesforce Model Context Protocol (MCP)サーバーを使用した接続方式の採用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574105"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Power Apps: Work IQにおけるモデル駆動型アプリケーション</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571888</link>
+      <guid isPermaLink="false">m365-roadmap-d2ce2513f8ed889c7ef3</guid>
+      <pubDate>Mon, 12 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Appsのモデル駆動型アプリがWork IQのビジネスアプリとして利用可能になりました。ユーザーはCopilot StudioのWork IQ (Preview) ツールやWork IQ MCPによる自然言語チャットを通じて、レコードの閲覧、作成、更新、削除を行うことができます。変更の送信前には、提示された値に対する明示的なユーザー確認が必要です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQのビジネスアプリとしてPower Appsモデル駆動型アプリを利用可能化&lt;/li&gt;&lt;li&gt;Copilot StudioのWork IQ (Preview) ツールまたはWork IQ MCPによる自然言語チャットでのアクセスに対応&lt;/li&gt;&lt;li&gt;自然言語プロンプトを通じたレコードのリスト表示、閲覧、作成、更新、削除機能の提供&lt;/li&gt;&lt;li&gt;作成および更新時のフィールドマッピングと、変更送信前の明示的なユーザー確認の必須化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571888"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: Officeドキュメントの更新機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570871</link>
+      <guid isPermaLink="false">m365-roadmap-af483f97710e307bc602</guid>
+      <pubDate>Mon, 12 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Work IQにより、エージェントは組織のコンテキストを活用してMicrosoft Officeドキュメントの作成および編集が可能になります。これにより、ユーザーはより効率的にコンテンツの作成と更新を行えるようになります。プレビューは2026年11月、一般提供（GA）は2027年1月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織のコンテキストを使用したMicrosoft Officeドキュメントの作成および編集機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570871"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.97-0 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-0</link>
+      <guid isPermaLink="false">github-copilot-cli-410983388</guid>
+      <pubDate>Mon, 12 Oct 2026 20:45:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.97-0がリリースされました。カスタムエージェント向けの宣言型フックの追加、サポートされている端末でのインライン画像表示のデフォルト有効化、AutopilotやMCPサーバー関連の不具合修正が行われています。また、設定ファイルの堅牢性向上やメモリ管理の改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムエージェント向けのエージェントスコープの宣言型フックを追加&lt;/li&gt;&lt;li&gt;サポートされている端末でインライン画像をデフォルトで描画するように改善&lt;/li&gt;&lt;li&gt;無効なconfig.jsonエントリが存在する場合でも、起動時に設定がリセットされないように修正&lt;/li&gt;&lt;li&gt;長時間のセッションにおける緊急メモリ解放がクールダウンをバイパスできるように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.96リリース</title>
@@ -76,36 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;今週のアップデートにより、複数のアカウントや環境でCopilotが使いやすくなりました。エージェントがアクセスできる範囲や作業管理の制御が強化されています。さらに、GitHub CopilotにClaude Haikuが追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;複数アカウントおよび環境でのCopilotの利便性向上&lt;/li&gt;&lt;li&gt;エージェントのアクセス範囲と作業管理に関する制御の強化&lt;/li&gt;&lt;li&gt;GitHub CopilotにおけるClaude Haikuの導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Copilotによるスケジュール管理機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573220</link>
-      <guid isPermaLink="false">m365-roadmap-e16f0fbeeb6fa40fc299</guid>
-      <pubDate>Fri, 09 Oct 2026 22:04:35 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ユーザーはチャットから直接、予定や会議の作成ができるようになります。Copilotに依頼することで、空き時間の検索、会議室の予約、アジェンダのドラフト作成、招待の送信をチャット内で実行可能です。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;チャットからの直接的な予定および会議のスケジュール設定&lt;/li&gt;&lt;li&gt;空き時間の検索、会議室の予約、アジェンダ作成、招待送信の自動化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573220"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: 共有プラグインの検出と利用</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570669</link>
-      <guid isPermaLink="false">m365-roadmap-f9788ba60638c8dc4180</guid>
-      <pubDate>Fri, 09 Oct 2026 22:04:35 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioがMicrosoftの共有プラグインレジストリと接続し、メーカーがプラグインやコネクタをより簡単に発見して利用できるようになります。この統合により、MicrosoftのAIエコシステム全体でエージェントの機能を一貫した方法で拡張することが可能になります。プレビューは2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoftの共有プラグインレジストリとの接続機能の追加&lt;/li&gt;&lt;li&gt;プラグイン、コネクタ、および利用可能な機能の発見と利用の簡易化&lt;/li&gt;&lt;li&gt;MicrosoftのAIエコシステム全体におけるエージェント拡張の一貫性向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570669"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.96-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.96-0</link>
-      <guid isPermaLink="false">github-copilot-cli-408261843</guid>
-      <pubDate>Fri, 09 Oct 2026 19:22:22 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.96-0がリリースされ、Gitリポジトリ内の対話型セッションにおける入力プロンプト表示の高速化や、パーミッション決定のタイムライン表示の改善が行われました。また、サンドボックスアクセスや認証ソースの表示、一時的なモデル障害からの回復処理に関する複数の不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gitリポジトリ内の対話型セッションで入力プロンプトに到達するまでの速度を改善&lt;/li&gt;&lt;li&gt;タイムラインにパーミッションの決定主体（ユーザー、Assisted Permissions、ポリシー、unattended fallback）を表示するように変更&lt;/li&gt;&lt;li&gt;/add-dirコマンドが現在のセッションに対して追加されたディレクトリへのサンドボックスアクセスを付与するように修正&lt;/li&gt;&lt;li&gt;/user listコマンドで各サインインアカウントの認証元を表示するように修正&lt;/li&gt;&lt;li&gt;一時的なモデル障害からの回復後に、再試行の進捗メッセージを表示するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.96-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>
