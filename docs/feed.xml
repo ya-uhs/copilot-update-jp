@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 14 Oct 2026 00:51:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:16:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.98-2 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-2</link>
+      <guid isPermaLink="false">github-copilot-cli-412336681</guid>
+      <pubDate>Wed, 14 Oct 2026 04:26:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98-2がリリースされました。今回のアップデートでは、Ctrl+Eによる/askの回答展開、Ctrl+Yによる回答全体のコピー、/askや/btwコマンドによる直近の完了した回答の再オープンが可能になりました。また、Node環境で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するよう修正が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ctrl+E を使用して /ask の回答を展開する機能を追加&lt;/li&gt;&lt;li&gt;Ctrl+Y を使用して回答全体をコピーする機能を追加&lt;/li&gt;&lt;li&gt;/ask または /btw を使用してセッション内の直近の利用可能な完了済み回答を再オープンする機能を追加&lt;/li&gt;&lt;li&gt;Node 環境下で子プロセスの終了シグナルが失われた場合でも、コマンドフックが確実に完了するよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.98-1のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-1</link>
@@ -109,44 +119,44 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Work IQ: Retrieve</title>
+      <title>[提供予定・ロードマップ] [ロードマップ] Work IQ: 取得機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570673</link>
       <guid isPermaLink="false">m365-roadmap-2f0c2fbbcb5f250ed74b</guid>
       <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Enable agents to retrieve relevant Microsoft 365 content and context through Work IQ. GA date: November CY2026 Preview date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570673"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントがWork IQを介して関連するMicrosoft 365のコンテンツやコンテキストを取得できるようになります。プレビュー提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQを通じた関連Microsoft 365コンテンツおよびコンテキストのエージェントによる取得有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570673"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.98-0</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-0</link>
       <guid isPermaLink="false">github-copilot-cli-412136255</guid>
       <pubDate>Tue, 13 Oct 2026 21:45:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Fixes and changes&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98-0がリリースされました。このバージョンには不具合の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>unclassified</category>
+      <category>Preview</category>
+      <category>low</category>
     </item>
     <item>
-      <title>Gemini 4 Argon in GitHub Copilot</title>
+      <title>GitHub CopilotにおけるGemini 4 Argonの一般提供開始</title>
       <link>https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot</link>
       <guid isPermaLink="false">github-changelog-23347420601cd4d27d10</guid>
       <pubDate>Tue, 13 Oct 2026 18:39:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Googleの最新フロンティアモデルであるGemini 4 Argonが、GitHub Copilotで一般提供を開始しました。本モデルは、複雑なコーディング、エージェント型タスク、および推論作業向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 ArgonモデルがGitHub Copilotに追加され、一般提供が開始された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>unclassified</category>
+      <category>GA</category>
+      <category>high</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.97</title>
+      <title>GitHub Copilot CLI v1.0.97 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97</link>
       <guid isPermaLink="false">github-copilot-cli-411990782</guid>
       <pubDate>Tue, 13 Oct 2026 18:37:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;2026-10-13 - Add agent-scoped declarative hooks for custom agents - Remote plugin marketplace and plugin fetches retry once with your signed-in GitHub token after HTTPS auth fails. - Streamed responses behind TLS-intercepting proxies complete when close_notify is omitted - Fix parsing of GitHub SCP remotes with absolute paths so repository owner and name resolve correctly - Discover all custom agents even when repositories define more than 100 or nest agent files deeply. - Autopilot denies a preToolUse hook&amp;#x27;s &amp;quot;ask&amp;quot; decision instead of stopping on a permission dialog nobody is watching - Keep Windows taskbar agent icons grouped across CLI updates by using a stable icon path - Keep saved settings such as dismissed prompts, trusted folders and sign-ins when one entry in config.json is invalid, instead of resetting them on every launch - In /config, managed permission rules are read-only and hidden unless set by your organization. - Show billed AI Credits in /usage for token-billed sessions, including after resume - File reads using a view_range that is not exactly two elements, such as a lone start line, now show their line range and line count in the timeline, and session exports no longer contain the literal text undefined - Dragging to select text in the transcript no longer occasionally highlights and copies the row below the pointer. - Power BI and Bluebird MCP servers accept their published resource scopes during sign-in - Redact secrets safely in --output-format json output while preserving valid variable references - Resuming suspended sessions now reports interrupted tool calls and avoids replaying canceled writes. - Synchronous /task JSON output now includes failed child error and lifecycle events before completion. - Explicit GitHub MCP tool and toolset selections use the correct endpoint, so requested write tools stay available. - Cached MCP tool calls recheck their definition when a concurrent tool-list refresh changes the catalog. - Skills and custom agents from --plugin-dir plugins now reach autocomplete and invocation instead of going missing. - Fixed resumed sessions rebuilding plugin hooks from the wrong plugin list, so hooks from repository-local marketplace plugins now keep running after `--resume`, and hooks from plugins your configuration disabled no longer come back - Keep /user switch new-session choices visible after account checks in short terminals - Unavailable permission recovery attempts are now tracked per request, so unrelated calls no longer consume each other&amp;#x27;s retry budget. - Background-shell wait status no longer animates when no foreground work is running - Emergency memory relief in long sessions can now bypass its cooldown before V8 aborts, so a session that would have been killed by a JavaScript heap out of memory crash may survive with compacted history instead - Inline images render by default on supported terminals without enabling experimental mode. Use `/settings inlineImages false` to turn them off&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.97では、カスタムエージェント向けの宣言型フックの追加や、プラグインフェッチ時の認証トークン再試行機能の実装が行われました。また、TLSインターセプトプロキシを使用する環境でのストリーミング応答の改善、設定ファイルの耐障害性向上、および多数の不具合修正とパフォーマンス改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムエージェント向けにエージェントスコープの宣言型フックを追加&lt;/li&gt;&lt;li&gt;HTTPS認証失敗時に、リモートプラグインマーケットプレイスとプラグインフェッチがサインイン済みGitHubトークンで1回再試行するように変更&lt;/li&gt;&lt;li&gt;config.jsonの一部エントリが無効な場合でも、起動ごとのリセットを行わずに保存済み設定を保持&lt;/li&gt;&lt;li&gt;インライン画像が対応端末でデフォルト描画されるようになり、/settings inlineImages falseで無効化が可能に&lt;/li&gt;&lt;li&gt;長時間のセッションにおけるV8のメモリ不足クラッシュを防ぐため、緊急のメモリ解放がクールダウンをバイパス可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.97-3 リリース</title>
@@ -1997,16 +2007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Release</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Business with Copilot の紹介：中小企業の新標準</title>
-      <link>https://www.microsoft.com/en-us/copilot/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/</link>
-      <guid isPermaLink="false">m365-blog-8e5d9aa67f231c3aa58e</guid>
-      <pubDate>Thu, 28 May 2026 19:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;2024年7月1日から、Microsoft 365 Business に Copilot が組み込まれた新しい SKU が提供されます。これらは中小企業の既存の業務フローに合わせて設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2024年7月1日に新しい Microsoft 365 SKU がリリースされます&lt;/li&gt;&lt;li&gt;Copilot が標準機能として組み込まれます&lt;/li&gt;&lt;li&gt;中小企業向けに設計されたプランが提供されます&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>
