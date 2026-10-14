@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 13 Oct 2026 17:17:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:51:09 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.98-1のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-1</link>
+      <guid isPermaLink="false">github-copilot-cli-412230905</guid>
+      <pubDate>Wed, 14 Oct 2026 00:46:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98-1がリリースされました。Gemini 4 Argonのサポートが追加され、MCPステータスと/mcpコマンドの同期、セッション再開時の権限リクエスト処理、および起動時の入力文字のドロップに関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 Argonのサポートを追加&lt;/li&gt;&lt;li&gt;分割ビューでのセッション切り替え時にMCPステータスと/mcpコマンドがアクティブセッションと同期されるように修正&lt;/li&gt;&lt;li&gt;セッション再開時に保留中の未処理の権限作業を考慮し、アクティブな権限リクエストのみを継続するように修正&lt;/li&gt;&lt;li&gt;起動時の入力ボックス表示中に入力された通常の文字が破棄されず保持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.98-0</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-0</link>
+      <guid isPermaLink="false">github-copilot-cli-412136255</guid>
+      <pubDate>Tue, 13 Oct 2026 21:45:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Fixes and changes&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>Gemini 4 Argon in GitHub Copilot</title>
+      <link>https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-23347420601cd4d27d10</guid>
+      <pubDate>Tue, 13 Oct 2026 18:39:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.97</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97</link>
+      <guid isPermaLink="false">github-copilot-cli-411990782</guid>
+      <pubDate>Tue, 13 Oct 2026 18:37:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;2026-10-13 - Add agent-scoped declarative hooks for custom agents - Remote plugin marketplace and plugin fetches retry once with your signed-in GitHub token after HTTPS auth fails. - Streamed responses behind TLS-intercepting proxies complete when close_notify is omitted - Fix parsing of GitHub SCP remotes with absolute paths so repository owner and name resolve correctly - Discover all custom agents even when repositories define more than 100 or nest agent files deeply. - Autopilot denies a preToolUse hook&amp;#x27;s &amp;quot;ask&amp;quot; decision instead of stopping on a permission dialog nobody is watching - Keep Windows taskbar agent icons grouped across CLI updates by using a stable icon path - Keep saved settings such as dismissed prompts, trusted folders and sign-ins when one entry in config.json is invalid, instead of resetting them on every launch - In /config, managed permission rules are read-only and hidden unless set by your organization. - Show billed AI Credits in /usage for token-billed sessions, including after resume - File reads using a view_range that is not exactly two elements, such as a lone start line, now show their line range and line count in the timeline, and session exports no longer contain the literal text undefined - Dragging to select text in the transcript no longer occasionally highlights and copies the row below the pointer. - Power BI and Bluebird MCP servers accept their published resource scopes during sign-in - Redact secrets safely in --output-format json output while preserving valid variable references - Resuming suspended sessions now reports interrupted tool calls and avoids replaying canceled writes. - Synchronous /task JSON output now includes failed child error and lifecycle events before completion. - Explicit GitHub MCP tool and toolset selections use the correct endpoint, so requested write tools stay available. - Cached MCP tool calls recheck their definition when a concurrent tool-list refresh changes the catalog. - Skills and custom agents from --plugin-dir plugins now reach autocomplete and invocation instead of going missing. - Fixed resumed sessions rebuilding plugin hooks from the wrong plugin list, so hooks from repository-local marketplace plugins now keep running after `--resume`, and hooks from plugins your configuration disabled no longer come back - Keep /user switch new-session choices visible after account checks in short terminals - Unavailable permission recovery attempts are now tracked per request, so unrelated calls no longer consume each other&amp;#x27;s retry budget. - Background-shell wait status no longer animates when no foreground work is running - Emergency memory relief in long sessions can now bypass its cooldown before V8 aborts, so a session that would have been killed by a JavaScript heap out of memory crash may survive with compacted history instead - Inline images render by default on supported terminals without enabling experimental mode. Use `/settings inlineImages false` to turn them off&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>unclassified</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.97-3 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-3</link>

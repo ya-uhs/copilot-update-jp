@@ -1,5 +1,57 @@
 [
   {
+    "id": "github-copilot-cli-411883031",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-3",
+    "published_at": "2026-10-13T16:25:48Z",
+    "title_original": "GitHub Copilot CLI v1.0.97-3",
+    "excerpt_original": "**Fixed** - Remote plugin marketplace and plugin fetches retry once with your signed-in GitHub token after HTTPS auth fails. - Streamed responses behind TLS-intercepting proxies complete when close_notify is omitted - Fix parsing of GitHub SCP remotes with absolute paths so repository owner and name resolve correctly",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.97-3 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.97-3がリリースされました。リモートプラグインマーケットプレイスとプラグインの取得処理における認証リトライの改善、TLSインターセプティングプロキシ環境下でのストリーミング応答の修正、およびGitHub SCPリモートの絶対パスの解析修正が含まれています。",
+    "changes": [
+      "HTTPS認証失敗時に、サインイン済みのGitHubトークンを使用してリモートプラグインマーケットプレイスおよびプラグインの取得を1回リトライするよう修正しました。",
+      "TLSインターセプティングプロキシ環境下で close_notify が省略された場合にストリーミング応答が完了するように修正しました。",
+      "絶対パスを持つGitHub SCPリモートの解析を修正し、リポジトリのオーナー名と名前が正しく解決されるようにしました。"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-13T17:17:08Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-13T17:16:56Z"
+  },
+  {
+    "id": "github-changelog-cfe3062e249fdf7fbd68",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+    "published_at": "2026-10-13T15:20:10Z",
+    "title_original": "Enterprise managed settings enforcement updates",
+    "excerpt_original": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version… The post Enterprise managed settings enforcement updates appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "エンタープライズ管理設定の強制に関するアップデート",
+    "summary_ja": "GitHub Copilotのエンタープライズ管理者は、サポートされているクライアントに対し、キャッシュされたポリシーではなく、起動時に現在のサーバー管理設定を取得することを必須にできるようになりました。また、最小クライアントバージョンの要件も追加されています。",
+    "changes": [
+      "サポートされているGitHub Copilotクライアントが起動時にキャッシュされたポリシーではなくサーバー管理設定を取得することを必須にする機能を追加",
+      "最小クライアントバージョンの要件を追加"
+    ],
+    "target_user": [
+      "Enterprise administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-13T17:17:19Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-13T17:17:08Z"
+  },
+  {
     "id": "github-copilot-cli-411129595",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-2",
@@ -5318,55 +5370,365 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-changelog-cfe3062e249fdf7fbd68",
+    "id": "github-changelog-23347420601cd4d27d10",
     "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
-    "published_at": "2026-10-13T15:20:10Z",
-    "title_original": "Enterprise managed settings enforcement updates",
-    "excerpt_original": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version… The post Enterprise managed settings enforcement updates appeared first on The GitHub Blog .",
+    "source_url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+    "published_at": "2026-10-13T18:39:56Z",
+    "title_original": "Gemini 4 Argon in GitHub Copilot",
+    "excerpt_original": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "エンタープライズ管理設定の強制に関するアップデート",
-    "summary_ja": "GitHub Copilotのエンタープライズ管理者は、サポートされているクライアントに対し、キャッシュされたポリシーではなく、起動時に現在のサーバー管理設定を取得することを必須にできるようになりました。また、最小クライアントバージョンの要件も追加されています。",
-    "changes": [
-      "サポートされているGitHub Copilotクライアントが起動時にキャッシュされたポリシーではなくサーバー管理設定を取得することを必須にする機能を追加",
-      "最小クライアントバージョンの要件を追加"
-    ],
-    "target_user": [
-      "Enterprise administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-13T17:17:19Z",
+    "title_ja": "",
+    "summary_ja": "",
+    "changes": [],
+    "target_user": [],
+    "importance": "low",
+    "translated": false,
+    "processed_at": null,
     "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-13T17:17:08Z"
+    "family": "github"
   },
   {
-    "id": "github-copilot-cli-411883031",
+    "id": "github-copilot-cli-412230905",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97-3",
-    "published_at": "2026-10-13T16:25:48Z",
-    "title_original": "GitHub Copilot CLI v1.0.97-3",
-    "excerpt_original": "**Fixed** - Remote plugin marketplace and plugin fetches retry once with your signed-in GitHub token after HTTPS auth fails. - Streamed responses behind TLS-intercepting proxies complete when close_notify is omitted - Fix parsing of GitHub SCP remotes with absolute paths so repository owner and name resolve correctly",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.98-1",
+    "published_at": "2026-10-14T00:46:57Z",
+    "title_original": "GitHub Copilot CLI v1.0.98-1",
+    "excerpt_original": "**Added** - Add support for Gemini 4 Argon **Fixed** - MCP status and /mcp commands stay synced to the active session after split-view session switches - Resuming a session now respects abandoned pending-permission work and continues only active permission requests. - Keep ordinary characters typed while the input box is still coming up at startup, instead of dropping them",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.97-3 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.97-3がリリースされました。リモートプラグインマーケットプレイスとプラグインの取得処理における認証リトライの改善、TLSインターセプティングプロキシ環境下でのストリーミング応答の修正、およびGitHub SCPリモートの絶対パスの解析修正が含まれています。",
+    "title_ja": "GitHub Copilot CLI v1.0.98-1のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.98-1がリリースされました。Gemini 4 Argonのサポートが追加され、MCPステータスと/mcpコマンドの同期、セッション再開時の権限リクエスト処理、および起動時の入力文字のドロップに関する不具合が修正されました。",
     "changes": [
-      "HTTPS認証失敗時に、サインイン済みのGitHubトークンを使用してリモートプラグインマーケットプレイスおよびプラグインの取得を1回リトライするよう修正しました。",
-      "TLSインターセプティングプロキシ環境下で close_notify が省略された場合にストリーミング応答が完了するように修正しました。",
-      "絶対パスを持つGitHub SCPリモートの解析を修正し、リポジトリのオーナー名と名前が正しく解決されるようにしました。"
+      "Gemini 4 Argonのサポートを追加",
+      "分割ビューでのセッション切り替え時にMCPステータスと/mcpコマンドがアクティブセッションと同期されるように修正",
+      "セッション再開時に保留中の未処理の権限作業を考慮し、アクティブな権限リクエストのみを継続するように修正",
+      "起動時の入力ボックス表示中に入力された通常の文字が破棄されず保持されるように修正"
     ],
     "target_user": [
-      "GitHub Copilot CLI ユーザー",
-      "開発者"
+      "GitHub Copilot CLI users",
+      "developers"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-13T17:17:08Z",
+    "processed_at": "2026-10-14T00:50:58Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-10-13T17:16:56Z"
+    "translation_attempted_at": "2026-10-14T00:50:57Z"
+  },
+  {
+    "id": "github-copilot-cli-412136255",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.98-0",
+    "published_at": "2026-10-13T21:45:09Z",
+    "title_original": "GitHub Copilot CLI v1.0.98-0",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "",
+    "summary_ja": "",
+    "changes": [],
+    "target_user": [],
+    "importance": "low",
+    "translated": false,
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
+  },
+  {
+    "id": "github-copilot-cli-411990782",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.97",
+    "published_at": "2026-10-13T18:37:05Z",
+    "title_original": "GitHub Copilot CLI v1.0.97",
+    "excerpt_original": "2026-10-13 - Add agent-scoped declarative hooks for custom agents - Remote plugin marketplace and plugin fetches retry once with your signed-in GitHub token after HTTPS auth fails. - Streamed responses behind TLS-intercepting proxies complete when close_notify is omitted - Fix parsing of GitHub SCP remotes with absolute paths so repository owner and name resolve correctly - Discover all custom agents even when repositories define more than 100 or nest agent files deeply. - Autopilot denies a preToolUse hook's \"ask\" decision instead of stopping on a permission dialog nobody is watching - Keep Windows taskbar agent icons grouped across CLI updates by using a stable icon path - Keep saved settings such as dismissed prompts, trusted folders and sign-ins when one entry in config.json is invalid, instead of resetting them on every launch - In /config, managed permission rules are read-only and hidden unless set by your organization. - Show billed AI Credits in /usage for token-billed sessions, including after resume - File reads using a view_range that is not exactly two elements, such as a lone start line, now show their line range and line count in the timeline, and session exports no longer contain the literal text undefined - Dragging to select text in the transcript no longer occasionally highlights and copies the row below the pointer. - Power BI and Bluebird MCP servers accept their published resource scopes during sign-in - Redact secrets safely in --output-format json output while preserving valid variable references - Resuming suspended sessions now reports interrupted tool calls and avoids replaying canceled writes. - Synchronous /task JSON output now includes failed child error and lifecycle events before completion. - Explicit GitHub MCP tool and toolset selections use the correct endpoint, so requested write tools stay available. - Cached MCP tool calls recheck their definition when a concurrent tool-list refresh changes the catalog. - Skills and custom agents from --plugin-dir plugins now reach autocomplete and invocation instead of going missing. - Fixed resumed sessions rebuilding plugin hooks from the wrong plugin list, so hooks from repository-local marketplace plugins now keep running after `--resume`, and hooks from plugins your configuration disabled no longer come back - Keep /user switch new-session choices visible after account checks in short terminals - Unavailable permission recovery attempts are now tracked per request, so unrelated calls no longer consume each other's retry budget. - Background-shell wait status no longer animates when no foreground work is running - Emergency memory relief in long sessions can now bypass its cooldown before V8 aborts, so a session that would have been killed by a JavaScript heap out of memory crash may survive with compacted history instead - Inline images render by default on supported terminals without enabling experimental mode. Use `/settings inlineImages false` to turn them off",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "",
+    "summary_ja": "",
+    "changes": [],
+    "target_user": [],
+    "importance": "low",
+    "translated": false,
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
+  },
+  {
+    "id": "m365-roadmap-db71a4ec04ffb994554d",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575298",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] SharePoint: Agent chat web part",
+    "excerpt_original": "This is a new web part available for modern page editors in SharePoint. The web part can be configured to use any M365 Copilot agent. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] SharePoint: Agent chat web part",
+    "summary_ja": "SharePointのモダンページエディター向けに、新しい「Agent chat web part」が提供されます。このWebパーツは、任意のM365 Copilotエージェントを使用するように設定可能です。",
+    "changes": [
+      "SharePointのモダンページエディターで利用可能な新しいWebパーツを追加",
+      "任意のM365 Copilotエージェントを使用するようWebパーツを設定可能",
+      "プレビュー提供予定時期: 2026年11月",
+      "一般提供（GA）予定時期: 2027年1月"
+    ],
+    "target_user": [
+      "SharePoint page editors"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:00Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:50:58Z"
+  },
+  {
+    "id": "m365-roadmap-49ce2c9e62d6df537b77",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575287",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Microsoft Purview: Data Loss Prevention-Admin Units Support for Copilot & Cowork DLP",
+    "excerpt_original": "Microsoft Purview Data Loss Prevention is extending Administrative Units support to Microsoft 365 Copilot, Copilot Chat, and Cowork. This enables organizations to delegate management of supported Copilot DLP policies to administrators within their assigned Administrative Units, supporting regional, departmental, and regulatory boundaries without granting tenant-wide policy-management permissions. Existing tenant-wide policies continue to apply, and configuration is optional for organizations choosing to use Administrative Unit (AU)-scoped management. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Purview データ損失防止（DLP）：CopilotおよびCoworkにおける管理単位（Administrative Units）のサポート",
+    "summary_ja": "Microsoft Purview Data Loss Prevention（DLP）が、Microsoft 365 Copilot、Copilot Chat、Coworkに対する管理単位（Administrative Units）のサポートを拡張します。これにより、組織はテナント全体の権限を付与することなく、割り当てられた管理者に対応するCopilot DLPポリシーの管理を委任できるようになります。既存のテナント全体ポリシーは引き続き適用され、管理単位を活用した管理はオプションとなります。",
+    "changes": [
+      "Microsoft Purview DLPでMicrosoft 365 Copilot、Copilot Chat、Coworkの管理単位サポートを拡張",
+      "指定された管理単位内の管理者にCopilot DLPポリシーの管理権限を委任することが可能",
+      "既存のテナント全体のポリシーは継続して適用",
+      "管理単位に基づくスコープ管理の設定はオプショナル"
+    ],
+    "target_user": [
+      "Administrators",
+      "Compliance Officers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:01Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:51:00Z"
+  },
+  {
+    "id": "m365-roadmap-b85fa24d9af035bfd3f8",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574124",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Dynamics 365 Commerce: Enable MCP tools for POS returns",
+    "excerpt_original": "This feature provides reusable MCP tools for Store Commerce POS returns. These tools expose Commerce return capabilities as structured actions that customers, partners, and agent developers can use to build conversational or agentic return experiences. The tools enable agentic experiences to look up the original purchase using supported identifiers such as receipt, order, invoice, or confirmation number; retrieve matching transactions and returnable lines; identify items that are returnable, partially returnable, already returned, or not returnable; create a return using selected lines, quantities, and reason codes; determine eligible refund options for original-tender refund scenarios; and execute eligible original-tender refunds through existing Commerce return and payment logic. The tools can also explain return eligibility, policy restrictions, and why specific lines may or may not be returnable. They can analyze prior returns and refunds to surface duplicate-refund risk, frequent-return patterns, cross-store return history, or other return-risk indicators. Tool responses provide structured data that host experiences can use to present return details, choices, summaries, and next steps in the experience they build. Customers can use these tools from POS-embedded agents, chat-based copilots, workflow orchestrators, or other agentic surfaces. Setup is performed by an administrator, IT owner, or implementation partner. Customers configure the host surface, authorize the agent or integration to call the tools, and maintain existing Commerce return policies, reason codes, tender rules, and payment configuration. GA date: March CY2027 Preview date: October CY2026",
+    "product": "Dynamics 365 Commerce",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Commerce: POS返品向けMCPツールの有効化",
+    "summary_ja": "本機能は、Store Commerce POSの返品機能を利用した再利用可能なMCPツールを提供します。顧客、パートナー、エージェント開発者は、これらStructured actionsを用いて、会話型またはエージェント型の返品体験を構築できます。GA予定日は2027年3月、プレビュー予定日は2026年10月です。",
+    "changes": [
+      "レシート、注文、請求書、確認番号などの識別子を使用した元購入の検索機能を提供",
+      "一致する取引と返品可能な明細の取得、および返品適格性の判別機能を提供",
+      "選択された明細、数量、理由コードを使用した返品作成および元入金返金の実行機能を提供",
+      "返品適格性やポリシー制限の説明、および返品リスクインジケーターの分析機能を提供"
+    ],
+    "target_user": [
+      "customers",
+      "partners",
+      "agent developers",
+      "administrators",
+      "IT owners"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:02Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:51:01Z"
+  },
+  {
+    "id": "m365-roadmap-058da4ccad0aef5f84ec",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574104",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Power Apps: Manage model-driven app AI features from consolidated settings",
+    "excerpt_original": "Consolidated AI settings make it easier for makers and admins to find and manage AI capabilities for model-driven apps across two complementary surfaces. In Maker Studio, the Settings dialog in the model app form designer adds a new top-level Copilot and AI tab. Makers can see and adjust all available AI options for the app in one place instead of finding them scattered among all the other settings. In the Power Platform admin center, model-driven app AI settings are consolidated from Environment > Settings into Copilot Hub > Power Apps . This provides a central location for settings such as Generative pages, Copilot in apps, and the in-app AI skills. The in-app skill settings are organized into these groups: Data entry: Form fill assistance. Summary: Row summaries. Data analysis: AI-generated charts and natural-language search and filtering. Labels and descriptions are aligned across Maker Studio and Copilot Hub so makers and admins can understand how the controls relate. As part of this consolidation, the old model-driven app AI switches under Environment > Settings will also be retired and removed. Availability Field Value Applies to Model-driven apps Release Channel Weekly Version 2610.3 Feature Scope Admins or makers GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Power Apps：統合された設定からのモデル駆動型アプリのAI機能管理",
+    "summary_ja": "Power Appsのモデル駆動型アプリにおけるAI機能の設定が、Maker StudioおよびPower Platform admin centerの2つの補完的なサーフェスで統合されます。Maker StudioのフォームデザイナーにはCopilotおよびAIタブが追加され、管理者はPower Platform admin centerのCopilot Hubで一元管理が可能になります。これにより、従来の「Environment > Settings」の下にあった古いAIスイッチは廃止・削除されます。",
+    "changes": [
+      "Maker Studioのフォームデザイナーの設定ダイアログに新しいCopilotおよびAIタブを追加",
+      "Power Platform admin centerの環境設定からCopilot Hub > Power AppsへAI設定を統合",
+      "従来の「Environment > Settings」にある古いモデル駆動型アプリのAIスイッチを廃止および削除"
+    ],
+    "target_user": [
+      "Makers",
+      "Admins"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:03Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:51:02Z"
+  },
+  {
+    "id": "m365-roadmap-01c6b706fea3625795bb",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573698",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Outlook: Copilot Chat available in shared and delegate mailboxes",
+    "excerpt_original": "Shared mailbox users and delegates with read and manage (full access) and/or mail folder-level permission will now be able to access Copilot Chat directly from their shared and delegate mailboxes in classic Outlook, when added as a resource . GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Outlook：共有メールボックスおよび代理メールボックスでのCopilot Chatの提供",
+    "summary_ja": "クラシック版Outlookにおいて、共有メールボックスおよび代理メールボックスの利用者がCopilot Chatに直接アクセスできるようになります。対象となるのは、読み取り・管理権限（フルアクセス）やメールフォルダレベルの権限を持つユーザーおよび代理人です。本機能は2026年11月に一般提供（GA）が予定されています。",
+    "changes": [
+      "共有メールボックスおよび代理メールボックスでのCopilot Chatへの直接アクセスに対応",
+      "読み取り・管理権限やメールフォルダレベルの権限を持つユーザーおよび代理人が対象",
+      "クラシック版Outlookでの利用をサポート"
+    ],
+    "target_user": [
+      "Shared mailbox users",
+      "Delegates"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:05Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:51:03Z"
+  },
+  {
+    "id": "m365-roadmap-501ba4b666484f35aa32",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570870",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Work IQ: Microsoft IQ",
+    "excerpt_original": "Provide a unified intelligence layer that helps agents discover, reason over, and use organizational knowledge. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ: Microsoft IQ",
+    "summary_ja": "Work IQは、エージェントが組織内の知識を発見、推論、活用できるようにするための統合されたインテリジェンスレイヤーを提供します。プレビューは2026年11月、一般提供（GA）は2027年1月に予定されています。",
+    "changes": [
+      "組織内の知識の発見、推論、活用を支援する統合インテリジェンスレイヤーの提供",
+      "Preview提供開始予定: 2026年11月",
+      "GA（一般提供）開始予定: 2027年1月"
+    ],
+    "target_user": [
+      "Administrators",
+      "Developers",
+      "End Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:06Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:51:05Z"
+  },
+  {
+    "id": "m365-roadmap-65a18f3cf3c8ded2d59a",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570868",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Work IQ: REST endpoint tools",
+    "excerpt_original": "Enable agents to use supported REST endpoints as tools through governed Work IQ integrations. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ: RESTエンドポイントツール",
+    "summary_ja": "Microsoft 365 Copilotのエージェントが、管理されたWork IQ統合を介してサポート対象のRESTエンドポイントをツールとして利用できるようになります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月に予定されています。",
+    "changes": [
+      "エージェントがWork IQ統合を介してRESTエンドポイントをツールとして使用可能になる",
+      "Preview提供開始予定: 2026年10月",
+      "GA（一般提供）予定: 2026年11月"
+    ],
+    "target_user": [
+      "開発者",
+      "管理者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:07Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:51:06Z"
+  },
+  {
+    "id": "m365-roadmap-983c96d676cecf23e2f9",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570852",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Work IQ: A2A and MCP elicitation",
+    "excerpt_original": "Enable A2A and MCP tasks to request missing information or authorization and then resume. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ: A2AおよびMCPエライシテーション",
+    "summary_ja": "Microsoft 365 Copilotにおいて、A2AおよびMCPタスクが不足している情報や承認を要求し、その後処理を再開できるようになります。プレビュー提供は2026年10月、一般提供（GA）は2026年11月を予定しています。",
+    "changes": [
+      "A2AおよびMCPタスクでの不足情報の要求機能の追加",
+      "A2AおよびMCPタスクでの承認要求と処理の再開機能の追加"
+    ],
+    "target_user": [
+      "管理者",
+      "ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:08Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:51:07Z"
+  },
+  {
+    "id": "m365-roadmap-e6e4a6866fbc3a50d032",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570851",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Work IQ: A2A and MCP long running tasks",
+    "excerpt_original": "Enable durable long-running A2A and MCP tasks with progress tracking, later result retrieval, and cancellation. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ：A2AおよびMCPの長期間実行タスク",
+    "summary_ja": "Microsoft 365 Copilot向けに、進捗追跡、結果の後からの取得、キャンセル機能を備えた耐久性の高い長期間実行A2AおよびMCPタスクが有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。",
+    "changes": [
+      "長期間実行されるA2AおよびMCPタスクのサポート",
+      "タスクの進捗追跡機能の追加",
+      "タスク結果の後からの取得機能の追加",
+      "タスクのキャンセル機能の追加"
+    ],
+    "target_user": [
+      "ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T00:51:09Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-14T00:51:08Z"
+  },
+  {
+    "id": "m365-roadmap-2f0c2fbbcb5f250ed74b",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570673",
+    "published_at": "2026-10-13T23:01:05Z",
+    "title_original": "[Roadmap] Work IQ: Retrieve",
+    "excerpt_original": "Enable agents to retrieve relevant Microsoft 365 content and context through Work IQ. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "",
+    "summary_ja": "",
+    "changes": [],
+    "target_user": [],
+    "importance": "low",
+    "translated": false,
+    "processed_at": null,
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365"
   }
 ]

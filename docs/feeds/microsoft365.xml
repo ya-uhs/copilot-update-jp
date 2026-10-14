@@ -5,9 +5,109 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 13 Oct 2026 02:49:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:51:09 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] SharePoint: Agent chat web part</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575298</link>
+      <guid isPermaLink="false">m365-roadmap-db71a4ec04ffb994554d</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;SharePointのモダンページエディター向けに、新しい「Agent chat web part」が提供されます。このWebパーツは、任意のM365 Copilotエージェントを使用するように設定可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;SharePointのモダンページエディターで利用可能な新しいWebパーツを追加&lt;/li&gt;&lt;li&gt;任意のM365 Copilotエージェントを使用するようWebパーツを設定可能&lt;/li&gt;&lt;li&gt;プレビュー提供予定時期: 2026年11月&lt;/li&gt;&lt;li&gt;一般提供（GA）予定時期: 2027年1月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575298"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Purview データ損失防止（DLP）：CopilotおよびCoworkにおける管理単位（Administrative Units）のサポート</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575287</link>
+      <guid isPermaLink="false">m365-roadmap-49ce2c9e62d6df537b77</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Loss Prevention（DLP）が、Microsoft 365 Copilot、Copilot Chat、Coworkに対する管理単位（Administrative Units）のサポートを拡張します。これにより、組織はテナント全体の権限を付与することなく、割り当てられた管理者に対応するCopilot DLPポリシーの管理を委任できるようになります。既存のテナント全体ポリシーは引き続き適用され、管理単位を活用した管理はオプションとなります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Purview DLPでMicrosoft 365 Copilot、Copilot Chat、Coworkの管理単位サポートを拡張&lt;/li&gt;&lt;li&gt;指定された管理単位内の管理者にCopilot DLPポリシーの管理権限を委任することが可能&lt;/li&gt;&lt;li&gt;既存のテナント全体のポリシーは継続して適用&lt;/li&gt;&lt;li&gt;管理単位に基づくスコープ管理の設定はオプショナル&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575287"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Commerce: POS返品向けMCPツールの有効化</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574124</link>
+      <guid isPermaLink="false">m365-roadmap-b85fa24d9af035bfd3f8</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Commerce&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本機能は、Store Commerce POSの返品機能を利用した再利用可能なMCPツールを提供します。顧客、パートナー、エージェント開発者は、これらStructured actionsを用いて、会話型またはエージェント型の返品体験を構築できます。GA予定日は2027年3月、プレビュー予定日は2026年10月です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;レシート、注文、請求書、確認番号などの識別子を使用した元購入の検索機能を提供&lt;/li&gt;&lt;li&gt;一致する取引と返品可能な明細の取得、および返品適格性の判別機能を提供&lt;/li&gt;&lt;li&gt;選択された明細、数量、理由コードを使用した返品作成および元入金返金の実行機能を提供&lt;/li&gt;&lt;li&gt;返品適格性やポリシー制限の説明、および返品リスクインジケーターの分析機能を提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574124"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Dynamics 365 Commerce</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Power Apps：統合された設定からのモデル駆動型アプリのAI機能管理</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574104</link>
+      <guid isPermaLink="false">m365-roadmap-058da4ccad0aef5f84ec</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Appsのモデル駆動型アプリにおけるAI機能の設定が、Maker StudioおよびPower Platform admin centerの2つの補完的なサーフェスで統合されます。Maker StudioのフォームデザイナーにはCopilotおよびAIタブが追加され、管理者はPower Platform admin centerのCopilot Hubで一元管理が可能になります。これにより、従来の「Environment &amp;gt; Settings」の下にあった古いAIスイッチは廃止・削除されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Maker Studioのフォームデザイナーの設定ダイアログに新しいCopilotおよびAIタブを追加&lt;/li&gt;&lt;li&gt;Power Platform admin centerの環境設定からCopilot Hub &amp;gt; Power AppsへAI設定を統合&lt;/li&gt;&lt;li&gt;従来の「Environment &amp;gt; Settings」にある古いモデル駆動型アプリのAIスイッチを廃止および削除&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574104"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Outlook：共有メールボックスおよび代理メールボックスでのCopilot Chatの提供</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573698</link>
+      <guid isPermaLink="false">m365-roadmap-01c6b706fea3625795bb</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;クラシック版Outlookにおいて、共有メールボックスおよび代理メールボックスの利用者がCopilot Chatに直接アクセスできるようになります。対象となるのは、読み取り・管理権限（フルアクセス）やメールフォルダレベルの権限を持つユーザーおよび代理人です。本機能は2026年11月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;共有メールボックスおよび代理メールボックスでのCopilot Chatへの直接アクセスに対応&lt;/li&gt;&lt;li&gt;読み取り・管理権限やメールフォルダレベルの権限を持つユーザーおよび代理人が対象&lt;/li&gt;&lt;li&gt;クラシック版Outlookでの利用をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573698"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: Microsoft IQ</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570870</link>
+      <guid isPermaLink="false">m365-roadmap-501ba4b666484f35aa32</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Work IQは、エージェントが組織内の知識を発見、推論、活用できるようにするための統合されたインテリジェンスレイヤーを提供します。プレビューは2026年11月、一般提供（GA）は2027年1月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織内の知識の発見、推論、活用を支援する統合インテリジェンスレイヤーの提供&lt;/li&gt;&lt;li&gt;Preview提供開始予定: 2026年11月&lt;/li&gt;&lt;li&gt;GA（一般提供）開始予定: 2027年1月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570870"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: RESTエンドポイントツール</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570868</link>
+      <guid isPermaLink="false">m365-roadmap-65a18f3cf3c8ded2d59a</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのエージェントが、管理されたWork IQ統合を介してサポート対象のRESTエンドポイントをツールとして利用できるようになります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがWork IQ統合を介してRESTエンドポイントをツールとして使用可能になる&lt;/li&gt;&lt;li&gt;Preview提供開始予定: 2026年10月&lt;/li&gt;&lt;li&gt;GA（一般提供）予定: 2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570868"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: A2AおよびMCPエライシテーション</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570852</link>
+      <guid isPermaLink="false">m365-roadmap-983c96d676cecf23e2f9</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、A2AおよびMCPタスクが不足している情報や承認を要求し、その後処理を再開できるようになります。プレビュー提供は2026年10月、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A2AおよびMCPタスクでの不足情報の要求機能の追加&lt;/li&gt;&lt;li&gt;A2AおよびMCPタスクでの承認要求と処理の再開機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570852"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ：A2AおよびMCPの長期間実行タスク</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570851</link>
+      <guid isPermaLink="false">m365-roadmap-e6e4a6866fbc3a50d032</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けに、進捗追跡、結果の後からの取得、キャンセル機能を備えた耐久性の高い長期間実行A2AおよびMCPタスクが有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;長期間実行されるA2AおよびMCPタスクのサポート&lt;/li&gt;&lt;li&gt;タスクの進捗追跡機能の追加&lt;/li&gt;&lt;li&gt;タスク結果の後からの取得機能の追加&lt;/li&gt;&lt;li&gt;タスクのキャンセル機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570851"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[Roadmap] Work IQ: Retrieve</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570673</link>
+      <guid isPermaLink="false">m365-roadmap-2f0c2fbbcb5f250ed74b</guid>
+      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Enable agents to retrieve relevant Microsoft 365 content and context through Work IQ. GA date: November CY2026 Preview date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570673"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Sales Development agentとSalesforceの統合</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=574105</link>
