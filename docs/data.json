@@ -1,5 +1,33 @@
 [
   {
+    "id": "github-copilot-cli-412336681",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.98-2",
+    "published_at": "2026-10-14T04:26:49Z",
+    "title_original": "GitHub Copilot CLI v1.0.98-2",
+    "excerpt_original": "**Improved** - Expand /ask answers with Ctrl+E, copy the entire answer with Ctrl+Y, and reopen the last usable completed answer in the session with /ask or /btw. **Fixed** - Command hooks complete reliably even when child-exit signals are lost under Node",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.98-2 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.98-2がリリースされました。今回のアップデートでは、Ctrl+Eによる/askの回答展開、Ctrl+Yによる回答全体のコピー、/askや/btwコマンドによる直近の完了した回答の再オープンが可能になりました。また、Node環境で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するよう修正が行われています。",
+    "changes": [
+      "Ctrl+E を使用して /ask の回答を展開する機能を追加",
+      "Ctrl+Y を使用して回答全体をコピーする機能を追加",
+      "/ask または /btw を使用してセッション内の直近の利用可能な完了済み回答を再オープンする機能を追加",
+      "Node 環境下で子プロセスの終了シグナルが失われた場合でも、コマンドフックが確実に完了するよう修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-14T09:16:33Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-14T09:16:31Z"
+  },
+  {
     "id": "github-copilot-cli-412230905",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.98-1",
@@ -5757,33 +5785,5 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
-  },
-  {
-    "id": "github-copilot-cli-412336681",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.98-2",
-    "published_at": "2026-10-14T04:26:49Z",
-    "title_original": "GitHub Copilot CLI v1.0.98-2",
-    "excerpt_original": "**Improved** - Expand /ask answers with Ctrl+E, copy the entire answer with Ctrl+Y, and reopen the last usable completed answer in the session with /ask or /btw. **Fixed** - Command hooks complete reliably even when child-exit signals are lost under Node",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.98-2 のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.98-2がリリースされました。今回のアップデートでは、Ctrl+Eによる/askの回答展開、Ctrl+Yによる回答全体のコピー、/askや/btwコマンドによる直近の完了した回答の再オープンが可能になりました。また、Node環境で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するよう修正が行われています。",
-    "changes": [
-      "Ctrl+E を使用して /ask の回答を展開する機能を追加",
-      "Ctrl+Y を使用して回答全体をコピーする機能を追加",
-      "/ask または /btw を使用してセッション内の直近の利用可能な完了済み回答を再オープンする機能を追加",
-      "Node 環境下で子プロセスの終了シグナルが失われた場合でも、コマンドフックが確実に完了するよう修正"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI ユーザー",
-      "開発者"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-14T09:16:33Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-14T09:16:31Z"
   }
 ]
