@@ -1,5 +1,33 @@
 [
   {
+    "id": "github-changelog-449b1014bc1499c1514c",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+    "published_at": "2026-10-15T13:49:20Z",
+    "title_original": "Agentic autofix for code scanning alerts general availability",
+    "excerpt_original": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,… The post Agentic autofix for code scanning alerts general availability appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "コードスキャンアラート向けAgentic autofixが一般提供（GA）開始",
+    "summary_ja": "GitHub Copilotのコードスキャンアラート向けAgentic autofix機能が一般提供（GA）を開始しました。本機能は、開発者のようにコードベース全体を探索して関連ファイルを調査し、アラートの修正案を提案します。",
+    "changes": [
+      "コードスキャンアラート向けAgentic autofixが一般提供（GA）へ移行",
+      "開発者のようにコードベース全体を探索し関連ファイルを調査する機能を提供",
+      "アラートに対する修正案の提案機能を実現"
+    ],
+    "target_user": [
+      "developers",
+      "security engineers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-15T14:35:16Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-15T14:35:15Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-413313982",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.99-0",

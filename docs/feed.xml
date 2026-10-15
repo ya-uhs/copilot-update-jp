@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 08:50:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 14:35:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>コードスキャンアラート向けAgentic autofixが一般提供（GA）開始</title>
+      <link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link>
+      <guid isPermaLink="false">github-changelog-449b1014bc1499c1514c</guid>
+      <pubDate>Thu, 15 Oct 2026 13:49:20 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotのコードスキャンアラート向けAgentic autofix機能が一般提供（GA）を開始しました。本機能は、開発者のようにコードベース全体を探索して関連ファイルを調査し、アラートの修正案を提案します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;コードスキャンアラート向けAgentic autofixが一般提供（GA）へ移行&lt;/li&gt;&lt;li&gt;開発者のようにコードベース全体を探索し関連ファイルを調査する機能を提供&lt;/li&gt;&lt;li&gt;アラートに対する修正案の提案機能を実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.99-0 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-0</link>
@@ -1996,16 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの有料シート数が3000万を超えたことが発表されました。四半期ごとの純増数は前四半期から2倍以上に増加しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;有料シート数が3000万を突破&lt;/li&gt;&lt;li&gt;四半期ごとの純増数が前四半期比で2倍以上に増加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年7月29日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026</link>
-      <guid isPermaLink="false">m365-release-notes-91c8aee75396020f3410</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年7月29日更新では、ファイルや会議からのインライン画像表示機能やOneNoteのCopilotノートブックの概要エクスペリエンスの刷新が行われました。また、Context IQを通じたSharePoint Listsの検索・選択、メール添付ファイルのリスト化、ビルトインのスクリーンショット撮影機能などが追加されました。さらに、管理者向けのServiceConnectorの接続編集機能や、Agent BuilderでのSharePointリストの知識ソースとしてのサポートなどが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ファイルや会議からのリッチ画像をCopilotの応答内にインラインで表示する機能を追加しました。&lt;/li&gt;&lt;li&gt;OneNote内のCopilotノートブックにおける概要エクスペリエンスを刷新し、AIによる要約や主要な洞察を見やすくしました。&lt;/li&gt;&lt;li&gt;Context IQメニューからSharePoint Listsを検索して選択し、プロンプトのグラウンディングを行えるようにしました。&lt;/li&gt;&lt;li&gt;送受信したメールのファイル添付ファイルをCopilotチャット内でリスト表示できるようにしました。&lt;/li&gt;&lt;li&gt;Copilotに内蔵されたスクリーンショット撮影ツールを使用して、画面キャプチャをプロンプトに直接追加できるようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>
