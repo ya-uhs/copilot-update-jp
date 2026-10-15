@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:16:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:17:06 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.142 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_142</link>
+      <guid isPermaLink="false">vscode-5ff0bcef74701c644227</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.142では、Copilot harnessが新しいセッションのデフォルトとして段階的に展開され、組み込みエージェントとしてAskが再導入されました。また、エージェントとの協業用インターフェースであるCanvases（プレビュー）や、チャットを別のフォルダやGit worktreeへ移動する機能が追加されました。さらに、エージェントウィンドウのレイアウトカスタマイズや、バックグラウンドシェルを停止する機能、モデルピッカーの再設計なども行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessが新しいセッションのデフォルトとして順次展開され、Askエージェントが再導入されました。&lt;/li&gt;&lt;li&gt;エージェントと共同作業を行うためのCanvases機能がプレビューとして追加されました。&lt;/li&gt;&lt;li&gt;エージェントウィンドウから、会話履歴を保持したままチャットを別のフォルダやGit worktreeへ移動できるようになりました。&lt;/li&gt;&lt;li&gt;バックグラウンドで実行中のシェルコマンドを手動で停止できるようになりました。&lt;/li&gt;&lt;li&gt;CopilotモデルとBYOKモデルをタブで分離する、再設計されたモデルピッカーが導入されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_142"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub CopilotにおけるGemini 4 Argonの一般提供開始</title>
       <link>https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot</link>

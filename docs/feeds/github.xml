@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:16:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:17:06 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>HydraFusionのアップデートと新しいMaxオプションの追加</title>
+      <link>https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option</link>
+      <guid isPermaLink="false">github-changelog-ffb5a326c8ee4530ec2c</guid>
+      <pubDate>Wed, 14 Oct 2026 20:01:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub CopilotにおけるHydraFusionのモデルプールの更新およびオーケストレーションワークフローの改善が行われました。さらに、新オプションとしてHydraFusion Maxが導入されました。これらの機能は、VS Code、GitHub Copilotアプリ、およびGitHub Copilotで利用可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HydraFusionのモデルプールを更新&lt;/li&gt;&lt;li&gt;オーケストレーションワークフローを改善&lt;/li&gt;&lt;li&gt;新オプション「HydraFusion Max」を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.98 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98</link>
+      <guid isPermaLink="false">github-copilot-cli-413121884</guid>
+      <pubDate>Wed, 14 Oct 2026 19:52:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98がリリースされ、Gemini 4 Argonのサポートが追加されました。また、コマンドフックの安定性向上、MCPステータスの同期修正、セッション再開時の権限処理の改善が行われました。さらに、起動時の入力保持や、/askコマンドなどのキーボード操作に関する機能強化が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 Argonのサポートを追加&lt;/li&gt;&lt;li&gt;Node環境下で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するように修正&lt;/li&gt;&lt;li&gt;分割ビューでのセッション切り替え時にMCPステータスと /mcp コマンドがアクティブセッションと同期した状態を維持するように修正&lt;/li&gt;&lt;li&gt;中断された保留中の権限作業を考慮し、アクティブな権限リクエストのみを続行するようにセッション再開処理を改善&lt;/li&gt;&lt;li&gt;起動時の入力ボックス表示中に入力された通常文字がドロップされずに維持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.98-2 のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-2</link>
@@ -27,6 +47,16 @@
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
       <category>medium</category>
+    </item>
+    <item>
+      <title>Visual Studio Code 1.142 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_142</link>
+      <guid isPermaLink="false">vscode-5ff0bcef74701c644227</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.142では、Copilot harnessが新しいセッションのデフォルトとして段階的に展開され、組み込みエージェントとしてAskが再導入されました。また、エージェントとの協業用インターフェースであるCanvases（プレビュー）や、チャットを別のフォルダやGit worktreeへ移動する機能が追加されました。さらに、エージェントウィンドウのレイアウトカスタマイズや、バックグラウンドシェルを停止する機能、モデルピッカーの再設計なども行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessが新しいセッションのデフォルトとして順次展開され、Askエージェントが再導入されました。&lt;/li&gt;&lt;li&gt;エージェントと共同作業を行うためのCanvases機能がプレビューとして追加されました。&lt;/li&gt;&lt;li&gt;エージェントウィンドウから、会話履歴を保持したままチャットを別のフォルダやGit worktreeへ移動できるようになりました。&lt;/li&gt;&lt;li&gt;バックグラウンドで実行中のシェルコマンドを手動で停止できるようになりました。&lt;/li&gt;&lt;li&gt;CopilotモデルとBYOKモデルをタブで分離する、再設計されたモデルピッカーが導入されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_142"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.98-0</title>

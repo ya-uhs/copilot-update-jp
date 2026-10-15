@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:16:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:17:06 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot：Copilot応答のパーソナライゼーションにおけるメモリ引用機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574111</link>
+      <guid isPermaLink="false">m365-roadmap-faea46a4d56a590701c4</guid>
+      <pubDate>Wed, 14 Oct 2026 23:01:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Chatがメモリを使用して応答をパーソナライズする際、回答の根拠となった情報を確認できるようになりました。ユーザーは応答下の「Sources」から「Personalization」タブを開くことで、カスタム指示、保存されたメモリ、会話から学習したメモリ、過去のチャットを確認できます。メモリ機能が有効な場合にのみメモリ引用が表示されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;応答下の「Sources」から「Personalization」タブを選択し、回答の根拠となったカスタム指示、保存されたメモリ、学習されたメモリ、過去のチャットを閲覧可能&lt;/li&gt;&lt;li&gt;引用されたチャットへの移動や、保存されたメモリの確認および削除が可能&lt;/li&gt;&lt;li&gt;メモリ引用の表示はメモリ機能が有効な場合のみに限定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574111"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Planner: Planner Agent in Copilot V2 Improvements</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573168</link>
+      <guid isPermaLink="false">m365-roadmap-1ab3e5d661bbf192edee</guid>
+      <pubDate>Wed, 14 Oct 2026 23:01:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Planner Agentは、Microsoft 365 Copilot内で個人タスクや共有基本プランの作成・管理機能を提供します。今回のアップデートでは、コンテキスト処理の改善、モデルアップグレードによる品質向上、信頼性の向上と遅延の削減が含まれます。さらに、タスク管理機能の拡張やユーザー体験の向上、新規機能としてスケジュール化されたタスクのキャッチアップ機能が追加されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンテキスト処理の改善と大規模プランのサポート&lt;/li&gt;&lt;li&gt;モデルアップグレード、プロンプトの洗練、グラウンディングの改善による高品質な応答&lt;/li&gt;&lt;li&gt;信頼性の向上と遅延の削減による一貫した応答性の実現&lt;/li&gt;&lt;li&gt;タスク割り当てサポートの拡大を含むタスク管理機能の拡張&lt;/li&gt;&lt;li&gt;スケジュール化されたタスクのキャッチアップなどの新機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573168"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>HydraFusionのアップデートと新しいMaxオプションの追加</title>
+      <link>https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option</link>
+      <guid isPermaLink="false">github-changelog-ffb5a326c8ee4530ec2c</guid>
+      <pubDate>Wed, 14 Oct 2026 20:01:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub CopilotにおけるHydraFusionのモデルプールの更新およびオーケストレーションワークフローの改善が行われました。さらに、新オプションとしてHydraFusion Maxが導入されました。これらの機能は、VS Code、GitHub Copilotアプリ、およびGitHub Copilotで利用可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HydraFusionのモデルプールを更新&lt;/li&gt;&lt;li&gt;オーケストレーションワークフローを改善&lt;/li&gt;&lt;li&gt;新オプション「HydraFusion Max」を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.98 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98</link>
+      <guid isPermaLink="false">github-copilot-cli-413121884</guid>
+      <pubDate>Wed, 14 Oct 2026 19:52:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98がリリースされ、Gemini 4 Argonのサポートが追加されました。また、コマンドフックの安定性向上、MCPステータスの同期修正、セッション再開時の権限処理の改善が行われました。さらに、起動時の入力保持や、/askコマンドなどのキーボード操作に関する機能強化が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 Argonのサポートを追加&lt;/li&gt;&lt;li&gt;Node環境下で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するように修正&lt;/li&gt;&lt;li&gt;分割ビューでのセッション切り替え時にMCPステータスと /mcp コマンドがアクティブセッションと同期した状態を維持するように修正&lt;/li&gt;&lt;li&gt;中断された保留中の権限作業を考慮し、アクティブな権限リクエストのみを続行するようにセッション再開処理を改善&lt;/li&gt;&lt;li&gt;起動時の入力ボックス表示中に入力された通常文字がドロップされずに維持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.98-2 のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-2</link>
@@ -27,6 +67,16 @@
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
       <category>medium</category>
+    </item>
+    <item>
+      <title>Visual Studio Code 1.142 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_142</link>
+      <guid isPermaLink="false">vscode-5ff0bcef74701c644227</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.142では、Copilot harnessが新しいセッションのデフォルトとして段階的に展開され、組み込みエージェントとしてAskが再導入されました。また、エージェントとの協業用インターフェースであるCanvases（プレビュー）や、チャットを別のフォルダやGit worktreeへ移動する機能が追加されました。さらに、エージェントウィンドウのレイアウトカスタマイズや、バックグラウンドシェルを停止する機能、モデルピッカーの再設計なども行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessが新しいセッションのデフォルトとして順次展開され、Askエージェントが再導入されました。&lt;/li&gt;&lt;li&gt;エージェントと共同作業を行うためのCanvases機能がプレビューとして追加されました。&lt;/li&gt;&lt;li&gt;エージェントウィンドウから、会話履歴を保持したままチャットを別のフォルダやGit worktreeへ移動できるようになりました。&lt;/li&gt;&lt;li&gt;バックグラウンドで実行中のシェルコマンドを手動で停止できるようになりました。&lt;/li&gt;&lt;li&gt;CopilotモデルとBYOKモデルをタブで分離する、再設計されたモデルピッカーが導入されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_142"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] SharePoint: Agent chat web part</title>
@@ -1954,56 +2004,6 @@
       <guid isPermaLink="false">m365-release-notes-dbdb0cf94353ec1b9114</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年7月15日更新では、Agent Builderで作成したエージェントの組織内ストアへの提出機能や、Copilot Prompt Galleryでの全社向けプロンプト公開機能が追加されました。また、Microsoft Edgeのデザイン刷新、Model Context Protocol（MCP）を用いたOfficeアプリでのエージェント利用、およびConfluenceやServiceNowにおける階層的アクセス権（ネストされた権限）のサポートが導入されています。さらに、管理センターのコネクタタブから連合型Copilotコネクタ（MCPベース）の展開と管理が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent Builderで作成したカスタムエージェントを、Microsoft 365 管理センターでの審査・承認を経てAgent Storeへ提出および公開可能になりました。&lt;/li&gt;&lt;li&gt;管理者がCopilot Prompt Galleryを通じて、企業向けのプロンプトコレクションをテナント内の全ユーザーに向けて公開できるようになりました。&lt;/li&gt;&lt;li&gt;Microsoft Edge（バージョン149）が、CopilotやBingと共通するデザイン言語（スペーシング、角丸、フォント、既定の色など）へと刷新されました。&lt;/li&gt;&lt;li&gt;Word、Excel、PowerPoint、Outlook、Catalystにおいて、Model Context Protocol（MCP）で構築されたエージェントの直接利用が可能になりました。&lt;/li&gt;&lt;li&gt;ConfluenceおよびServiceNowコネクタで階層的アクセス権（ネストされた権限）がサポートされ、親レベルの権限評価が行われるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年7月1日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-01-2026</link>
-      <guid isPermaLink="false">m365-release-notes-121e6c489d6d40530f1c</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年7月1日更新では、AI生成コンテンツへのウォーターマーク追加や、Windowsタスクバーでの長期実行エージェントタスクの表示機能が導入されました。また、Copilot NotebooksからのPowerPointおよびWord文書の直接作成やマインドマップ機能、生成ファイルへの機密ラベル自動継承などが追加されています。さらに、宣言型エージェントのプロンプト定期実行や部門情報に基づくCopilot検索、iOSでのアクションボタンやSiriによる迅速なアプリ起動が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AI生成された動画および音声コンテンツに対して、組織のポリシー設定に基づいてウォーターマークを追加できるようになりました。&lt;/li&gt;&lt;li&gt;Windowsのタスクバーで、エージェント型ワークフローの長期実行タスクの状態アイコンや進捗インジケーターを確認できるようになりました。&lt;/li&gt;&lt;li&gt;アナリストやアイデアコーチなどの宣言型エージェントに対して、繰り返しのプロンプトをスケジュール設定できるようになりました。&lt;/li&gt;&lt;li&gt;Copilot Notebooksに収集したコンテンツから、PowerPointおよびWordの構造化された編集可能なドキュメントを直接生成できるようになりました。&lt;/li&gt;&lt;li&gt;Copilot NotebooksおよびOneNoteで、トピックやテーマを視覚的に整理するインタラクティブなマインドマップを利用できるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-01-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>ExcelにおけるMicrosoft 365 Copilot：フロンティアファイナンスの時代に向けて</title>
-      <link>https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/</link>
-      <guid isPermaLink="false">m365-blog-3f57e88d56c9537d3b1c</guid>
-      <pubDate>Thu, 25 Jun 2026 13:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot in Excelは、財務業務向けの実用的なAIツールとして機能しています。本記事では、財務分野におけるAIの活用について紹介しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ExcelにおけるMicrosoft 365 Copilotの財務業務での活用事例の紹介&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>unknown</category>
-      <category>low</category>
-    </item>
-    <item>
-      <title>Copilot Cowork が一般提供開始</title>
-      <link>https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available/</link>
-      <guid isPermaLink="false">m365-blog-675ce4910858546c3f7e</guid>
-      <pubDate>Tue, 16 Jun 2026 15:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Copilot Cowork が一般提供 (GA) となりました。Cowork は Frontier プログラム史上最も成長が速い機能で、利用者満足度も高いことが報告されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Cowork が一般提供 (GA) に移行&lt;/li&gt;&lt;li&gt;利用者満足度が高いことが確認された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>GA</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート — 2026年6月16日</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-16-2026</link>
-      <guid isPermaLink="false">m365-release-notes-41720b53a8cdddb23403</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;2026年6月2日から6月16日までの期間に、Microsoft 365 Copilot に複数の機能強化が行われました。Claude モデルの追加やチャット履歴の無限スクロール、Edge の統一デザイン、15Five 連携、PowerPoint の新画像生成モデルなどが提供され、ユーザーは柔軟なAI選択や作業効率の向上が期待できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Anthropic の Claude が Copilot Chat に追加され、複雑な分析や文書理解、構造化コンテンツ生成に利用できるようになった。&lt;/li&gt;&lt;li&gt;Web 版でチャット履歴が無限スクロールに変更され、過去の会話をスクロールするだけで自動的に読み込めるようになった。&lt;/li&gt;&lt;li&gt;Microsoft Edge の Copilot 体験が更新され、間隔・角丸・フォント・配色が他の Microsoft AI 製品と統一された。&lt;/li&gt;&lt;li&gt;15Five 用コネクタが追加され、チームの優先事項や表彰情報を Copilot 内で直接参照できるようになった。&lt;/li&gt;&lt;li&gt;PowerPoint で Black Forest Lab の FLUX.2 Flex 画像生成モデルが選択可能となり、テキストやレイアウトの描画品質が向上した。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-16-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート — 2026年6月2日</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-2-2026</link>
-      <guid isPermaLink="false">m365-release-notes-b738696548177b5f62c0</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot に対する複数の機能拡張が本リリースで提供されました。管理者は利用状況に基づくターゲティングやメール配信を用いて組織メッセージをより効果的に配信でき、Copilot はモデル駆動型アプリや Word で直接編集を行えるようになりました。また、フェデレーテッドコネクタが一般提供され、外部データへのリアルタイムアクセスが可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Organizational Messages が利用状況ベースのターゲティングを一般提供し、Copilot の採用促進に動的セグメントを利用できるようになった&lt;/li&gt;&lt;li&gt;Organizational Messages にメール配信が追加され、9 つのテンプレートとメール向けインサイトタブが利用可能となった&lt;/li&gt;&lt;li&gt;Microsoft 365 Copilot がモデル駆動型アプリに組み込まれ、アプリ内で質問やタスク実行ができるようになった&lt;/li&gt;&lt;li&gt;Federated Copilot コネクタが一般提供され、サードパーティ データソースへのリアルタイム接続が可能になった&lt;/li&gt;&lt;li&gt;Word の Copilot がデフォルトで文書編集を行えるようになり、変更は追跡・元に戻せる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-2-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Release</category>
       <category>high</category>

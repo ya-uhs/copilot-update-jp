@@ -5785,5 +5785,146 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-ffb5a326c8ee4530ec2c",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+    "published_at": "2026-10-14T20:01:35Z",
+    "title_original": "HydraFusion updates and new Max option",
+    "excerpt_original": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot… The post HydraFusion updates and new Max option appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "HydraFusionのアップデートと新しいMaxオプションの追加",
+    "summary_ja": "GitHub CopilotにおけるHydraFusionのモデルプールの更新およびオーケストレーションワークフローの改善が行われました。さらに、新オプションとしてHydraFusion Maxが導入されました。これらの機能は、VS Code、GitHub Copilotアプリ、およびGitHub Copilotで利用可能です。",
+    "changes": [
+      "HydraFusionのモデルプールを更新",
+      "オーケストレーションワークフローを改善",
+      "新オプション「HydraFusion Max」を追加"
+    ],
+    "target_user": [
+      "VS Code users",
+      "GitHub Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-15T00:16:59Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-15T00:16:55Z"
+  },
+  {
+    "id": "github-copilot-cli-413121884",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.98",
+    "published_at": "2026-10-14T19:52:33Z",
+    "title_original": "GitHub Copilot CLI v1.0.98",
+    "excerpt_original": "2026-10-14 - Add support for Gemini 4 Argon - Command hooks complete reliably even when child-exit signals are lost under Node - MCP status and /mcp commands stay synced to the active session after split-view session switches - Resuming a session now respects abandoned pending-permission work and continues only active permission requests. - Keep ordinary characters typed while the input box is still coming up at startup, instead of dropping them - Expand /ask answers with Ctrl+E, copy the entire answer with Ctrl+Y, and reopen the last usable completed answer in the session with /ask or /btw.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.98 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.98がリリースされ、Gemini 4 Argonのサポートが追加されました。また、コマンドフックの安定性向上、MCPステータスの同期修正、セッション再開時の権限処理の改善が行われました。さらに、起動時の入力保持や、/askコマンドなどのキーボード操作に関する機能強化が含まれています。",
+    "changes": [
+      "Gemini 4 Argonのサポートを追加",
+      "Node環境下で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するように修正",
+      "分割ビューでのセッション切り替え時にMCPステータスと /mcp コマンドがアクティブセッションと同期した状態を維持するように修正",
+      "中断された保留中の権限作業を考慮し、アクティブな権限リクエストのみを続行するようにセッション再開処理を改善",
+      "起動時の入力ボックス表示中に入力された通常文字がドロップされずに維持されるように修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-15T00:17:03Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-15T00:16:59Z"
+  },
+  {
+    "id": "vscode-5ff0bcef74701c644227",
+    "source": "VS Code Release Notes",
+    "source_url": "https://code.visualstudio.com/updates/v1_142",
+    "published_at": "2026-10-14T00:00:00Z",
+    "date_basis": "published",
+    "title_original": "Visual Studio Code 1.142 — Copilot / Chat / Agents",
+    "excerpt_original": "Agents\nCopilot harness\nThe Copilot harness is powered by the Copilot SDK, a shared foundation that helps align behavior, capabilities, and improvements across Copilot products. In VS Code, the Copilot harness runs sessions through the Agent Host , which lets sessions continue in the background and be accessed from both the VS Code editor window and the Agents window.\nThe Copilot harness has been available from the harness picker in the chat input. Based on overwhelmingly positive and valuable feedback, we're progressively rolling it out as the default harness for new sessions in VS Code. When you start a new session, Copilot in the harness picker indicates that the session will use the Copilot harness.\n\nThank you to everyone who has shared feedback. We're actively using it to shape the experience. One example is reintroducing Ask as a built-in agent in the Copilot harness. Your feedback showed that a dedicated read-only experience remains valuable. Select Ask from the agent picker to use it.\nLearn how to work with the Copilot harness , or explore the architecture and workflows in the agent host blog post . If you have feedback or requests, please file an issue .\nCanvases (Preview)\nSetting : chat.canvases.enabled Open in VS Code Open in VS Code Insiders\nCanvases are interactive interfaces to collaborate with an agent. A canvas opens beside the chat, where you and the agent can inspect and update the same artifact instead of coordinating solely through prompts.\nFor example, use a Kanban canvas to plan and track implementation work. You can create and move cards directly, while the agent can break a feature into tasks, update their status, or add newly discovered work. Canvases work in both the VS Code editor window and the Agents window, and canvas extensions are also supported in the GitHub Copilot app .\n\nCanvases are available in Preview in the VS Code desktop app for local sessions that use the Copilot harness. Enable chat.canvases.enabled Open in VS Code Open in VS Code Insiders , and then start a new session with the Copilot harness.\nEvery canvas is provided by a canvas extension. To get started, you have two options:\nCreate a canvas extension : Enter /create-canvas in the chat input and describe the user interface you want for your project. The skill then creates a canvas extension in your workspace and opens its canvas. Install a chat plugin : For now, install a chat plugin that includes a canvas extension through the GitHub Copilot app. Then switch to VS Code and ask the agent to list the available canvases and have it open one.\nAfter you install a canvas extension, you can also open an available canvas in the Agents window from Add Tab (+) > Canvas .\nExplore and install sample canvas extensions from the community .\nLearn more about canvas support in the VS Code documentation.\n\nMove chats between folders and worktrees\nPreviously, if you started investigating a task in one folder and then wanted to implement it in a Git worktree, or continue in a different repository, you had to start a new chat and rebuild the context.\nIn the Agents window , you can now ask the agent to move the current chat to another folder or into a new Git worktree, and it keeps the conversation history intact. Changing the workspace also works for chats that already have a workspace, and the agent can isolate work in a new worktree.\nAsk the agent with a natural-language prompt, for example:\nContinue this task in a new Git worktree of the current repository before implementing it.\nThe agent finishes the current turn, moves the chat, and shows a notice when the workspace changes. Then it continues the task automatically in the new location. Edits and commands run in the new location while your original checkout stays unchanged.\n\nThe move is available for agent sessions that use the Codex harness or Codex in Interactive mode, and that contain one chat and one local folder. For prerequisites and details about which files are available in the new location, see Move a chat to another folder or worktree .\nSession-scoped layout in the Agents window (Experimental)\nSetting : sessions.experimental.layoutScope Open in VS Code Open in VS Code Insiders (Agents window only)\nPreviously, when you switched between sessions in the Agents window, VS Code shared layout settings such as editor visibility, details, and panel visibility across sessions. If you're used to VS Code remembering the layout for each workspace, sharing the layout across sessions can be disruptive.\nWith the new experimental sessions.experimental.layoutScope Open in VS Code Open in VS Code Insiders setting, you can choose how much of the layout each session remembers. Reload the window after you change the setting. It supports the following values:\nsession-shared (default): The current behavior. A session and its nested sessions share the same editors and selected panel views. Editor, details, and bottom panel visibility are shared across existing workspace sessions. chat-shared : A session and each of its nested sessions keep their own editors and selected panel views, while editor, details, and bottom panel visibility stay shared across existing workspace sessions. chat : A session and each of its nested sessions also keep their own editor and details composition and bottom panel visibility.\nWindow geometry, pane sizes, and the sidebar currently remain shared across the window.\nCustomize the Agents window panel layout\nYou can now choose how the bottom panel is aligned in the Agents window. Right-click a panel tab, select Align Panel , and choose one of the following layouts:\nCenter aligns the panel beneath the chat area, leaving more room for the side pane. Justify extends the panel across the full width of the window.\nYour selection is saved per profile and preserved when maximizing or restoring the panel.\n\n\nChat\nQuickly identify the active harness\nChat titles show the active harness name, such as Copilot or Codex , so you can identify it without opening the harness picker or hovering over the session list.\n\nStop background shells\nIn Copilot harness sessions, the background shells pill above the chat input lists the commands that the agent is still running in the background. When one of those commands is no longer useful, for example a test run that you want to restart or a command that runs longer than expected, you can stop it instead of waiting for it to finish.\nSelect the Background Shells pill, select a shell to open its details, and then select Stop Shell next to its command. Only that command ends, and the shell leaves the list. You can reach Stop Shell with the keyboard, and screen readers announce when the shell stops.\n\nStopping a shell is only available for attached shells , which the agent runs as part of its current request. Detached shells run independently of the agent and can't be stopped from this interface.\nShell details also show each shell's full description above its command, even when the list truncates it. Long output is no longer cut off, and you can scroll back through earlier output, both in the shell's details and in the terminal output in the chat response.\nStateful responses for BYOK custom endpoints\nIf your bring-your-own-key (BYOK) model uses a stateless Responses API, set \"statefulResponses\": false on its model entry in chatLanguageModels.json to send full conversation history with each request.\nSee Custom Endpoint configuration for details.\nWindows sandboxing for Local harness is no longer supported\nWindows sandboxing for terminal commands in Local agent sessions has been deprecated. For sandboxed command execution on Windows, use an Agent Host session. See the Agent Host sandboxing documentation for details.\nRedesigned model picker\nCopilot and bring-your-own-key (BYOK) providers offer many models, each with strengths for different tasks. The redesigned model picker makes it easier to choose and switch models as your work changes.\nThe model picker uses a tabbed interface to separate Copilot and BYOK models.\n\nWhen you hover over a model in the list, you can further configure its thinking level and context window size.\n\n",
+    "product": "GitHub Copilot in VS Code",
+    "status": "Release",
+    "title_ja": "Visual Studio Code 1.142 — Copilot / Chat / Agents",
+    "summary_ja": "Visual Studio Code 1.142では、Copilot harnessが新しいセッションのデフォルトとして段階的に展開され、組み込みエージェントとしてAskが再導入されました。また、エージェントとの協業用インターフェースであるCanvases（プレビュー）や、チャットを別のフォルダやGit worktreeへ移動する機能が追加されました。さらに、エージェントウィンドウのレイアウトカスタマイズや、バックグラウンドシェルを停止する機能、モデルピッカーの再設計なども行われています。",
+    "changes": [
+      "Copilot harnessが新しいセッションのデフォルトとして順次展開され、Askエージェントが再導入されました。",
+      "エージェントと共同作業を行うためのCanvases機能がプレビューとして追加されました。",
+      "エージェントウィンドウから、会話履歴を保持したままチャットを別のフォルダやGit worktreeへ移動できるようになりました。",
+      "バックグラウンドで実行中のシェルコマンドを手動で停止できるようになりました。",
+      "CopilotモデルとBYOKモデルをタブで分離する、再設計されたモデルピッカーが導入されました。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-15T00:17:06Z",
+    "source_id": "vscode",
+    "family": "github",
+    "translation_attempted_at": "2026-10-15T00:17:03Z"
+  },
+  {
+    "id": "m365-roadmap-faea46a4d56a590701c4",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574111",
+    "published_at": "2026-10-14T23:01:02Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Copilot response personalization - Memory citations",
+    "excerpt_original": "When Copilot Chat uses memory to personalize a response, users can now see what informed the answer. Select Sources beneath the response, then open the Personalization tab to view the custom instructions, saved memories, memories learned from conversations, and past chats that shaped the response. From there, users can return to a cited chat to pick up where they left off or review and delete saved memories. Memory citations appear only when memory is turned on. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot：Copilot応答のパーソナライゼーションにおけるメモリ引用機能",
+    "summary_ja": "Microsoft Copilot Chatがメモリを使用して応答をパーソナライズする際、回答の根拠となった情報を確認できるようになりました。ユーザーは応答下の「Sources」から「Personalization」タブを開くことで、カスタム指示、保存されたメモリ、会話から学習したメモリ、過去のチャットを確認できます。メモリ機能が有効な場合にのみメモリ引用が表示されます。",
+    "changes": [
+      "応答下の「Sources」から「Personalization」タブを選択し、回答の根拠となったカスタム指示、保存されたメモリ、学習されたメモリ、過去のチャットを閲覧可能",
+      "引用されたチャットへの移動や、保存されたメモリの確認および削除が可能",
+      "メモリ引用の表示はメモリ機能が有効な場合のみに限定"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-15T00:16:51Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-15T00:16:46Z"
+  },
+  {
+    "id": "m365-roadmap-1ab3e5d661bbf192edee",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573168",
+    "published_at": "2026-10-14T23:01:02Z",
+    "title_original": "[Roadmap] Planner: Planner Agent in Copilot V2 Improvements",
+    "excerpt_original": "Planner Agent brings Planner’s intelligent work management directly into Copilot Chat, enabling users to create, update, and manage personal tasks and shared basic plans without switching context. Integrated across Microsoft 365, it provides insights into priorities, deadlines, and at-risk work, along with interactive task cards to help users stay organized and keep work moving. Building on the initial launch, planned improvements include: Improved context handling and support for larger plans. Higher-quality responses through model upgrades, refined prompts, and better grounding. Greater reliability and reduced latency for more consistent, responsive interactions. Expanded task management capabilities, including broader task assignment support. User experience enhancements to make managing tasks and plans in Copilot Chat more intuitive. New capabilities, including scheduled task catch-ups. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Planner: Planner Agent in Copilot V2 Improvements",
+    "summary_ja": "Planner Agentは、Microsoft 365 Copilot内で個人タスクや共有基本プランの作成・管理機能を提供します。今回のアップデートでは、コンテキスト処理の改善、モデルアップグレードによる品質向上、信頼性の向上と遅延の削減が含まれます。さらに、タスク管理機能の拡張やユーザー体験の向上、新規機能としてスケジュール化されたタスクのキャッチアップ機能が追加されます。",
+    "changes": [
+      "コンテキスト処理の改善と大規模プランのサポート",
+      "モデルアップグレード、プロンプトの洗練、グラウンディングの改善による高品質な応答",
+      "信頼性の向上と遅延の削減による一貫した応答性の実現",
+      "タスク割り当てサポートの拡大を含むタスク管理機能の拡張",
+      "スケジュール化されたタスクのキャッチアップなどの新機能の追加"
+    ],
+    "target_user": [
+      "Microsoft 365 ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-15T00:16:55Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-15T00:16:51Z"
   }
 ]
