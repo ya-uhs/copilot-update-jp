@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 00:17:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 08:50:12 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -27,6 +27,16 @@
       <category>GitHub Copilot</category>
       <category>GA</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.99-0 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-0</link>
+      <guid isPermaLink="false">github-copilot-cli-413313982</guid>
+      <pubDate>Thu, 15 Oct 2026 01:00:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.99-0がリリースされました。今回のアップデートでは、共有アクションメニューの追加やサンドボックス機能の改善、および複数のバグ修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;引数なしで /share を実行することで、現在のセッションを共有するためのフルスクリーンアクションメニューを表示する機能を追加しました。&lt;/li&gt;&lt;li&gt;/sandbox コマンドで、グローバルに有効化しなくても現在のセッションに対してサンドボックスを維持できるようになりました。&lt;/li&gt;&lt;li&gt;信頼されたリポジトリプラグインがチャットの実行前に自動的にインストールおよび更新されるように改善しました。&lt;/li&gt;&lt;li&gt;内蔵のブラウザプラグイン名を browser-use に変更し、アップグレード後も既存のブラウザプラグイン設定が機能するようにしました。&lt;/li&gt;&lt;li&gt;サンドボックスがデフォルトでローカルネットワークアクセスを許可し、コマンドがローカルホストおよびプライベートネットワークサービスに到達できるようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot：Copilot応答のパーソナライゼーションにおけるメモリ引用機能</title>
@@ -94,16 +104,6 @@
       <guid isPermaLink="false">m365-roadmap-db71a4ec04ffb994554d</guid>
       <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;SharePointのモダンページエディター向けに、新しい「Agent chat web part」が提供されます。このWebパーツは、任意のM365 Copilotエージェントを使用するように設定可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;SharePointのモダンページエディターで利用可能な新しいWebパーツを追加&lt;/li&gt;&lt;li&gt;任意のM365 Copilotエージェントを使用するようWebパーツを設定可能&lt;/li&gt;&lt;li&gt;プレビュー提供予定時期: 2026年11月&lt;/li&gt;&lt;li&gt;一般提供（GA）予定時期: 2027年1月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575298"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Purview データ損失防止（DLP）：CopilotおよびCoworkにおける管理単位（Administrative Units）のサポート</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575287</link>
-      <guid isPermaLink="false">m365-roadmap-49ce2c9e62d6df537b77</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Loss Prevention（DLP）が、Microsoft 365 Copilot、Copilot Chat、Coworkに対する管理単位（Administrative Units）のサポートを拡張します。これにより、組織はテナント全体の権限を付与することなく、割り当てられた管理者に対応するCopilot DLPポリシーの管理を委任できるようになります。既存のテナント全体ポリシーは引き続き適用され、管理単位を活用した管理はオプションとなります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Purview DLPでMicrosoft 365 Copilot、Copilot Chat、Coworkの管理単位サポートを拡張&lt;/li&gt;&lt;li&gt;指定された管理単位内の管理者にCopilot DLPポリシーの管理権限を委任することが可能&lt;/li&gt;&lt;li&gt;既存のテナント全体のポリシーは継続して適用&lt;/li&gt;&lt;li&gt;管理単位に基づくスコープ管理の設定はオプショナル&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575287"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
