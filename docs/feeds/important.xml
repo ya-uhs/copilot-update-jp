@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 00:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 08:44:26 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善</title>
+      <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
+      <guid isPermaLink="false">github-changelog-6fdf4a6bc9a49fd054fb</guid>
+      <pubDate>Fri, 16 Oct 2026 02:16:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Slack と Microsoft Teams で利用できる GitHub Copilot が、単一の会話内で複数リポジトリを跨いで操作できるようになりました。これにより、プルリクエストの追跡やコードの調査を複数のリポジトリにまたがって行うことが可能です。その他の機能改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;単一会話で複数リポジトリを扱えるマルチリポジトリ対応&lt;/li&gt;&lt;li&gt;プルリクエストの追跡を複数リポジトリに跨って実行可能&lt;/li&gt;&lt;li&gt;コード調査機能の向上&lt;/li&gt;&lt;li&gt;その他の改善点（詳細未公表）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] SharePoint および OneDrive における Copilot Search</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=573696</link>

@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 00:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 08:44:26 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善</title>
+      <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
+      <guid isPermaLink="false">github-changelog-6fdf4a6bc9a49fd054fb</guid>
+      <pubDate>Fri, 16 Oct 2026 02:16:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Slack と Microsoft Teams で利用できる GitHub Copilot が、単一の会話内で複数リポジトリを跨いで操作できるようになりました。これにより、プルリクエストの追跡やコードの調査を複数のリポジトリにまたがって行うことが可能です。その他の機能改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;単一会話で複数リポジトリを扱えるマルチリポジトリ対応&lt;/li&gt;&lt;li&gt;プルリクエストの追跡を複数リポジトリに跨って実行可能&lt;/li&gt;&lt;li&gt;コード調査機能の向上&lt;/li&gt;&lt;li&gt;その他の改善点（詳細未公表）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.99-2 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-2</link>
+      <guid isPermaLink="false">github-copilot-cli-414415825</guid>
+      <pubDate>Fri, 16 Oct 2026 00:49:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-2では、管理者が設定したモデルの優先適用に関する通知機能の追加や、オンラインセッションでのセマンティックコード検索のデフォルト有効化が行われました。また、Linux環境でのサンドボックスコマンドの信頼性向上、MCPリソース詳細からのナビゲーション改善、プラグインダウンロード中のネイティブチャット実行など、複数の不具合修正と動作改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者管理設定が選択中のモデルを上書きする場合に明確な通知を表示するよう改善&lt;/li&gt;&lt;li&gt;オンラインセッションでセマンティックコード検索をデフォルトで有効化&lt;/li&gt;&lt;li&gt;Linux上のサンドボックスコマンドがループバック設定の失敗なくより確実に対象を起動するよう修正&lt;/li&gt;&lt;li&gt;ライブメタデータの更新中、MCPリソース詳細からの戻る操作がリスト上に留まるよう修正&lt;/li&gt;&lt;li&gt;オプションの管理プラグインのダウンロードがバックグラウンドで継続している間も、ネイティブチャットの開始と終了が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] SharePoint および OneDrive における Copilot Search</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=573696</link>
@@ -1987,26 +2007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365: Organizational Data ServiceがGCC-High環境で利用可能に</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570431</link>
-      <guid isPermaLink="false">m365-roadmap-d8bf44d785a81b28cbfa</guid>
-      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365のOrganizational Data Serviceが、GCC-High環境で利用可能になりました。複数の人事管理システム（HRIS）からの組織・人事データの迅速な取り込みを単一の統合ポイントで実現し、Microsoft CopilotやMicrosoft 365アプリで活用できます。データの品質問題を事前に検知・通知・解決するフレームワークを備えており、一般提供（GA）の時期は2026年9月予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC-High環境におけるMicrosoft 365 Organizational Data Serviceの提供開始&lt;/li&gt;&lt;li&gt;単一の統合ポイントを通じた複数のHRISシステムからの組織・人事データの迅速な取り込み&lt;/li&gt;&lt;li&gt;Microsoft CopilotおよびMicrosoft 365アプリでの組織データの利用&lt;/li&gt;&lt;li&gt;データ品質問題を検知・通知・解決するフレームワークの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570431"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Viva: GCC-HighにおけるViva InsightsとCopilot Analytics</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570428</link>
-      <guid isPermaLink="false">m365-roadmap-dbb2cd2a6bf32a7c1d7f</guid>
-      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Government Community Cloud High (GCC High)環境において、Microsoft Viva InsightsとCopilot Analyticsの提供が開始されます。対象組織は、プライバシー保護されたロールベースの分析を通じて、Microsoft 365 Copilotの導入状況や利用状況、影響を把握できるようになります。また、従業員のコラボレーションに関するデータ駆動型の行動インサイトを提供し、組織の生産性とウェルビーイングの向上を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC High環境向けにMicrosoft 365 Copilotの導入、利用、影響を把握する分析機能を提供&lt;/li&gt;&lt;li&gt;プライバシー保護とロールベースの分析体験を実現&lt;/li&gt;&lt;li&gt;従業員のコラボレーションに関するデータ駆動型の行動インサイトにより、生産性とウェルビーイングの向上を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570428"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

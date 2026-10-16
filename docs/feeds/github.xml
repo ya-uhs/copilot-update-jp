@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 00:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 08:44:26 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善</title>
+      <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
+      <guid isPermaLink="false">github-changelog-6fdf4a6bc9a49fd054fb</guid>
+      <pubDate>Fri, 16 Oct 2026 02:16:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Slack と Microsoft Teams で利用できる GitHub Copilot が、単一の会話内で複数リポジトリを跨いで操作できるようになりました。これにより、プルリクエストの追跡やコードの調査を複数のリポジトリにまたがって行うことが可能です。その他の機能改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;単一会話で複数リポジトリを扱えるマルチリポジトリ対応&lt;/li&gt;&lt;li&gt;プルリクエストの追跡を複数リポジトリに跨って実行可能&lt;/li&gt;&lt;li&gt;コード調査機能の向上&lt;/li&gt;&lt;li&gt;その他の改善点（詳細未公表）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.99-2 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-2</link>
+      <guid isPermaLink="false">github-copilot-cli-414415825</guid>
+      <pubDate>Fri, 16 Oct 2026 00:49:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-2では、管理者が設定したモデルの優先適用に関する通知機能の追加や、オンラインセッションでのセマンティックコード検索のデフォルト有効化が行われました。また、Linux環境でのサンドボックスコマンドの信頼性向上、MCPリソース詳細からのナビゲーション改善、プラグインダウンロード中のネイティブチャット実行など、複数の不具合修正と動作改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者管理設定が選択中のモデルを上書きする場合に明確な通知を表示するよう改善&lt;/li&gt;&lt;li&gt;オンラインセッションでセマンティックコード検索をデフォルトで有効化&lt;/li&gt;&lt;li&gt;Linux上のサンドボックスコマンドがループバック設定の失敗なくより確実に対象を起動するよう修正&lt;/li&gt;&lt;li&gt;ライブメタデータの更新中、MCPリソース詳細からの戻る操作がリスト上に留まるよう修正&lt;/li&gt;&lt;li&gt;オプションの管理プラグインのダウンロードがバックグラウンドで継続している間も、ネイティブチャットの開始と終了が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>特定モデルのGitHub Copilotからの廃止予定（2026年11月16日）</title>
       <link>https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november</link>

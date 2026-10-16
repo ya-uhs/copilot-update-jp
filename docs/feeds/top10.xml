@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 00:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 08:44:26 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善</title>
+      <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
+      <guid isPermaLink="false">github-changelog-6fdf4a6bc9a49fd054fb</guid>
+      <pubDate>Fri, 16 Oct 2026 02:16:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Slack と Microsoft Teams で利用できる GitHub Copilot が、単一の会話内で複数リポジトリを跨いで操作できるようになりました。これにより、プルリクエストの追跡やコードの調査を複数のリポジトリにまたがって行うことが可能です。その他の機能改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;単一会話で複数リポジトリを扱えるマルチリポジトリ対応&lt;/li&gt;&lt;li&gt;プルリクエストの追跡を複数リポジトリに跨って実行可能&lt;/li&gt;&lt;li&gt;コード調査機能の向上&lt;/li&gt;&lt;li&gt;その他の改善点（詳細未公表）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] SharePoint および OneDrive における Copilot Search</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=573696</link>
@@ -59,6 +69,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.99-2 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-2</link>
+      <guid isPermaLink="false">github-copilot-cli-414415825</guid>
+      <pubDate>Fri, 16 Oct 2026 00:49:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-2では、管理者が設定したモデルの優先適用に関する通知機能の追加や、オンラインセッションでのセマンティックコード検索のデフォルト有効化が行われました。また、Linux環境でのサンドボックスコマンドの信頼性向上、MCPリソース詳細からのナビゲーション改善、プラグインダウンロード中のネイティブチャット実行など、複数の不具合修正と動作改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者管理設定が選択中のモデルを上書きする場合に明確な通知を表示するよう改善&lt;/li&gt;&lt;li&gt;オンラインセッションでセマンティックコード検索をデフォルトで有効化&lt;/li&gt;&lt;li&gt;Linux上のサンドボックスコマンドがループバック設定の失敗なくより確実に対象を起動するよう修正&lt;/li&gt;&lt;li&gt;ライブメタデータの更新中、MCPリソース詳細からの戻る操作がリスト上に留まるよう修正&lt;/li&gt;&lt;li&gt;オプションの管理プラグインのダウンロードがバックグラウンドで継続している間も、ネイティブチャットの開始と終了が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.99-1 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-1</link>
       <guid isPermaLink="false">github-copilot-cli-414077014</guid>
@@ -86,26 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Chatがメモリを使用して応答をパーソナライズする際、回答の根拠となった情報を確認できるようになりました。ユーザーは応答下の「Sources」から「Personalization」タブを開くことで、カスタム指示、保存されたメモリ、会話から学習したメモリ、過去のチャットを確認できます。メモリ機能が有効な場合にのみメモリ引用が表示されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;応答下の「Sources」から「Personalization」タブを選択し、回答の根拠となったカスタム指示、保存されたメモリ、学習されたメモリ、過去のチャットを閲覧可能&lt;/li&gt;&lt;li&gt;引用されたチャットへの移動や、保存されたメモリの確認および削除が可能&lt;/li&gt;&lt;li&gt;メモリ引用の表示はメモリ機能が有効な場合のみに限定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574111"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Planner: Planner Agent in Copilot V2 Improvements</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573168</link>
-      <guid isPermaLink="false">m365-roadmap-1ab3e5d661bbf192edee</guid>
-      <pubDate>Wed, 14 Oct 2026 23:01:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Planner Agentは、Microsoft 365 Copilot内で個人タスクや共有基本プランの作成・管理機能を提供します。今回のアップデートでは、コンテキスト処理の改善、モデルアップグレードによる品質向上、信頼性の向上と遅延の削減が含まれます。さらに、タスク管理機能の拡張やユーザー体験の向上、新規機能としてスケジュール化されたタスクのキャッチアップ機能が追加されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンテキスト処理の改善と大規模プランのサポート&lt;/li&gt;&lt;li&gt;モデルアップグレード、プロンプトの洗練、グラウンディングの改善による高品質な応答&lt;/li&gt;&lt;li&gt;信頼性の向上と遅延の削減による一貫した応答性の実現&lt;/li&gt;&lt;li&gt;タスク割り当てサポートの拡大を含むタスク管理機能の拡張&lt;/li&gt;&lt;li&gt;スケジュール化されたタスクのキャッチアップなどの新機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573168"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>HydraFusionのアップデートと新しいMaxオプションの追加</title>
-      <link>https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option</link>
-      <guid isPermaLink="false">github-changelog-ffb5a326c8ee4530ec2c</guid>
-      <pubDate>Wed, 14 Oct 2026 20:01:35 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub CopilotにおけるHydraFusionのモデルプールの更新およびオーケストレーションワークフローの改善が行われました。さらに、新オプションとしてHydraFusion Maxが導入されました。これらの機能は、VS Code、GitHub Copilotアプリ、およびGitHub Copilotで利用可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HydraFusionのモデルプールを更新&lt;/li&gt;&lt;li&gt;オーケストレーションワークフローを改善&lt;/li&gt;&lt;li&gt;新オプション「HydraFusion Max」を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>
