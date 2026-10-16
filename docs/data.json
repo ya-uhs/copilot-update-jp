@@ -1,5 +1,61 @@
 [
   {
+    "id": "github-changelog-6fdf4a6bc9a49fd054fb",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+    "published_at": "2026-10-16T02:16:35Z",
+    "title_original": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
+    "excerpt_original": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating… The post Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善",
+    "summary_ja": "Slack と Microsoft Teams で利用できる GitHub Copilot が、単一の会話内で複数リポジトリを跨いで操作できるようになりました。これにより、プルリクエストの追跡やコードの調査を複数のリポジトリにまたがって行うことが可能です。その他の機能改善も含まれています。",
+    "changes": [
+      "単一会話で複数リポジトリを扱えるマルチリポジトリ対応",
+      "プルリクエストの追跡を複数リポジトリに跨って実行可能",
+      "コード調査機能の向上",
+      "その他の改善点（詳細未公表）"
+    ],
+    "target_user": [
+      "Developers",
+      "Team collaboration users"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-16T08:44:22Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-16T08:44:19Z"
+  },
+  {
+    "id": "github-copilot-cli-414415825",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.99-2",
+    "published_at": "2026-10-16T00:49:13Z",
+    "title_original": "GitHub Copilot CLI v1.0.99-2",
+    "excerpt_original": "**Improved** - Show a clear notice when administrator-managed settings override your selected model - Enable semantic code search by default for online sessions. **Fixed** - Sandboxed commands on Linux start more reliably without intermittent loopback setup failures - Back from MCP resource details stays on the list during live metadata refreshes - Native chats can start and finish while optional managed plugin downloads continue in the background. - Double Ctrl+C exits immediately even when the CLI UI is busy - Catalog search reports proxy authentication requirements for CONNECT proxy challenges",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.99-2 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.99-2では、管理者が設定したモデルの優先適用に関する通知機能の追加や、オンラインセッションでのセマンティックコード検索のデフォルト有効化が行われました。また、Linux環境でのサンドボックスコマンドの信頼性向上、MCPリソース詳細からのナビゲーション改善、プラグインダウンロード中のネイティブチャット実行など、複数の不具合修正と動作改善が含まれています。",
+    "changes": [
+      "管理者管理設定が選択中のモデルを上書きする場合に明確な通知を表示するよう改善",
+      "オンラインセッションでセマンティックコード検索をデフォルトで有効化",
+      "Linux上のサンドボックスコマンドがループバック設定の失敗なくより確実に対象を起動するよう修正",
+      "ライブメタデータの更新中、MCPリソース詳細からの戻る操作がリスト上に留まるよう修正",
+      "オプションの管理プラグインのダウンロードがバックグラウンドで継続している間も、ネイティブチャットの開始と終了が可能に"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-16T08:44:26Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-16T08:44:22Z"
+  },
+  {
     "id": "m365-roadmap-fd1af78bf0094c904863",
     "source": "Microsoft 365 Roadmap",
     "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573696",
@@ -6064,61 +6120,5 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
-  },
-  {
-    "id": "github-changelog-6fdf4a6bc9a49fd054fb",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-    "published_at": "2026-10-16T02:16:35Z",
-    "title_original": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
-    "excerpt_original": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating… The post Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善",
-    "summary_ja": "Slack と Microsoft Teams で利用できる GitHub Copilot が、単一の会話内で複数リポジトリを跨いで操作できるようになりました。これにより、プルリクエストの追跡やコードの調査を複数のリポジトリにまたがって行うことが可能です。その他の機能改善も含まれています。",
-    "changes": [
-      "単一会話で複数リポジトリを扱えるマルチリポジトリ対応",
-      "プルリクエストの追跡を複数リポジトリに跨って実行可能",
-      "コード調査機能の向上",
-      "その他の改善点（詳細未公表）"
-    ],
-    "target_user": [
-      "Developers",
-      "Team collaboration users"
-    ],
-    "importance": "high",
-    "translated": true,
-    "processed_at": "2026-10-16T08:44:22Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-16T08:44:19Z"
-  },
-  {
-    "id": "github-copilot-cli-414415825",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.99-2",
-    "published_at": "2026-10-16T00:49:13Z",
-    "title_original": "GitHub Copilot CLI v1.0.99-2",
-    "excerpt_original": "**Improved** - Show a clear notice when administrator-managed settings override your selected model - Enable semantic code search by default for online sessions. **Fixed** - Sandboxed commands on Linux start more reliably without intermittent loopback setup failures - Back from MCP resource details stays on the list during live metadata refreshes - Native chats can start and finish while optional managed plugin downloads continue in the background. - Double Ctrl+C exits immediately even when the CLI UI is busy - Catalog search reports proxy authentication requirements for CONNECT proxy challenges",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.99-2 のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.99-2では、管理者が設定したモデルの優先適用に関する通知機能の追加や、オンラインセッションでのセマンティックコード検索のデフォルト有効化が行われました。また、Linux環境でのサンドボックスコマンドの信頼性向上、MCPリソース詳細からのナビゲーション改善、プラグインダウンロード中のネイティブチャット実行など、複数の不具合修正と動作改善が含まれています。",
-    "changes": [
-      "管理者管理設定が選択中のモデルを上書きする場合に明確な通知を表示するよう改善",
-      "オンラインセッションでセマンティックコード検索をデフォルトで有効化",
-      "Linux上のサンドボックスコマンドがループバック設定の失敗なくより確実に対象を起動するよう修正",
-      "ライブメタデータの更新中、MCPリソース詳細からの戻る操作がリスト上に留まるよう修正",
-      "オプションの管理プラグインのダウンロードがバックグラウンドで継続している間も、ネイティブチャットの開始と終了が可能に"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI users"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-16T08:44:26Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-16T08:44:22Z"
   }
 ]
