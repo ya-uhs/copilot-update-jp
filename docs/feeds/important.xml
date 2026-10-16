@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 14:35:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:04:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] SharePoint および OneDrive における Copilot Search</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573696</link>
+      <guid isPermaLink="false">m365-roadmap-fd1af78bf0094c904863</guid>
+      <pubDate>Thu, 15 Oct 2026 22:47:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;SharePoint および OneDrive に自然言語による AI 駆動型の検索機能「Copilot Search」が導入されます。関連する検索結果、情報源の参照付き AI 生成サマリー、直感的なフィルター、Copilot へのスムーズな引き継ぎ機能が統合されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AI 駆動型の自然言語検索による関連結果の表示&lt;/li&gt;&lt;li&gt;情報源の参照を含む AI 生成サマリーの提供&lt;/li&gt;&lt;li&gt;直感的なフィルター機能の追加&lt;/li&gt;&lt;li&gt;Copilot へのシームレスな移行（ハンドオフ）機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573696"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>特定モデルのGitHub Copilotからの廃止予定（2026年11月16日）</title>
+      <link>https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november</link>
+      <guid isPermaLink="false">github-changelog-0fb5cf8a26c77a059da3</guid>
+      <pubDate>Thu, 15 Oct 2026 19:35:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、すべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルを2026年11月16日に廃止する予定です。対象にはCopilot Chat、インライン編集、質問およびエージェントモード、コード補完が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年11月16日付けで特定のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
     <item>
       <title>コードスキャンアラート向けAgentic autofixが一般提供（GA）開始</title>
       <link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link>

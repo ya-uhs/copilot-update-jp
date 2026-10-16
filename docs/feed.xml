@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 14:35:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:04:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] SharePoint および OneDrive における Copilot Search</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573696</link>
+      <guid isPermaLink="false">m365-roadmap-fd1af78bf0094c904863</guid>
+      <pubDate>Thu, 15 Oct 2026 22:47:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;SharePoint および OneDrive に自然言語による AI 駆動型の検索機能「Copilot Search」が導入されます。関連する検索結果、情報源の参照付き AI 生成サマリー、直感的なフィルター、Copilot へのスムーズな引き継ぎ機能が統合されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AI 駆動型の自然言語検索による関連結果の表示&lt;/li&gt;&lt;li&gt;情報源の参照を含む AI 生成サマリーの提供&lt;/li&gt;&lt;li&gt;直感的なフィルター機能の追加&lt;/li&gt;&lt;li&gt;Copilot へのシームレスな移行（ハンドオフ）機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573696"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>特定モデルのGitHub Copilotからの廃止予定（2026年11月16日）</title>
+      <link>https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november</link>
+      <guid isPermaLink="false">github-changelog-0fb5cf8a26c77a059da3</guid>
+      <pubDate>Thu, 15 Oct 2026 19:35:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、すべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルを2026年11月16日に廃止する予定です。対象にはCopilot Chat、インライン編集、質問およびエージェントモード、コード補完が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年11月16日付けで特定のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.99-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-1</link>
+      <guid isPermaLink="false">github-copilot-cli-414077014</guid>
+      <pubDate>Thu, 15 Oct 2026 17:21:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-1がリリースされ、新しいフラグやプラグインのインストール機能が追加されました。Microsoft Entraによるログインやサンドボックス化されたgitの改善に加え、複数の不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--pオプションまたは標準入力からのパイプによる一回限りのプロンプトモードセッション用に、--trust-folderを追加&lt;/li&gt;&lt;li&gt;GitHubのインストールリンクから検証済みスキルやプラグインをインストールする機能を追加&lt;/li&gt;&lt;li&gt;Microsoft Entraでの/loginを改善し、キャッシュされたアカウントの選択や別のアカウントでの明示的なサインインが可能に&lt;/li&gt;&lt;li&gt;github.com上のサンドボックス化されたgitで、credentials.envVarsから設定済みのGITHUB_TOKENを使用可能に&lt;/li&gt;&lt;li&gt;HydraFusionの動作改善やマネージドアカウントポリシーの警告に関する修正を実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>コードスキャンアラート向けAgentic autofixが一般提供（GA）開始</title>
       <link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link>
@@ -1976,36 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Government Community Cloud High (GCC High)環境において、Microsoft Viva InsightsとCopilot Analyticsの提供が開始されます。対象組織は、プライバシー保護されたロールベースの分析を通じて、Microsoft 365 Copilotの導入状況や利用状況、影響を把握できるようになります。また、従業員のコラボレーションに関するデータ駆動型の行動インサイトを提供し、組織の生産性とウェルビーイングの向上を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC High環境向けにMicrosoft 365 Copilotの導入、利用、影響を把握する分析機能を提供&lt;/li&gt;&lt;li&gt;プライバシー保護とロールベースの分析体験を実現&lt;/li&gt;&lt;li&gt;従業員のコラボレーションに関するデータ駆動型の行動インサイトにより、生産性とウェルビーイングの向上を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570428"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年8月25日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026</link>
-      <guid isPermaLink="false">m365-release-notes-1eb781bec200fc92b38a</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの更新プログラムがリリースされ、ExcelでのPython編集機能やOrganizational Messagesのハイブリッド結合デバイスへの対応、Viva Engageのプライベートコンテンツのグラウンディングソースとしての利用などが追加されました。また、Copilot NotebooksのUX刷新、Copilot Search利用時のCopilot Chatのサイドペイン表示、Outlookメールの直接参照やノートブックへのソース追加など、利便性とワークフローの効率化を図る機能拡張が含まれています。さらに、ウェブとワークチャットの統合、モバイルでのページ制御機能、デスクトップおよびウェブアプリのデザイン簡素化が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ExcelでのCopilot編集時にPythonコードを実行した高度なデータ分析、自動化、データ変換が可能に。&lt;/li&gt;&lt;li&gt;Microsoft 365 admin centerのOrganizational MessagesがハイブリッドAzure AD参加済みデバイスをサポート。&lt;/li&gt;&lt;li&gt;Viva EngageのプライベートコミュニティやイベントのコンテンツをMicrosoft 365 Copilotのグラウンディングソースとして利用可能に。&lt;/li&gt;&lt;li&gt;Copilot NotebooksのUX刷新、Copilot Search時のチャットサイドペイン表示、Outlookメールの直接閲覧・ノートブックへの追加に対応。&lt;/li&gt;&lt;li&gt;ウェブとワークチャットの統合（Work IQボタンの追加）およびモバイルでのページ自動生成・制御、アプリデザインの簡素化。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年8月11日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026</link>
-      <guid isPermaLink="false">m365-release-notes-4fcf274104ca3c2e1ba3</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年8月11日更新では、各種拡張機能、SharePoint、Outlook、Planner Agent、PowerPointにおける機能強化が行われました。コンテンツとIDの並列クロールやSharePointの信頼サイト指定、Outlookでのチャットを活用したメール添削や会議準備機能の拡充などが含まれています。これにより、情報の鮮度向上、セキュリティとアクセス制御の強化、ならびにユーザーの生産性向上が図られています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot connectorsがコンテンツクロールとIDクロールを並列実行し、インデックスされたコンテンツの反映を高速化。&lt;/li&gt;&lt;li&gt;ServiceNow KnowledgeおよびCatalogコネクタが、管理者やナレッジマネージャーなどのユーザーロールに基づくアクセス権限の適用に対応。&lt;/li&gt;&lt;li&gt;SharePointの「Authoritative Sites」機能により、管理者が特定のサイトを公式の信頼できる情報源として指定し、Copilot Searchでの優先表示が可能に。&lt;/li&gt;&lt;li&gt;Outlookのチャット機能を通じてメールの下書きに対するコーチング提案を受け取り、選択した提案をその場でメッセージに直接適用することが可能に。&lt;/li&gt;&lt;li&gt;クラシック版Outlook for Windowsにおいて、リアルタイムの会議準備機能と会議内容の要約が利用可能に。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>AIの勢いを示す新たな指標：変革された働き方</title>
-      <link>https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/</link>
-      <guid isPermaLink="false">m365-blog-c0df935205d09a4e648c</guid>
-      <pubDate>Thu, 30 Jul 2026 13:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの有料シート数が3000万を超えたことが発表されました。四半期ごとの純増数は前四半期から2倍以上に増加しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;有料シート数が3000万を突破&lt;/li&gt;&lt;li&gt;四半期ごとの純増数が前四半期比で2倍以上に増加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>

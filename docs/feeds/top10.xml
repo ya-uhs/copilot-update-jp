@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 14:35:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:04:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] SharePoint および OneDrive における Copilot Search</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573696</link>
+      <guid isPermaLink="false">m365-roadmap-fd1af78bf0094c904863</guid>
+      <pubDate>Thu, 15 Oct 2026 22:47:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;SharePoint および OneDrive に自然言語による AI 駆動型の検索機能「Copilot Search」が導入されます。関連する検索結果、情報源の参照付き AI 生成サマリー、直感的なフィルター、Copilot へのスムーズな引き継ぎ機能が統合されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AI 駆動型の自然言語検索による関連結果の表示&lt;/li&gt;&lt;li&gt;情報源の参照を含む AI 生成サマリーの提供&lt;/li&gt;&lt;li&gt;直感的なフィルター機能の追加&lt;/li&gt;&lt;li&gt;Copilot へのシームレスな移行（ハンドオフ）機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573696"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>特定モデルのGitHub Copilotからの廃止予定（2026年11月16日）</title>
+      <link>https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november</link>
+      <guid isPermaLink="false">github-changelog-0fb5cf8a26c77a059da3</guid>
+      <pubDate>Thu, 15 Oct 2026 19:35:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、すべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルを2026年11月16日に廃止する予定です。対象にはCopilot Chat、インライン編集、質問およびエージェントモード、コード補完が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年11月16日付けで特定のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
     <item>
       <title>コードスキャンアラート向けAgentic autofixが一般提供（GA）開始</title>
       <link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link>
@@ -37,6 +57,16 @@
       <category>GitHub Copilot</category>
       <category>GA</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.99-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-1</link>
+      <guid isPermaLink="false">github-copilot-cli-414077014</guid>
+      <pubDate>Thu, 15 Oct 2026 17:21:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-1がリリースされ、新しいフラグやプラグインのインストール機能が追加されました。Microsoft Entraによるログインやサンドボックス化されたgitの改善に加え、複数の不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--pオプションまたは標準入力からのパイプによる一回限りのプロンプトモードセッション用に、--trust-folderを追加&lt;/li&gt;&lt;li&gt;GitHubのインストールリンクから検証済みスキルやプラグインをインストールする機能を追加&lt;/li&gt;&lt;li&gt;Microsoft Entraでの/loginを改善し、キャッシュされたアカウントの選択や別のアカウントでの明示的なサインインが可能に&lt;/li&gt;&lt;li&gt;github.com上のサンドボックス化されたgitで、credentials.envVarsから設定済みのGITHUB_TOKENを使用可能に&lt;/li&gt;&lt;li&gt;HydraFusionの動作改善やマネージドアカウントポリシーの警告に関する修正を実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.99-0 リリースノート</title>
@@ -76,36 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub CopilotにおけるHydraFusionのモデルプールの更新およびオーケストレーションワークフローの改善が行われました。さらに、新オプションとしてHydraFusion Maxが導入されました。これらの機能は、VS Code、GitHub Copilotアプリ、およびGitHub Copilotで利用可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HydraFusionのモデルプールを更新&lt;/li&gt;&lt;li&gt;オーケストレーションワークフローを改善&lt;/li&gt;&lt;li&gt;新オプション「HydraFusion Max」を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.98 のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98</link>
-      <guid isPermaLink="false">github-copilot-cli-413121884</guid>
-      <pubDate>Wed, 14 Oct 2026 19:52:33 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98がリリースされ、Gemini 4 Argonのサポートが追加されました。また、コマンドフックの安定性向上、MCPステータスの同期修正、セッション再開時の権限処理の改善が行われました。さらに、起動時の入力保持や、/askコマンドなどのキーボード操作に関する機能強化が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 Argonのサポートを追加&lt;/li&gt;&lt;li&gt;Node環境下で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するように修正&lt;/li&gt;&lt;li&gt;分割ビューでのセッション切り替え時にMCPステータスと /mcp コマンドがアクティブセッションと同期した状態を維持するように修正&lt;/li&gt;&lt;li&gt;中断された保留中の権限作業を考慮し、アクティブな権限リクエストのみを続行するようにセッション再開処理を改善&lt;/li&gt;&lt;li&gt;起動時の入力ボックス表示中に入力された通常文字がドロップされずに維持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.98-2 のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-2</link>
-      <guid isPermaLink="false">github-copilot-cli-412336681</guid>
-      <pubDate>Wed, 14 Oct 2026 04:26:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98-2がリリースされました。今回のアップデートでは、Ctrl+Eによる/askの回答展開、Ctrl+Yによる回答全体のコピー、/askや/btwコマンドによる直近の完了した回答の再オープンが可能になりました。また、Node環境で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するよう修正が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ctrl+E を使用して /ask の回答を展開する機能を追加&lt;/li&gt;&lt;li&gt;Ctrl+Y を使用して回答全体をコピーする機能を追加&lt;/li&gt;&lt;li&gt;/ask または /btw を使用してセッション内の直近の利用可能な完了済み回答を再オープンする機能を追加&lt;/li&gt;&lt;li&gt;Node 環境下で子プロセスの終了シグナルが失われた場合でも、コマンドフックが確実に完了するよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.98-1のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-1</link>
-      <guid isPermaLink="false">github-copilot-cli-412230905</guid>
-      <pubDate>Wed, 14 Oct 2026 00:46:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98-1がリリースされました。Gemini 4 Argonのサポートが追加され、MCPステータスと/mcpコマンドの同期、セッション再開時の権限リクエスト処理、および起動時の入力文字のドロップに関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 Argonのサポートを追加&lt;/li&gt;&lt;li&gt;分割ビューでのセッション切り替え時にMCPステータスと/mcpコマンドがアクティブセッションと同期されるように修正&lt;/li&gt;&lt;li&gt;セッション再開時に保留中の未処理の権限作業を考慮し、アクティブな権限リクエストのみを継続するように修正&lt;/li&gt;&lt;li&gt;起動時の入力ボックス表示中に入力された通常の文字が破棄されず保持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
       <category>medium</category>
     </item>
   </channel>
