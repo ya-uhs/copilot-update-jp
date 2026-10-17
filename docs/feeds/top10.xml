@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:09:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:15:22 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -14,6 +14,26 @@
       <guid isPermaLink="false">m365-roadmap-d72fa780f64d94ef86a8</guid>
       <pubDate>Fri, 16 Oct 2026 19:09:47 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Cowork向けDynamics 365 Customer Serviceプラグインが提供されます。管理者が有効化することで、サービス担当者はケースの優先順位付けや要約、返信の下書き作成などの各種スキルを利用できるようになります。これにより、手動での検索作業を削減し、多段階のケースワークフローの効率化を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サービス担当者向けにCopilot Coworkプラグインを標準提供（管理者の有効化が必要）&lt;/li&gt;&lt;li&gt;ケースの優先順位付け、重要度の確認、受付時のブリーフィング機能を提供&lt;/li&gt;&lt;li&gt;根本原因と解決策の要約、関連ナレッジ記事のマッチング、返信案の作成機能を提供&lt;/li&gt;&lt;li&gt;エスカレーションや引き継ぎの管理、カスタムスキルによるワークフローの調整をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576851"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Finance and Operations クロスアプリ: Copilotで生産性を向上</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576838</link>
+      <guid isPermaLink="false">m365-roadmap-55d1e62287c7bfd29ffd</guid>
+      <pubDate>Fri, 16 Oct 2026 19:09:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365のfinance and operationsアプリ向けにCopilot Coworkプラグインが提供されます。ユーザーはビジネスの意図に基づいて、ERPデータやMicrosoft 365のデータソースを横断したワークフローの調整や洞察の生成、次のアクションの実行が可能になります。これにより、手動での調整削減や意思決定の迅速化が期待されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ERPデータ、メール、ドキュメント、スプレッドシート、コラボレーションツールを横断したワークフローのオーケストレーション&lt;/li&gt;&lt;li&gt;ビジネスデータの分析とコンテキストに応じた洞察の生成&lt;/li&gt;&lt;li&gt;財務、オペレーション、サプライチェーンの各ドメインにわたる推論と推奨事項の作成&lt;/li&gt;&lt;li&gt;人間の関与を維持しながらのアクション実行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576838"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: Microsoft 365 CopilotでのService Agentによる顧客成果の向上</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576818</link>
+      <guid isPermaLink="false">m365-roadmap-2bc3b7c8b3d9d3eea376</guid>
+      <pubDate>Fri, 16 Oct 2026 19:09:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Chatの体験がDynamics 365 Customer Serviceに統合され、サービス向けに最適化されたコンテキストとワークフローが利用可能になります。ユーザーはツールを切り替えることなく、Dynamics 365のデータとMicrosoft 365のコンテキストを活用して、業務の優先順位付けや通信文のドラフト作成などを行えるようになります。本機能は管理者が有効化し、2026年3月にプレビュー提供、2026年6月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 Customer ServiceでMicrosoft 365 Copilot Chatのエクスペリエンスを利用可能にする&lt;/li&gt;&lt;li&gt;優先すべき作業の確認や顧客向けコミュニケーションのドラフト作成を支援する&lt;/li&gt;&lt;li&gt;ケース全体のトレンドや運用シグナルを特定し、早期の対応を可能にする&lt;/li&gt;&lt;li&gt;サポート知識から回答を検索・発見する機能を備える&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576818"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
@@ -84,26 +104,6 @@
       <guid isPermaLink="false">m365-roadmap-ec80e627185c33926b5e</guid>
       <pubDate>Fri, 16 Oct 2026 22:00:35 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、Agent 365ライセンスなしでエージェントのインサイト閲覧が可能になりました。顧客はMicrosoftプラットフォームで構築されたエージェントのレポートを統合的に確認でき、作成者や作成目的のコンテキストも把握できます。本機能のGA（一般提供）時期は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent 365ライセンスなしでのAgent 365 Dashboardにおけるエージェントインサイトの閲覧が可能に&lt;/li&gt;&lt;li&gt;Microsoftプラットフォームで構築されたエージェントに関するレポートの統合的な表示&lt;/li&gt;&lt;li&gt;各エージェントの作成者と作成目的に関するコンテキストの確認&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575292"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.100-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.100-0</link>
-      <guid isPermaLink="false">github-copilot-cli-415339872</guid>
-      <pubDate>Fri, 16 Oct 2026 20:10:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.100-0がリリースされました。マスクされたホストの変更時にサンドボックスプロキシ証明機関の更新を促す改善や、管理ポリシー変更時のプラグイン更新の修正が含まれています。また、MCPサーバーのハングアップによるセッションの停止や、Geminiのツール呼び出しおよびチャットに関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;マスクされたホストの変更時にサンドボックスプロキシ証明機関の更新を促すプロンプトを追加&lt;/li&gt;&lt;li&gt;既存のセッションにおけるマネージドプラグインの更新アクティベーション（管理ポリシー変更時）を修正&lt;/li&gt;&lt;li&gt;ツールの読み込み中にMCPサーバーがハングアップした際、セッションが数分間停止する問題を修正&lt;/li&gt;&lt;li&gt;配列パラメータがenum値を定義している場合にGeminiのツール呼び出しが失敗する問題を修正&lt;/li&gt;&lt;li&gt;以前のツール結果に読み取り可能なコンテンツが含まれていない場合にGeminiのチャットが失敗する問題を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.100-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Field Service: Scheduling Operations Agentによる複数リソースの最適化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576884</link>
-      <guid isPermaLink="false">m365-roadmap-c1b29a4407f6a906b514</guid>
-      <pubDate>Fri, 16 Oct 2026 19:10:11 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本リリースでは、Scheduling Operations Agentの最適化機能が拡張され、複数リソースのサポートが追加されます。エージェントはリソースの空き状況、スケジュール、未割当の要件を考慮し、設定された制約と目的に沿った最適なスケジュール案を提案します。ディスパッチャーは、変更を適用する前に提案されたスケジュールを確認および比較することができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;スケジュールボードから直接最大5つのリソースのスケジュールを最適化&lt;/li&gt;&lt;li&gt;最適化プランを使用して最大30人のリソースのスケジュールを最適化&lt;/li&gt;&lt;li&gt;カスタムの目標と重み付け目標の作成&lt;/li&gt;&lt;li&gt;最適化プランで使用するカスタム最適化スコープの作成&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576884"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

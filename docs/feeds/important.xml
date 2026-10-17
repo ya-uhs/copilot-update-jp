@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:09:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:15:22 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -14,6 +14,26 @@
       <guid isPermaLink="false">m365-roadmap-d72fa780f64d94ef86a8</guid>
       <pubDate>Fri, 16 Oct 2026 19:09:47 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Cowork向けDynamics 365 Customer Serviceプラグインが提供されます。管理者が有効化することで、サービス担当者はケースの優先順位付けや要約、返信の下書き作成などの各種スキルを利用できるようになります。これにより、手動での検索作業を削減し、多段階のケースワークフローの効率化を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サービス担当者向けにCopilot Coworkプラグインを標準提供（管理者の有効化が必要）&lt;/li&gt;&lt;li&gt;ケースの優先順位付け、重要度の確認、受付時のブリーフィング機能を提供&lt;/li&gt;&lt;li&gt;根本原因と解決策の要約、関連ナレッジ記事のマッチング、返信案の作成機能を提供&lt;/li&gt;&lt;li&gt;エスカレーションや引き継ぎの管理、カスタムスキルによるワークフローの調整をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576851"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Finance and Operations クロスアプリ: Copilotで生産性を向上</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576838</link>
+      <guid isPermaLink="false">m365-roadmap-55d1e62287c7bfd29ffd</guid>
+      <pubDate>Fri, 16 Oct 2026 19:09:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365のfinance and operationsアプリ向けにCopilot Coworkプラグインが提供されます。ユーザーはビジネスの意図に基づいて、ERPデータやMicrosoft 365のデータソースを横断したワークフローの調整や洞察の生成、次のアクションの実行が可能になります。これにより、手動での調整削減や意思決定の迅速化が期待されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ERPデータ、メール、ドキュメント、スプレッドシート、コラボレーションツールを横断したワークフローのオーケストレーション&lt;/li&gt;&lt;li&gt;ビジネスデータの分析とコンテキストに応じた洞察の生成&lt;/li&gt;&lt;li&gt;財務、オペレーション、サプライチェーンの各ドメインにわたる推論と推奨事項の作成&lt;/li&gt;&lt;li&gt;人間の関与を維持しながらのアクション実行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576838"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: Microsoft 365 CopilotでのService Agentによる顧客成果の向上</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576818</link>
+      <guid isPermaLink="false">m365-roadmap-2bc3b7c8b3d9d3eea376</guid>
+      <pubDate>Fri, 16 Oct 2026 19:09:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Chatの体験がDynamics 365 Customer Serviceに統合され、サービス向けに最適化されたコンテキストとワークフローが利用可能になります。ユーザーはツールを切り替えることなく、Dynamics 365のデータとMicrosoft 365のコンテキストを活用して、業務の優先順位付けや通信文のドラフト作成などを行えるようになります。本機能は管理者が有効化し、2026年3月にプレビュー提供、2026年6月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 Customer ServiceでMicrosoft 365 Copilot Chatのエクスペリエンスを利用可能にする&lt;/li&gt;&lt;li&gt;優先すべき作業の確認や顧客向けコミュニケーションのドラフト作成を支援する&lt;/li&gt;&lt;li&gt;ケース全体のトレンドや運用シグナルを特定し、早期の対応を可能にする&lt;/li&gt;&lt;li&gt;サポート知識から回答を検索・発見する機能を備える&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576818"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>

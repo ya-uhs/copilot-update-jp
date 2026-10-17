@@ -313,16 +313,27 @@
     "excerpt_original": "Organizations can securely deploy AI agents to access and interact with Dataverse data by using enterprise‑managed Microsoft Entra agent identities. This feature enables agents to be provisioned as Dataverse agent users with dedicated, least‑privileged security roles based on their intended capabilities. This feature ensures agents have only the access required to perform tasks autonomously or on behalf of users. By using identity‑based role assignment and full auditing of agent‑driven actions, organizations can enforce security and compliance policies across both human users and AI agents while maintaining traceability of data access and changes within Dataverse environments. Business Value: This feature enables secure, compliant management of AI agents in Microsoft Dataverse, which reduces risk and improves governance for autonomous and interactive agents. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/power-platform/admin/create-users#agent-users-preview GA date: August CY2026 Preview date: June CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Dataverse: Microsoft EntraエージェントIDを使用したCopilot向けDataverseエージェントユーザーの作成",
+    "summary_ja": "組織は、Microsoft EntraエージェントIDを使用してAIエージェントをプロビジョニングし、Dataverseデータに安全にアクセスさせることが可能になります。最小特権のセキュリティロールに基づいた専用のDataverseエージェントユーザーを作成することで、自律的またはユーザーの代わりに実行するタスクに必要なアクセス権のみを付与します。これにより、Dataverse環境全体でセキュリティとコンプライアンスのポリシーを適用し、データアクセスや変更の追跡性を維持できます。",
+    "changes": [
+      "Microsoft EntraエージェントIDを使用したDataverseエージェントユーザーのプロビジョニング機能を追加",
+      "最小特権のセキュリティロールに基づく専用エージェントユーザーの作成に対応",
+      "エージェントによるアクションの完全な監査と、データアクセスおよび変更の追跡性をサポート",
+      "管理者、メーカー、マーケター向けに自動的に有効化"
+    ],
+    "target_user": [
+      "Administrators",
+      "Makers",
+      "Marketers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:10Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:09Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-2970975dc3c9aeb888b4",
@@ -333,16 +344,26 @@
     "excerpt_original": "In this release wave, we're introducing read-only APIs on the permission system. This allows for establishing security and auditing analytics and reporting outside Business Central—for example, creating reports with Power BI or agents with Microsoft Copilot Studio and MCP Server for Business Central. The APIs are read-only and allow querying for: Permission Set Object, Scope, Extension info, and Permission Set Permission Set and Security Group mappings Permission Set and User mappings We're also introducing a new permission set that allows you to use the new permission APIs. This shouldn't be granted to standard users, but might be included in security-related permission sets. Business Value: The new read-only permission APIs empower businesses to strengthen security and compliance by enabling external auditing and analytics without compromising system integrity. With seamless integration into tools like Power BI and Microsoft Copilot Studio, organizations can create advanced reports and intelligent agents for deeper insights. This capability enhances transparency, supports regulatory requirements, and accelerates decision-making by providing secure, real-time access to permission data. Ultimately, it helps businesses maintain robust governance while unlocking new opportunities for automation and analytics. Enabled for: Enabled for end users automatically GA date: June CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 ビジネス中央: 監査役およびITスタッフ向け権限分析用新APIの導入",
+    "summary_ja": "本リリースウェーブでは、権限システムに関する読み取り専用APIが導入され、Business Central外でのセキュリティや監査の分析・レポート作成が可能になります。Power BIやMicrosoft Copilot Studioなどのツールと連携することで、高度なレポートやインテリジェントなエージェントの作成が実現します。また、新APIを利用するための新しい権限セットもあわせて提供されます。",
+    "changes": [
+      "権限システムに関する読み取り専用APIの導入",
+      "権限セットオブジェクト、スコープ、拡張機能情報、セキュリティグループおよびユーザーマッピングのクエリ対応",
+      "新権限APIを利用するための新しい権限セットの追加"
+    ],
+    "target_user": [
+      "end users",
+      "auditors",
+      "IT staff"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:11Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:10Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-55d1e62287c7bfd29ffd",
@@ -353,16 +374,28 @@
     "excerpt_original": "The Copilot Cowork plugin for finance and operations apps enables users to move from business intent to insight to execution in a single experience. Copilot orchestrates work across ERP data, emails, documents, spreadsheets, collaboration tools, and downstream business processes. Key capabilities Orchestrate workflows across ERP and Microsoft 365 data sources. Analyze business data and generate contextual insights. Reason across finance, operations, and supply chain domains. Generate recommendations and prepare next steps. Execute actions while keeping humans in the loop. What this means for customers The value is not just accessing ERP data through AI. Copilot Cowork enables agentic workflows where it can reason over business context, gather relevant information, evaluate options, and generate recommended actions. This reduces manual coordination across systems, accelerates decision-making, and improves consistency in how business processes are executed. User experience shift Users can interact with ERP through business intent rather than navigating complex application layers and disconnected tools. This creates a more natural way to work, where users focus on outcomes instead of system interactions. Preview scope Initial set of scenarios across finance and supply chain. Limited action coverage for transactional workflows. Available to selected preview customers. Business Value: Enable users to move from business intent to insight to execution faster by orchestrating work across ERP data, emails, documents, and collaboration tools. Reduce manual coordination, accelerate decision-making, improve workflow consistency, and shift user time from information gathering to applying business judgment. Enabled for: Enabled by admins/makers/marketers for end users More info: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot-cowork-erp GA date: June CY2026 Preview date: June CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Finance and Operations クロスアプリ: Copilotで生産性を向上",
+    "summary_ja": "Dynamics 365のfinance and operationsアプリ向けにCopilot Coworkプラグインが提供されます。ユーザーはビジネスの意図に基づいて、ERPデータやMicrosoft 365のデータソースを横断したワークフローの調整や洞察の生成、次のアクションの実行が可能になります。これにより、手動での調整削減や意思決定の迅速化が期待されます。",
+    "changes": [
+      "ERPデータ、メール、ドキュメント、スプレッドシート、コラボレーションツールを横断したワークフローのオーケストレーション",
+      "ビジネスデータの分析とコンテキストに応じた洞察の生成",
+      "財務、オペレーション、サプライチェーンの各ドメインにわたる推論と推奨事項の作成",
+      "人間の関与を維持しながらのアクション実行"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers",
+      "end users"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:13Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:11Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-589eb131fcb77add83df",
@@ -373,16 +406,27 @@
     "excerpt_original": "Use the No auto assignment method for queues in Copilot Service admin center when you want routed conversations to remain unassigned after they enter a queue. Instead of being assigned automatically, conversations stay in the queue until a service representative picks them up from their Inbox or a supervisor assigns them manually. This assignment method supports a pick-based work distribution model, giving supervisors and service representatives greater control over how work is handled. Unlike the push-based model used by other out-of-the-box assignment methods, which automatically assign conversations based on representative availability and capacity, the no auto assignment method allows teams to review incoming work and decide who should handle it. This approach is well suited for organizations that prefer manual oversight, specialized work selection, or supervisor-managed assignments. Business Value: Improve operational control and consistency by enabling service representative-led work distribution. Conversations remain available in the queue until manually assigned by supervisors or picked by representatives, helping teams handle specialized, regulated, or sensitive interactions effectively. Enabled for: Enabled by admins/makers/marketers for end users GA date: August CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Contact Center: 統一ルーティングにおけるピックベースの割り当て方法の導入",
+    "summary_ja": "Copilot Service admin centerのキューに対して「自動割り当てなし（No auto assignment）」メソッドが追加されました。これにより、会話は自動割り当てされず、担当者が自身の受信トレイからピックアップするか、スーパーバイザーが手動で割り当てるまでキューにとどまります。このピックベースのモデルにより、組織は業務処理のコントロールを向上させることができます。",
+    "changes": [
+      "Copilot Service admin centerのキューで「自動割り当てなし」メソッドが利用可能になりました。",
+      "会話は自動的に割り当てられず、担当者による手動ピックアップまたはスーパーバイザーによる手動割り当てを行います。",
+      "担当者の可用性と容量に基づく従来のプッシュ型モデルとは異なり、手動での確認と割り当てをサポートします。"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers",
+      "end users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:14Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:13Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-347ab6d77f56cee76e2c",
@@ -393,16 +437,28 @@
     "excerpt_original": "The Adherence History Report provides a complete view of customer service representatives’ historical adherence to scheduled tasks and activities. It helps supervisors analyze patterns, identify gaps, and improve workforce efficiency. Key capabilities Trend chart : Visualize adherence patterns for individual service representatives or the entire team over time. Metrics dashboard : Track adherence percentage, total scheduled time, and time spent out of adherence. Activity summary view : Access detailed activity records for each service representative, including precise durations for granular analysis. You can find the Adherence History Report in the Copilot Service workspace by navigating to Workforce Management in the site map and selecting Adherence Historical Analytics . Business Value: Organizations can gain actionable insights into customer service representative adherence behavior over time. By analyzing trends and deviations, supervisors can make informed decisions to optimize workforce planning, reduce inefficiencies, and improve service-level compliance. Using these insights helps lead to better resource allocation, higher productivity, and an enhanced customer experience. Enabled for: Enabled by admins/makers/marketers for end users More info: https://learn.microsoft.com/en-us/dynamics365/contact-center/use/workforce-management-use-adherence-history-report?context=/dynamics365/context/customer-service-use-context GA date: June CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Contact Center: ワークフォースエンゲージメント管理 - 遵守履歴の分析による人員計画の最適化",
+    "summary_ja": "Adherence History Reportは、カスタマーサービス担当者のスケジュールされたタスクや活動に対する過去の遵守状況を包括的に提供します。管理者はこのレポートを使用して傾向を分析し、ギャップを特定し、人員効率を改善することができます。機能にはトレンドチャート、メトリクスダッシュボード、アクティビティサマリービューが含まれます。",
+    "changes": [
+      "トレンドチャートによる個別またはチーム全体の遵守パターンの可視化",
+      "遵守率、総予定時間、遵守時間外の時間を追跡するメトリクスダッシュボード",
+      "詳細な活動記録と正確な期間を確認できるアクティビティサマリービュー",
+      "Copilot Service ワークスペース内の Workforce Management からアクセス可能"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers",
+      "end users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:15Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:14Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-e921b0c306674fb44d30",
@@ -413,16 +469,26 @@
     "excerpt_original": "Document attachments provide valuable context and detail about ERP records. With this release, the Dynamics 365 ERP MCP server will provide access for agents to work with the attachments by creating, deleting, or reading and reasoning over the content of the attachments in agentic flows. Business Value: Document attachments provide valuable context and detail about ERP records. Enabling agents to access the attachments opens many opportunities for powerful agentic experiences. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/dynamics365/finance/business-performance-analytics/erp-analytics-mcp-overview GA date: July CY2026 Preview date: April CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Finance and Operations cross-app: Copilotによる生産性向上 - Dynamics 365 ERP MCPサーバーを介した添付ファイルへのエージェントのアクセス",
+    "summary_ja": "Dynamics 365 ERP MCPサーバーを通じて、エージェントがERPレコードの添付ファイルを読み取り、推論、作成、削除できるようになります。これにより、エージェント型のエクスペリエンスにおいてドキュメント添付ファイルを活用した強力な処理が可能になります。機能は管理者に自動的に有効化されます。",
+    "changes": [
+      "Dynamics 365 ERP MCPサーバーにより、エージェントがERPの添付ファイルを操作可能に",
+      "添付ファイルの作成、削除、読み取り、およびコンテンツの推論をエージェントフロー内でサポート",
+      "管理者に自動的に有効化"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:17Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:15Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-fc7b2c7c7bb71830ace4",
@@ -433,16 +499,25 @@
     "excerpt_original": "The Dynamics 365 ERP MCP server enables copilots to respond to prompts related to data across the Dynamics 365 ERP suite of applications. Users expect visibility into how copilot responses relate to the underlying business data and system records. With this release, copilot responses generated from the Dynamics 365 ERP MCP server will include deep links to the data used to generate the response, improving transparency, traceability, and trust in the AI-generated responses. Business Value: Users receive transparency, traceability, and trust in copilot chat experiences with citations and deep links to ERP records in the copilot responses. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/copilot/mcp/mcp-deep-links GA date: August CY2026 Preview date: May CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Finance and Operations クロスアプリ: CopilotからのディープリンクでERPのレコードを開く",
+    "summary_ja": "Dynamics 365 ERP MCPサーバーを通じて生成されるCopilotの応答に、基データへのディープリンクが含まれるようになります。これにより、AI生成応答の透明性、追跡可能性、および信頼性が向上します。管理者、メーカー、マーケター向けに自動的に有効化されます。",
+    "changes": [
+      "Dynamics 365 ERP MCPサーバーによるCopilotの応答に、使用されたデータへのディープリンクを追加",
+      "AI生成の応答における透明性と追跡可能性の向上"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:18Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:17Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-2bc3b7c8b3d9d3eea376",
@@ -453,16 +528,28 @@
     "excerpt_original": "Microsoft 365 Copilot Chat is becoming a consistent way that users interact with AI across Microsoft experiences. With this update, that same chat experience is available in Dynamics 365 Customer Service, with service-aware grounding and workflows. Service users can start in Microsoft 365 Copilot Chat and then: See and prioritize work (for example, top cases and what needs attention). Draft customer communications and prepare next steps with Microsoft 365 context when relevant. Identify trends and operational signals across cases to help supervisors and leads intervene earlier. Discover answers from support knowledge. Business Value: Bring the familiar Microsoft 365 Copilot Chat experience directly into Dynamics 365 Customer Service, so supervisors, leads, and customer service representatives can get answers, summarize work, and take next steps using both Dynamics 365 data and Microsoft 365 context, without switching tools. Enabled for: Enabled by admins/makers/marketers for end users More info: https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-service-agent GA date: June CY2026 Preview date: March CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Service: Microsoft 365 CopilotでのService Agentによる顧客成果の向上",
+    "summary_ja": "Microsoft 365 Copilot Chatの体験がDynamics 365 Customer Serviceに統合され、サービス向けに最適化されたコンテキストとワークフローが利用可能になります。ユーザーはツールを切り替えることなく、Dynamics 365のデータとMicrosoft 365のコンテキストを活用して、業務の優先順位付けや通信文のドラフト作成などを行えるようになります。本機能は管理者が有効化し、2026年3月にプレビュー提供、2026年6月に一般提供（GA）が予定されています。",
+    "changes": [
+      "Dynamics 365 Customer ServiceでMicrosoft 365 Copilot Chatのエクスペリエンスを利用可能にする",
+      "優先すべき作業の確認や顧客向けコミュニケーションのドラフト作成を支援する",
+      "ケース全体のトレンドや運用シグナルを特定し、早期の対応を可能にする",
+      "サポート知識から回答を検索・発見する機能を備える"
+    ],
+    "target_user": [
+      "supervisors",
+      "leads",
+      "customer service representatives",
+      "admins"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:19Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:18Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-395651e591624c06f01a",
@@ -473,16 +560,27 @@
     "excerpt_original": "As a seller, you can: Ask questions in context : Ask about opportunity research from Sales agent. Start concise, go deeper on demand : Begin with action-oriented insights, then request deeper analysis only when needed. Business Value: You need guidance that adapts to the moment you’re in a meeting preparation, a stage move, or a specific risk you want to validate. With the ability to ask about opportunity research from inside Sales agent, you get right-sized, action-first insights. You can quickly act on what matters now, then go deeper only when you choose. This reduces time spent hunting for answers, improves seller confidence at critical stages, and meet sellers where they are in their flow of work. Enabled for: Enabled by admins/makers/marketers for end users GA date: July CY2026 Preview date: June CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Sales: Sales agent内での営業案件インサイトに関するチャット機能",
+    "summary_ja": "Dynamics 365 Salesにおいて、Sales agent内から営業案件のリサーチについて直接質問できるようになります。アクション指向のインサイトを起点にし、必要に応じて詳細な分析を要求することが可能です。これにより、ミーティング準備やステージ移行などの重要な場面で、状況に適したガイダンスが得られます。",
+    "changes": [
+      "Sales agentのコンテキスト内で営業案件に関する質問が可能に",
+      "アクション指向のインサイトから必要に応じた詳細分析への展開に対応",
+      "管理者がエンドユーザー向けに有効化可能"
+    ],
+    "target_user": [
+      "seller",
+      "admin",
+      "maker",
+      "marketer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:20Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:19Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-0996869c2c547818ed4f",
@@ -491,18 +589,28 @@
     "published_at": "2026-10-16T19:09:12Z",
     "title_original": "[Roadmap] Dynamics 365 Project Operations: Optimize Project Operations - Track real project progress from field execution",
     "excerpt_original": "This feature enhances Dynamics 365 Project Operations by extending its native work breakdown structure effort tracking to include approved time captured in Field Service when the Field Service and Project Operations integration is enabled and time flows in at the project task level. Approved Field Service time now contributes directly to task-level WBS execution metrics in Project Operations when time is captured against a project task. Task metrics such as effort completed, effort remaining, percent complete, estimate at completion, and schedule variance are calculated using approved field labor under the same native project rules used for time entered directly in Project Operations. Because these calculations occur at the leaf task level, their impact rolls up automatically to summary tasks and the project root. Effort tracking views, reprojections, and project-level status indicators reflect real execution in the field, rather than inferred progress or manual reconciliation. Project managers can assess delivery health, forecast outcomes, and identify schedule risk using execution metrics grounded in approved field work. This enhancement doesn't introduce new execution logic or formulas. It enables existing Project Operations WBS effort tracking behavior to include Field Service execution when time is captured against project tasks. This feature is only available when the Field Service and Project Operations integration is enabled. Business Value: When field technicians complete work tied to a project task, you see that progress reflected immediately in your project health metrics. Approved Field Service time flows directly into task-level work breakdown structure (WBS) tracking in Dynamics 365 Project Operations, so effort completed, percent complete, estimate at completion (EAC), and schedule variance stay accurate without manual reconciliation. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/dynamics365/project-operations/field-service-integration/project-operations-integration-project-task GA date: July CY2026",
-    "product": "Microsoft 365 Copilot",
+    "product": "Dynamics 365 Project Operations",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Project Operations: フィールド実行からの実際のプロジェクト進捗追跡による最適化",
+    "summary_ja": "本機能により、Field ServiceとProject Operationsの統合が有効な場合、Field Serviceで承認された時間をProject Operationsの作業分解構成図（WBS）の工数追跡に含めることが可能になります。承認されたフィールド作業時間は、完了工数、残工数、完了率、完成時予測、スケジュール差異などのタスクレベルのWBS実行指標に直接反映されます。これにより、プロジェクトマネージャーは手動での調整なしに、現場の実際の実行状況に基づいて正確なプロジェクト状況を把握できます。",
+    "changes": [
+      "Field ServiceとProject Operationsの統合時に、承認されたField Serviceの時間をプロジェクトタスクレベルのWBS実行指標に直接反映",
+      "完了工数、残工数、完了率、完成時予測（EAC）、スケジュール差異などの計算に承認済みのフィールド作業時間を適用",
+      "リーフタスクレベルでの計算結果がサマリータスクおよびプロジェクトのルートに自動的にロールアップされる機能の追加"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T08:15:22Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T08:15:20Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-dd765d293c7a5637b5b8",
