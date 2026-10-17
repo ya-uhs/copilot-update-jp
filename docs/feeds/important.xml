@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 08:44:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 00:09:07 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: Copilot and AI innovation - Copilot Coworkを活用した担当者向けインサイトとアクションのオーケストレーション</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576851</link>
+      <guid isPermaLink="false">m365-roadmap-d72fa780f64d94ef86a8</guid>
+      <pubDate>Fri, 16 Oct 2026 19:09:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Cowork向けDynamics 365 Customer Serviceプラグインが提供されます。管理者が有効化することで、サービス担当者はケースの優先順位付けや要約、返信の下書き作成などの各種スキルを利用できるようになります。これにより、手動での検索作業を削減し、多段階のケースワークフローの効率化を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サービス担当者向けにCopilot Coworkプラグインを標準提供（管理者の有効化が必要）&lt;/li&gt;&lt;li&gt;ケースの優先順位付け、重要度の確認、受付時のブリーフィング機能を提供&lt;/li&gt;&lt;li&gt;根本原因と解決策の要約、関連ナレッジ記事のマッチング、返信案の作成機能を提供&lt;/li&gt;&lt;li&gt;エスカレーションや引き継ぎの管理、カスタムスキルによるワークフローの調整をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576851"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善</title>
       <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>

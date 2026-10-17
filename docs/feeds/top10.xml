@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 08:44:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 00:09:07 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: Copilot and AI innovation - Copilot Coworkを活用した担当者向けインサイトとアクションのオーケストレーション</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576851</link>
+      <guid isPermaLink="false">m365-roadmap-d72fa780f64d94ef86a8</guid>
+      <pubDate>Fri, 16 Oct 2026 19:09:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Cowork向けDynamics 365 Customer Serviceプラグインが提供されます。管理者が有効化することで、サービス担当者はケースの優先順位付けや要約、返信の下書き作成などの各種スキルを利用できるようになります。これにより、手動での検索作業を削減し、多段階のケースワークフローの効率化を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サービス担当者向けにCopilot Coworkプラグインを標準提供（管理者の有効化が必要）&lt;/li&gt;&lt;li&gt;ケースの優先順位付け、重要度の確認、受付時のブリーフィング機能を提供&lt;/li&gt;&lt;li&gt;根本原因と解決策の要約、関連ナレッジ記事のマッチング、返信案の作成機能を提供&lt;/li&gt;&lt;li&gt;エスカレーションや引き継ぎの管理、カスタムスキルによるワークフローの調整をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576851"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善</title>
       <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
@@ -69,41 +79,31 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.99-2 のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-2</link>
-      <guid isPermaLink="false">github-copilot-cli-414415825</guid>
-      <pubDate>Fri, 16 Oct 2026 00:49:13 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-2では、管理者が設定したモデルの優先適用に関する通知機能の追加や、オンラインセッションでのセマンティックコード検索のデフォルト有効化が行われました。また、Linux環境でのサンドボックスコマンドの信頼性向上、MCPリソース詳細からのナビゲーション改善、プラグインダウンロード中のネイティブチャット実行など、複数の不具合修正と動作改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者管理設定が選択中のモデルを上書きする場合に明確な通知を表示するよう改善&lt;/li&gt;&lt;li&gt;オンラインセッションでセマンティックコード検索をデフォルトで有効化&lt;/li&gt;&lt;li&gt;Linux上のサンドボックスコマンドがループバック設定の失敗なくより確実に対象を起動するよう修正&lt;/li&gt;&lt;li&gt;ライブメタデータの更新中、MCPリソース詳細からの戻る操作がリスト上に留まるよう修正&lt;/li&gt;&lt;li&gt;オプションの管理プラグインのダウンロードがバックグラウンドで継続している間も、ネイティブチャットの開始と終了が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
+      <title>[提供予定・ロードマップ] Microsoft Viva：Copilot AnalyticsでのAgent 365レポート機能の提供開始</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575292</link>
+      <guid isPermaLink="false">m365-roadmap-ec80e627185c33926b5e</guid>
+      <pubDate>Fri, 16 Oct 2026 22:00:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、Agent 365ライセンスなしでエージェントのインサイト閲覧が可能になりました。顧客はMicrosoftプラットフォームで構築されたエージェントのレポートを統合的に確認でき、作成者や作成目的のコンテキストも把握できます。本機能のGA（一般提供）時期は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent 365ライセンスなしでのAgent 365 Dashboardにおけるエージェントインサイトの閲覧が可能に&lt;/li&gt;&lt;li&gt;Microsoftプラットフォームで構築されたエージェントに関するレポートの統合的な表示&lt;/li&gt;&lt;li&gt;各エージェントの作成者と作成目的に関するコンテキストの確認&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575292"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.99-1 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-1</link>
-      <guid isPermaLink="false">github-copilot-cli-414077014</guid>
-      <pubDate>Thu, 15 Oct 2026 17:21:22 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-1がリリースされ、新しいフラグやプラグインのインストール機能が追加されました。Microsoft Entraによるログインやサンドボックス化されたgitの改善に加え、複数の不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--pオプションまたは標準入力からのパイプによる一回限りのプロンプトモードセッション用に、--trust-folderを追加&lt;/li&gt;&lt;li&gt;GitHubのインストールリンクから検証済みスキルやプラグインをインストールする機能を追加&lt;/li&gt;&lt;li&gt;Microsoft Entraでの/loginを改善し、キャッシュされたアカウントの選択や別のアカウントでの明示的なサインインが可能に&lt;/li&gt;&lt;li&gt;github.com上のサンドボックス化されたgitで、credentials.envVarsから設定済みのGITHUB_TOKENを使用可能に&lt;/li&gt;&lt;li&gt;HydraFusionの動作改善やマネージドアカウントポリシーの警告に関する修正を実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>GitHub Copilot CLI v1.0.100-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.100-0</link>
+      <guid isPermaLink="false">github-copilot-cli-415339872</guid>
+      <pubDate>Fri, 16 Oct 2026 20:10:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.100-0がリリースされました。マスクされたホストの変更時にサンドボックスプロキシ証明機関の更新を促す改善や、管理ポリシー変更時のプラグイン更新の修正が含まれています。また、MCPサーバーのハングアップによるセッションの停止や、Geminiのツール呼び出しおよびチャットに関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;マスクされたホストの変更時にサンドボックスプロキシ証明機関の更新を促すプロンプトを追加&lt;/li&gt;&lt;li&gt;既存のセッションにおけるマネージドプラグインの更新アクティベーション（管理ポリシー変更時）を修正&lt;/li&gt;&lt;li&gt;ツールの読み込み中にMCPサーバーがハングアップした際、セッションが数分間停止する問題を修正&lt;/li&gt;&lt;li&gt;配列パラメータがenum値を定義している場合にGeminiのツール呼び出しが失敗する問題を修正&lt;/li&gt;&lt;li&gt;以前のツール結果に読み取り可能なコンテンツが含まれていない場合にGeminiのチャットが失敗する問題を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.100-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
+      <category>Pre-release</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.99-0 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-0</link>
-      <guid isPermaLink="false">github-copilot-cli-413313982</guid>
-      <pubDate>Thu, 15 Oct 2026 01:00:01 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.99-0がリリースされました。今回のアップデートでは、共有アクションメニューの追加やサンドボックス機能の改善、および複数のバグ修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;引数なしで /share を実行することで、現在のセッションを共有するためのフルスクリーンアクションメニューを表示する機能を追加しました。&lt;/li&gt;&lt;li&gt;/sandbox コマンドで、グローバルに有効化しなくても現在のセッションに対してサンドボックスを維持できるようになりました。&lt;/li&gt;&lt;li&gt;信頼されたリポジトリプラグインがチャットの実行前に自動的にインストールおよび更新されるように改善しました。&lt;/li&gt;&lt;li&gt;内蔵のブラウザプラグイン名を browser-use に変更し、アップグレード後も既存のブラウザプラグイン設定が機能するようにしました。&lt;/li&gt;&lt;li&gt;サンドボックスがデフォルトでローカルネットワークアクセスを許可し、コマンドがローカルホストおよびプライベートネットワークサービスに到達できるようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot：Copilot応答のパーソナライゼーションにおけるメモリ引用機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574111</link>
-      <guid isPermaLink="false">m365-roadmap-faea46a4d56a590701c4</guid>
-      <pubDate>Wed, 14 Oct 2026 23:01:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Chatがメモリを使用して応答をパーソナライズする際、回答の根拠となった情報を確認できるようになりました。ユーザーは応答下の「Sources」から「Personalization」タブを開くことで、カスタム指示、保存されたメモリ、会話から学習したメモリ、過去のチャットを確認できます。メモリ機能が有効な場合にのみメモリ引用が表示されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;応答下の「Sources」から「Personalization」タブを選択し、回答の根拠となったカスタム指示、保存されたメモリ、学習されたメモリ、過去のチャットを閲覧可能&lt;/li&gt;&lt;li&gt;引用されたチャットへの移動や、保存されたメモリの確認および削除が可能&lt;/li&gt;&lt;li&gt;メモリ引用の表示はメモリ機能が有効な場合のみに限定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574111"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Dynamics 365 Field Service: Scheduling Operations Agentによる複数リソースの最適化</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576884</link>
+      <guid isPermaLink="false">m365-roadmap-c1b29a4407f6a906b514</guid>
+      <pubDate>Fri, 16 Oct 2026 19:10:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本リリースでは、Scheduling Operations Agentの最適化機能が拡張され、複数リソースのサポートが追加されます。エージェントはリソースの空き状況、スケジュール、未割当の要件を考慮し、設定された制約と目的に沿った最適なスケジュール案を提案します。ディスパッチャーは、変更を適用する前に提案されたスケジュールを確認および比較することができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;スケジュールボードから直接最大5つのリソースのスケジュールを最適化&lt;/li&gt;&lt;li&gt;最適化プランを使用して最大30人のリソースのスケジュールを最適化&lt;/li&gt;&lt;li&gt;カスタムの目標と重み付け目標の作成&lt;/li&gt;&lt;li&gt;最適化プランで使用するカスタム最適化スコープの作成&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576884"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

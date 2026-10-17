@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 08:44:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 00:09:07 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.100-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.100-1</link>
+      <guid isPermaLink="false">github-copilot-cli-415437555</guid>
+      <pubDate>Fri, 16 Oct 2026 22:41:25 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.100-1がリリースされました。今回のアップデートでは、セッション関連コマンドで統合Sessionsブラウザーがデフォルトで使用されるようになり、アカウント検出数の上限設定やリトライ制御が改善されました。また、サンドイッチのホストルールにおけるプロキシ設定の不具合や、音声ディクテーション機能で言語マーカーが挿入される問題が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/sessions、/session、および /resume コマンドで統合 Sessions ブラウザーをデフォルトで使用するように改善&lt;/li&gt;&lt;li&gt;セッションブラウジングにおけるアカウント検出を最大500レコードまでに制限し、自動更新タイミングの Retry-After ヒントを尊重するように変更&lt;/li&gt;&lt;li&gt;サンドボックスプロキシが未設定の場合に、サンドボックスのホストルールトラフィックが HTTPS_PROXY と HTTP_PROXY を正しく尊重するように修正&lt;/li&gt;&lt;li&gt;音声ディクテーションにおいて、トランスクリプトテキストに &amp;lt;en-US&amp;gt; などの言語マーカーが混入しないように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.100-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.100-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.100-0</link>
+      <guid isPermaLink="false">github-copilot-cli-415339872</guid>
+      <pubDate>Fri, 16 Oct 2026 20:10:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.100-0がリリースされました。マスクされたホストの変更時にサンドボックスプロキシ証明機関の更新を促す改善や、管理ポリシー変更時のプラグイン更新の修正が含まれています。また、MCPサーバーのハングアップによるセッションの停止や、Geminiのツール呼び出しおよびチャットに関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;マスクされたホストの変更時にサンドボックスプロキシ証明機関の更新を促すプロンプトを追加&lt;/li&gt;&lt;li&gt;既存のセッションにおけるマネージドプラグインの更新アクティベーション（管理ポリシー変更時）を修正&lt;/li&gt;&lt;li&gt;ツールの読み込み中にMCPサーバーがハングアップした際、セッションが数分間停止する問題を修正&lt;/li&gt;&lt;li&gt;配列パラメータがenum値を定義している場合にGeminiのツール呼び出しが失敗する問題を修正&lt;/li&gt;&lt;li&gt;以前のツール結果に読み取り可能なコンテンツが含まれていない場合にGeminiのチャットが失敗する問題を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.100-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.99-3</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-3</link>
+      <guid isPermaLink="false">github-copilot-cli-415091932</guid>
+      <pubDate>Fri, 16 Oct 2026 15:08:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;**Added** - Add --disable-client-telemetry flag to turn off client telemetry uploads from the CLI **Fixed** - Sandboxed shell commands now explain credential-proxy certificate trust failures and can offer an approved rerun outside the sandbox. - Keep saved /diff review comments when reopening an unchanged diff in the same session, with an explicit discard action. - Plugin enable, disable, update, and uninstall actions now route reliably after plugin inventory refreshes. - Reasoning-only max-token responses no longer loop indefinitely and now end with a clear error when no progress is made - Show a clear warning and keep the active model display in sync when a saved model is automatically replaced on resume.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>unclassified</category>
+    </item>
     <item>
       <title>Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善</title>
       <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
