@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 13:24:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 23:44:17 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -289,24 +289,24 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Dynamics 365 Contact Center: Unified routing - Handle waiting conversations when queues close or become unstaffed</title>
+      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: 営業時間外や担当者不在時のキューに対する統一ルーティング機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=576759</link>
       <guid isPermaLink="false">m365-roadmap-3041d159c23cc86db9c8</guid>
       <pubDate>Fri, 16 Oct 2026 19:08:43 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;This capability enhances queue handling by intelligently detecting two key scenarios where conversations would otherwise remain unserved: Queue transitions to out-of-operating hours : The system continuously monitors active conversations that entered a queue before closing time. If the queue transitions to out-of-operating hours while conversations are still waiting, it automatically applies admin-defined overflow actions. Customers can be guided to leave a voicemail, request a callback, or be transferred to another available queue, ensuring a smooth end-of-day experience without manual intervention. No service representatives are signed in : The system evaluates real-time representative availability. If all representatives assigned to a queue are signed out, it immediately triggers the configured fallback action instead of waiting for in-queue overflow timers. This is especially valuable in scenarios such as mass logout events, unexpected breaks, or holidays not captured in operating hours. Administrators configure both scenarios using natural language prompts in conversation orchestration, enabling fine-grained control over queue behavior. This ensures customers are always routed to the best possible outcome, even when direct support is unavailable. Business Value: This capability ensures customers are never left waiting when representatives aren&amp;#x27;t available. Whether a queue transitions to be out-of-operating hours or all support representatives are logged out, the system proactively routes conversations to configured fallback options such as voicemail, callback, or alternative queues. Organizations benefit from reduced wait times and lower abandonment, improved customer satisfaction during peak load or unexpected staffing gaps, and a more predictable service experience regardless of representative availability. At the same time, this eliminates the need for manual queue draining or extended shifts, helping protect service representative wellbeing while maintaining consistent service levels. Enabled for: Enabled by admins/makers/marketers for end users GA date: October CY2026 Preview date: June CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576759"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Contact Centerに、キューが営業時間外に移行した場合や担当者が全員サインアウトしている場合に、待機中の会話を自動処理する統一ルーティング機能が追加されます。システムは管理者が設定したフォールバックアクション（ボイスメールの残し、コールバック依頼、別キューへの転送など）を自動的に適用します。これにより、手動での対応や長時間のシフト勤務を行うことなく、顧客が放置される状況を防ぎます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;営業時間外への移行時に待機中の会話を検出し、管理者が定義したオーバーフローアクション（ボイスメール、コールバック、別キューへの転送など）を自動適用&lt;/li&gt;&lt;li&gt;キューに割り当てられた担当者が全員サインアウトしている場合、タイマーの待機なしで即座に設定済みのフォールバックアクションを起動&lt;/li&gt;&lt;li&gt;会話オーケストレーション内の自然言語プロンプトを使用して両方のシナリオの設定が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576759"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Boost agent performance with optimal tool execution paths in Dynamics 365 ERP MCP</title>
+      <title>[提供予定・ロードマップ] Dynamics 365 ERP MCPサーバーにおけるCopilotを活用したエージェント性能の向上</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=576755</link>
       <guid isPermaLink="false">m365-roadmap-5b7bdad7dc1adbaa44bf</guid>
       <pubDate>Fri, 16 Oct 2026 19:08:39 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;With the dynamic tools of the Dynamics 365 ERP MCP server, large language models often have multiple options for tool-calling sequences to perform an operation or retrieve data. The orchestration can select the tool execution sequence and can include more tool calls than are required. This enhancement to the MCP server improves performance and accuracy of the server response by enabling the server to use optimal tool execution sequences to perform operations with a single point of entry for MCP tools and a semantic index of the available menu items, entities, and actions. Business Value: The Dynamics 365 ERP MCP server now uses a semantic index of target ERP menu items, entities, and actions to improve performance and accuracy of tool calls by optimizing the sequence of tool executions for agentic operations. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/dynamics365/finance/business-performance-analytics/erp-analytics-mcp-overview GA date: December CY2026 Preview date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576755"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 ERP MCPサーバーの機能が強化され、最適なツール実行シーケンスを選択することで、操作やデータ取得のパフォーマンスと精度が向上しました。本機能は、利用可能なメニュー項目、エンティティ、アクションのセマンティックインデックスを使用し、エージェントの操作を最適化します。管理者に自動的に有効化され、2026年10月にプレビュー提供、2026年12月にGA（一般提供）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 ERP MCPサーバーにおいて、最適なツール実行シーケンスを使用することで応答のパフォーマンスと精度が向上&lt;/li&gt;&lt;li&gt;利用可能なメニュー項目、エンティティ、アクションのセマンティックインデックスを活用&lt;/li&gt;&lt;li&gt;MCPツールの単一のエントリポイントを通じて操作を実行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576755"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] SharePoint および OneDrive における Copilot Search</title>

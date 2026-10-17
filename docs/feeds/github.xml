@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:09:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 23:44:17 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -29,14 +29,14 @@
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.99-3</title>
+      <title>GitHub Copilot CLI v1.0.99-3 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-3</link>
       <guid isPermaLink="false">github-copilot-cli-415091932</guid>
       <pubDate>Fri, 16 Oct 2026 15:08:58 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;**Added** - Add --disable-client-telemetry flag to turn off client telemetry uploads from the CLI **Fixed** - Sandboxed shell commands now explain credential-proxy certificate trust failures and can offer an approved rerun outside the sandbox. - Keep saved /diff review comments when reopening an unchanged diff in the same session, with an explicit discard action. - Plugin enable, disable, update, and uninstall actions now route reliably after plugin inventory refreshes. - Reasoning-only max-token responses no longer loop indefinitely and now end with a clear error when no progress is made - Show a clear warning and keep the active model display in sync when a saved model is automatically replaced on resume.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-3がリリースされました。クライアントのテレメトリを無効化するフラグの追加や、サンドボックス化されたシェルコマンドの改善、プラグイン操作の信頼性向上が含まれています。また、差分レビューコメントの保持や、推論専用の最大トークン応答における無限ループの修正が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;クライアントからのテレメトリ送信を無効にする「--disable-client-telemetry」フラグを追加&lt;/li&gt;&lt;li&gt;サンドボックス化されたシェルコマンドで、認証情報プロキシ証明書の信頼エラーの説明とサンドボックス外での再実行提案機能を追加&lt;/li&gt;&lt;li&gt;同一セッション内で変更のない差分を再オープンした際に、明示的な破棄操作が行われるまで保存された差分レビューコメントを維持&lt;/li&gt;&lt;li&gt;プラグインのインベントリ更新後、有効化・無効化・更新・アンインストールアクションが確実にルーティングされるように修正&lt;/li&gt;&lt;li&gt;推論専用の最大トークン応答が無限ループする不具合を修正し、進捗がない場合は明確なエラーで終了するように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>unclassified</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>Slack と Microsoft Teams 向け GitHub Copilot のマルチリポジトリ対応とその他の改善</title>

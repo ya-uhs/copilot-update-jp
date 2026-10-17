@@ -896,16 +896,26 @@
     "excerpt_original": "This capability enhances queue handling by intelligently detecting two key scenarios where conversations would otherwise remain unserved: Queue transitions to out-of-operating hours : The system continuously monitors active conversations that entered a queue before closing time. If the queue transitions to out-of-operating hours while conversations are still waiting, it automatically applies admin-defined overflow actions. Customers can be guided to leave a voicemail, request a callback, or be transferred to another available queue, ensuring a smooth end-of-day experience without manual intervention. No service representatives are signed in : The system evaluates real-time representative availability. If all representatives assigned to a queue are signed out, it immediately triggers the configured fallback action instead of waiting for in-queue overflow timers. This is especially valuable in scenarios such as mass logout events, unexpected breaks, or holidays not captured in operating hours. Administrators configure both scenarios using natural language prompts in conversation orchestration, enabling fine-grained control over queue behavior. This ensures customers are always routed to the best possible outcome, even when direct support is unavailable. Business Value: This capability ensures customers are never left waiting when representatives aren't available. Whether a queue transitions to be out-of-operating hours or all support representatives are logged out, the system proactively routes conversations to configured fallback options such as voicemail, callback, or alternative queues. Organizations benefit from reduced wait times and lower abandonment, improved customer satisfaction during peak load or unexpected staffing gaps, and a more predictable service experience regardless of representative availability. At the same time, this eliminates the need for manual queue draining or extended shifts, helping protect service representative wellbeing while maintaining consistent service levels. Enabled for: Enabled by admins/makers/marketers for end users GA date: October CY2026 Preview date: June CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Contact Center: 営業時間外や担当者不在時のキューに対する統一ルーティング機能",
+    "summary_ja": "Dynamics 365 Contact Centerに、キューが営業時間外に移行した場合や担当者が全員サインアウトしている場合に、待機中の会話を自動処理する統一ルーティング機能が追加されます。システムは管理者が設定したフォールバックアクション（ボイスメールの残し、コールバック依頼、別キューへの転送など）を自動的に適用します。これにより、手動での対応や長時間のシフト勤務を行うことなく、顧客が放置される状況を防ぎます。",
+    "changes": [
+      "営業時間外への移行時に待機中の会話を検出し、管理者が定義したオーバーフローアクション（ボイスメール、コールバック、別キューへの転送など）を自動適用",
+      "キューに割り当てられた担当者が全員サインアウトしている場合、タイマーの待機なしで即座に設定済みのフォールバックアクションを起動",
+      "会話オーケストレーション内の自然言語プロンプトを使用して両方のシナリオの設定が可能"
+    ],
+    "target_user": [
+      "Administrators",
+      "Makers",
+      "Marketers",
+      "End Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T23:44:14Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T23:44:13Z"
   },
   {
     "id": "m365-roadmap-5b7bdad7dc1adbaa44bf",
@@ -916,16 +926,25 @@
     "excerpt_original": "With the dynamic tools of the Dynamics 365 ERP MCP server, large language models often have multiple options for tool-calling sequences to perform an operation or retrieve data. The orchestration can select the tool execution sequence and can include more tool calls than are required. This enhancement to the MCP server improves performance and accuracy of the server response by enabling the server to use optimal tool execution sequences to perform operations with a single point of entry for MCP tools and a semantic index of the available menu items, entities, and actions. Business Value: The Dynamics 365 ERP MCP server now uses a semantic index of target ERP menu items, entities, and actions to improve performance and accuracy of tool calls by optimizing the sequence of tool executions for agentic operations. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/dynamics365/finance/business-performance-analytics/erp-analytics-mcp-overview GA date: December CY2026 Preview date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 ERP MCPサーバーにおけるCopilotを活用したエージェント性能の向上",
+    "summary_ja": "Dynamics 365 ERP MCPサーバーの機能が強化され、最適なツール実行シーケンスを選択することで、操作やデータ取得のパフォーマンスと精度が向上しました。本機能は、利用可能なメニュー項目、エンティティ、アクションのセマンティックインデックスを使用し、エージェントの操作を最適化します。管理者に自動的に有効化され、2026年10月にプレビュー提供、2026年12月にGA（一般提供）が予定されています。",
+    "changes": [
+      "Dynamics 365 ERP MCPサーバーにおいて、最適なツール実行シーケンスを使用することで応答のパフォーマンスと精度が向上",
+      "利用可能なメニュー項目、エンティティ、アクションのセマンティックインデックスを活用",
+      "MCPツールの単一のエントリポイントを通じて操作を実行"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T23:44:15Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-17T23:44:14Z"
   },
   {
     "id": "github-copilot-cli-415091932",
@@ -935,16 +954,26 @@
     "title_original": "GitHub Copilot CLI v1.0.99-3",
     "excerpt_original": "**Added** - Add --disable-client-telemetry flag to turn off client telemetry uploads from the CLI **Fixed** - Sandboxed shell commands now explain credential-proxy certificate trust failures and can offer an approved rerun outside the sandbox. - Keep saved /diff review comments when reopening an unchanged diff in the same session, with an explicit discard action. - Plugin enable, disable, update, and uninstall actions now route reliably after plugin inventory refreshes. - Reasoning-only max-token responses no longer loop indefinitely and now end with a clear error when no progress is made - Show a clear warning and keep the active model display in sync when a saved model is automatically replaced on resume.",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.99-3 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.99-3がリリースされました。クライアントのテレメトリを無効化するフラグの追加や、サンドボックス化されたシェルコマンドの改善、プラグイン操作の信頼性向上が含まれています。また、差分レビューコメントの保持や、推論専用の最大トークン応答における無限ループの修正が行われました。",
+    "changes": [
+      "クライアントからのテレメトリ送信を無効にする「--disable-client-telemetry」フラグを追加",
+      "サンドボックス化されたシェルコマンドで、認証情報プロキシ証明書の信頼エラーの説明とサンドボックス外での再実行提案機能を追加",
+      "同一セッション内で変更のない差分を再オープンした際に、明示的な破棄操作が行われるまで保存された差分レビューコメントを維持",
+      "プラグインのインベントリ更新後、有効化・無効化・更新・アンインストールアクションが確実にルーティングされるように修正",
+      "推論専用の最大トークン応答が無限ループする不具合を修正し、進捗がない場合は明確なエラーで終了するように変更"
+    ],
+    "target_user": [
+      "Developer",
+      "CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-17T23:44:17Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-10-17T23:44:15Z"
   },
   {
     "id": "github-changelog-6fdf4a6bc9a49fd054fb",
