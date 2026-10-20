@@ -1,5 +1,291 @@
 [
   {
+    "id": "m365-roadmap-b0a7f9f1e3d35a1c8088",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576709",
+    "published_at": "2026-10-19T23:15:15Z",
+    "title_original": "[Roadmap] Microsoft Viva: Enhanced Microsoft Copilot in Viva Engage",
+    "excerpt_original": "Introducing the Enhanced Microsoft 365 Copilot Experience in Viva Engage! Powered by Engage MCP, this enhanced experience takes Copilot in Engage beyond catch-ups and summaries, helping users explore conversations more deeply, synthesize discussions, and uncover meaningful insights. It's also more deeply connected across Microsoft 365. For example, you can ask Copilot to analyze feedback on a leader's post, identify key themes, and turn those insights into a reusable PowerPoint deck. With Work IQ integration, Copilot also has a better understanding of you and your work context, connecting conversations in Engage to your broader work across Microsoft 365. Engage MCP expands both the breadth and depth of Engage scenarios Copilot can support, making it more useful for understanding conversations and insights across your Engage network. This update also brings Copilot in Engage closer to the broader Microsoft 365 Copilot experience, with your Microsoft 365 agents now accessible directly within Copilot in Engage. GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Viva EngageにおけるMicrosoft 365 Copilotエクスペリエンスの強化",
+    "summary_ja": "Engage MCPを搭載したMicrosoft 365 Copilotの強化により、Viva Engageでの会話の深掘りや洞察の抽出が可能になります。Work IQの統合やMicrosoft 365エコシステムとの連携が深化し、投稿に対するフィードバックの分析やPowerPointデッキの作成などがサポートされます。また、Microsoft 365エージェントへの直接アクセスも可能になります。",
+    "changes": [
+      "Engage MCPによる会話の深掘り、議論の統合、洞察の発見機能の追加",
+      "リーダーの投稿に対するフィードバックの分析やPowerPointデッキの作成機能",
+      "Work IQ統合によるMicrosoft 365全体での作業コンテキストの共有",
+      "Copilot in Engage内からのMicrosoft 365エージェントへの直接アクセスの実現"
+    ],
+    "target_user": [
+      "Microsoft Viva Engage users",
+      "Microsoft 365 users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:01Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-20T00:53:59Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "m365-roadmap-7f98cd8fef7d46927a7a",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576272",
+    "published_at": "2026-10-19T23:15:15Z",
+    "title_original": "[Roadmap] Copilot Studio: Computer Use for web browsing on GitHub Copilot Harness",
+    "excerpt_original": "Enable Microsoft Copilot Studio agents to browse and interact with websites as a native capability powered by the GitHub Copilot Harness. Using natural-language instructions, agents can navigate web pages, extract information, and download files. Agents can then use that information and those files alongside other tools to complete end-to-end workflows, extending their reach beyond configured knowledge sources and API-based integrations. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Copilot Studio: GitHub Copilot Harnessを利用したウェブブラウジングのためのComputer Use",
+    "summary_ja": "Microsoft Copilot Studioエージェントが、GitHub Copilot Harnessを活用してウェブサイトの閲覧や操作を行えるネイティブ機能が追加されます。自然言語の指示に基づき、エージェントはウェブページの閲覧、情報抽出、ファイルのダウンロードを実行し、従来の知識ソースやAPI連携を超えたエンドツーエンドのワークフローを完了させることが可能です。",
+    "changes": [
+      "GitHub Copilot Harnessを基盤としたウェブブラウジングとウェブサイト操作機能の有効化",
+      "自然言語指示によるウェブページのナビゲーション、情報抽出、ファイルダウンロード機能の提供",
+      "抽出した情報やファイルを利用したエンドツーエンドのワークフロー実行による対応範囲の拡大"
+    ],
+    "target_user": [
+      "Developer",
+      "Admin"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:02Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-20T00:54:01Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "m365-roadmap-0b2bba8ca6b60c2fe536",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571305",
+    "published_at": "2026-10-19T23:15:15Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Support for sensitive documents protected with Microsoft Purview Information Protection (MPIP)",
+    "excerpt_original": "Unblock users from upload files with Microsoft Purview Information Protection (MPIP) sensitivity labels to Copilot Studio agents deployed on the M365 channel. With this support agents can process content based on the user's/agents account permissions, with label protections enforced end-to-end. GA date: October CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: Microsoft Purview Information Protection (MPIP)で保護された機密文書のサポート",
+    "summary_ja": "Microsoft Copilot Studioにおいて、Microsoft Purview Information Protection (MPIP)の機密性ラベルが付与されたファイルをM365チャネルにデプロイされたエージェントへアップロードできるようになります。これにより、ユーザーやエージェントのアカウント権限に基づいてコンテンツが処理され、ラベルによる保護がエンドツーエンドで適用されます。プレビューおよびGA（一般提供）は2026年10月に予定されています。",
+    "changes": [
+      "MPIPの機密性ラベルで保護されたファイルのアップロードに対応",
+      "ユーザーおよびエージェントのアカウント権限に基づくコンテンツ処理の実現",
+      "エンドツーエンドでのラベル保護の強制"
+    ],
+    "target_user": [
+      "Administrators",
+      "Developers",
+      "Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:03Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-20T00:54:02Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "m365-roadmap-3efa3fd3c5b324c416b3",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570672",
+    "published_at": "2026-10-19T23:15:15Z",
+    "title_original": "[Roadmap] Work IQ: Human in the loop",
+    "excerpt_original": "Allow agents and agent flows to pause for human input or approval before continuing. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ: Human in the loop",
+    "summary_ja": "Microsoft 365 Copilotにおいて、エージェントおよびエージェントのフローが処理を一時停止し、人間の入力や承認を得てから続行する機能が追加されます。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。",
+    "changes": [
+      "エージェントおよびエージェントフローが人間の入力や承認のために処理を一時停止する機能の追加"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users",
+      "Developers",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:04Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-20T00:54:03Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "m365-roadmap-4b736d9c0090e72070b7",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570652",
+    "published_at": "2026-10-19T23:15:15Z",
+    "title_original": "[Roadmap] Work IQ: Agent Policy Governance",
+    "excerpt_original": "Provide administrators with policy-based controls for governing agents and their capabilities at scale. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ：エージェントポリシーガバナンス",
+    "summary_ja": "Microsoft 365 Copilot向けに、管理者向けのエージェントおよびその機能に対するポリシーベースの制御機能が提供されます。管理者は大規模な環境においてエージェントとその機能を統制することが可能です。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。",
+    "changes": [
+      "管理者向けのエージェントおよびその機能に対するポリシーベースの制御機能の追加"
+    ],
+    "target_user": [
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:05Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-20T00:54:04Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "m365-roadmap-532a0c5501f72b181eaa",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570651",
+    "published_at": "2026-10-19T23:15:15Z",
+    "title_original": "[Roadmap] Work IQ: Real Time Transcripts",
+    "excerpt_original": "Enable applications and agents to access Microsoft Teams meeting transcripts in real time for assistance and insights. GA date: November CY2026 Preview date: September CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ: リアルタイム文字起こし機能",
+    "summary_ja": "Microsoft 365 Copilot向けに、アプリケーションやエージェントがMicrosoft Teamsの会議の文字起こしにリアルタイムでアクセスし、支援や洞察を得られる機能が追加されます。プレビュー提供は2026年9月、一般提供（GA）は2026年11月を予定しています。",
+    "changes": [
+      "アプリケーションやエージェントによるMicrosoft Teams会議のリアルタイム文字起こしへのアクセスが可能になります。",
+      "プレビュー提供開始予定：2026年9月",
+      "一般提供（GA）開始予定：2026年11月"
+    ],
+    "target_user": [
+      "Developer",
+      "End User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:06Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-20T00:54:05Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-changelog-ed64890568349a4e14d9",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+    "published_at": "2026-10-19T21:32:18Z",
+    "title_original": "Copilot model policy API for enterprise, orgs, and teams",
+    "excerpt_original": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy API for enterprise, orgs, and teams appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "企業、組織、チーム向けCopilotモデルポリシーAPI",
+    "summary_ja": "REST APIを使用して、企業、企業チーム、企業アプリ、組織におけるGitHub Copilotのモデルポリシーを取得および更新できるようになりました。新しいGETおよびPATCHエンドポイントが利用可能です。",
+    "changes": [
+      "企業、組織、チーム向けのGitHub Copilotモデルポリシーを取得・更新するためのREST APIが追加された",
+      "ポリシーの操作を行うための新しいGETおよびPATCHエンドポイントが利用可能になった"
+    ],
+    "target_user": [
+      "Enterprise administrators",
+      "Organization administrators",
+      "Team administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:07Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-20T00:54:06Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-changelog-c4d5caa9ca539eec6c7f",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+    "published_at": "2026-10-19T21:27:10Z",
+    "title_original": "GitHub Copilot models deprecated on October 19, 2026",
+    "excerpt_original": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These… The post GitHub Copilot models deprecated on October 19, 2026 appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilotモデルの提供終了（2026年10月19日）",
+    "summary_ja": "2026年10月19日付けで、ほとんどのGitHub Copilotエクスペリエンスにおいて特定のモデルが非推奨となりました。対象には、Copilot Chat、インライン編集、質問およびエージェントモード、コード補完が含まれます。",
+    "changes": [
+      "2026年10月19日付けで特定のGitHub Copilotモデルが非推奨化されました",
+      "対象機能にはCopilot Chat、インライン編集、質問・エージェントモード、コード補完が含まれます"
+    ],
+    "target_user": [
+      "GitHub Copilot users",
+      "Developers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:08Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-20T00:54:07Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-417762213",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.101-0",
+    "published_at": "2026-10-19T21:13:38Z",
+    "title_original": "GitHub Copilot CLI v1.0.101-0",
+    "excerpt_original": "**Added** - Add native structured output for dynamic workflow subagents on supported models - Add assistedApprovalInstructions setting to guide Assisted Permissions confirmation decisions **Fixed** - Shared MCP auth errors point to your client's sign-in settings; CLI authentication warnings still show /mcp auth. - Switching from GPT models to Gemini no longer fails when earlier turns include custom tool calls - Google model requests now respect registry image limits to avoid image-count request failures - The first prompt no longer hangs silently when no model is selected at startup; the CLI now asks you to pick one with /model and keeps your prompt - /usage now shows just the model name for BYOK and other rows without a provider label instead of \"Unknown provider\" - Cancelling an admission-gated prompt now re-enables Enter without requiring extra typing while background work continues. - Model picker marks your administrator-managed model as the default when it is available - Preserve MCP PNG images that include ICC color profiles instead of omitting them - Windows shell commands start reliably in restored sessions and clean up orphaned child processes - Switching to HydraFusion compacts only when the routed model actually needs it - CLI model lists refresh after endpoint updates instead of staying stale or empty - Windows taskbar icon staging avoids concurrent temp-file collisions so icon presence remains stable across launches.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.101-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.101-0がリリースされ、ダイナミックワークフローのサブエージェント向けネイティブ構造化出力の追加や、Assisted Permissions確認用の設定導入が行われました。また、認証エラーの修正やモデル切り替え時の不具合解消、MCP画像の保持などの各種バグ修正が含まれています。",
+    "changes": [
+      "サポートされているモデルでのダイナミックワークフローサブエージェント向けに、ネイティブ構造化出力を追加",
+      "Assisted Permissionsの確認判断をガイドする assistedApprovalInstructions 設定を追加",
+      "GPTモデルからGeminiへの切り替え時にカスタムツール呼び出しを含む過去のターンで失敗していた問題を修正",
+      "起動時にモデルが未選択の場合に最初のプロンプトが沈黙してフリーズせず、/modelでの選択を促してプロンプトを保持するように変更",
+      "Windowsシェルコマンドが復元されたセッションで確実に対象プロセスを開始し、孤立した子プロセスをクリーンアップするように修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:09Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-20T00:54:08Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-417622960",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.100",
+    "published_at": "2026-10-19T18:43:10Z",
+    "title_original": "GitHub Copilot CLI v1.0.100",
+    "excerpt_original": "2026-10-19 - Add --disable-client-telemetry flag to turn off client telemetry uploads from the CLI - Add --trust-folder for one-off prompt-mode sessions started with -p or piped stdin - Install verified Skills and plugins from GitHub install links via copilot plugin install \"ghapp://air/install?...\" - Open /share without arguments to view a full-screen action menu for sharing the current session - Sandbox host-rule traffic now honors HTTPS_PROXY and HTTP_PROXY when no sandbox proxy is configured - Voice dictation no longer inserts language markers like <en-US> into transcript text - Managed plugins update activation in existing sessions when managed policy changes - Sessions no longer stall for minutes when an MCP server hangs while loading tools. - Gemini tool calls no longer fail when array parameters define enum values - Gemini chats no longer fail after earlier tool results contain no readable content. - Sandboxed shell commands now explain credential-proxy certificate trust failures and can offer an approved rerun outside the sandbox. - Keep saved /diff review comments when reopening an unchanged diff in the same session, with an explicit discard action. - Plugin enable, disable, update, and uninstall actions now route reliably after plugin inventory refreshes. - Reasoning-only max-token responses no longer loop indefinitely and now end with a clear error when no progress is made - Show a clear warning and keep the active model display in sync when a saved model is automatically replaced on resume. - Sandboxed commands on Linux start more reliably without intermittent loopback setup failures - Back from MCP resource details stays on the list during live metadata refreshes - Native chats can start and finish while optional managed plugin downloads continue in the background. - Double Ctrl+C exits immediately even when the CLI UI is busy - Catalog search reports proxy authentication requirements for CONNECT proxy challenges - HydraFusion keeps a pass expanded while its review runs, passes that were not kept stay expandable until you switch sessions or resume, and passes from an aborted turn say whether they were kept - Managed account policy and bypass-mode warnings stay accurate after switching accounts, even when a policy cache miss happens. - Avoid false context exhaustion and rollover refusal when tool definitions are deferred - Custom agents that declare the documented `search`, `web` or `todo` tool aliases, or name `github-mcp-server/web_search`, now receive the matching tools - CLI help and version flags exit reliably after printing their output - Enterprise-managed ask permissions in Assisted mode now allow safe actions without unnecessary confirmation prompts. - Keep your selected Microsoft Entra account pinned during sign-in and token renewal - Up from sessions sidebar header actions wraps to the last visible session - Plan, autopilot, and shell mode badges stay visible while startup components load and the agent works. The badge replaces the mode suffix that used to trail the activity text (`Working - plan`), and the startup `Loading:` row now truncates its diagnostics to keep the status row on one line - Sandboxed commands can write package and build caches when developer tool access is enabled. - Windows CLI Git commands now recover from thread-access-denied startup failures. - A skill `allowed-tools` rule keeps commas inside its arguments instead of being split apart. Where a list's structure is ambiguous, its unscoped rules now prompt instead of being granted. - MCP resource dashboard stays interactive while inventory adapters refresh - Retry image-bearing Responses requests with smaller payload limits when providers reject oversized bodies - Complete usage reporting no longer shows partial status or phantom unattributed spend after resume when billing data is complete. - Assisted permissions send nested PowerShell and bash -c commands that only expand plain-data environment variables, single-quoted PowerShell, and PowerShell variable and alias statements to the permission judge instead of requiring unnecessary manual approval - Path-specific instruction files in the repository root .github/instructions are now applied automatically when the agent reads or edits a matching file - Start git, shell commands, and MCP servers on Windows when process snapshot thread enumeration fails - Use the unified Sessions browser by default for /sessions, /session, and /resume. - Session browsing now caps account discovery at 500 records and respects Retry-After hints for automatic refresh timing. - Prompt to update the sandbox proxy certificate authority when masked hosts change - Show a clear notice when administrator-managed settings override your selected model - Enable semantic code search by default for online sessions. - Improve /login for Microsoft Entra by letting you choose a cached account or explicitly sign in with a different account - Sandboxed git on github.com can use your configured GITHUB_TOKEN from credentials.envVars - /sandbox can keep sandboxing enabled for the current session without enabling it globally - Trusted repository plugins install and update automatically before chat runs. - Rename the built-in browser plugin to browser-use and keep existing browser plugin preferences working after upgrade - Sandbox allows local network access by default so commands can reach localhost and private-network services.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.100 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.100では、クライアントテレメトリを無効化する新しいフラグや一時セッション向けの信頼フォルダ指定機能が追加されました。また、MCPサーバーの応答待ちやプロキシ設定、サンドボックス環境におけるネットワークと証明書の処理に関する多数の修正と改善が含まれています。さらに、プラグイン管理の信頼性向上や、Geminiモデルでのツール呼び出しのエラー修正など、安定性が強化されました。",
+    "changes": [
+      "クライアントテレメトリのアップロードを停止する `--disable-client-telemetry` フラグを追加",
+      "-p またはパイプ入力で開始するプロンプトモードセッション向けに `--trust-folder` を追加",
+      "GitHubのインストールリンクから検証済みスキルやプラグインをインストール可能に",
+      "引数なしで `/share` を実行して現在のセッションを共有するフルスクリーンアクションメニューを表示",
+      "MCPサーバーがツール読み込み時にハングした場合にセッションが数分間停止する問題を修正"
+    ],
+    "target_user": [
+      "Developer",
+      "Enterprise Administrator"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-20T00:54:11Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-20T00:54:09Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-415437555",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.100-1",

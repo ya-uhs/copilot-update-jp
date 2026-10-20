@@ -5,9 +5,69 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 23:44:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:54:11 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Viva EngageにおけるMicrosoft 365 Copilotエクスペリエンスの強化</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576709</link>
+      <guid isPermaLink="false">m365-roadmap-b0a7f9f1e3d35a1c8088</guid>
+      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Engage MCPを搭載したMicrosoft 365 Copilotの強化により、Viva Engageでの会話の深掘りや洞察の抽出が可能になります。Work IQの統合やMicrosoft 365エコシステムとの連携が深化し、投稿に対するフィードバックの分析やPowerPointデッキの作成などがサポートされます。また、Microsoft 365エージェントへの直接アクセスも可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Engage MCPによる会話の深掘り、議論の統合、洞察の発見機能の追加&lt;/li&gt;&lt;li&gt;リーダーの投稿に対するフィードバックの分析やPowerPointデッキの作成機能&lt;/li&gt;&lt;li&gt;Work IQ統合によるMicrosoft 365全体での作業コンテキストの共有&lt;/li&gt;&lt;li&gt;Copilot in Engage内からのMicrosoft 365エージェントへの直接アクセスの実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576709"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Copilot Studio: GitHub Copilot Harnessを利用したウェブブラウジングのためのComputer Use</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576272</link>
+      <guid isPermaLink="false">m365-roadmap-7f98cd8fef7d46927a7a</guid>
+      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioエージェントが、GitHub Copilot Harnessを活用してウェブサイトの閲覧や操作を行えるネイティブ機能が追加されます。自然言語の指示に基づき、エージェントはウェブページの閲覧、情報抽出、ファイルのダウンロードを実行し、従来の知識ソースやAPI連携を超えたエンドツーエンドのワークフローを完了させることが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot Harnessを基盤としたウェブブラウジングとウェブサイト操作機能の有効化&lt;/li&gt;&lt;li&gt;自然言語指示によるウェブページのナビゲーション、情報抽出、ファイルダウンロード機能の提供&lt;/li&gt;&lt;li&gt;抽出した情報やファイルを利用したエンドツーエンドのワークフロー実行による対応範囲の拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576272"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: Microsoft Purview Information Protection (MPIP)で保護された機密文書のサポート</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571305</link>
+      <guid isPermaLink="false">m365-roadmap-0b2bba8ca6b60c2fe536</guid>
+      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、Microsoft Purview Information Protection (MPIP)の機密性ラベルが付与されたファイルをM365チャネルにデプロイされたエージェントへアップロードできるようになります。これにより、ユーザーやエージェントのアカウント権限に基づいてコンテンツが処理され、ラベルによる保護がエンドツーエンドで適用されます。プレビューおよびGA（一般提供）は2026年10月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MPIPの機密性ラベルで保護されたファイルのアップロードに対応&lt;/li&gt;&lt;li&gt;ユーザーおよびエージェントのアカウント権限に基づくコンテンツ処理の実現&lt;/li&gt;&lt;li&gt;エンドツーエンドでのラベル保護の強制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571305"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: Human in the loop</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570672</link>
+      <guid isPermaLink="false">m365-roadmap-3efa3fd3c5b324c416b3</guid>
+      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントおよびエージェントのフローが処理を一時停止し、人間の入力や承認を得てから続行する機能が追加されます。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントおよびエージェントフローが人間の入力や承認のために処理を一時停止する機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570672"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ：エージェントポリシーガバナンス</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570652</link>
+      <guid isPermaLink="false">m365-roadmap-4b736d9c0090e72070b7</guid>
+      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けに、管理者向けのエージェントおよびその機能に対するポリシーベースの制御機能が提供されます。管理者は大規模な環境においてエージェントとその機能を統制することが可能です。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者向けのエージェントおよびその機能に対するポリシーベースの制御機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570652"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: リアルタイム文字起こし機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570651</link>
+      <guid isPermaLink="false">m365-roadmap-532a0c5501f72b181eaa</guid>
+      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けに、アプリケーションやエージェントがMicrosoft Teamsの会議の文字起こしにリアルタイムでアクセスし、支援や洞察を得られる機能が追加されます。プレビュー提供は2026年9月、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アプリケーションやエージェントによるMicrosoft Teams会議のリアルタイム文字起こしへのアクセスが可能になります。&lt;/li&gt;&lt;li&gt;プレビュー提供開始予定：2026年9月&lt;/li&gt;&lt;li&gt;一般提供（GA）開始予定：2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570651"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Viva：Copilot AnalyticsでのAgent 365レポート機能の提供開始</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=575292</link>

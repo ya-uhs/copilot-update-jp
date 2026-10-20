@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:15:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:54:11 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilotモデルの提供終了（2026年10月19日）</title>
+      <link>https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026</link>
+      <guid isPermaLink="false">github-changelog-c4d5caa9ca539eec6c7f</guid>
+      <pubDate>Mon, 19 Oct 2026 21:27:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;2026年10月19日付けで、ほとんどのGitHub Copilotエクスペリエンスにおいて特定のモデルが非推奨となりました。対象には、Copilot Chat、インライン編集、質問およびエージェントモード、コード補完が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年10月19日付けで特定のGitHub Copilotモデルが非推奨化されました&lt;/li&gt;&lt;li&gt;対象機能にはCopilot Chat、インライン編集、質問・エージェントモード、コード補完が含まれます&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.100 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.100</link>
+      <guid isPermaLink="false">github-copilot-cli-417622960</guid>
+      <pubDate>Mon, 19 Oct 2026 18:43:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.100では、クライアントテレメトリを無効化する新しいフラグや一時セッション向けの信頼フォルダ指定機能が追加されました。また、MCPサーバーの応答待ちやプロキシ設定、サンドボックス環境におけるネットワークと証明書の処理に関する多数の修正と改善が含まれています。さらに、プラグイン管理の信頼性向上や、Geminiモデルでのツール呼び出しのエラー修正など、安定性が強化されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;クライアントテレメトリのアップロードを停止する `--disable-client-telemetry` フラグを追加&lt;/li&gt;&lt;li&gt;-p またはパイプ入力で開始するプロンプトモードセッション向けに `--trust-folder` を追加&lt;/li&gt;&lt;li&gt;GitHubのインストールリンクから検証済みスキルやプラグインをインストール可能に&lt;/li&gt;&lt;li&gt;引数なしで `/share` を実行して現在のセッションを共有するフルスクリーンアクションメニューを表示&lt;/li&gt;&lt;li&gt;MCPサーバーがツール読み込み時にハングした場合にセッションが数分間停止する問題を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.100"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: Copilot and AI innovation - Copilot Coworkを活用した担当者向けインサイトとアクションのオーケストレーション</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=576851</link>
