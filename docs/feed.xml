@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:22:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:06:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.102-1のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.102-1</link>
+      <guid isPermaLink="false">github-copilot-cli-419168038</guid>
+      <pubDate>Wed, 21 Oct 2026 04:45:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.102-1がリリースされました。プロンプトモードで管理されたAutoモデルの選択が適用されるようになり、サブエージェントがカスタムおよびMCPツールの承認を正しく処理できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Prompt mode now honors managed Auto model selection for -p and piped stdin runs&lt;/li&gt;&lt;li&gt;Subagents honor custom and MCP tool approvals, avoiding duplicate permission prompts and allowing inherited workflows to run&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.102-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.102-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.102-0</link>
+      <guid isPermaLink="false">github-copilot-cli-419089517</guid>
+      <pubDate>Wed, 21 Oct 2026 02:47:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.102-0がリリースされました。今回のアップデートでは、サンドボックス化されたネットワークトラフィックにおけるプロキシ設定のサポート改善や、プラグインのソース対応、各種シェルの補完およびチャット送信時のブロック問題の修正が行われました。また、長時間のコマンド実行の安定性向上や、プロバイダー過負荷エラー発生時のリトライ機能の改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サンドボックス化されたネットワークトラフィックが、ホストのプロキシ設定継承時に NO_PROXY と ALL_PROXY を反映するように改善されました。&lt;/li&gt;&lt;li&gt;プラグインマーケットプレイスが git のサブディレクトリソースおよび長いプラグイン説明文を受け付けるように修正されました。&lt;/li&gt;&lt;li&gt;エイリアスに --effort などのオプションが含まれる場合に Fish シェルの補完が機能するように修正されました。&lt;/li&gt;&lt;li&gt;メッセージ送信時に組織のプラグイン準備によってチャットがブロックされないように修正されました。&lt;/li&gt;&lt;li&gt;長時間のサンドボックスコマンドが10秒を超えても安定して実行し続けるように修正されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.102-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Dataverse：AIエージェントおよびCopilot向けのセマンティックデータ理解機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577185</link>
@@ -1986,26 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.88がリリースされました。GhosttyおよびWezTerm向けのオプションのOSC 777端末通知の追加、ダイアログでのテキスト選択の改善、managed-settings更新失敗時の設定保持など、多くの機能改善と不具合修正が含まれています。また、MCPツールの信頼性向上やエンタープライズ管理設定の適用範囲拡大なども行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GhosttyおよびWezTermセッション向けに、オプションのOSC 777端末通知を追加&lt;/li&gt;&lt;li&gt;ログインデバイスコードを含む下部固定ダイアログでのテキスト選択機能を追加&lt;/li&gt;&lt;li&gt;managed-settings更新失敗時の/allow-allの維持と、親ディレクトリを付与しない正確なセッション承認の記憶&lt;/li&gt;&lt;li&gt;カスタムエージェントの起動時に、モデルリストの読み込み失敗と空のカタログを区別するように改善&lt;/li&gt;&lt;li&gt;freeform ask_userプロンプトでEnterキーによる改行を追加（送信はCtrl+EnterまたはCtrl+S）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.88"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.88-2 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.88-2</link>
-      <guid isPermaLink="false">github-copilot-cli-393819449</guid>
-      <pubDate>Tue, 22 Sep 2026 14:33:17 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.88-2がリリースされました。このアップデートでは、ログイン時のデバイスコードを含む、下部に固定されたダイアログ内でのテキスト選択に関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ログインデバイスコードを含む下部固定ダイアログでのテキスト選択機能の修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.88-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.88-1のアップデート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.88-1</link>
-      <guid isPermaLink="false">github-copilot-cli-393378971</guid>
-      <pubDate>Tue, 22 Sep 2026 00:31:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.88-1がリリースされました。マネージド設定の更新失敗時における「/allow-all」の維持、存在しないパスに対する正確なセッション承認の記憶機能、およびプロキシトンネル失敗時のサンドボックスネットワーク拒否に対するバイパス案内の表示が実装されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;マネージド設定の更新失敗時に /allow-all を維持するように修正しました&lt;/li&gt;&lt;li&gt;親ディレクトリに権限を付与せず、存在しないパスに対する正確なセッション承認を記憶するようにしました（正確な権限は /list-dirs で確認可能で、/reset-allowed-tools でクリアされます）&lt;/li&gt;&lt;li&gt;プロキシトンネルの失敗によるサンドボックスネットワーク拒否時に、バイパスの案内を表示するようにしました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.88-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
       <category>medium</category>
     </item>
   </channel>

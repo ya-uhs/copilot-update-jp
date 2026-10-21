@@ -1,5 +1,61 @@
 [
   {
+    "id": "github-copilot-cli-419168038",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.102-1",
+    "published_at": "2026-10-21T04:45:12Z",
+    "title_original": "GitHub Copilot CLI v1.0.102-1",
+    "excerpt_original": "**Fixed** - Prompt mode now honors managed Auto model selection for -p and piped stdin runs - Subagents honor custom and MCP tool approvals, avoiding duplicate permission prompts and allowing inherited workflows to run",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.102-1のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.102-1がリリースされました。プロンプトモードで管理されたAutoモデルの選択が適用されるようになり、サブエージェントがカスタムおよびMCPツールの承認を正しく処理できるようになりました。",
+    "changes": [
+      "Prompt mode now honors managed Auto model selection for -p and piped stdin runs",
+      "Subagents honor custom and MCP tool approvals, avoiding duplicate permission prompts and allowing inherited workflows to run"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-21T09:06:35Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-21T09:06:34Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-419089517",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.102-0",
+    "published_at": "2026-10-21T02:47:48Z",
+    "title_original": "GitHub Copilot CLI v1.0.102-0",
+    "excerpt_original": "**Improved** - Sandboxed network traffic now honors NO_PROXY and ALL_PROXY when inheriting host proxy settings **Fixed** - Plugin marketplaces accept git-subdir sources and long plugin descriptions - Fish shell completion works when aliases include option aliases like --effort - Chats no longer get blocked by organization plugin preparation while sending messages - Long-running sandboxed commands continue running reliably past 10 seconds - Replies cut off by a provider overload error retry with backoff and show the provider's message and request ID",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.102-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.102-0がリリースされました。今回のアップデートでは、サンドボックス化されたネットワークトラフィックにおけるプロキシ設定のサポート改善や、プラグインのソース対応、各種シェルの補完およびチャット送信時のブロック問題の修正が行われました。また、長時間のコマンド実行の安定性向上や、プロバイダー過負荷エラー発生時のリトライ機能の改善も含まれています。",
+    "changes": [
+      "サンドボックス化されたネットワークトラフィックが、ホストのプロキシ設定継承時に NO_PROXY と ALL_PROXY を反映するように改善されました。",
+      "プラグインマーケットプレイスが git のサブディレクトリソースおよび長いプラグイン説明文を受け付けるように修正されました。",
+      "エイリアスに --effort などのオプションが含まれる場合に Fish シェルの補完が機能するように修正されました。",
+      "メッセージ送信時に組織のプラグイン準備によってチャットがブロックされないように修正されました。",
+      "長時間のサンドボックスコマンドが10秒を超えても安定して実行し続けるように修正されました。"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-21T09:06:37Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-21T09:06:35Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "m365-roadmap-0957c957c45e09308e3b",
     "source": "Microsoft 365 Roadmap",
     "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577185",
