@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:54:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:22:40 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Dataverse：AIエージェントおよびCopilot向けのセマンティックデータ理解機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577185</link>
+      <guid isPermaLink="false">m365-roadmap-0957c957c45e09308e3b</guid>
+      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft Dataverseに、AIエージェントやCopilotがビジネスデータをより深く理解するためのセマンティックデータ理解機能が追加されます。ビュー、フォーム、メタデータからセマンティック知識を自動抽出し、手動でのスキーママッピングやクエリロジックの構築を削減します。また、Power Appsメーカーポータルを通じた可視性や、組織・テーブル単位でのきめ細かなガバナンスとプライバシー制御を提供します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dataverse環境内のビュー、フォーム、メタデータからセマンティック知識を自動抽出&lt;/li&gt;&lt;li&gt;Power Appsメーカーポータルでの生成されたセマンティック知識の表示、および用語集によるコンテキストの補強&lt;/li&gt;&lt;li&gt;組織レベル、シグナルタイプ別、テーブルレベルでのセマンティック信号の有効化・無効化によるガバナンス制御&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577185"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: AIエージェントによる日中運用管理機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577184</link>
+      <guid isPermaLink="false">m365-roadmap-409e4208ab1776054ec2</guid>
+      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Intraday Agentは、日中の運用シナリオを管理するための自律型AIエージェントです。リアルタイムのキュー監視や異常検知、自動再予測、プロアクティブなアラート通知、およびスケジュール調整などの是正措置の自動化をサポートします。また、サービス担当者のシフト順守状況をリアルタイムで追跡し、逸脱に対する自律的な緩和措置を実行します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Intraday queue tracking: キューボリュームをリアルタイムで継続的に監視し、予測需要からの乖離や異常を検知して自動で再予測を実施&lt;/li&gt;&lt;li&gt;管理者への通知と是正措置の自動化: プロアクティブなアラートと推奨事項を通知し、スケジュール調整や担当者の再割り当てなどを自動化&lt;/li&gt;&lt;li&gt;Intraday adherence tracking: 担当者のシフト活動への順守状況をリアルタイムで監視し、遅刻や休憩延長などの逸脱を検知&lt;/li&gt;&lt;li&gt;逸脱に対する自律的な緩和措置: 休憩の再スケジュール、シフト延長、残業の有効化、柔軟なチャネル再割り当てなどを自律的に実行&lt;/li&gt;&lt;li&gt;カスタマイズ可能な指示のサポート: ビジネスニーズに合わせて緩和アクションを調整するための設定をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577184"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] マルチグレーダー比較機能の追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577183</link>
+      <guid isPermaLink="false">m365-roadmap-e3817efbe88a9d4dd9b4</guid>
+      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Power Platform&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Power Platformにおいて、同一の評価に対して複数のグレーダーの結果を比較できる「マルチグレーダー比較」機能が導入されます。これにより、複数のグレーダー間での合意点や相違点、全体的な評価傾向を確認できるようになります。2026年9月にプレビュー版が提供開始され、2026年10月に一般提供（GA）となる予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;グレーダーのサイドバイサイド比較、スコア比較、各グレーダーからの説明の確認、評価の一貫性分析が可能&lt;/li&gt;&lt;li&gt;比較スコアビュー、合否比較、グレーダーの説明、各評価を裏付ける証拠を含む結果エクスペリエンスを提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577183"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Power Platform</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Viva EngageにおけるMicrosoft 365 Copilotエクスペリエンスの強化</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=576709</link>
@@ -974,36 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-02dcfc8cd82141e550d4</guid>
       <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;PowerPointにおけるCopilotの機能として、非同期通知のサポートが追加されます。これにより、ユーザーは作業の完了や注意が必要な際のお知らせを受け取ることができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PowerPoint AgentのWeb版で非同期通知機能が利用可能になる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570438"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] PowerPoint：PowerPoint Agent向け非同期通知（Windows Desktop）</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570437</link>
-      <guid isPermaLink="false">m365-roadmap-26127eb687b1d4aa0f32</guid>
-      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ユーザーは作業の完了や注意が必要な際、Copilotからの通知を受け取れるようになります。これにより、PowerPointを離れたり、デバイスを切り替えたり、オフラインにしたり、一日の仕事を終えたりすることが可能です。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PowerPoint Agent向け非同期通知機能の追加&lt;/li&gt;&lt;li&gt;PowerPointを離れる、デバイスの切り替え、オフライン化、作業終了時におけるCopilotからの通知対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570437"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] [ロードマップ] Word: Office 365 GCCユーザー向けCopilot編集モードの提供</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570277</link>
-      <guid isPermaLink="false">m365-roadmap-0bf9c11184ef5565d433</guid>
-      <pubDate>Fri, 11 Sep 2026 22:10:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのWordにおける編集モードが、Office 365 GCCのユーザー向けに提供開始されました。政府機関の顧客は、ドキュメント内でCopilotを共同作成者として利用し、効率的に文書の作成、洗練、変換を行うことができます。一般提供（GA）の時期は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Office 365 GCCユーザー向けにWordのEdit with Copilot機能を利用可能化&lt;/li&gt;&lt;li&gt;政府機関の顧客が文書の作成、洗練、変換を効率的に行える機能の提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570277"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: 埋め込み画像内のテキスト検索精度の向上</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570469</link>
-      <guid isPermaLink="false">m365-roadmap-a014c9c462db3bde5737</guid>
-      <pubDate>Thu, 10 Sep 2026 23:01:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Chatにおいて、Word、Excel、PowerPointファイル内に埋め込まれた画像内のテキストに対する検索結果のマッチング精度が向上しました。スキャンされた契約書、表のスクリーンショット、ホワイトボードの写真など、従来は検索や発見が困難だったコンテンツに対応します。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Word、Excel、PowerPoint内の埋め込み画像内にあるテキストに対するCopilot Chatの検索マッチング精度が向上&lt;/li&gt;&lt;li&gt;スキャンされた契約書、表のスクリーンショット、ホワイトボードの写真などのコンテンツ検索が可能に&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期は2026年10月を予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570469"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

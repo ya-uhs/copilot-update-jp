@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:54:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:22:40 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.101 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.101</link>
+      <guid isPermaLink="false">github-copilot-cli-418747415</guid>
+      <pubDate>Tue, 20 Oct 2026 18:49:53 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.101がリリースされ、構造化出力の追加やサンドボックス・認証処理の改善が行われました。また、AIモデル切り替え時の不具合修正やMCP関連の安定性向上が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているモデルにおいて、動的ワークフローサブエージェント向けのネイティブな構造化出力を追加しました。&lt;/li&gt;&lt;li&gt;assistedApprovalInstructions設定を追加し、アシステッドパーミッションの確認判断をガイドするようにしました。&lt;/li&gt;&lt;li&gt;OAuthハンドラーのないヘッドレスセッションおよびSDKセッションにおいて、保存されたトークンのサインインが必要な場合にMCP接続をスキップするようにしました。&lt;/li&gt;&lt;li&gt;Googleモデルにおいて、画像制限を超えるセッションでの不要なリクエスト書き換えを回避し、トークン消費を削減しました。&lt;/li&gt;&lt;li&gt;管理者管理モデルが利用可能な場合に、モデルピッカーでデフォルトとしてマークされるよう変更しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.101"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.101-1 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.101-1</link>
+      <guid isPermaLink="false">github-copilot-cli-418533928</guid>
+      <pubDate>Tue, 20 Oct 2026 15:04:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.101-1がリリースされ、セッション再開時の応答性向上や、サンドボックス化されたMCPサーバーの起動処理が最適化されました。また、ディレクトリ操作に関するパーミッションの修正や、ヘッドレス・SDKセッションにおけるMCP接続の安定化など、複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;セッション再開時のプレースホルダー環境設定待ちをなくし、会話をより早く表示するように改善&lt;/li&gt;&lt;li&gt;サンドボックス化されたMCPサーバーでのセッション開始時の不要な再起動を回避し、高速に応答するよう改善&lt;/li&gt;&lt;li&gt;/config および /settings で showReasoning の設定・解除ができるように許可&lt;/li&gt;&lt;li&gt;パーミッション承認プロンプトでエスカレーションの原因を説明し、リクエスト固有の診断コマンドを表示&lt;/li&gt;&lt;li&gt;ディレクトリを作成して移動するシェルコマンドが、早期に拒否されるのではなくパスの承認を要求するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.101-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>企業、組織、チーム向けCopilotモデルポリシーAPI</title>
       <link>https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams</link>

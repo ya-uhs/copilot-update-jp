@@ -5,9 +5,59 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:54:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:22:40 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Dataverse：AIエージェントおよびCopilot向けのセマンティックデータ理解機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577185</link>
+      <guid isPermaLink="false">m365-roadmap-0957c957c45e09308e3b</guid>
+      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft Dataverseに、AIエージェントやCopilotがビジネスデータをより深く理解するためのセマンティックデータ理解機能が追加されます。ビュー、フォーム、メタデータからセマンティック知識を自動抽出し、手動でのスキーママッピングやクエリロジックの構築を削減します。また、Power Appsメーカーポータルを通じた可視性や、組織・テーブル単位でのきめ細かなガバナンスとプライバシー制御を提供します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dataverse環境内のビュー、フォーム、メタデータからセマンティック知識を自動抽出&lt;/li&gt;&lt;li&gt;Power Appsメーカーポータルでの生成されたセマンティック知識の表示、および用語集によるコンテキストの補強&lt;/li&gt;&lt;li&gt;組織レベル、シグナルタイプ別、テーブルレベルでのセマンティック信号の有効化・無効化によるガバナンス制御&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577185"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: AIエージェントによる日中運用管理機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577184</link>
+      <guid isPermaLink="false">m365-roadmap-409e4208ab1776054ec2</guid>
+      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Intraday Agentは、日中の運用シナリオを管理するための自律型AIエージェントです。リアルタイムのキュー監視や異常検知、自動再予測、プロアクティブなアラート通知、およびスケジュール調整などの是正措置の自動化をサポートします。また、サービス担当者のシフト順守状況をリアルタイムで追跡し、逸脱に対する自律的な緩和措置を実行します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Intraday queue tracking: キューボリュームをリアルタイムで継続的に監視し、予測需要からの乖離や異常を検知して自動で再予測を実施&lt;/li&gt;&lt;li&gt;管理者への通知と是正措置の自動化: プロアクティブなアラートと推奨事項を通知し、スケジュール調整や担当者の再割り当てなどを自動化&lt;/li&gt;&lt;li&gt;Intraday adherence tracking: 担当者のシフト活動への順守状況をリアルタイムで監視し、遅刻や休憩延長などの逸脱を検知&lt;/li&gt;&lt;li&gt;逸脱に対する自律的な緩和措置: 休憩の再スケジュール、シフト延長、残業の有効化、柔軟なチャネル再割り当てなどを自律的に実行&lt;/li&gt;&lt;li&gt;カスタマイズ可能な指示のサポート: ビジネスニーズに合わせて緩和アクションを調整するための設定をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577184"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] マルチグレーダー比較機能の追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577183</link>
+      <guid isPermaLink="false">m365-roadmap-e3817efbe88a9d4dd9b4</guid>
+      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Power Platform&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Power Platformにおいて、同一の評価に対して複数のグレーダーの結果を比較できる「マルチグレーダー比較」機能が導入されます。これにより、複数のグレーダー間での合意点や相違点、全体的な評価傾向を確認できるようになります。2026年9月にプレビュー版が提供開始され、2026年10月に一般提供（GA）となる予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;グレーダーのサイドバイサイド比較、スコア比較、各グレーダーからの説明の確認、評価の一貫性分析が可能&lt;/li&gt;&lt;li&gt;比較スコアビュー、合否比較、グレーダーの説明、各評価を裏付ける証拠を含む結果エクスペリエンスを提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577183"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Power Platform</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.101 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.101</link>
+      <guid isPermaLink="false">github-copilot-cli-418747415</guid>
+      <pubDate>Tue, 20 Oct 2026 18:49:53 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.101がリリースされ、構造化出力の追加やサンドボックス・認証処理の改善が行われました。また、AIモデル切り替え時の不具合修正やMCP関連の安定性向上が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているモデルにおいて、動的ワークフローサブエージェント向けのネイティブな構造化出力を追加しました。&lt;/li&gt;&lt;li&gt;assistedApprovalInstructions設定を追加し、アシステッドパーミッションの確認判断をガイドするようにしました。&lt;/li&gt;&lt;li&gt;OAuthハンドラーのないヘッドレスセッションおよびSDKセッションにおいて、保存されたトークンのサインインが必要な場合にMCP接続をスキップするようにしました。&lt;/li&gt;&lt;li&gt;Googleモデルにおいて、画像制限を超えるセッションでの不要なリクエスト書き換えを回避し、トークン消費を削減しました。&lt;/li&gt;&lt;li&gt;管理者管理モデルが利用可能な場合に、モデルピッカーでデフォルトとしてマークされるよう変更しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.101"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.101-1 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.101-1</link>
+      <guid isPermaLink="false">github-copilot-cli-418533928</guid>
+      <pubDate>Tue, 20 Oct 2026 15:04:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.101-1がリリースされ、セッション再開時の応答性向上や、サンドボックス化されたMCPサーバーの起動処理が最適化されました。また、ディレクトリ操作に関するパーミッションの修正や、ヘッドレス・SDKセッションにおけるMCP接続の安定化など、複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;セッション再開時のプレースホルダー環境設定待ちをなくし、会話をより早く表示するように改善&lt;/li&gt;&lt;li&gt;サンドボックス化されたMCPサーバーでのセッション開始時の不要な再起動を回避し、高速に応答するよう改善&lt;/li&gt;&lt;li&gt;/config および /settings で showReasoning の設定・解除ができるように許可&lt;/li&gt;&lt;li&gt;パーミッション承認プロンプトでエスカレーションの原因を説明し、リクエスト固有の診断コマンドを表示&lt;/li&gt;&lt;li&gt;ディレクトリを作成して移動するシェルコマンドが、早期に拒否されるのではなくパスの承認を要求するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.101-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Viva EngageにおけるMicrosoft 365 Copilotエクスペリエンスの強化</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=576709</link>
@@ -1956,56 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.88-1がリリースされました。マネージド設定の更新失敗時における「/allow-all」の維持、存在しないパスに対する正確なセッション承認の記憶機能、およびプロキシトンネル失敗時のサンドボックスネットワーク拒否に対するバイパス案内の表示が実装されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;マネージド設定の更新失敗時に /allow-all を維持するように修正しました&lt;/li&gt;&lt;li&gt;親ディレクトリに権限を付与せず、存在しないパスに対する正確なセッション承認を記憶するようにしました（正確な権限は /list-dirs で確認可能で、/reset-allowed-tools でクリアされます）&lt;/li&gt;&lt;li&gt;プロキシトンネルの失敗によるサンドボックスネットワーク拒否時に、バイパスの案内を表示するようにしました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.88-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: ローカル推論機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571886</link>
-      <guid isPermaLink="false">m365-roadmap-b025d4163f393f484511</guid>
-      <pubDate>Mon, 21 Sep 2026 23:04:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにローカル推論機能が追加され、サポートされているCopilotの対話処理を指定された地域の国内で行うことが可能になります。これにより、組織はAI推論の実行場所をより詳細に制御でき、データ主権や地域の要件に対応できるようになります。本機能はオーストラリア、インド、アラブ首長国連邦、イギリス、アメリカで展開され、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているCopilotの対話処理におけるAI推論を、対象地域の国内で実行可能にするローカル推論機能の提供&lt;/li&gt;&lt;li&gt;オーストラリア、インド、アラブ首長国連邦、イギリス、アメリカでの順次展開&lt;/li&gt;&lt;li&gt;AI推論の実行場所に対する組織の制御力を高め、データ主権と地域要件への対応を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571886"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.88-0のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.88-0</link>
-      <guid isPermaLink="false">github-copilot-cli-393207338</guid>
-      <pubDate>Mon, 21 Sep 2026 18:44:18 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.88-0がリリースされました。本バージョンでは、GhosttyおよびWezTerm向けのOSC 777ターミナル通知の追加や、カスタムスキル・MCP・プラグイン表示の改善が行われています。また、カスタムエージェントの起動エラー防止やMCPツールの安定性向上など、多数の不具合修正とパフォーマンス改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GhosttyおよびWezTermセッション向けのオプショナルなOSC 777ターミナル通知を追加&lt;/li&gt;&lt;li&gt;カスタムスキルの名前空間サポートやMCP・プラグインビューの表示を改善&lt;/li&gt;&lt;li&gt;大規模なローカルセッション再開時のトランスクリプトメモリ管理を最適化し、CLIのパフォーマンスを向上&lt;/li&gt;&lt;li&gt;カスタムエージェントの起動失敗に関する判定や、freeformのask_userプロンプトにおける改行・送信操作の挙動を修正&lt;/li&gt;&lt;li&gt;エンタープライズ管理設定がACP、AHPホスト、--serverセッションにも適用されるよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.88-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.87 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.87</link>
-      <guid isPermaLink="false">github-copilot-cli-393077593</guid>
-      <pubDate>Mon, 21 Sep 2026 15:31:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.87がリリースされ、Autoルーティング層の起動デフォルト設定や、連続するステアリングプロンプトの結合・編集機能が追加されました。また、worktreeのパス設定テンプレートの導入、MCP関連のバグ修正や仕様変更、Windows環境でのサンドイッチプロキシ対応など、多数の改善が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Autoルーティング層のユーザーおよびマネージド起動デフォルトを追加し、組織ポリシーによる制御に対応&lt;/li&gt;&lt;li&gt;同じモードでの連続するステアリングプロンプトを1つの保留中メッセージに結合し、空のチャット入力で上向きキーを押すことで編集や取り戻しが可能に&lt;/li&gt;&lt;li&gt;worktreeの作成場所を指定する `worktreePathTemplate` 設定を追加&lt;/li&gt;&lt;li&gt;質問ダイアログでの10番目以降の選択肢に対する数値キー選択に対応&lt;/li&gt;&lt;li&gt;Windowsでのサンドボックスプロキシや、ユーザー名・パスワード付きプロキシを全プラットフォームでサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.87"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Teams: エクスプレス顔登録</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570846</link>
-      <guid isPermaLink="false">m365-roadmap-28ba3b49b28049b0e57e</guid>
-      <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsに、対象のミーティング中にカメラを使用して顔プロファイルを簡単に作成できる「エクスプレス顔登録」機能が追加されます。オプトインしたユーザーが登録を行うことで、対応するTeams Roomsでの認識精度が向上し、Copilotやリキャップなどの会議体験が改善されます。管理者は組織全体でこの機能の有効化または無効化を設定可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;対象ミーティング中のカメラ使用により、Teamsでの顔プロファイル作成が容易になる&lt;/li&gt;&lt;li&gt;オプトイン方式を採用し、登録後はTeams Roomsでの認識やCopilot、リキャップ等の会議体験が向上する&lt;/li&gt;&lt;li&gt;管理者が組織全体での機能の有効化・無効化を制御可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570846"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: ガバメントクラウド向けCopilot Cowork</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571637</link>
-      <guid isPermaLink="false">m365-roadmap-383b00ac0d2d715b7a9c</guid>
-      <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ガバメントクラウド向けに、作業の委任を容易にする「Copilot Cowork」が提供されます。ユーザーが望む成果を記述するだけで、メール、会議、メッセージ、ファイル、データに基づいて自動的に処理が行われます。一般提供（GA）の時期は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Coworkの導入による作業委任の簡素化&lt;/li&gt;&lt;li&gt;メールや会議、ファイル等のデータに基づいた自動処理機能&lt;/li&gt;&lt;li&gt;一般提供（GA）時期: 2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571637"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>

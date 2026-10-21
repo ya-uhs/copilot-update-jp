@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:54:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:22:40 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Dataverse：AIエージェントおよびCopilot向けのセマンティックデータ理解機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577185</link>
+      <guid isPermaLink="false">m365-roadmap-0957c957c45e09308e3b</guid>
+      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft Dataverseに、AIエージェントやCopilotがビジネスデータをより深く理解するためのセマンティックデータ理解機能が追加されます。ビュー、フォーム、メタデータからセマンティック知識を自動抽出し、手動でのスキーママッピングやクエリロジックの構築を削減します。また、Power Appsメーカーポータルを通じた可視性や、組織・テーブル単位でのきめ細かなガバナンスとプライバシー制御を提供します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dataverse環境内のビュー、フォーム、メタデータからセマンティック知識を自動抽出&lt;/li&gt;&lt;li&gt;Power Appsメーカーポータルでの生成されたセマンティック知識の表示、および用語集によるコンテキストの補強&lt;/li&gt;&lt;li&gt;組織レベル、シグナルタイプ別、テーブルレベルでのセマンティック信号の有効化・無効化によるガバナンス制御&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577185"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: AIエージェントによる日中運用管理機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577184</link>
+      <guid isPermaLink="false">m365-roadmap-409e4208ab1776054ec2</guid>
+      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Intraday Agentは、日中の運用シナリオを管理するための自律型AIエージェントです。リアルタイムのキュー監視や異常検知、自動再予測、プロアクティブなアラート通知、およびスケジュール調整などの是正措置の自動化をサポートします。また、サービス担当者のシフト順守状況をリアルタイムで追跡し、逸脱に対する自律的な緩和措置を実行します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Intraday queue tracking: キューボリュームをリアルタイムで継続的に監視し、予測需要からの乖離や異常を検知して自動で再予測を実施&lt;/li&gt;&lt;li&gt;管理者への通知と是正措置の自動化: プロアクティブなアラートと推奨事項を通知し、スケジュール調整や担当者の再割り当てなどを自動化&lt;/li&gt;&lt;li&gt;Intraday adherence tracking: 担当者のシフト活動への順守状況をリアルタイムで監視し、遅刻や休憩延長などの逸脱を検知&lt;/li&gt;&lt;li&gt;逸脱に対する自律的な緩和措置: 休憩の再スケジュール、シフト延長、残業の有効化、柔軟なチャネル再割り当てなどを自律的に実行&lt;/li&gt;&lt;li&gt;カスタマイズ可能な指示のサポート: ビジネスニーズに合わせて緩和アクションを調整するための設定をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577184"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilotモデルの提供終了（2026年10月19日）</title>
       <link>https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026</link>
@@ -86,26 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、すべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルを2026年11月16日に廃止する予定です。対象にはCopilot Chat、インライン編集、質問およびエージェントモード、コード補完が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年11月16日付けで特定のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>コードスキャンアラート向けAgentic autofixが一般提供（GA）開始</title>
-      <link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link>
-      <guid isPermaLink="false">github-changelog-449b1014bc1499c1514c</guid>
-      <pubDate>Thu, 15 Oct 2026 13:49:20 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotのコードスキャンアラート向けAgentic autofix機能が一般提供（GA）を開始しました。本機能は、開発者のようにコードベース全体を探索して関連ファイルを調査し、アラートの修正案を提案します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;コードスキャンアラート向けAgentic autofixが一般提供（GA）へ移行&lt;/li&gt;&lt;li&gt;開発者のようにコードベース全体を探索し関連ファイルを調査する機能を提供&lt;/li&gt;&lt;li&gt;アラートに対する修正案の提案機能を実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>Visual Studio Code 1.142 — Copilot / Chat / Agents</title>
-      <link>https://code.visualstudio.com/updates/v1_142</link>
-      <guid isPermaLink="false">vscode-5ff0bcef74701c644227</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.142では、Copilot harnessが新しいセッションのデフォルトとして段階的に展開され、組み込みエージェントとしてAskが再導入されました。また、エージェントとの協業用インターフェースであるCanvases（プレビュー）や、チャットを別のフォルダやGit worktreeへ移動する機能が追加されました。さらに、エージェントウィンドウのレイアウトカスタマイズや、バックグラウンドシェルを停止する機能、モデルピッカーの再設計なども行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessが新しいセッションのデフォルトとして順次展開され、Askエージェントが再導入されました。&lt;/li&gt;&lt;li&gt;エージェントと共同作業を行うためのCanvases機能がプレビューとして追加されました。&lt;/li&gt;&lt;li&gt;エージェントウィンドウから、会話履歴を保持したままチャットを別のフォルダやGit worktreeへ移動できるようになりました。&lt;/li&gt;&lt;li&gt;バックグラウンドで実行中のシェルコマンドを手動で停止できるようになりました。&lt;/li&gt;&lt;li&gt;CopilotモデルとBYOKモデルをタブで分離する、再設計されたモデルピッカーが導入されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_142"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot in VS Code</category>
-      <category>Release</category>
       <category>high</category>
     </item>
   </channel>
