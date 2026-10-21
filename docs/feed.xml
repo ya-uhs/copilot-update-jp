@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:06:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 14:47:50 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.143 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_143</link>
+      <guid isPermaLink="false">vscode-f0e5fddf67c3af81d8f3</guid>
+      <pubDate>Wed, 21 Oct 2026 14:47:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.143では、新しいセッションでCopilot harnessがデフォルトになり、エディタおよびAgentsウィンドウ全体で機能とパフォーマンスが改善されました。ファイルレベルのワーキングセットサポート、モデル結果の比較機能（プレビュー）、および大規模なチャットを開く際のパフォーマンス向上が含まれています。また、非アクティブなワークツリーのストレージを解放する実験的機能も追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessが新しいセッションのデフォルトになりました。&lt;/li&gt;&lt;li&gt;初期ファイルレベルのワーキングセットサポート（実験的）が追加され、エディタ内のエージェントの変更をより効果的に管理・レビューできるようになりました。&lt;/li&gt;&lt;li&gt;複数のモデルやharnessのタスクに対するアプローチを並行して実行・比較できるモデル結果の比較機能（プレビュー）が追加されました。&lt;/li&gt;&lt;li&gt;長時間のAgent Hostチャットを開く際の履歴復元が小分けに行われるようになり、パフォーマンスと応答性が大幅に向上しました。&lt;/li&gt;&lt;li&gt;非アクティブなエージェントセッションのワークツリーが消費するディスク容量を確認して削除し、ストレージを解放する機能（実験的）が追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_143"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.102-1のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.102-1</link>
@@ -1996,16 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89-0がリリースされました。今回のアップデートにより、claude-opus-5.5モデルのサポートが追加されました。また、接続および再接続時に、管理対象のコネクター同意の進行状況とコピー可能な認証URLが表示されるように改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;claude-opus-5.5のサポートを追加&lt;/li&gt;&lt;li&gt;接続および再接続時に、管理対象コネクターの同意進捗とコピー可能な認証URLを表示するように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.88 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.88</link>
-      <guid isPermaLink="false">github-copilot-cli-394076851</guid>
-      <pubDate>Tue, 22 Sep 2026 20:00:58 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.88がリリースされました。GhosttyおよびWezTerm向けのオプションのOSC 777端末通知の追加、ダイアログでのテキスト選択の改善、managed-settings更新失敗時の設定保持など、多くの機能改善と不具合修正が含まれています。また、MCPツールの信頼性向上やエンタープライズ管理設定の適用範囲拡大なども行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GhosttyおよびWezTermセッション向けに、オプションのOSC 777端末通知を追加&lt;/li&gt;&lt;li&gt;ログインデバイスコードを含む下部固定ダイアログでのテキスト選択機能を追加&lt;/li&gt;&lt;li&gt;managed-settings更新失敗時の/allow-allの維持と、親ディレクトリを付与しない正確なセッション承認の記憶&lt;/li&gt;&lt;li&gt;カスタムエージェントの起動時に、モデルリストの読み込み失敗と空のカタログを区別するように改善&lt;/li&gt;&lt;li&gt;freeform ask_userプロンプトでEnterキーによる改行を追加（送信はCtrl+EnterまたはCtrl+S）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.88"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>

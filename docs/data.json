@@ -1,5 +1,59 @@
 [
   {
+    "id": "github-copilot-cli-419168038",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.102-1",
+    "published_at": "2026-10-21T04:45:12Z",
+    "title_original": "GitHub Copilot CLI v1.0.102-1",
+    "excerpt_original": "**Fixed** - Prompt mode now honors managed Auto model selection for -p and piped stdin runs - Subagents honor custom and MCP tool approvals, avoiding duplicate permission prompts and allowing inherited workflows to run",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.102-1のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.102-1がリリースされました。プロンプトモードで管理されたAutoモデルの選択が適用されるようになり、サブエージェントがカスタムおよびMCPツールの承認を正しく処理できるようになりました。",
+    "changes": [
+      "Prompt mode now honors managed Auto model selection for -p and piped stdin runs",
+      "Subagents honor custom and MCP tool approvals, avoiding duplicate permission prompts and allowing inherited workflows to run"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-21T09:06:35Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-21T09:06:34Z"
+  },
+  {
+    "id": "github-copilot-cli-419089517",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.102-0",
+    "published_at": "2026-10-21T02:47:48Z",
+    "title_original": "GitHub Copilot CLI v1.0.102-0",
+    "excerpt_original": "**Improved** - Sandboxed network traffic now honors NO_PROXY and ALL_PROXY when inheriting host proxy settings **Fixed** - Plugin marketplaces accept git-subdir sources and long plugin descriptions - Fish shell completion works when aliases include option aliases like --effort - Chats no longer get blocked by organization plugin preparation while sending messages - Long-running sandboxed commands continue running reliably past 10 seconds - Replies cut off by a provider overload error retry with backoff and show the provider's message and request ID",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.102-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.102-0がリリースされました。今回のアップデートでは、サンドボックス化されたネットワークトラフィックにおけるプロキシ設定のサポート改善や、プラグインのソース対応、各種シェルの補完およびチャット送信時のブロック問題の修正が行われました。また、長時間のコマンド実行の安定性向上や、プロバイダー過負荷エラー発生時のリトライ機能の改善も含まれています。",
+    "changes": [
+      "サンドボックス化されたネットワークトラフィックが、ホストのプロキシ設定継承時に NO_PROXY と ALL_PROXY を反映するように改善されました。",
+      "プラグインマーケットプレイスが git のサブディレクトリソースおよび長いプラグイン説明文を受け付けるように修正されました。",
+      "エイリアスに --effort などのオプションが含まれる場合に Fish シェルの補完が機能するように修正されました。",
+      "メッセージ送信時に組織のプラグイン準備によってチャットがブロックされないように修正されました。",
+      "長時間のサンドボックスコマンドが10秒を超えても安定して実行し続けるように修正されました。"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-21T09:06:37Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-21T09:06:35Z"
+  },
+  {
     "id": "m365-roadmap-0957c957c45e09308e3b",
     "source": "Microsoft 365 Roadmap",
     "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577185",
@@ -7517,57 +7571,32 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-419168038",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.102-1",
-    "published_at": "2026-10-21T04:45:12Z",
-    "title_original": "GitHub Copilot CLI v1.0.102-1",
-    "excerpt_original": "**Fixed** - Prompt mode now honors managed Auto model selection for -p and piped stdin runs - Subagents honor custom and MCP tool approvals, avoiding duplicate permission prompts and allowing inherited workflows to run",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.102-1のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.102-1がリリースされました。プロンプトモードで管理されたAutoモデルの選択が適用されるようになり、サブエージェントがカスタムおよびMCPツールの承認を正しく処理できるようになりました。",
+    "id": "vscode-f0e5fddf67c3af81d8f3",
+    "source": "VS Code Release Notes",
+    "source_url": "https://code.visualstudio.com/updates/v1_143",
+    "published_at": "2026-10-21T14:47:29Z",
+    "date_basis": "first_seen",
+    "title_original": "Visual Studio Code 1.143 — Copilot / Chat / Agents",
+    "excerpt_original": "Agents\nCopilot harness as the default\nThe Copilot harness is now the default for new sessions in VS Code. It's our latest harness, built on the Copilot SDK, a shared foundation that helps align behavior, capabilities, and improvements across Copilot products.\nWhen you start a new session, Copilot in the harness picker indicates that the session uses the Copilot harness:\n\nIn VS Code, you can keep Copilot harness sessions running in the background and access them from both the VS Code editor window and the Agents window. These sessions run through the Agent Host .\nThank you so much to everyone who has shared valuable feedback. This release includes more improvements shaped directly by your feedback.\nWe're continuing to improve performance and reduce latency based on the scenarios and setups you share. For example, reports of long waits before chat responses helped us reduce delays caused by MCP servers that don't finish loading their tools.\nWe're also continuing to make our documentation clearer based on the feedback and questions you've shared. Learn how to work with the Copilot harness , or explore the architecture and workflows in the agent host blog post .\nPlease continue filing issues to let us know how the Copilot harness is working for you. Your feedback is a huge help and directly shapes the harness experience.\nInitial file-level working set support (Experimental)\nSetting: chat.editor.workingSet.enabled Open in VS Code Open in VS Code Insiders\nYou gave us feedback that when using the Copilot harness, approving or rejecting agent edits in the editor was challenging. As of this release, we are introducing initial file-level working set support to help you manage and review changes more effectively.\nCopilot harness sessions in the editor window now support file-level Keep in the experimental working set above the chat input. Enable chat.editor.workingSet.enabled Open in VS Code Open in VS Code Insiders to try it.\nSelect Keep on a file, or in the heading for all files, to mark changes as reviewed and remove them from the working set. The edits stay on disk, and files return if the agent changes them again.\n\nWhat's next: We plan to add file-level Undo to the working set and bring Keep and Undo back into the editor for individual changes. These are planned for later releases, landing in Insiders first, then Stable.\nDiscard changes from more changesets in the Agents window\nThe Changes view in the Agents window lets you see all the modifications made by the agent. Until now, discarding pending changes was only available in the Uncommitted Changes changeset.\n\nIn this release, the Branch Changes , Session Changes , and Last Turn Changes changesets also offer the possibility to discard changes. Select Discard Changes on a file in the Changes view or in the multi-file diff editor. What VS Code discards depends on the changeset:\nBranch Changes : restores the file to its version where the branch diverged from its base branch, and deletes files that the branch added. Session Changes : reverts the session's edits to the file and keeps changes made outside the session, such as your own edits. Last Turn Changes : reverts only the latest turn's edits to the file and keeps all other changes to it.\nCompare model results (Preview)\nSetting : sessions.chat.compareAgents.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nCompare how different models and harnesses approach the same coding task. Run attempts in parallel, review their results, and combine ideas into one solution.\n\nTo get started, enable sessions.chat.compareAgents.enabled Open in VS Code Open in VS Code Insiders in the Agents window, then select Compare Models in the model picker.\nChoose the approaches to compare: Select two or more models to attempt your task independently. You can mix Copilot, Claude, and Codex harnesses and configure different reasoning levels. Run the attempts: Enter one prompt and start all selected attempts together. Follow progress side by side: Each attempt runs in its own session, so you can compare its approach and open the worktree or changes at any time. Evaluate and combine the results: Optionally select a Judge model to evaluate the attempts and recommend a solution. Its scorecard shows time and token usage, with expandable rationale, validation evidence, and links to each attempt. You can then select Synthesize to build on the recommended attempt with ideas from the others. Synthesis starts only when you request it.\nTab shortcuts in an empty side pane\nWhen you closed every tab in the Agents window side pane, the editor area was left blank, and you had to find the Add Tab (+) menu to get back to your session's changes or files.\nThe empty editor area now lists the tabs you can add, such as Changes , Files , Browser , and Search , each with its icon and keyboard shortcut. Select an entry to open that tab. If you have a canvas extension installed, a Canvas entry lists the available canvases. When you switch to a session whose editor area is empty, VS Code shows this list instead of reopening the Changes and Files tabs automatically.\n\nSession Activity Bar (Experimental)\nSessions : sessions.showSessionActivityBar Open in VS Code Open in VS Code Insiders , sessions.sessionActivityBar.showLayoutActions Open in VS Code Open in VS Code Insiders\nThe Session Activity Bar brings a session's Changes , Files , Browser , and available canvases next to the side pane, keeping these editors and artifacts visually connected to where they open. You can still open session artifacts from the pills at the top of the session.\nThe Session Activity Bar is a slim vertical strip of icons at the right edge of the active chat. Select an icon to open that tab in the side pane. If the side pane is closed, it opens with that tab active. If the tab is already open, VS Code focuses it instead of opening a second copy. If you have a canvas extension installed, a Canvas entry opens a submenu of the available canvases.\n\nYou can drag the Session Activity Bar up or down by its grip to move it out of your way, and double-click the grip to reset its position. When you split the chat area, only the focused group shows the Activity Bar.\nTo keep session-related layout actions together, right-click the Activity Bar and select Show Layout Actions . This moves the Toggle Side Panel and Toggle Panel actions from the title bar into the Activity Bar.\nThe Session Activity Bar is off by default in Stable. Select View > Appearance > Session Activity Bar to turn it on. To hide it again, right-click the Activity Bar and select Hide Session Activity Bar .\nYou can also configure these options with sessions.showSessionActivityBar Open in VS Code Open in VS Code Insiders and sessions.sessionActivityBar.showLayoutActions Open in VS Code Open in VS Code Insiders . If you previously set sessions.showSessionToolbar , VS Code carries your value over to sessions.showSessionActivityBar Open in VS Code Open in VS Code Insiders .\nFind and create files from the empty Files tab (Experimental)\nSetting : sessions.experimental.emptyFileEditorActions Open in VS Code Open in VS Code Insiders\nIn the Agents window, the Files tab was blank when no file was open, so you had to switch to the Files view to find or create a file in your session's folder.\nWhen you enable sessions.experimental.emptyFileEditorActions Open in VS Code Open in VS Code Insiders , the empty Files tab shows a search box and a New File action. The search works like Quick Open ( ⌘P (Windows, Linux Ctrl+P ) ), with the same ranking, highlights, and file icons, and it only finds files in the folders of the current session. Select a result to open it in the editor, or select New File to create a file in the session's folder. When you close the file, the search box returns.\n\nImproved performance when opening large chats\nOpening a long Agent Host chat in the Agents window used to freeze the window for up to half a minute while the chat's history was restored. In this release, history is restored in small slices instead of one long blocking task, so the window stays responsive. Opening, switching back to, and reloading large chats is significantly faster.\nScenario Chat Time to open: 1.142 → 1.143 Window unresponsive: 1.142 → 1.143 Cold open Chat A (~1,150 requests, ~530 MB history) 35.6 s → 9.0 s 28.3 s → 0.6 s Cold open Chat B (~1,450 requests, ~200 MB history) 20.3 s → 3.0 s 20.3 s → 0.4 s Re-open Chat A 26.7 s → 0.6 s 26.8 s → 0.3 s Re-open Chat B 16.4 s → 0.4 s 16.4 s → 0.2 s Reload window Chat A 26.7 s → 2.9 s 25.3 s → 0.9 s Reload window Chat B 22.3 s → 2.2 s 20.8 s → 0.4 s\nMedian of three runs on macOS, with real chats from day-to-day development. \"Cold open\" means opening a chat for the first time after the window starts. \"Re-open\" means switching to another chat and back. \"Window unresponsive\" is the longest time the window could not respond to input during the open.\nReclaim storage from inactive worktrees (Experimental)\nSetting : chat.agentSessions.sessionStorageCleanupSuggestion.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nWorktrees are very useful for letting agents work on multiple features simultaneously without interfering with each other's changes. Over time, inactive worktrees can accumulate and consume significant disk space.\nRun Chat: Open Worktree Cleanup from the Command Palette to see how much disk space inactive agent session worktrees use and remove the ones you no longer need. Filter sessions by how long they have been inactive, review each worktree's size, and select the worktrees to clean up.\nCleaning up marks the selected sessions as done and deletes their worktrees. You can restore a session later to recreate its worktree. Active, running, needs-input, and pinned sessions are protected from cleanup.\nThe cleanup editor lets you configure automatic cleanup for sessions with merged pull requests and control whether VS Code suggests cleanup when session storage grows large.\n\nWhen chat.agentSessions.sessionStorageCleanupSuggestion.enabled Open in VS Code Open in VS Code Insiders is enabled, the Agents window notifies you when inactive worktrees accumulate or they use enough disk space to make cleanup worthwhile.\n\n\nChat\nOpen canvases from the chat menu (Preview)\nSetting : chat.canvases.enabled Open in VS Code Open in VS Code Insiders\nVS Code 1.142 introduced canvases (Preview), which are shared, interactive surfaces for collaborating with agents.\nIn this release, you can now open available canvases from New Chat (+) > Canvas in the editor window, without asking Copilot to open them.\n\nWhen canvas support is enabled and you have canvas extensions installed, the submenu appears after your first message in a Copilot harness session. You can also open canvases from the + menu in the Agents window.\nLearn about installing, creating, and using canvases with the Copilot harness .\nSee output from detached background shells\nIn Copilot harness sessions, the agent can start commands that need to continue running after it responds in a detached background shell. A dev server or a file watcher are common examples of such commands.\nPreviously, you couldn't view the output of detached background shells, for example to check whether a dev server started successfully. Detached shells now stream their output like attached shells. Select the Background Shells pill, and then select a detached shell to watch its output as the command runs. The shell's terminal output in the chat response also keeps updating after the agent finishes its response. When the command exits, the shell leaves the list, and the chat response keeps the command's output and exit status.\n\nYou can now also stop detached shells, which was previously only available for attached shells . When you no longer need a dev server or watcher, select Stop Shell in the shell's details.\n",
+    "product": "GitHub Copilot in VS Code",
+    "status": "Release",
+    "title_ja": "Visual Studio Code 1.143 — Copilot / Chat / Agents",
+    "summary_ja": "Visual Studio Code 1.143では、新しいセッションでCopilot harnessがデフォルトになり、エディタおよびAgentsウィンドウ全体で機能とパフォーマンスが改善されました。ファイルレベルのワーキングセットサポート、モデル結果の比較機能（プレビュー）、および大規模なチャットを開く際のパフォーマンス向上が含まれています。また、非アクティブなワークツリーのストレージを解放する実験的機能も追加されました。",
     "changes": [
-      "Prompt mode now honors managed Auto model selection for -p and piped stdin runs",
-      "Subagents honor custom and MCP tool approvals, avoiding duplicate permission prompts and allowing inherited workflows to run"
+      "Copilot harnessが新しいセッションのデフォルトになりました。",
+      "初期ファイルレベルのワーキングセットサポート（実験的）が追加され、エディタ内のエージェントの変更をより効果的に管理・レビューできるようになりました。",
+      "複数のモデルやharnessのタスクに対するアプローチを並行して実行・比較できるモデル結果の比較機能（プレビュー）が追加されました。",
+      "長時間のAgent Hostチャットを開く際の履歴復元が小分けに行われるようになり、パフォーマンスと応答性が大幅に向上しました。",
+      "非アクティブなエージェントセッションのワークツリーが消費するディスク容量を確認して削除し、ストレージを解放する機能（実験的）が追加されました。"
     ],
     "target_user": [
       "Developer"
     ],
-    "importance": "medium",
+    "importance": "high",
     "translated": true,
-    "processed_at": "2026-10-21T09:06:35Z",
-    "source_id": "github-copilot-cli",
+    "processed_at": "2026-10-21T14:47:50Z",
+    "source_id": "vscode",
     "family": "github",
-    "translation_attempted_at": "2026-10-21T09:06:34Z"
-  },
-  {
-    "id": "github-copilot-cli-419089517",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.102-0",
-    "published_at": "2026-10-21T02:47:48Z",
-    "title_original": "GitHub Copilot CLI v1.0.102-0",
-    "excerpt_original": "**Improved** - Sandboxed network traffic now honors NO_PROXY and ALL_PROXY when inheriting host proxy settings **Fixed** - Plugin marketplaces accept git-subdir sources and long plugin descriptions - Fish shell completion works when aliases include option aliases like --effort - Chats no longer get blocked by organization plugin preparation while sending messages - Long-running sandboxed commands continue running reliably past 10 seconds - Replies cut off by a provider overload error retry with backoff and show the provider's message and request ID",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.102-0 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.102-0がリリースされました。今回のアップデートでは、サンドボックス化されたネットワークトラフィックにおけるプロキシ設定のサポート改善や、プラグインのソース対応、各種シェルの補完およびチャット送信時のブロック問題の修正が行われました。また、長時間のコマンド実行の安定性向上や、プロバイダー過負荷エラー発生時のリトライ機能の改善も含まれています。",
-    "changes": [
-      "サンドボックス化されたネットワークトラフィックが、ホストのプロキシ設定継承時に NO_PROXY と ALL_PROXY を反映するように改善されました。",
-      "プラグインマーケットプレイスが git のサブディレクトリソースおよび長いプラグイン説明文を受け付けるように修正されました。",
-      "エイリアスに --effort などのオプションが含まれる場合に Fish シェルの補完が機能するように修正されました。",
-      "メッセージ送信時に組織のプラグイン準備によってチャットがブロックされないように修正されました。",
-      "長時間のサンドボックスコマンドが10秒を超えても安定して実行し続けるように修正されました。"
-    ],
-    "target_user": [
-      "Developer",
-      "GitHub Copilot CLI User"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-21T09:06:37Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-21T09:06:35Z"
+    "translation_attempted_at": "2026-10-21T14:47:31Z"
   }
 ]

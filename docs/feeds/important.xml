@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:22:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 14:47:50 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.143 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_143</link>
+      <guid isPermaLink="false">vscode-f0e5fddf67c3af81d8f3</guid>
+      <pubDate>Wed, 21 Oct 2026 14:47:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.143では、新しいセッションでCopilot harnessがデフォルトになり、エディタおよびAgentsウィンドウ全体で機能とパフォーマンスが改善されました。ファイルレベルのワーキングセットサポート、モデル結果の比較機能（プレビュー）、および大規模なチャットを開く際のパフォーマンス向上が含まれています。また、非アクティブなワークツリーのストレージを解放する実験的機能も追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessが新しいセッションのデフォルトになりました。&lt;/li&gt;&lt;li&gt;初期ファイルレベルのワーキングセットサポート（実験的）が追加され、エディタ内のエージェントの変更をより効果的に管理・レビューできるようになりました。&lt;/li&gt;&lt;li&gt;複数のモデルやharnessのタスクに対するアプローチを並行して実行・比較できるモデル結果の比較機能（プレビュー）が追加されました。&lt;/li&gt;&lt;li&gt;長時間のAgent Hostチャットを開く際の履歴復元が小分けに行われるようになり、パフォーマンスと応答性が大幅に向上しました。&lt;/li&gt;&lt;li&gt;非アクティブなエージェントセッションのワークツリーが消費するディスク容量を確認して削除し、ストレージを解放する機能（実験的）が追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_143"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Dataverse：AIエージェントおよびCopilot向けのセマンティックデータ理解機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577185</link>
