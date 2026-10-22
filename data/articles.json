@@ -1,5 +1,34 @@
 [
   {
+    "id": "github-copilot-cli-420282541",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.103-0",
+    "published_at": "2026-10-22T03:40:00Z",
+    "title_original": "GitHub Copilot CLI v1.0.103-0",
+    "excerpt_original": "**Added** - Clicking a completed response code block copies its original code when enabled. **Improved** - Reuse cached local MCP tool snapshots across registered Git worktrees in one repository - Improve remote launch options with clearer hosting/connection flags and retire legacy --remote/--no-remote startup flags **Fixed** - ACP sessions now honor saved sandbox settings and --sandbox/--no-sandbox flags, including on resume. - Cloud replies keep full text when the CLI reconnects after a dropped connection - Sessions browser shows a session's recorded title instead of a generic Session N fallback when available - Model-specific default Responses verbosity now applies correctly for GPT-5 models unless session verbosity is explicitly set - Allow dnx commands to use existing .NET and NuGet sandbox grants when developer-tool access is enabled - Windows dev-tool shims like npm.cmd now receive the same sandbox grants as npm. - Gemini tool calls now avoid 400 schema validation errors for nullable and enum fields - Resume sessions under mandatory managed model defaults without rejecting saved preferences - Hash mention suggestions refresh automatically when the GitHub client becomes ready",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.103-0 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.103-0がリリースされました。コードブロックのクリックによるコピー機能の追加や、ローカルMCPツールスナップショットのキャッシュ再利用、リモート起動オプションの改善が行われています。また、ACPセッションのサンドボックス設定やクラウド接続断線時の復旧、各種バグの修正が含まれています。",
+    "changes": [
+      "有効時に完了した応答コードブロックをクリックすると元のコードがコピーされる機能を追加",
+      "同一リポジトリ内の登録済みGitワークツリー間でキャッシュされたローカルMCPツールスナップショットを再利用するように改善",
+      "ホスティング・接続フラグを明確化したリモート起動オプションの改善と、レガシーな--remote/--no-remote起動フラグの廃止",
+      "再開時を含め、保存されたサンドボックス設定と--sandbox/--no-sandboxフラグをACPセッションが正しく反映するように修正",
+      "接続断線後のCLI再接続時にクラウドの返信が全文を維持するように修正"
+    ],
+    "target_user": [
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-22T09:08:55Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-22T09:08:53Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "m365-roadmap-1721f82b70aa36f6fbc7",
     "source": "Microsoft 365 Roadmap",
     "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573700",
