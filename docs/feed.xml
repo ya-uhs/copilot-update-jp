@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 14:47:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:25:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Sales Development Agentが利用可能に</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573700</link>
+      <guid isPermaLink="false">m365-roadmap-1721f82b70aa36f6fbc7</guid>
+      <pubDate>Wed, 21 Oct 2026 23:02:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けにSales Development Agentが提供開始されます。本機能は、リードの調査、適格性確認、エンゲージメントを自律的に行い、24時間体制で営業能力を拡張するエージェントです。プレビュー版の提供は2026年10月、GA（一般提供）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リードの調査、適格性確認、エンゲージメントを自律的に行う機能の追加&lt;/li&gt;&lt;li&gt;24時間体制での営業能力の拡張&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573700"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.102 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.102</link>
+      <guid isPermaLink="false">github-copilot-cli-419886241</guid>
+      <pubDate>Wed, 21 Oct 2026 18:05:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.102がリリースされました。プロンプトモードでの管理されたAutoモデル選択のサポート、サブエージェントによるツール承認の継承、プラグインマーケットプレイスの機能拡張などが含まれます。また、Fishシェル補完の改善や、サンドボックス環境およびプロキシ設定の信頼性向上が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトモードが-pおよびパイプ経由の標準入力実行において、管理されたAutoモデル選択を反映するように変更しました。&lt;/li&gt;&lt;li&gt;サブエージェントがカスタムおよびMCPツールの承認を尊重し、重複する権限プロンプトの回避と継承されたワークフローの実行を可能にしました。&lt;/li&gt;&lt;li&gt;プラグインマーケットプレイスがgit-subdirのソースと長いプラグイン説明文を受け入れるようになりました。&lt;/li&gt;&lt;li&gt;エイリアスにオプションエイリアス（--effortなど）が含まれる場合でも、Fishシェルの補完が機能するように修正しました。&lt;/li&gt;&lt;li&gt;メッセージ送信中に組織のプラグイン準備によってチャットがブロックされないようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.102"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.143 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_143</link>
@@ -1986,26 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.139では、Agent Host Protocolに基づくエージェントホストの導入やDev Containersサポートの拡張が行われました。また、エージェントセッション一覧の読み込み速度向上、UIのコンパクト表示、インラインでの名称変更などの新機能が追加されています。さらに、チャットの表示方法を選択する機能や、ペット命名コンテストの進捗報告も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントホストを専用プロセスで実行し、複数ウィンドウからの同一セッション接続に対応&lt;/li&gt;&lt;li&gt;SSH、Tunnel、WSLホストのリモートプロジェクトにおけるDev Containerでのエージェントセッション実行に対応&lt;/li&gt;&lt;li&gt;セッション一覧のメタデータを一元管理することで、セッションリストの読み込みと更新を高速化&lt;/li&gt;&lt;li&gt;Agents Windowにコンパクトビューを追加し、セッション一覧の表示効率を改善&lt;/li&gt;&lt;li&gt;セッションやネストされたチャットのタイトルをインラインで直接変更可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_139"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot in VS Code</category>
       <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot：フェデレーテッドCopilotコネクタが書き込み、更新、削除アクションをサポート</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570964</link>
-      <guid isPermaLink="false">m365-roadmap-ad99958cddeb03ad8b4d</guid>
-      <pubDate>Tue, 22 Sep 2026 22:57:16 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのフェデレーテッドCopilotコネクタ（MCP型）において、サードパーティサービスでのコンテンツ作成、更新、削除アクションがサポートされます。ユーザーはCopilot Chatを離れずに作業を完了できるようになり、すべての書き込み・削除アクションには実行前の明示的な確認が必要です。管理者はMicrosoft 365管理センターで各コネクタのツールを確認し、ポリシーに適合しないものを無効化できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サードパーティサービスにおける作成、更新、削除アクションのサポート追加&lt;/li&gt;&lt;li&gt;各アクション実行時にユーザーの明示的な確認を必須化&lt;/li&gt;&lt;li&gt;管理センターでの読み取り・書き込み/削除ツールの確認およびコネクタ無効化機能の提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570964"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-0</link>
-      <guid isPermaLink="false">github-copilot-cli-394156139</guid>
-      <pubDate>Tue, 22 Sep 2026 22:08:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89-0がリリースされました。今回のアップデートにより、claude-opus-5.5モデルのサポートが追加されました。また、接続および再接続時に、管理対象のコネクター同意の進行状況とコピー可能な認証URLが表示されるように改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;claude-opus-5.5のサポートを追加&lt;/li&gt;&lt;li&gt;接続および再接続時に、管理対象コネクターの同意進捗とコピー可能な認証URLを表示するように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>

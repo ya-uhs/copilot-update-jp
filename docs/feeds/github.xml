@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 14:47:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:25:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.102 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.102</link>
+      <guid isPermaLink="false">github-copilot-cli-419886241</guid>
+      <pubDate>Wed, 21 Oct 2026 18:05:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.102がリリースされました。プロンプトモードでの管理されたAutoモデル選択のサポート、サブエージェントによるツール承認の継承、プラグインマーケットプレイスの機能拡張などが含まれます。また、Fishシェル補完の改善や、サンドボックス環境およびプロキシ設定の信頼性向上が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトモードが-pおよびパイプ経由の標準入力実行において、管理されたAutoモデル選択を反映するように変更しました。&lt;/li&gt;&lt;li&gt;サブエージェントがカスタムおよびMCPツールの承認を尊重し、重複する権限プロンプトの回避と継承されたワークフローの実行を可能にしました。&lt;/li&gt;&lt;li&gt;プラグインマーケットプレイスがgit-subdirのソースと長いプラグイン説明文を受け入れるようになりました。&lt;/li&gt;&lt;li&gt;エイリアスにオプションエイリアス（--effortなど）が含まれる場合でも、Fishシェルの補完が機能するように修正しました。&lt;/li&gt;&lt;li&gt;メッセージ送信中に組織のプラグイン準備によってチャットがブロックされないようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.102"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.143 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_143</link>

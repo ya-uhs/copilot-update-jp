@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:22:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:25:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Sales Development Agentが利用可能に</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573700</link>
+      <guid isPermaLink="false">m365-roadmap-1721f82b70aa36f6fbc7</guid>
+      <pubDate>Wed, 21 Oct 2026 23:02:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けにSales Development Agentが提供開始されます。本機能は、リードの調査、適格性確認、エンゲージメントを自律的に行い、24時間体制で営業能力を拡張するエージェントです。プレビュー版の提供は2026年10月、GA（一般提供）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リードの調査、適格性確認、エンゲージメントを自律的に行う機能の追加&lt;/li&gt;&lt;li&gt;24時間体制での営業能力の拡張&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573700"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Dataverse：AIエージェントおよびCopilot向けのセマンティックデータ理解機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577185</link>

@@ -1,5 +1,63 @@
 [
   {
+    "id": "m365-roadmap-1721f82b70aa36f6fbc7",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573700",
+    "published_at": "2026-10-21T23:02:10Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Sales Development Agent is now available",
+    "excerpt_original": "Autonomous agent that researches, qualifies, engages with leads, scaling sales capacity 24/7. More info: aka.ms/SDA-Public-Docs GA date: January CY2027 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Sales Development Agentが利用可能に",
+    "summary_ja": "Microsoft 365 Copilot向けにSales Development Agentが提供開始されます。本機能は、リードの調査、適格性確認、エンゲージメントを自律的に行い、24時間体制で営業能力を拡張するエージェントです。プレビュー版の提供は2026年10月、GA（一般提供）は2027年1月を予定しています。",
+    "changes": [
+      "リードの調査、適格性確認、エンゲージメントを自律的に行う機能の追加",
+      "24時間体制での営業能力の拡張"
+    ],
+    "target_user": [
+      "Sales professionals",
+      "Sales managers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-22T00:25:40Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-22T00:25:39Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-419886241",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.102",
+    "published_at": "2026-10-21T18:05:00Z",
+    "title_original": "GitHub Copilot CLI v1.0.102",
+    "excerpt_original": "2026-10-21 - Prompt mode now honors managed Auto model selection for -p and piped stdin runs - Subagents honor custom and MCP tool approvals, avoiding duplicate permission prompts and allowing inherited workflows to run - Plugin marketplaces accept git-subdir sources and long plugin descriptions - Fish shell completion works when aliases include option aliases like --effort - Chats no longer get blocked by organization plugin preparation while sending messages - Long-running sandboxed commands continue running reliably past 10 seconds - Replies cut off by a provider overload error retry with backoff and show the provider's message and request ID - Sandboxed network traffic now honors NO_PROXY and ALL_PROXY when inheriting host proxy settings",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.102 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.102がリリースされました。プロンプトモードでの管理されたAutoモデル選択のサポート、サブエージェントによるツール承認の継承、プラグインマーケットプレイスの機能拡張などが含まれます。また、Fishシェル補完の改善や、サンドボックス環境およびプロキシ設定の信頼性向上が行われています。",
+    "changes": [
+      "プロンプトモードが-pおよびパイプ経由の標準入力実行において、管理されたAutoモデル選択を反映するように変更しました。",
+      "サブエージェントがカスタムおよびMCPツールの承認を尊重し、重複する権限プロンプトの回避と継承されたワークフローの実行を可能にしました。",
+      "プラグインマーケットプレイスがgit-subdirのソースと長いプラグイン説明文を受け入れるようになりました。",
+      "エイリアスにオプションエイリアス（--effortなど）が含まれる場合でも、Fishシェルの補完が機能するように修正しました。",
+      "メッセージ送信中に組織のプラグイン準備によってチャットがブロックされないようにしました。"
+    ],
+    "target_user": [
+      "開発者",
+      "GitHub Copilot CLI ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-22T00:25:41Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-22T00:25:40Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "vscode-f0e5fddf67c3af81d8f3",
     "source": "VS Code Release Notes",
     "source_url": "https://code.visualstudio.com/updates/v1_143",
