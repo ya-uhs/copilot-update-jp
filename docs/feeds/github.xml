@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:05:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 14:34:20 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -49,14 +49,14 @@
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.103</title>
+      <title>GitHub Copilot CLI v1.0.103 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.103</link>
       <guid isPermaLink="false">github-copilot-cli-420944485</guid>
       <pubDate>Thu, 22 Oct 2026 16:21:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;2026-10-22 - Clicking a completed response code block copies its original code when enabled. - ACP sessions now honor saved sandbox settings and --sandbox/--no-sandbox flags, including on resume. - Cloud replies keep full text when the CLI reconnects after a dropped connection - Sessions browser shows a session&amp;#x27;s recorded title instead of a generic Session N fallback when available - Model-specific default Responses verbosity now applies correctly for GPT-5 models unless session verbosity is explicitly set - Allow dnx commands to use existing .NET and NuGet sandbox grants when developer-tool access is enabled - Windows dev-tool shims like npm.cmd now receive the same sandbox grants as npm. - Gemini tool calls now avoid 400 schema validation errors for nullable and enum fields - Resume sessions under mandatory managed model defaults without rejecting saved preferences - Hash mention suggestions refresh automatically when the GitHub client becomes ready - Reuse cached local MCP tool snapshots across registered Git worktrees in one repository - Improve remote launch options with clearer hosting/connection flags and retire legacy --remote/--no-remote startup flags&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.103"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.103がリリースされ、コードブロックのコピー機能やサンドボックス設定の改善、切断時のクラウド応答保持などの機能強化が行われました。また、GPT-5モデルの冗長性設定の適用や、各種ツールのスキーマ検証エラーの修正、MCPツールスナップショットのキャッシュ再利用などが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;有効化されている場合、完了した応答のコードブロックをクリックすると元のコードがコピーされるようになりました。&lt;/li&gt;&lt;li&gt;ACPセッションが保存されたサンドボックス設定および--sandbox/--no-sandboxフラグを再開時も含めて尊重するようになりました。&lt;/li&gt;&lt;li&gt;接続が切断された後にCLIが再接続した際、クラウドの返信が全文保持されるようになりました。&lt;/li&gt;&lt;li&gt;セッションブラウザで、利用可能な場合は汎用的なSession Nのフォールバックではなく、記録されたセッションタイトルが表示されるようになりました。&lt;/li&gt;&lt;li&gt;--remote/--no-remoteのレガシーな起動フラグが廃止され、リモート起動オプションが改善されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.103"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.103-0 リリース</title>
