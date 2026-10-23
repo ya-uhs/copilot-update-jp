@@ -5,9 +5,119 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:23:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:05:48 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot in Visual Studio 9月アップデート</title>
+      <link>https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2</link>
+      <guid isPermaLink="false">github-changelog-a45f5dfbc3465c866620</guid>
+      <pubDate>Fri, 23 Oct 2026 00:17:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;2026年9月のGitHub Copilot in Visual Studioのアップデートにより、チャット画面から直接プルリクエストの確認や、チームで信頼されているAIモデルの利用、脆弱なパッケージの即座の修正が可能になりました。開発作業における可視性と効率性が向上しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;チャットを離れることなくプルリクエストを探索可能に&lt;/li&gt;&lt;li&gt;チームが信頼するAIモデルの利用に対応&lt;/li&gt;&lt;li&gt;Visual Studioが検知した脆弱なパッケージの即時修正機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - Copilot拡張機能向けのAIリソース利用</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577820</link>
+      <guid isPermaLink="false">m365-roadmap-85837fc2c94942828c7c</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business CentralにおけるCopilotの拡張において、Microsoftが管理するAzure OpenAIリソースをデフォルトのAIリソースとして利用できるようになります。これにより、インフラ管理の削減、オンボードの簡素化、セキュリティおよびコンプライアンスの向上が図られます。また、特定のモデルが必要な場合は、自身のAzure OpenAIサブスクリプションを持ち込むことも可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoftが管理するAzure OpenAIリソースを利用することで、インフラ管理やアップデート、トラブルシューティングの運用負荷が軽減されます。&lt;/li&gt;&lt;li&gt;独自サブスクリプションが必要な場合を除き、デフォルトのBusiness Central AIリソースの利用が推奨されています。&lt;/li&gt;&lt;li&gt;SetManagedResourceAuthorizationメソッドを使用して認証を行うことで、デフォルトのツールキットAIリソースを利用できます。&lt;/li&gt;&lt;li&gt;カスタムモデルや微調整されたモデルなどが必要な場合は、自身のAzure OpenAIサブスクリプションを持ち込んで利用することが可能です。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577820"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Insights - Data: Agents and Copilot - 顧客インサイトを活用したAIの精度向上</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577814</link>
+      <guid isPermaLink="false">m365-roadmap-f90b587dff61b0a65f6e</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Customer Insights MCPサーバーにより、AIエージェントやチャット体験がCustomer Insights - Dataの統合プロファイルやインサイトにアクセスできるようになります。標準のMCPアーキテクチャを使用してデータを安全に共有し、Microsoft Copilot Studioなどでより正確なビジネスインサイトや予測データを活用可能にします。管理、作成、マーケティング担当者向けに自動的に有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Customer Insights MCPサーバーの導入により、AIエージェントがDataverseの連絡先やリードを統合顧客プロファイルに解決可能になります。&lt;/li&gt;&lt;li&gt;外部ソースからの拡張顧客情報や、算出された測定値、セグメント情報をAIツールが取得できるようになります。&lt;/li&gt;&lt;li&gt;Customer Lifetime Value（CLV）やチャーンリスクなどの予測インサイトへのアクセスを提供します。&lt;/li&gt;&lt;li&gt;Microsoft Copilot Studioおよびカスタムコピロットから、Customer Insights - Dataのインサイトを利用できるようになります。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577814"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: 管理者向け機能 - 拡張されたカスタマーファースト直接コールバックの利用</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577801</link>
+      <guid isPermaLink="false">m365-roadmap-f5c85dca531fca70e997</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Contact Center / Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilot Service管理センターの「コールバックプロファイル」を通じて設定可能な、AIを活用したカスタマーファースト直接コールバック機能が導入されます。管理者は挨拶メッセージやリトライロジックなどを定義したプロファイルを作成し、キューのオーバーフロー処理に関連付けることができます。これにより、顧客は待ち行列の先頭に達した時点でコールバックを受け取ることができ、担当者は顧客の準備が整った段階で通話に参加可能となります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Service管理センターで挨拶メッセージやリトライロジックを含む「コールバックプロファイル」の設定が可能になりました。&lt;/li&gt;&lt;li&gt;キューのオーバーフロー処理のアクションとして直接コールバックを選択し、コールバックプロファイルを関連付けられるようになりました。&lt;/li&gt;&lt;li&gt;事前構築済みAIエージェントまたはカスタムAIエージェントを使用して、顧客検証などのカスタムワークフローを実行できるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577801"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Dynamics 365 Contact Center / Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: Customer Intent Agentによる次の最善のアクション表示機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577819</link>
+      <guid isPermaLink="false">m365-roadmap-2f3dd1d2d84c37a11dc8</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;管理者はCustomer Service管理センターで組織全体向けに機能の有効化が可能で、有効化するとCopilotペインに担当者が利用できるアクションが表示されます。顧客とのやり取りを通じて重要なケース属性が1か所に集約され、担当者が推奨事項の背景を理解するためのナレッジ記事が提案されます。担当者はワンクリックでメール作成やナレッジ記事・ケースノートの更新など、Copilotを活用した一連のアクションを実行できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者が組織全体向けに機能を有効化することで、Copilotペインに次の最善のアクションが表示される&lt;/li&gt;&lt;li&gt;顧客との情報収集のやり取りを通じて、重要なケース属性が1か所に集約される&lt;/li&gt;&lt;li&gt;推奨事項の背景理解を深めるためのナレッジ記事が提案される&lt;/li&gt;&lt;li&gt;メールの下書き作成、ナレッジ記事の更新、ケースノートの更新などのCopilotを活用したアクションをワンクリックで実行可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577819"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Supply Chain Management: 需要計画における生成AIインサイトの機能拡張</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577817</link>
+      <guid isPermaLink="false">m365-roadmap-50814f617bd855f02e7f</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Supply Chain Managementの需要計画における生成AIインサイトが一般提供（GA）され、新たにトレンドに関する指標が追加されました。システムは検出されたパターンに基づいてデータを動的にクラスタリングし、売上履歴や予測データの分析を支援します。これにより、予測精度の向上や在庫の最適化、過剰在庫・品切れによるコスト削減が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;生成AIインサイトに「トレンド」に関する新しい指標を追加&lt;/li&gt;&lt;li&gt;高トレンド、中トレンド、ほぼ横ばい、下降トレンドなどの検出パターンに基づいてデータを動的にクラスタリング&lt;/li&gt;&lt;li&gt;選択したディメンションごとの集計値の表示や、各計画オブジェクトの詳細値へのドリルダウンに対応&lt;/li&gt;&lt;li&gt;エンドユーザー向けに自動的に有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577817"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Dataverse: Dataverseスキルを活用したコーディングエージェントによるビジネスワークフローおよびソリューション構築機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577815</link>
+      <guid isPermaLink="false">m365-roadmap-cda1888513ee3ca84bd1</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Dataverseにおいて、自然言語のプロンプトを使用するコーディングエージェントにより、テーブルやソリューションの構築を自動化できるようになります。エージェントは環境の検出、Microsoft Power Platform CLIを用いたソリューション作成、サンプルデータのロードなどを一貫して処理します。これにより、UIを通じた手動での作成作業が不要になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語のプロンプトによるコーディングエージェントを活用したDataverseソリューションの構築&lt;/li&gt;&lt;li&gt;Microsoft Power Platform CLIを通じたソリューションやテーブル、リレーションシップの自動作成&lt;/li&gt;&lt;li&gt;Pythonスクリプトによるリアルなサンプルデータのバルクローディングとデータのクエリ実行&lt;/li&gt;&lt;li&gt;Dataverseスキルによる環境への接続と一連のプロセスエンドツーエンドのオーケストレーション&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577815"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Power Pages Copilot: Power Pages MCPサーバー機能の利用</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577813</link>
+      <guid isPermaLink="false">m365-roadmap-d6797c14e8b68b5ab96f</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Pages MCPサーバーは、AIクライアントと互換性のある安全で標準化されたインターフェイスを通じて、サイトのデータと操作を公開できるようにします。パブリックプレビューでは、カスタムコードを書くことなく、Web API層を介したCRUD操作を有効化し、AIチャットクライアントからの自然言語クエリによる安全なデータ操作が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Power Pages MCPサーバーにより、サイトデータと操作をAIアシスタント向けの構造化されたツールとして公開可能&lt;/li&gt;&lt;li&gt;カスタムコードなしでWeb API層を介したCRUD操作をパブリックプレビューで有効化&lt;/li&gt;&lt;li&gt;サイト設定を通じてMCPサーバーのエンドポイントをプロビジョニングし、自然言語によるデータ操作を実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577813"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: Service Operations Agentによる管理者体験の向上</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577808</link>
+      <guid isPermaLink="false">m365-roadmap-7d171ca4c4c536b8f28e</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilot Service admin centerに導入されるService Operations Agentは、Dynamics 365 Contact Centerの設定プロセスを統合する会話型AIアシスタントです。管理者は会話形式のセットアップを通じて、チャネル、音声設定、Teams Phoneの拡張性、ナレッジソース、ルーティング規則などの構成を効率化できます。また、リアルタイムでの設定検証や診断情報の提示、推奨事項の解説機能により、導入の迅速化とエラー削減を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;会話型セットアップとオーケストレーションによるチャネル、音声設定、Teams Phone拡張性、ナレッジソースの構成&lt;/li&gt;&lt;li&gt;route-to-queueルールやキュー・AIエージェントの割り当て戦略の迅速な設定&lt;/li&gt;&lt;li&gt;リアルタイムでの設定の生成と検証、診断情報および実用的なインサイトの提供&lt;/li&gt;&lt;li&gt;推奨事項やセットアップ選択肢に対する明確な解説の提示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577808"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Field Service: Scheduling Operations Agentによるリソーススケジュールの最適化</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577807</link>
+      <guid isPermaLink="false">m365-roadmap-b9c836844542cbbcdac2</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Field ServiceにScheduling Operations Agentが導入され、ディスパッチャーはCopilotに依頼して日々のスケジュール変更に応じた最適なスケジュール案を迅速に得ることができるようになります。Copilotは、スキルセットの一致、担当地域、顧客との約束時間などの要因を考慮し、技術者の稼働率最大化や優先度の高い作業などのビジネス目標に合わせてスケジュールを最適化します。本機能により、急なキャンセルや遅延などの状況変化に対する手動での調整作業が軽減され、ディスパッチャーの生産性が向上します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilotを利用して、状況の変化に応じた技術者のスケジュールを最適化する機能の追加&lt;/li&gt;&lt;li&gt;技術者の稼働率向上や作業指示の優先度などのビジネス目標に合わせたスケジュールの調整&lt;/li&gt;&lt;li&gt;スキルセット、担当地域、約束時間などの条件に基づいた既存の予約と未割り当て作業のインテリジェントな選定&lt;/li&gt;&lt;li&gt;Dynamics 365 Field Serviceアプリケーション内のCopilotサイドペインからのアクセスに対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577807"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[Roadmap] Dynamics 365 Contact Center: Unified routing - Orchestrate conversation distribution with natural language playbooks</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577788</link>
+      <guid isPermaLink="false">m365-roadmap-db854d362769689471df</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:24 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Conversation orchestration in Dynamics 365 Contact Center keeps every conversation actively managed throughout its lifecycle, from initiation through resolution. Instead of applying fixed rules at different stages of a conversation journey, conversation orchestration monitors each conversation as conditions evolve, like wait time increases, fast-filling queues, or service representatives going offline, and responds automatically with the right action. For example, administrators can define the intent using natural-language playbooks as follows: &amp;quot;If a premium customer waits for more than three minutes and no senior agents are available, increase their priority and offer a callback.&amp;quot; Conversation orchestration then handles how it&amp;#x27;s run in real time. You can configure playbooks per scenario through guided templates that keep instructions focused and reliable. Built-in validation catches conflicts before anything goes live, so that you confidently publish changes without needing to test every edge case manually. The key capabilities are as follows: Dynamic priority escalation : In traditional systems, conversation priority is typically set once, at entry, and never revisited. This means a customer who has been waiting for 10 minutes competes for the same expert as another customer who has just arrived, and a conversation that’s transferred mid-journey resets to whatever the new queue&amp;#x27;s default priority is. Dynamic priority escalation fixes this by continuously re-evaluating priority as the conversation progresses. You define the conditions such as wait time thresholds, queue transfers, customer tier, or other context and conversation orchestration adjusts priority automatically throughout the conversation lifecycle. High-value or long-waiting customers move forward without anyone watching the queue manually. Overflow handling across multiple conditions : Conversation orchestration supports a broader set of business triggered overflow conditions, allowing organizations to respond intelligently as queue conditions change. Administrators can define actions when a queue is outside operating hours, when all representatives in a queue are signed out or unavailable, when queue wait time exceeds a defined threshold, or when the number of waiting conversations surpasses a specified limit. Depending on the situation, orchestration can automatically offer callbacks, route conversations to alternate queues, expand assignment eligibility, notify supervisors, or deliver contextual customer messages. This ensures customers are never left waiting without a defined path forward. Admins can also configure overflow handling for direct inward dial calls now, when reps are not available or don&amp;#x27;t accept the calls. Assign to a previously engaged or preferred representative : Customers often need to repeat information when they are connected to a new representative for every interaction. Conversation orchestration helps maintain continuity by reconnecting customers with previously engaged or preferred representatives whenever possible. Assignment decisions take into account historical interactions, queue membership alignment, representative availability, and workload capacity. For asynchronous conversations, organizations can choose to honor representative presence status and active conversation limits before reconnecting customers, ensuring returning conversations are assigned only when the preferred representative has capacity to engage. When the preferred or previously engaged representative is unavailable, conversations seamlessly fall back to the next best qualified representative. This reduces customer effort, improves resolution efficiency, and delivers a more personalized support experience. Bullseye routing : Finding the right representative often requires balancing expertise with response times. Bullseye routing enables organizations to gradually expand the pool of eligible representatives when a conversation isn&amp;#x27;t assigned within a defined timeframe. Administrators can define progressive routing rings that begin with the most qualified representatives and then expand to broader groups based on skills, proficiency levels, teams, or other business criteria. This approach maximizes the likelihood of connecting customers with the best-qualified representative while ensuring conversations don&amp;#x27;t wait indefinitely for a specific resource. These capabilities are the first in a broad and growing set of orchestration scenarios that conversation orchestration will support across the full conversation lifecycle, spanning overflow management, priority handling, assignment strategies, in-conversation messaging, and escalation. Each new capability builds on the same natural-language playbook foundation, so organizations can adopt new scenarios without rebuilding what they have already configured. Business Value: Traditional automatic conversation distribution systems rely on complex rules and static configuration that are difficult to maintain and can&amp;#x27;t adapt as conditions change throughout the conversation lifecycle. Unified routing with its new AI-powered conversation orchestration uses the power of agentic AI to continuously monitor events throughout the entire conversation lifecycle and responds with the right action when required. This is a shift from a static system to an orchestration layer that remains active and intelligent from the moment a conversation arrives in a queue until it&amp;#x27;s resolved. The new feature reduces administrative complexity and helps deliver more flexible customer experiences at scale, even under fluctuating demand. Enabled for: Enabled by admins/makers/marketers for end users More info: https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/configure-conversation-orchestration GA date: October CY2026 Preview date: April CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577788"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>unclassified</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Journey Creation Agentによる素早いジャーニー作成</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577418</link>
@@ -1896,116 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Clipchampの動画ハブに、Copilotを活用したエージェント型動画作成機能が追加されます。ユーザーは明示的な文書やWorkIQの暗黙的な知識に基づき、プロンプトから動画の生成、編集、推敲を行うことが可能です。チャット内での動画のプレビューや再生、および完成に向けた反復的な作業の継続がサポートされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトを基にした動画の生成、編集、推敲機能の追加&lt;/li&gt;&lt;li&gt;明示的な文書やWorkIQの知識に基づく動画作成のグラウンディング&lt;/li&gt;&lt;li&gt;チャット内での直接的な動画プレビューと再生機能&lt;/li&gt;&lt;li&gt;完成に向けた反復的な編集プロセスの継続機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570963"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.90-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-0</link>
-      <guid isPermaLink="false">github-copilot-cli-398638929</guid>
-      <pubDate>Mon, 28 Sep 2026 21:27:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-0がリリースされました。このバージョンには、不具合の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89</link>
-      <guid isPermaLink="false">github-copilot-cli-398551718</guid>
-      <pubDate>Mon, 28 Sep 2026 19:20:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89がリリースされ、UIインタラクションの改善、カスタム指示やMCP設定のサポート追加、各種バグ修正が行われました。サイドバーの動作向上やモデル選択・ルーティングの改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ask_userおよびエリシテーションフォームの入力欄で左クリックによるフォーカスとカーソル配置をサポートしました。&lt;/li&gt;&lt;li&gt;Claude Codeのルールファイルをカスタム指示として読み込む機能を追加しました。&lt;/li&gt;&lt;li&gt;未読のターンがあるサイドバーのセッションに青いドットを表示するようにしました。&lt;/li&gt;&lt;li&gt;ルーティング階層の自動提案と、ショートカットやクリックによる切り替えをサポートしました。&lt;/li&gt;&lt;li&gt;MCPの事前登録済みOAuthクライアントが設定されたoauthScopesを尊重するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub CopilotにおけるClaude Sonnet 5.5の提供開始</title>
-      <link>https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot</link>
-      <guid isPermaLink="false">github-changelog-469712811c22e040083a</guid>
-      <pubDate>Mon, 28 Sep 2026 18:03:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Anthropicの最新モデルであるClaude Sonnet 5.5がGitHub Copilotで一般提供（GA）開始されました。機能開発やバグ修正など、明確な範囲を持つ日常的な作業向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでClaude Sonnet 5.5が利用可能になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-7 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-7</link>
-      <guid isPermaLink="false">github-copilot-cli-398393281</guid>
-      <pubDate>Mon, 28 Sep 2026 15:42:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.89-7がリリースされました。本バージョンには、各種の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;各種の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-7"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-6のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-6</link>
-      <guid isPermaLink="false">github-copilot-cli-398203048</guid>
-      <pubDate>Mon, 28 Sep 2026 11:54:47 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89-6がリリースされました。プルリクエスト作成機能がテンプレートに準拠するよう改善され、インデックス検索の自動有効化を設定可能になりました。また、シェルの出力メタデータの表示修正や、エージェント応答中のキュー終了コマンドの処理など複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リポジトリのプルリクエストテンプレートに従うようにPR作成機能を改善し、必須セクションとチェックリスト構造を維持するように変更&lt;/li&gt;&lt;li&gt;TGREP_FILE_COUNT_THRESHOLD環境変数による自動インデックス検索の有効化を設定可能に修正&lt;/li&gt;&lt;li&gt;シェル出力から末尾のコマンド補完メタデータを削除&lt;/li&gt;&lt;li&gt;テキスト選択中はタイムライン出力の自動追従を停止するように修正&lt;/li&gt;&lt;li&gt;server/toolおよびserver/*ツールフィルターがスラッシュを含むMCPツール名に一致するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-5 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-5</link>
-      <guid isPermaLink="false">github-copilot-cli-397496781</guid>
-      <pubDate>Sun, 27 Sep 2026 03:36:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.89-5がリリースされました。今回のアップデートでは、フォーム入力操作の改善、Claude Codeのルールファイルへの対応、サイドバーのセッション表示機能の強化が行われています。また、エンタープライズ管理設定における拡張機能読み込みのエラーや、CLIシェルから起動したアプリケーションでのGit関連の不具合などが修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ask_userおよびelicitationフォームの入力欄で左クリックによるフォーカスとカーソル位置の指定に対応&lt;/li&gt;&lt;li&gt;カスタム指示として .claude/rules 内のClaude Codeルールファイルのサポートを追加&lt;/li&gt;&lt;li&gt;サイドバーのセッションにおいて、未開封のターンが完了した際に青いドットを表示するように変更&lt;/li&gt;&lt;li&gt;マネージドMCPポリシー適用中のエンタープライズ管理設定下で拡張機能の読み込みが失敗する問題を修正&lt;/li&gt;&lt;li&gt;Git 2.36以降において、CLIシェルから起動したアプリケーションで空の環境変数が除外されることに伴うGitの失敗を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilotの企業管理設定向けプロダクト内バリデーター</title>
-      <link>https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator</link>
-      <guid isPermaLink="false">github-changelog-07dade88210664e3a861</guid>
-      <pubDate>Fri, 25 Sep 2026 23:24:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの企業管理設定において、プロダクト内で利用できるバリデーターが導入されました。このバリデーターは、不正なJSON、サポートされていない構成、無効なチームマッピングなどのエラーを検出し、設定ミスを防ぎます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;企業管理設定向けバリデーターの追加&lt;/li&gt;&lt;li&gt;不正なJSONや未サポート構成の検出&lt;/li&gt;&lt;li&gt;無効なチームマッピングなどのエラー検出機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Power Platform ガバナンスおよび管理：Maker Guidelines</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570967</link>
-      <guid isPermaLink="false">m365-roadmap-800b064ee1184a02ec91</guid>
-      <pubDate>Fri, 25 Sep 2026 22:37:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Maker guidelines機能により、組織はCopilot Studioのメーカーに対して作業フロー内で直接ガイダンスを提供できるようになります。管理者は、承認されたツール、モデル、コネクター、チャネルを説明し、ポリシーやサポートへの案内を表示することが可能です。このメッセージはCopilot Studio内のReviewペインに表示され、メーカーは作業を離れることなく組織の期待事項の把握やサポートへのアクセスが行えます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者が環境内で承認されているツール、モデル、コネクター、チャネルを説明するガイダンスを提供可能に&lt;/li&gt;&lt;li&gt;ポリシー、リクエストプロセス、サポート連絡先への案内を表示&lt;/li&gt;&lt;li&gt;メッセージがエージェントのブロッカーや警告と並んでReviewペインに常時表示される機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570967"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] PowerPoint: Copilot向けの非同期通知機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570436</link>
-      <guid isPermaLink="false">m365-roadmap-d26feaae96a6a7247582</guid>
-      <pubDate>Fri, 25 Sep 2026 22:37:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;PowerPointでのCopilotの処理完了や確認事項について、ユーザーがアプリを離れたり、デバイスを切り替えたり、オフラインになったりした後でも通知を受け取れるようになる機能です。作業の終了や対応が必要なタイミングを確実にお知らせします。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PowerPointでのCopilotの処理について非同期通知を有効化&lt;/li&gt;&lt;li&gt;アプリの終了、デバイスの切り替え、オフライン移行、作業終了後でも通知を受信可能&lt;/li&gt;&lt;li&gt;作業完了時や要対応時にユーザーへ通知を送信&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570436"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-4 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-4</link>
-      <guid isPermaLink="false">github-copilot-cli-396929614</guid>
-      <pubDate>Fri, 25 Sep 2026 21:13:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.89-4がリリースされ、ルーティング階層の自動提案機能や手動選択後のフィードバックプロンプトが追加されました。また、プラグインの有効化・無効化の改善や、Autoモデル選択、サンドボックス内でのコマンド実行、ACPセッション維持に関する複数のバグ修正が行われています。さらに、GeminiモデルでのMCPサーバー利用時のエラーや、サインイン直後のGitHub MCPツールの接続に関する問題が解消されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ルーティング階層の自動提案とショートカットまたはクリックによる切り替え機能を追加し、手動選択後にクイックフィードバックプロンプトを表示するように変更&lt;/li&gt;&lt;li&gt;直接プラグインのインストールを有効化・無効化できるように改善し、無効化されたプラグインの読み込みを停止（再有効化は copilot plugin enable で実行可能）&lt;/li&gt;&lt;li&gt;/modelでのAuto階層選択の循環動作を修正し、サポートされていないFastプロファイル削除に伴い保存・エクスポート・再開されたFast設定をBalanceへフォールバックに変更&lt;/li&gt;&lt;li&gt;サンドボックスセッション内での `timeout 60 gh ...` などのラップされた gh および git コマンドの実行を修正&lt;/li&gt;&lt;li&gt;クライアントが大きな応答の読み取りを一時停止した際にもACPセッションが接続状態を維持するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>利用状況メトリクスAPIにプルリクエストのレビュー段階が追加</title>
-      <link>https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages</link>
-      <guid isPermaLink="false">github-changelog-0a10d0252c63a3f9d568</guid>
-      <pubDate>Fri, 25 Sep 2026 21:09:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;企業および組織のレポジトリレベルにおけるGitHub Copilotの利用状況メトリクスレポートが、プルリクエストが各レビュー段階で費やす時間の内訳を表示するようになりました。各repos-1-day行に、新しいpull_request_review_times配列が追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プルリクエストのレビュー段階ごとの所要時間を内訳として表示するように変更&lt;/li&gt;&lt;li&gt;各repos-1-day行に新しい pull_request_review_times 配列を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>

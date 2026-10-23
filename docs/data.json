@@ -1,5 +1,302 @@
 [
   {
+    "id": "m365-roadmap-d4a27daeb3b279d49f61",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577418",
+    "published_at": "2026-10-22T22:58:40Z",
+    "title_original": "[Roadmap] Dynamics 365 Customer Insights - Journeys: Create journeys in minutes with Journey Creation Agent",
+    "excerpt_original": "You simply describe in everyday words what you want to create and the Journey Creation Agent builds the journey for you. With Journey Creation Agent, you can: Use an AI-powered, guided experience for optimized outcomes. Build in minutes with no technical jargon, complex setup, or cold start. Use natural language to describe the journey you want to create. Drive results–the agent interprets your goal and asks relevant follow-up questions to refine your intent and ensure accuracy. Scenario A campaign manager wants to re-engage inactive customers but has no time to build a journey from scratch. The manager simply types, “Send a re-engagement email to customers who haven’t purchased in 90 days, follow up with a reminder with a discount.” The journey is instantly generated, with the right audience, content, and structure. More info: https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/journey-creation-agent GA date: April CY2027 Preview date: June CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Journey Creation Agentによる素早いジャーニー作成",
+    "summary_ja": "Dynamics 365 Customer Insights - JourneysにJourney Creation Agentが導入されます。ユーザーは日常的な言葉で説明するだけで、AIを活用したガイド付きエクスペリエンスを通じて、数分でジャーニーを作成できるようになります。エージェントが目標を解釈し、適切なフォローアップの質問を行って意図を洗練させます。",
+    "changes": [
+      "日常的な言葉を用いた自然言語によるジャーニー作成機能の追加",
+      "AIを活用したガイド付きエクスペリエンスによる最適化された結果の提供",
+      "複雑な設定や技術的な専門用語を必要とせず、数分でジャーニーを構築可能",
+      "エージェントによる目標の解釈と、精度を高めるための関連するフォローアップ質問の実施"
+    ],
+    "target_user": [
+      "Campaign Manager",
+      "Dynamics 365 Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:22:55Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T00:22:54Z"
+  },
+  {
+    "id": "m365-roadmap-385e6a2993be3fbec6b1",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577417",
+    "published_at": "2026-10-22T22:58:40Z",
+    "title_original": "[Roadmap] Dynamics 365 Customer Insights - Journeys: Improve engagement and message timing with Outreach Optimization Agent",
+    "excerpt_original": "Add the Outreach Optimization Agent to your journey, select the emails you want delivered, and let the agent handle timing and cadence automatically. With Outreach Optimization Agent, you can: Start with an intelligent baseline : Outreach Optimization Agent automatically creates a baseline messaging plan for your audience by analyzing overall historical engagement patterns, producing a smart, generic plan that is designed to work well for most customers before any individual optimization kicks in. Listen to incoming interactions and adapt the plan in real time : The agent continuously monitors incoming signals, including engagement and non-responsiveness, and adjusts follow-up timing and cadence, or exits the plan based on whether the goal is progressing or has been achieved. Respect quiet times : The agent enforces quiet time settings as a hard constraint, ensuring that messages are never sent outside approved communication windows, even if engagement data suggests otherwise. Scenario A global retail brand uses Outreach Optimization Agent in a seasonal campaign to re-engage customers. Unlike previous efforts with fixed schedules and repeated reminders, the agent creates a smart baseline plan, then adjusts message timing for each customer based on their engagement. It slows or stops follow-ups when customers show interest and spaces out reminders for unresponsive customers, all while respecting quiet times and consent. This leads to better engagement and less message fatigue, with minimal manual intervention. More info: https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/outreach-optimization-agent GA date: April CY2027 Preview date: July CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Outreach Optimization Agentによるエンゲージメントとメッセージ配信タイミングの改善",
+    "summary_ja": "Dynamics 365 Customer Insights - JourneysにOutreach Optimization Agentが追加されます。このエージェントは、過去のエンゲージメントパターンに基づいてスマートなベースラインプランを作成し、リアルタイムの反応に応じてメッセージのタイミングや頻度を自動調整します。また、承認された通信時間外の送信を防ぐクワイエットタイムの設定を厳格に適用します。",
+    "changes": [
+      "過去のエンゲージメントパターンを分析し、インテリジェントなベースラインのメッセージングプランを自動作成する機能の追加",
+      "受信するインタラクションを継続的に監視し、フォローアップのタイミングや頻度をリアルタイムで調整、またはプランを終了する機能の追加",
+      "承認された通信時間外にメッセージが送信されないよう、クワイエットタイム設定をハード制約として適用する機能の追加"
+    ],
+    "target_user": [
+      "マーケティング担当者",
+      "カスタマーインサイト管理者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:22:57Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T00:22:55Z"
+  },
+  {
+    "id": "m365-roadmap-8ab05acf7c33214306bc",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577405",
+    "published_at": "2026-10-22T22:58:40Z",
+    "title_original": "[Roadmap] Dynamics 365 Commerce: Author Commerce receipt formats with Copilot Cowork",
+    "excerpt_original": "Use natural language in Copilot Cowork to create, update, translate, and check Commerce receipt layouts using existing formats in headquarters. The Commerce receipt format designer skill lets authorized users work with receipt layouts through natural-language requests in Copilot Cowork, using receipt configuration in Dynamics 365 Commerce headquarters. It applies to receipt formats used by Store Commerce point of sale (POS). Users can: Create and adapt formats: Start from an existing format in the modern Receipt designer representation, create a new format, or request changes to an existing target. Edit receipt sections: Modify header, line, and footer content, field positions, alignment, and supported formatting. Translate and personalize content: Translate static labels and add user-supplied text while preserving dynamic fields. Missing business details are identified rather than invented. Check layouts without changing them: Request structural or geometry checks that identify overlaps, width violations, and truncation risks, with findings and suggested remediation. Verify saved changes: Review the resulting format and changes, with saved configuration re-read to confirm the requested update. Creating a format from a source preserves that source. The skill is available automatically to authorized Copilot Cowork users. Users describe the source format and desired outcome, resolve any source or target ambiguity, and review the results. A Commerce administrator ensures appropriate headquarters access and that the source format is available in the modern structured representation. Structural checks do not establish visual appearance, barcode scanability, runtime values, or legal and fiscal compliance. Users review the layout in the Receipt designer and perform appropriate test printing before operational use. Assigning formats to receipt profiles or printers and printing or reprinting transactions are separate setup and operational workflows. GA date: December CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Commerce: Copilot Coworkによるコマースレシートフォーマットの作成",
+    "summary_ja": "Copilot Coworkにおいて自然言語を使用して、Dynamics 365 Commerceの本部にある既存フォーマットを活用したレシートレイアウトの作成、更新、翻訳、確認が行えるようになります。Store CommerceのPOSで使用されるレシートフォーマットが対象となり、認可されたユーザーは自然言語の指示を通じてレイアウトを操作できます。プレビューは2026年10月に開始され、一般提供（GA）は2026年12月を予定しています。",
+    "changes": [
+      "自然言語によるレシートフォーマットの新規作成および既存フォーマットの変更が可能",
+      "ヘッダー、行、フッターの内容、フィールド位置、配置、フォーマットの編集に対応",
+      "動的フィールドを維持したまま、静的ラベルの翻訳やテキストの追加が可能",
+      "レイアウトの構造的または幾何学的チェックを行い、重なりや幅の違反などを特定して修正案を提示",
+      "保存された設定を再読み込みして更新内容の確認が可能"
+    ],
+    "target_user": [
+      "Authorized Copilot Cowork users",
+      "Commerce administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:22:58Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T00:22:57Z"
+  },
+  {
+    "id": "m365-roadmap-a2252d97ff8e1fa743d0",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577399",
+    "published_at": "2026-10-22T22:58:40Z",
+    "title_original": "[Roadmap] Microsoft Teams: Enhanced Copilot and AI controls for meetings",
+    "excerpt_original": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios. GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams：会議における Copilot および AI コントロールの強化",
+    "summary_ja": "Microsoft Teamsの会議向けに、CopilotとAI体験に関するコントロール機能が強化されます。会議の主催者はAIの有効化とアクセス権を管理でき、IT管理者は会議中および会議後のAIを統制するためのシンプルなポリシーモデルを利用できるようになります。これらのアップデートにより、予測可能な管理と、コンプライアンスやガバナンスにおける柔軟性が向上します。",
+    "changes": [
+      "主催者によるAIの有効化とアクセス権の管理機能の提供",
+      "IT管理者向けの、会議および会議後におけるAI統制用シンプルポリシーモデルの導入",
+      "予測可能な管理体制と、コンプライアンスおよびガバナンスシナリオにおける柔軟性の向上"
+    ],
+    "target_user": [
+      "会議主催者",
+      "IT管理者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:23:02Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T00:22:58Z"
+  },
+  {
+    "id": "m365-roadmap-20dd090c7ef2077af3ab",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577173",
+    "published_at": "2026-10-22T22:58:40Z",
+    "title_original": "[Roadmap] Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
+    "excerpt_original": "Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] TeamsおよびLMSの課題におけるCopilotスタータープロンプトの提供",
+    "summary_ja": "教育者は、Microsoft TeamsやLMS（学習管理システム）の課題において、Student AI GuidelinesからCopilotのスタータープロンプトを提供できるようになります。これにより、学生は教育者が用意した課題に合わせた指示があらかじめ入力された状態のチャットでCopilotを開くことが可能になります。本機能は2026年10月にプレビュー版が提供され、2026年11月に一般提供（GA）が予定されています。",
+    "changes": [
+      "教育者がTeamsおよびLMSの課題でCopilotスタータープロンプトを提供可能になる",
+      "学生が課題に合わせた指示があらかじめ入力された状態でCopilotを開けるようになる"
+    ],
+    "target_user": [
+      "Educators",
+      "Students"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:23:04Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T00:23:02Z"
+  },
+  {
+    "id": "m365-roadmap-80e6b1b7b08eda2cace6",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575289",
+    "published_at": "2026-10-22T22:58:40Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Sales Development Agent - Meeting scheduling",
+    "excerpt_original": "Sales Development Agent can turn a prospect’s interest in meeting into a booked seller meeting. The agent asks the prospect to provide preferred dates and times, evaluates those options against the appropriate seller’s calendar, and books the first valid option in the prospect’s stated preference order. The seller and prospect receive the meeting invitation, while the seller receives additional conversation context to support a warm handoff. If scheduling cannot be completed, the agent transfers the request and relevant context to the seller for follow-up. GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Sales Development Agentによるミーティングスケジューリング機能",
+    "summary_ja": "Microsoft 365 CopilotのSales Development Agentが、見込み客とのミーティング調整を自動化する機能を追加します。Agentは希望日時の確認や販売者のカレンダー評価を行い、条件に合う初回の日時を自動予約します。予約完了時には双方へ招待が送信され、販売者には引き継ぎ用の文脈情報が提供されます。",
+    "changes": [
+      "見込み客の希望日時の取得と販売者のカレンダー確認によるミーティングの自動予約",
+      "予約成功時の双方への招待送信と、販売者への追加の会話コンテキストの提供",
+      "スケジューリング不可時の販売者へのリクエストおよび関連コンテキストの引き継ぎ"
+    ],
+    "target_user": [
+      "Sales professionals",
+      "Sellers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:23:06Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T00:23:04Z"
+  },
+  {
+    "id": "m365-roadmap-bad2e0550466771f858e",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573294",
+    "published_at": "2026-10-22T22:58:40Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Enable semantic model in Sales agent",
+    "excerpt_original": "Semantic model helps Sales Agent understand the structure and meaning of an organization’s CRM data. It creates a connected representation of CRM metadata, including tables or objects, fields, descriptions, data types, relationships, views, pick-list values, and glossary terms. Sales Agent can retrieve this context when responding to questions, improving its ability to interpret business language and answer complex questions that span related CRM records. Dynamics 365 admins can enable and turn on semantic model in Power Apps Maker Portal and configure the data coverage and signals that Sales Agent should use. Admins can configure the underlying data, views, metadata and relationships used in the model. For Salesforce customers, the semantic model will be based on existing Sales agent table and glossary configuration in Sales agent settings or Power Apps Maker Portal. In Power Apps Maker Portal, Salesforce admins will can configure additional Salesforce signals to use in semantic model such as relationships and views. More info: https://learn.microsoft.com/en-us/power-apps/maker/data-platform/semantic-model-overview GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Sales agentにおけるセマンティックモデルの有効化",
+    "summary_ja": "Sales agentが組織のCRMデータの構造と意味を理解するためのセマンティックモデル機能が追加されます。管理者はPower Apps Maker Portal等を使用して、モデルのデータ範囲、メタデータ、関係性などを設定・有効化できます。これにより、ビジネス用語の解釈力と複雑な質問への回答能力が向上します。",
+    "changes": [
+      "Sales agentがCRMデータのメタデータや関係性などのコンテキストを利用して質問に回答できるようになる",
+      "Dynamics 365管理者はPower Apps Maker Portalでセマンティックモデルを有効化し、データ範囲やシグナルを設定できる",
+      "Salesforce利用者の場合、既存のSales agentの設定やPower Apps Maker Portalを通じて追加のシグナルを設定可能になる"
+    ],
+    "target_user": [
+      "Administrators",
+      "Dynamics 365 Admins",
+      "Salesforce Admins"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:23:09Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T00:23:06Z"
+  },
+  {
+    "id": "github-changelog-dea8ba729eb28582daac",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+    "published_at": "2026-10-22T22:19:17Z",
+    "title_original": "Custom skills, agents, and MCP servers in usage metrics API",
+    "excerpt_original": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under… The post Custom skills, agents, and MCP servers in usage metrics API appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "利用状況メトリクスAPIにおけるカスタムスキル、エージェント、MCPサーバーのサポート",
+    "summary_ja": "GitHub Copilotの利用状況メトリクスAPIにおいて、組織が作成したカスタムスキル、エージェント、Model Context Protocol（MCP）サーバー、スラッシュコマンド、プラグインの名前が表示されるようになりました。これにより、これまでのように一括してグループ化されることがなくなります。",
+    "changes": [
+      "利用状況メトリクスAPIでカスタムスキルの名前を表示",
+      "カスタムエージェントおよびModel Context Protocol（MCP）サーバーの名前を表示",
+      "スラッシュコマンドおよびプラグインの名前を表示",
+      "従来のように一括グループ化されず個別識別が可能に"
+    ],
+    "target_user": [
+      "Organization administrators",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:23:12Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-23T00:23:09Z"
+  },
+  {
+    "id": "github-changelog-767a7f383549ba646ff2",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+    "published_at": "2026-10-22T20:44:28Z",
+    "title_original": "Global default for Copilot features generally available",
+    "excerpt_original": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling… The post Global default for Copilot features generally available appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "Copilot機能のグローバルデフォルト設定が一般提供（GA）へ",
+    "summary_ja": "GitHubは、Copilot BusinessおよびCopilot Enterpriseプランにおける一般提供中のGitHub Copilot機能とサポートされるクライアント機能に対するグローバルデフォルトポリシーを発表しました。本日より、このポリシーの段階的なロールアウトが開始されます。",
+    "changes": [
+      "Copilot BusinessおよびCopilot Enterpriseプラン向けのグローバルデフォルトポリシーの段階的ロールアウトを開始"
+    ],
+    "target_user": [
+      "Copilot Business administrators",
+      "Copilot Enterprise administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:23:15Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-23T00:23:12Z"
+  },
+  {
+    "id": "github-changelog-7bf4630bf25d53522f00",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+    "published_at": "2026-10-22T16:28:24Z",
+    "title_original": "Industry comparisons in the Copilot impact dashboard",
+    "excerpt_original": "The Copilot impact dashboard now includes an “Industry comparison” section. Enterprises, and organizations that aren’t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks… The post Industry comparisons in the Copilot impact dashboard appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "Copilot impact dashboardに業界比較機能が追加",
+    "summary_ja": "GitHub Copilot impact dashboardに「Industry comparison」セクションが新たに追加されました。エンタープライズおよびエンタープライズに所有されていない組織は、集約されたベンチマークを使用して、Copilotのagenticな採用状況と活用度を比較できるようになります。",
+    "changes": [
+      "Copilot impact dashboardに「Industry comparison」セクションを追加",
+      "エンタープライズおよび非エンタープライズ組織がCopilotの採用状況や活用度を業界の集約ベンチマークと比較可能に"
+    ],
+    "target_user": [
+      "Enterprise",
+      "Organization"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T00:23:18Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-23T00:23:15Z"
+  },
+  {
+    "id": "github-copilot-cli-420944485",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.103",
+    "published_at": "2026-10-22T16:21:56Z",
+    "title_original": "GitHub Copilot CLI v1.0.103",
+    "excerpt_original": "2026-10-22 - Clicking a completed response code block copies its original code when enabled. - ACP sessions now honor saved sandbox settings and --sandbox/--no-sandbox flags, including on resume. - Cloud replies keep full text when the CLI reconnects after a dropped connection - Sessions browser shows a session's recorded title instead of a generic Session N fallback when available - Model-specific default Responses verbosity now applies correctly for GPT-5 models unless session verbosity is explicitly set - Allow dnx commands to use existing .NET and NuGet sandbox grants when developer-tool access is enabled - Windows dev-tool shims like npm.cmd now receive the same sandbox grants as npm. - Gemini tool calls now avoid 400 schema validation errors for nullable and enum fields - Resume sessions under mandatory managed model defaults without rejecting saved preferences - Hash mention suggestions refresh automatically when the GitHub client becomes ready - Reuse cached local MCP tool snapshots across registered Git worktrees in one repository - Improve remote launch options with clearer hosting/connection flags and retire legacy --remote/--no-remote startup flags",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "",
+    "summary_ja": "",
+    "changes": [],
+    "target_user": [],
+    "importance": "low",
+    "translated": false,
+    "processed_at": null,
+    "source_id": "github-copilot-cli",
+    "family": "github"
+  },
+  {
     "id": "github-copilot-cli-420282541",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.103-0",
@@ -7684,93 +7981,311 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-changelog-dea8ba729eb28582daac",
+    "id": "github-changelog-a45f5dfbc3465c866620",
     "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
-    "published_at": "2026-10-22T22:19:17Z",
-    "title_original": "Custom skills, agents, and MCP servers in usage metrics API",
-    "excerpt_original": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under… The post Custom skills, agents, and MCP servers in usage metrics API appeared first on The GitHub Blog .",
+    "source_url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+    "published_at": "2026-10-23T00:17:51Z",
+    "title_original": "GitHub Copilot in Visual Studio — September update",
+    "excerpt_original": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "利用状況メトリクスAPIにおけるカスタムスキル、エージェント、MCPサーバーのサポート",
-    "summary_ja": "GitHub Copilotの利用状況メトリクスAPIにおいて、組織が作成したカスタムスキル、エージェント、Model Context Protocol（MCP）サーバー、スラッシュコマンド、プラグインの名前が表示されるようになりました。これにより、これまでのように一括してグループ化されることがなくなります。",
+    "title_ja": "GitHub Copilot in Visual Studio 9月アップデート",
+    "summary_ja": "2026年9月のGitHub Copilot in Visual Studioのアップデートにより、チャット画面から直接プルリクエストの確認や、チームで信頼されているAIモデルの利用、脆弱なパッケージの即座の修正が可能になりました。開発作業における可視性と効率性が向上しています。",
     "changes": [
-      "利用状況メトリクスAPIでカスタムスキルの名前を表示",
-      "カスタムエージェントおよびModel Context Protocol（MCP）サーバーの名前を表示",
-      "スラッシュコマンドおよびプラグインの名前を表示",
-      "従来のように一括グループ化されず個別識別が可能に"
+      "チャットを離れることなくプルリクエストを探索可能に",
+      "チームが信頼するAIモデルの利用に対応",
+      "Visual Studioが検知した脆弱なパッケージの即時修正機能を追加"
     ],
     "target_user": [
-      "Organization administrators",
-      "Developers"
+      "Visual Studio users",
+      "GitHub Copilot users",
+      "developers"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-23T00:23:12Z",
+    "processed_at": "2026-10-23T09:05:35Z",
     "source_id": "github-changelog",
     "family": "github",
-    "translation_attempted_at": "2026-10-23T00:23:09Z"
+    "translation_attempted_at": "2026-10-23T09:05:34Z"
   },
   {
-    "id": "github-changelog-767a7f383549ba646ff2",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
-    "published_at": "2026-10-22T20:44:28Z",
-    "title_original": "Global default for Copilot features generally available",
-    "excerpt_original": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling… The post Global default for Copilot features generally available appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "GA",
-    "title_ja": "Copilot機能のグローバルデフォルト設定が一般提供（GA）へ",
-    "summary_ja": "GitHubは、Copilot BusinessおよびCopilot Enterpriseプランにおける一般提供中のGitHub Copilot機能とサポートされるクライアント機能に対するグローバルデフォルトポリシーを発表しました。本日より、このポリシーの段階的なロールアウトが開始されます。",
+    "id": "m365-roadmap-85837fc2c94942828c7c",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577820",
+    "published_at": "2026-10-23T00:00:39Z",
+    "title_original": "[Roadmap] Dynamics 365 Business Central: Copilot and agents - Use AI resources for your Copilot extensions",
+    "excerpt_original": "Using the AI resources provides several benefits: Reduced operational overhead : Avoid the need to handle infrastructure management, updates, monitoring, troubleshooting, or maintenance of custom Azure OpenAI subscriptions. This benefit frees up resources to focus on core business operations and provides value-adding intellectual property (IP) to customers. Simplified onboarding : Quickly integrate AI capabilities into your solutions without having to navigate the complexities of setting up and managing your own Azure OpenAI subscription. Improved reliability : Proactive scaling, throttling, load balancing, and fault tolerance measures ensure consistent performance during peak demand. Enhanced security compliance : Built-in compliance measures and governance, including robust protection from malicious and harmful content, ensure compliance with data residency requirements. This benefit reduces the burden of ensuring regulatory compliance for ISVs. Streamlined experience for customers : Customers get a seamless AI resource management process without maintaining different configurations for separate ISV solutions. This capability also provides a cohesive AI consumption tracking and billing experience for Business Central customers. Customers who use AI resources across multiple AI-enabled solutions built with Business Central customer developer tools for Copilot benefit from a unified approach to AI consumption monitoring and invoicing. They don't need to reconcile multiple invoices or metrics from separate ISVs. For details on billing costs, see AI tools at Message scenarios . For most publishers, the default Business Central AI resources are enough. However, if you need specific models, including fine-tuned models, that the Business Central AI resources don't provide, you can bring your own subscription for customers. In this case, the publisher is responsible for deploying, maintaining, scaling, and securing the service. The publisher also handles billing AI resources to customers. We recommend using the developer toolkit AI resources when you extend Copilot in Business Central. You just need to authenticate with the SetManagedResourceAuthorization method in the AI Module AzureOpenAI codeunit. You also provide your own Azure OpenAI subscription details, but the authentication process doesn't use them. (Update 2026 release wave 1: There's now a new method signature for SetManagedResources that doesn't require you to provide your subscription details anymore. You should use that going forward.) // Example of using the default toolkit AI resources in AL AzureOpenAI.SetManagedResourceAuthorization(Enum::\"AOAI Model Type\"::\"Chat Completions\",AzureOpenAIAccountName,AzureOpenAIApiKey,AOAIDeployments.GetGPT4oLatest()); To use your own subscription, authenticate it with the SetAuthorization method. // Example of using your own Azure OpenAI subscription in AL AzureOpenAI.SetAuthorization(Enum::\"AOAI Model Type\"::\"Chat Completions\",GetEndpoint(),GetDeployment(),GetApiKey()); This AI billing model isn't designed to replace the existing Marketplace monetization pathway for publishers who create Business Central apps. Instead, it offers another option that simplifies AI consumption for customers and partners. ISVs can use the Marketplace monetization option to monetize their IP. Business Value: A key feature of the developer tools for Copilot in Business Central is that publishers in their Marketplace apps use large language models through Microsoft-managed Azure OpenAI resources when they extend Copilot in Business Central. This approach eliminates the need for customers to independently get and manage Azure OpenAI subscriptions. Using the Business Central AI resources is the default and recommended approach. However, some partners or customers might have special requirements that require them to use their own Azure OpenAI subscription when running the feature in production or when developing and testing in sandboxes, which is also supported in the developer tools for Copilot in Business Central. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources GA date: April CY2027 Preview date: June CY2025",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - Copilot拡張機能向けのAIリソース利用",
+    "summary_ja": "Dynamics 365 Business CentralにおけるCopilotの拡張において、Microsoftが管理するAzure OpenAIリソースをデフォルトのAIリソースとして利用できるようになります。これにより、インフラ管理の削減、オンボードの簡素化、セキュリティおよびコンプライアンスの向上が図られます。また、特定のモデルが必要な場合は、自身のAzure OpenAIサブスクリプションを持ち込むことも可能です。",
     "changes": [
-      "Copilot BusinessおよびCopilot Enterpriseプラン向けのグローバルデフォルトポリシーの段階的ロールアウトを開始"
+      "Microsoftが管理するAzure OpenAIリソースを利用することで、インフラ管理やアップデート、トラブルシューティングの運用負荷が軽減されます。",
+      "独自サブスクリプションが必要な場合を除き、デフォルトのBusiness Central AIリソースの利用が推奨されています。",
+      "SetManagedResourceAuthorizationメソッドを使用して認証を行うことで、デフォルトのツールキットAIリソースを利用できます。",
+      "カスタムモデルや微調整されたモデルなどが必要な場合は、自身のAzure OpenAIサブスクリプションを持ち込んで利用することが可能です。"
     ],
     "target_user": [
-      "Copilot Business administrators",
-      "Copilot Enterprise administrators"
+      "admins",
+      "makers",
+      "marketers",
+      "ISV",
+      "開発者"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-23T00:23:15Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-23T00:23:12Z"
+    "processed_at": "2026-10-23T09:05:36Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:35Z"
   },
   {
-    "id": "github-changelog-7bf4630bf25d53522f00",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
-    "published_at": "2026-10-22T16:28:24Z",
-    "title_original": "Industry comparisons in the Copilot impact dashboard",
-    "excerpt_original": "The Copilot impact dashboard now includes an “Industry comparison” section. Enterprises, and organizations that aren’t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks… The post Industry comparisons in the Copilot impact dashboard appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "Copilot impact dashboardに業界比較機能が追加",
-    "summary_ja": "GitHub Copilot impact dashboardに「Industry comparison」セクションが新たに追加されました。エンタープライズおよびエンタープライズに所有されていない組織は、集約されたベンチマークを使用して、Copilotのagenticな採用状況と活用度を比較できるようになります。",
+    "id": "m365-roadmap-f90b587dff61b0a65f6e",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577814",
+    "published_at": "2026-10-22T23:45:47Z",
+    "title_original": "[Roadmap] Dynamics 365 Customer Insights - Data: Agents and Copilot - Increase AI accuracy by grounding agents in customer insights",
+    "excerpt_original": "The Customer Insights MCP server allows AI agents and chat experiences to access and understand insights generated by Customer Insights - Data. The Customer Insights MCP server uses the industry-standard MCP architecture to securely share unified profiles and insights with AI agents and chat experiences, providing the data context so AI agents can do their best work. AI tools can use the Customer Insights MCP server to: Resolve Dataverse contacts and leads to their unified customer profile. Access extended customer information unified by Customer Insights - Data from external sources not available to Dataverse. Understand calculated measures for a customer such as their purchase totals over the last 4 months, or the date of their most recent engagement. Quickly discover what segments the customer is a member of. See if a customer has multiple redundant contacts in your system, and which is considered authoritative for that customer. Get predictive insights for the customer such as Customer Lifetime Value (CLV) and Churn risk, giving you greater insights into the customer's current relationships with your company. Scenario Sally is a seller who is evaluating a lead named Joe who recently attended a product launch webinar. Sally asks her AI embedded on their Contact and Lead forms if there are any insights about this lead and is delighted to find that the lead Joe is matched to a VIP customer Joseph who has existing paid licenses for several products. Because Customer Insights - Data unifies her company's external Purchase and Rewards data with Dataverse contact and lead data, the agent informs Sally that Joe is a valued Rewards and Loyalty points member, and it is able to provide other AI-generated insights such as the Customer Lifetime Value score, Churn Risk, and the segments Joe is a member of. Armed with a wealth of customer data, Sally is able to engage Joe and upsell Joe on their new product. Business Value: Agents give your marketing, sales, and service teams essential insights and can automate many business processes. But agents are only as good as the data they work with. When you give them access to customer insights that unify your customer data sources, you can get more valuable and actionable insights that enable organizational efficiencies that you couldn't achieve before. Now, more insights generated by Customer Insights - Data can be leveraged from within Microsoft Copilot Studio, allowing you to turn insights into a powerful business asset. Copilot Studio, and even your own custom copilots created in Microsoft Copilot Studio, can now simply and easily get access to more insights, allowing agents to understand, share, analyze, and act on these insights. Every team member gets tailored information and tools to reach their goals efficiently. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/mcp-server-tools GA date: November CY2026 Preview date: June CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Insights - Data: Agents and Copilot - 顧客インサイトを活用したAIの精度向上",
+    "summary_ja": "Customer Insights MCPサーバーにより、AIエージェントやチャット体験がCustomer Insights - Dataの統合プロファイルやインサイトにアクセスできるようになります。標準のMCPアーキテクチャを使用してデータを安全に共有し、Microsoft Copilot Studioなどでより正確なビジネスインサイトや予測データを活用可能にします。管理、作成、マーケティング担当者向けに自動的に有効化されます。",
     "changes": [
-      "Copilot impact dashboardに「Industry comparison」セクションを追加",
-      "エンタープライズおよび非エンタープライズ組織がCopilotの採用状況や活用度を業界の集約ベンチマークと比較可能に"
+      "Customer Insights MCPサーバーの導入により、AIエージェントがDataverseの連絡先やリードを統合顧客プロファイルに解決可能になります。",
+      "外部ソースからの拡張顧客情報や、算出された測定値、セグメント情報をAIツールが取得できるようになります。",
+      "Customer Lifetime Value（CLV）やチャーンリスクなどの予測インサイトへのアクセスを提供します。",
+      "Microsoft Copilot Studioおよびカスタムコピロットから、Customer Insights - Dataのインサイトを利用できるようになります。"
     ],
     "target_user": [
-      "Enterprise",
-      "Organization"
+      "admins",
+      "makers",
+      "marketers"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-23T00:23:18Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-10-23T00:23:15Z"
+    "processed_at": "2026-10-23T09:05:38Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:36Z"
   },
   {
-    "id": "github-copilot-cli-420944485",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.103",
-    "published_at": "2026-10-22T16:21:56Z",
-    "title_original": "GitHub Copilot CLI v1.0.103",
-    "excerpt_original": "2026-10-22 - Clicking a completed response code block copies its original code when enabled. - ACP sessions now honor saved sandbox settings and --sandbox/--no-sandbox flags, including on resume. - Cloud replies keep full text when the CLI reconnects after a dropped connection - Sessions browser shows a session's recorded title instead of a generic Session N fallback when available - Model-specific default Responses verbosity now applies correctly for GPT-5 models unless session verbosity is explicitly set - Allow dnx commands to use existing .NET and NuGet sandbox grants when developer-tool access is enabled - Windows dev-tool shims like npm.cmd now receive the same sandbox grants as npm. - Gemini tool calls now avoid 400 schema validation errors for nullable and enum fields - Resume sessions under mandatory managed model defaults without rejecting saved preferences - Hash mention suggestions refresh automatically when the GitHub client becomes ready - Reuse cached local MCP tool snapshots across registered Git worktrees in one repository - Improve remote launch options with clearer hosting/connection flags and retire legacy --remote/--no-remote startup flags",
-    "product": "GitHub Copilot CLI",
-    "status": "Release",
+    "id": "m365-roadmap-f5c85dca531fca70e997",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577801",
+    "published_at": "2026-10-22T23:45:45Z",
+    "title_original": "[Roadmap] Dynamics 365 Contact Center: Administrator experiences - Use enhanced customer-first direct callbacks",
+    "excerpt_original": "Customer-first direct callback introduces a configurable, AI-powered experience managed through \"callback profiles\" in the Copilot Service admin center. Administrators define a callback profile—including greeting message, alternate number capture, callback offering window, retry logic, and AI agent selection—and associate it with queues under overflow handling. For each queue where direct callback is chosen as an overflow action, the administrator also must select a callback profile to ensure a customized callback experience for the queue. Business Value: Customer-first direct callback gives you a smarter way to manage customer calls. Instead of making customers wait on hold, the system initiates a callback the moment they reach the front of the line, so that they never lose their place. A prebuilt AI agent captures callback details. You can use your own AI agent to run custom workflows like customer verification. Your representatives join the call only when the customer is ready, saving time, reducing missed calls, and boosting productivity. Enabled for: Enabled by admins/makers/marketers for end users GA date: August CY2026",
+    "product": "Dynamics 365 Contact Center / Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Contact Center: 管理者向け機能 - 拡張されたカスタマーファースト直接コールバックの利用",
+    "summary_ja": "Copilot Service管理センターの「コールバックプロファイル」を通じて設定可能な、AIを活用したカスタマーファースト直接コールバック機能が導入されます。管理者は挨拶メッセージやリトライロジックなどを定義したプロファイルを作成し、キューのオーバーフロー処理に関連付けることができます。これにより、顧客は待ち行列の先頭に達した時点でコールバックを受け取ることができ、担当者は顧客の準備が整った段階で通話に参加可能となります。",
+    "changes": [
+      "Copilot Service管理センターで挨拶メッセージやリトライロジックを含む「コールバックプロファイル」の設定が可能になりました。",
+      "キューのオーバーフロー処理のアクションとして直接コールバックを選択し、コールバックプロファイルを関連付けられるようになりました。",
+      "事前構築済みAIエージェントまたはカスタムAIエージェントを使用して、顧客検証などのカスタムワークフローを実行できるようになりました。"
+    ],
+    "target_user": [
+      "Administrators",
+      "Makers",
+      "Marketers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T09:05:40Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:38Z"
+  },
+  {
+    "id": "m365-roadmap-2f3dd1d2d84c37a11dc8",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577819",
+    "published_at": "2026-10-22T23:45:45Z",
+    "title_original": "[Roadmap] Dynamics 365 Customer Service: Copilot and AI innovation - View next best actions with Customer Intent Agent",
+    "excerpt_original": "An administrator can enable this feature for the entire organization in the Customer Service admin center. Turning on next best actions populates the Copilot pane with actions that service representatives can use. Important case attributes are consolidated in one place as the representative gathers information through back-and-forth exchanges with the customer. Knowledge articles are suggested so representatives can dig deeper and understand the reasoning behind the recommendations. Business Value: Next Best Action (NBA) allows service representatives to perform a suite of Copilot-powered actions in one click. These actions include, but aren't limited to, drafting emails, updating knowledge articles, updating case notes, and more. Enabled for: Enabled by admins/makers/marketers for end users GA date: August CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Service: Customer Intent Agentによる次の最善のアクション表示機能",
+    "summary_ja": "管理者はCustomer Service管理センターで組織全体向けに機能の有効化が可能で、有効化するとCopilotペインに担当者が利用できるアクションが表示されます。顧客とのやり取りを通じて重要なケース属性が1か所に集約され、担当者が推奨事項の背景を理解するためのナレッジ記事が提案されます。担当者はワンクリックでメール作成やナレッジ記事・ケースノートの更新など、Copilotを活用した一連のアクションを実行できるようになります。",
+    "changes": [
+      "管理者が組織全体向けに機能を有効化することで、Copilotペインに次の最善のアクションが表示される",
+      "顧客との情報収集のやり取りを通じて、重要なケース属性が1か所に集約される",
+      "推奨事項の背景理解を深めるためのナレッジ記事が提案される",
+      "メールの下書き作成、ナレッジ記事の更新、ケースノートの更新などのCopilotを活用したアクションをワンクリックで実行可能"
+    ],
+    "target_user": [
+      "Administrator",
+      "Service representative"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T09:05:41Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:40Z"
+  },
+  {
+    "id": "m365-roadmap-50814f617bd855f02e7f",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577817",
+    "published_at": "2026-10-22T23:45:43Z",
+    "title_original": "[Roadmap] Dynamics 365 Supply Chain Management: Copilot and AI innovation - Analyze demand using generative insights for better planning",
+    "excerpt_original": "Generative insights for Demand planning in Dynamics 365 Supply Chain Management help you analyze sales history and forecast data across dimensions like product and location. With general availability, generative insights now include a new metric: trends . The system dynamically clusters data based on detected patterns, such as high trending , medium trending , relative flat , and declining trend . You can view aggregated values by selected dimensions or drill down into detailed values for each planning object. Business Value: Generative insights in Demand planning help you identify patterns like seasonality, trends, and signal correlations to improve forecast accuracy. By clustering data dynamically, you can make better decisions, optimize inventory, and reduce costs from overstocking or stockouts. These insights help you meet customer demand, improve service levels, and gain a competitive edge. Enabled for: Enabled for end users automatically More info: https://learn.microsoft.com/en-us/dynamics365/supply-chain/demand-planning/generative-insights GA date: January CY2027",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Supply Chain Management: 需要計画における生成AIインサイトの機能拡張",
+    "summary_ja": "Dynamics 365 Supply Chain Managementの需要計画における生成AIインサイトが一般提供（GA）され、新たにトレンドに関する指標が追加されました。システムは検出されたパターンに基づいてデータを動的にクラスタリングし、売上履歴や予測データの分析を支援します。これにより、予測精度の向上や在庫の最適化、過剰在庫・品切れによるコスト削減が可能になります。",
+    "changes": [
+      "生成AIインサイトに「トレンド」に関する新しい指標を追加",
+      "高トレンド、中トレンド、ほぼ横ばい、下降トレンドなどの検出パターンに基づいてデータを動的にクラスタリング",
+      "選択したディメンションごとの集計値の表示や、各計画オブジェクトの詳細値へのドリルダウンに対応",
+      "エンドユーザー向けに自動的に有効化"
+    ],
+    "target_user": [
+      "End Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T09:05:42Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:41Z"
+  },
+  {
+    "id": "m365-roadmap-cda1888513ee3ca84bd1",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577815",
+    "published_at": "2026-10-22T23:45:41Z",
+    "title_original": "[Roadmap] Microsoft Dataverse: Enable AI powered business workflows in Work IQ with Dataverse - Build Dataverse solutions with coding agents using Dataverse skills",
+    "excerpt_original": "Build Dataverse solutions by using coding agents with natural language prompts. For example, \"I'm building a recruiting system for Zava Construction. I need tables for Positions, Candidates, Interviewers, Interviews, and Feedback - with lookups, a many-to-many relationship between Candidates and Positions, and a self-referential interview chain. Create everything in a Zava Recruiting solution, load sample data, and show me which candidates are currently interviewing.\" From this prompt, the agent autonomously: Discovers your Dataverse environment and configures MCP. Creates the solution by using the Microsoft Power Platform CLI. Builds five tables with choice columns, lookups, and a many-to-many relationship. Generates and runs a Python script to bulk-load realistic sample data. Queries across tables to answer your business question. No skill names. No tool flags. No context switching between docs, CLI, and scripts. The agent handles the orchestration end-to-end. Business Value: By using coding agents, you can eliminate the need to manually create Microsoft Dataverse tables and solutions through the UI. Dataverse skills guide coding agents to connect to your environment and build solutions by using tables, relationships, forms, and views. This process also includes creating sample data. Enabled for: Enabled by admins/makers/marketers for end users More info: https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-business-skills GA date: February CY2027 Preview date: June CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Dataverse: Dataverseスキルを活用したコーディングエージェントによるビジネスワークフローおよびソリューション構築機能",
+    "summary_ja": "Microsoft Dataverseにおいて、自然言語のプロンプトを使用するコーディングエージェントにより、テーブルやソリューションの構築を自動化できるようになります。エージェントは環境の検出、Microsoft Power Platform CLIを用いたソリューション作成、サンプルデータのロードなどを一貫して処理します。これにより、UIを通じた手動での作成作業が不要になります。",
+    "changes": [
+      "自然言語のプロンプトによるコーディングエージェントを活用したDataverseソリューションの構築",
+      "Microsoft Power Platform CLIを通じたソリューションやテーブル、リレーションシップの自動作成",
+      "Pythonスクリプトによるリアルなサンプルデータのバルクローディングとデータのクエリ実行",
+      "Dataverseスキルによる環境への接続と一連のプロセスエンドツーエンドのオーケストレーション"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers",
+      "end users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T09:05:44Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:42Z"
+  },
+  {
+    "id": "m365-roadmap-d6797c14e8b68b5ab96f",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577813",
+    "published_at": "2026-10-22T23:45:38Z",
+    "title_original": "[Roadmap] Power Pages: Power Pages Copilot - Use Power Pages MCP server capabilities",
+    "excerpt_original": "Power Pages MCP server enables makers to expose site data and operations through a secure, standardized interface compatible with AI clients. In the public preview release, makers can enable Create, Read, Update, Delete (CRUD) operations via the site’s Web API layer without writing custom code. Makers can provision the MCP server endpoint through site settings, allowing customers to securely interact with site data or perform operations using natural language queries through popular AI chat clients. Business Value: Power Pages MCP server empowers you to transform site data and operations into structured tools for AI assistants, enabling natural language interactions for updates and queries. This means faster workflows, less manual effort, and improved user experiences, helping your teams save time and stay productive. Enabled for: Enabled by admins/makers/marketers for end users More info: https://learn.microsoft.com/en-us/power-pages/configure/mcp-overview GA date: January CY2027 Preview date: January CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Power Pages Copilot: Power Pages MCPサーバー機能の利用",
+    "summary_ja": "Power Pages MCPサーバーは、AIクライアントと互換性のある安全で標準化されたインターフェイスを通じて、サイトのデータと操作を公開できるようにします。パブリックプレビューでは、カスタムコードを書くことなく、Web API層を介したCRUD操作を有効化し、AIチャットクライアントからの自然言語クエリによる安全なデータ操作が可能になります。",
+    "changes": [
+      "Power Pages MCPサーバーにより、サイトデータと操作をAIアシスタント向けの構造化されたツールとして公開可能",
+      "カスタムコードなしでWeb API層を介したCRUD操作をパブリックプレビューで有効化",
+      "サイト設定を通じてMCPサーバーのエンドポイントをプロビジョニングし、自然言語によるデータ操作を実現"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers",
+      "end users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T09:05:45Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:44Z"
+  },
+  {
+    "id": "m365-roadmap-7d171ca4c4c536b8f28e",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577808",
+    "published_at": "2026-10-22T23:45:32Z",
+    "title_original": "[Roadmap] Dynamics 365 Contact Center: Administrator experiences - Use Service Operations Agent to accelerate setup, onboard, and verify config changes",
+    "excerpt_original": "Service Operations Agent in the Copilot Service admin center delivers a unified, conversational experience for configuring Dynamics 365 Contact Center. Administrators use conversational setup and orchestration in Service Operations Agent to streamline setup tasks—configure channels, voice settings, Teams Phone extensibility, and knowledge sources. Through the same single guided assistant, administrators also set up route-to-queue rules and assignment strategies for queues and AI agents—automating and optimizing queue management and agent assignments to drive operational efficiency. With Service Operations Agent, admins can: Generate and validate configurations in real time. Surface diagnostics and actionable insights. Receive clear explanations for recommendations and setup choices. By consolidating fragmented configuration workflows, Service Operations Agent reduces errors, shortens deployment timelines, and simplifies onboarding for customers and partners. Business Value: Service Operations Agent is an AI-powered assistant that empowers admins to simplify configuration, speed up onboarding, and ensure continuous validation of changes. By leveraging conversational setup and intelligent automation, the agent eliminates manual complexity, enabling faster deployments, reducing errors, and providing real-time feedback on every change. Designed for enterprise-scale reliability, Service Operations Agent supports seamless transitions, proactive monitoring, and compliance-ready operations. Enabled for: Enabled for admins/makers/marketers automatically More info: https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/use-service-operations-agent GA date: July CY2026 Preview date: April CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Contact Center: Service Operations Agentによる管理者体験の向上",
+    "summary_ja": "Copilot Service admin centerに導入されるService Operations Agentは、Dynamics 365 Contact Centerの設定プロセスを統合する会話型AIアシスタントです。管理者は会話形式のセットアップを通じて、チャネル、音声設定、Teams Phoneの拡張性、ナレッジソース、ルーティング規則などの構成を効率化できます。また、リアルタイムでの設定検証や診断情報の提示、推奨事項の解説機能により、導入の迅速化とエラー削減を支援します。",
+    "changes": [
+      "会話型セットアップとオーケストレーションによるチャネル、音声設定、Teams Phone拡張性、ナレッジソースの構成",
+      "route-to-queueルールやキュー・AIエージェントの割り当て戦略の迅速な設定",
+      "リアルタイムでの設定の生成と検証、診断情報および実用的なインサイトの提供",
+      "推奨事項やセットアップ選択肢に対する明確な解説の提示"
+    ],
+    "target_user": [
+      "admins",
+      "makers",
+      "marketers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T09:05:46Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:45Z"
+  },
+  {
+    "id": "m365-roadmap-b9c836844542cbbcdac2",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577807",
+    "published_at": "2026-10-22T23:45:32Z",
+    "title_original": "[Roadmap] Dynamics 365 Field Service: Optimize resource scheduling - Optimize schedules with Scheduling Operations Agent",
+    "excerpt_original": "Dispatchers often spend considerable time and energy reviewing and adjusting each technician's schedule as conditions change throughout the workday: A technician has one or more cancellations in the afternoon. To fill the open slots, what requirements optimally keep promise windows, prefer high-priority work, and locate work around the same neighborhoods that the technician is due to travel to? A technician is running over the planned time for the current booking. As a result, they're late for the next booking, and the delay might cascade to subsequent bookings. How do you best adjust the bookings for the remainder of the day? A technician recovers from illness sooner than expected and is now available for work earlier than planned. What's the best way to schedule work for them when they return? A technician’s schedule contains a lot of low-priority work that isn't due for weeks. How can you improve the schedule with work that better meets desired business goals? A technician’s schedule for the day is built manually or with the schedule assistant. How can you rearrange the schedule so that the resource’s travel time is reduced? In each case, the dispatcher needs to assess the situation, determine which business goals apply, and then update the schedule manually, one booking at a time. With this release of the Scheduling Operations Agent, dispatchers can ask Copilot to provide the best schedule for the affected technician. Within seconds, the dispatcher gets a suggested schedule for review and can apply the updates. You can direct Copilot to optimize for the business goal you want, such as maximizing technician usage or work order priority. Copilot intelligently chooses among existing bookings and new unfulfilled work orders based on factors like skillset match, territories, and customer promise windows. Users can access the feature from the Copilot side pane anywhere within the Dynamics 365 Field Service application. Business Value: The Scheduling Operations Agent for Dynamics 365 Field Service enables dispatchers to quickly and easily optimize schedules for technicians as conditions change throughout the workday, so they can significantly improve their productivity. Dispatchers can ask Copilot to optimize schedules and address issues such as traffic delays, double bookings, or last-minute cancellations that often result in conflicts, gaps, or idle time in a technician's schedule. Instruct Copilot to achieve the desired business objective, such as maximizing technician usage or work order priority while considering factors like skillset match, territories, and promised time windows. Enabled for: Enabled by admins/makers/marketers for end users More info: https://learn.microsoft.com/en-us/dynamics365/field-service/soa-overview GA date: March CY2027 Preview date: June CY2025",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Field Service: Scheduling Operations Agentによるリソーススケジュールの最適化",
+    "summary_ja": "Dynamics 365 Field ServiceにScheduling Operations Agentが導入され、ディスパッチャーはCopilotに依頼して日々のスケジュール変更に応じた最適なスケジュール案を迅速に得ることができるようになります。Copilotは、スキルセットの一致、担当地域、顧客との約束時間などの要因を考慮し、技術者の稼働率最大化や優先度の高い作業などのビジネス目標に合わせてスケジュールを最適化します。本機能により、急なキャンセルや遅延などの状況変化に対する手動での調整作業が軽減され、ディスパッチャーの生産性が向上します。",
+    "changes": [
+      "Copilotを利用して、状況の変化に応じた技術者のスケジュールを最適化する機能の追加",
+      "技術者の稼働率向上や作業指示の優先度などのビジネス目標に合わせたスケジュールの調整",
+      "スキルセット、担当地域、約束時間などの条件に基づいた既存の予約と未割り当て作業のインテリジェントな選定",
+      "Dynamics 365 Field Serviceアプリケーション内のCopilotサイドペインからのアクセスに対応"
+    ],
+    "target_user": [
+      "Dispatchers",
+      "Admins",
+      "Makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-23T09:05:48Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-23T09:05:46Z"
+  },
+  {
+    "id": "m365-roadmap-db854d362769689471df",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577788",
+    "published_at": "2026-10-22T23:45:24Z",
+    "title_original": "[Roadmap] Dynamics 365 Contact Center: Unified routing - Orchestrate conversation distribution with natural language playbooks",
+    "excerpt_original": "Conversation orchestration in Dynamics 365 Contact Center keeps every conversation actively managed throughout its lifecycle, from initiation through resolution. Instead of applying fixed rules at different stages of a conversation journey, conversation orchestration monitors each conversation as conditions evolve, like wait time increases, fast-filling queues, or service representatives going offline, and responds automatically with the right action. For example, administrators can define the intent using natural-language playbooks as follows: \"If a premium customer waits for more than three minutes and no senior agents are available, increase their priority and offer a callback.\" Conversation orchestration then handles how it's run in real time. You can configure playbooks per scenario through guided templates that keep instructions focused and reliable. Built-in validation catches conflicts before anything goes live, so that you confidently publish changes without needing to test every edge case manually. The key capabilities are as follows: Dynamic priority escalation : In traditional systems, conversation priority is typically set once, at entry, and never revisited. This means a customer who has been waiting for 10 minutes competes for the same expert as another customer who has just arrived, and a conversation that’s transferred mid-journey resets to whatever the new queue's default priority is. Dynamic priority escalation fixes this by continuously re-evaluating priority as the conversation progresses. You define the conditions such as wait time thresholds, queue transfers, customer tier, or other context and conversation orchestration adjusts priority automatically throughout the conversation lifecycle. High-value or long-waiting customers move forward without anyone watching the queue manually. Overflow handling across multiple conditions : Conversation orchestration supports a broader set of business triggered overflow conditions, allowing organizations to respond intelligently as queue conditions change. Administrators can define actions when a queue is outside operating hours, when all representatives in a queue are signed out or unavailable, when queue wait time exceeds a defined threshold, or when the number of waiting conversations surpasses a specified limit. Depending on the situation, orchestration can automatically offer callbacks, route conversations to alternate queues, expand assignment eligibility, notify supervisors, or deliver contextual customer messages. This ensures customers are never left waiting without a defined path forward. Admins can also configure overflow handling for direct inward dial calls now, when reps are not available or don't accept the calls. Assign to a previously engaged or preferred representative : Customers often need to repeat information when they are connected to a new representative for every interaction. Conversation orchestration helps maintain continuity by reconnecting customers with previously engaged or preferred representatives whenever possible. Assignment decisions take into account historical interactions, queue membership alignment, representative availability, and workload capacity. For asynchronous conversations, organizations can choose to honor representative presence status and active conversation limits before reconnecting customers, ensuring returning conversations are assigned only when the preferred representative has capacity to engage. When the preferred or previously engaged representative is unavailable, conversations seamlessly fall back to the next best qualified representative. This reduces customer effort, improves resolution efficiency, and delivers a more personalized support experience. Bullseye routing : Finding the right representative often requires balancing expertise with response times. Bullseye routing enables organizations to gradually expand the pool of eligible representatives when a conversation isn't assigned within a defined timeframe. Administrators can define progressive routing rings that begin with the most qualified representatives and then expand to broader groups based on skills, proficiency levels, teams, or other business criteria. This approach maximizes the likelihood of connecting customers with the best-qualified representative while ensuring conversations don't wait indefinitely for a specific resource. These capabilities are the first in a broad and growing set of orchestration scenarios that conversation orchestration will support across the full conversation lifecycle, spanning overflow management, priority handling, assignment strategies, in-conversation messaging, and escalation. Each new capability builds on the same natural-language playbook foundation, so organizations can adopt new scenarios without rebuilding what they have already configured. Business Value: Traditional automatic conversation distribution systems rely on complex rules and static configuration that are difficult to maintain and can't adapt as conditions change throughout the conversation lifecycle. Unified routing with its new AI-powered conversation orchestration uses the power of agentic AI to continuously monitor events throughout the entire conversation lifecycle and responds with the right action when required. This is a shift from a static system to an orchestration layer that remains active and intelligent from the moment a conversation arrives in a queue until it's resolved. The new feature reduces administrative complexity and helps deliver more flexible customer experiences at scale, even under fluctuating demand. Enabled for: Enabled by admins/makers/marketers for end users More info: https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/configure-conversation-orchestration GA date: October CY2026 Preview date: April CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
     "title_ja": "",
     "summary_ja": "",
     "changes": [],
@@ -7778,206 +8293,8 @@
     "importance": "low",
     "translated": false,
     "processed_at": null,
-    "source_id": "github-copilot-cli",
-    "family": "github"
-  },
-  {
-    "id": "m365-roadmap-d4a27daeb3b279d49f61",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577418",
-    "published_at": "2026-10-22T22:58:40Z",
-    "title_original": "[Roadmap] Dynamics 365 Customer Insights - Journeys: Create journeys in minutes with Journey Creation Agent",
-    "excerpt_original": "You simply describe in everyday words what you want to create and the Journey Creation Agent builds the journey for you. With Journey Creation Agent, you can: Use an AI-powered, guided experience for optimized outcomes. Build in minutes with no technical jargon, complex setup, or cold start. Use natural language to describe the journey you want to create. Drive results–the agent interprets your goal and asks relevant follow-up questions to refine your intent and ensure accuracy. Scenario A campaign manager wants to re-engage inactive customers but has no time to build a journey from scratch. The manager simply types, “Send a re-engagement email to customers who haven’t purchased in 90 days, follow up with a reminder with a discount.” The journey is instantly generated, with the right audience, content, and structure. More info: https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/journey-creation-agent GA date: April CY2027 Preview date: June CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Journey Creation Agentによる素早いジャーニー作成",
-    "summary_ja": "Dynamics 365 Customer Insights - JourneysにJourney Creation Agentが導入されます。ユーザーは日常的な言葉で説明するだけで、AIを活用したガイド付きエクスペリエンスを通じて、数分でジャーニーを作成できるようになります。エージェントが目標を解釈し、適切なフォローアップの質問を行って意図を洗練させます。",
-    "changes": [
-      "日常的な言葉を用いた自然言語によるジャーニー作成機能の追加",
-      "AIを活用したガイド付きエクスペリエンスによる最適化された結果の提供",
-      "複雑な設定や技術的な専門用語を必要とせず、数分でジャーニーを構築可能",
-      "エージェントによる目標の解釈と、精度を高めるための関連するフォローアップ質問の実施"
-    ],
-    "target_user": [
-      "Campaign Manager",
-      "Dynamics 365 Users"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-23T00:22:55Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-23T00:22:54Z"
-  },
-  {
-    "id": "m365-roadmap-385e6a2993be3fbec6b1",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577417",
-    "published_at": "2026-10-22T22:58:40Z",
-    "title_original": "[Roadmap] Dynamics 365 Customer Insights - Journeys: Improve engagement and message timing with Outreach Optimization Agent",
-    "excerpt_original": "Add the Outreach Optimization Agent to your journey, select the emails you want delivered, and let the agent handle timing and cadence automatically. With Outreach Optimization Agent, you can: Start with an intelligent baseline : Outreach Optimization Agent automatically creates a baseline messaging plan for your audience by analyzing overall historical engagement patterns, producing a smart, generic plan that is designed to work well for most customers before any individual optimization kicks in. Listen to incoming interactions and adapt the plan in real time : The agent continuously monitors incoming signals, including engagement and non-responsiveness, and adjusts follow-up timing and cadence, or exits the plan based on whether the goal is progressing or has been achieved. Respect quiet times : The agent enforces quiet time settings as a hard constraint, ensuring that messages are never sent outside approved communication windows, even if engagement data suggests otherwise. Scenario A global retail brand uses Outreach Optimization Agent in a seasonal campaign to re-engage customers. Unlike previous efforts with fixed schedules and repeated reminders, the agent creates a smart baseline plan, then adjusts message timing for each customer based on their engagement. It slows or stops follow-ups when customers show interest and spaces out reminders for unresponsive customers, all while respecting quiet times and consent. This leads to better engagement and less message fatigue, with minimal manual intervention. More info: https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/outreach-optimization-agent GA date: April CY2027 Preview date: July CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Outreach Optimization Agentによるエンゲージメントとメッセージ配信タイミングの改善",
-    "summary_ja": "Dynamics 365 Customer Insights - JourneysにOutreach Optimization Agentが追加されます。このエージェントは、過去のエンゲージメントパターンに基づいてスマートなベースラインプランを作成し、リアルタイムの反応に応じてメッセージのタイミングや頻度を自動調整します。また、承認された通信時間外の送信を防ぐクワイエットタイムの設定を厳格に適用します。",
-    "changes": [
-      "過去のエンゲージメントパターンを分析し、インテリジェントなベースラインのメッセージングプランを自動作成する機能の追加",
-      "受信するインタラクションを継続的に監視し、フォローアップのタイミングや頻度をリアルタイムで調整、またはプランを終了する機能の追加",
-      "承認された通信時間外にメッセージが送信されないよう、クワイエットタイム設定をハード制約として適用する機能の追加"
-    ],
-    "target_user": [
-      "マーケティング担当者",
-      "カスタマーインサイト管理者"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-23T00:22:57Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-23T00:22:55Z"
-  },
-  {
-    "id": "m365-roadmap-8ab05acf7c33214306bc",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577405",
-    "published_at": "2026-10-22T22:58:40Z",
-    "title_original": "[Roadmap] Dynamics 365 Commerce: Author Commerce receipt formats with Copilot Cowork",
-    "excerpt_original": "Use natural language in Copilot Cowork to create, update, translate, and check Commerce receipt layouts using existing formats in headquarters. The Commerce receipt format designer skill lets authorized users work with receipt layouts through natural-language requests in Copilot Cowork, using receipt configuration in Dynamics 365 Commerce headquarters. It applies to receipt formats used by Store Commerce point of sale (POS). Users can: Create and adapt formats: Start from an existing format in the modern Receipt designer representation, create a new format, or request changes to an existing target. Edit receipt sections: Modify header, line, and footer content, field positions, alignment, and supported formatting. Translate and personalize content: Translate static labels and add user-supplied text while preserving dynamic fields. Missing business details are identified rather than invented. Check layouts without changing them: Request structural or geometry checks that identify overlaps, width violations, and truncation risks, with findings and suggested remediation. Verify saved changes: Review the resulting format and changes, with saved configuration re-read to confirm the requested update. Creating a format from a source preserves that source. The skill is available automatically to authorized Copilot Cowork users. Users describe the source format and desired outcome, resolve any source or target ambiguity, and review the results. A Commerce administrator ensures appropriate headquarters access and that the source format is available in the modern structured representation. Structural checks do not establish visual appearance, barcode scanability, runtime values, or legal and fiscal compliance. Users review the layout in the Receipt designer and perform appropriate test printing before operational use. Assigning formats to receipt profiles or printers and printing or reprinting transactions are separate setup and operational workflows. GA date: December CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Commerce: Copilot Coworkによるコマースレシートフォーマットの作成",
-    "summary_ja": "Copilot Coworkにおいて自然言語を使用して、Dynamics 365 Commerceの本部にある既存フォーマットを活用したレシートレイアウトの作成、更新、翻訳、確認が行えるようになります。Store CommerceのPOSで使用されるレシートフォーマットが対象となり、認可されたユーザーは自然言語の指示を通じてレイアウトを操作できます。プレビューは2026年10月に開始され、一般提供（GA）は2026年12月を予定しています。",
-    "changes": [
-      "自然言語によるレシートフォーマットの新規作成および既存フォーマットの変更が可能",
-      "ヘッダー、行、フッターの内容、フィールド位置、配置、フォーマットの編集に対応",
-      "動的フィールドを維持したまま、静的ラベルの翻訳やテキストの追加が可能",
-      "レイアウトの構造的または幾何学的チェックを行い、重なりや幅の違反などを特定して修正案を提示",
-      "保存された設定を再読み込みして更新内容の確認が可能"
-    ],
-    "target_user": [
-      "Authorized Copilot Cowork users",
-      "Commerce administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-23T00:22:58Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-23T00:22:57Z"
-  },
-  {
-    "id": "m365-roadmap-a2252d97ff8e1fa743d0",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577399",
-    "published_at": "2026-10-22T22:58:40Z",
-    "title_original": "[Roadmap] Microsoft Teams: Enhanced Copilot and AI controls for meetings",
-    "excerpt_original": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios. GA date: November CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft Teams：会議における Copilot および AI コントロールの強化",
-    "summary_ja": "Microsoft Teamsの会議向けに、CopilotとAI体験に関するコントロール機能が強化されます。会議の主催者はAIの有効化とアクセス権を管理でき、IT管理者は会議中および会議後のAIを統制するためのシンプルなポリシーモデルを利用できるようになります。これらのアップデートにより、予測可能な管理と、コンプライアンスやガバナンスにおける柔軟性が向上します。",
-    "changes": [
-      "主催者によるAIの有効化とアクセス権の管理機能の提供",
-      "IT管理者向けの、会議および会議後におけるAI統制用シンプルポリシーモデルの導入",
-      "予測可能な管理体制と、コンプライアンスおよびガバナンスシナリオにおける柔軟性の向上"
-    ],
-    "target_user": [
-      "会議主催者",
-      "IT管理者"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-23T00:23:02Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-23T00:22:58Z"
-  },
-  {
-    "id": "m365-roadmap-20dd090c7ef2077af3ab",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577173",
-    "published_at": "2026-10-22T22:58:40Z",
-    "title_original": "[Roadmap] Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
-    "excerpt_original": "Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment. GA date: November CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] TeamsおよびLMSの課題におけるCopilotスタータープロンプトの提供",
-    "summary_ja": "教育者は、Microsoft TeamsやLMS（学習管理システム）の課題において、Student AI GuidelinesからCopilotのスタータープロンプトを提供できるようになります。これにより、学生は教育者が用意した課題に合わせた指示があらかじめ入力された状態のチャットでCopilotを開くことが可能になります。本機能は2026年10月にプレビュー版が提供され、2026年11月に一般提供（GA）が予定されています。",
-    "changes": [
-      "教育者がTeamsおよびLMSの課題でCopilotスタータープロンプトを提供可能になる",
-      "学生が課題に合わせた指示があらかじめ入力された状態でCopilotを開けるようになる"
-    ],
-    "target_user": [
-      "Educators",
-      "Students"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-23T00:23:04Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-23T00:23:02Z"
-  },
-  {
-    "id": "m365-roadmap-80e6b1b7b08eda2cace6",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575289",
-    "published_at": "2026-10-22T22:58:40Z",
-    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Sales Development Agent - Meeting scheduling",
-    "excerpt_original": "Sales Development Agent can turn a prospect’s interest in meeting into a booked seller meeting. The agent asks the prospect to provide preferred dates and times, evaluates those options against the appropriate seller’s calendar, and books the first valid option in the prospect’s stated preference order. The seller and prospect receive the meeting invitation, while the seller receives additional conversation context to support a warm handoff. If scheduling cannot be completed, the agent transfers the request and relevant context to the seller for follow-up. GA date: November CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Sales Development Agentによるミーティングスケジューリング機能",
-    "summary_ja": "Microsoft 365 CopilotのSales Development Agentが、見込み客とのミーティング調整を自動化する機能を追加します。Agentは希望日時の確認や販売者のカレンダー評価を行い、条件に合う初回の日時を自動予約します。予約完了時には双方へ招待が送信され、販売者には引き継ぎ用の文脈情報が提供されます。",
-    "changes": [
-      "見込み客の希望日時の取得と販売者のカレンダー確認によるミーティングの自動予約",
-      "予約成功時の双方への招待送信と、販売者への追加の会話コンテキストの提供",
-      "スケジューリング不可時の販売者へのリクエストおよび関連コンテキストの引き継ぎ"
-    ],
-    "target_user": [
-      "Sales professionals",
-      "Sellers"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-23T00:23:06Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-23T00:23:04Z"
-  },
-  {
-    "id": "m365-roadmap-bad2e0550466771f858e",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573294",
-    "published_at": "2026-10-22T22:58:40Z",
-    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Enable semantic model in Sales agent",
-    "excerpt_original": "Semantic model helps Sales Agent understand the structure and meaning of an organization’s CRM data. It creates a connected representation of CRM metadata, including tables or objects, fields, descriptions, data types, relationships, views, pick-list values, and glossary terms. Sales Agent can retrieve this context when responding to questions, improving its ability to interpret business language and answer complex questions that span related CRM records. Dynamics 365 admins can enable and turn on semantic model in Power Apps Maker Portal and configure the data coverage and signals that Sales Agent should use. Admins can configure the underlying data, views, metadata and relationships used in the model. For Salesforce customers, the semantic model will be based on existing Sales agent table and glossary configuration in Sales agent settings or Power Apps Maker Portal. In Power Apps Maker Portal, Salesforce admins will can configure additional Salesforce signals to use in semantic model such as relationships and views. More info: https://learn.microsoft.com/en-us/power-apps/maker/data-platform/semantic-model-overview GA date: November CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Sales agentにおけるセマンティックモデルの有効化",
-    "summary_ja": "Sales agentが組織のCRMデータの構造と意味を理解するためのセマンティックモデル機能が追加されます。管理者はPower Apps Maker Portal等を使用して、モデルのデータ範囲、メタデータ、関係性などを設定・有効化できます。これにより、ビジネス用語の解釈力と複雑な質問への回答能力が向上します。",
-    "changes": [
-      "Sales agentがCRMデータのメタデータや関係性などのコンテキストを利用して質問に回答できるようになる",
-      "Dynamics 365管理者はPower Apps Maker Portalでセマンティックモデルを有効化し、データ範囲やシグナルを設定できる",
-      "Salesforce利用者の場合、既存のSales agentの設定やPower Apps Maker Portalを通じて追加のシグナルを設定可能になる"
-    ],
-    "target_user": [
-      "Administrators",
-      "Dynamics 365 Admins",
-      "Salesforce Admins"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-23T00:23:09Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-23T00:23:06Z"
+    "family": "microsoft365"
   }
 ]

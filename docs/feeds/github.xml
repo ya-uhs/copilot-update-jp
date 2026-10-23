@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:23:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:05:48 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot in Visual Studio 9月アップデート</title>
+      <link>https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2</link>
+      <guid isPermaLink="false">github-changelog-a45f5dfbc3465c866620</guid>
+      <pubDate>Fri, 23 Oct 2026 00:17:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;2026年9月のGitHub Copilot in Visual Studioのアップデートにより、チャット画面から直接プルリクエストの確認や、チームで信頼されているAIモデルの利用、脆弱なパッケージの即座の修正が可能になりました。開発作業における可視性と効率性が向上しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;チャットを離れることなくプルリクエストを探索可能に&lt;/li&gt;&lt;li&gt;チームが信頼するAIモデルの利用に対応&lt;/li&gt;&lt;li&gt;Visual Studioが検知した脆弱なパッケージの即時修正機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>利用状況メトリクスAPIにおけるカスタムスキル、エージェント、MCPサーバーのサポート</title>
       <link>https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api</link>
