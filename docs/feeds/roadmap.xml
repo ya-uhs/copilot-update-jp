@@ -5,9 +5,79 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:25:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:23:18 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Journey Creation Agentによる素早いジャーニー作成</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577418</link>
+      <guid isPermaLink="false">m365-roadmap-d4a27daeb3b279d49f61</guid>
+      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Insights - JourneysにJourney Creation Agentが導入されます。ユーザーは日常的な言葉で説明するだけで、AIを活用したガイド付きエクスペリエンスを通じて、数分でジャーニーを作成できるようになります。エージェントが目標を解釈し、適切なフォローアップの質問を行って意図を洗練させます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;日常的な言葉を用いた自然言語によるジャーニー作成機能の追加&lt;/li&gt;&lt;li&gt;AIを活用したガイド付きエクスペリエンスによる最適化された結果の提供&lt;/li&gt;&lt;li&gt;複雑な設定や技術的な専門用語を必要とせず、数分でジャーニーを構築可能&lt;/li&gt;&lt;li&gt;エージェントによる目標の解釈と、精度を高めるための関連するフォローアップ質問の実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577418"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Outreach Optimization Agentによるエンゲージメントとメッセージ配信タイミングの改善</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577417</link>
+      <guid isPermaLink="false">m365-roadmap-385e6a2993be3fbec6b1</guid>
+      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Insights - JourneysにOutreach Optimization Agentが追加されます。このエージェントは、過去のエンゲージメントパターンに基づいてスマートなベースラインプランを作成し、リアルタイムの反応に応じてメッセージのタイミングや頻度を自動調整します。また、承認された通信時間外の送信を防ぐクワイエットタイムの設定を厳格に適用します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;過去のエンゲージメントパターンを分析し、インテリジェントなベースラインのメッセージングプランを自動作成する機能の追加&lt;/li&gt;&lt;li&gt;受信するインタラクションを継続的に監視し、フォローアップのタイミングや頻度をリアルタイムで調整、またはプランを終了する機能の追加&lt;/li&gt;&lt;li&gt;承認された通信時間外にメッセージが送信されないよう、クワイエットタイム設定をハード制約として適用する機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577417"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Commerce: Copilot Coworkによるコマースレシートフォーマットの作成</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577405</link>
+      <guid isPermaLink="false">m365-roadmap-8ab05acf7c33214306bc</guid>
+      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilot Coworkにおいて自然言語を使用して、Dynamics 365 Commerceの本部にある既存フォーマットを活用したレシートレイアウトの作成、更新、翻訳、確認が行えるようになります。Store CommerceのPOSで使用されるレシートフォーマットが対象となり、認可されたユーザーは自然言語の指示を通じてレイアウトを操作できます。プレビューは2026年10月に開始され、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語によるレシートフォーマットの新規作成および既存フォーマットの変更が可能&lt;/li&gt;&lt;li&gt;ヘッダー、行、フッターの内容、フィールド位置、配置、フォーマットの編集に対応&lt;/li&gt;&lt;li&gt;動的フィールドを維持したまま、静的ラベルの翻訳やテキストの追加が可能&lt;/li&gt;&lt;li&gt;レイアウトの構造的または幾何学的チェックを行い、重なりや幅の違反などを特定して修正案を提示&lt;/li&gt;&lt;li&gt;保存された設定を再読み込みして更新内容の確認が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577405"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Teams：会議における Copilot および AI コントロールの強化</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577399</link>
+      <guid isPermaLink="false">m365-roadmap-a2252d97ff8e1fa743d0</guid>
+      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsの会議向けに、CopilotとAI体験に関するコントロール機能が強化されます。会議の主催者はAIの有効化とアクセス権を管理でき、IT管理者は会議中および会議後のAIを統制するためのシンプルなポリシーモデルを利用できるようになります。これらのアップデートにより、予測可能な管理と、コンプライアンスやガバナンスにおける柔軟性が向上します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;主催者によるAIの有効化とアクセス権の管理機能の提供&lt;/li&gt;&lt;li&gt;IT管理者向けの、会議および会議後におけるAI統制用シンプルポリシーモデルの導入&lt;/li&gt;&lt;li&gt;予測可能な管理体制と、コンプライアンスおよびガバナンスシナリオにおける柔軟性の向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577399"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] TeamsおよびLMSの課題におけるCopilotスタータープロンプトの提供</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577173</link>
+      <guid isPermaLink="false">m365-roadmap-20dd090c7ef2077af3ab</guid>
+      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;教育者は、Microsoft TeamsやLMS（学習管理システム）の課題において、Student AI GuidelinesからCopilotのスタータープロンプトを提供できるようになります。これにより、学生は教育者が用意した課題に合わせた指示があらかじめ入力された状態のチャットでCopilotを開くことが可能になります。本機能は2026年10月にプレビュー版が提供され、2026年11月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;教育者がTeamsおよびLMSの課題でCopilotスタータープロンプトを提供可能になる&lt;/li&gt;&lt;li&gt;学生が課題に合わせた指示があらかじめ入力された状態でCopilotを開けるようになる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577173"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Sales Development Agentによるミーティングスケジューリング機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575289</link>
+      <guid isPermaLink="false">m365-roadmap-80e6b1b7b08eda2cace6</guid>
+      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのSales Development Agentが、見込み客とのミーティング調整を自動化する機能を追加します。Agentは希望日時の確認や販売者のカレンダー評価を行い、条件に合う初回の日時を自動予約します。予約完了時には双方へ招待が送信され、販売者には引き継ぎ用の文脈情報が提供されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;見込み客の希望日時の取得と販売者のカレンダー確認によるミーティングの自動予約&lt;/li&gt;&lt;li&gt;予約成功時の双方への招待送信と、販売者への追加の会話コンテキストの提供&lt;/li&gt;&lt;li&gt;スケジューリング不可時の販売者へのリクエストおよび関連コンテキストの引き継ぎ&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575289"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Sales agentにおけるセマンティックモデルの有効化</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573294</link>
+      <guid isPermaLink="false">m365-roadmap-bad2e0550466771f858e</guid>
+      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Sales agentが組織のCRMデータの構造と意味を理解するためのセマンティックモデル機能が追加されます。管理者はPower Apps Maker Portal等を使用して、モデルのデータ範囲、メタデータ、関係性などを設定・有効化できます。これにより、ビジネス用語の解釈力と複雑な質問への回答能力が向上します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales agentがCRMデータのメタデータや関係性などのコンテキストを利用して質問に回答できるようになる&lt;/li&gt;&lt;li&gt;Dynamics 365管理者はPower Apps Maker Portalでセマンティックモデルを有効化し、データ範囲やシグナルを設定できる&lt;/li&gt;&lt;li&gt;Salesforce利用者の場合、既存のSales agentの設定やPower Apps Maker Portalを通じて追加のシグナルを設定可能になる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573294"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Sales Development Agentが利用可能に</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=573700</link>
@@ -934,76 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-28ba3b49b28049b0e57e</guid>
       <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsに、対象のミーティング中にカメラを使用して顔プロファイルを簡単に作成できる「エクスプレス顔登録」機能が追加されます。オプトインしたユーザーが登録を行うことで、対応するTeams Roomsでの認識精度が向上し、Copilotやリキャップなどの会議体験が改善されます。管理者は組織全体でこの機能の有効化または無効化を設定可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;対象ミーティング中のカメラ使用により、Teamsでの顔プロファイル作成が容易になる&lt;/li&gt;&lt;li&gt;オプトイン方式を採用し、登録後はTeams Roomsでの認識やCopilot、リキャップ等の会議体験が向上する&lt;/li&gt;&lt;li&gt;管理者が組織全体での機能の有効化・無効化を制御可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570846"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: ガバメントクラウド向けCopilot Cowork</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571637</link>
-      <guid isPermaLink="false">m365-roadmap-383b00ac0d2d715b7a9c</guid>
-      <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ガバメントクラウド向けに、作業の委任を容易にする「Copilot Cowork」が提供されます。ユーザーが望む成果を記述するだけで、メール、会議、メッセージ、ファイル、データに基づいて自動的に処理が行われます。一般提供（GA）の時期は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Coworkの導入による作業委任の簡素化&lt;/li&gt;&lt;li&gt;メールや会議、ファイル等のデータに基づいた自動処理機能&lt;/li&gt;&lt;li&gt;一般提供（GA）時期: 2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571637"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Purview: レガシーなTeams保持ポリシーのCopilot適用除外</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571306</link>
-      <guid isPermaLink="false">m365-roadmap-8d7173afc072e398d295</guid>
-      <pubDate>Fri, 18 Sep 2026 22:00:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;これまでMicrosoft Teamsを対象としていた一部の既存の保持ポリシーが、Microsoft 365 Copilotのインタラクションにも適用されていた仕様を変更します。今後はこれらのレガシーなTeams保持ポリシーがTeams専用のポリシーへと変換され、Copilotのワークロードを暗黙的に管理しなくなります。本変更は2026年10月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;レガシーなTeams保持ポリシーをTeams専用のポリシーに変更&lt;/li&gt;&lt;li&gt;保持ポリシーがMicrosoft 365 Copilotのワークロードを暗黙的に管理しないよう仕様を変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571306"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Purview DSPMにおけるCopilot ReadinessおよびData Explorerの導入</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571157</link>
-      <guid isPermaLink="false">m365-roadmap-832c68740f5301674f0d</guid>
-      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Security Posture Management（DSPM）に、Microsoft Copilotの準備状況を評価する機能と、データエクスプローラー体験が新たに導入されます。これにより、セキュリティチームは組織のデータセキュリティ体制の可視化、リスク評価、調査、および修復の優先順位付けを行うことが可能になります。本機能は2026年11月にプレビュー版の提供が開始され、2027年1月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Copilot向けのデータ準備状況を評価・改善する機能の追加&lt;/li&gt;&lt;li&gt;機密データの所在確認やサイトレベルのアクセス確認を行う中央集約型のデータエクスプローラー機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571157"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Teams: モバイルの検索機能からCopilotへ直接質問が可能に</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571299</link>
-      <guid isPermaLink="false">m365-roadmap-9b5c4810fb5769c659d4</guid>
-      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsのモバイル版検索バーにおいて、検索結果と一緒にCopilotへ質問するオプションが表示されるようになります。検索結果ページから直接Copilotとの会話に移行し、情報の検索や回答の取得、追加の質問をその場で行うことが可能です。本機能は2026年11月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Teamsの検索バーへの入力時にCopilotへ質問するオプションを表示&lt;/li&gt;&lt;li&gt;検索結果ページから検索クエリをCopilotの会話に変換可能&lt;/li&gt;&lt;li&gt;情報検索や回答の取得、文脈に応じた追加の質問をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571299"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Monitorタブにおけるコスト可視化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571196</link>
-      <guid isPermaLink="false">m365-roadmap-f2b9744f016dc66c43d9</guid>
-      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioのMonitorタブにおいて、エージェントごとの消費コストやライフサイクル全体にわたる推定内訳の可視化が可能になります。作成者は、オーサリング、テスト、評価、本番利用などのアクティビティ全体にわたるコストの分散を確認できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monitorタブでの消費コストの直接的な可視化&lt;/li&gt;&lt;li&gt;エージェントごとのコスト表示&lt;/li&gt;&lt;li&gt;ライフサイクル全体（オーサリング、テスト、評価、本番利用など）にわたるコストの推定内訳の表示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571196"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：エージェント評価におけるコストの可視化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571195</link>
-      <guid isPermaLink="false">m365-roadmap-b44bb7647a37dc80ff67</guid>
-      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioのエージェント評価機能において、消費コストの明確な可視化が可能になります。作成者は評価生成、テスト実行、モデルの採点および判定に関する使用状況の内訳をテストや反復作業の段階で確認できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;評価生成、テスト実行、モデルの採点・判定における使用状況の内訳表示機能を追加&lt;/li&gt;&lt;li&gt;開発ライフサイクル全体を通じたコストの透明性向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571195"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: プレビューチャットと履歴におけるコスト可視化機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571194</link>
-      <guid isPermaLink="false">m365-roadmap-54f8637ef68ceaca8c0d</guid>
-      <pubDate>Tue, 15 Sep 2026 23:00:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、メイカーはプレビュータブおよびエージェントの履歴内で消費コストを直接確認できるようになります。テスト、反復、会話のレビューを通じてコストが可視化され、開発プロセス全体を通して利用コストの透明性が向上します。一般提供（GA）は2026年9月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プレビュータブおよびエージェントの履歴内で消費コストの表示に対応&lt;/li&gt;&lt;li&gt;テスト時や過去の実行履歴全体におけるコストの確認が可能&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期は2026年9月を予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571194"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

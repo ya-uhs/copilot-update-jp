@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:08:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:23:18 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>利用状況メトリクスAPIにおけるカスタムスキル、エージェント、MCPサーバーのサポート</title>
+      <link>https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api</link>
+      <guid isPermaLink="false">github-changelog-dea8ba729eb28582daac</guid>
+      <pubDate>Thu, 22 Oct 2026 22:19:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの利用状況メトリクスAPIにおいて、組織が作成したカスタムスキル、エージェント、Model Context Protocol（MCP）サーバー、スラッシュコマンド、プラグインの名前が表示されるようになりました。これにより、これまでのように一括してグループ化されることがなくなります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;利用状況メトリクスAPIでカスタムスキルの名前を表示&lt;/li&gt;&lt;li&gt;カスタムエージェントおよびModel Context Protocol（MCP）サーバーの名前を表示&lt;/li&gt;&lt;li&gt;スラッシュコマンドおよびプラグインの名前を表示&lt;/li&gt;&lt;li&gt;従来のように一括グループ化されず個別識別が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Copilot機能のグローバルデフォルト設定が一般提供（GA）へ</title>
+      <link>https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available</link>
+      <guid isPermaLink="false">github-changelog-767a7f383549ba646ff2</guid>
+      <pubDate>Thu, 22 Oct 2026 20:44:28 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHubは、Copilot BusinessおよびCopilot Enterpriseプランにおける一般提供中のGitHub Copilot機能とサポートされるクライアント機能に対するグローバルデフォルトポリシーを発表しました。本日より、このポリシーの段階的なロールアウトが開始されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot BusinessおよびCopilot Enterpriseプラン向けのグローバルデフォルトポリシーの段階的ロールアウトを開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Copilot impact dashboardに業界比較機能が追加</title>
+      <link>https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard</link>
+      <guid isPermaLink="false">github-changelog-7bf4630bf25d53522f00</guid>
+      <pubDate>Thu, 22 Oct 2026 16:28:24 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot impact dashboardに「Industry comparison」セクションが新たに追加されました。エンタープライズおよびエンタープライズに所有されていない組織は、集約されたベンチマークを使用して、Copilotのagenticな採用状況と活用度を比較できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot impact dashboardに「Industry comparison」セクションを追加&lt;/li&gt;&lt;li&gt;エンタープライズおよび非エンタープライズ組織がCopilotの採用状況や活用度を業界の集約ベンチマークと比較可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.103</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.103</link>
+      <guid isPermaLink="false">github-copilot-cli-420944485</guid>
+      <pubDate>Thu, 22 Oct 2026 16:21:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;2026-10-22 - Clicking a completed response code block copies its original code when enabled. - ACP sessions now honor saved sandbox settings and --sandbox/--no-sandbox flags, including on resume. - Cloud replies keep full text when the CLI reconnects after a dropped connection - Sessions browser shows a session&amp;#x27;s recorded title instead of a generic Session N fallback when available - Model-specific default Responses verbosity now applies correctly for GPT-5 models unless session verbosity is explicitly set - Allow dnx commands to use existing .NET and NuGet sandbox grants when developer-tool access is enabled - Windows dev-tool shims like npm.cmd now receive the same sandbox grants as npm. - Gemini tool calls now avoid 400 schema validation errors for nullable and enum fields - Resume sessions under mandatory managed model defaults without rejecting saved preferences - Hash mention suggestions refresh automatically when the GitHub client becomes ready - Reuse cached local MCP tool snapshots across registered Git worktrees in one repository - Improve remote launch options with clearer hosting/connection flags and retire legacy --remote/--no-remote startup flags&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.103"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>unclassified</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.103-0 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.103-0</link>
