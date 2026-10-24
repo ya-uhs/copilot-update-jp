@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 23 Oct 2026 14:34:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:15:10 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilot とエージェント - AIエージェントの構想と設計</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578068</link>
+      <guid isPermaLink="false">m365-roadmap-9e01b5a4479da7e0ff42</guid>
+      <pubDate>Fri, 23 Oct 2026 22:46:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Business CentralにAIエージェントが導入され、定型業務の自動化やプロセスの効率化が可能になります。Sales Order AgentやPayables Agentなどのビルトインエージェントに加え、AI Development Toolkitを利用したカスタムエージェントの設計機能が提供されます。エージェントランタイムにより、セキュリティモデルを維持しながらトレーサブルで人間が関与する実行環境が実現されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語やメール指示から売上文書を作成するSales Order Agentの導入&lt;/li&gt;&lt;li&gt;請求書の詳細抽出と発注書照合を行うPayables Agentの導入&lt;/li&gt;&lt;li&gt;AI Development Toolkitを通じたカスタムAIエージェントの設計・プロトタイピング機能の提供&lt;/li&gt;&lt;li&gt;エージェントの実行ログや監査証跡を確認できる診断ビューの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578068"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: 複数Sales Order Agentの実行とアイテム検索・関連性フィルタリングの強化</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578065</link>
+      <guid isPermaLink="false">m365-roadmap-0e826bca44f52b0a0a79</guid>
+      <pubDate>Fri, 23 Oct 2026 22:45:59 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのDynamics 365 Business Centralにおいて、1つの企業内で複数のSales Order Agentインスタンスを設定および実行できるようになりました。AIを活用したマルチレイヤーのアイテム検索やメッセージの関連性検証機能により、処理精度と効率が向上しています。また、添付ファイルの処理上限拡大や、メール送信不要でテストできる「Try it out」機能が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1つの企業内で独立した設定、メールボックス、KPI追跡を持つ複数のSales Order Agentインスタンスの実行が可能になりました。&lt;/li&gt;&lt;li&gt;識別子一致、セマンティック属性一致、広範なあいまい検索を組み合わせたマルチレイヤーのアイテム検索機能が追加されました。&lt;/li&gt;&lt;li&gt;メッセージおよび添付ファイルの厳格な関連性検証により、対象外のメールを事前にフィルタリングします。&lt;/li&gt;&lt;li&gt;PDF添付ファイルのページ数上限が最大50ページに引き上げられ、スキップ理由の診断情報が記録されるようになりました。&lt;/li&gt;&lt;li&gt;メール送信を行わずにエージェントの動作をテストできる「Try it out」セクションが追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578065"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: CopilotとAIによる革新 - AIによる顧客メールの自律的な解決</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578064</link>
+      <guid isPermaLink="false">m365-roadmap-e94531b11c7472da453e</guid>
+      <pubDate>Fri, 23 Oct 2026 22:45:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Serviceにおいて、顧客メールを手動介入やデフォルトのケース作成なしでエンドツーエンドで処理する自律型メール解決機能が追加されます。システムはメールのリクエストを分析し、企業知識やカスタムエージェントを活用して動的に解決策を構築して返信します。自動解決できない場合や顧客が満足しない場合は、完全な会話コンテキストを引き継いだケースが作成され、担当者がスムーズに引き継ぐことができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;システムが顧客メールの意図を分析し、企業知識やカスタムエージェントを使用して動的に回答を構築・送信する&lt;/li&gt;&lt;li&gt;自動解決できなかった場合や不十分な場合、完全なコンテキストを引き継いだケースを作成する&lt;/li&gt;&lt;li&gt;Case Management Agentを通じて提供され、管理者がビジネスラインごとに自動化レベルを設定可能にする&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578064"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: 統一ルーティング - 自然言語プレイブックによる会話配信のオーケストレーション</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577788</link>
