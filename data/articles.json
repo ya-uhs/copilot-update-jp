@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-cli-422435995",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104-2",
+    "published_at": "2026-10-24T01:06:24Z",
+    "title_original": "GitHub Copilot CLI v1.0.104-2",
+    "excerpt_original": "**Fixed** - Managed model \"fusion\" now starts sessions on Auto and applies fusionTier settings - Interactive and SDK Autopilot sessions keep waiting for attached background tasks instead of stopping after COPILOT_TASK_WAIT_TIMEOUT_SECONDS; `-p --autopilot` still honors it",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.104-2のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.104-2がリリースされました。マネージドモデル「fusion」のセッション開始動作の修正や、インタラクティブおよびSDKのAutopilotセッションにおけるバックグラウンドタスク待機処理の改善が行われています。",
+    "changes": [
+      "マネージドモデル「fusion」がAutoでセッションを開始し、fusionTier設定が適用されるように修正",
+      "インタラクティブおよびSDKのAutopilotセッションがCOPILOT_TASK_WAIT_TIMEOUT_SECONDSで停止せず、アタッチされたバックグラウンドタスクを待機し続けるように変更（-p --autopilotは引き続きタイムアウトを遵守）"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-24T08:37:50Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-24T08:37:47Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-changelog-dc1ed52c8837fe68c51d",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
@@ -318,16 +344,24 @@
     "excerpt_original": "The Power Pages plugin for GitHub Copilot CLI and Claude Code now supports creating and editing traditional (non-SPA) Power Pages sites. Developers can use natural-language prompts in their AI coding agent to create a new traditional site or download, inspect, and update existing site metadata such as web pages, web templates, content snippets, basic and multistep forms, lists, table permissions, web roles, and site settings, then upload changes back to their environment using the Power Platform CLI. GA date: November CY2026 Preview date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Power Pages: GitHub Copilot CLIおよびClaude Codeでの従来型サイト作成・編集のプラグインサポート",
+    "summary_ja": "Power Pages用のGitHub Copilot CLIおよびClaude Codeプラグインが、従来型（非SPA）Power Pagesサイトの作成および編集をサポートするようになりました。開発者はAIコーディングエージェントで自然言語プロンプトを使用して、新規サイトの作成や既存サイトメタデータの管理を行い、Power Platform CLI経由で環境にアップロードできます。プレビューは2026年10月、一般提供（GA）は2026年11月に予定されています。",
+    "changes": [
+      "GitHub Copilot CLIおよびClaude CodeのPower Pagesプラグインで従来型（非SPA）サイトの作成と編集が可能になりました",
+      "自然言語プロンプトを使用して新規サイトを作成したり、Webページ、テンプレート、フォーム、リストなどの既存サイトメタデータをダウンロード、検査、更新できるようになりました",
+      "変更したメタデータはPower Platform CLIを使用して環境にアップロード可能です"
+    ],
+    "target_user": [
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-24T08:37:53Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-24T08:37:50Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-d6cb798d59fd0c4b247c",
@@ -338,16 +372,24 @@
     "excerpt_original": "Facilitator is coming to Microsoft Teams meetings in GCC. The Facilitator agent can help capture notes in real time, answers questions about the meeting, and help keep the agenda and discussion on track. A Microsoft 365 Copilot license is required to use Facilitator. GA date: December CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams (GCC): ファシリテーター機能の提供",
+    "summary_ja": "Microsoft TeamsのGCC環境において、会議をサポートするファシリテーター機能が提供されます。本機能により、リアルタイムでのノート作成、会議に関する質問への回答、アジェンダや議論の進行管理が可能になります。利用にはMicrosoft 365 Copilotライセンスが必要です。",
+    "changes": [
+      "GCC環境のMicrosoft Teams会議でFacilitatorエージェントを利用可能になります。",
+      "リアルタイムでのノート作成や、会議に関する質問への回答機能が追加されます。",
+      "アジェンダと議論を軌道に乗せるための進行サポート機能が提供されます。"
+    ],
+    "target_user": [
+      "Microsoft Teams Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-24T08:37:54Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-24T08:37:53Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-400d918642962961b890",
@@ -358,15 +400,24 @@
     "excerpt_original": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn notifications into code with GitHub Copilot in Teams appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot in Teamsによる通知のコード化",
+    "summary_ja": "Teams向けの新しいうGitHubアプリにより、通知とGitHub Copilotが統合されました。チームは会話から離れることなく、課題を修正へとつなげ、より迅速にコードをリリースできるようになります。チャンネルやグループでの通知受領が可能になります。",
+    "changes": [
+      "Teams向けの新しいうGitHubアプリで通知とGitHub Copilotを統合",
+      "会話を離れずに課題から修正への移行とコードの迅速なリリースを支援",
+      "チャンネルやグループでの通知機能を提供"
+    ],
+    "target_user": [
+      "開発者",
+      "チームメンバー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-24T08:37:57Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-10-24T08:37:54Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-422325471",
@@ -377,15 +428,21 @@
     "excerpt_original": "Fixes and changes",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
+    "title_ja": "GitHub Copilot CLI v1.0.104-1 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.104-1がリリースされました。本アップデートには、各種の修正と変更が含まれています。",
+    "changes": [
+      "各種の修正と変更の適用"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI ユーザー"
+    ],
     "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "translated": true,
+    "processed_at": "2026-10-24T08:38:00Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-10-24T08:37:57Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-422196361",
@@ -395,16 +452,23 @@
     "title_original": "GitHub Copilot CLI v1.0.104-0",
     "excerpt_original": "**Improved** - Assisted Permissions are available without enabling experimental mode. **Fixed** - When a saved Auto preference is no longer available, Auto falls back to its default preference instead of failing each turn",
     "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.104-0 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.104-0がリリースされました。実験的モードを有効にしなくてもAssisted Permissionsを利用できるようになり、保存されたAuto設定が無効な場合にデフォルト設定へフォールバックする修正が行われました。",
+    "changes": [
+      "実験的モードを有効にしなくてもAssisted Permissionsを利用可能に改善",
+      "保存されたAuto設定が利用できない場合、毎ターンの失敗を避けてデフォルト設定にフォールバックするよう修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-24T08:38:04Z",
     "source_id": "github-copilot-cli",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-10-24T08:38:00Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-a45f5dfbc3465c866620",

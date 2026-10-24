@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 24 Oct 2026 00:15:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 08:38:04 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -99,24 +99,24 @@
       <category>high</category>
     </item>
     <item>
-      <title>[Roadmap] Power Pages: Plugin support for GitHub Copilot CLI and Claude Code to create and edit traditional sites</title>
+      <title>[提供予定・ロードマップ] Power Pages: GitHub Copilot CLIおよびClaude Codeでの従来型サイト作成・編集のプラグインサポート</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577900</link>
       <guid isPermaLink="false">m365-roadmap-097f0fb466976157fd21</guid>
       <pubDate>Fri, 23 Oct 2026 21:59:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The Power Pages plugin for GitHub Copilot CLI and Claude Code now supports creating and editing traditional (non-SPA) Power Pages sites. Developers can use natural-language prompts in their AI coding agent to create a new traditional site or download, inspect, and update existing site metadata such as web pages, web templates, content snippets, basic and multistep forms, lists, table permissions, web roles, and site settings, then upload changes back to their environment using the Power Platform CLI. GA date: November CY2026 Preview date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577900"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Pages用のGitHub Copilot CLIおよびClaude Codeプラグインが、従来型（非SPA）Power Pagesサイトの作成および編集をサポートするようになりました。開発者はAIコーディングエージェントで自然言語プロンプトを使用して、新規サイトの作成や既存サイトメタデータの管理を行い、Power Platform CLI経由で環境にアップロードできます。プレビューは2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIおよびClaude CodeのPower Pagesプラグインで従来型（非SPA）サイトの作成と編集が可能になりました&lt;/li&gt;&lt;li&gt;自然言語プロンプトを使用して新規サイトを作成したり、Webページ、テンプレート、フォーム、リストなどの既存サイトメタデータをダウンロード、検査、更新できるようになりました&lt;/li&gt;&lt;li&gt;変更したメタデータはPower Platform CLIを使用して環境にアップロード可能です&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577900"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Teams: Facilitator in GCC</title>
+      <title>[提供予定・ロードマップ] Microsoft Teams (GCC): ファシリテーター機能の提供</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577401</link>
       <guid isPermaLink="false">m365-roadmap-d6cb798d59fd0c4b247c</guid>
       <pubDate>Fri, 23 Oct 2026 21:59:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Facilitator is coming to Microsoft Teams meetings in GCC. The Facilitator agent can help capture notes in real time, answers questions about the meeting, and help keep the agenda and discussion on track. A Microsoft 365 Copilot license is required to use Facilitator. GA date: December CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577401"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft TeamsのGCC環境において、会議をサポートするファシリテーター機能が提供されます。本機能により、リアルタイムでのノート作成、会議に関する質問への回答、アジェンダや議論の進行管理が可能になります。利用にはMicrosoft 365 Copilotライセンスが必要です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC環境のMicrosoft Teams会議でFacilitatorエージェントを利用可能になります。&lt;/li&gt;&lt;li&gt;リアルタイムでのノート作成や、会議に関する質問への回答機能が追加されます。&lt;/li&gt;&lt;li&gt;アジェンダと議論を軌道に乗せるための進行サポート機能が提供されます。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577401"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - Copilot拡張機能向けのAIリソース利用</title>

@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 24 Oct 2026 00:15:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 08:38:04 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.104-2のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.104-2</link>
+      <guid isPermaLink="false">github-copilot-cli-422435995</guid>
+      <pubDate>Sat, 24 Oct 2026 01:06:24 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.104-2がリリースされました。マネージドモデル「fusion」のセッション開始動作の修正や、インタラクティブおよびSDKのAutopilotセッションにおけるバックグラウンドタスク待機処理の改善が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;マネージドモデル「fusion」がAutoでセッションを開始し、fusionTier設定が適用されるように修正&lt;/li&gt;&lt;li&gt;インタラクティブおよびSDKのAutopilotセッションがCOPILOT_TASK_WAIT_TIMEOUT_SECONDSで停止せず、アタッチされたバックグラウンドタスクを待機し続けるように変更（-p --autopilotは引き続きタイムアウトを遵守）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.104-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
     <item>
       <title>GitHub Copilotの利用状況メトリクスAPIがOpenCodeなどのツールからの利用データを追加</title>
       <link>https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode</link>
@@ -109,54 +119,54 @@
       <category>high</category>
     </item>
     <item>
-      <title>[Roadmap] Power Pages: Plugin support for GitHub Copilot CLI and Claude Code to create and edit traditional sites</title>
+      <title>[提供予定・ロードマップ] Power Pages: GitHub Copilot CLIおよびClaude Codeでの従来型サイト作成・編集のプラグインサポート</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577900</link>
       <guid isPermaLink="false">m365-roadmap-097f0fb466976157fd21</guid>
       <pubDate>Fri, 23 Oct 2026 21:59:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The Power Pages plugin for GitHub Copilot CLI and Claude Code now supports creating and editing traditional (non-SPA) Power Pages sites. Developers can use natural-language prompts in their AI coding agent to create a new traditional site or download, inspect, and update existing site metadata such as web pages, web templates, content snippets, basic and multistep forms, lists, table permissions, web roles, and site settings, then upload changes back to their environment using the Power Platform CLI. GA date: November CY2026 Preview date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577900"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Pages用のGitHub Copilot CLIおよびClaude Codeプラグインが、従来型（非SPA）Power Pagesサイトの作成および編集をサポートするようになりました。開発者はAIコーディングエージェントで自然言語プロンプトを使用して、新規サイトの作成や既存サイトメタデータの管理を行い、Power Platform CLI経由で環境にアップロードできます。プレビューは2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIおよびClaude CodeのPower Pagesプラグインで従来型（非SPA）サイトの作成と編集が可能になりました&lt;/li&gt;&lt;li&gt;自然言語プロンプトを使用して新規サイトを作成したり、Webページ、テンプレート、フォーム、リストなどの既存サイトメタデータをダウンロード、検査、更新できるようになりました&lt;/li&gt;&lt;li&gt;変更したメタデータはPower Platform CLIを使用して環境にアップロード可能です&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577900"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Teams: Facilitator in GCC</title>
+      <title>[提供予定・ロードマップ] Microsoft Teams (GCC): ファシリテーター機能の提供</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577401</link>
       <guid isPermaLink="false">m365-roadmap-d6cb798d59fd0c4b247c</guid>
       <pubDate>Fri, 23 Oct 2026 21:59:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Facilitator is coming to Microsoft Teams meetings in GCC. The Facilitator agent can help capture notes in real time, answers questions about the meeting, and help keep the agenda and discussion on track. A Microsoft 365 Copilot license is required to use Facilitator. GA date: December CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577401"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft TeamsのGCC環境において、会議をサポートするファシリテーター機能が提供されます。本機能により、リアルタイムでのノート作成、会議に関する質問への回答、アジェンダや議論の進行管理が可能になります。利用にはMicrosoft 365 Copilotライセンスが必要です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC環境のMicrosoft Teams会議でFacilitatorエージェントを利用可能になります。&lt;/li&gt;&lt;li&gt;リアルタイムでのノート作成や、会議に関する質問への回答機能が追加されます。&lt;/li&gt;&lt;li&gt;アジェンダと議論を軌道に乗せるための進行サポート機能が提供されます。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577401"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>Turn notifications into code with GitHub Copilot in Teams</title>
+      <title>GitHub Copilot in Teamsによる通知のコード化</title>
       <link>https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams</link>
       <guid isPermaLink="false">github-changelog-400d918642962961b890</guid>
       <pubDate>Fri, 23 Oct 2026 21:29:58 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn notifications into code with GitHub Copilot in Teams appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Teams向けの新しいうGitHubアプリにより、通知とGitHub Copilotが統合されました。チームは会話から離れることなく、課題を修正へとつなげ、より迅速にコードをリリースできるようになります。チャンネルやグループでの通知受領が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Teams向けの新しいうGitHubアプリで通知とGitHub Copilotを統合&lt;/li&gt;&lt;li&gt;会話を離れずに課題から修正への移行とコードの迅速なリリースを支援&lt;/li&gt;&lt;li&gt;チャンネルやグループでの通知機能を提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.104-1</title>
+      <title>GitHub Copilot CLI v1.0.104-1 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.104-1</link>
       <guid isPermaLink="false">github-copilot-cli-422325471</guid>
       <pubDate>Fri, 23 Oct 2026 21:28:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Fixes and changes&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.104-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.104-1がリリースされました。本アップデートには、各種の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;各種の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.104-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
-      <category>unclassified</category>
+      <category>low</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.104-0</title>
+      <title>GitHub Copilot CLI v1.0.104-0 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.104-0</link>
       <guid isPermaLink="false">github-copilot-cli-422196361</guid>
       <pubDate>Fri, 23 Oct 2026 18:49:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;**Improved** - Assisted Permissions are available without enabling experimental mode. **Fixed** - When a saved Auto preference is no longer available, Auto falls back to its default preference instead of failing each turn&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.104-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.104-0がリリースされました。実験的モードを有効にしなくてもAssisted Permissionsを利用できるようになり、保存されたAuto設定が無効な場合にデフォルト設定へフォールバックする修正が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;実験的モードを有効にしなくてもAssisted Permissionsを利用可能に改善&lt;/li&gt;&lt;li&gt;保存されたAuto設定が利用できない場合、毎ターンの失敗を避けてデフォルト設定にフォールバックするよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.104-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>unclassified</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot in Visual Studio 9月アップデート</title>
@@ -1997,16 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.90-6 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-6</link>
-      <guid isPermaLink="false">github-copilot-cli-400184498</guid>
-      <pubDate>Wed, 30 Sep 2026 15:27:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-6がリリースされ、モデル選択におけるGPT-6.1 Solのサポートが追加されました。また、コンパクトタイムラインの操作性向上や、中断されたセッション再開時の権限プロンプトに関する不具合修正が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モデル選択にGPT-6.1 Solのサポートを追加&lt;/li&gt;&lt;li&gt;コンパクトタイムラインで展開されたツールコールをクリックして折りたためるように改善&lt;/li&gt;&lt;li&gt;中断されたセッション再開後も権限プロンプトに応答可能な状態を維持するよう修正&lt;/li&gt;&lt;li&gt;エージェント稼働中の入力メッセージを自動承認の考慮対象に修正&lt;/li&gt;&lt;li&gt;MCPツールがセッションを再起動せずに一時的な検出失敗から回復するよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>
