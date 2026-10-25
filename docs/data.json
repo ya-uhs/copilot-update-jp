@@ -1,5 +1,29 @@
 [
   {
+    "id": "github-copilot-cli-422814045",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104-3",
+    "published_at": "2026-10-24T15:28:50Z",
+    "title_original": "GitHub Copilot CLI v1.0.104-3",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.104-3 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.104-3がリリースされました。本バージョンには不具合の修正と変更が含まれています。",
+    "changes": [
+      "不具合の修正と変更の適用"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-24T23:58:47Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-24T23:58:46Z"
+  },
+  {
     "id": "github-copilot-cli-422435995",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104-2",
@@ -8773,29 +8797,5 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
-  },
-  {
-    "id": "github-copilot-cli-422814045",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104-3",
-    "published_at": "2026-10-24T15:28:50Z",
-    "title_original": "GitHub Copilot CLI v1.0.104-3",
-    "excerpt_original": "Fixes and changes",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.104-3 リリース",
-    "summary_ja": "GitHub Copilot CLIのバージョン1.0.104-3がリリースされました。本バージョンには不具合の修正と変更が含まれています。",
-    "changes": [
-      "不具合の修正と変更の適用"
-    ],
-    "target_user": [
-      "GitHub Copilot CLI users"
-    ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-10-24T23:58:47Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-10-24T23:58:46Z"
   }
 ]
