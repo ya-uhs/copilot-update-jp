@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:06:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:35:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilotのアシステッドパーミッションが一般提供（GA）を開始</title>
+      <link>https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available</link>
+      <guid isPermaLink="false">github-changelog-b26f70c790034ce0463a</guid>
+      <pubDate>Mon, 26 Oct 2026 22:31:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotのアシステッドパーミッション機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびVisual Studio Codeで一般提供（GA）開始されました。Copilotがコマンドの実行やファイルシステムパスへのアクセスを要求する際に、この機能が適用されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;li&gt;GitHub Copilotアプリでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;li&gt;Visual Studio Codeでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub CopilotにおけるGPT-6.1 Terraの提供開始</title>
       <link>https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot</link>
@@ -97,16 +107,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Excel：Copilotを活用したデータの取得と変換機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577745</link>
-      <guid isPermaLink="false">m365-roadmap-3daa25499aca746dc363</guid>
-      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの新機能により、自然言語で指示するだけでデータの取得や準備を行えるようになります。Power Queryを介してデータの接続と変換、ワークブックへの読み込みが自動で行われ、生成されたクエリの確認や編集、更新が可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語での指示によるデータの取得と準備&lt;/li&gt;&lt;li&gt;Power Queryを使用したデータ接続・変換・ワークブックへの読み込み&lt;/li&gt;&lt;li&gt;自動生成されたクエリの確認、編集、更新機能&lt;/li&gt;&lt;li&gt;データソースに応じた認証の必要性&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577745"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

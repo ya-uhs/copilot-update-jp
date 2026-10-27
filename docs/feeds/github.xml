@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:06:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:35:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.104のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.104</link>
+      <guid isPermaLink="false">github-copilot-cli-424965462</guid>
+      <pubDate>Tue, 27 Oct 2026 02:15:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.104がリリースされました。マネージドモデル「fusion」のセッション開始動作の改善や、Autopilotセッションにおけるバックグラウンドタスクの待機処理の更新が含まれています。また、Auto設定のフォールバック動作の修正や、実験的モードを有効化しなくてもAssisted Permissionsが利用できるようになるなどの変更が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;マネージドモデル「fusion」がAutoでセッションを開始し、fusionTier設定を適用するように変更&lt;/li&gt;&lt;li&gt;インタラクティブおよびSDKのAutopilotセッションが、COPILOT_TASK_WAIT_TIMEOUT_SECONDSで停止せず、アタッチされたバックグラウンドタスクの待機を継続するように変更（-p --autopilotは引き続きタイムアウトを遵守）&lt;/li&gt;&lt;li&gt;保存されたAuto設定が利用できない場合、毎ターン失敗するのではなくデフォルト設定にフォールバックするように修正&lt;/li&gt;&lt;li&gt;実験的モードを有効にしなくてもAssisted Permissionsが利用可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.104"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.104-4</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.104-4</link>
@@ -17,6 +27,16 @@
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilotのアシステッドパーミッションが一般提供（GA）を開始</title>
+      <link>https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available</link>
+      <guid isPermaLink="false">github-changelog-b26f70c790034ce0463a</guid>
+      <pubDate>Mon, 26 Oct 2026 22:31:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotのアシステッドパーミッション機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびVisual Studio Codeで一般提供（GA）開始されました。Copilotがコマンドの実行やファイルシステムパスへのアクセスを要求する際に、この機能が適用されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;li&gt;GitHub Copilotアプリでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;li&gt;Visual Studio Codeでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
     </item>
     <item>
       <title>GitHub CopilotにおけるGPT-6.1 Terraの提供開始</title>

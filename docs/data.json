@@ -1,5 +1,167 @@
 [
   {
+    "id": "m365-roadmap-3daa25499aca746dc363",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577745",
+    "published_at": "2026-10-26T23:15:50Z",
+    "title_original": "[Roadmap] Excel: Get and transform data with Copilot in Excel",
+    "excerpt_original": "Get your data ready, just by asking. Describe the data you need and how you want it prepared, and the new get data skill handles the rest. It can connect and transform your data, then load the results into your workbook using Power Query, giving you a query you can inspect, edit, and refresh without having to build it yourself. Depending on the data source, authentication may be required. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Excel：Copilotを活用したデータの取得と変換機能",
+    "summary_ja": "Microsoft 365 Copilotの新機能により、自然言語で指示するだけでデータの取得や準備を行えるようになります。Power Queryを介してデータの接続と変換、ワークブックへの読み込みが自動で行われ、生成されたクエリの確認や編集、更新が可能です。",
+    "changes": [
+      "自然言語での指示によるデータの取得と準備",
+      "Power Queryを使用したデータ接続・変換・ワークブックへの読み込み",
+      "自動生成されたクエリの確認、編集、更新機能",
+      "データソースに応じた認証の必要性"
+    ],
+    "target_user": [
+      "Excel users",
+      "Data analysts"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-27T01:06:07Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-27T01:06:06Z"
+  },
+  {
+    "id": "m365-roadmap-b35d932b009b8f666c80",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577743",
+    "published_at": "2026-10-26T23:15:50Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): App Blocks",
+    "excerpt_original": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison tools, and other interactive apps. It helps users move beyond static responses to explore data, adjust inputs, visualize outcomes, and simulate workflows in place, while supporting grounded scenarios where current information can be retrieved and then rendered into an interactive experience. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: App Blocks機能",
+    "summary_ja": "Microsoft 365 Copilot Chatにおいて、ユーザーのリクエストやデータを電卓、ダッシュボード、フォームなどのリッチでインタラクティブな体験へと変換する「App Blocks」機能が追加されます。これにより、ユーザーは静的な回答にとどまらず、データの探索や入力値の調整、結果の視覚化、ワークフローのシミュレーションを会話内で直接行えるようになります。",
+    "changes": [
+      "リクエストやデータをインタラクティブなアプリ（電卓、ダッシュボード、フォーム、プランナー、視覚化ツール、シミュレーション、比較ツール等）に変換する機能を提供",
+      "静的な回答を超えて、会話内で直接データの探索、入力の調整、結果の視覚化、ワークフローのシミュレーションを実行可能",
+      "現在の情報を取得してインタラクティブな体験としてレンダリングする接地されたシナリオをサポート"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot Chat ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-27T01:06:08Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-27T01:06:07Z"
+  },
+  {
+    "id": "m365-roadmap-ba5da2c459f6d5b40f38",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577177",
+    "published_at": "2026-10-26T23:15:50Z",
+    "title_original": "[Roadmap] Excel: Edit with Copilot in Excel on iPhone",
+    "excerpt_original": "Edit with Copilot makes it easier to edit and transform your Excel workbooks on your phone using natural language. Copilot can continue working on your task even when you move away from the app, so you can come back when the work is ready. Chat mode also remains available when you want to ask questions and get insights without making changes to your workbook. GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Excel: iPhoneでのCopilotによる編集機能",
+    "summary_ja": "Microsoft 365 Copilotにより、iPhoneのExcelで自然言語を用いたワークブックの編集や変換が可能になります。バックグラウンド処理に対応しており、アプリを離れてもタスクが継続されるため、完了後に結果を確認できます。また、変更を加えることなく質問やインサイトの取得ができるチャットモードも利用可能です。",
+    "changes": [
+      "自然言語を使用したExcelワークブックの編集と変換機能の提供",
+      "アプリを離れてもバックグラウンドで処理が継続する機能",
+      "変更を加えずに対話やインサイト取得ができるチャットモードの利用"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot ユーザー",
+      "iPhone ユーザー",
+      "Excel ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-27T01:06:09Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-27T01:06:08Z"
+  },
+  {
+    "id": "m365-roadmap-2dd441ededdfb9b72861",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576708",
+    "published_at": "2026-10-26T23:15:50Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): SharePoint Site Builder",
+    "excerpt_original": "This feature enables users to easily create new SharePoint sites with Copilot. Users can review and confirm a clear site plan before Copilot builds the site. GA date: December CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: SharePoint Site Builder",
+    "summary_ja": "Copilotを使用して新しいSharePointサイトを簡単に作成できる機能が追加されます。ユーザーは、Copilotがサイトを構築する前に、明確なサイトプランを確認して確定させることができます。",
+    "changes": [
+      "Copilotを活用した新しいSharePointサイトの作成機能",
+      "構築前のサイトプランの確認と確定プロセス"
+    ],
+    "target_user": [
+      "Microsoft 365 users",
+      "SharePoint users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-27T01:06:10Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-27T01:06:09Z"
+  },
+  {
+    "id": "github-copilot-cli-424842620",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104-4",
+    "published_at": "2026-10-26T22:35:14Z",
+    "title_original": "GitHub Copilot CLI v1.0.104-4",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.104-4",
+    "summary_ja": "GitHub Copilot CLI v1.0.104-4がリリースされました。本バージョンには、各種の修正と変更が含まれています。",
+    "changes": [
+      "不具合の修正と変更の適用"
+    ],
+    "target_user": [
+      "Developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-27T01:06:11Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-27T01:06:10Z"
+  },
+  {
+    "id": "github-changelog-051483cefe7ff38558fb",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+    "published_at": "2026-10-26T19:15:53Z",
+    "title_original": "GPT-6.1 Terra in GitHub Copilot",
+    "excerpt_original": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "GitHub CopilotにおけるGPT-6.1 Terraの提供開始",
+    "summary_ja": "OpenAIの最新モデルであるGPT-6.1 Terraが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、日常的なエージェント型コーディングおよびターミナル作業向けに設計されており、GPT-6.1 Solよりも低いコストで利用可能です。",
+    "changes": [
+      "GitHub CopilotでGPT-6.1 Terraが一般提供（GA）開始",
+      "日々のエージェント型コーディングとターミナル作業に対応",
+      "GPT-6.1 Solよりも低コストで利用可能"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-27T01:06:12Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-27T01:06:11Z"
+  },
+  {
     "id": "github-copilot-cli-422814045",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104-3",
@@ -8799,165 +8961,57 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-changelog-051483cefe7ff38558fb",
+    "id": "github-changelog-b26f70c790034ce0463a",
     "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
-    "published_at": "2026-10-26T19:15:53Z",
-    "title_original": "GPT-6.1 Terra in GitHub Copilot",
-    "excerpt_original": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog .",
+    "source_url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+    "published_at": "2026-10-26T22:31:30Z",
+    "title_original": "GitHub Copilot assisted permissions generally available",
+    "excerpt_original": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,… The post GitHub Copilot assisted permissions generally available appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "GA",
-    "title_ja": "GitHub CopilotにおけるGPT-6.1 Terraの提供開始",
-    "summary_ja": "OpenAIの最新モデルであるGPT-6.1 Terraが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、日常的なエージェント型コーディングおよびターミナル作業向けに設計されており、GPT-6.1 Solよりも低いコストで利用可能です。",
+    "title_ja": "GitHub Copilotのアシステッドパーミッションが一般提供（GA）を開始",
+    "summary_ja": "GitHub Copilotのアシステッドパーミッション機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびVisual Studio Codeで一般提供（GA）開始されました。Copilotがコマンドの実行やファイルシステムパスへのアクセスを要求する際に、この機能が適用されます。",
     "changes": [
-      "GitHub CopilotでGPT-6.1 Terraが一般提供（GA）開始",
-      "日々のエージェント型コーディングとターミナル作業に対応",
-      "GPT-6.1 Solよりも低コストで利用可能"
+      "GitHub Copilot CLIでアシステッドパーミッションが一般提供を開始",
+      "GitHub Copilotアプリでアシステッドパーミッションが一般提供を開始",
+      "Visual Studio Codeでアシステッドパーミッションが一般提供を開始"
     ],
     "target_user": [
       "developers"
     ],
     "importance": "high",
     "translated": true,
-    "processed_at": "2026-10-27T01:06:12Z",
+    "processed_at": "2026-10-27T09:35:16Z",
     "source_id": "github-changelog",
     "family": "github",
-    "translation_attempted_at": "2026-10-27T01:06:11Z"
+    "translation_attempted_at": "2026-10-27T09:35:15Z"
   },
   {
-    "id": "github-copilot-cli-424842620",
+    "id": "github-copilot-cli-424965462",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104-4",
-    "published_at": "2026-10-26T22:35:14Z",
-    "title_original": "GitHub Copilot CLI v1.0.104-4",
-    "excerpt_original": "Fixes and changes",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104",
+    "published_at": "2026-10-27T02:15:11Z",
+    "title_original": "GitHub Copilot CLI v1.0.104",
+    "excerpt_original": "2026-10-27 - Managed model \"fusion\" now starts sessions on Auto and applies fusionTier settings - Interactive and SDK Autopilot sessions keep waiting for attached background tasks instead of stopping after COPILOT_TASK_WAIT_TIMEOUT_SECONDS; `-p --autopilot` still honors it - When a saved Auto preference is no longer available, Auto falls back to its default preference instead of failing each turn - Assisted Permissions are available without enabling experimental mode.",
     "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.104-4",
-    "summary_ja": "GitHub Copilot CLI v1.0.104-4がリリースされました。本バージョンには、各種の修正と変更が含まれています。",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.104のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.104がリリースされました。マネージドモデル「fusion」のセッション開始動作の改善や、Autopilotセッションにおけるバックグラウンドタスクの待機処理の更新が含まれています。また、Auto設定のフォールバック動作の修正や、実験的モードを有効化しなくてもAssisted Permissionsが利用できるようになるなどの変更が行われました。",
     "changes": [
-      "不具合の修正と変更の適用"
+      "マネージドモデル「fusion」がAutoでセッションを開始し、fusionTier設定を適用するように変更",
+      "インタラクティブおよびSDKのAutopilotセッションが、COPILOT_TASK_WAIT_TIMEOUT_SECONDSで停止せず、アタッチされたバックグラウンドタスクの待機を継続するように変更（-p --autopilotは引き続きタイムアウトを遵守）",
+      "保存されたAuto設定が利用できない場合、毎ターン失敗するのではなくデフォルト設定にフォールバックするように修正",
+      "実験的モードを有効にしなくてもAssisted Permissionsが利用可能に"
     ],
     "target_user": [
-      "Developers"
+      "Developer",
+      "CLI User"
     ],
-    "importance": "low",
+    "importance": "medium",
     "translated": true,
-    "processed_at": "2026-10-27T01:06:11Z",
+    "processed_at": "2026-10-27T09:35:15Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-10-27T01:06:10Z"
-  },
-  {
-    "id": "m365-roadmap-3daa25499aca746dc363",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577745",
-    "published_at": "2026-10-26T23:15:50Z",
-    "title_original": "[Roadmap] Excel: Get and transform data with Copilot in Excel",
-    "excerpt_original": "Get your data ready, just by asking. Describe the data you need and how you want it prepared, and the new get data skill handles the rest. It can connect and transform your data, then load the results into your workbook using Power Query, giving you a query you can inspect, edit, and refresh without having to build it yourself. Depending on the data source, authentication may be required. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Excel：Copilotを活用したデータの取得と変換機能",
-    "summary_ja": "Microsoft 365 Copilotの新機能により、自然言語で指示するだけでデータの取得や準備を行えるようになります。Power Queryを介してデータの接続と変換、ワークブックへの読み込みが自動で行われ、生成されたクエリの確認や編集、更新が可能です。",
-    "changes": [
-      "自然言語での指示によるデータの取得と準備",
-      "Power Queryを使用したデータ接続・変換・ワークブックへの読み込み",
-      "自動生成されたクエリの確認、編集、更新機能",
-      "データソースに応じた認証の必要性"
-    ],
-    "target_user": [
-      "Excel users",
-      "Data analysts"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-27T01:06:07Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-27T01:06:06Z"
-  },
-  {
-    "id": "m365-roadmap-b35d932b009b8f666c80",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577743",
-    "published_at": "2026-10-26T23:15:50Z",
-    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): App Blocks",
-    "excerpt_original": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison tools, and other interactive apps. It helps users move beyond static responses to explore data, adjust inputs, visualize outcomes, and simulate workflows in place, while supporting grounded scenarios where current information can be retrieved and then rendered into an interactive experience. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: App Blocks機能",
-    "summary_ja": "Microsoft 365 Copilot Chatにおいて、ユーザーのリクエストやデータを電卓、ダッシュボード、フォームなどのリッチでインタラクティブな体験へと変換する「App Blocks」機能が追加されます。これにより、ユーザーは静的な回答にとどまらず、データの探索や入力値の調整、結果の視覚化、ワークフローのシミュレーションを会話内で直接行えるようになります。",
-    "changes": [
-      "リクエストやデータをインタラクティブなアプリ（電卓、ダッシュボード、フォーム、プランナー、視覚化ツール、シミュレーション、比較ツール等）に変換する機能を提供",
-      "静的な回答を超えて、会話内で直接データの探索、入力の調整、結果の視覚化、ワークフローのシミュレーションを実行可能",
-      "現在の情報を取得してインタラクティブな体験としてレンダリングする接地されたシナリオをサポート"
-    ],
-    "target_user": [
-      "Microsoft 365 Copilot Chat ユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-27T01:06:08Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-27T01:06:07Z"
-  },
-  {
-    "id": "m365-roadmap-ba5da2c459f6d5b40f38",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577177",
-    "published_at": "2026-10-26T23:15:50Z",
-    "title_original": "[Roadmap] Excel: Edit with Copilot in Excel on iPhone",
-    "excerpt_original": "Edit with Copilot makes it easier to edit and transform your Excel workbooks on your phone using natural language. Copilot can continue working on your task even when you move away from the app, so you can come back when the work is ready. Chat mode also remains available when you want to ask questions and get insights without making changes to your workbook. GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Excel: iPhoneでのCopilotによる編集機能",
-    "summary_ja": "Microsoft 365 Copilotにより、iPhoneのExcelで自然言語を用いたワークブックの編集や変換が可能になります。バックグラウンド処理に対応しており、アプリを離れてもタスクが継続されるため、完了後に結果を確認できます。また、変更を加えることなく質問やインサイトの取得ができるチャットモードも利用可能です。",
-    "changes": [
-      "自然言語を使用したExcelワークブックの編集と変換機能の提供",
-      "アプリを離れてもバックグラウンドで処理が継続する機能",
-      "変更を加えずに対話やインサイト取得ができるチャットモードの利用"
-    ],
-    "target_user": [
-      "Microsoft 365 Copilot ユーザー",
-      "iPhone ユーザー",
-      "Excel ユーザー"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-27T01:06:09Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-27T01:06:08Z"
-  },
-  {
-    "id": "m365-roadmap-2dd441ededdfb9b72861",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576708",
-    "published_at": "2026-10-26T23:15:50Z",
-    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): SharePoint Site Builder",
-    "excerpt_original": "This feature enables users to easily create new SharePoint sites with Copilot. Users can review and confirm a clear site plan before Copilot builds the site. GA date: December CY2026 Preview date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: SharePoint Site Builder",
-    "summary_ja": "Copilotを使用して新しいSharePointサイトを簡単に作成できる機能が追加されます。ユーザーは、Copilotがサイトを構築する前に、明確なサイトプランを確認して確定させることができます。",
-    "changes": [
-      "Copilotを活用した新しいSharePointサイトの作成機能",
-      "構築前のサイトプランの確認と確定プロセス"
-    ],
-    "target_user": [
-      "Microsoft 365 users",
-      "SharePoint users"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-10-27T01:06:10Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-10-27T01:06:09Z"
+    "translation_attempted_at": "2026-10-27T09:35:14Z"
   }
 ]
