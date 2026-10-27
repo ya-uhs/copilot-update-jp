@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 24 Oct 2026 08:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:06:12 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Excel：Copilotを活用したデータの取得と変換機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577745</link>
+      <guid isPermaLink="false">m365-roadmap-3daa25499aca746dc363</guid>
+      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの新機能により、自然言語で指示するだけでデータの取得や準備を行えるようになります。Power Queryを介してデータの接続と変換、ワークブックへの読み込みが自動で行われ、生成されたクエリの確認や編集、更新が可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語での指示によるデータの取得と準備&lt;/li&gt;&lt;li&gt;Power Queryを使用したデータ接続・変換・ワークブックへの読み込み&lt;/li&gt;&lt;li&gt;自動生成されたクエリの確認、編集、更新機能&lt;/li&gt;&lt;li&gt;データソースに応じた認証の必要性&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577745"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: App Blocks機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577743</link>
+      <guid isPermaLink="false">m365-roadmap-b35d932b009b8f666c80</guid>
+      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Chatにおいて、ユーザーのリクエストやデータを電卓、ダッシュボード、フォームなどのリッチでインタラクティブな体験へと変換する「App Blocks」機能が追加されます。これにより、ユーザーは静的な回答にとどまらず、データの探索や入力値の調整、結果の視覚化、ワークフローのシミュレーションを会話内で直接行えるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リクエストやデータをインタラクティブなアプリ（電卓、ダッシュボード、フォーム、プランナー、視覚化ツール、シミュレーション、比較ツール等）に変換する機能を提供&lt;/li&gt;&lt;li&gt;静的な回答を超えて、会話内で直接データの探索、入力の調整、結果の視覚化、ワークフローのシミュレーションを実行可能&lt;/li&gt;&lt;li&gt;現在の情報を取得してインタラクティブな体験としてレンダリングする接地されたシナリオをサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577743"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Excel: iPhoneでのCopilotによる編集機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577177</link>
+      <guid isPermaLink="false">m365-roadmap-ba5da2c459f6d5b40f38</guid>
+      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにより、iPhoneのExcelで自然言語を用いたワークブックの編集や変換が可能になります。バックグラウンド処理に対応しており、アプリを離れてもタスクが継続されるため、完了後に結果を確認できます。また、変更を加えることなく質問やインサイトの取得ができるチャットモードも利用可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語を使用したExcelワークブックの編集と変換機能の提供&lt;/li&gt;&lt;li&gt;アプリを離れてもバックグラウンドで処理が継続する機能&lt;/li&gt;&lt;li&gt;変更を加えずに対話やインサイト取得ができるチャットモードの利用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577177"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: SharePoint Site Builder</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576708</link>
+      <guid isPermaLink="false">m365-roadmap-2dd441ededdfb9b72861</guid>
+      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilotを使用して新しいSharePointサイトを簡単に作成できる機能が追加されます。ユーザーは、Copilotがサイトを構築する前に、明確なサイトプランを確認して確定させることができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilotを活用した新しいSharePointサイトの作成機能&lt;/li&gt;&lt;li&gt;構築前のサイトプランの確認と確定プロセス&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576708"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: 統一ルーティングにおける直通内線通話のオーバーフローアクション</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=576607</link>

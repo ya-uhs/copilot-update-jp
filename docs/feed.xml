@@ -5,9 +5,69 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 24 Oct 2026 23:58:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:06:12 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Excel：Copilotを活用したデータの取得と変換機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577745</link>
+      <guid isPermaLink="false">m365-roadmap-3daa25499aca746dc363</guid>
+      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの新機能により、自然言語で指示するだけでデータの取得や準備を行えるようになります。Power Queryを介してデータの接続と変換、ワークブックへの読み込みが自動で行われ、生成されたクエリの確認や編集、更新が可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語での指示によるデータの取得と準備&lt;/li&gt;&lt;li&gt;Power Queryを使用したデータ接続・変換・ワークブックへの読み込み&lt;/li&gt;&lt;li&gt;自動生成されたクエリの確認、編集、更新機能&lt;/li&gt;&lt;li&gt;データソースに応じた認証の必要性&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577745"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: App Blocks機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577743</link>
+      <guid isPermaLink="false">m365-roadmap-b35d932b009b8f666c80</guid>
+      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Chatにおいて、ユーザーのリクエストやデータを電卓、ダッシュボード、フォームなどのリッチでインタラクティブな体験へと変換する「App Blocks」機能が追加されます。これにより、ユーザーは静的な回答にとどまらず、データの探索や入力値の調整、結果の視覚化、ワークフローのシミュレーションを会話内で直接行えるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リクエストやデータをインタラクティブなアプリ（電卓、ダッシュボード、フォーム、プランナー、視覚化ツール、シミュレーション、比較ツール等）に変換する機能を提供&lt;/li&gt;&lt;li&gt;静的な回答を超えて、会話内で直接データの探索、入力の調整、結果の視覚化、ワークフローのシミュレーションを実行可能&lt;/li&gt;&lt;li&gt;現在の情報を取得してインタラクティブな体験としてレンダリングする接地されたシナリオをサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577743"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Excel: iPhoneでのCopilotによる編集機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577177</link>
+      <guid isPermaLink="false">m365-roadmap-ba5da2c459f6d5b40f38</guid>
+      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにより、iPhoneのExcelで自然言語を用いたワークブックの編集や変換が可能になります。バックグラウンド処理に対応しており、アプリを離れてもタスクが継続されるため、完了後に結果を確認できます。また、変更を加えることなく質問やインサイトの取得ができるチャットモードも利用可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語を使用したExcelワークブックの編集と変換機能の提供&lt;/li&gt;&lt;li&gt;アプリを離れてもバックグラウンドで処理が継続する機能&lt;/li&gt;&lt;li&gt;変更を加えずに対話やインサイト取得ができるチャットモードの利用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577177"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: SharePoint Site Builder</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576708</link>
+      <guid isPermaLink="false">m365-roadmap-2dd441ededdfb9b72861</guid>
+      <pubDate>Mon, 26 Oct 2026 23:15:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilotを使用して新しいSharePointサイトを簡単に作成できる機能が追加されます。ユーザーは、Copilotがサイトを構築する前に、明確なサイトプランを確認して確定させることができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilotを活用した新しいSharePointサイトの作成機能&lt;/li&gt;&lt;li&gt;構築前のサイトプランの確認と確定プロセス&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576708"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.104-4</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.104-4</link>
+      <guid isPermaLink="false">github-copilot-cli-424842620</guid>
+      <pubDate>Mon, 26 Oct 2026 22:35:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.104-4がリリースされました。本バージョンには、各種の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.104-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるGPT-6.1 Terraの提供開始</title>
+      <link>https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-051483cefe7ff38558fb</guid>
+      <pubDate>Mon, 26 Oct 2026 19:15:53 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;OpenAIの最新モデルであるGPT-6.1 Terraが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、日常的なエージェント型コーディングおよびターミナル作業向けに設計されており、GPT-6.1 Solよりも低いコストで利用可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでGPT-6.1 Terraが一般提供（GA）開始&lt;/li&gt;&lt;li&gt;日々のエージェント型コーディングとターミナル作業に対応&lt;/li&gt;&lt;li&gt;GPT-6.1 Solよりも低コストで利用可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.104-3 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.104-3</link>
@@ -1946,66 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralにおいて、新しいMCPツールを使用してカスタムデータクエリを定義、検証、実行できるようになります。これにより、既存のAPIが存在しないデータに対してもMCPアプリケーションからクエリを実行することが可能になります。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;新しいMCPツールによるカスタムデータクエリの定義、検証、実行機能の追加&lt;/li&gt;&lt;li&gt;既存のAPIがないデータに対するMCPアプリケーションからのクエリ実行をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573312"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: Cowork、Code、Scout向けサービスツール、スキル、プラグインの提供開始</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571678</link>
-      <guid isPermaLink="false">m365-roadmap-da170a9d4b06557cc036</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;更新されたServiceアプリケーションにより、Dynamics 365 Customer Serviceのコンテキスト、アクション、およびガイド付きワークフローがChat、Cowork、Code、ScoutなどのサポートされるCopilotエクスペリエンスに統合されます。カスタマーサービスチームは作業のフローの中でサービス情報の参照やサポートされているアクションの実行が可能になり、Dynamics 365への画面切り替えを削減できます。Dynamics 365 MCP上のServiceパッケージを通じて提供されるファーストパーティツールは、ビジネスロジックとユーザー権限に準拠します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 Customer Serviceのコンテキスト、アクション、ガイド付きワークフローをChat、Cowork、Code、ScoutのCopilotエクスペリエンスに統合&lt;/li&gt;&lt;li&gt;Dynamics 365 MCP上のServiceパッケージによるファーストパーティツールの提供（ビジネスロジックとユーザー権限を遵守）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571678"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: セルフラーニング機能の追加</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570432</link>
-      <guid isPermaLink="false">m365-roadmap-7db51a094e0183264c20</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioのエージェント向けに、完了した実行結果から学習するセルフラーニング機能が追加されます。エージェントは繰り返し使用されるツールシーケンスをワークフローとして提案し、メーカーがそれを承認、テスト、公開することで品質向上とコスト管理を実現します。プレビュー版の提供は2026年9月、GA（一般提供）は2026年10月の予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;完了した実行の履歴から学習し、エージェントの改善を支援する機能を追加&lt;/li&gt;&lt;li&gt;繰り返し使用されるツールシーケンスを検出し、ワークフロー化の推奨を提示&lt;/li&gt;&lt;li&gt;メーカーが推奨事項の確認、構成、テスト、およびエージェントの改良版の公開を実施可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570432"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：Copilot Studioエージェント向け永続ID</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570430</link>
-      <guid isPermaLink="false">m365-roadmap-3a3710f4875709db9a40</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;メーカーはMicrosoft Copilot Studioのエージェントに独自のMicrosoft 365アカウントと永続IDを付与できるようになります。エージェントは専用のメールボックス、Teamsプレゼンス、Officeアクセスを持ち、管理者はファーストクラスのエンティティとしてアクセスやポリシーを統制可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントへの専用Microsoft 365アカウント（永続ID）の付与&lt;/li&gt;&lt;li&gt;専用メールボックス、Teamsプレゼンス、Officeアクセス機能の搭載&lt;/li&gt;&lt;li&gt;管理者の統制下でのチーム間における共同作業の実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570430"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Teams: インテリジェント通話委任機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=565216</link>
-      <guid isPermaLink="false">m365-roadmap-2c7a230be193f4d7fe3d</guid>
-      <pubDate>Wed, 30 Sep 2026 23:31:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft TeamsにAIを活用した通話アシスタンス機能であるインテリジェント通話委任機能が追加されます。本機能は着信に応答してコンテキストを収集し、応答するかどうかを判断するのに役立ちます。また、Microsoft Bookingsとの統合を通じて後続の予定を調整することも可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIを活用した通話アシスタンスにより、着信への応答とコンテキストの収集が可能になります&lt;/li&gt;&lt;li&gt;Microsoft Bookingsとの統合により、都合の良い時間でのフォローアップ予定の調整が可能になります&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=565216"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.91-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.91-0</link>
-      <guid isPermaLink="false">github-copilot-cli-400504518</guid>
-      <pubDate>Wed, 30 Sep 2026 23:18:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.91-0がリリースされました。完全で静的解析可能な読み取り専用シェルパイプラインの実行根拠レビューが可能になり、Windows環境でのNode/npm EACCESソケット拒否に対するサンドイッチネットワークバイパスの修正が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;完全かつ静的解析可能な読み取り専用シェルパイプラインが実行根拠レビューに入ることが可能になりました（不完全または未バインドのパイプラインは引き続き明示的な承認が必要です）。&lt;/li&gt;&lt;li&gt;Windows上でのNode/npm EACCESソケット拒否に対するサンドボックスネットワークバイパスの問題を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.91-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.90 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90</link>
-      <guid isPermaLink="false">github-copilot-cli-400456416</guid>
-      <pubDate>Wed, 30 Sep 2026 21:38:30 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90がリリースされ、モデル選択へのGPT-6.1 Solサポート追加や、MCP（Model Context Protocol）関連の機能強化、各種バグ修正が行われました。セキュリティと利便性の向上のため、GitHubアカウント認証のスコープ設定や読み取り専用ディレクトリの承認機能が追加されています。また、UIの表示改善やクリップボードの動作安定化なども含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モデル選択にGPT-6.1 Solのサポートを追加&lt;/li&gt;&lt;li&gt;承認されたMCPサーバーのオリジンにGitHubアカウント認証を制限する --mcp-github-auth オプションを追加&lt;/li&gt;&lt;li&gt;パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認を追加&lt;/li&gt;&lt;li&gt;中断されたセッションを再開した後も、権限プロンプトに応答可能な状態を維持&lt;/li&gt;&lt;li&gt;MCPツールが一時的なディスカバリー失敗からセッションの再起動なしで復旧する機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>
