@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:35:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:58:02 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年10月27日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026</link>
+      <guid isPermaLink="false">m365-release-notes-ec94afd5e510346466bc</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年10月27日更新では、パーソナライズされた学習を支援するLearning Agentや、アプリ利用状況を追跡する新たなCopilotメトリクスが追加されました。また、Copilot NotebooksでのWebリンク参照やiOSアプリでの新デザイン、ResearcherにおけるCanva Connectorのサポートが含まれます。さらに、管理者向けのカスタムMCPコネクタの作成・展開機能や、Work IQ APIにおける従量課金制の導入などが実施されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;個人向けマイクロラーニングや構造化学習を提供する Learning Agent の追加（Roadmap ID: 490154）&lt;/li&gt;&lt;li&gt;Microsoft 365 アプリや Edge、OneNote における利用状況を追跡する新しい Copilot メトリクスの導入（Roadmap ID: 557981）&lt;/li&gt;&lt;li&gt;Copilot Notebooks における Web リンクの参照ソースとしての追加対応（Roadmap ID: 516040）&lt;/li&gt;&lt;li&gt;Microsoft 365 管理センターでのカスタム Model Context Protocol (MCP) コネクタの作成・展開機能の追加（Roadmap ID: 501585）&lt;/li&gt;&lt;li&gt;Work IQ API における事前割り当てライセンス不要の従量課金制の有効化（Roadmap ID: 559017）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilotのアシステッドパーミッションが一般提供（GA）を開始</title>
       <link>https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available</link>
@@ -89,24 +99,14 @@
       <category>high</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Microsoft Dataverse：AIエージェントおよびCopilot向けのセマンティックデータ理解機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577185</link>
-      <guid isPermaLink="false">m365-roadmap-0957c957c45e09308e3b</guid>
-      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft Dataverseに、AIエージェントやCopilotがビジネスデータをより深く理解するためのセマンティックデータ理解機能が追加されます。ビュー、フォーム、メタデータからセマンティック知識を自動抽出し、手動でのスキーママッピングやクエリロジックの構築を削減します。また、Power Appsメーカーポータルを通じた可視性や、組織・テーブル単位でのきめ細かなガバナンスとプライバシー制御を提供します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dataverse環境内のビュー、フォーム、メタデータからセマンティック知識を自動抽出&lt;/li&gt;&lt;li&gt;Power Appsメーカーポータルでの生成されたセマンティック知識の表示、および用語集によるコンテキストの補強&lt;/li&gt;&lt;li&gt;組織レベル、シグナルタイプ別、テーブルレベルでのセマンティック信号の有効化・無効化によるガバナンス制御&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577185"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Power Automate: AIを活用したUI自動化の修復機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577869</link>
+      <guid isPermaLink="false">m365-roadmap-7361349da16ccb4c14bc</guid>
+      <pubDate>Tue, 27 Oct 2026 23:05:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Automateのフローデザイナーに、AIを活用した新しいエージェント型デバッグ実行機能が追加されます。フロー実行中にUI自動化の修復インターフェースが起動し、セレクターの検証と、ユーザーの参照用要素取得に基づく新しいセレクターの提案を行います。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フローデザイナーにエージェント型のデバッグ実行機能を追加&lt;/li&gt;&lt;li&gt;フロー実行中にUI自動化の修復インターフェースが各セレクターを検証&lt;/li&gt;&lt;li&gt;既存のセレクターが機能しない場合に新しいセレクターを提案&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577869"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: AIエージェントによる日中運用管理機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577184</link>
-      <guid isPermaLink="false">m365-roadmap-409e4208ab1776054ec2</guid>
-      <pubDate>Tue, 20 Oct 2026 23:00:34 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Intraday Agentは、日中の運用シナリオを管理するための自律型AIエージェントです。リアルタイムのキュー監視や異常検知、自動再予測、プロアクティブなアラート通知、およびスケジュール調整などの是正措置の自動化をサポートします。また、サービス担当者のシフト順守状況をリアルタイムで追跡し、逸脱に対する自律的な緩和措置を実行します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Intraday queue tracking: キューボリュームをリアルタイムで継続的に監視し、予測需要からの乖離や異常を検知して自動で再予測を実施&lt;/li&gt;&lt;li&gt;管理者への通知と是正措置の自動化: プロアクティブなアラートと推奨事項を通知し、スケジュール調整や担当者の再割り当てなどを自動化&lt;/li&gt;&lt;li&gt;Intraday adherence tracking: 担当者のシフト活動への順守状況をリアルタイムで監視し、遅刻や休憩延長などの逸脱を検知&lt;/li&gt;&lt;li&gt;逸脱に対する自律的な緩和措置: 休憩の再スケジュール、シフト延長、残業の有効化、柔軟なチャネル再割り当てなどを自律的に実行&lt;/li&gt;&lt;li&gt;カスタマイズ可能な指示のサポート: ビジネスニーズに合わせて緩和アクションを調整するための設定をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577184"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
+      <category>medium</category>
     </item>
   </channel>
 </rss>

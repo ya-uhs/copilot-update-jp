@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:06:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:58:02 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Power Automate: AIを活用したUI自動化の修復機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577869</link>
+      <guid isPermaLink="false">m365-roadmap-7361349da16ccb4c14bc</guid>
+      <pubDate>Tue, 27 Oct 2026 23:05:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Automateのフローデザイナーに、AIを活用した新しいエージェント型デバッグ実行機能が追加されます。フロー実行中にUI自動化の修復インターフェースが起動し、セレクターの検証と、ユーザーの参照用要素取得に基づく新しいセレクターの提案を行います。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フローデザイナーにエージェント型のデバッグ実行機能を追加&lt;/li&gt;&lt;li&gt;フロー実行中にUI自動化の修復インターフェースが各セレクターを検証&lt;/li&gt;&lt;li&gt;既存のセレクターが機能しない場合に新しいセレクターを提案&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577869"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] [ロードマップ] Microsoft Copilot (Microsoft 365): Copilotアプリモードのハンドオフ機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577841</link>
+      <guid isPermaLink="false">m365-roadmap-59de0fd3a78a48a306b7</guid>
+      <pubDate>Tue, 27 Oct 2026 23:05:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilotアプリのチャット体験において、ユーザーのプロンプトに基づいて最適なモードを提案する機能が追加されます。ユーザーは提案カードからモードを切り替えることができ、チャットの会話内容は新しいモードのプロンプトに引き継がれます。一般提供（GA）は2026年11月が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトに基づき、Coworkなどの最適なモードを提案するカードを表示&lt;/li&gt;&lt;li&gt;提案されたモードへ切り替えるオプションを提供&lt;/li&gt;&lt;li&gt;モード切替時もこれまでのチャット会話コンテキストを維持&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577841"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Viva InsightsおよびCopilot AnalyticsのDoD環境への導入</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576277</link>
+      <guid isPermaLink="false">m365-roadmap-393e2ecfe39012dfbf18</guid>
+      <pubDate>Tue, 27 Oct 2026 23:05:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva InsightsとCopilot AnalyticsがMicrosoft 365のDepartment of Defense (DoD)環境に導入されます。これにより、適格な組織はプライバシーが保護されたロールベースの分析を通じて、Microsoft 365 Copilotの採用、利用状況、影響を把握できるようになります。また、従業員のコラボレーションに関するデータ駆動型の行動インサイトを提供し、DoD環境内での生産性とウェルビーイングの向上を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 Department of Defense (DoD) 環境向けに Microsoft Viva Insights および Copilot Analytics を提供開始&lt;/li&gt;&lt;li&gt;Microsoft 365 Copilot の採用、利用状況、影響を把握するためのプライバシー保護されたロールベースの分析機能を追加&lt;/li&gt;&lt;li&gt;従業員のコラボレーション方法に関するデータ駆動型の行動インサイトを通じて、生産性とウェルビーイングの向上を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576277"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年10月27日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026</link>
+      <guid isPermaLink="false">m365-release-notes-ec94afd5e510346466bc</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年10月27日更新では、パーソナライズされた学習を支援するLearning Agentや、アプリ利用状況を追跡する新たなCopilotメトリクスが追加されました。また、Copilot NotebooksでのWebリンク参照やiOSアプリでの新デザイン、ResearcherにおけるCanva Connectorのサポートが含まれます。さらに、管理者向けのカスタムMCPコネクタの作成・展開機能や、Work IQ APIにおける従量課金制の導入などが実施されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;個人向けマイクロラーニングや構造化学習を提供する Learning Agent の追加（Roadmap ID: 490154）&lt;/li&gt;&lt;li&gt;Microsoft 365 アプリや Edge、OneNote における利用状況を追跡する新しい Copilot メトリクスの導入（Roadmap ID: 557981）&lt;/li&gt;&lt;li&gt;Copilot Notebooks における Web リンクの参照ソースとしての追加対応（Roadmap ID: 516040）&lt;/li&gt;&lt;li&gt;Microsoft 365 管理センターでのカスタム Model Context Protocol (MCP) コネクタの作成・展開機能の追加（Roadmap ID: 501585）&lt;/li&gt;&lt;li&gt;Work IQ API における事前割り当てライセンス不要の従量課金制の有効化（Roadmap ID: 559017）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Excel：Copilotを活用したデータの取得と変換機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577745</link>

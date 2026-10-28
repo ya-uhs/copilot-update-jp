@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:35:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:58:02 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年10月27日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026</link>
+      <guid isPermaLink="false">m365-release-notes-ec94afd5e510346466bc</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年10月27日更新では、パーソナライズされた学習を支援するLearning Agentや、アプリ利用状況を追跡する新たなCopilotメトリクスが追加されました。また、Copilot NotebooksでのWebリンク参照やiOSアプリでの新デザイン、ResearcherにおけるCanva Connectorのサポートが含まれます。さらに、管理者向けのカスタムMCPコネクタの作成・展開機能や、Work IQ APIにおける従量課金制の導入などが実施されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;個人向けマイクロラーニングや構造化学習を提供する Learning Agent の追加（Roadmap ID: 490154）&lt;/li&gt;&lt;li&gt;Microsoft 365 アプリや Edge、OneNote における利用状況を追跡する新しい Copilot メトリクスの導入（Roadmap ID: 557981）&lt;/li&gt;&lt;li&gt;Copilot Notebooks における Web リンクの参照ソースとしての追加対応（Roadmap ID: 516040）&lt;/li&gt;&lt;li&gt;Microsoft 365 管理センターでのカスタム Model Context Protocol (MCP) コネクタの作成・展開機能の追加（Roadmap ID: 501585）&lt;/li&gt;&lt;li&gt;Work IQ API における事前割り当てライセンス不要の従量課金制の有効化（Roadmap ID: 559017）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilotのアシステッドパーミッションが一般提供（GA）を開始</title>
       <link>https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available</link>

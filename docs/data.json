@@ -9013,5 +9013,220 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-92608e65bdba9862559e",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+    "published_at": "2026-10-27T21:36:55Z",
+    "title_original": "GitHub Copilot supports server-to-server authentication",
+    "excerpt_original": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on… The post GitHub Copilot supports server-to-server authentication appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "Public Preview",
+    "title_ja": "GitHub Copilotがサーバー間認証をサポート",
+    "summary_ja": "GitHub Copilotは、組織にインストールされたGitHub Apps向けのサーバー間認証のサポートを開始しました。GitHub Copilot SDKを使用して構築されたサービスやエージェントは、リクエストの送信が可能になります。この機能は現在パブリックプレビューとして提供されています。",
+    "changes": [
+      "組織にインストールされたGitHub Apps向けのサーバー間認証を追加",
+      "GitHub Copilot SDKを使用したサービスおよびエージェントからのリクエスト送信に対応"
+    ],
+    "target_user": [
+      "Developers",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-28T00:58:00Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-28T00:57:59Z"
+  },
+  {
+    "id": "github-copilot-cli-426142964",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.105",
+    "published_at": "2026-10-28T00:44:43Z",
+    "title_original": "GitHub Copilot CLI v1.0.105",
+    "excerpt_original": "2026-10-27 - Selecting Copilot Fusion High or Max in /model now works from long-context sessions",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.105 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.105がリリースされました。本バージョンでは、長コンテキストセッションにおいて、/modelコマンドからCopilot Fusion HighまたはMaxを選択できるようになりました。",
+    "changes": [
+      "長コンテキストセッション内の /model から Copilot Fusion High または Max を選択できる機能の修正と改善"
+    ],
+    "target_user": [
+      "Developer",
+      "CLI User"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-28T00:57:55Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-28T00:57:52Z"
+  },
+  {
+    "id": "github-copilot-cli-426062488",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.105-1",
+    "published_at": "2026-10-27T22:38:37Z",
+    "title_original": "GitHub Copilot CLI v1.0.105-1",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.105-1 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.105-1がリリースされました。本バージョンには、各種の修正と変更が含まれています。詳細な機能追加や仕様変更の記載はありません。",
+    "changes": [
+      "バグ修正とその他の変更の適用"
+    ],
+    "target_user": [
+      "developers",
+      "cli users"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-28T00:57:59Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-28T00:57:58Z"
+  },
+  {
+    "id": "github-copilot-cli-425866102",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.105-0",
+    "published_at": "2026-10-27T18:59:58Z",
+    "title_original": "GitHub Copilot CLI v1.0.105-0",
+    "excerpt_original": "**Fixed** - Selecting Copilot Fusion High or Max in /model now works from long-context sessions",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.105-0のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.105-0がリリースされました。長時間のコンテキストセッションにおいて、/modelからCopilot Fusion HighまたはMaxを選択できるようになる不具合修正が含まれています。",
+    "changes": [
+      "長時間のコンテキストセッションで、/modelからCopilot Fusion HighまたはMaxを選択できるよう修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-10-28T00:58:01Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-10-28T00:58:00Z"
+  },
+  {
+    "id": "m365-release-notes-ec94afd5e510346466bc",
+    "source": "Microsoft 365 Copilot Release Notes",
+    "source_url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026",
+    "published_at": "2026-10-27T00:00:00Z",
+    "title_original": "Microsoft 365 Copilot release notes — October 27, 2026",
+    "excerpt_original": "Updates released between October 13, 2026, and October 27, 2026. Microsoft 365 Copilot Learning Agent in Microsoft 365 Copilot [Windows] The Learning agent helps employees build skills through personalized microlearning and structured learning experiences. Roadmap ID: 490154 Details: What changed: Microsoft 365 Copilot now includes a Learning agent that helps employees discover personalized learning opportunities. The experience supports both microlearning content and structured learning paths, making it easier to find skill-building resources within the flow of work and upskill on Copilot. Why: Learning Agent makes continuous upskilling part of everyday work by delivering personalized, role- and task-relevant learning directly in Copilot. It helps employees discover what to learn, learn through real work, practice skills, identify gaps, and follow structured learning plans, enabling organizations to build AI fluency and role-based skills at scale. Try this: Open https://aka.ms/LearningAgent/add Click on any cards present on the home page or ask anything to learn/upskill Why this matters: Personalized learning guidance helps employees discover relevant training without extensive searching. Business impact: Organizations can support workforce skill development by helping employees find relevant learning resources more efficiently. Personal impact: Users can identify useful learning opportunities faster and spend more time building skills. Learn Learning Agent Overview of Learning agent Insights - New Copilot Metrics Available [Web] We are bringing a set of new Copilot metrics including actions taken in Microsoft 365 Copilot app, Edge and OneNote, and more key use cases across Outlook, Word, Excel, and PowerPoint including suggested reply, translate, coach, clean data and more. This will empower customers to more deeply understand the key Copilot adoption cases in Copilot Dashboard and Advanced Analysis in Viva Insights. Roadmap ID: 557981 Details: What changed: The update introduces detailed metrics for Copilot usage across Microsoft 365 apps including suggested reply, translate, coach, and clean data features. Previously, Copilot Analytics offered limited visibility into user actions and adoption patterns. This expansion enables tracking of Copilot interactions in the Copilot app, Edge browser, OneNote, and core Office apps, improving data granularity and security auditing capabilities. Why: Providing comprehensive usage metrics helps organizations understand how Copilot features are adopted and used, enabling better governance and optimization of AI assistance within Microsoft 365 environments. Try this: Open the Copilot Dashboard in Viva Insights. Navigate to Advanced Analysis to explore new Copilot usage metrics. Filter by application or feature to review adoption trends and user engagement. Why this matters: Detailed adoption metrics allow IT and business leaders to monitor Copilot usage effectively and make informed decisions about training and deployment. Business impact: Teams gain clearer visibility into AI tool adoption, supporting data-driven management of productivity tools and user experience improvements. Personal impact: Users benefit from tailored support and training based on actual Copilot usage patterns, reducing friction and increasing productivity. Learn: Microsoft Copilot metrics Microsoft 365 Copilot app Web Link as a Reference in Copilot Notebooks [Web] Add web links as references in your Copilot Notebooks. Roadmap ID: 516040 Details: What changed: Copilot Notebooks now support web links as reference sources. Previously, notebook references did not include web links based on the information provided. Users can add web content as a source when building notebook context for Copilot. Why: Relevant information often exists outside existing notebook sources. Adding web links broadens the information available to Copilot and helps users create notebooks with more complete context. Try this: Open a Copilot Notebook and add a reference. Paste a web link as a source for the notebook. Review notebook content and use Copilot with the added reference. Why this matters: Web-based sources can be included directly in notebook context, making it easier to work with information from multiple locations. Business impact: Teams can incorporate relevant web content into Copilot workflows without maintaining separate reference collections. Personal impact: You can bring useful online information into a notebook more quickly and reduce manual context gathering. New Copilot Notebooks design in the Microsoft Copilot App (iOS) [iOS] Copilot Notebooks in the Microsoft Copilot app (iOS) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. Roadmap ID: 566318 Details: What changed: Copilot Notebooks in the Microsoft Copilot app on iOS provides a persistent workspace for related chats, generated content, and reference materials. Copilot uses the accumulated Notebook context to ground responses across sessions, reducing the need to re-enter background information. Copilot Notebooks in OneNote remain available, and notebooks in the Microsoft Copilot app can be opened as part of ongoing work. Why: The new Notebooks UX brings a lightweight, chat-first experience to the Microsoft Copilot app, making it faster to start work and easier to navigate while keeping chats, outputs, and references organized around a project or topic. Try this: Open the Microsoft Copilot app on iOS and create or open a Notebook. Add related chats, references, and generated content to the Notebook. Ask Copilot questions within the Notebook to use its accumulated context. Why this matters: A lower-friction experience in the Copilot app helps users quickly find and return to the context they need, stay in the flow of work, and continue in OneNote when they need the fuller workspace experience. Business impact: Teams can keep related AI-assisted work organized in a reusable workspace, improving continuity for ongoing projects. Personal impact: You spend less time reintroducing context and can resume work more quickly across multiple sessions. Microsoft 365 Copilot extensibility User can use Canva Connector in Researcher [Web] User can use Canva Connector in Researcher. Details: What changed: Researcher now supports the Canva Connector. Previously, Canva content was not available through this connector within Researcher. Users can include connected Canva information as part of their research workflow in Microsoft Copilot. Why: This change expands the content sources available in Researcher. It helps users incorporate relevant Canva content without switching between tools. Try this: Open Researcher in Microsoft Copilot and start a research task. Select the Canva Connector if it is available in your environment. Review the returned Canva content and use it in your research results. Why this matters: Users can access additional connected content sources directly within Researcher, reducing context switching during research tasks. Business impact: Teams can incorporate Canva content into research workflows more efficiently when the connector is enabled in their environment. Personal impact: You spend less time moving between applications when gathering information for research tasks. Admins can create and deploy custom Model Context Protocol (MCP) connectors across Microsoft 365 [Web] Admins can create custom Model Context Protocol (MCP) connectors in the Microsoft 365 Admin Centre and deploy them across Microsoft 365. This will allow admins to surface their organization's custom data in Microsoft 365 Copilot via these MCP-based connectors. Roadmap ID: 501585 Details: What changed: Previously, admins had limited ability to integrate custom data sources with Microsoft 365 Copilot. Now, they can build custom MCP-based connectors in the Microsoft 365 admin center and deploy them organization-wide. This enables Copilot to access and use proprietary data securely via these connectors. Why: This capability allows organizations to extend Copilotâs usefulness by integrating their unique data, improving relevance and decision-making while maintaining centralized control. Try this: Open the Microsoft 365 admin center. Go to the Copilot Extensibility section. Create a new MCP connector and deploy it to users across the organization. Why this matters: Custom connectors enable tailored Copilot experiences that leverage organizational data securely and at scale. Business impact: Teams gain enhanced insights by integrating proprietary data into Copilot workflows, improving collaboration and productivity. Personal impact: Users access richer, organization-specific information directly through Copilot, reducing time spent searching external systems. Rich entity representation for connectors in Search results [Web] Rich entity representation for connectors in Search results. Roadmap ID: 502533 Details: What changed: Search results in Microsoft Copilot now include detailed entity cards for connectors instead of plain text links. This update enhances visual context by showing metadata and relevant attributes directly in search results. It improves security by clearly identifying data sources and reducing misclicks. Why: Providing richer entity information helps users quickly understand connector content without navigating away, reducing errors and improving search efficiency. Try this: Open Microsoft Copilot and enter a search query. Review the connector results displayed with detailed entity cards. Click on a connector entity to access its full content with confidence. Why this matters: Clearer connector representations reduce confusion and help users find accurate information faster. Business impact: Teams benefit from faster data discovery and reduced risk of accessing incorrect connector data. Personal impact: You save time by identifying the right connector content at a glance without extra clicks. Work IQ APIs: Usage-based billing [Windows, Linux, Mac, Web] Enables usage-based billing for Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre-assigned licenses, with usage billed based on the agents and models invoked per request. Roadmap ID: 559017 Details: What changed: Work IQ APIs now support usage-based billing, allowing developers to call agents and models without needing pre-assigned licenses. Previously, access required assigned licenses regardless of usage. Billing is now based on fixed or variable costs invoked per API request, improving cost transparency and flexibility. Why: This change removes licensing barriers for developers and aligns billing with actual usage, enabling more scalable and cost-efficient integration of Work IQ capabilities. Try this: Register your application to access Work IQ APIs. Invoke Work IQ agents or models through the API without assigning licenses. Monitor usage and billing based on the agents and models called per request. Why this matters: Developers can integrate Work IQ features more flexibly and pay only for what they use, reducing upfront licensing complexity. Business impact: Teams can adopt Work IQ capabilities incrementally without license management overhead, improving development agility and cost control. Personal impact: You can experiment and build with Work IQ APIs without license constraints, saving time on administration and reducing costs. Work IQ APIs - Endpoints: Declarative Agent Access [Web] Enables programmatic access to firstâparty and tenantâdefined declarative agents via the Work IQ endpoint, allowing applications to trigger specialized agents for domainâspecific tasks within broader workflows. Roadmap ID: 559019 Details: What changed: The Work IQ endpoint now supports programmatic access to both first-party and tenant-defined declara",
+    "product": "Microsoft 365 Copilot",
+    "status": "Release",
+    "title_ja": "Microsoft 365 Copilot リリースノート（2026年10月27日）",
+    "summary_ja": "Microsoft 365 Copilotの2026年10月27日更新では、パーソナライズされた学習を支援するLearning Agentや、アプリ利用状況を追跡する新たなCopilotメトリクスが追加されました。また、Copilot NotebooksでのWebリンク参照やiOSアプリでの新デザイン、ResearcherにおけるCanva Connectorのサポートが含まれます。さらに、管理者向けのカスタムMCPコネクタの作成・展開機能や、Work IQ APIにおける従量課金制の導入などが実施されました。",
+    "changes": [
+      "個人向けマイクロラーニングや構造化学習を提供する Learning Agent の追加（Roadmap ID: 490154）",
+      "Microsoft 365 アプリや Edge、OneNote における利用状況を追跡する新しい Copilot メトリクスの導入（Roadmap ID: 557981）",
+      "Copilot Notebooks における Web リンクの参照ソースとしての追加対応（Roadmap ID: 516040）",
+      "Microsoft 365 管理センターでのカスタム Model Context Protocol (MCP) コネクタの作成・展開機能の追加（Roadmap ID: 501585）",
+      "Work IQ API における事前割り当てライセンス不要の従量課金制の有効化（Roadmap ID: 559017）"
+    ],
+    "target_user": [
+      "employees",
+      "admins",
+      "developers",
+      "IT leaders"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-28T00:58:02Z",
+    "source_id": "m365-release-notes",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-28T00:58:01Z"
+  },
+  {
+    "id": "m365-roadmap-7361349da16ccb4c14bc",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577869",
+    "published_at": "2026-10-27T23:05:02Z",
+    "title_original": "[Roadmap] Power Automate: AI-assisted UI Automation repair",
+    "excerpt_original": "A new agentic debug run feature will be available in the flow designer. The UI automation repair interface launches while the flow is running, validating each selector used in the flow. It then proposes a new selector in case an existing one does not work as expected, after the user captures the respective element for reference. GA date: March CY2027 Preview date: July CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Power Automate: AIを活用したUI自動化の修復機能",
+    "summary_ja": "Power Automateのフローデザイナーに、AIを活用した新しいエージェント型デバッグ実行機能が追加されます。フロー実行中にUI自動化の修復インターフェースが起動し、セレクターの検証と、ユーザーの参照用要素取得に基づく新しいセレクターの提案を行います。",
+    "changes": [
+      "フローデザイナーにエージェント型のデバッグ実行機能を追加",
+      "フロー実行中にUI自動化の修復インターフェースが各セレクターを検証",
+      "既存のセレクターが機能しない場合に新しいセレクターを提案"
+    ],
+    "target_user": [
+      "Power Automate ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-28T00:57:56Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-28T00:57:55Z"
+  },
+  {
+    "id": "m365-roadmap-59de0fd3a78a48a306b7",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577841",
+    "published_at": "2026-10-27T23:05:02Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): Copilot app mode handoffs",
+    "excerpt_original": "The Chat experience in the Copilot app will suggest a better-fit mode based on the user's prompt, if applicable. For example, it will suggest Cowork or other supported modes as they become available. Users will see a suggestion card after they send a prompt in Chat, with an explanation of the better-fit mode and an option for the user to switch to the suggested mode. Their chat conversation will be attached to the prompt in the new mode to maintain context. GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] [ロードマップ] Microsoft Copilot (Microsoft 365): Copilotアプリモードのハンドオフ機能",
+    "summary_ja": "Microsoft Copilotアプリのチャット体験において、ユーザーのプロンプトに基づいて最適なモードを提案する機能が追加されます。ユーザーは提案カードからモードを切り替えることができ、チャットの会話内容は新しいモードのプロンプトに引き継がれます。一般提供（GA）は2026年11月が予定されています。",
+    "changes": [
+      "プロンプトに基づき、Coworkなどの最適なモードを提案するカードを表示",
+      "提案されたモードへ切り替えるオプションを提供",
+      "モード切替時もこれまでのチャット会話コンテキストを維持"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-28T00:57:57Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-28T00:57:56Z"
+  },
+  {
+    "id": "m365-roadmap-393e2ecfe39012dfbf18",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576277",
+    "published_at": "2026-10-27T23:05:02Z",
+    "title_original": "[Roadmap] Microsoft Viva: Insights and Copilot Analytics in DoD",
+    "excerpt_original": "Microsoft Viva Insights and Copilot Analytics are coming to the Microsoft 365 Department of Defense (DoD) environment, providing eligible organizations with privacy-protected, role-based analytics experiences to help them understand Microsoft 365 Copilot adoption, usage, and impact. Viva Insights also provides data-driven behavioral insights into how employees collaborate, helping organizations improve productivity and wellbeing within the DoD environment. GA date: January CY2027",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Viva InsightsおよびCopilot AnalyticsのDoD環境への導入",
+    "summary_ja": "Microsoft Viva InsightsとCopilot AnalyticsがMicrosoft 365のDepartment of Defense (DoD)環境に導入されます。これにより、適格な組織はプライバシーが保護されたロールベースの分析を通じて、Microsoft 365 Copilotの採用、利用状況、影響を把握できるようになります。また、従業員のコラボレーションに関するデータ駆動型の行動インサイトを提供し、DoD環境内での生産性とウェルビーイングの向上を支援します。",
+    "changes": [
+      "Microsoft 365 Department of Defense (DoD) 環境向けに Microsoft Viva Insights および Copilot Analytics を提供開始",
+      "Microsoft 365 Copilot の採用、利用状況、影響を把握するためのプライバシー保護されたロールベースの分析機能を追加",
+      "従業員のコラボレーション方法に関するデータ駆動型の行動インサイトを通じて、生産性とウェルビーイングの向上を支援"
+    ],
+    "target_user": [
+      "Department of Defense (DoD) 組織",
+      "IT管理者",
+      "組織リーダー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-28T00:57:58Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-28T00:57:57Z"
   }
 ]

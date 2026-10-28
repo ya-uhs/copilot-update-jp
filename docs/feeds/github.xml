@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:35:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:58:02 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.105 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.105</link>
+      <guid isPermaLink="false">github-copilot-cli-426142964</guid>
+      <pubDate>Wed, 28 Oct 2026 00:44:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.105がリリースされました。本バージョンでは、長コンテキストセッションにおいて、/modelコマンドからCopilot Fusion HighまたはMaxを選択できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;長コンテキストセッション内の /model から Copilot Fusion High または Max を選択できる機能の修正と改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.105"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.105-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.105-1</link>
+      <guid isPermaLink="false">github-copilot-cli-426062488</guid>
+      <pubDate>Tue, 27 Oct 2026 22:38:37 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.105-1がリリースされました。本バージョンには、各種の修正と変更が含まれています。詳細な機能追加や仕様変更の記載はありません。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;バグ修正とその他の変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.105-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilotがサーバー間認証をサポート</title>
+      <link>https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication</link>
+      <guid isPermaLink="false">github-changelog-92608e65bdba9862559e</guid>
+      <pubDate>Tue, 27 Oct 2026 21:36:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotは、組織にインストールされたGitHub Apps向けのサーバー間認証のサポートを開始しました。GitHub Copilot SDKを使用して構築されたサービスやエージェントは、リクエストの送信が可能になります。この機能は現在パブリックプレビューとして提供されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織にインストールされたGitHub Apps向けのサーバー間認証を追加&lt;/li&gt;&lt;li&gt;GitHub Copilot SDKを使用したサービスおよびエージェントからのリクエスト送信に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Public Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.105-0のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.105-0</link>
+      <guid isPermaLink="false">github-copilot-cli-425866102</guid>
+      <pubDate>Tue, 27 Oct 2026 18:59:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.105-0がリリースされました。長時間のコンテキストセッションにおいて、/modelからCopilot Fusion HighまたはMaxを選択できるようになる不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;長時間のコンテキストセッションで、/modelからCopilot Fusion HighまたはMaxを選択できるよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.105-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.104のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.104</link>
