@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:58:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 16:23:01 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -89,21 +89,21 @@
       <category>high</category>
     </item>
     <item>
-      <title>Visual Studio Code 1.143 — Copilot / Chat / Agents</title>
-      <link>https://code.visualstudio.com/updates/v1_143</link>
-      <guid isPermaLink="false">vscode-f0e5fddf67c3af81d8f3</guid>
-      <pubDate>Wed, 21 Oct 2026 14:47:29 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.143では、新しいセッションでCopilot harnessがデフォルトになり、エディタおよびAgentsウィンドウ全体で機能とパフォーマンスが改善されました。ファイルレベルのワーキングセットサポート、モデル結果の比較機能（プレビュー）、および大規模なチャットを開く際のパフォーマンス向上が含まれています。また、非アクティブなワークツリーのストレージを解放する実験的機能も追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessが新しいセッションのデフォルトになりました。&lt;/li&gt;&lt;li&gt;初期ファイルレベルのワーキングセットサポート（実験的）が追加され、エディタ内のエージェントの変更をより効果的に管理・レビューできるようになりました。&lt;/li&gt;&lt;li&gt;複数のモデルやharnessのタスクに対するアプローチを並行して実行・比較できるモデル結果の比較機能（プレビュー）が追加されました。&lt;/li&gt;&lt;li&gt;長時間のAgent Hostチャットを開く際の履歴復元が小分けに行われるようになり、パフォーマンスと応答性が大幅に向上しました。&lt;/li&gt;&lt;li&gt;非アクティブなエージェントセッションのワークツリーが消費するディスク容量を確認して削除し、ストレージを解放する機能（実験的）が追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_143"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot in VS Code</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
       <title>[提供予定・ロードマップ] Power Automate: AIを活用したUI自動化の修復機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577869</link>
       <guid isPermaLink="false">m365-roadmap-7361349da16ccb4c14bc</guid>
       <pubDate>Tue, 27 Oct 2026 23:05:02 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Automateのフローデザイナーに、AIを活用した新しいエージェント型デバッグ実行機能が追加されます。フロー実行中にUI自動化の修復インターフェースが起動し、セレクターの検証と、ユーザーの参照用要素取得に基づく新しいセレクターの提案を行います。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フローデザイナーにエージェント型のデバッグ実行機能を追加&lt;/li&gt;&lt;li&gt;フロー実行中にUI自動化の修復インターフェースが各セレクターを検証&lt;/li&gt;&lt;li&gt;既存のセレクターが機能しない場合に新しいセレクターを提案&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577869"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] [ロードマップ] Microsoft Copilot (Microsoft 365): Copilotアプリモードのハンドオフ機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577841</link>
+      <guid isPermaLink="false">m365-roadmap-59de0fd3a78a48a306b7</guid>
+      <pubDate>Tue, 27 Oct 2026 23:05:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilotアプリのチャット体験において、ユーザーのプロンプトに基づいて最適なモードを提案する機能が追加されます。ユーザーは提案カードからモードを切り替えることができ、チャットの会話内容は新しいモードのプロンプトに引き継がれます。一般提供（GA）は2026年11月が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトに基づき、Coworkなどの最適なモードを提案するカードを表示&lt;/li&gt;&lt;li&gt;提案されたモードへ切り替えるオプションを提供&lt;/li&gt;&lt;li&gt;モード切替時もこれまでのチャット会話コンテキストを維持&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577841"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
