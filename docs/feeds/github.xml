@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Oct 2026 01:31:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 10:42:31 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -89,34 +89,34 @@
       <category>medium</category>
     </item>
     <item>
-      <title>Generate and edit images directly in Copilot</title>
+      <title>GitHub Copilotでの画像生成および編集機能の追加</title>
       <link>https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot</link>
       <guid isPermaLink="false">github-changelog-a8d5896b41e236f8c3b2</guid>
       <pubDate>Wed, 28 Oct 2026 15:30:55 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by… The post Generate and edit images directly in Copilot appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、自然言語を使用した画像の生成と編集ができるようになりました。画像生成を要求すると、選択された推論モデルが専用の画像生成ツールを呼び出します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilotで自然言語による画像の生成と編集が可能になりました&lt;/li&gt;&lt;li&gt;画像生成の要求時に、選択された推論モデルが専用の画像生成ツールを呼び出します&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot Fusion now supports selection of local models</title>
+      <title>GitHub Copilot Fusionがローカルモデルの選択をサポート</title>
       <link>https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models</link>
       <guid isPermaLink="false">github-changelog-ff06bb8bed3dad518c29</guid>
       <pubDate>Wed, 28 Oct 2026 15:30:42 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Today we are shipping intelligent routing for local models into experimental preview. GitHub Copilot Fusion can now choose between supported on-device models and cloud models, enabling intelligent local model routing… The post GitHub Copilot Fusion now supports selection of local models appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot Fusionは、サポートされているオンデバイスモデルとクラウドモデルを自動的に選択するインテリジェントルーティング機能を実験的プレビューとして導入しました。これにより、タスクに応じてローカルモデルとクラウドモデルを使い分けた最適なルーティングが可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ローカルモデル向けのインテリジェントルーティング機能を実験的プレビューとして追加&lt;/li&gt;&lt;li&gt;サポートされているオンデバイスモデルとクラウドモデルの選択および切り替えに対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>unclassified</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub Agentic Workflows generally available</title>
+      <title>GitHub Agentic Workflowsの一般提供開始</title>
       <link>https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available</link>
       <guid isPermaLink="false">github-changelog-f8bf617cd667ee76c11f</guid>
       <pubDate>Wed, 28 Oct 2026 15:30:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates,… The post GitHub Agentic Workflows generally available appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub NextのオープンソースプロジェクトであるGitHub Agentic Workflowsが一般提供（GA）を開始しました。本機能により、Issueのトリアージ、CIの失敗分析、ドキュメントの更新といった推論を伴うタスクの自動化が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Agentic Workflowsが一般提供（GA）へ移行&lt;/li&gt;&lt;li&gt;IssueのトリアージやCI失敗分析、ドキュメント更新などの推論ベースのタスクを自動化可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>unclassified</category>
+      <category>GA</category>
+      <category>high</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.105 リリースノート</title>

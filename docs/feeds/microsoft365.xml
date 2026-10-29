@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Oct 2026 01:31:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 10:42:31 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,14 +59,14 @@
       <category>medium</category>
     </item>
     <item>
-      <title>The AI advantage your company can keep</title>
+      <title>企業の競争優位性を維持するAI活用に関する新調査</title>
       <link>https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/</link>
       <guid isPermaLink="false">m365-blog-0ce88c2260a9e74da765</guid>
       <pubDate>Tue, 27 Oct 2026 16:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge. The post The AI advantage your company can keep appeared first on Microsoft Copilot Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Blogにおいて、200社以上の企業を対象とした新しい調査結果が発表されました。共有知識を活用してエージェントの協調動作を支援し、業務上の教訓を運用の優位性へ転換する方法について考察しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;200社以上の企業を対象とした共有知識とAIエージェントの協調に関する新しい調査の公開&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>low</category>
     </item>
     <item>
       <title>Microsoft 365 Copilot リリースノート（2026年10月27日）</title>
@@ -1019,14 +1019,14 @@
       <category>medium</category>
     </item>
     <item>
-      <title>Bringing CRM into the flow of work and agents into business process for sales and service teams</title>
+      <title>販売およびサービスチーム向け業務フローへのCRM統合とビジネスプロセスへのエージェント導入</title>
       <link>https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/</link>
       <guid isPermaLink="false">m365-blog-9fe6aac5c79170467502</guid>
       <pubDate>Thu, 08 Oct 2026 15:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The traditional boundaries of business applications are disappearing. For decades, people went to their customer relationship management (CRM) to find customer context, take action, and move work forward. AI is inverting that model. This shift creates two complementary opportunities: greater individual productivity and organization-wide process transformation. The post Bringing CRM into the flow of work and agents into business process for sales and service teams appeared first on Microsoft Copilot Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;従来の顧客関係管理（CRM）の境界線が消失しつつあり、AIによって業務モデルが逆転しています。この変化により、個人の生産性向上と全社的なプロセス変革という2つの補完的な機会がもたらされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIの活用により、CRMへのアクセスや顧客コンテキストの把握、アクションの実行といった業務モデルが変化しています&lt;/li&gt;&lt;li&gt;個人の生産性向上と組織全体のプロセス変革の機会が生み出されています&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>Microsoft 365 Copilot リリースノート (2026年10月6日)</title>
@@ -1329,14 +1329,14 @@
       <category>medium</category>
     </item>
     <item>
-      <title>Building the system for AI at work</title>
+      <title>職場のAIシステム構築について</title>
       <link>https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/</link>
       <guid isPermaLink="false">m365-blog-8ea0df1a2309c2166c61</guid>
       <pubDate>Wed, 23 Sep 2026 15:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;There&amp;#x27;s no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Blogにおいて、職場のAIシステム構築に関する記事が公開されました。現在のAI業界における動向や議論について言及されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;「Building the system for AI at work」というタイトルの記事が公開された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>low</category>
     </item>
     <item>
       <title>Microsoft 365 Copilot リリースノート（2026年9月23日）</title>
@@ -1569,14 +1569,14 @@
       <category>medium</category>
     </item>
     <item>
-      <title>PPCC 2026: Bringing AI and your business processes together</title>
+      <title>PPCC 2026: AIとビジネスプロセスの統合</title>
       <link>https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/</link>
       <guid isPermaLink="false">m365-blog-3d21d372e8928f091131</guid>
       <pubDate>Thu, 03 Sep 2026 15:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Every enterprise runs on business processes, but it&amp;#x27;s the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft Copilot Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Blogにおいて、企業におけるビジネスプロセスとAIの統合に関する情報が発表されました。企業運営において人間が果たしている判断、例外管理、およびシステムの接続という役割に焦点が当てられています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIとビジネスプロセスを組み合わせる取り組みについての発表が行われました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>low</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot StudioにおけるMCP Appsによるリッチなインタラクティブアプリ体験の提供</title>
