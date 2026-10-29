@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 16:23:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 01:31:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.144 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_144</link>
+      <guid isPermaLink="false">vscode-1760a15dd7dbe3176f46</guid>
+      <pubDate>Thu, 29 Oct 2026 01:31:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.144では、デスクトップアプリを操作するComputer Use機能や、LLMによるリスク評価を行うAssisted permissionsの一般提供（GA）など、AIエージェント関連の機能が大幅に拡張されました。また、CopilotハーネスでのCopilot Memoryのサポートや、セッション作成コントロールの実験的導入、Copilotコネクタやマーケットプレイスによるカスタマイズのプレビュー機能が追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Computer Use機能により、エージェントがデスクトップアプリの表示と操作を実行可能に&lt;/li&gt;&lt;li&gt;Assisted permissions（アシステッド権限）が一般提供（GA）となり、LLMによる低リスクなツール呼び出しの自動承認を実現&lt;/li&gt;&lt;li&gt;CopilotハーネスセッションでCopilot Memoryが利用可能になり、リポジトリの事実やユーザー設定を記憶・再現&lt;/li&gt;&lt;li&gt;新規セッション作成時の環境選択、ワークスペースなしのチャット、表示の簡素化などのセッションコンポーザーコントロールを実験的に追加&lt;/li&gt;&lt;li&gt;Copilotコネクタおよびマーケットプレイスのカスタマイズ機能（Browse）をプレビューとして提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_144"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot Fusionによるモデルのルーティングとオーケストレーション機能の提供</title>
+      <link>https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion</link>
+      <guid isPermaLink="false">github-changelog-cf876ffc1c86119489a5</guid>
+      <pubDate>Wed, 28 Oct 2026 16:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot Fusionが一般提供（GA）開始されました。タスクごとにモデルを手動で選択する代わりに、Copilot Fusionを選択することで、Copilotが使用するモデルを自動的かつ知的にルーティングおよびオーケストレーションします。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot Fusionの一般提供（GA）開始&lt;/li&gt;&lt;li&gt;タスクに応じたモデルの自動ルーティングおよびオーケストレーション機能の導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub EnterpriseにGitHub Copilotが含まれるように</title>
+      <link>https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-52eae160f737565b8d60</guid>
+      <pubDate>Wed, 28 Oct 2026 15:50:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubやMicrosoftのアカウントチームと作業しているEnterpriseは、すべてのライセンスユーザーに対してGitHub Copilotを利用できるようになりました。これにより、ライセンスの別管理が必要だった従来の状態から変更されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Enterpriseのライセンスユーザー全員にGitHub Copilotが同梱されるようになりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilotを使用したチーム向け共有ワークフローの構築</title>
+      <link>https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations</link>
+      <guid isPermaLink="false">github-changelog-0f9e3af0b07d14731714</guid>
+      <pubDate>Wed, 28 Oct 2026 15:35:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Rolling Out&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;チームでAIを活用したワークフローを共同で構築および維持できる「Shared Copilot Automations」の提供が開始されています。Copilot Automationsにより、プロンプト、トリガー、ツールを組み合わせて独自のワークフローを設計することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shared Copilot Automationsの提供開始&lt;/li&gt;&lt;li&gt;プロンプト、トリガー、ツールの組み合わせによるAIワークフローの設計が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Rolling Out</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Microsoft 365 Copilot リリースノート（2026年10月27日）</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026</link>
@@ -67,46 +107,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: 統一ルーティング - 自然言語プレイブックによる会話配信のオーケストレーション</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577788</link>
-      <guid isPermaLink="false">m365-roadmap-db854d362769689471df</guid>
-      <pubDate>Thu, 22 Oct 2026 23:45:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Contact Center&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Contact Centerの統一ルーティングに、AIを活用した会話オーケストレーション機能が追加されます。管理者は自然言語のプレイブックを用いて、動的な優先度エスカレーション、複数条件に対応するオーバーフロー処理、担当者への再接続、ブルズアイ・ルーティングなどのシナリオを設定できます。これにより、会話のライフサイクルを通じて条件の変化に応じた自動対応が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;動的優先度エスカレーション: 待ち時間や顧客ランクなどの条件に応じて、会話の優先度をリアルタイムに再評価し自動調整します。&lt;/li&gt;&lt;li&gt;複数条件に基づくオーバーフロー処理: 営業時間外、担当者の不在、待ち時間や待機数の上限超過などの状況に応じて、コールバックの提供や代替キューへのルーティングを自動化します。&lt;/li&gt;&lt;li&gt;担当者の再接続・優先割り当て: 過去に対応した担当者や希望する担当者への再接続を優先し、対応不可の場合は最適な代替担当者へシームレスに引き継ぎます。&lt;/li&gt;&lt;li&gt;ブルズアイ・ルーティング: 一定時間が経過しても割り当てられない場合、スキルやチームの基準に基づいて担当者の範囲を段階的に拡大します。&lt;/li&gt;&lt;li&gt;自然言語プレイブックとビルトイン検証: ガイド付きテンプレートを用いてシナリオを設定でき、公開前に競合を検出する組み込み検証機能を備えています。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577788"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Dynamics 365 Contact Center</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Sales Development Agentが利用可能に</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573700</link>
-      <guid isPermaLink="false">m365-roadmap-1721f82b70aa36f6fbc7</guid>
-      <pubDate>Wed, 21 Oct 2026 23:02:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けにSales Development Agentが提供開始されます。本機能は、リードの調査、適格性確認、エンゲージメントを自律的に行い、24時間体制で営業能力を拡張するエージェントです。プレビュー版の提供は2026年10月、GA（一般提供）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リードの調査、適格性確認、エンゲージメントを自律的に行う機能の追加&lt;/li&gt;&lt;li&gt;24時間体制での営業能力の拡張&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573700"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Power Automate: AIを活用したUI自動化の修復機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577869</link>
-      <guid isPermaLink="false">m365-roadmap-7361349da16ccb4c14bc</guid>
-      <pubDate>Tue, 27 Oct 2026 23:05:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Automateのフローデザイナーに、AIを活用した新しいエージェント型デバッグ実行機能が追加されます。フロー実行中にUI自動化の修復インターフェースが起動し、セレクターの検証と、ユーザーの参照用要素取得に基づく新しいセレクターの提案を行います。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フローデザイナーにエージェント型のデバッグ実行機能を追加&lt;/li&gt;&lt;li&gt;フロー実行中にUI自動化の修復インターフェースが各セレクターを検証&lt;/li&gt;&lt;li&gt;既存のセレクターが機能しない場合に新しいセレクターを提案&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577869"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] [ロードマップ] Microsoft Copilot (Microsoft 365): Copilotアプリモードのハンドオフ機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577841</link>
-      <guid isPermaLink="false">m365-roadmap-59de0fd3a78a48a306b7</guid>
-      <pubDate>Tue, 27 Oct 2026 23:05:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilotアプリのチャット体験において、ユーザーのプロンプトに基づいて最適なモードを提案する機能が追加されます。ユーザーは提案カードからモードを切り替えることができ、チャットの会話内容は新しいモードのプロンプトに引き継がれます。一般提供（GA）は2026年11月が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトに基づき、Coworkなどの最適なモードを提案するカードを表示&lt;/li&gt;&lt;li&gt;提案されたモードへ切り替えるオプションを提供&lt;/li&gt;&lt;li&gt;モード切替時もこれまでのチャット会話コンテキストを維持&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577841"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

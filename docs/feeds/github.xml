@@ -5,9 +5,119 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:58:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 01:31:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.144 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_144</link>
+      <guid isPermaLink="false">vscode-1760a15dd7dbe3176f46</guid>
+      <pubDate>Thu, 29 Oct 2026 01:31:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.144では、デスクトップアプリを操作するComputer Use機能や、LLMによるリスク評価を行うAssisted permissionsの一般提供（GA）など、AIエージェント関連の機能が大幅に拡張されました。また、CopilotハーネスでのCopilot Memoryのサポートや、セッション作成コントロールの実験的導入、Copilotコネクタやマーケットプレイスによるカスタマイズのプレビュー機能が追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Computer Use機能により、エージェントがデスクトップアプリの表示と操作を実行可能に&lt;/li&gt;&lt;li&gt;Assisted permissions（アシステッド権限）が一般提供（GA）となり、LLMによる低リスクなツール呼び出しの自動承認を実現&lt;/li&gt;&lt;li&gt;CopilotハーネスセッションでCopilot Memoryが利用可能になり、リポジトリの事実やユーザー設定を記憶・再現&lt;/li&gt;&lt;li&gt;新規セッション作成時の環境選択、ワークスペースなしのチャット、表示の簡素化などのセッションコンポーザーコントロールを実験的に追加&lt;/li&gt;&lt;li&gt;Copilotコネクタおよびマーケットプレイスのカスタマイズ機能（Browse）をプレビューとして提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_144"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot Fusionによるモデルのルーティングとオーケストレーション機能の提供</title>
+      <link>https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion</link>
+      <guid isPermaLink="false">github-changelog-cf876ffc1c86119489a5</guid>
+      <pubDate>Wed, 28 Oct 2026 16:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot Fusionが一般提供（GA）開始されました。タスクごとにモデルを手動で選択する代わりに、Copilot Fusionを選択することで、Copilotが使用するモデルを自動的かつ知的にルーティングおよびオーケストレーションします。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot Fusionの一般提供（GA）開始&lt;/li&gt;&lt;li&gt;タスクに応じたモデルの自動ルーティングおよびオーケストレーション機能の導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub CopilotアプリとUniverseリリース</title>
+      <link>https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases</link>
+      <guid isPermaLink="false">github-changelog-60148f43d4c53f3ff836</guid>
+      <pubDate>Wed, 28 Oct 2026 15:55:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのアップデートに関する情報が発表されました。単一のリポジトリやセッションに収まらない複数リポジトリにまたがる作業や、リポジトリに依存しない仕様書・デザイン・アセットの活用に対応する機能が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;複数リポジトリにまたがる機能開発への対応&lt;/li&gt;&lt;li&gt;リポジトリを変更せずに仕様書やデザイン、アセットを取り込む運用への対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub EnterpriseにGitHub Copilotが含まれるように</title>
+      <link>https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-52eae160f737565b8d60</guid>
+      <pubDate>Wed, 28 Oct 2026 15:50:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubやMicrosoftのアカウントチームと作業しているEnterpriseは、すべてのライセンスユーザーに対してGitHub Copilotを利用できるようになりました。これにより、ライセンスの別管理が必要だった従来の状態から変更されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Enterpriseのライセンスユーザー全員にGitHub Copilotが同梱されるようになりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilotアプリ向けセキュリティ拡張機能</title>
+      <link>https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app</link>
+      <guid isPermaLink="false">github-changelog-dd4b9a8fd034b6f22463</guid>
+      <pubDate>Wed, 28 Oct 2026 15:45:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotアプリ内でリポジトリのGitHub code scanningアラートに対応できるようになりました。新しいGitHubセキュリティ拡張機能により、Copilotアプリを離れることなく関連する情報の検索などが可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilotアプリ内でリポジトリのGitHub code scanningアラートへの対応が可能になりました。&lt;/li&gt;&lt;li&gt;新機能としてGitHubセキュリティ拡張機能が追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Public Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHubインテリジェンスがコード、コンテキスト、履歴を活用</title>
+      <link>https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work</link>
+      <guid isPermaLink="false">github-changelog-44e340e26d727db5d635</guid>
+      <pubDate>Wed, 28 Oct 2026 15:40:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHubは、エージェントがコードベースだけでなくチームの作業方法も理解できるようにする機能について発表しました。好み、リポジトリの規約、スキル、カスタム指示が変更の適用方法をガイドします。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがチームの作業方法、好み、リポジトリ規約を理解する機能の導入&lt;/li&gt;&lt;li&gt;スキルやカスタム指示によって変更の適用方法をガイドすることが可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilotを使用したチーム向け共有ワークフローの構築</title>
+      <link>https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations</link>
+      <guid isPermaLink="false">github-changelog-0f9e3af0b07d14731714</guid>
+      <pubDate>Wed, 28 Oct 2026 15:35:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Rolling Out&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;チームでAIを活用したワークフローを共同で構築および維持できる「Shared Copilot Automations」の提供が開始されています。Copilot Automationsにより、プロンプト、トリガー、ツールを組み合わせて独自のワークフローを設計することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shared Copilot Automationsの提供開始&lt;/li&gt;&lt;li&gt;プロンプト、トリガー、ツールの組み合わせによるAIワークフローの設計が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Rolling Out</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>VS CodeにおけるGitHub CopilotのUniverseリリース</title>
+      <link>https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases</link>
+      <guid isPermaLink="false">github-changelog-82ed05d102dcf1977377</guid>
+      <pubDate>Wed, 28 Oct 2026 15:33:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本年のリリースでは、Visual Studio CodeでのGitHub Copilotの利用において、使用するモデル、エージェントの実行場所、およびその操作方法に関する選択肢の拡張に注力しました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;使用するモデルの選択肢を拡充&lt;/li&gt;&lt;li&gt;エージェントの実行場所の選択肢を拡充&lt;/li&gt;&lt;li&gt;GitHub Copilotの操作方法に関する柔軟性を向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Generate and edit images directly in Copilot</title>
+      <link>https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot</link>
+      <guid isPermaLink="false">github-changelog-a8d5896b41e236f8c3b2</guid>
+      <pubDate>Wed, 28 Oct 2026 15:30:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by… The post Generate and edit images directly in Copilot appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>GitHub Copilot Fusion now supports selection of local models</title>
+      <link>https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models</link>
+      <guid isPermaLink="false">github-changelog-ff06bb8bed3dad518c29</guid>
+      <pubDate>Wed, 28 Oct 2026 15:30:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Today we are shipping intelligent routing for local models into experimental preview. GitHub Copilot Fusion can now choose between supported on-device models and cloud models, enabling intelligent local model routing… The post GitHub Copilot Fusion now supports selection of local models appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>unclassified</category>
+    </item>
+    <item>
+      <title>GitHub Agentic Workflows generally available</title>
+      <link>https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available</link>
+      <guid isPermaLink="false">github-changelog-f8bf617cd667ee76c11f</guid>
+      <pubDate>Wed, 28 Oct 2026 15:30:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates,… The post GitHub Agentic Workflows generally available appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>unclassified</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.105 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.105</link>

@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:58:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 01:31:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.144 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_144</link>
+      <guid isPermaLink="false">vscode-1760a15dd7dbe3176f46</guid>
+      <pubDate>Thu, 29 Oct 2026 01:31:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.144では、デスクトップアプリを操作するComputer Use機能や、LLMによるリスク評価を行うAssisted permissionsの一般提供（GA）など、AIエージェント関連の機能が大幅に拡張されました。また、CopilotハーネスでのCopilot Memoryのサポートや、セッション作成コントロールの実験的導入、Copilotコネクタやマーケットプレイスによるカスタマイズのプレビュー機能が追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Computer Use機能により、エージェントがデスクトップアプリの表示と操作を実行可能に&lt;/li&gt;&lt;li&gt;Assisted permissions（アシステッド権限）が一般提供（GA）となり、LLMによる低リスクなツール呼び出しの自動承認を実現&lt;/li&gt;&lt;li&gt;CopilotハーネスセッションでCopilot Memoryが利用可能になり、リポジトリの事実やユーザー設定を記憶・再現&lt;/li&gt;&lt;li&gt;新規セッション作成時の環境選択、ワークスペースなしのチャット、表示の簡素化などのセッションコンポーザーコントロールを実験的に追加&lt;/li&gt;&lt;li&gt;Copilotコネクタおよびマーケットプレイスのカスタマイズ機能（Browse）をプレビューとして提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_144"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot Fusionによるモデルのルーティングとオーケストレーション機能の提供</title>
+      <link>https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion</link>
+      <guid isPermaLink="false">github-changelog-cf876ffc1c86119489a5</guid>
+      <pubDate>Wed, 28 Oct 2026 16:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot Fusionが一般提供（GA）開始されました。タスクごとにモデルを手動で選択する代わりに、Copilot Fusionを選択することで、Copilotが使用するモデルを自動的かつ知的にルーティングおよびオーケストレーションします。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot Fusionの一般提供（GA）開始&lt;/li&gt;&lt;li&gt;タスクに応じたモデルの自動ルーティングおよびオーケストレーション機能の導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub EnterpriseにGitHub Copilotが含まれるように</title>
+      <link>https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-52eae160f737565b8d60</guid>
+      <pubDate>Wed, 28 Oct 2026 15:50:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubやMicrosoftのアカウントチームと作業しているEnterpriseは、すべてのライセンスユーザーに対してGitHub Copilotを利用できるようになりました。これにより、ライセンスの別管理が必要だった従来の状態から変更されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Enterpriseのライセンスユーザー全員にGitHub Copilotが同梱されるようになりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilotを使用したチーム向け共有ワークフローの構築</title>
+      <link>https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations</link>
+      <guid isPermaLink="false">github-changelog-0f9e3af0b07d14731714</guid>
+      <pubDate>Wed, 28 Oct 2026 15:35:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Rolling Out&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;チームでAIを活用したワークフローを共同で構築および維持できる「Shared Copilot Automations」の提供が開始されています。Copilot Automationsにより、プロンプト、トリガー、ツールを組み合わせて独自のワークフローを設計することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shared Copilot Automationsの提供開始&lt;/li&gt;&lt;li&gt;プロンプト、トリガー、ツールの組み合わせによるAIワークフローの設計が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Rolling Out</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Microsoft 365 Copilot リリースノート（2026年10月27日）</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026</link>

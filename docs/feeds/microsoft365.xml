@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:58:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 01:31:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: ユーザーグループによるブルズアイ（同心円状）ルーティングを活用した会話のオーケストレーション</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576606</link>
+      <guid isPermaLink="false">m365-roadmap-0a94e9f318d623777637</guid>
+      <pubDate>Wed, 28 Oct 2026 23:04:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Contact Centerに、待機時間に応じて対応可能な担当者の範囲を段階的に自動拡大するブルズアイ・ルーティング機能が追加されます。管理者はユーザーグループをキューに関連付け、各階層の待機時間閾値を定義することで、最適な担当者への優先割り当てと長期待機の防止を両立できます。プレビューは2026年7月、GAは2026年10月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;待ち時間の上昇に伴い、対応可能な担当者のプールを同心円状に段階的かつ自動で拡大するルーティング機能を追加&lt;/li&gt;&lt;li&gt;管理者がユーザーグループとキューを関連付け、階層ごとの待機時間閾値を設定可能&lt;/li&gt;&lt;li&gt;最適な担当者への優先割り当てを行いつつ、一次プールが上限に達した際の過度な待機時間を抑制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576606"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: 履歴レポート用共有アナリティクス</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574112</link>
+      <guid isPermaLink="false">m365-roadmap-3845fa438adc1a6e43b9</guid>
+      <pubDate>Wed, 28 Oct 2026 23:04:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Serviceは、拡張性とAIに対応した共有アナリティクス基盤を活用した、標準の履歴レポート機能を提供します。レイクハウスベースのアーキテクチャを採用し、データ量に応じたスケーリングや、レポート、エージェント、copilots間での一貫したレポート作成とセマンティック定義を実現します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;共有アナリティクス基盤に基づく標準の履歴レポート機能を提供&lt;/li&gt;&lt;li&gt;データ量に応じて拡張可能なレイクハウスベースのアーキテクチャを採用&lt;/li&gt;&lt;li&gt;レポート、エージェント、copilots間での一貫したレポートとセマンティック定義をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574112"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Power Automate: AIを活用したUI自動化の修復機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577869</link>
@@ -37,6 +57,16 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
+    </item>
+    <item>
+      <title>The AI advantage your company can keep</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/</link>
+      <guid isPermaLink="false">m365-blog-0ce88c2260a9e74da765</guid>
+      <pubDate>Tue, 27 Oct 2026 16:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge. The post The AI advantage your company can keep appeared first on Microsoft Copilot Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>unknown</category>
+      <category>unclassified</category>
     </item>
     <item>
       <title>Microsoft 365 Copilot リリースノート（2026年10月27日）</title>
@@ -989,6 +1019,16 @@
       <category>medium</category>
     </item>
     <item>
+      <title>Bringing CRM into the flow of work and agents into business process for sales and service teams</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/</link>
+      <guid isPermaLink="false">m365-blog-9fe6aac5c79170467502</guid>
+      <pubDate>Thu, 08 Oct 2026 15:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;The traditional boundaries of business applications are disappearing. For decades, people went to their customer relationship management (CRM) to find customer context, take action, and move work forward. AI is inverting that model. This shift creates two complementary opportunities: greater individual productivity and organization-wide process transformation. The post Bringing CRM into the flow of work and agents into business process for sales and service teams appeared first on Microsoft Copilot Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>unknown</category>
+      <category>unclassified</category>
+    </item>
+    <item>
       <title>Microsoft 365 Copilot リリースノート (2026年10月6日)</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026</link>
       <guid isPermaLink="false">m365-release-notes-a3ddaa992de2b3735893</guid>
@@ -1289,6 +1329,16 @@
       <category>medium</category>
     </item>
     <item>
+      <title>Building the system for AI at work</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/</link>
+      <guid isPermaLink="false">m365-blog-8ea0df1a2309c2166c61</guid>
+      <pubDate>Wed, 23 Sep 2026 15:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;There&amp;#x27;s no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>unknown</category>
+      <category>unclassified</category>
+    </item>
+    <item>
       <title>Microsoft 365 Copilot リリースノート（2026年9月23日）</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026</link>
       <guid isPermaLink="false">m365-release-notes-0d43a05fe828534a94f5</guid>
@@ -1517,6 +1567,16 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
+    </item>
+    <item>
+      <title>PPCC 2026: Bringing AI and your business processes together</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/</link>
+      <guid isPermaLink="false">m365-blog-3d21d372e8928f091131</guid>
+      <pubDate>Thu, 03 Sep 2026 15:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Every enterprise runs on business processes, but it&amp;#x27;s the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft Copilot Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>unknown</category>
+      <category>unclassified</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot StudioにおけるMCP Appsによるリッチなインタラクティブアプリ体験の提供</title>
