@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Oct 2026 10:42:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:32:04 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot StudioにおけるMACでのコスト管理機能の拡張</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577834</link>
+      <guid isPermaLink="false">m365-roadmap-7ec8e7e0cd350fa45870</guid>
+      <pubDate>Thu, 29 Oct 2026 23:01:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioのコスト管理機能がMicrosoft 365 admin centerに拡張されます。管理者は従量課金制AIワークロード全体のCopilot Credit利用状況を一元管理できるようになります。また、環境やエージェントをコスト管理の支出ポリシーの対象に含めることが可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 admin centerでCopilot Studioのコスト管理とCopilot Creditの支出管理が可能に&lt;/li&gt;&lt;li&gt;Power Platform admin centerのコスト管理機能も引き続き利用可能&lt;/li&gt;&lt;li&gt;環境およびエージェントを対象としたリソースベースの支出ポリシーを初期サポート&lt;/li&gt;&lt;li&gt;Microsoftプラットフォーム上で構築されたAIサービスやエージェントのコストデータがコスト管理およびエージェントレジストリに追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577834"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: 履歴レポート向けの共有アナリティクス基盤</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574114</link>
+      <guid isPermaLink="false">m365-roadmap-25ecd2eadd3fff85b878</guid>
+      <pubDate>Thu, 29 Oct 2026 23:01:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Customer Service&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Serviceは、拡張性とAIに対応したレイクハウスベースの共有アナリティクス基盤を活用した、標準の履歴レポート機能を提供します。本基盤により、データ量に応じたスケーリング、直接クエリ用のキュレーション済みアナリティクスデータセットのサポート、およびレポートやエージェント、Copilot間での一貫したレポート作成とセマンティック定義が可能になります。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;レイクハウスベースのアーキテクチャによる、データ量に応じたスケーリング対応の拡張可能なデータ基盤の導入&lt;/li&gt;&lt;li&gt;直接クエリをサポートするキュレーション済みアナリティクスデータセットの提供&lt;/li&gt;&lt;li&gt;レポート、エージェント、Copilot間での一貫したレポート作成とセマンティック定義の有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574114"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Dynamics 365 Customer Service</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: ユーザーグループによるブルズアイ（同心円状）ルーティングを活用した会話のオーケストレーション</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=576606</link>

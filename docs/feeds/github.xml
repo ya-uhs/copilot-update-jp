@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Oct 2026 10:42:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:32:04 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -87,6 +87,16 @@
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>medium</category>
+    </item>
+    <item>
+      <title>リポジトリのプラグインデフォルト設定と企業向けプラグイン制御が一般提供（GA）を開始</title>
+      <link>https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available</link>
+      <guid isPermaLink="false">github-changelog-7ea5e5653a712c312f80</guid>
+      <pubDate>Wed, 28 Oct 2026 15:33:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;VS Code、Copilot CLI、およびGitHub Copilotアプリにおいて、リポジトリのプラグインデフォルト設定と企業管理のプラグイン制御が一般提供（GA）開始されました。これにより、信頼できるリポジトリでデフォルトのプラグインをインストールおよび有効化できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リポジトリのプラグインデフォルト設定の一般提供を開始&lt;/li&gt;&lt;li&gt;企業管理によるプラグイン制御の一般提供を開始&lt;/li&gt;&lt;li&gt;VS Code、Copilot CLI、GitHub Copilotアプリでの対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
     </item>
     <item>
       <title>GitHub Copilotでの画像生成および編集機能の追加</title>

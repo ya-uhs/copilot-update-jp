@@ -9673,5 +9673,90 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-7ea5e5653a712c312f80",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
+    "published_at": "2026-10-28T15:33:00Z",
+    "title_original": "Repository plugin defaults and enterprise plugin controls generally available",
+    "excerpt_original": "Repository plugin defaults and enterprise-managed plugin controls are now generally available in VS Code, Copilot CLI, and the GitHub Copilot app. Trusted repositories can install and enable default plugins for… The post Repository plugin defaults and enterprise plugin controls generally available appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "リポジトリのプラグインデフォルト設定と企業向けプラグイン制御が一般提供（GA）を開始",
+    "summary_ja": "VS Code、Copilot CLI、およびGitHub Copilotアプリにおいて、リポジトリのプラグインデフォルト設定と企業管理のプラグイン制御が一般提供（GA）開始されました。これにより、信頼できるリポジトリでデフォルトのプラグインをインストールおよび有効化できるようになります。",
+    "changes": [
+      "リポジトリのプラグインデフォルト設定の一般提供を開始",
+      "企業管理によるプラグイン制御の一般提供を開始",
+      "VS Code、Copilot CLI、GitHub Copilotアプリでの対応"
+    ],
+    "target_user": [
+      "VS Code users",
+      "Copilot CLI users",
+      "GitHub Copilot app users",
+      "Enterprise administrators"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-10-30T01:32:04Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-10-30T01:32:03Z"
+  },
+  {
+    "id": "m365-roadmap-7ec8e7e0cd350fa45870",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577834",
+    "published_at": "2026-10-29T23:01:00Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Copilot studio cost controls in MAC",
+    "excerpt_original": "We’re expanding cost management for Microsoft Copilot Studio into the Microsoft 365 admin center. This gives administrators a more centralized way to manage Copilot Credit spend across usage-based AI workloads while retaining Copilot Studio cost management capabilities in the Power Platform admin center. With this update, administrators can bring supported Copilot Studio environments and agents under Cost Management spending policies. Resource-based policies for environments and agents are the first planned scopes, with broader user and group policy support planned for a later phase. Furthermore, this update will introduce cost data into cost management and agent registry for AI services and agents built on Microsoft platforms (e.g., Cowork, Microsoft Copilot Studio agents). GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot StudioにおけるMACでのコスト管理機能の拡張",
+    "summary_ja": "Microsoft Copilot Studioのコスト管理機能がMicrosoft 365 admin centerに拡張されます。管理者は従量課金制AIワークロード全体のCopilot Credit利用状況を一元管理できるようになります。また、環境やエージェントをコスト管理の支出ポリシーの対象に含めることが可能になります。",
+    "changes": [
+      "Microsoft 365 admin centerでCopilot Studioのコスト管理とCopilot Creditの支出管理が可能に",
+      "Power Platform admin centerのコスト管理機能も引き続き利用可能",
+      "環境およびエージェントを対象としたリソースベースの支出ポリシーを初期サポート",
+      "Microsoftプラットフォーム上で構築されたAIサービスやエージェントのコストデータがコスト管理およびエージェントレジストリに追加"
+    ],
+    "target_user": [
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-30T01:32:01Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-30T01:32:00Z"
+  },
+  {
+    "id": "m365-roadmap-25ecd2eadd3fff85b878",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574114",
+    "published_at": "2026-10-29T23:01:00Z",
+    "title_original": "[Roadmap] Dynamics 365 Customer Service: Shared analytics foundation for historical reporting",
+    "excerpt_original": "Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based architecture that can scale with data volume, supports curated analytics datasets for direct querying, and enables consistent reporting and semantic definitions across reports, agents, and copilots. GA date: October CY2026",
+    "product": "Dynamics 365 Customer Service",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Service: 履歴レポート向けの共有アナリティクス基盤",
+    "summary_ja": "Dynamics 365 Customer Serviceは、拡張性とAIに対応したレイクハウスベースの共有アナリティクス基盤を活用した、標準の履歴レポート機能を提供します。本基盤により、データ量に応じたスケーリング、直接クエリ用のキュレーション済みアナリティクスデータセットのサポート、およびレポートやエージェント、Copilot間での一貫したレポート作成とセマンティック定義が可能になります。一般提供（GA）は2026年10月を予定しています。",
+    "changes": [
+      "レイクハウスベースのアーキテクチャによる、データ量に応じたスケーリング対応の拡張可能なデータ基盤の導入",
+      "直接クエリをサポートするキュレーション済みアナリティクスデータセットの提供",
+      "レポート、エージェント、Copilot間での一貫したレポート作成とセマンティック定義の有効化"
+    ],
+    "target_user": [
+      "Administrator",
+      "Analyst"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-30T01:32:03Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-30T01:32:01Z"
   }
 ]

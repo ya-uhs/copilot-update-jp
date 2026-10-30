@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Oct 2026 10:42:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:32:04 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -46,6 +46,16 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Rolling Out&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;チームでAIを活用したワークフローを共同で構築および維持できる「Shared Copilot Automations」の提供が開始されています。Copilot Automationsにより、プロンプト、トリガー、ツールを組み合わせて独自のワークフローを設計することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shared Copilot Automationsの提供開始&lt;/li&gt;&lt;li&gt;プロンプト、トリガー、ツールの組み合わせによるAIワークフローの設計が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>Rolling Out</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>リポジトリのプラグインデフォルト設定と企業向けプラグイン制御が一般提供（GA）を開始</title>
+      <link>https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available</link>
+      <guid isPermaLink="false">github-changelog-7ea5e5653a712c312f80</guid>
+      <pubDate>Wed, 28 Oct 2026 15:33:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;VS Code、Copilot CLI、およびGitHub Copilotアプリにおいて、リポジトリのプラグインデフォルト設定と企業管理のプラグイン制御が一般提供（GA）開始されました。これにより、信頼できるリポジトリでデフォルトのプラグインをインストールおよび有効化できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リポジトリのプラグインデフォルト設定の一般提供を開始&lt;/li&gt;&lt;li&gt;企業管理によるプラグイン制御の一般提供を開始&lt;/li&gt;&lt;li&gt;VS Code、Copilot CLI、GitHub Copilotアプリでの対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
       <category>high</category>
     </item>
     <item>
@@ -94,16 +104,6 @@
       <guid isPermaLink="false">m365-roadmap-9e01b5a4479da7e0ff42</guid>
       <pubDate>Fri, 23 Oct 2026 22:46:03 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Business CentralにAIエージェントが導入され、定型業務の自動化やプロセスの効率化が可能になります。Sales Order AgentやPayables Agentなどのビルトインエージェントに加え、AI Development Toolkitを利用したカスタムエージェントの設計機能が提供されます。エージェントランタイムにより、セキュリティモデルを維持しながらトレーサブルで人間が関与する実行環境が実現されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語やメール指示から売上文書を作成するSales Order Agentの導入&lt;/li&gt;&lt;li&gt;請求書の詳細抽出と発注書照合を行うPayables Agentの導入&lt;/li&gt;&lt;li&gt;AI Development Toolkitを通じたカスタムAIエージェントの設計・プロトタイピング機能の提供&lt;/li&gt;&lt;li&gt;エージェントの実行ログや監査証跡を確認できる診断ビューの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578068"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: 複数Sales Order Agentの実行とアイテム検索・関連性フィルタリングの強化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578065</link>
-      <guid isPermaLink="false">m365-roadmap-0e826bca44f52b0a0a79</guid>
-      <pubDate>Fri, 23 Oct 2026 22:45:59 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのDynamics 365 Business Centralにおいて、1つの企業内で複数のSales Order Agentインスタンスを設定および実行できるようになりました。AIを活用したマルチレイヤーのアイテム検索やメッセージの関連性検証機能により、処理精度と効率が向上しています。また、添付ファイルの処理上限拡大や、メール送信不要でテストできる「Try it out」機能が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1つの企業内で独立した設定、メールボックス、KPI追跡を持つ複数のSales Order Agentインスタンスの実行が可能になりました。&lt;/li&gt;&lt;li&gt;識別子一致、セマンティック属性一致、広範なあいまい検索を組み合わせたマルチレイヤーのアイテム検索機能が追加されました。&lt;/li&gt;&lt;li&gt;メッセージおよび添付ファイルの厳格な関連性検証により、対象外のメールを事前にフィルタリングします。&lt;/li&gt;&lt;li&gt;PDF添付ファイルのページ数上限が最大50ページに引き上げられ、スキップ理由の診断情報が記録されるようになりました。&lt;/li&gt;&lt;li&gt;メール送信を行わずにエージェントの動作をテストできる「Try it out」セクションが追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578065"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
