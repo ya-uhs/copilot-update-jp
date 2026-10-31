@@ -9758,5 +9758,60 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "m365-roadmap-d8d13d7c6b84173af80f",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=578225",
+    "published_at": "2026-10-30T22:08:34Z",
+    "title_original": "[Roadmap] Microsoft 365: Frontier expands to public previews in Teams, Outlook, OneDrive, and SharePoint",
+    "excerpt_original": "Frontier is expanding to bring eligible public preview features across Microsoft 365 into one program. Users enrolled in Frontier can get eligible previews for new Outlook for Windows, OneDrive, SharePoint, Microsoft Teams, and Copilot, managed through a single admin-controlled enrollment experience. Frontier enrollment is optional and separate from Standard and Deferred release preferences for generally available features. Existing Frontier users do not need to re-enroll. More info: https://learn.microsoft.com/microsoft-365/admin/manage/get-started-frontier GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 FrontierプログラムがTeams、Outlook、OneDrive、SharePointのパブリックプレビューへ拡大",
+    "summary_ja": "Frontierプログラムが拡大し、Microsoft 365全体の対象となるパブリックプレビュー機能が単一のプログラムに統合されます。管理者は管理画面を通じてユーザーの登録を制御でき、この登録はオプションで標準および遅延リリース設定とは別個に行われます。既存のFrontierユーザーは再登録の必要はありません。",
+    "changes": [
+      "対象となるパブリックプレビュー機能を単一のプログラムに統合",
+      "管理者が一元管理できる登録エクスペリエンスを提供",
+      "新しくなったOutlook for Windows、OneDrive、SharePoint、Microsoft Teams、Copilotのプレビューに対応",
+      "一般提供（GA）予定時期は2026年11月"
+    ],
+    "target_user": [
+      "Administrators",
+      "Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-31T01:25:06Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-31T01:25:05Z"
+  },
+  {
+    "id": "m365-roadmap-0db5113addcba93079ab",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577392",
+    "published_at": "2026-10-30T22:08:34Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): [Education] Create multi-week unit plans with Teach",
+    "excerpt_original": "Educators can use Teach in Microsoft 365 Copilot to create structured unit plans that span multiple lessons or weeks. They can customize the plan components to organize connected lesson plans and quizzes across a unit. #education GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Teach機能による複数週にわたる単元計画の作成",
+    "summary_ja": "教育者はMicrosoft 365 CopilotのTeach機能を利用して、複数のレッスンや週にわたる構造化された単元計画を作成できるようになります。計画の構成要素をカスタマイズすることで、単元全体の関連するレッスン計画や小テストを整理することが可能です。",
+    "changes": [
+      "Teach機能を使用して複数週にわたる単元計画を作成する機能の追加",
+      "単元内のレッスン計画や小テストを整理するための計画構成要素のカスタマイズ機能"
+    ],
+    "target_user": [
+      "Educators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-10-31T01:25:07Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-10-31T01:25:06Z"
   }
 ]

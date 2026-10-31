@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 30 Oct 2026 01:32:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 01:25:08 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -99,14 +99,14 @@
       <category>high</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilot とエージェント - AIエージェントの構想と設計</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578068</link>
-      <guid isPermaLink="false">m365-roadmap-9e01b5a4479da7e0ff42</guid>
-      <pubDate>Fri, 23 Oct 2026 22:46:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Business CentralにAIエージェントが導入され、定型業務の自動化やプロセスの効率化が可能になります。Sales Order AgentやPayables Agentなどのビルトインエージェントに加え、AI Development Toolkitを利用したカスタムエージェントの設計機能が提供されます。エージェントランタイムにより、セキュリティモデルを維持しながらトレーサブルで人間が関与する実行環境が実現されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語やメール指示から売上文書を作成するSales Order Agentの導入&lt;/li&gt;&lt;li&gt;請求書の詳細抽出と発注書照合を行うPayables Agentの導入&lt;/li&gt;&lt;li&gt;AI Development Toolkitを通じたカスタムAIエージェントの設計・プロトタイピング機能の提供&lt;/li&gt;&lt;li&gt;エージェントの実行ログや監査証跡を確認できる診断ビューの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578068"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Microsoft 365 FrontierプログラムがTeams、Outlook、OneDrive、SharePointのパブリックプレビューへ拡大</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578225</link>
+      <guid isPermaLink="false">m365-roadmap-d8d13d7c6b84173af80f</guid>
+      <pubDate>Fri, 30 Oct 2026 22:08:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Frontierプログラムが拡大し、Microsoft 365全体の対象となるパブリックプレビュー機能が単一のプログラムに統合されます。管理者は管理画面を通じてユーザーの登録を制御でき、この登録はオプションで標準および遅延リリース設定とは別個に行われます。既存のFrontierユーザーは再登録の必要はありません。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;対象となるパブリックプレビュー機能を単一のプログラムに統合&lt;/li&gt;&lt;li&gt;管理者が一元管理できる登録エクスペリエンスを提供&lt;/li&gt;&lt;li&gt;新しくなったOutlook for Windows、OneDrive、SharePoint、Microsoft Teams、Copilotのプレビューに対応&lt;/li&gt;&lt;li&gt;一般提供（GA）予定時期は2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578225"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>high</category>
+      <category>medium</category>
     </item>
   </channel>
 </rss>
