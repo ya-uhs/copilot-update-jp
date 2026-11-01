@@ -1,5 +1,34 @@
 [
   {
+    "id": "github-copilot-cli-430165552",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-1",
+    "published_at": "2026-10-31T20:24:04Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-1",
+    "excerpt_original": "**Fixed** - apply_patch keeps the line ending of every line it does not change in a file that mixes LF and CRLF endings, instead of rewriting the whole file to the ending of its first few lines. - `COPILOT_PROVIDER_GHES_HOST` now accepts the instance's browser address, such as `https://ghes.example.com/`, instead of failing with a malformed `https://https//...` URL, and a value that is not a host name fails with an error explaining the expected format. - Text pasted over several lines after `/clear`, `/new`, `/ask`, `/delegate` or `/diagnose` keeps its line breaks and indentation instead of reaching the model as one line - A copilot -p run stopped by Ctrl+C or a signal now finishes writing the session's shutdown record (usage and code-change totals) before it exits - A session.resume request whose params are not a JSON object now fails with an error instead of crashing the copilot --server process - web_fetch now decodes pages in the character encoding they declare (Content-Type charset or a meta tag), so ISO-8859-1, windows-1252 and other non-UTF-8 pages no longer reach the model with their accented characters replaced. - Session picker closes immediately after a /resume switch commits - Fix clipboard copy on WSL by running clip.exe with compatible cmd.exe arguments - Generated images now save correctly on filesystems without hard-link support - Return the original refusal when an organization disables a Claude fallback model - Blocked MCP server warnings now include the specific registry failure reason. - Rewind keeps turns where agents edit files above the capture size limit - Reopening a recently closed local session no longer stalls for up to 30 seconds - Sources a tool returns for citations are kept with the tool result, so Claude can still cite them after a session is resumed",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.106-1 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-1がリリースされました。本バージョンでは、改行コードの混在するファイルにおける修正処理の改善、環境変数設定の不具合修正、複数行テキストの貼り付け時のフォーマット保持など、複数のバグ修正と動作の安定化が行われています。",
+    "changes": [
+      "apply_patchが、LFとCRLFが混在するファイルの変更部分以外で不要な改行コードの書き換えを行わないように修正しました。",
+      "COPILOT_PROVIDER_GHES_HOSTがブラウザのアドレスを受け付けるようになり、不正なURL生成エラーを防止しました。",
+      "クリアや新規などのコマンド後に複数行のテキストを貼り付けた際、改行とインデントが維持されるように修正しました。",
+      "Ctrl+Cなどで停止したcopilot -pの実行が、終了前にセッションのシャットダウン記録を書き終えるように修正しました。",
+      "web_fetchが宣言された文字エンコーディングでページをデコードするように修正しました。"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-01T00:40:49Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-01T00:40:47Z"
+  },
+  {
     "id": "m365-roadmap-d8d13d7c6b84173af80f",
     "source": "Microsoft 365 Roadmap",
     "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=578225",
@@ -9815,32 +9844,32 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-430165552",
+    "id": "github-copilot-cli-430308978",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-1",
-    "published_at": "2026-10-31T20:24:04Z",
-    "title_original": "GitHub Copilot CLI v1.0.106-1",
-    "excerpt_original": "**Fixed** - apply_patch keeps the line ending of every line it does not change in a file that mixes LF and CRLF endings, instead of rewriting the whole file to the ending of its first few lines. - `COPILOT_PROVIDER_GHES_HOST` now accepts the instance's browser address, such as `https://ghes.example.com/`, instead of failing with a malformed `https://https//...` URL, and a value that is not a host name fails with an error explaining the expected format. - Text pasted over several lines after `/clear`, `/new`, `/ask`, `/delegate` or `/diagnose` keeps its line breaks and indentation instead of reaching the model as one line - A copilot -p run stopped by Ctrl+C or a signal now finishes writing the session's shutdown record (usage and code-change totals) before it exits - A session.resume request whose params are not a JSON object now fails with an error instead of crashing the copilot --server process - web_fetch now decodes pages in the character encoding they declare (Content-Type charset or a meta tag), so ISO-8859-1, windows-1252 and other non-UTF-8 pages no longer reach the model with their accented characters replaced. - Session picker closes immediately after a /resume switch commits - Fix clipboard copy on WSL by running clip.exe with compatible cmd.exe arguments - Generated images now save correctly on filesystems without hard-link support - Return the original refusal when an organization disables a Claude fallback model - Blocked MCP server warnings now include the specific registry failure reason. - Rewind keeps turns where agents edit files above the capture size limit - Reopening a recently closed local session no longer stalls for up to 30 seconds - Sources a tool returns for citations are kept with the tool result, so Claude can still cite them after a session is resumed",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-2",
+    "published_at": "2026-11-01T02:06:57Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-2",
+    "excerpt_original": "**Fixed** - With --screen-reader, failed and rejected tool calls, errors such as an unknown command, and warnings now begin with \"Error:\" or \"Warning:\" instead of reading like any other message. - /resume <session-id> foregrounds an already running background session instead of showing it twice on exit - An HTTP MCP server that accepts connections but never answers now holds startup for its connection timeout once, instead of three times over - Saving MCP server changes preserves symlinked mcp-config.json files and updates the symlink target. - Keep /skills add, remove, and reload in sync with session skills and report refresh failures immediately",
     "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.106-1 リリースノート",
-    "summary_ja": "GitHub Copilot CLI v1.0.106-1がリリースされました。本バージョンでは、改行コードの混在するファイルにおける修正処理の改善、環境変数設定の不具合修正、複数行テキストの貼り付け時のフォーマット保持など、複数のバグ修正と動作の安定化が行われています。",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.106-2 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-2がリリースされました。今回のアップデートでは、スクリーンリーダー利用時のエラーや警告の出力方法の改善、セッション再開時の挙動修正、HTTP MCPサーバーの接続タイムアウト処理の最適化などが行われました。また、MCPサーバー設定の保存時のシンボリックリンク維持や、スキル管理コマンドの同期機能の修正も含まれています。",
     "changes": [
-      "apply_patchが、LFとCRLFが混在するファイルの変更部分以外で不要な改行コードの書き換えを行わないように修正しました。",
-      "COPILOT_PROVIDER_GHES_HOSTがブラウザのアドレスを受け付けるようになり、不正なURL生成エラーを防止しました。",
-      "クリアや新規などのコマンド後に複数行のテキストを貼り付けた際、改行とインデントが維持されるように修正しました。",
-      "Ctrl+Cなどで停止したcopilot -pの実行が、終了前にセッションのシャットダウン記録を書き終えるように修正しました。",
-      "web_fetchが宣言された文字エンコーディングでページをデコードするように修正しました。"
+      "--screen-readerオプション使用時、失敗したツール呼び出しや未知のコマンド、警告の先頭に「Error:」または「Warning:」が追加されるように修正されました。",
+      "/resume <session-id>コマンドが、終了時に二重表示するのではなく、すでに実行中のバックグラウンドセッションをフォアグラウンドにするようになりました。",
+      "接続を受け付けるものの応答しないHTTP MCPサーバーの起動タイムアウト待ちが、3回から1回に削減されました。",
+      "MCP serverの変更保存時に、シンボリックリンクされたmcp-config.jsonファイルが維持され、リンク先が更新されるようになりました。",
+      "/skillsのadd、remove、reloadコマンドがセッションスキルと同期され、更新失敗が即座にレポートされるようになりました。"
     ],
     "target_user": [
-      "Developer",
-      "GitHub Copilot CLI User"
+      "GitHub Copilot CLI developers",
+      "developers"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-11-01T00:40:49Z",
+    "processed_at": "2026-11-01T11:00:55Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-11-01T00:40:47Z"
+    "translation_attempted_at": "2026-11-01T11:00:51Z"
   }
 ]

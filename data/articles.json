@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-cli-430308978",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-2",
+    "published_at": "2026-11-01T02:06:57Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-2",
+    "excerpt_original": "**Fixed** - With --screen-reader, failed and rejected tool calls, errors such as an unknown command, and warnings now begin with \"Error:\" or \"Warning:\" instead of reading like any other message. - /resume <session-id> foregrounds an already running background session instead of showing it twice on exit - An HTTP MCP server that accepts connections but never answers now holds startup for its connection timeout once, instead of three times over - Saving MCP server changes preserves symlinked mcp-config.json files and updates the symlink target. - Keep /skills add, remove, and reload in sync with session skills and report refresh failures immediately",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.106-2 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-2がリリースされました。今回のアップデートでは、スクリーンリーダー利用時のエラーや警告の出力方法の改善、セッション再開時の挙動修正、HTTP MCPサーバーの接続タイムアウト処理の最適化などが行われました。また、MCPサーバー設定の保存時のシンボリックリンク維持や、スキル管理コマンドの同期機能の修正も含まれています。",
+    "changes": [
+      "--screen-readerオプション使用時、失敗したツール呼び出しや未知のコマンド、警告の先頭に「Error:」または「Warning:」が追加されるように修正されました。",
+      "/resume <session-id>コマンドが、終了時に二重表示するのではなく、すでに実行中のバックグラウンドセッションをフォアグラウンドにするようになりました。",
+      "接続を受け付けるものの応答しないHTTP MCPサーバーの起動タイムアウト待ちが、3回から1回に削減されました。",
+      "MCP serverの変更保存時に、シンボリックリンクされたmcp-config.jsonファイルが維持され、リンク先が更新されるようになりました。",
+      "/skillsのadd、remove、reloadコマンドがセッションスキルと同期され、更新失敗が即座にレポートされるようになりました。"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI developers",
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-01T11:00:55Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-01T11:00:51Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-430165552",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-1",
