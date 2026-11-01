@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 31 Oct 2026 01:25:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 00:40:49 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.106-1 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-1</link>
+      <guid isPermaLink="false">github-copilot-cli-430165552</guid>
+      <pubDate>Sat, 31 Oct 2026 20:24:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-1がリリースされました。本バージョンでは、改行コードの混在するファイルにおける修正処理の改善、環境変数設定の不具合修正、複数行テキストの貼り付け時のフォーマット保持など、複数のバグ修正と動作の安定化が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;apply_patchが、LFとCRLFが混在するファイルの変更部分以外で不要な改行コードの書き換えを行わないように修正しました。&lt;/li&gt;&lt;li&gt;COPILOT_PROVIDER_GHES_HOSTがブラウザのアドレスを受け付けるようになり、不正なURL生成エラーを防止しました。&lt;/li&gt;&lt;li&gt;クリアや新規などのコマンド後に複数行のテキストを貼り付けた際、改行とインデントが維持されるように修正しました。&lt;/li&gt;&lt;li&gt;Ctrl+Cなどで停止したcopilot -pの実行が、終了前にセッションのシャットダウン記録を書き終えるように修正しました。&lt;/li&gt;&lt;li&gt;web_fetchが宣言された文字エンコーディングでページをデコードするように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 FrontierプログラムがTeams、Outlook、OneDrive、SharePointのパブリックプレビューへ拡大</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=578225</link>
@@ -1996,16 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Rolling Out&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの使用量が増加しているにもかかわらず、エージェントの活動量やエージェント経由のコード行数が減少して表示される問題の原因が特定されました。現在、この問題を解消するための修正が順次展開されています。影響を受けるユーザーはIDEをアップデートすることで、正しいメトリクスを復元できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot使用状況メトリクスでエージェント活動量が低下して表示される不具合の修正を展開&lt;/li&gt;&lt;li&gt;IDEのアップデートによるメトリクスの復元&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>Rolling Out</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.93-2 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.93-2</link>
-      <guid isPermaLink="false">github-copilot-cli-405005553</guid>
-      <pubDate>Tue, 06 Oct 2026 18:03:12 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.93-2がリリースされました。エンタープライズ向けのネットワーク制限機能の追加、モデルピッカーの推奨モデルの更新、および各種不具合の修正と設定ファイルの読み込み仕様の変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;enterprise permissions.limitToを追加し、ネットワークリクエストに対する管理ドメイン境界を強制&lt;/li&gt;&lt;li&gt;モデルピッカーの推奨リストを更新し、GPT-6.1 Sol、GPT-6 Astra/Luna、Claude 5.5モデルを優先&lt;/li&gt;&lt;li&gt;GitHub.com Connectorユーザーがその場でGitHub CLI権限を拡張し、サインイン方法を変更せずに接続を再試行できるように修正&lt;/li&gt;&lt;li&gt;起動時に--context long_contextを適用し、/contextで正確なコンテキスト許容量を表示するよう修正&lt;/li&gt;&lt;li&gt;必要なGitHubスコープを持たないConnectorの接続時に、認証エラーで失敗する代わりに承認の更新を促すように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.93-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>
