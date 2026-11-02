@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:54:55 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -89,16 +89,6 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub CopilotにおけるGPT-6.1 Terraの提供開始</title>
-      <link>https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot</link>
-      <guid isPermaLink="false">github-changelog-051483cefe7ff38558fb</guid>
-      <pubDate>Mon, 26 Oct 2026 19:15:53 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;OpenAIの最新モデルであるGPT-6.1 Terraが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、日常的なエージェント型コーディングおよびターミナル作業向けに設計されており、GPT-6.1 Solよりも低いコストで利用可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでGPT-6.1 Terraが一般提供（GA）開始&lt;/li&gt;&lt;li&gt;日々のエージェント型コーディングとターミナル作業に対応&lt;/li&gt;&lt;li&gt;GPT-6.1 Solよりも低コストで利用可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
-    </item>
-    <item>
       <title>GitHub Copilot CLI v1.0.106-2 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-2</link>
       <guid isPermaLink="false">github-copilot-cli-430308978</guid>
@@ -106,6 +96,16 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-2がリリースされました。今回のアップデートでは、スクリーンリーダー利用時のエラーや警告の出力方法の改善、セッション再開時の挙動修正、HTTP MCPサーバーの接続タイムアウト処理の最適化などが行われました。また、MCPサーバー設定の保存時のシンボリックリンク維持や、スキル管理コマンドの同期機能の修正も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--screen-readerオプション使用時、失敗したツール呼び出しや未知のコマンド、警告の先頭に「Error:」または「Warning:」が追加されるように修正されました。&lt;/li&gt;&lt;li&gt;/resume &amp;lt;session-id&amp;gt;コマンドが、終了時に二重表示するのではなく、すでに実行中のバックグラウンドセッションをフォアグラウンドにするようになりました。&lt;/li&gt;&lt;li&gt;接続を受け付けるものの応答しないHTTP MCPサーバーの起動タイムアウト待ちが、3回から1回に削減されました。&lt;/li&gt;&lt;li&gt;MCP serverの変更保存時に、シンボリックリンクされたmcp-config.jsonファイルが維持され、リンク先が更新されるようになりました。&lt;/li&gt;&lt;li&gt;/skillsのadd、remove、reloadコマンドがセッションスキルと同期され、更新失敗が即座にレポートされるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.106-1 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-1</link>
+      <guid isPermaLink="false">github-copilot-cli-430165552</guid>
+      <pubDate>Sat, 31 Oct 2026 20:24:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-1がリリースされました。本バージョンでは、改行コードの混在するファイルにおける修正処理の改善、環境変数設定の不具合修正、複数行テキストの貼り付け時のフォーマット保持など、複数のバグ修正と動作の安定化が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;apply_patchが、LFとCRLFが混在するファイルの変更部分以外で不要な改行コードの書き換えを行わないように修正しました。&lt;/li&gt;&lt;li&gt;COPILOT_PROVIDER_GHES_HOSTがブラウザのアドレスを受け付けるようになり、不正なURL生成エラーを防止しました。&lt;/li&gt;&lt;li&gt;クリアや新規などのコマンド後に複数行のテキストを貼り付けた際、改行とインデントが維持されるように修正しました。&lt;/li&gt;&lt;li&gt;Ctrl+Cなどで停止したcopilot -pの実行が、終了前にセッションのシャットダウン記録を書き終えるように修正しました。&lt;/li&gt;&lt;li&gt;web_fetchが宣言された文字エンコーディングでページをデコードするように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>
