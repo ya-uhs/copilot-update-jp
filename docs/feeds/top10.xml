@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Nov 2026 03:18:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 11:36:53 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -69,6 +69,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.106-6 のアップデート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-6</link>
+      <guid isPermaLink="false">github-copilot-cli-432335526</guid>
+      <pubDate>Tue, 03 Nov 2026 06:11:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-6がリリースされ、/settingsによる統合ダッシュボードの表示や設定・ローカルリソースのグローバル検索機能が追加されました。また、MCPコンテンツの処理改善、ツール呼び出しエラーの表示拡張、および複数分野にわたる不具合の修正が行われています。さらに、新規セッションでの起動時ヒントの非表示化などの変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/settingsコマンドで全ユーザー向け統合ダッシュボードを開く機能および設定とローカルリソースのグローバル検索を追加&lt;/li&gt;&lt;li&gt;ユーザー宛てのMCPコンテンツのモデルへの送信を停止し、インタラクティブCLIで画像を表示するよう改善&lt;/li&gt;&lt;li&gt;失敗したツール呼び出しのエントリを展開してタイムラインに完全なエラー出力を表示するように修正&lt;/li&gt;&lt;li&gt;SQLツールのクエリタイムアウト（60秒）の実装や、エスケープシーケンス対策など各種セキュリティ・表示の修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.106-5 の更新情報</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-5</link>
       <guid isPermaLink="false">github-copilot-cli-432145689</guid>
@@ -94,16 +104,6 @@
       <guid isPermaLink="false">github-copilot-cli-432059141</guid>
       <pubDate>Mon, 02 Nov 2026 22:59:38 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-4がリリースされ、セッションピッカーの表示改善、@fileメンションの動作修正、カスタムエージェントの処理調整など、多くの不具合修正と機能改善が行われました。セキュリティやUI表示の向上、MCPサーバーやフック処理の安定化も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;空のセッションがセッションピッカーに一瞬表示されて消える現象を修正&lt;/li&gt;&lt;li&gt;括弧やクォート等に含まれる@fileメンションが正しくファイルを添付し、シェルコマンド内で展開されるように修正&lt;/li&gt;&lt;li&gt;ビルトインエージェントと同名のカスタムエージェントが二重に提案される不挙動を修正&lt;/li&gt;&lt;li&gt;詳細ビューやメッセージ等における制御文字の表示処理をエスケープ処理やスペース置換に改善&lt;/li&gt;&lt;li&gt;/ideダイアログの折り返し表示位置を修正し、プレビューや設定画面の表示崩れを抑制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.106-3</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-3</link>
-      <guid isPermaLink="false">github-copilot-cli-431916240</guid>
-      <pubDate>Mon, 02 Nov 2026 20:08:22 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-3がリリースされました。このバージョンでは、オプトイン式のセッション管理ツールやローカルセッション向けの@メンションが追加され、管理アカウントのポリシー更新警告の改善や多くの不具合修正が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;オプトイン式のセッション管理ツールと、オプトインしたローカルセッション向けの@メンションを追加&lt;/li&gt;&lt;li&gt;管理アカウントのポリシー更新警告にPolicy Helperの検出結果を含めるよう改善&lt;/li&gt;&lt;li&gt;匿名接続および初期チャレンジ向けに、有効な保存済みMCP OAuth認証情報を再利用するよう修正&lt;/li&gt;&lt;li&gt;カラーブラインドテーマにおいて、セッションサイドバーの未読セッションを青いドットではなくアスタリスクでマークするよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
       <category>medium</category>
