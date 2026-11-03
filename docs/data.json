@@ -9871,5 +9871,115 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-copilot-cli-432145689",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-5",
+    "published_at": "2026-11-03T01:13:23Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-5",
+    "excerpt_original": "**Fixed** - `includeCoAuthoredBy: false` is now honored in ACP mode (`copilot --acp`), so ACP clients no longer instruct the agent to add a Co-authored-by trailer to commits. - Targeted /settings commands show the selected setting immediately - A telemetry-disabled warning raised while resuming a session is saved to the session history, so later events no longer reference a missing parent. - A BYOK provider key that is not a valid HTTP header value, such as key command output with a status line before the key, is no longer printed in the model error or saved in the session log. - copilot mcp enable now fails with a clear message for a server the repository disables, instead of reporting success and changing nothing - A prompt hook that returns an empty modifiedPrompt or modifiedTransformedPrompt no longer sends the model an empty prompt. A hook value that is ignored because it is empty or not a string now shows a warning naming the field. - `copilot sessions import --name \"\"` is now rejected as an invalid name in both `--dry-run` and a real import, instead of passing the dry run and then failing with a persistence error. - A ~/ directory in skillDirectories, COPILOT_SKILLS_DIRS or COPILOT_CUSTOM_INSTRUCTIONS_DIRS now resolves to your home directory, so its skills and instructions load. - The `.vscode/mcp.json` migration notice now appears in repository subdirectories and after `/cd` into another workspace, and no longer appears for repositories already migrated to `.mcp.json`. - Skill and background-agent timeline entries now show sanitized, readable errors and results - Allow /mcp enable and /mcp disable for servers granted GitHub auth at startup - Gemini models automatically defer tools behind search when requests exceed the 512-function limit. - Removed repository hook configs no longer block later tool calls in the same session. - In --autopilot, background task completions that arrive after a run stops are delivered with your next message instead of being dropped. - Collect debug logs keeps the active invocation and ignores stale completion results - Resuming a session with an unreadable event log now reports a load error instead of not found - Copying text on native Windows no longer changes your console code page. - Keep the selected task visible in /tasks when long lists exceed terminal height - Signing in to a remote MCP server whose protected resource is a bare origin such as https://mcp.example.com no longer sends the resource with an added trailing slash, which authorization servers that compare it exactly rejected. - Write remote session handoff cleanup failures to the debug log and show a clear error when no remote session is prepared - Keep command-mode drafts after accepted commands so you can continue typing immediately.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.106-5 の更新情報",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-5 がリリースされました。ACPモードでの co-authored-by 設定の不具合修正や、各種コマンド・MCP設定の挙動改善が含まれています。また、エラーハンドリングやセッション管理の安定性が向上しています。",
+    "changes": [
+      "ACPモード（copilot --acp）において `includeCoAuthoredBy: false` が正しく適用されるように修正されました。",
+      "無効なHTTPヘวッder値を持つBYOKプロバイダーキーがモデルのエラーやセッションログに表示されないようになりました。",
+      "copilot mcp enable がリポジトリで無効化されているサーバーに対して明確なエラーメッセージで失敗するように改善されました。",
+      "skillDirectories および関連環境変数内の ~/ パスがホームディレクトリに正しく解決されるようになりました。",
+      "Geminiモデル使用時にリクエストが512関数の制限を超えた場合、ツールが検索の背後に自動的に遅延されるようになりました。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-03T03:18:01Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-03T03:17:59Z"
+  },
+  {
+    "id": "github-copilot-cli-432059141",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-4",
+    "published_at": "2026-11-02T22:59:38Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-4",
+    "excerpt_original": "**Fixed** - Empty sessions no longer flash into the session picker before disappearing - An @file mention written inside parentheses, brackets, braces, angle brackets, quotes or backticks now attaches the file, and expands correctly in ! shell commands, instead of being silently ignored. - Custom agents that share a built-in agent's name are no longer offered to the model as a second agent type, since delegating to that name always runs the built-in agent - The details view in /skills, /plugin and /mcp no longer passes terminal control characters from a skill, plugin or server's metadata through to the terminal; its trust and data blocks now show them escaped. - Wrapped lines in the `/ide` dialog now continue under their text instead of under the bullet or row number - After choosing Go back on the startup session-in-use prompt, sessions opened later with `/resume` show the in-use warning again. - Instruction files whose frontmatter is not valid YAML now keep an applyTo or paths list and excludeAgent, instead of applying to every file, to none, or to an agent they exclude - A preToolUse hook that returns `\"modifiedArgs\": null` no longer makes the tool call fail with \"Expected JSON object but got null\"; null now leaves the arguments unchanged, as it does for the hook's other fields. - Escape and Ctrl+G leave Ctrl+R reverse search in one press when it was started from a slash command, /cd path or command-mode draft, instead of clearing the draft. - Pressing Enter on a search with no matches in the session browser or the custom agent picker, or Tab in the agent picker, no longer adds a space to the search text. - Messages such as the /rename confirmation now show 8-bit control characters from the text they echo as spaces instead of sending them to the terminal. - `copilot sessions import` now reports a second session header as \"Only the first record may be a session header.\" and an unknown record type as unsupported, instead of asking for a record id and timestamp those lines never needed. - When the editor opened with Ctrl+E in /settings saves the file and then exits with an error, the edit is now kept in a recovery file and its path is shown, instead of being deleted with a message saying the editor did not save. - When signed out, the Issues and Pull requests tabs no longer offer a `/` search that could only fail with \"Search failed.\"; `/` there now opens the slash-command picker, as on the Gists tab. - Keep the /statusline dialog's preview and toggle descriptions inside its border when the sessions sidebar is open. - The view tool now fails at once on a named pipe, socket or device instead of waiting forever for a FIFO writer, which left non-interactive runs hanging. - Expanding a tool call with Ctrl+O now shows the values of object and array arguments instead of a `{…}` or `[N items]` placeholder, so MCP calls that take a nested parameters object can be inspected - Command hooks receive COPILOT_HOOK_DEPTH so hook-launched sessions can stop recursive agentStop chains - Remote HTTP MCP servers connect through proxies that require Kerberos (Negotiate) authentication.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.106-4 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-4がリリースされ、セッションピッカーの表示改善、@fileメンションの動作修正、カスタムエージェントの処理調整など、多くの不具合修正と機能改善が行われました。セキュリティやUI表示の向上、MCPサーバーやフック処理の安定化も含まれています。",
+    "changes": [
+      "空のセッションがセッションピッカーに一瞬表示されて消える現象を修正",
+      "括弧やクォート等に含まれる@fileメンションが正しくファイルを添付し、シェルコマンド内で展開されるように修正",
+      "ビルトインエージェントと同名のカスタムエージェントが二重に提案される不挙動を修正",
+      "詳細ビューやメッセージ等における制御文字の表示処理をエスケープ処理やスペース置換に改善",
+      "/ideダイアログの折り返し表示位置を修正し、プレビューや設定画面の表示崩れを抑制"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-03T03:18:03Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-03T03:18:02Z"
+  },
+  {
+    "id": "github-copilot-cli-431916240",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-3",
+    "published_at": "2026-11-02T20:08:22Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-3",
+    "excerpt_original": "**Added** - Add opt-in session management tools and @mentions for opted-in local sessions **Improved** - Managed-account policy refresh warnings now include Policy Helper findings and clear once policy resolves **Fixed** - Reuse valid saved MCP OAuth credentials for anonymous connections and initial challenges without requiring another sign-in - On the colorblind theme, unread sessions in the Sessions sidebar and its legend are marked with * instead of the same blue dot as finished sessions. - MCP reload now reports one settled connection summary per reconciliation - Copilot Free signup completes when account setup overlaps model refreshes - Resuming an autopilot objective no longer starts a duplicate continuation prompt - /context shows updated usage details after switching models in an active session - Repository disableAllHooks continues suppressing user hooks after trusted-workspace rebuilds - Extensions no longer prompt for permission after their connection closes during initialization - Permission prompts keep your current selection when options update during loading - Entra sign-in uses the VS Code application registration again by default - Preserve typed and pasted typeahead input across later cwd loading gates - Copilot's built-in documentation tool now returns the installed CLI's own commands, flags and help topics instead of an error line about a missing README - /add-dir and /cd now accept a directory wrapped in quotes, such as a path pasted from a shell or file manager, instead of reporting that it does not exist. - Assistant replies, other rendered markdown and the expanded Read, Create, Edit and Search rows no longer pass escape sequences and control characters from their text to the terminal, so a reply or a file cannot restyle the timeline or hide its own lines - The first `@` of a session now highlights the first suggested file instead of the working directory, so Tab or Enter inserts that file. A suggestion you pick with the arrow keys still stays highlighted while results update. - The busy indicator shortens a long tool name instead of cutting off its elapsed time and output size - A `!` shell command cancelled after it printed output now shows that output once, instead of repeating it above the cancellation message. - Canvas windows no longer reappear or revert to an older URL after being closed or updated while a session is still loading - Code blocks in assistant replies keep their lines and indentation after a line that starts with a triple-backtick code span, a fence line with a language inside another code block, or indented text right after a closing fence, instead of being joined into one line. - Collapsed tool result previews no longer show a replacement character when an emoji falls where the preview is cut, and wide characters no longer overrun the preview width - The autopilot completion check label now matches the decision autopilot acts on: a reviewer verdict with non-English text right after the verdict word no longer shows as passed. - Confirmation dialogs such as \"Enable autopilot mode\" and \"Confirm folder trust\" keep their title, highlighted option and key hints on screen in a short terminal - Ctrl+U and Cmd+Backspace at the start of a prompt whose first line is empty no longer add a blank line - The terminal cursor no longer stays in an unfocused pane, such as the /config right pane after returning to the sidebar - A directory name containing escape sequences no longer restyles the session picker Location column, the footer working directory or the /session info Directory row; the path is drawn as plain text - A long name that wraps beside other text in a row, such as in /extensions manage or the /agent picker, no longer loses a character where it wraps. - The Getting started box no longer suggests /model in sessions that use a model from your own provider, where /model is not available. - HTML exports (`/export html`, `/share html`, research reports) and rich text copied with `/copy` keep inline `<br>` line breaks, including in table cells, instead of joining the lines - The \"Agent finished\" desktop notification no longer shows a reply from an earlier turn or from another session when a prompt ends without a reply of its own, such as a prompt blocked by a hook. - The /instructions picker no longer lets terminal escape sequences or line breaks in an instruction file name or plugin name restyle the list or draw extra rows. - `copilot -p --output-format json` and `copilot workflow run` no longer write 8-bit terminal control characters (C1 and DEL) from model replies, tool output or workflow results raw: they are escaped in the JSON, which parses to the same values, and `workflow run` failure messages on stderr show them as spaces. - A prompt that starts with a combining accent no longer hides the last typed character or puts the cursor one column too far right; the accent is drawn on the cell before it, as the terminal itself draws it. - `--max-ai-credits` with `NaN`, `inf` or a number too large to represent now fails with an error that names the value you typed, instead of reporting it as \"null\". - Local MCP servers start once per session when the first credential resolves - An MCP tool title, or tool arguments the model writes, can no longer use 8-bit control characters to erase or redraw the tool approval dialog or the timeline row - The \"Agent finished\" desktop notification now shows inline code such as `src/*.ts` as written, keeps spaced-out asterisks such as `2 * 3`, and no longer leaves part of a link's address behind when the address contains parentheses. - Permission prompts show the control characters in a directory or file name instead of letting its escape sequences restyle the path or its line feeds split the row - The `/permissions` picker keeps its title, the highlighted mode, the Assisted Permissions security statement and its key hints on screen on short terminals, such as 80x12 or 60x14, instead of pushing the title and the first modes above the top of the screen. - Plugin rules whose `globs` is a comma-separated string, such as `\"*.ts,*.tsx\"`, now apply to the files those patterns match instead of never applying. - In `-p` mode, a sub-agent's streamed reply now ends with a line break, so `--silent` no longer prints it and the main agent's answer as one line and the default output no longer glues it to the front of the task tool's row. - Typing `?` in Ctrl+R reverse search or at a permission prompt no longer opens quick help, and pressing it twice no longer leaves a stray `?` in the prompt. - `/remote on` tries again after an earlier attempt failed, instead of reporting \"Remote control status: connecting.\" and doing nothing until the CLI is restarted. - /rename and /session rename refuse a session name with a double quote or a control character, as --name and /fork already do, instead of storing it. - A repository's .github/copilot/settings.json can no longer color, hide or add lines to the startup warning or the /settings Problems explanation that reports its invalid settings: keys and values from the file are shown escaped, and a setting's value containing a line feed is no longer shown in the Problems explanation. - Show unresolved GitHub repositories in /chronicle reindex results when some sessions cannot be synced. - copilot --resume and --continue now fail at once with the permission error when the session store cannot be read, instead of printing nothing and never exiting. - Ctrl+C closes a Ctrl+R history search without clearing the prompt you were typing or arming \"ctrl+c again to exit\", so pressing it twice no longer quits the CLI. - copilot sandbox ca trust --allow-host '*' now reports an invalid host rule, like other invalid hosts, instead of an unrelated masked-credential error - The /sandbox dialog now fits short terminals: it keeps its title, its tabs, the highlighted setting and its key hints on screen and scrolls the settings instead of cutting them off. - A command scheduled with /after or /every that cannot be scheduled, such as /clear or /exit, now reports in the timeline that it cannot be scheduled when it fires, instead of silently doing nothing. - With --screen-reader, /plugin, /skills and other labelled lists read their rows and their empty message instead of only the list name - Under `--screen-reader`, the \"User message\" label on a sent message stays on one row beside the message instead of breaking into a column of two-letter pieces, and the \"Search\" label in `/search` and the model picker is now separated from the text you type. - With `--screen-reader`, the session browser no longer reads the label of its Source tabs twice (\"Source: source: current tab\"). - With --screen-reader, the home screen no longer goes blank and stops responding in a very small terminal, such as 15 columns by 8 rows. - A search path naming the working directory with a trailing slash is now shown as the current directory instead of an empty path - /session delete refuses an unknown option such as --force with a usage error. Before, an unknown option placed before a session ID consumed the ID, and the command deleted the current session without asking. - With context management tools on, session_history search now matches the conversation text, so a query that contains a line break, a quote or a backslash finds the message it was copied from, and read_item returns the message text instead of its JSON encoding. - Escape sequences in a session name, branch or working directory no longer restyle rows in the Sessions tab and session pickers, or show up as stray text such as [31m on the Sessions sidebar cards; the text is drawn plain - /session prune and /session delete-all reject malformed days, unknown flags and stray arguments instead of deleting sessions - In /settings list editors, an item that wraps onto a second line no longer pulls its text one column left of the other items and against the selection marker - The /settings value picker no longer draws",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.106-3",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-3がリリースされました。このバージョンでは、オプトイン式のセッション管理ツールやローカルセッション向けの@メンションが追加され、管理アカウントのポリシー更新警告の改善や多くの不具合修正が行われています。",
+    "changes": [
+      "オプトイン式のセッション管理ツールと、オプトインしたローカルセッション向けの@メンションを追加",
+      "管理アカウントのポリシー更新警告にPolicy Helperの検出結果を含めるよう改善",
+      "匿名接続および初期チャレンジ向けに、有効な保存済みMCP OAuth認証情報を再利用するよう修正",
+      "カラーブラインドテーマにおいて、セッションサイドバーの未読セッションを青いドットではなくアスタリスクでマークするよう修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-03T03:18:05Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-03T03:18:03Z"
+  },
+  {
+    "id": "m365-roadmap-f737a7acb18f9d8d9940",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573170",
+    "published_at": "2026-11-03T00:14:11Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): New Microsoft 365 Copilot usage reports for Copilot Search, Connectors, and Agents for US Government customers",
+    "excerpt_original": "We are introducing new Microsoft 365 Copilot usage reports for Copilot Search, Copilot Connectors, and Copilot Agents for US Government customers across GCC Moderate, GCC High, and DoD environments. These reports will provide administrators with organization-level and user-level insights to help them understand usage and adoption of these Copilot capabilities. GA date: December CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] 米国政府向けMicrosoft 365 Copilot：利用状況レポートの追加",
+    "summary_ja": "米国政府向け環境の管理者向けに、Copilot Search、Copilot Connectors、Copilot Agentsの新しい利用状況レポートが提供されます。本機能により、組織レベルおよびユーザーレベルでの利用状況や導入状況の把握が可能になります。一般提供（GA）は2026年12月を予定しています。",
+    "changes": [
+      "GCC Moderate、GCC High、DoDの各環境で利用可能な新しいCopilot利用状況レポートの導入",
+      "Copilot Search、Copilot Connectors、Copilot Agentsの利用・導入状況に関する組織レベルおよびユーザーレベルのインサイト提供"
+    ],
+    "target_user": [
+      "Administrators",
+      "US Government customers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-03T03:18:02Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-03T03:18:01Z"
   }
 ]

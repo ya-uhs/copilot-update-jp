@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 Nov 2026 19:54:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 03:18:05 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -69,43 +69,43 @@
       <category>high</category>
     </item>
     <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年10月27日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026</link>
-      <guid isPermaLink="false">m365-release-notes-ec94afd5e510346466bc</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年10月27日更新では、パーソナライズされた学習を支援するLearning Agentや、アプリ利用状況を追跡する新たなCopilotメトリクスが追加されました。また、Copilot NotebooksでのWebリンク参照やiOSアプリでの新デザイン、ResearcherにおけるCanva Connectorのサポートが含まれます。さらに、管理者向けのカスタムMCPコネクタの作成・展開機能や、Work IQ APIにおける従量課金制の導入などが実施されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;個人向けマイクロラーニングや構造化学習を提供する Learning Agent の追加（Roadmap ID: 490154）&lt;/li&gt;&lt;li&gt;Microsoft 365 アプリや Edge、OneNote における利用状況を追跡する新しい Copilot メトリクスの導入（Roadmap ID: 557981）&lt;/li&gt;&lt;li&gt;Copilot Notebooks における Web リンクの参照ソースとしての追加対応（Roadmap ID: 516040）&lt;/li&gt;&lt;li&gt;Microsoft 365 管理センターでのカスタム Model Context Protocol (MCP) コネクタの作成・展開機能の追加（Roadmap ID: 501585）&lt;/li&gt;&lt;li&gt;Work IQ API における事前割り当てライセンス不要の従量課金制の有効化（Roadmap ID: 559017）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-27-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilotのアシステッドパーミッションが一般提供（GA）を開始</title>
-      <link>https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available</link>
-      <guid isPermaLink="false">github-changelog-b26f70c790034ce0463a</guid>
-      <pubDate>Mon, 26 Oct 2026 22:31:30 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotのアシステッドパーミッション機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびVisual Studio Codeで一般提供（GA）開始されました。Copilotがコマンドの実行やファイルシステムパスへのアクセスを要求する際に、この機能が適用されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;li&gt;GitHub Copilotアプリでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;li&gt;Visual Studio Codeでアシステッドパーミッションが一般提供を開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.106-2 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-2</link>
-      <guid isPermaLink="false">github-copilot-cli-430308978</guid>
-      <pubDate>Sun, 01 Nov 2026 02:06:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-2がリリースされました。今回のアップデートでは、スクリーンリーダー利用時のエラーや警告の出力方法の改善、セッション再開時の挙動修正、HTTP MCPサーバーの接続タイムアウト処理の最適化などが行われました。また、MCPサーバー設定の保存時のシンボリックリンク維持や、スキル管理コマンドの同期機能の修正も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--screen-readerオプション使用時、失敗したツール呼び出しや未知のコマンド、警告の先頭に「Error:」または「Warning:」が追加されるように修正されました。&lt;/li&gt;&lt;li&gt;/resume &amp;lt;session-id&amp;gt;コマンドが、終了時に二重表示するのではなく、すでに実行中のバックグラウンドセッションをフォアグラウンドにするようになりました。&lt;/li&gt;&lt;li&gt;接続を受け付けるものの応答しないHTTP MCPサーバーの起動タイムアウト待ちが、3回から1回に削減されました。&lt;/li&gt;&lt;li&gt;MCP serverの変更保存時に、シンボリックリンクされたmcp-config.jsonファイルが維持され、リンク先が更新されるようになりました。&lt;/li&gt;&lt;li&gt;/skillsのadd、remove、reloadコマンドがセッションスキルと同期され、更新失敗が即座にレポートされるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>GitHub Copilot CLI v1.0.106-5 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-5</link>
+      <guid isPermaLink="false">github-copilot-cli-432145689</guid>
+      <pubDate>Tue, 03 Nov 2026 01:13:23 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-5 がリリースされました。ACPモードでの co-authored-by 設定の不具合修正や、各種コマンド・MCP設定の挙動改善が含まれています。また、エラーハンドリングやセッション管理の安定性が向上しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ACPモード（copilot --acp）において `includeCoAuthoredBy: false` が正しく適用されるように修正されました。&lt;/li&gt;&lt;li&gt;無効なHTTPヘวッder値を持つBYOKプロバイダーキーがモデルのエラーやセッションログに表示されないようになりました。&lt;/li&gt;&lt;li&gt;copilot mcp enable がリポジトリで無効化されているサーバーに対して明確なエラーメッセージで失敗するように改善されました。&lt;/li&gt;&lt;li&gt;skillDirectories および関連環境変数内の ~/ パスがホームディレクトリに正しく解決されるようになりました。&lt;/li&gt;&lt;li&gt;Geminiモデル使用時にリクエストが512関数の制限を超えた場合、ツールが検索の背後に自動的に遅延されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
+      <category>Preview</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.106-1 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-1</link>
-      <guid isPermaLink="false">github-copilot-cli-430165552</guid>
-      <pubDate>Sat, 31 Oct 2026 20:24:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-1がリリースされました。本バージョンでは、改行コードの混在するファイルにおける修正処理の改善、環境変数設定の不具合修正、複数行テキストの貼り付け時のフォーマット保持など、複数のバグ修正と動作の安定化が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;apply_patchが、LFとCRLFが混在するファイルの変更部分以外で不要な改行コードの書き換えを行わないように修正しました。&lt;/li&gt;&lt;li&gt;COPILOT_PROVIDER_GHES_HOSTがブラウザのアドレスを受け付けるようになり、不正なURL生成エラーを防止しました。&lt;/li&gt;&lt;li&gt;クリアや新規などのコマンド後に複数行のテキストを貼り付けた際、改行とインデントが維持されるように修正しました。&lt;/li&gt;&lt;li&gt;Ctrl+Cなどで停止したcopilot -pの実行が、終了前にセッションのシャットダウン記録を書き終えるように修正しました。&lt;/li&gt;&lt;li&gt;web_fetchが宣言された文字エンコーディングでページをデコードするように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] 米国政府向けMicrosoft 365 Copilot：利用状況レポートの追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573170</link>
+      <guid isPermaLink="false">m365-roadmap-f737a7acb18f9d8d9940</guid>
+      <pubDate>Tue, 03 Nov 2026 00:14:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;米国政府向け環境の管理者向けに、Copilot Search、Copilot Connectors、Copilot Agentsの新しい利用状況レポートが提供されます。本機能により、組織レベルおよびユーザーレベルでの利用状況や導入状況の把握が可能になります。一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC Moderate、GCC High、DoDの各環境で利用可能な新しいCopilot利用状況レポートの導入&lt;/li&gt;&lt;li&gt;Copilot Search、Copilot Connectors、Copilot Agentsの利用・導入状況に関する組織レベルおよびユーザーレベルのインサイト提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573170"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.106-4 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-4</link>
+      <guid isPermaLink="false">github-copilot-cli-432059141</guid>
+      <pubDate>Mon, 02 Nov 2026 22:59:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-4がリリースされ、セッションピッカーの表示改善、@fileメンションの動作修正、カスタムエージェントの処理調整など、多くの不具合修正と機能改善が行われました。セキュリティやUI表示の向上、MCPサーバーやフック処理の安定化も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;空のセッションがセッションピッカーに一瞬表示されて消える現象を修正&lt;/li&gt;&lt;li&gt;括弧やクォート等に含まれる@fileメンションが正しくファイルを添付し、シェルコマンド内で展開されるように修正&lt;/li&gt;&lt;li&gt;ビルトインエージェントと同名のカスタムエージェントが二重に提案される不挙動を修正&lt;/li&gt;&lt;li&gt;詳細ビューやメッセージ等における制御文字の表示処理をエスケープ処理やスペース置換に改善&lt;/li&gt;&lt;li&gt;/ideダイアログの折り返し表示位置を修正し、プレビューや設定画面の表示崩れを抑制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.106-3</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-3</link>
+      <guid isPermaLink="false">github-copilot-cli-431916240</guid>
+      <pubDate>Mon, 02 Nov 2026 20:08:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-3がリリースされました。このバージョンでは、オプトイン式のセッション管理ツールやローカルセッション向けの@メンションが追加され、管理アカウントのポリシー更新警告の改善や多くの不具合修正が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;オプトイン式のセッション管理ツールと、オプトインしたローカルセッション向けの@メンションを追加&lt;/li&gt;&lt;li&gt;管理アカウントのポリシー更新警告にPolicy Helperの検出結果を含めるよう改善&lt;/li&gt;&lt;li&gt;匿名接続および初期チャレンジ向けに、有効な保存済みMCP OAuth認証情報を再利用するよう修正&lt;/li&gt;&lt;li&gt;カラーブラインドテーマにおいて、セッションサイドバーの未読セッションを青いドットではなくアスタリスクでマークするよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>
