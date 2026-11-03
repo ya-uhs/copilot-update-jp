@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Nov 2026 11:36:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 17:28:13 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -69,6 +69,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot が JetBrains Air で利用可能になりました</title>
+      <link>https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air</link>
+      <guid isPermaLink="false">github-changelog-2b4786f99076579d8179</guid>
+      <pubDate>Tue, 03 Nov 2026 15:11:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot が JetBrains Air に統合され、コーディングタスクの委任、実行のガイド、結果のレビューが可能になりました。統合は Agent Client Protocol (ACP) を使用し、さまざまなタスクをサポートします。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;JetBrains Air で GitHub Copilot が利用可能になった&lt;/li&gt;&lt;li&gt;コーディングタスクの委任、実行ガイド、結果レビュー機能を提供&lt;/li&gt;&lt;li&gt;Agent Client Protocol (ACP) を使用した統合&lt;/li&gt;&lt;li&gt;複数のタスクをサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.106-6 のアップデート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-6</link>
       <guid isPermaLink="false">github-copilot-cli-432335526</guid>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;米国政府向け環境の管理者向けに、Copilot Search、Copilot Connectors、Copilot Agentsの新しい利用状況レポートが提供されます。本機能により、組織レベルおよびユーザーレベルでの利用状況や導入状況の把握が可能になります。一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC Moderate、GCC High、DoDの各環境で利用可能な新しいCopilot利用状況レポートの導入&lt;/li&gt;&lt;li&gt;Copilot Search、Copilot Connectors、Copilot Agentsの利用・導入状況に関する組織レベルおよびユーザーレベルのインサイト提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573170"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.106-4 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-4</link>
-      <guid isPermaLink="false">github-copilot-cli-432059141</guid>
-      <pubDate>Mon, 02 Nov 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-4がリリースされ、セッションピッカーの表示改善、@fileメンションの動作修正、カスタムエージェントの処理調整など、多くの不具合修正と機能改善が行われました。セキュリティやUI表示の向上、MCPサーバーやフック処理の安定化も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;空のセッションがセッションピッカーに一瞬表示されて消える現象を修正&lt;/li&gt;&lt;li&gt;括弧やクォート等に含まれる@fileメンションが正しくファイルを添付し、シェルコマンド内で展開されるように修正&lt;/li&gt;&lt;li&gt;ビルトインエージェントと同名のカスタムエージェントが二重に提案される不挙動を修正&lt;/li&gt;&lt;li&gt;詳細ビューやメッセージ等における制御文字の表示処理をエスケープ処理やスペース置換に改善&lt;/li&gt;&lt;li&gt;/ideダイアログの折り返し表示位置を修正し、プレビューや設定画面の表示崩れを抑制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>

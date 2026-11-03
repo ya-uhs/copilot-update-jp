@@ -1,5 +1,32 @@
 [
   {
+    "id": "github-copilot-cli-432335526",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-6",
+    "published_at": "2026-11-03T06:11:05Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-6",
+    "excerpt_original": "**Added** - Make /settings open the unified dashboard for all users and add global search across settings and local resources. - Interactive CLI reports program status to supporting terminals, including when attention is needed. **Improved** - MCP content addressed only to the user is no longer sent to the model, and the interactive CLI shows such images inline, even in collapsed tool calls, or as saved files **Fixed** - Expand failed tool-call entries to show complete error output in the timeline. - Prevent over-limit turns from re-running the same tool calls and instead return the existing prompt-budget error - Pressing Escape or Ctrl+G dismisses slash-command argument suggestions in one keypress - Returning from /lsp logs detail keeps the LSP server list visible and preserves the selected server. - Esc in a question form clears the text in the current field instead of discarding the whole form; press Esc again on an empty field, or Ctrl+C, to cancel - Keep /diff comment boxes closed beside the scrollbar, and shorten wide or astral file names in their titles without drawing a replacement character. - In /diff, a mouse click selects the line under the pointer after the view scrolls past wrapped lines, and the scrollbar shows when wrapped lines overflow the view. - When an MCP server fails to connect, the warning now shows the server's error text as plain text, so escape sequences in it can no longer hide or recolor the warning or split it across extra lines. - Question forms show control characters in field titles, descriptions and options, and in the answered question row, instead of letting escape sequences hide or restyle that text. - In `/sandbox`, pressing Enter right after Tab opens a folder in the add-path picker now keeps that folder, and Esc after Tab on an empty path cancels at once. - The SQL tools no longer hang the session on a query that never finishes: the query stops after 60 seconds with an error, and interrupting it frees the session for the next prompt - Tool rows and the memory prompt no longer let escape sequences in text the model wrote hide words or add links. Search patterns and memory text show their control characters instead. - The web fetch permission prompt shows control characters in the requested URL instead of letting escape sequences hide text, add a link or split the URL across lines. - Commands prefixed with VAR=value or env no longer trigger path-access prompts for non-path API endpoints. - Company announcements no longer appear twice when repo settings keep or override global announcements - Attach @mentioned images in -p prompts and reject --attachment image files whose contents are not a valid image - In copilot -p streaming mode, sub-agent replies now print as complete blocks instead of interleaving mid-token. - Large-file view guidance references your available search tool, and apply_patch returns a clear error when deleting a missing file. - Use explicit --model with custom agents unless the agent requires a specific model - Tool results that arrive before their calls are now ordered correctly and no longer duplicated. - Open extension picker updates failed extensions from \"starting\" to \"failed\". - Fallback retries now succeed when Claude refusals end with reasoning blocks. - Show one oversized-request warning with the total removed attachments instead of repeated warnings. - Ctrl+C copies selected text in ask_user prompts without cancelling the prompt - PowerShell commands that clear the screen with `cls` or `Clear-Host` no longer fail on Windows or skip the rest of the command - Fix /cd refusal messages to show only the directory error reason, without internal request names - Keep configured skills available on the first request during startup reconciliation. **Removed** - New sessions no longer show startup tips under the header.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.106-6 のアップデート",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-6がリリースされ、/settingsによる統合ダッシュボードの表示や設定・ローカルリソースのグローバル検索機能が追加されました。また、MCPコンテンツの処理改善、ツール呼び出しエラーの表示拡張、および複数分野にわたる不具合の修正が行われています。さらに、新規セッションでの起動時ヒントの非表示化などの変更が含まれています。",
+    "changes": [
+      "/settingsコマンドで全ユーザー向け統合ダッシュボードを開く機能および設定とローカルリソースのグローバル検索を追加",
+      "ユーザー宛てのMCPコンテンツのモデルへの送信を停止し、インタラクティブCLIで画像を表示するよう改善",
+      "失敗したツール呼び出しのエントリを展開してタイムラインに完全なエラー出力を表示するように修正",
+      "SQLツールのクエリタイムアウト（60秒）の実装や、エスケープシーケンス対策など各種セキュリティ・表示の修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-03T11:36:53Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-03T11:36:51Z"
+  },
+  {
     "id": "github-copilot-cli-432145689",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-5",
@@ -9983,30 +10010,31 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-432335526",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-6",
-    "published_at": "2026-11-03T06:11:05Z",
-    "title_original": "GitHub Copilot CLI v1.0.106-6",
-    "excerpt_original": "**Added** - Make /settings open the unified dashboard for all users and add global search across settings and local resources. - Interactive CLI reports program status to supporting terminals, including when attention is needed. **Improved** - MCP content addressed only to the user is no longer sent to the model, and the interactive CLI shows such images inline, even in collapsed tool calls, or as saved files **Fixed** - Expand failed tool-call entries to show complete error output in the timeline. - Prevent over-limit turns from re-running the same tool calls and instead return the existing prompt-budget error - Pressing Escape or Ctrl+G dismisses slash-command argument suggestions in one keypress - Returning from /lsp logs detail keeps the LSP server list visible and preserves the selected server. - Esc in a question form clears the text in the current field instead of discarding the whole form; press Esc again on an empty field, or Ctrl+C, to cancel - Keep /diff comment boxes closed beside the scrollbar, and shorten wide or astral file names in their titles without drawing a replacement character. - In /diff, a mouse click selects the line under the pointer after the view scrolls past wrapped lines, and the scrollbar shows when wrapped lines overflow the view. - When an MCP server fails to connect, the warning now shows the server's error text as plain text, so escape sequences in it can no longer hide or recolor the warning or split it across extra lines. - Question forms show control characters in field titles, descriptions and options, and in the answered question row, instead of letting escape sequences hide or restyle that text. - In `/sandbox`, pressing Enter right after Tab opens a folder in the add-path picker now keeps that folder, and Esc after Tab on an empty path cancels at once. - The SQL tools no longer hang the session on a query that never finishes: the query stops after 60 seconds with an error, and interrupting it frees the session for the next prompt - Tool rows and the memory prompt no longer let escape sequences in text the model wrote hide words or add links. Search patterns and memory text show their control characters instead. - The web fetch permission prompt shows control characters in the requested URL instead of letting escape sequences hide text, add a link or split the URL across lines. - Commands prefixed with VAR=value or env no longer trigger path-access prompts for non-path API endpoints. - Company announcements no longer appear twice when repo settings keep or override global announcements - Attach @mentioned images in -p prompts and reject --attachment image files whose contents are not a valid image - In copilot -p streaming mode, sub-agent replies now print as complete blocks instead of interleaving mid-token. - Large-file view guidance references your available search tool, and apply_patch returns a clear error when deleting a missing file. - Use explicit --model with custom agents unless the agent requires a specific model - Tool results that arrive before their calls are now ordered correctly and no longer duplicated. - Open extension picker updates failed extensions from \"starting\" to \"failed\". - Fallback retries now succeed when Claude refusals end with reasoning blocks. - Show one oversized-request warning with the total removed attachments instead of repeated warnings. - Ctrl+C copies selected text in ask_user prompts without cancelling the prompt - PowerShell commands that clear the screen with `cls` or `Clear-Host` no longer fail on Windows or skip the rest of the command - Fix /cd refusal messages to show only the directory error reason, without internal request names - Keep configured skills available on the first request during startup reconciliation. **Removed** - New sessions no longer show startup tips under the header.",
-    "product": "GitHub Copilot CLI",
-    "status": "Release",
-    "title_ja": "GitHub Copilot CLI v1.0.106-6 のアップデート",
-    "summary_ja": "GitHub Copilot CLI v1.0.106-6がリリースされ、/settingsによる統合ダッシュボードの表示や設定・ローカルリソースのグローバル検索機能が追加されました。また、MCPコンテンツの処理改善、ツール呼び出しエラーの表示拡張、および複数分野にわたる不具合の修正が行われています。さらに、新規セッションでの起動時ヒントの非表示化などの変更が含まれています。",
+    "id": "github-changelog-2b4786f99076579d8179",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+    "published_at": "2026-11-03T15:11:46Z",
+    "title_original": "GitHub Copilot is now available in JetBrains Air",
+    "excerpt_original": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your… The post GitHub Copilot is now available in JetBrains Air appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilot が JetBrains Air で利用可能になりました",
+    "summary_ja": "GitHub Copilot が JetBrains Air に統合され、コーディングタスクの委任、実行のガイド、結果のレビューが可能になりました。統合は Agent Client Protocol (ACP) を使用し、さまざまなタスクをサポートします。",
     "changes": [
-      "/settingsコマンドで全ユーザー向け統合ダッシュボードを開く機能および設定とローカルリソースのグローバル検索を追加",
-      "ユーザー宛てのMCPコンテンツのモデルへの送信を停止し、インタラクティブCLIで画像を表示するよう改善",
-      "失敗したツール呼び出しのエントリを展開してタイムラインに完全なエラー出力を表示するように修正",
-      "SQLツールのクエリタイムアウト（60秒）の実装や、エスケープシーケンス対策など各種セキュリティ・表示の修正"
+      "JetBrains Air で GitHub Copilot が利用可能になった",
+      "コーディングタスクの委任、実行ガイド、結果レビュー機能を提供",
+      "Agent Client Protocol (ACP) を使用した統合",
+      "複数のタスクをサポート"
     ],
     "target_user": [
-      "Developer"
+      "Developers using JetBrains Air",
+      "Software engineers"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-11-03T11:36:53Z",
-    "source_id": "github-copilot-cli",
+    "processed_at": "2026-11-03T17:28:13Z",
+    "source_id": "github-changelog",
     "family": "github",
-    "translation_attempted_at": "2026-11-03T11:36:51Z"
+    "translation_attempted_at": "2026-11-03T17:27:26Z"
   }
 ]

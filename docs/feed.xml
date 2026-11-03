@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Nov 2026 11:36:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 17:28:13 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot が JetBrains Air で利用可能になりました</title>
+      <link>https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air</link>
+      <guid isPermaLink="false">github-changelog-2b4786f99076579d8179</guid>
+      <pubDate>Tue, 03 Nov 2026 15:11:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot が JetBrains Air に統合され、コーディングタスクの委任、実行のガイド、結果のレビューが可能になりました。統合は Agent Client Protocol (ACP) を使用し、さまざまなタスクをサポートします。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;JetBrains Air で GitHub Copilot が利用可能になった&lt;/li&gt;&lt;li&gt;コーディングタスクの委任、実行ガイド、結果レビュー機能を提供&lt;/li&gt;&lt;li&gt;Agent Client Protocol (ACP) を使用した統合&lt;/li&gt;&lt;li&gt;複数のタスクをサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.106-6 のアップデート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-6</link>
@@ -1997,16 +2007,6 @@
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilotのローカルサンドボックス機能が一般提供（GA）開始</title>
-      <link>https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available</link>
-      <guid isPermaLink="false">github-changelog-1e174328109aea325ae3</guid>
-      <pubDate>Wed, 07 Oct 2026 15:46:17 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotのローカルサンドボックス機能が、GitHub Copilot CLI、GitHub Copilotアプリ、およびAgent Hostを使用するVS Codeセッションで一般提供（GA）開始されました。この機能により、開発者はセキュアな環境で作業を行えるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;li&gt;GitHub Copilotアプリでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;li&gt;Agent Hostを使用するVS Codeセッションでローカルサンドボックス機能が一般提供（GA）を開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
     </item>
   </channel>
 </rss>

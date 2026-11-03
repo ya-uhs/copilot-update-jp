@@ -1,5 +1,34 @@
 [
   {
+    "id": "github-changelog-2b4786f99076579d8179",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+    "published_at": "2026-11-03T15:11:46Z",
+    "title_original": "GitHub Copilot is now available in JetBrains Air",
+    "excerpt_original": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your… The post GitHub Copilot is now available in JetBrains Air appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilot が JetBrains Air で利用可能になりました",
+    "summary_ja": "GitHub Copilot が JetBrains Air に統合され、コーディングタスクの委任、実行のガイド、結果のレビューが可能になりました。統合は Agent Client Protocol (ACP) を使用し、さまざまなタスクをサポートします。",
+    "changes": [
+      "JetBrains Air で GitHub Copilot が利用可能になった",
+      "コーディングタスクの委任、実行ガイド、結果レビュー機能を提供",
+      "Agent Client Protocol (ACP) を使用した統合",
+      "複数のタスクをサポート"
+    ],
+    "target_user": [
+      "Developers using JetBrains Air",
+      "Software engineers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-03T17:28:13Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-03T17:27:26Z",
+    "llm_provider": "Groq"
+  },
+  {
     "id": "github-copilot-cli-432335526",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-6",
