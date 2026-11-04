@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Nov 2026 17:28:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 01:52:53 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -69,41 +69,41 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub Copilot が JetBrains Air で利用可能になりました</title>
-      <link>https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air</link>
-      <guid isPermaLink="false">github-changelog-2b4786f99076579d8179</guid>
-      <pubDate>Tue, 03 Nov 2026 15:11:46 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot が JetBrains Air に統合され、コーディングタスクの委任、実行のガイド、結果のレビューが可能になりました。統合は Agent Client Protocol (ACP) を使用し、さまざまなタスクをサポートします。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;JetBrains Air で GitHub Copilot が利用可能になった&lt;/li&gt;&lt;li&gt;コーディングタスクの委任、実行ガイド、結果レビュー機能を提供&lt;/li&gt;&lt;li&gt;Agent Client Protocol (ACP) を使用した統合&lt;/li&gt;&lt;li&gt;複数のタスクをサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Copilot usage APIにおけるBYOKおよびエンタープライズカスタムモデルのサポート</title>
+      <link>https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api</link>
+      <guid isPermaLink="false">github-changelog-3120cb53fbc5954ecff0</guid>
+      <pubDate>Wed, 04 Nov 2026 00:32:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのusage metrics APIが、BYOK（Bring Your Own Key）の利用状況を表示するようになりました。これにより、Copilotホステッドモデルの利用分と分離して確認できるようになります。レポートは2種類の利用状況を網羅しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot usage metrics APIでBYOKの利用状況の表示に対応&lt;/li&gt;&lt;li&gt;BYOK利用分とCopilotホステッドモデルの利用分の分離が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.106-6 のアップデート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-6</link>
-      <guid isPermaLink="false">github-copilot-cli-432335526</guid>
-      <pubDate>Tue, 03 Nov 2026 06:11:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-6がリリースされ、/settingsによる統合ダッシュボードの表示や設定・ローカルリソースのグローバル検索機能が追加されました。また、MCPコンテンツの処理改善、ツール呼び出しエラーの表示拡張、および複数分野にわたる不具合の修正が行われています。さらに、新規セッションでの起動時ヒントの非表示化などの変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/settingsコマンドで全ユーザー向け統合ダッシュボードを開く機能および設定とローカルリソースのグローバル検索を追加&lt;/li&gt;&lt;li&gt;ユーザー宛てのMCPコンテンツのモデルへの送信を停止し、インタラクティブCLIで画像を表示するよう改善&lt;/li&gt;&lt;li&gt;失敗したツール呼び出しのエントリを展開してタイムラインに完全なエラー出力を表示するように修正&lt;/li&gt;&lt;li&gt;SQLツールのクエリタイムアウト（60秒）の実装や、エスケープシーケンス対策など各種セキュリティ・表示の修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
+      <title>[提供予定・ロードマップ] Microsoft Teams: モバイル版QueuesアプリにおけるCopilot</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578859</link>
+      <guid isPermaLink="false">m365-roadmap-2e3c788e384ed95b141d</guid>
+      <pubDate>Wed, 04 Nov 2026 00:02:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;モバイル版Queuesアプリにおいて、エージェントやスーパーバイザーがCopilotを利用して顧客との会話を迅速に把握し、フォローアップできるようになります。共有された通話履歴から過去の通話に関する質問を行い、Copilotを通じて関連する情報やインサイトを引き出すことが可能です。これにより、通話全体の確認を行うことなく、迅速に状況を把握して次のステップへ移行できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モバイル版QueuesアプリでのCopilotの提供開始&lt;/li&gt;&lt;li&gt;共有通話履歴からの質問による関連情報やインサイトの抽出&lt;/li&gt;&lt;li&gt;通話を最初から確認せずに状況把握と次の対応を実施可能にする機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578859"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.106-5 の更新情報</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-5</link>
-      <guid isPermaLink="false">github-copilot-cli-432145689</guid>
-      <pubDate>Tue, 03 Nov 2026 01:13:23 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-5 がリリースされました。ACPモードでの co-authored-by 設定の不具合修正や、各種コマンド・MCP設定の挙動改善が含まれています。また、エラーハンドリングやセッション管理の安定性が向上しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ACPモード（copilot --acp）において `includeCoAuthoredBy: false` が正しく適用されるように修正されました。&lt;/li&gt;&lt;li&gt;無効なHTTPヘวッder値を持つBYOKプロバイダーキーがモデルのエラーやセッションログに表示されないようになりました。&lt;/li&gt;&lt;li&gt;copilot mcp enable がリポジトリで無効化されているサーバーに対して明確なエラーメッセージで失敗するように改善されました。&lt;/li&gt;&lt;li&gt;skillDirectories および関連環境変数内の ~/ パスがホームディレクトリに正しく解決されるようになりました。&lt;/li&gt;&lt;li&gt;Geminiモデル使用時にリクエストが512関数の制限を超えた場合、ツールが検索の背後に自動的に遅延されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
+      <title>[提供予定・ロードマップ] Dynamics 365 Commerce: モダンなブラウザーデザイナーでのPOS画面レイアウト設計</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577893</link>
+      <guid isPermaLink="false">m365-roadmap-472be8b64dc5d115afba</guid>
+      <pubDate>Wed, 04 Nov 2026 00:02:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Commerce&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Commerceの本部において、モダンなWebベースのデザイナーを使用してPOS画面レイアウトの作成とプレビューが可能になります。Reactベースの新しい体験とJSONベースのレイアウト基盤により、設定が簡素化され、デザインの反復作業が軽減されます。本機能には、ドラッグアンドドロップによる視覚的なオーサリング、ライブプレビュー、既存レイアウトの移行、再利用可能な設定、モダンな操作性が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ReactベースのWeb体験とJSONベースのレイアウト基盤による、ビジュアルレイアウトおよびボタン・グリッドのオーサリング&lt;/li&gt;&lt;li&gt;店舗への配布を行わずにデザイン時のレイアウトや操作性を確認できるライブプレビュー機能&lt;/li&gt;&lt;li&gt;既存の画面レイアウトおよびボタン・グリッド設定を移行する機能&lt;/li&gt;&lt;li&gt;店舗固有の上書き設定によるレイアウトテンプレートの再利用&lt;/li&gt;&lt;li&gt;Fluent UIコントロールやインライン検証を活用したモダンな操作性&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577893"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Dynamics 365 Commerce</category>
+      <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] 米国政府向けMicrosoft 365 Copilot：利用状況レポートの追加</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573170</link>
-      <guid isPermaLink="false">m365-roadmap-f737a7acb18f9d8d9940</guid>
-      <pubDate>Tue, 03 Nov 2026 00:14:11 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;米国政府向け環境の管理者向けに、Copilot Search、Copilot Connectors、Copilot Agentsの新しい利用状況レポートが提供されます。本機能により、組織レベルおよびユーザーレベルでの利用状況や導入状況の把握が可能になります。一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC Moderate、GCC High、DoDの各環境で利用可能な新しいCopilot利用状況レポートの導入&lt;/li&gt;&lt;li&gt;Copilot Search、Copilot Connectors、Copilot Agentsの利用・導入状況に関する組織レベルおよびユーザーレベルのインサイト提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573170"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys：マーケティングツール、スキル、およびプラグインが Copilot Cowork で利用可能に</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577746</link>
+      <guid isPermaLink="false">m365-roadmap-211b73778649bfcb7d23</guid>
+      <pubDate>Wed, 04 Nov 2026 00:02:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Insights プラグインが Copilot Cowork に導入され、顧客プロファイルの理解やブランドに準拠したコンテンツ作成、同意を考慮したアウトリーチが可能になります。ネイティブの Customer Insights スキルを活用することで、Dynamics 365 のビジネスロジックや権限を維持したまま、作業フロー内で直接データやアクションにアクセスできます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Cowork で Dynamics 365 Customer Insights のコンテキスト、アクション、ガイド付きワークフローが利用可能になる&lt;/li&gt;&lt;li&gt;Customer Brief &amp;amp; Value Metrics、Email Content Advisor、Customer Outreach の各スキルが提供される&lt;/li&gt;&lt;li&gt;Dynamics 365 MCP サーバー経由で公開されたツールを呼び出し、統一された顧客プロファイルとジャーニーのコンテキストを取得する&lt;/li&gt;&lt;li&gt;管理者向けの管理機能が含まれ、ビジネスロジックやユーザー権限が各呼び出しで適用される&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577746"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
