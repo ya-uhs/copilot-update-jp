@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Nov 2026 11:50:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 17:40:56 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.106-9 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-9</link>
+      <guid isPermaLink="false">github-copilot-cli-434222193</guid>
+      <pubDate>Wed, 04 Nov 2026 17:16:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-9 がリリースされ、apply_patch の行数カウント修正や設定ファイルの型エラー警告などのバグ修正が行われました。また、CJK文字の入力編集やMarkdown出力における絵文字変換の不具合が解消されています。さらに、エージェント実行中のメッセージ送信やSKILL.mdの警告表示、セッション管理などの機能改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;apply_patch が追加・削除ファイルごとに余分な1行をカウントしていた問題を修正し、正確な行数を表示するように変更&lt;/li&gt;&lt;li&gt;copilot config が誤った型の値によって settings.json が無視される場合に警告を表示するように改善&lt;/li&gt;&lt;li&gt;プロンプト内の中国語、日本語、韓国語の文字の前のテキストを削除した際に、次回の編集まで行が乱れる問題を修正&lt;/li&gt;&lt;li&gt;ファイル名や行番号を含むコロン区切りのテキストがMarkdown出力で絵文字に変換されないように修正&lt;/li&gt;&lt;li&gt;エージェントの作業中に @path を含むメッセージを送信した際、前のメッセージが待機中でも送信失敗にならず処理されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-9"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.145 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_145</link>

@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-cli-434222193",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-9",
+    "published_at": "2026-11-04T17:16:55Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-9",
+    "excerpt_original": "**Fixed** - apply_patch no longer counts one extra line for each file it adds or deletes, so the timeline summary, permission prompt, /usage and exit summary show the real line counts - `copilot config` now warns when a value of the wrong type makes settings.json ignored, instead of reading every setting as unset and reporting writes into that file as if they took effect - Deleting text in front of Chinese, Japanese or Korean characters in the prompt no longer leaves the line garbled until the next edit. - Markdown output no longer turns colon-delimited text such as file.ts:100:5 or crate::id::Id into emoji. - A top-level SKILL.md in a skills directory now produces a warning in /skills explaining that subdirectories are resources, not separate skills, and how to load them. - A message sent while the agent is working that mentions a file or directory (`@path`) is no longer rejected with \"Submission failed\" when an earlier one is still waiting. - /keep-alive busy releases sleep prevention once all tracked sessions finish working, including background turns and standalone local-shell commands - Git URL caches use short paths and diagnose path-length failures. Old caches are copied, not moved, and kept for older CLIs; delete the originals manually when no longer needed. - ACP session/prompt and session/cancel stop only the active turn, keeping background tasks and shell commands running - Long conversations now recover from oversized requests by trimming historical reasoning and retrying. - Prompt before out-of-workspace access through dangling symlinks - Rewinding and resubmitting a prompt now keeps image and file attachments. - Sessions recover from unavailable program endpoints and continue answering prompts - Skill calls explain when model invocation is disabled instead of reporting the skill as not found - /memory now reports when Memory is disabled for the session by an experiment and clarifies /memory on behavior.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.106-9 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-9 がリリースされ、apply_patch の行数カウント修正や設定ファイルの型エラー警告などのバグ修正が行われました。また、CJK文字の入力編集やMarkdown出力における絵文字変換の不具合が解消されています。さらに、エージェント実行中のメッセージ送信やSKILL.mdの警告表示、セッション管理などの機能改善が含まれています。",
+    "changes": [
+      "apply_patch が追加・削除ファイルごとに余分な1行をカウントしていた問題を修正し、正確な行数を表示するように変更",
+      "copilot config が誤った型の値によって settings.json が無視される場合に警告を表示するように改善",
+      "プロンプト内の中国語、日本語、韓国語の文字の前のテキストを削除した際に、次回の編集まで行が乱れる問題を修正",
+      "ファイル名や行番号を含むコロン区切りのテキストがMarkdown出力で絵文字に変換されないように修正",
+      "エージェントの作業中に @path を含むメッセージを送信した際、前のメッセージが待機中でも送信失敗にならず処理されるように修正"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-04T17:40:56Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-04T17:40:44Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "vscode-29b3350fcf5dde8edfd0",
     "source": "VS Code Release Notes",
     "source_url": "https://code.visualstudio.com/updates/v1_145",
