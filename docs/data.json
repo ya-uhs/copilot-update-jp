@@ -1,5 +1,148 @@
 [
   {
+    "id": "github-changelog-3120cb53fbc5954ecff0",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+    "published_at": "2026-11-04T00:32:19Z",
+    "title_original": "BYOK and enterprise custom models in the Copilot usage API",
+    "excerpt_original": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "Copilot usage APIにおけるBYOKおよびエンタープライズカスタムモデルのサポート",
+    "summary_ja": "GitHub Copilotのusage metrics APIが、BYOK（Bring Your Own Key）の利用状況を表示するようになりました。これにより、Copilotホステッドモデルの利用分と分離して確認できるようになります。レポートは2種類の利用状況を網羅しています。",
+    "changes": [
+      "Copilot usage metrics APIでBYOKの利用状況の表示に対応",
+      "BYOK利用分とCopilotホステッドモデルの利用分の分離が可能に"
+    ],
+    "target_user": [
+      "Enterprise administrators",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-04T01:52:48Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-04T01:52:47Z"
+  },
+  {
+    "id": "m365-roadmap-2e3c788e384ed95b141d",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=578859",
+    "published_at": "2026-11-04T00:02:09Z",
+    "title_original": "[Roadmap] Microsoft Teams: Copilot in the Queues app on Mobile",
+    "excerpt_original": "Agents and supervisors can use Copilot in the Queues app on Mobile to quickly understand and follow up on customer conversations. From shared call history, users can ask questions about a past call and use Copilot to surface relevant information and insights from the conversation, helping them get up to speed and take the next step without having to review the entire call GA date: December CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams: モバイル版QueuesアプリにおけるCopilot",
+    "summary_ja": "モバイル版Queuesアプリにおいて、エージェントやスーパーバイザーがCopilotを利用して顧客との会話を迅速に把握し、フォローアップできるようになります。共有された通話履歴から過去の通話に関する質問を行い、Copilotを通じて関連する情報やインサイトを引き出すことが可能です。これにより、通話全体の確認を行うことなく、迅速に状況を把握して次のステップへ移行できるようになります。",
+    "changes": [
+      "モバイル版QueuesアプリでのCopilotの提供開始",
+      "共有通話履歴からの質問による関連情報やインサイトの抽出",
+      "通話を最初から確認せずに状況把握と次の対応を実施可能にする機能の追加"
+    ],
+    "target_user": [
+      "Agents",
+      "Supervisors"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-04T01:52:49Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-04T01:52:48Z"
+  },
+  {
+    "id": "m365-roadmap-472be8b64dc5d115afba",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577893",
+    "published_at": "2026-11-04T00:02:09Z",
+    "title_original": "[Roadmap] Dynamics 365 Commerce: Design POS screen layouts in a modern browser designer",
+    "excerpt_original": "Create and preview POS screen layouts in headquarters with a modern web designer that simplifies configuration and reduces design iterations. The Screen layout designer is modernized as a React-based web experience embedded in Commerce headquarters, with a JSON-based layout backbone replacing the legacy XML representation. The feature applies to Store Commerce point of sale (POS). The modernization includes these core capabilities: Visual layout and button-grid authoring: Arrange and resize supported POS components on a drag-and-drop canvas, configure properties, and edit associated button grids and POS operation mappings in a unified experience. Live preview: Inspect layouts and their associated button-grid operations while designing, and preview supported device sizes and orientations without distributing every design iteration to stores. Existing layout migration: Bring existing screen layouts and button-grid configurations into the modern designer rather than recreate them from scratch. Reusable configuration: Reuse layout templates with store-specific overrides to reduce the need to maintain duplicate layouts. Modern usability: Work with contextual properties, familiar Fluent UI controls, and inline validation. Administrators enable or disable the modern designer through feature management in headquarters. Authorized users open Retail and Commerce > Channel setup > POS setup > POS > Screen layouts , select a layout, and open the designer. They configure the layout and button grids, inspect the preview, and save changes to headquarters. Administrators distribute the saved configuration to stores through the existing Commerce data distribution process. Previewing changes does not replace the distribution needed to update Store Commerce. Setup is performed by a Commerce administrator, who enables the feature, grants appropriate headquarters permissions, and manages layout assignments and distribution. No separate ClickOnce designer installation or Copilot license is required for manual design. GA date: June CY2027 Preview date: January CY2027",
+    "product": "Dynamics 365 Commerce",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Commerce: モダンなブラウザーデザイナーでのPOS画面レイアウト設計",
+    "summary_ja": "Dynamics 365 Commerceの本部において、モダンなWebベースのデザイナーを使用してPOS画面レイアウトの作成とプレビューが可能になります。Reactベースの新しい体験とJSONベースのレイアウト基盤により、設定が簡素化され、デザインの反復作業が軽減されます。本機能には、ドラッグアンドドロップによる視覚的なオーサリング、ライブプレビュー、既存レイアウトの移行、再利用可能な設定、モダンな操作性が含まれます。",
+    "changes": [
+      "ReactベースのWeb体験とJSONベースのレイアウト基盤による、ビジュアルレイアウトおよびボタン・グリッドのオーサリング",
+      "店舗への配布を行わずにデザイン時のレイアウトや操作性を確認できるライブプレビュー機能",
+      "既存の画面レイアウトおよびボタン・グリッド設定を移行する機能",
+      "店舗固有の上書き設定によるレイアウトテンプレートの再利用",
+      "Fluent UIコントロールやインライン検証を活用したモダンな操作性"
+    ],
+    "target_user": [
+      "Administrators",
+      "Authorized users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-04T01:52:51Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-04T01:52:49Z"
+  },
+  {
+    "id": "m365-roadmap-211b73778649bfcb7d23",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577746",
+    "published_at": "2026-11-04T00:02:09Z",
+    "title_original": "[Roadmap] Dynamics 365 Customer Insights - Journeys: Marketing tools, skills and plugin are now available in Copilot Cowork",
+    "excerpt_original": "The Customer Insights plugin brings Dynamics 365 Customer Insights context, actions, and guided workflows to Copilot Cowork. Marketers and other customer-facing teams can understand customer profiles, author brand-compliant content, and prepare consent-aware outreach using existing segments directly in the flow of work, reducing the need to switch to Dynamics 365 Customer Insights. The native Customer Insights skills (Customer Brief & Value Metrics, Email Content Advisor, and Customer Outreach) invoke tools published through the Dynamics 365 MCP server to retrieve unified customer profile and journey context and to perform supported actions in Customer Insights – Journeys. These tools respect Dynamics 365 business logic and the user's existing permissions on each call. The skills are included in the Customer Insights plugin, providing administrators with a governed way to deploy and manage the capabilities. More info: https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/use-customer-insights-copilot-cowork-skills GA date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys：マーケティングツール、スキル、およびプラグインが Copilot Cowork で利用可能に",
+    "summary_ja": "Dynamics 365 Customer Insights プラグインが Copilot Cowork に導入され、顧客プロファイルの理解やブランドに準拠したコンテンツ作成、同意を考慮したアウトリーチが可能になります。ネイティブの Customer Insights スキルを活用することで、Dynamics 365 のビジネスロジックや権限を維持したまま、作業フロー内で直接データやアクションにアクセスできます。",
+    "changes": [
+      "Copilot Cowork で Dynamics 365 Customer Insights のコンテキスト、アクション、ガイド付きワークフローが利用可能になる",
+      "Customer Brief & Value Metrics、Email Content Advisor、Customer Outreach の各スキルが提供される",
+      "Dynamics 365 MCP サーバー経由で公開されたツールを呼び出し、統一された顧客プロファイルとジャーニーのコンテキストを取得する",
+      "管理者向けの管理機能が含まれ、ビジネスロジックやユーザー権限が各呼び出しで適用される"
+    ],
+    "target_user": [
+      "Marketers",
+      "Customer-facing teams",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-04T01:52:52Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-04T01:52:51Z"
+  },
+  {
+    "id": "github-copilot-cli-433334320",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-7",
+    "published_at": "2026-11-03T23:34:55Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-7",
+    "excerpt_original": "**Added** - Rex terminals render inline images using Kitty direct placements. - Add /code command to open the current session in VS Code - Add a Fusion tier setting to `copilot config`. **Improved** - Update the built-in browser-use plugin to 0.1.0 with improved setup and browser integration behavior - Improve Claude token estimation so context budgeting and trimming decisions are more accurate. **Fixed** - Box-drawing and block characters in prompts display as entered in the composer and timeline. - Preserve the draft caret position after command mode so editing continues at the original cursor location - Sandboxed Hugo commands can use Hugo and Go caches when developer-tool access is enabled - Managed sandbox policy errors now tell you to contact your administrator and include the failed sandbox test command when it cannot start. - Sandboxed commands on macOS can read files inside the default Xcode.app bundle. - ACP mode now honors --agent so the selected agent persona, prompt, and tools are applied at startup. - Unchanged cached MCP tools remain callable when another tool refreshes while permission is pending - The Sessions tab and the home tab bar now respond to keys after Ctrl+X / runs /session over a draft with an open slash-command or @ menu, and one Escape closes /ide without clearing that draft. - File diffs in permission prompts and /diff show control characters from the file as visible symbols instead of letting escape sequences restyle or hide lines. - The footer draws a git branch name that holds control characters as plain text, so the branch can no longer recolour the footer or set the terminal window title. - On narrow terminals the footer no longer leaves a stray separator where a hint did not fit or cuts the permission mode mid-name. - A hook's permission message and the reason a hook queues as the next message no longer pass escape sequences to the terminal, so they cannot hide text or start a link in the hook prompt or the queued-message list. - MCP, LSP and plugin.json config files saved with a UTF-8 byte-order mark, as Windows PowerShell 5 and older Notepad versions write them, are now loaded instead of being rejected or ignored. - Command approval prompts and completion notices no longer pass escape sequences from a model-written description to the terminal, so that text cannot be hidden, recolored or made a link. - `copilot plugin list` and `copilot plugin update` no longer pass control characters from a plugin's name, marketplace or version through to the terminal. - When a `/settings` JSON value saved from your editor is not valid JSON, the error now shows any control characters it quotes from the file instead of letting them restyle the dialog. - Changing a setting through `/experimental`, the status line picker, the subagent or extension pickers and similar commands no longer replaces a `settings.json` the CLI cannot read with just that one setting. The change is refused with an error and the file is left untouched. - Searching a `/share html` export or an exported research report now highlights the text you searched for, instead of a shifted span or a broken emoji, when the conversation contains a capital dotted I (İ). - Command output in the timeline no longer passes DEL and 8-bit C1 control characters to the terminal, so a file or command output can no longer change the window title or break the output rows; each one is shown as a space. - Stopping an unknown shell ID fails without stopping a command and directs you to list active shell sessions. - A failed tool call's error text, such as an MCP server's, no longer passes escape sequences to the terminal, so it cannot hide text or start a link in the failure row. - The move of an older `$XDG_CONFIG_HOME/.copilot` directory into `~/.copilot` now also brings over your MCP servers, language servers, saved folder permissions, personal instructions, custom agents and skills, and no longer replaces a symlink in `~/.copilot` whose target is missing. - Copying text on Linux no longer prints \"Somebody else owns the clipboard now\" over the UI when another app takes the clipboard - Pressing Backspace to cancel command mode now preserves your draft text. - Queue manager stays open when pending updates refresh concurrently - Background Autopilot sessions auto-answer ask_user prompts without requiring you to foreground the session - Warn when older messages are dropped for context limits and include compaction/truncation events in JSON output. - /diff uses the active worktree after changing the session working directory - Custom subagents with private MCP connections no longer start inherited servers excluded by their resolved tool list. - Prompt for path access when long-option values like --name=/path reference files outside allowed directories - Keep the Selected marker readable in /settings when screen reader mode is enabled - Prevent /settings external editor save from overwriting concurrent settings changes - Local models added from the /model picker now stay under their provider's section when grouped by vendor, instead of moving to Other models - Unknown root options after a subcommand now suggest moving the option before the subcommand - New files created with create and apply_patch now follow repository-declared line endings. - Clicking tool calls in /tasks sub-agent details now expands and collapses their output - SDK `extensions.discover()` now lists extensions from enabled plugins installed from a local directory marketplace, which sessions already load, and `extensions.enable` accepts them under plugin-only extension policy. - LSP servers whose fileExtensions keys omit the leading dot (for example \"java\" instead of \".java\") now handle file-based requests instead of reporting that no language server is available. - Fix grouped grep results so files with names like 2024-01-15 stay correctly attributed in assistant responses - Footer text selection highlighting stays aligned while transcript lines change - Shell safety warnings no longer appear twice in the timeline during command approvals. - Nested subagents inherit and can use MCP tools allowed by the session policy. - --yolo and --allow-all now take effect when resuming a local session with --resume or --continue",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.106-7 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-7がリリースされました。Kittyの直接配置を使用したインライン画像レンダリング、VS Codeでのセッションオープンを可能にする/codeコマンド、およびcopilot configでのFusionティア設定が追加されました。また、ブラウザプラグインの更新やClaudeトークン推定の精度向上、多数の不具合修正とセキュリティ向上のためのエスケープシーケンス処理の改善が含まれています。",
+    "changes": [
+      "Rex端末でKittyの直接配置を使用したインライン画像のレンダリングを追加",
+      "現在のセッションをVS Codeで開く/codeコマンドを追加",
+      "copilot configにFusionティアの設定を追加",
+      "組み込みのbrowser-useプラグインを0.1.0に更新",
+      "Claudeのトークン推定を改善し、コンテキストの予算配分とトリミングの精度を向上"
+    ],
+    "target_user": [
+      "Developers",
+      "CLI Users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-04T01:52:53Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-04T01:52:52Z"
+  },
+  {
     "id": "github-changelog-2b4786f99076579d8179",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
@@ -10038,146 +10181,61 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-changelog-3120cb53fbc5954ecff0",
-    "source": "GitHub Changelog",
-    "source_url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-    "published_at": "2026-11-04T00:32:19Z",
-    "title_original": "BYOK and enterprise custom models in the Copilot usage API",
-    "excerpt_original": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog .",
-    "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "Copilot usage APIにおけるBYOKおよびエンタープライズカスタムモデルのサポート",
-    "summary_ja": "GitHub Copilotのusage metrics APIが、BYOK（Bring Your Own Key）の利用状況を表示するようになりました。これにより、Copilotホステッドモデルの利用分と分離して確認できるようになります。レポートは2種類の利用状況を網羅しています。",
-    "changes": [
-      "Copilot usage metrics APIでBYOKの利用状況の表示に対応",
-      "BYOK利用分とCopilotホステッドモデルの利用分の分離が可能に"
-    ],
-    "target_user": [
-      "Enterprise administrators",
-      "Developers"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-11-04T01:52:48Z",
-    "source_id": "github-changelog",
-    "family": "github",
-    "translation_attempted_at": "2026-11-04T01:52:47Z"
-  },
-  {
-    "id": "github-copilot-cli-433334320",
+    "id": "github-copilot-cli-433469540",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-7",
-    "published_at": "2026-11-03T23:34:55Z",
-    "title_original": "GitHub Copilot CLI v1.0.106-7",
-    "excerpt_original": "**Added** - Rex terminals render inline images using Kitty direct placements. - Add /code command to open the current session in VS Code - Add a Fusion tier setting to `copilot config`. **Improved** - Update the built-in browser-use plugin to 0.1.0 with improved setup and browser integration behavior - Improve Claude token estimation so context budgeting and trimming decisions are more accurate. **Fixed** - Box-drawing and block characters in prompts display as entered in the composer and timeline. - Preserve the draft caret position after command mode so editing continues at the original cursor location - Sandboxed Hugo commands can use Hugo and Go caches when developer-tool access is enabled - Managed sandbox policy errors now tell you to contact your administrator and include the failed sandbox test command when it cannot start. - Sandboxed commands on macOS can read files inside the default Xcode.app bundle. - ACP mode now honors --agent so the selected agent persona, prompt, and tools are applied at startup. - Unchanged cached MCP tools remain callable when another tool refreshes while permission is pending - The Sessions tab and the home tab bar now respond to keys after Ctrl+X / runs /session over a draft with an open slash-command or @ menu, and one Escape closes /ide without clearing that draft. - File diffs in permission prompts and /diff show control characters from the file as visible symbols instead of letting escape sequences restyle or hide lines. - The footer draws a git branch name that holds control characters as plain text, so the branch can no longer recolour the footer or set the terminal window title. - On narrow terminals the footer no longer leaves a stray separator where a hint did not fit or cuts the permission mode mid-name. - A hook's permission message and the reason a hook queues as the next message no longer pass escape sequences to the terminal, so they cannot hide text or start a link in the hook prompt or the queued-message list. - MCP, LSP and plugin.json config files saved with a UTF-8 byte-order mark, as Windows PowerShell 5 and older Notepad versions write them, are now loaded instead of being rejected or ignored. - Command approval prompts and completion notices no longer pass escape sequences from a model-written description to the terminal, so that text cannot be hidden, recolored or made a link. - `copilot plugin list` and `copilot plugin update` no longer pass control characters from a plugin's name, marketplace or version through to the terminal. - When a `/settings` JSON value saved from your editor is not valid JSON, the error now shows any control characters it quotes from the file instead of letting them restyle the dialog. - Changing a setting through `/experimental`, the status line picker, the subagent or extension pickers and similar commands no longer replaces a `settings.json` the CLI cannot read with just that one setting. The change is refused with an error and the file is left untouched. - Searching a `/share html` export or an exported research report now highlights the text you searched for, instead of a shifted span or a broken emoji, when the conversation contains a capital dotted I (İ). - Command output in the timeline no longer passes DEL and 8-bit C1 control characters to the terminal, so a file or command output can no longer change the window title or break the output rows; each one is shown as a space. - Stopping an unknown shell ID fails without stopping a command and directs you to list active shell sessions. - A failed tool call's error text, such as an MCP server's, no longer passes escape sequences to the terminal, so it cannot hide text or start a link in the failure row. - The move of an older `$XDG_CONFIG_HOME/.copilot` directory into `~/.copilot` now also brings over your MCP servers, language servers, saved folder permissions, personal instructions, custom agents and skills, and no longer replaces a symlink in `~/.copilot` whose target is missing. - Copying text on Linux no longer prints \"Somebody else owns the clipboard now\" over the UI when another app takes the clipboard - Pressing Backspace to cancel command mode now preserves your draft text. - Queue manager stays open when pending updates refresh concurrently - Background Autopilot sessions auto-answer ask_user prompts without requiring you to foreground the session - Warn when older messages are dropped for context limits and include compaction/truncation events in JSON output. - /diff uses the active worktree after changing the session working directory - Custom subagents with private MCP connections no longer start inherited servers excluded by their resolved tool list. - Prompt for path access when long-option values like --name=/path reference files outside allowed directories - Keep the Selected marker readable in /settings when screen reader mode is enabled - Prevent /settings external editor save from overwriting concurrent settings changes - Local models added from the /model picker now stay under their provider's section when grouped by vendor, instead of moving to Other models - Unknown root options after a subcommand now suggest moving the option before the subcommand - New files created with create and apply_patch now follow repository-declared line endings. - Clicking tool calls in /tasks sub-agent details now expands and collapses their output - SDK `extensions.discover()` now lists extensions from enabled plugins installed from a local directory marketplace, which sessions already load, and `extensions.enable` accepts them under plugin-only extension policy. - LSP servers whose fileExtensions keys omit the leading dot (for example \"java\" instead of \".java\") now handle file-based requests instead of reporting that no language server is available. - Fix grouped grep results so files with names like 2024-01-15 stay correctly attributed in assistant responses - Footer text selection highlighting stays aligned while transcript lines change - Shell safety warnings no longer appear twice in the timeline during command approvals. - Nested subagents inherit and can use MCP tools allowed by the session policy. - --yolo and --allow-all now take effect when resuming a local session with --resume or --continue",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-8",
+    "published_at": "2026-11-04T03:14:29Z",
+    "title_original": "GitHub Copilot CLI v1.0.106-8",
+    "excerpt_original": "**Improved** - Windows local model downloads install llama.cpp automatically and show engine installation progress. - /memory show indicates when repository memory scope is unavailable **Fixed** - Warn on stderr when the agent selected with `-p --agent` has frontmatter keys Copilot ignores, and log every agent file's warnings - Auto mode falls back to a valid default when a saved Efficiency preference is unavailable. - `/fork` no longer fails with \"Failed to copy fork session database\" when the session's session.db cannot be read; the fork is created without the todo list, and a fork that does fail no longer leaves a half-created session directory behind. - Hook config files saved with a UTF-8 byte-order mark, as Windows PowerShell 5 and older Notepad versions write them, are now loaded instead of being skipped with only a log entry. - /share html exports now keep a numbered list's first number and the checkbox and state of task-list items, and both these exports and rich-text copies keep the text inside a raw HTML block such as <details> instead of dropping it. - /ide draws IDE and folder names as plain text, one row each, and keeps its title, highlighted row and key hints on screen with a long workspace list or on a short terminal. - A warning about an invalid entry in an LSP config file now names the server it belongs to, so a file with several servers can be fixed without bisecting it. - A tool call to an HTTP MCP server that fails with a server error or a dropped connection no longer shows an internal Rust type name in front of the reason. - An image or file path pasted into a message that starts with an absolute path, such as /var/log/app.log, is now attached instead of being sent as plain text. - `copilot plugin uninstall` now removes a plugin that `copilot plugin list` still shows after its installed files went missing, instead of reporting that it is not installed - Question forms show control characters in a prefilled default answer instead of sending its escape sequences to the terminal. - Pasting two images or documents that share a file name from different folders now attaches both instead of silently sending only the second. - The /tasks dialog draws each task on one row, so a line break in a task description no longer adds a row that looks like another task, and escape sequences no longer restyle it. - A ~/ entry in the skillDirectories setting now loads skills from your home directory instead of a folder named ~ in the current directory. - Model loading now fails faster on unreachable network endpoints and shows connectivity guidance. - ACP sessions now appear in session history, /chronicle, and session_store_sql results. - PowerShell approval prompts now explain when full-script review is required for valid commands. - Session persistence failures now show one error and one recovery notice instead of repeating on every retry. - `copilot plugin install` now reports a plugin manifest field it ignored, instead of installing a plugin with no skills in silence. - CLI falls back to direct networking when PAC/WPAD or system proxy resolution fails. - Fix Windows mouse selection copy so pasted text matches the selected content.",
     "product": "GitHub Copilot CLI",
     "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.106-7 リリースノート",
-    "summary_ja": "GitHub Copilot CLI v1.0.106-7がリリースされました。Kittyの直接配置を使用したインライン画像レンダリング、VS Codeでのセッションオープンを可能にする/codeコマンド、およびcopilot configでのFusionティア設定が追加されました。また、ブラウザプラグインの更新やClaudeトークン推定の精度向上、多数の不具合修正とセキュリティ向上のためのエスケープシーケンス処理の改善が含まれています。",
+    "title_ja": "GitHub Copilot CLI v1.0.106-8 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.106-8では、Windowsでのローカルモデルダウンロードにおけるllama.cppの自動インストールと進捗表示の改善が行われました。また、メモリスコープの表示や、複数にわたるバグ修正と動作の安定化が含まれています。",
     "changes": [
-      "Rex端末でKittyの直接配置を使用したインライン画像のレンダリングを追加",
-      "現在のセッションをVS Codeで開く/codeコマンドを追加",
-      "copilot configにFusionティアの設定を追加",
-      "組み込みのbrowser-useプラグインを0.1.0に更新",
-      "Claudeのトークン推定を改善し、コンテキストの予算配分とトリミングの精度を向上"
+      "Windowsでのローカルモデルダウンロード時にllama.cppが自動インストールされ、進行状況が表示されるようになった",
+      "無効なセッション設定、データベースコピーの失敗、UTF-8 BOM付きフック設定ファイルなどの多数のバグが修正された",
+      "/shareによるHTMLエクスポートやリッチテキストコピーでリストの保持やHTMLブロックの処理が改善された",
+      "ネットワーク接続エラー時のモデル読み込みの迅速化とプロキシ解決失敗時のフォールバック機能が追加された"
     ],
     "target_user": [
-      "Developers",
-      "CLI Users"
+      "開発者",
+      "利用者"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-11-04T01:52:53Z",
+    "processed_at": "2026-11-04T11:50:45Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-11-04T01:52:52Z"
+    "translation_attempted_at": "2026-11-04T11:50:43Z"
   },
   {
-    "id": "m365-roadmap-2e3c788e384ed95b141d",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=578859",
-    "published_at": "2026-11-04T00:02:09Z",
-    "title_original": "[Roadmap] Microsoft Teams: Copilot in the Queues app on Mobile",
-    "excerpt_original": "Agents and supervisors can use Copilot in the Queues app on Mobile to quickly understand and follow up on customer conversations. From shared call history, users can ask questions about a past call and use Copilot to surface relevant information and insights from the conversation, helping them get up to speed and take the next step without having to review the entire call GA date: December CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Microsoft Teams: モバイル版QueuesアプリにおけるCopilot",
-    "summary_ja": "モバイル版Queuesアプリにおいて、エージェントやスーパーバイザーがCopilotを利用して顧客との会話を迅速に把握し、フォローアップできるようになります。共有された通話履歴から過去の通話に関する質問を行い、Copilotを通じて関連する情報やインサイトを引き出すことが可能です。これにより、通話全体の確認を行うことなく、迅速に状況を把握して次のステップへ移行できるようになります。",
+    "id": "vscode-29b3350fcf5dde8edfd0",
+    "source": "VS Code Release Notes",
+    "source_url": "https://code.visualstudio.com/updates/v1_145",
+    "published_at": "2026-11-04T11:50:40Z",
+    "date_basis": "first_seen",
+    "title_original": "Visual Studio Code 1.145 — Copilot / Chat / Agents",
+    "excerpt_original": "Remote agents\nBrowse over remote agent host connections (Preview)\nSetting : workbench.browser.enableRemoteProxy Open in VS Code Open in VS Code Insiders\nWhen an agent session runs on a remote agent host , the integrated browser in the Agents window now loads pages through that host, as it already does in remote workspaces . When the agent starts a dev server on the remote machine, you can open it right in the Agents window to preview the app, validate the agent's changes, and give it feedback, as you would in a local session.\n\nEnable workbench.browser.enableRemoteProxy Open in VS Code Open in VS Code Insiders to try it out, and file any issues you encounter in the VS Code repository .\nRemote canvases (Preview)\nSettings : workbench.browser.enableRemoteProxy Open in VS Code Open in VS Code Insiders , chat.canvases.enabled Open in VS Code Open in VS Code Insiders\nThanks to the remote agent host connections support, you can now also use canvases that are hosted on a remote agent host.\nEnable chat.canvases.enabled Open in VS Code Open in VS Code Insiders and workbench.browser.enableRemoteProxy Open in VS Code Open in VS Code Insiders to try it out, and file any issues you encounter in the VS Code repository .\n\nAgents\nMix and match agent harnesses in one session (Preview)\nSetting : chat.agentHost.multipleChatProviders.enabled Open in VS Code Open in VS Code Insiders\nNested sessions let you keep related conversations together within a single main chat session. Previously, every nested session inherited its parent session's harness. If you wanted a second opinion from another agent, you had to start a separate session and lose that grouping.\nIn this release, nested sessions can use different harnesses than their parent session. For example, ask Claude to review the plan that a Copilot chat wrote, or give Codex the same task, side by side in the same session. When you create a new nested session, use the harness picker to switch to a different harness.\nEach chat has its own model, agent, and permission levels, based on its harness. Changing them in one chat doesn't affect the others. When you move a chat, it keeps its history and continues with its selected harness. When you fork a nested session, it continues with the same configuration.\nA chat that uses a different harness than its session names its harness when you hover over its chat tab or its row in the sessions list.\n\nEnable chat.agentHost.multipleChatProviders.enabled Open in VS Code Open in VS Code Insiders to get started. Let us know what you think by filing an issue .\nCron schedules and custom agents for local automations\nInstead of manually running agent tasks one by one, you can use automations to schedule and run them automatically, either on demand or on a set schedule.\nThis release gives you more flexibility for local automations and keeps the Automations view focused on active work:\nUse cron schedules: Select Cron to enter a five-field cron expression when the other schedule presets aren't precise enough. The dialog validates the expression and describes the resulting schedule. Cron schedules are not available for cloud automations. Use workspace custom agents: Choose a custom agent from the selected workspace when you create or edit a local automation. Focus on active automations: Disabled automations appear in a collapsed Disabled automations section, so they don't obscure run history and active automations.\n\nLearn more about creating and managing agent automations .\nPin canvases to sidebar (Experimental)\nSetting : chat.canvases.enabled Open in VS Code Open in VS Code Insiders\nTo make it easier to access frequently used canvases, you can now pin a canvas to appear in the left sidebar. To pin a canvas, open it and select the Add to Sidebar button above the canvas. Pinned canvases remain accessible in the sidebar even when you navigate away from them.\n\nCopilot harness\nThe Copilot harness continues to be the default for new sessions in VS Code. It's our latest harness, built on the Copilot SDK, a shared foundation that helps align behavior, capabilities, and improvements across Copilot products.\nWhen you start a new session, Copilot in the harness picker indicates that the session uses the Copilot harness. In VS Code, you can keep Copilot harness sessions running in the background and access them from both the VS Code editor window and the Agents window. These sessions run through the Agent Host .\nTo help you adopt the Copilot harness with your existing workflows, we've added a Local-to-Copilot harness transition guide . It covers customization compatibility, session continuity, and organization rollout and verification.\nThank you for the feedback that continues to shape these improvements. Please continue filing issues about your experience, especially if a workflow or integration prevents your organization from moving off the Local harness.\nLearn how to work with the Copilot harness , or explore the architecture and workflows in the agent host blog post .\nWorking set improvements (Experimental)\nSetting : chat.editor.workingSet.enabled Open in VS Code Open in VS Code Insiders\nLast release, we introduced the working set for Copilot harness sessions, letting you review pending agent edits. You can keep or undo changes, as you could do with the Local harness.\n\nWe are further improving the working set experience in Copilot harness sessions:\nFiles in WSL, Dev Containers, and SSH workspaces open from the working set on the correct host. When several tool calls edit the same file in parallel, the working set tracks those edits and the editor's inline review controls remain available after editing finishes.\nThe working set functionality remains enabled by default in the editor window. Learn more about reviewing agent edits with the working set , including which edits it tracks.\nImproved guidance when required sandboxing is unavailable\nAgent sandboxing limits what terminal commands can access, like the file system and network resources. Your organization can require it with managed settings that disallow bypassing the sandbox.\nIf your organization requires sandboxing but your machine can't run it, the warning banner explains why terminal commands are blocked and how to resolve the problem. It shows the specific cause, such as a missing dependency, and links to troubleshooting steps.\nIf your account and organization support cloud sessions (Experimental) , consider running agent tools in the cloud instead of on your machine.\n\nChat\nChoose agent verbosity (Experimental)\nSetting : chat.persistentProgressVerbosity Open in VS Code Open in VS Code Insiders\nKeep long chats readable, or follow the agent's reasoning and tool calls in detail when you need to understand its actions. Open the Chat view's More Actions menu and select View Mode :\nConversation : Focus on the conversation. Reasoning and tool calls are grouped into collapsed sections between blocks of response text. Expand a section to inspect its details. Verbose : Follow each step with tool calls expanded, without an internal scrolling limit on tool groups. Compact (default): Preview tool calls while they run, then collapse completed groups to expandable summary rows.\nYou can switch modes without starting a new chat. The modes change how the conversation is displayed, not its context or the work the agent performs.\n\nWith persistent progress enabled, the active progress indicator stays above the chat input while you scroll back through a response. If you prefer an animated input border instead, enable chat.progressBorder.enabled Open in VS Code Open in VS Code Insiders .\nChat performance improvements\nReopen and browse long Copilot harness chats more smoothly. VS Code reuses existing reasoning titles and renders terminal output as you reveal it. Terminal output in restored tool calls is rendered when you expand or reveal it, rather than all at once.\nThis release also reduces repeated progress updates and layout measurements when restoring and navigating long conversations.\nInline chat attachments (Experimental)\nSetting : chat.inlineAttachments.enabled Open in VS Code Open in VS Code Insiders\nKeep file references and other context next to the instructions they belong to. Enable this setting to insert attachment pills at the cursor in your prompt, rather than in a separate row above the input.\nMove across, select, or delete an attachment pill as a single character. Previous messages keep the pills inline, so references stay with the surrounding instructions.\nInline attachments are on by default in Insiders and off by default in Stable.\n\nAttach files from anywhere on your computer\nPreviously, to give chat a file outside your workspace, such as a screenshot or mockup on your desktop, you had to drag it in from your file manager or ask the agent to find it. Select Add Context ( + ) > Files to choose one or more files with the standard file dialog, even in a new chat without a workspace. In cloud sessions, the chooser lists only images.\n\nWhen sandboxing is enabled in Copilot harness sessions, the agent can read the files and folders you attach, even when they're outside the workspace. Each attached path is readable for the rest of the session, but the agent can't write to it, and the access isn't saved to your settings. With Manual permissions, the agent no longer asks before reading an attached file. If your organization's managed settings define their own list of readable paths, attachments aren't added to it.\n",
+    "product": "GitHub Copilot in VS Code",
+    "status": "Release",
+    "title_ja": "Visual Studio Code 1.145 — Copilot / Chat / Agents",
+    "summary_ja": "Visual Studio Code 1.145では、リモートエージェントホスト接続や複数のエージェントハーネスの混在利用機能が追加されました。また、ローカル自動化におけるCronスケジュールやカスタムエージェントのサポート、チャットの表示モード変更など、エージェント機能とチャット体験に関する多数の改善が含まれています。",
     "changes": [
-      "モバイル版QueuesアプリでのCopilotの提供開始",
-      "共有通話履歴からの質問による関連情報やインサイトの抽出",
-      "通話を最初から確認せずに状況把握と次の対応を実施可能にする機能の追加"
+      "リモートエージェントホスト接続とリモートキャンバスのサポート（Preview）",
+      "1つのチャットセッション内で異なるエージェントハーネスを混在させる機能の追加（Preview）",
+      "ローカル自動化におけるCronスケジュールとワークスペースカスタムエージェントのサポート",
+      "チャットの動詞性（Verbosity）を選択する機能の追加（Experimental）",
+      "ワークスペース外のファイルを選択して添付できる機能の追加"
     ],
     "target_user": [
-      "Agents",
-      "Supervisors"
+      "Developer",
+      "VS Code User"
     ],
-    "importance": "medium",
+    "importance": "high",
     "translated": true,
-    "processed_at": "2026-11-04T01:52:49Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-11-04T01:52:48Z"
-  },
-  {
-    "id": "m365-roadmap-472be8b64dc5d115afba",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577893",
-    "published_at": "2026-11-04T00:02:09Z",
-    "title_original": "[Roadmap] Dynamics 365 Commerce: Design POS screen layouts in a modern browser designer",
-    "excerpt_original": "Create and preview POS screen layouts in headquarters with a modern web designer that simplifies configuration and reduces design iterations. The Screen layout designer is modernized as a React-based web experience embedded in Commerce headquarters, with a JSON-based layout backbone replacing the legacy XML representation. The feature applies to Store Commerce point of sale (POS). The modernization includes these core capabilities: Visual layout and button-grid authoring: Arrange and resize supported POS components on a drag-and-drop canvas, configure properties, and edit associated button grids and POS operation mappings in a unified experience. Live preview: Inspect layouts and their associated button-grid operations while designing, and preview supported device sizes and orientations without distributing every design iteration to stores. Existing layout migration: Bring existing screen layouts and button-grid configurations into the modern designer rather than recreate them from scratch. Reusable configuration: Reuse layout templates with store-specific overrides to reduce the need to maintain duplicate layouts. Modern usability: Work with contextual properties, familiar Fluent UI controls, and inline validation. Administrators enable or disable the modern designer through feature management in headquarters. Authorized users open Retail and Commerce > Channel setup > POS setup > POS > Screen layouts , select a layout, and open the designer. They configure the layout and button grids, inspect the preview, and save changes to headquarters. Administrators distribute the saved configuration to stores through the existing Commerce data distribution process. Previewing changes does not replace the distribution needed to update Store Commerce. Setup is performed by a Commerce administrator, who enables the feature, grants appropriate headquarters permissions, and manages layout assignments and distribution. No separate ClickOnce designer installation or Copilot license is required for manual design. GA date: June CY2027 Preview date: January CY2027",
-    "product": "Dynamics 365 Commerce",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Commerce: モダンなブラウザーデザイナーでのPOS画面レイアウト設計",
-    "summary_ja": "Dynamics 365 Commerceの本部において、モダンなWebベースのデザイナーを使用してPOS画面レイアウトの作成とプレビューが可能になります。Reactベースの新しい体験とJSONベースのレイアウト基盤により、設定が簡素化され、デザインの反復作業が軽減されます。本機能には、ドラッグアンドドロップによる視覚的なオーサリング、ライブプレビュー、既存レイアウトの移行、再利用可能な設定、モダンな操作性が含まれます。",
-    "changes": [
-      "ReactベースのWeb体験とJSONベースのレイアウト基盤による、ビジュアルレイアウトおよびボタン・グリッドのオーサリング",
-      "店舗への配布を行わずにデザイン時のレイアウトや操作性を確認できるライブプレビュー機能",
-      "既存の画面レイアウトおよびボタン・グリッド設定を移行する機能",
-      "店舗固有の上書き設定によるレイアウトテンプレートの再利用",
-      "Fluent UIコントロールやインライン検証を活用したモダンな操作性"
-    ],
-    "target_user": [
-      "Administrators",
-      "Authorized users"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-11-04T01:52:51Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-11-04T01:52:49Z"
-  },
-  {
-    "id": "m365-roadmap-211b73778649bfcb7d23",
-    "source": "Microsoft 365 Roadmap",
-    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577746",
-    "published_at": "2026-11-04T00:02:09Z",
-    "title_original": "[Roadmap] Dynamics 365 Customer Insights - Journeys: Marketing tools, skills and plugin are now available in Copilot Cowork",
-    "excerpt_original": "The Customer Insights plugin brings Dynamics 365 Customer Insights context, actions, and guided workflows to Copilot Cowork. Marketers and other customer-facing teams can understand customer profiles, author brand-compliant content, and prepare consent-aware outreach using existing segments directly in the flow of work, reducing the need to switch to Dynamics 365 Customer Insights. The native Customer Insights skills (Customer Brief & Value Metrics, Email Content Advisor, and Customer Outreach) invoke tools published through the Dynamics 365 MCP server to retrieve unified customer profile and journey context and to perform supported actions in Customer Insights – Journeys. These tools respect Dynamics 365 business logic and the user's existing permissions on each call. The skills are included in the Customer Insights plugin, providing administrators with a governed way to deploy and manage the capabilities. More info: https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/use-customer-insights-copilot-cowork-skills GA date: October CY2026",
-    "product": "Microsoft 365 Copilot",
-    "status": "Roadmap",
-    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys：マーケティングツール、スキル、およびプラグインが Copilot Cowork で利用可能に",
-    "summary_ja": "Dynamics 365 Customer Insights プラグインが Copilot Cowork に導入され、顧客プロファイルの理解やブランドに準拠したコンテンツ作成、同意を考慮したアウトリーチが可能になります。ネイティブの Customer Insights スキルを活用することで、Dynamics 365 のビジネスロジックや権限を維持したまま、作業フロー内で直接データやアクションにアクセスできます。",
-    "changes": [
-      "Copilot Cowork で Dynamics 365 Customer Insights のコンテキスト、アクション、ガイド付きワークフローが利用可能になる",
-      "Customer Brief & Value Metrics、Email Content Advisor、Customer Outreach の各スキルが提供される",
-      "Dynamics 365 MCP サーバー経由で公開されたツールを呼び出し、統一された顧客プロファイルとジャーニーのコンテキストを取得する",
-      "管理者向けの管理機能が含まれ、ビジネスロジックやユーザー権限が各呼び出しで適用される"
-    ],
-    "target_user": [
-      "Marketers",
-      "Customer-facing teams",
-      "Administrators"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-11-04T01:52:52Z",
-    "content_type": "roadmap",
-    "source_id": "m365-roadmap",
-    "family": "microsoft365",
-    "translation_attempted_at": "2026-11-04T01:52:51Z"
+    "processed_at": "2026-11-04T11:50:43Z",
+    "source_id": "vscode",
+    "family": "github",
+    "translation_attempted_at": "2026-11-04T11:50:42Z"
   }
 ]

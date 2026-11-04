@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Nov 2026 01:52:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 11:50:45 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.145 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_145</link>
+      <guid isPermaLink="false">vscode-29b3350fcf5dde8edfd0</guid>
+      <pubDate>Wed, 04 Nov 2026 11:50:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.145では、リモートエージェントホスト接続や複数のエージェントハーネスの混在利用機能が追加されました。また、ローカル自動化におけるCronスケジュールやカスタムエージェントのサポート、チャットの表示モード変更など、エージェント機能とチャット体験に関する多数の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リモートエージェントホスト接続とリモートキャンバスのサポート（Preview）&lt;/li&gt;&lt;li&gt;1つのチャットセッション内で異なるエージェントハーネスを混在させる機能の追加（Preview）&lt;/li&gt;&lt;li&gt;ローカル自動化におけるCronスケジュールとワークスペースカスタムエージェントのサポート&lt;/li&gt;&lt;li&gt;チャットの動詞性（Verbosity）を選択する機能の追加（Experimental）&lt;/li&gt;&lt;li&gt;ワークスペース外のファイルを選択して添付できる機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_145"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.144 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_144</link>
@@ -69,6 +79,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.106-8 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-8</link>
+      <guid isPermaLink="false">github-copilot-cli-433469540</guid>
+      <pubDate>Wed, 04 Nov 2026 03:14:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-8では、Windowsでのローカルモデルダウンロードにおけるllama.cppの自動インストールと進捗表示の改善が行われました。また、メモリスコープの表示や、複数にわたるバグ修正と動作の安定化が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windowsでのローカルモデルダウンロード時にllama.cppが自動インストールされ、進行状況が表示されるようになった&lt;/li&gt;&lt;li&gt;無効なセッション設定、データベースコピーの失敗、UTF-8 BOM付きフック設定ファイルなどの多数のバグが修正された&lt;/li&gt;&lt;li&gt;/shareによるHTMLエクスポートやリッチテキストコピーでリストの保持やHTMLブロックの処理が改善された&lt;/li&gt;&lt;li&gt;ネットワーク接続エラー時のモデル読み込みの迅速化とプロキシ解決失敗時のフォールバック機能が追加された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-8"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>Copilot usage APIにおけるBYOKおよびエンタープライズカスタムモデルのサポート</title>
       <link>https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api</link>
       <guid isPermaLink="false">github-changelog-3120cb53fbc5954ecff0</guid>
@@ -84,26 +104,6 @@
       <guid isPermaLink="false">m365-roadmap-2e3c788e384ed95b141d</guid>
       <pubDate>Wed, 04 Nov 2026 00:02:09 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;モバイル版Queuesアプリにおいて、エージェントやスーパーバイザーがCopilotを利用して顧客との会話を迅速に把握し、フォローアップできるようになります。共有された通話履歴から過去の通話に関する質問を行い、Copilotを通じて関連する情報やインサイトを引き出すことが可能です。これにより、通話全体の確認を行うことなく、迅速に状況を把握して次のステップへ移行できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;モバイル版QueuesアプリでのCopilotの提供開始&lt;/li&gt;&lt;li&gt;共有通話履歴からの質問による関連情報やインサイトの抽出&lt;/li&gt;&lt;li&gt;通話を最初から確認せずに状況把握と次の対応を実施可能にする機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578859"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Commerce: モダンなブラウザーデザイナーでのPOS画面レイアウト設計</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577893</link>
-      <guid isPermaLink="false">m365-roadmap-472be8b64dc5d115afba</guid>
-      <pubDate>Wed, 04 Nov 2026 00:02:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Commerce&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Commerceの本部において、モダンなWebベースのデザイナーを使用してPOS画面レイアウトの作成とプレビューが可能になります。Reactベースの新しい体験とJSONベースのレイアウト基盤により、設定が簡素化され、デザインの反復作業が軽減されます。本機能には、ドラッグアンドドロップによる視覚的なオーサリング、ライブプレビュー、既存レイアウトの移行、再利用可能な設定、モダンな操作性が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ReactベースのWeb体験とJSONベースのレイアウト基盤による、ビジュアルレイアウトおよびボタン・グリッドのオーサリング&lt;/li&gt;&lt;li&gt;店舗への配布を行わずにデザイン時のレイアウトや操作性を確認できるライブプレビュー機能&lt;/li&gt;&lt;li&gt;既存の画面レイアウトおよびボタン・グリッド設定を移行する機能&lt;/li&gt;&lt;li&gt;店舗固有の上書き設定によるレイアウトテンプレートの再利用&lt;/li&gt;&lt;li&gt;Fluent UIコントロールやインライン検証を活用したモダンな操作性&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577893"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Dynamics 365 Commerce</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys：マーケティングツール、スキル、およびプラグインが Copilot Cowork で利用可能に</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577746</link>
-      <guid isPermaLink="false">m365-roadmap-211b73778649bfcb7d23</guid>
-      <pubDate>Wed, 04 Nov 2026 00:02:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Insights プラグインが Copilot Cowork に導入され、顧客プロファイルの理解やブランドに準拠したコンテンツ作成、同意を考慮したアウトリーチが可能になります。ネイティブの Customer Insights スキルを活用することで、Dynamics 365 のビジネスロジックや権限を維持したまま、作業フロー内で直接データやアクションにアクセスできます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Cowork で Dynamics 365 Customer Insights のコンテキスト、アクション、ガイド付きワークフローが利用可能になる&lt;/li&gt;&lt;li&gt;Customer Brief &amp;amp; Value Metrics、Email Content Advisor、Customer Outreach の各スキルが提供される&lt;/li&gt;&lt;li&gt;Dynamics 365 MCP サーバー経由で公開されたツールを呼び出し、統一された顧客プロファイルとジャーニーのコンテキストを取得する&lt;/li&gt;&lt;li&gt;管理者向けの管理機能が含まれ、ビジネスロジックやユーザー権限が各呼び出しで適用される&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577746"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
