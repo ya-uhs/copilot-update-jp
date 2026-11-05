@@ -1,5 +1,63 @@
 [
   {
+    "id": "m365-roadmap-7cfccc6f6e6f95b7b590",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577884",
+    "published_at": "2026-11-04T23:59:50Z",
+    "title_original": "[Roadmap] Dynamics 365 Supply Chain Management: Reimagine creation Phase In/Out rules to make it easier for users to enter in large volumes",
+    "excerpt_original": "Reimagine creation Phase In/Out rules. Allow users to pre-select Tables and Fields at Group level that will be populated on every rules. If a Table key field like Product ID is included in the rules, then auto fill related fields with values like Product Name, Product Group etc. Support for Phase In a new Product with out pointing to and old Product. Support Delete of a Dimension or Dimension combination so it no longer appear in timeseries Investigate if rules can be created via Copilot - Cowork GA date: January CY2027",
+    "product": "Dynamics 365 Supply Chain Management",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Supply Chain Management: フェーズイン・フェーズアウト規則の作成機能の刷新",
+    "summary_ja": "Dynamics 365 Supply Chain Managementにおいて、大量データの入力を効率化するためのフェーズイン・フェーズアウト規則作成機能が刷新されます。グループ単位でのテーブルおよびフィールドの事前選択、関連フィールドの自動入力、古い製品を指定しない新製品のフェーズイン、時系列から非表示にするためのディメンション削除がサポートされます。また、Copilotを使用した規則作成の可能性についても調査が予定されています。",
+    "changes": [
+      "グループレベルでテーブルとフィールドを事前選択し、すべての規則に反映する機能の追加",
+      "規則にProduct IDなどのテーブルキーフィールドが含まれる場合、Product NameやProduct Groupなどの関連フィールドを自動入力する機能の追加",
+      "古い製品を指定せずに新しい製品をフェーズインする機能のサポート",
+      "時系列に表示されないようにディメンションまたはディメンションの組み合わせを削除する機能のサポート",
+      "Copilotを使用した規則作成の調査"
+    ],
+    "target_user": [
+      "Supply Chain Management users",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-05T01:58:57Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-05T01:58:52Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-changelog-d53634b505a78ccb6c4a",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+    "published_at": "2026-11-04T19:10:40Z",
+    "title_original": "GitHub Copilot is now available in Xcode’s coding assistant",
+    "excerpt_original": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with… The post GitHub Copilot is now available in Xcode’s coding assistant appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "Public Preview",
+    "title_ja": "GitHub CopilotがXcodeのコーディングアシスタントで利用可能に",
+    "summary_ja": "GitHub CopilotがXcodeのビルトインのコーディングアシスタントで直接利用できるようになりました。この統合機能により、ネイティブなXcodeワークフロー内でCopilotを使用することが可能です。現在、本機能はパブリックプレビューとして提供されています。",
+    "changes": [
+      "XcodeのビルトインコーディングアシスタントとGitHub Copilotが統合",
+      "ネイティブなXcodeワークフロー内でのCopilotの利用に対応"
+    ],
+    "target_user": [
+      "Xcode developers",
+      "GitHub Copilot users"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-05T01:59:01Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-05T01:58:57Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-434222193",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-9",
