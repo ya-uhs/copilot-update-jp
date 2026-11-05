@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Nov 2026 01:59:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 11:51:23 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -25,6 +25,16 @@
       <pubDate>Wed, 04 Nov 2026 11:50:40 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.145では、リモートエージェントホスト接続や複数のエージェントハーネスの混在利用機能が追加されました。また、ローカル自動化におけるCronスケジュールやカスタムエージェントのサポート、チャットの表示モード変更など、エージェント機能とチャット体験に関する多数の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リモートエージェントホスト接続とリモートキャンバスのサポート（Preview）&lt;/li&gt;&lt;li&gt;1つのチャットセッション内で異なるエージェントハーネスを混在させる機能の追加（Preview）&lt;/li&gt;&lt;li&gt;ローカル自動化におけるCronスケジュールとワークスペースカスタムエージェントのサポート&lt;/li&gt;&lt;li&gt;チャットの動詞性（Verbosity）を選択する機能の追加（Experimental）&lt;/li&gt;&lt;li&gt;ワークスペース外のファイルを選択して添付できる機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_145"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート — 2026年11月4日</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#november-4-2026</link>
+      <guid isPermaLink="false">m365-release-notes-6da152fd7beb351957f9</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;今回のリリースでは、Excel の Copilot チャット応答に変更箇所への直接リンクが追加され、管理者向けにエージェント使用状況レポートと権威ある SharePoint サイトの管理機能が提供されました。また、Microsoft Edge の新しいタブページが統合検索・チャット・コンテンツを一体化し、Outlook の Copilot サイドペインにアカウント選択ドロップダウンが導入されました。これらの機能は、ユーザーの作業効率と管理の透明性を高めることを目的としています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Excel の Copilot チャット応答に、変更箇所へ直接移動できるリンクが追加されました。&lt;/li&gt;&lt;li&gt;Microsoft 365 管理センターにエージェント使用状況レポートが追加され、ライセンス別・パブリッシャー別の利用状況が確認できます。&lt;/li&gt;&lt;li&gt;Copilot &amp;gt; Search &amp;gt; Authoritative content で最大100件の SharePoint サイトを管理できる機能が導入されました。&lt;/li&gt;&lt;li&gt;Microsoft Edge の新しいタブページに検索・チャット・パーソナライズドニュースなどが統合され、作業開始が容易になりました。&lt;/li&gt;&lt;li&gt;Outlook の Copilot サイドペインにアカウント選択ドロップダウンが追加され、複数の Copilot 対応アカウント間の切り替えが容易になりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#november-4-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
       <category>Release</category>
       <category>high</category>
     </item>
