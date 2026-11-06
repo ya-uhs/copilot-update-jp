@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Nov 2026 01:59:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 01:59:07 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Viva: GCCおよびGCC HighにおけるInsightsとCopilot Analyticsの展開</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578868</link>
+      <guid isPermaLink="false">m365-roadmap-9db4b3f8441d9884bf57</guid>
+      <pubDate>Thu, 05 Nov 2026 23:59:28 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Government Community Cloud（GCC）およびGCC High（GCC-H）環境において、Viva InsightsとCopilot Analytics機能の提供が拡大されます。対象ユーザーには更新されたInsightsアプリや管理センターの機能、Copilotの使用状況・影響測定、高度な分析レポートなどが提供されます。一部の機能やフィルター条件にはクラウドごとの差異が存在します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;適格なユーザーに対して更新されたInsightsアプリの機能とInsights Admin Centerのエクスペリエンスを提供&lt;/li&gt;&lt;li&gt;Adoption and ImpactエクスペリエンスにCopilotの使用状況や影響測定、グループおよびアプリのビュー、トレンド、フィルターを追加&lt;/li&gt;&lt;li&gt;アナリスト向けに追加の高度な分析レポート、クエリ、共有、委任、レポート公開機能を提供&lt;/li&gt;&lt;li&gt;GCC環境ではEdgeおよびMicrosoft 365 Copilotアプリごとの利用状況をサポート&lt;/li&gt;&lt;li&gt;GCC High環境では影響測定においてスコープ、組織、期間のフィルターをサポート（ライセンス、職種、利用レベルのフィルターやCopilotを含む分析作成は除外）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578868"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot：会計スキル</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578864</link>
+      <guid isPermaLink="false">m365-roadmap-6685d4646f92de6166e0</guid>
+      <pubDate>Thu, 05 Nov 2026 23:59:28 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Excel と Copilot（Cowork）に新しい会計機能が追加され、残高照合や仕訳作成、財務レポートの作成を自動化します。監査トレイル機能により、Copilot が行った変更と理由をチャット履歴に記録できます。プレビューは2026年10月に開始され、2026年11月に一般提供（GA）予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;残高照合機能で取引の比較・不一致の特定と調整項目の作成を支援&lt;/li&gt;&lt;li&gt;仕訳入力（発生、再分類、配分、逆転、定期）を自動ドラフトし、入力必須項目とバランスをチェック&lt;/li&gt;&lt;li&gt;財務実績と計画の比較分析や主要要因の特定、変更理由を含むレポート作成を支援&lt;/li&gt;&lt;li&gt;Excel と Cowork で会計機能使用時に監査トレイルをオプションで記録できる機能を提供&lt;/li&gt;&lt;li&gt;プレビューは2026年10月、GAは2026年11月に予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578864"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Supply Chain Management: フェーズイン・フェーズアウト規則の作成機能の刷新</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577884</link>
@@ -984,26 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-e6e4a6866fbc3a50d032</guid>
       <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けに、進捗追跡、結果の後からの取得、キャンセル機能を備えた耐久性の高い長期間実行A2AおよびMCPタスクが有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;長期間実行されるA2AおよびMCPタスクのサポート&lt;/li&gt;&lt;li&gt;タスクの進捗追跡機能の追加&lt;/li&gt;&lt;li&gt;タスク結果の後からの取得機能の追加&lt;/li&gt;&lt;li&gt;タスクのキャンセル機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570851"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] [ロードマップ] Work IQ: 取得機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570673</link>
-      <guid isPermaLink="false">m365-roadmap-2f0c2fbbcb5f250ed74b</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントがWork IQを介して関連するMicrosoft 365のコンテンツやコンテキストを取得できるようになります。プレビュー提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQを通じた関連Microsoft 365コンテンツおよびコンテキストのエージェントによる取得有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570673"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Sales Development agentとSalesforceの統合</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574105</link>
-      <guid isPermaLink="false">m365-roadmap-c55f87aff9bac74ee82b</guid>
-      <pubDate>Mon, 12 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Sales Development AgentがSalesforceと統合され、組織が既存のSalesforce CRMと連携して利用できるようになります。この機能はMicrosoftのSalesforce Model Context Protocol (MCP)サーバーを使用して接続を実現します。GA（一般提供）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales Development AgentとSalesforce CRMの統合機能の追加&lt;/li&gt;&lt;li&gt;リードへのアクセス、見込み客レコードの管理、営業活動のログ記録、CRMワークフローとの連動に対応&lt;/li&gt;&lt;li&gt;MicrosoftのSalesforce Model Context Protocol (MCP)サーバーを使用した接続方式の採用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574105"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
