@@ -1,5 +1,30 @@
 [
   {
+    "id": "github-copilot-cli-437269629",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.108-1",
+    "published_at": "2026-11-07T02:32:48Z",
+    "title_original": "GitHub Copilot CLI v1.0.108-1",
+    "excerpt_original": "**Fixed** - PDF attachments on Grok 4.7 and Grok 4.6 fall back to file references instead of failing the turn - With the sandbox on, a running local MCP server is now restarted after `/cd`, so it follows the new directory's denied paths instead of keeping those of the directory the session left.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.108-1 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.108-1がリリースされました。Grok 4.7およびGrok 4.6におけるPDF添付ファイルのフォールバック処理の修正や、サンドボックス有効時のローカルMCPサーバーの再起動処理の改善が含まれています。",
+    "changes": [
+      "Grok 4.7およびGrok 4.6でのPDF添付ファイルが失敗する代わりにファイル参照へフォールバックするように修正",
+      "サンドボックス有効時に、/cdコマンド実行後に対象ディレクトリの拒否パスを正しく適用するためローカルMCPサーバーが再起動するように変更"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-07T10:52:42Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-07T10:52:40Z"
+  },
+  {
     "id": "github-changelog-cc9249299f5d778e839b",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
@@ -10765,30 +10790,5 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
-  },
-  {
-    "id": "github-copilot-cli-437269629",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.108-1",
-    "published_at": "2026-11-07T02:32:48Z",
-    "title_original": "GitHub Copilot CLI v1.0.108-1",
-    "excerpt_original": "**Fixed** - PDF attachments on Grok 4.7 and Grok 4.6 fall back to file references instead of failing the turn - With the sandbox on, a running local MCP server is now restarted after `/cd`, so it follows the new directory's denied paths instead of keeping those of the directory the session left.",
-    "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.108-1 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.108-1がリリースされました。Grok 4.7およびGrok 4.6におけるPDF添付ファイルのフォールバック処理の修正や、サンドボックス有効時のローカルMCPサーバーの再起動処理の改善が含まれています。",
-    "changes": [
-      "Grok 4.7およびGrok 4.6でのPDF添付ファイルが失敗する代わりにファイル参照へフォールバックするように修正",
-      "サンドボックス有効時に、/cdコマンド実行後に対象ディレクトリの拒否パスを正しく適用するためローカルMCPサーバーが再起動するように変更"
-    ],
-    "target_user": [
-      "Developer"
-    ],
-    "importance": "medium",
-    "translated": true,
-    "processed_at": "2026-11-07T10:52:42Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-11-07T10:52:40Z"
   }
 ]
