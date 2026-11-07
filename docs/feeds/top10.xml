@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Nov 2026 01:36:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 10:52:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,6 +59,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.108-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108-1</link>
+      <guid isPermaLink="false">github-copilot-cli-437269629</guid>
+      <pubDate>Sat, 07 Nov 2026 02:32:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.108-1がリリースされました。Grok 4.7およびGrok 4.6におけるPDF添付ファイルのフォールバック処理の修正や、サンドボックス有効時のローカルMCPサーバーの再起動処理の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Grok 4.7およびGrok 4.6でのPDF添付ファイルが失敗する代わりにファイル参照へフォールバックするように修正&lt;/li&gt;&lt;li&gt;サンドボックス有効時に、/cdコマンド実行後に対象ディレクトリの拒否パスを正しく適用するためローカルMCPサーバーが再起動するように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.108-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot コードレビュー：API管理とレビュー概要のアップデート</title>
       <link>https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates</link>
       <guid isPermaLink="false">github-changelog-cc9249299f5d778e839b</guid>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsにおいて、Facilitatorとチャットする際に毎回タグ付けする必要がなくなり、自然な会話が可能になります。この機能はMicrosoft 365 Copilotに関連し、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Facilitatorとのチャット時に毎回タグ付けを行う必要がなくなり、自然な対話ができるようになる。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=566523"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>Copilot impact dashboardがチャットとVS Codeエージェントの利用状況を追加</title>
-      <link>https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage</link>
-      <guid isPermaLink="false">github-changelog-a5fcc1255202f357d721</guid>
-      <pubDate>Fri, 06 Nov 2026 22:17:28 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのimpact dashboardにあるAgent adoptionチャートに、Copilot ChatとVS Code Agentsウィンドウの利用状況が追加されました。これにより、合計9つのCopilotエクスペリエンスにわたるエンゲージメントを確認できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent adoptionチャートにCopilot Chatの利用状況を追加&lt;/li&gt;&lt;li&gt;Agent adoptionチャートにVS Code Agentsウィンドウの利用状況を追加&lt;/li&gt;&lt;li&gt;計9つのCopilotエクスペリエンス全体でのエンゲージメント測定に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>
