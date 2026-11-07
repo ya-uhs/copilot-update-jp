@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Nov 2026 01:59:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 01:36:01 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ：エグゼキュート（レシピ）</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570866</link>
+      <guid isPermaLink="false">m365-roadmap-73c700e5343b33be7beb</guid>
+      <pubDate>Fri, 06 Nov 2026 23:04:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントが再利用可能なWork IQレシピを実行し、サポートされているツールやアクションを連携させることが可能になります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているツールとアクションを連携させる再利用可能なWork IQレシピの実行機能をエージェントに追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570866"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Teams: ファシリテーターのフォローアップ モード</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=566523</link>
+      <guid isPermaLink="false">m365-roadmap-89a5a0e2c078060f495b</guid>
+      <pubDate>Fri, 06 Nov 2026 23:04:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsにおいて、Facilitatorとチャットする際に毎回タグ付けする必要がなくなり、自然な会話が可能になります。この機能はMicrosoft 365 Copilotに関連し、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Facilitatorとのチャット時に毎回タグ付けを行う必要がなくなり、自然な対話ができるようになる。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=566523"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Viva: GCCおよびGCC HighにおけるInsightsとCopilot Analyticsの展開</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=578868</link>
@@ -984,26 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-65a18f3cf3c8ded2d59a</guid>
       <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのエージェントが、管理されたWork IQ統合を介してサポート対象のRESTエンドポイントをツールとして利用できるようになります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがWork IQ統合を介してRESTエンドポイントをツールとして使用可能になる&lt;/li&gt;&lt;li&gt;Preview提供開始予定: 2026年10月&lt;/li&gt;&lt;li&gt;GA（一般提供）予定: 2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570868"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ: A2AおよびMCPエライシテーション</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570852</link>
-      <guid isPermaLink="false">m365-roadmap-983c96d676cecf23e2f9</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、A2AおよびMCPタスクが不足している情報や承認を要求し、その後処理を再開できるようになります。プレビュー提供は2026年10月、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A2AおよびMCPタスクでの不足情報の要求機能の追加&lt;/li&gt;&lt;li&gt;A2AおよびMCPタスクでの承認要求と処理の再開機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570852"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ：A2AおよびMCPの長期間実行タスク</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570851</link>
-      <guid isPermaLink="false">m365-roadmap-e6e4a6866fbc3a50d032</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けに、進捗追跡、結果の後からの取得、キャンセル機能を備えた耐久性の高い長期間実行A2AおよびMCPタスクが有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;長期間実行されるA2AおよびMCPタスクのサポート&lt;/li&gt;&lt;li&gt;タスクの進捗追跡機能の追加&lt;/li&gt;&lt;li&gt;タスク結果の後からの取得機能の追加&lt;/li&gt;&lt;li&gt;タスクのキャンセル機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570851"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

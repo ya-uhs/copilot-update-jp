@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Nov 2026 01:59:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 01:36:01 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>@GitHub in Slack および Teams の一般提供開始と新機能</title>
+      <link>https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available</link>
+      <guid isPermaLink="false">github-changelog-2b1caf305a698efd8ff3</guid>
+      <pubDate>Fri, 06 Nov 2026 20:31:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;@GitHub in Slack および Teams の機能が一般提供（GA）開始となりました。ユーザーは会話画面から離れることなく、バグの調査、Issueの作成、変更の実装、プルリクエストの作成を行うことができます。これにより、チャットツール上での共同作業やコード開発が効率化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;@GitHub in Slack および Teams の一般提供（GA）を開始&lt;/li&gt;&lt;li&gt;チャットツールから直接バグの調査やIssueの作成が可能に&lt;/li&gt;&lt;li&gt;チャットツール上でのコード変更の実装とプルリクエストの作成に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot：会計スキル</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=578864</link>
@@ -49,63 +59,53 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.106 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106</link>
-      <guid isPermaLink="false">github-copilot-cli-435988160</guid>
-      <pubDate>Fri, 06 Nov 2026 01:47:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106がリリースされました。今回のアップデートでは、Kitty直接配置によるインライン画像描画のサポート、VS Codeでセッションを開くための `/code` コマンドの追加、設定やローカルリソースを横断するグローバル検索機能など、多数の新機能と不具合修正が含まれています。また、各種ヘルプドキュメントの正確性向上のほか、サンドボックス環境やMCPサーバーにおける安定性とセキュリティの改善が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;VS Codeで現在のセッションを開く `/code` コマンドを追加&lt;/li&gt;&lt;li&gt;copilot config に Fusion ティアの設定を追加&lt;/li&gt;&lt;li&gt;オプトインによるセッション管理ツールとローカルセッション向けの @mentions を追加&lt;/li&gt;&lt;li&gt;利用可能なアカウントにおいて、新規モデルとして GPT-6.1 Terra を選択可能に拡張&lt;/li&gt;&lt;li&gt;サンドボックス内での拡張機能プロセス実行を制御する Sandbox extensions 設定を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>GitHub Copilot コードレビュー：API管理とレビュー概要のアップデート</title>
+      <link>https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates</link>
+      <guid isPermaLink="false">github-changelog-cc9249299f5d778e839b</guid>
+      <pubDate>Sat, 07 Nov 2026 00:27:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのコードレビュー設定をRESTおよびGraphQL APIを通じて管理できるようになりました。企業ポリシーから個別のリポジトリレベルまで幅広い設定が可能です。また、Copilotのレビュー概要コメントがよりコンパクトに改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;RESTおよびGraphQL APIを使用したCopilotコードレビュー設定の管理に対応&lt;/li&gt;&lt;li&gt;企業ポリシーレベルから個別リポジトリレベルまでの設定管理が可能&lt;/li&gt;&lt;li&gt;Copilotのレビュー概要コメントのコンパクト化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.108-0 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108-0</link>
+      <guid isPermaLink="false">github-copilot-cli-437207112</guid>
+      <pubDate>Sat, 07 Nov 2026 00:25:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.108-0では、ディレクトリ権限設定や新しいコマンドの追加が行われました。また、CLIの挙動に関するドキュメント回答機能の改善や、トランスクリプト表示の最適化が実施されています。さらに、MCPサーバーの挙動、エラーハンドリング、および各種コマンドの修正やヘルプの正確性向上など多数の不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows向けにsettings.jsonへsandbox.userPolicy.filesystem.enumeratePathsを追加し、ディレクトリ列挙権限の設定を可能にしました。&lt;/li&gt;&lt;li&gt;Autopilotモードにおいて、 Assisted Permissions利用時にプロンプトで停止せず別の方法を試行するように改善しました。&lt;/li&gt;&lt;li&gt;SDK経由で送信された無効なファイル添付や、モデルリストの再取得失敗時のエラーハンドリングなどの不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.108-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Release</category>
+      <category>Pre-release</category>
       <category>medium</category>
     </item>
     <item>
-      <title>利用状況メトリクスAPIにコードレビューの詳細と対応率が追加</title>
-      <link>https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate</link>
-      <guid isPermaLink="false">github-changelog-525555dfe497cbaa420f</guid>
-      <pubDate>Fri, 06 Nov 2026 00:19:07 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Enterpriseおよび組織レベルのCopilot利用状況メトリクスレポートで、Copilotのコードレビューフィードバックに関する情報が表示されるようになりました。リポジトリごとの1日単位のデータ行に新しい「copilot_code_review」オブジェクトが追加され、Copilotがレビューした件数などの詳細が報告されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;リポジトリレベルのCopilot利用状況メトリクスレポートにコードレビューのフィードバック詳細を追加&lt;/li&gt;&lt;li&gt;日次データ行に新しい「copilot_code_review」オブジェクトを導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>Usage metrics APIがテレメトリとバージョンのギャップをフラグ表示</title>
-      <link>https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps</link>
-      <guid isPermaLink="false">github-changelog-0778fb85d9153ba6e8af</guid>
-      <pubDate>Fri, 06 Nov 2026 00:08:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub CopilotのUsage metrics APIが更新され、クライアントテレメトリが不足しているユーザーや、最低要件を下回るIDE・拡張機能バージョンを使用しているユーザーを特定できるようになりました。これにより、個別のユーザーに関する新しいフィールドがAPIに追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;クライアントテレメトリが欠落しているユーザーの表示機能を追加&lt;/li&gt;&lt;li&gt;usage metricsの最低要件を下回るIDEまたは拡張機能のバージョンを実行しているユーザーの表示機能を追加&lt;/li&gt;&lt;li&gt;新しいper-userフィールドを追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Viva: GCCおよびGCC HighにおけるInsightsとCopilot Analyticsの展開</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578868</link>
-      <guid isPermaLink="false">m365-roadmap-9db4b3f8441d9884bf57</guid>
-      <pubDate>Thu, 05 Nov 2026 23:59:28 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Government Community Cloud（GCC）およびGCC High（GCC-H）環境において、Viva InsightsとCopilot Analytics機能の提供が拡大されます。対象ユーザーには更新されたInsightsアプリや管理センターの機能、Copilotの使用状況・影響測定、高度な分析レポートなどが提供されます。一部の機能やフィルター条件にはクラウドごとの差異が存在します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;適格なユーザーに対して更新されたInsightsアプリの機能とInsights Admin Centerのエクスペリエンスを提供&lt;/li&gt;&lt;li&gt;Adoption and ImpactエクスペリエンスにCopilotの使用状況や影響測定、グループおよびアプリのビュー、トレンド、フィルターを追加&lt;/li&gt;&lt;li&gt;アナリスト向けに追加の高度な分析レポート、クエリ、共有、委任、レポート公開機能を提供&lt;/li&gt;&lt;li&gt;GCC環境ではEdgeおよびMicrosoft 365 Copilotアプリごとの利用状況をサポート&lt;/li&gt;&lt;li&gt;GCC High環境では影響測定においてスコープ、組織、期間のフィルターをサポート（ライセンス、職種、利用レベルのフィルターやCopilotを含む分析作成は除外）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578868"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Work IQ：エグゼキュート（レシピ）</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570866</link>
+      <guid isPermaLink="false">m365-roadmap-73c700e5343b33be7beb</guid>
+      <pubDate>Fri, 06 Nov 2026 23:04:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントが再利用可能なWork IQレシピを実行し、サポートされているツールやアクションを連携させることが可能になります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているツールとアクションを連携させる再利用可能なWork IQレシピの実行機能をエージェントに追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570866"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.106-11 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-11</link>
-      <guid isPermaLink="false">github-copilot-cli-435862800</guid>
-      <pubDate>Thu, 05 Nov 2026 23:06:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-11がリリースされ、プロンプト編集、クリップボードからの貼り付け、プランモードの動作に関する不具合が修正されました。また、タスクサービスのタイムアウト処理やサンドボックス環境でのエラー報告、モデル選択画面の表示が改善されています。さらに、Windows環境でのパスやPowerShellに関する問題、セッション切り替え時のクラッシュも修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ctrl+U、Ctrl+K、Ctrl+Wで削除された画像や履歴で置き換えられた画像がメッセージと一緒に送信されないように修正し、Ctrl+Sでプロンプトをスタッシュできるように変更。&lt;/li&gt;&lt;li&gt;NEL、Unicodeの行/段落セパレータを含む貼り付けテキストが別々のプロンプト行に入力されるようにし、DELおよびC1制御文字を削除。&lt;/li&gt;&lt;li&gt;copilot -p --planにおいて、インタラクティブインターフェースでのみ動作するShift+Tabの代わりに、計画の要点を含めるようエージェントに指示。&lt;/li&gt;&lt;li&gt;copilot --resume &amp;lt;id&amp;gt;でタスクサービスが応答しない場合に無期限で待機しないよう、10秒でタイムアウトするように変更。&lt;/li&gt;&lt;li&gt;サンドボックス化されたgrep、rg、globがサイレントな不一致結果の代わりにWindowsの起動失敗を報告するように改善。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-11"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
+      <title>[提供予定・ロードマップ] Microsoft Teams: ファシリテーターのフォローアップ モード</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=566523</link>
+      <guid isPermaLink="false">m365-roadmap-89a5a0e2c078060f495b</guid>
+      <pubDate>Fri, 06 Nov 2026 23:04:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsにおいて、Facilitatorとチャットする際に毎回タグ付けする必要がなくなり、自然な会話が可能になります。この機能はMicrosoft 365 Copilotに関連し、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Facilitatorとのチャット時に毎回タグ付けを行う必要がなくなり、自然な対話ができるようになる。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=566523"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.106-10 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.106-10</link>
-      <guid isPermaLink="false">github-copilot-cli-435689379</guid>
-      <pubDate>Thu, 05 Nov 2026 20:24:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.106-10がリリースされ、WindowsおよびmacOSでのMicrosoft EntraサインインにOneAuthがデフォルトとして採用されました。また、MCP認証のフォールバック動作の改善、サンドボックス環境やMCPサーバーの起動処理の修正、各種ヘルプメッセージやUI表示の調整など、多数の修正と改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;WindowsおよびmacOSでのMicrosoft EntraサインインのデフォルトパスとしてOneAuthを使用するように改善&lt;/li&gt;&lt;li&gt;Copilot CLIの事前認証が利用できない場合に、MCP Entra認証がVS Code登録へフォールバックするように修正&lt;/li&gt;&lt;li&gt;相対パスのcwdが設定されたサンドボックス化されたローカルMCPサーバーが正しく起動するように修正&lt;/li&gt;&lt;li&gt;自動opilot（Autopilot）がレビューや分析のみを要求されたリクエストに対して独自の実装を開始しないように修正&lt;/li&gt;&lt;li&gt;高負荷時にCopilotサービスが空の404を返したモデルリクエストについて、エラー終了せずにリトライするように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.106-10"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
+      <title>Copilot impact dashboardがチャットとVS Codeエージェントの利用状況を追加</title>
+      <link>https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage</link>
+      <guid isPermaLink="false">github-changelog-a5fcc1255202f357d721</guid>
+      <pubDate>Fri, 06 Nov 2026 22:17:28 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのimpact dashboardにあるAgent adoptionチャートに、Copilot ChatとVS Code Agentsウィンドウの利用状況が追加されました。これにより、合計9つのCopilotエクスペリエンスにわたるエンゲージメントを確認できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent adoptionチャートにCopilot Chatの利用状況を追加&lt;/li&gt;&lt;li&gt;Agent adoptionチャートにVS Code Agentsウィンドウの利用状況を追加&lt;/li&gt;&lt;li&gt;計9つのCopilotエクスペリエンス全体でのエンゲージメント測定に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>

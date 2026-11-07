@@ -10552,5 +10552,218 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-cc9249299f5d778e839b",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+    "published_at": "2026-11-07T00:27:19Z",
+    "title_original": "Copilot code review: API management and review overview updates",
+    "excerpt_original": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot code review: API management and review overview updates appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilot コードレビュー：API管理とレビュー概要のアップデート",
+    "summary_ja": "GitHub Copilotのコードレビュー設定をRESTおよびGraphQL APIを通じて管理できるようになりました。企業ポリシーから個別のリポジトリレベルまで幅広い設定が可能です。また、Copilotのレビュー概要コメントがよりコンパクトに改善されました。",
+    "changes": [
+      "RESTおよびGraphQL APIを使用したCopilotコードレビュー設定の管理に対応",
+      "企業ポリシーレベルから個別リポジトリレベルまでの設定管理が可能",
+      "Copilotのレビュー概要コメントのコンパクト化"
+    ],
+    "target_user": [
+      "Developer",
+      "Enterprise Administrator"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-07T01:35:46Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-07T01:35:43Z"
+  },
+  {
+    "id": "github-changelog-a5fcc1255202f357d721",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+    "published_at": "2026-11-06T22:17:28Z",
+    "title_original": "Copilot impact dashboard adds chat and VS Code agent usage",
+    "excerpt_original": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption… The post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "Copilot impact dashboardがチャットとVS Codeエージェントの利用状況を追加",
+    "summary_ja": "GitHub Copilotのimpact dashboardにあるAgent adoptionチャートに、Copilot ChatとVS Code Agentsウィンドウの利用状況が追加されました。これにより、合計9つのCopilotエクスペリエンスにわたるエンゲージメントを確認できるようになりました。",
+    "changes": [
+      "Agent adoptionチャートにCopilot Chatの利用状況を追加",
+      "Agent adoptionチャートにVS Code Agentsウィンドウの利用状況を追加",
+      "計9つのCopilotエクスペリエンス全体でのエンゲージメント測定に対応"
+    ],
+    "target_user": [
+      "GitHub Copilot管理者",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-07T01:35:52Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-07T01:35:50Z"
+  },
+  {
+    "id": "github-changelog-353c4d26111c8c919ddf",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+    "published_at": "2026-11-06T21:00:26Z",
+    "title_original": "GitHub Copilot weekly releases — November 2",
+    "excerpt_original": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge… The post GitHub Copilot weekly releases — November 2 appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilot 週間リリース（11月2日）",
+    "summary_ja": "今週のGitHub Copilotのアップデートにより、JetBrains AirおよびXcodeのコーディングアシスタントに対応しました。さらに、プルリクエスト、設定、エージェントセッションを管理するための機能更新が含まれています。",
+    "changes": [
+      "JetBrains AirおよびXcodeのコーディングアシスタントへの対応",
+      "プルリクエスト、設定、エージェントセッションの管理機能の更新"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-07T01:35:55Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-07T01:35:52Z"
+  },
+  {
+    "id": "github-changelog-2b1caf305a698efd8ff3",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+    "published_at": "2026-11-06T20:31:08Z",
+    "title_original": "@GitHub in Slack and Teams is generally available and more",
+    "excerpt_original": "Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests—all without leaving your conversation. What’s new Build and review together… The post @GitHub in Slack and Teams is generally available and more appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "@GitHub in Slack および Teams の一般提供開始と新機能",
+    "summary_ja": "@GitHub in Slack および Teams の機能が一般提供（GA）開始となりました。ユーザーは会話画面から離れることなく、バグの調査、Issueの作成、変更の実装、プルリクエストの作成を行うことができます。これにより、チャットツール上での共同作業やコード開発が効率化されます。",
+    "changes": [
+      "@GitHub in Slack および Teams の一般提供（GA）を開始",
+      "チャットツールから直接バグの調査やIssueの作成が可能に",
+      "チャットツール上でのコード変更の実装とプルリクエストの作成に対応"
+    ],
+    "target_user": [
+      "開発者",
+      "GitHub ユーザー",
+      "Slack および Microsoft Teams 利用者"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-07T01:36:01Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-07T01:35:58Z"
+  },
+  {
+    "id": "github-copilot-cli-437207112",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.108-0",
+    "published_at": "2026-11-07T00:25:08Z",
+    "title_original": "GitHub Copilot CLI v1.0.108-0",
+    "excerpt_original": "**Added** - Add `sandbox.userPolicy.filesystem.enumeratePaths` in `settings.json` for Windows enumerate-only directory grants - Add /index commands and enable managed shared tgrep indexing by default for eligible repositories **Improved** - Answer questions about Copilot CLI behavior from this build's own documentation and clearly say when docs do not cover a question. - Keep successful command output and file diffs collapsed in concise transcript mode until expanded, while keeping running output and failure details visible. - Show MCP form validation errors beside inputs, focus the first invalid field, and improve screen-reader labels and cursor positioning - Since 1.0.106, Autopilot with Assisted Permissions no longer stops for permission prompts; the agent tries another approach and reports the actions it could not take - Managed plugin assignments with state \"defaultEnabled\" now install and activate plugins by default while preserving user overrides. **Fixed** - A file attachment sent through the SDK that points at a named pipe, socket or device is now tagged as an error instead of stalling the turn until something writes to the pipe. - The canvas tools now tell the model which instance IDs `open_canvas` accepts, instead of calling them free-form. - /model now lists models when Copilot answers the model list request with 421 Misdirected Request, for example after a plan change, by re-resolving your account's endpoint as chat turns already do instead of showing \"Error loading model list\". - Requests to OpenAI-compatible chat-completions providers no longer include an internal message field on skill and tool messages. - Ctrl+C now stops a running /compact, as Esc Esc does, instead of only arming the exit hint and quitting the CLI on a second press. - The /config help no longer shows literal backticks or uses a model outside the model list as its example. - Your defaultMode setting now applies when you close the startup session picker while the session is still loading its model, instead of the session staying in its previous mode. - A disabledSkills entry, skills.disable and skills.enable now match a skill name in any letter case, as invoking the skill does, instead of silently doing nothing when the case differs. - Creating or resuming an SDK session, or replacing its tools, with two custom tools of the same name is now an error. Before, the model was offered the first definition while some SDKs ran the handler of the last one. - Copilot no longer crashes with an unhandled exception at startup when it cannot save its first-launch timestamp, for example because the disk holding the Copilot home directory is full. The failure is logged and startup continues. - The Getting started box no longer suggests /init in a folder where you ran /init suppress, in a repository that already has Copilot instructions, or outside a git repository. - `copilot help config` now names the `.claude/rules` instruction files and the `.claude/settings.json` repository settings the CLI reads. - copilot help input now says that esc esc also stops a running /compact, and that in shell mode a single esc or ctrl+c on an empty prompt leaves shell mode - `/help` now describes `ctrl+d` (exits only on an empty prompt, otherwise deletes the next character) and `ctrl+z` on Windows correctly, and lists `ctrl+j`, `ctrl+v`, `ctrl+y` and the voice input keys. - copilot help limits now quotes the rate-limit prompt as local sessions show it, \"Switch to Copilot Fusion mode?\", instead of \"Switch to auto mode?\". - copilot help mcp now says that a directory's .github/mcp.json is ignored when the same directory has a .mcp.json, instead of implying the two files are merged - copilot help monitoring now describes the github.copilot.sandbox.operation.count metric as counting every sandbox decision by kind, not only deduplicated posture changes. - Pasting an image path again after clearing its `[image: ...]` label with Ctrl+U, Ctrl+K, Ctrl+W or an Up-arrow history recall attaches the image again instead of inserting the plain path. - Backspace, an arrow key, Ctrl+U or Shift+Enter pressed right after a paste now acts after the pasted text instead of on the text in front of it. - Picking an MCP server type by its number in the add or edit form now moves focus to the next field for that type. - /permissions default in Autopilot now asks again how to handle permissions on the next prompt, as /permissions manual does, instead of leaving Autopilot to deny every tool request. - A queued `/ask` or `/btw` that runs while another side answer is open now shows that it is still thinking, instead of showing the previous answer as its own finished answer for Ctrl+Y to copy. - copilot --resume <name> and /resume <name> now find a session whose name has an accent typed precomposed or decomposed, whichever spelling the session was saved with. - In /search, Up, Down and Enter bring a single match back into view after you scroll away, and a shorter terminal no longer leaves the current match off screen. - /security-review help now says it reviews the branch diff when the working tree is clean, not only staged and unstaged changes - Escape sequences in checkpoint titles, file names, Copilot home paths and generated agent names no longer restyle /session info or the /agent wizard. - Long values in `/session info`, such as the log and session file paths, now wrap under their own column instead of back under the label - Switching to another session no longer occasionally replaces that session's model with Auto while the model list reloads. - `/share` usage no longer implies that `/share` alone exports a markdown file; it shows that a bare path must contain `/`, `.` or `~`. - A path or URL route in a prompt, such as /docs/setup.md, no longer loads a skill named after its first segment (docs) as if you had invoked that skill. - Subcommands of `/pr`, `/lsp`, `/skills`, `/plugin`, `/user` and `/collect-debug-logs` now match in any letter case, so `/lsp TEST my-server` runs the test instead of showing usage text. - Help for `/experimental` and `/theme` now marks `/experimental on|off` and `/theme <mode>` as deprecated and points at `/settings`, and `/mcp disable` is no longer described as temporary: it is saved across sessions. - A repository `sessionStart` prompt hook that runs `/clear <prompt>` or `/new` now starts one new session instead of starting another one in every session it creates. - The duration shown on a sub-agent no longer counts the time its tool calls spent at permission prompts. - The `/subagents` help no longer promises a default subagent model. It now says the command configures each subagent's model and settings and turns subagents on or off. - Tab characters in replies, error messages, agent names and other text are now shown as spaces instead of being dropped, so tab-separated words no longer run together. - The duration shown on a tool call no longer counts the time spent at its permission prompt, and it does not tick while the prompt is open. - The `/update` channel choices now say that picking `stable` or `prerelease` also saves it as your update channel for future updates. - Preserve input queued behind a paste when resizing the terminal - Memory import reports malformed repository scopes without a false unsupported host error - Show a warning when a selected custom agent's configured skills are missing or cannot be loaded - Include session start, resume, and model-change events in `-p --output-format json` output - Keep built-in agents selected with --agent active when opening /agent or refreshing available agents - Interactive CLI sessions pass local MCP server environment values literally; use ${NAME} to reference a host environment variable - Allow semantic code search to find renamed repositories when the checkout still uses the old name - Use Ctrl+T to show and hide First Pass reasoning when Fusion is selected through a routing profile - Keep the selected match in view when opening /search or /find instead of jumping to the bottom of the conversation. - Allow the system to sleep again after a background MCP reload finishes when using /keep-alive busy. - Keep the footer's plan hint visible when a nonempty plan is available - Interactive Autopilot waits for your response to MCP input and consent requests instead of automatically declining them - /mcp enable now respects repository settings that disable an MCP server - Renaming files with the patch tool now succeeds without requiring changes to their contents - File diffs in the concise transcript show terminal escape sequences as visible characters and preserve added and removed line colors - Reduce CPU usage during builds in large worktrees when language servers watch for file changes - Headless runs now report an error when resuming a session in use by another Copilot process, keeping its history intact. - MCP deny rules now block a tool named the way its MCP server advertises it (for example `server(weather.lookup)`), not only its sanitized name, even with --allow-all-tools - On Linux, language servers are no longer told that the files in a directory were deleted when the directory is renamed away and straight back. - On Linux, language servers are now told when a directory is renamed (the old files deleted, the new ones created) while other directories in the workspace are being created and removed, such as during a package install. - A canvas that was open when a session was resumed is now restored even if its extension restarts while the canvas is being reopened, instead of staying unavailable. - When a preToolUse hook asks about several parallel tool calls, each call gets its own confirmation again: answering No with feedback to one no longer denies the others without asking. - Attaching an empty PDF or Office document no longer fails the turn on models that read documents natively; the empty file is passed as a file reference instead. - Connect to an already running /voice server even when its PI",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.108-0 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.108-0では、ディレクトリ権限設定や新しいコマンドの追加が行われました。また、CLIの挙動に関するドキュメント回答機能の改善や、トランスクリプト表示の最適化が実施されています。さらに、MCPサーバーの挙動、エラーハンドリング、および各種コマンドの修正やヘルプの正確性向上など多数の不具合が修正されました。",
+    "changes": [
+      "Windows向けにsettings.jsonへsandbox.userPolicy.filesystem.enumeratePathsを追加し、ディレクトリ列挙権限の設定を可能にしました。",
+      "Autopilotモードにおいて、 Assisted Permissions利用時にプロンプトで停止せず別の方法を試行するように改善しました。",
+      "SDK経由で送信された無効なファイル添付や、モデルリストの再取得失敗時のエラーハンドリングなどの不具合を修正しました。"
+    ],
+    "target_user": [
+      "開発者",
+      "GitHub Copilot CLI ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-07T01:35:47Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-07T01:35:46Z"
+  },
+  {
+    "id": "github-copilot-cli-437001392",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.107",
+    "published_at": "2026-11-06T20:37:19Z",
+    "title_original": "GitHub Copilot CLI v1.0.107",
+    "excerpt_original": "2026-11-06 - Rex terminals render inline images using Kitty direct placements. - Add /code command to open the current session in VS Code - Add a Fusion tier setting to `copilot config`. - Make /settings open the unified dashboard for all users and add global search across settings and local resources. - Interactive CLI reports program status to supporting terminals, including when attention is needed. - Add opt-in session management tools and @mentions for opted-in local sessions - Add COPILOT_SESSION_CWD for launching and expanding LSP and local MCP server configs - Add GPT-6.1 Terra as a selectable model under New models when available to your account - Add a Sandbox extensions setting to run extension processes inside the sandbox - Add MATS telemetry for Entra authentication through OneAuth, respecting client telemetry opt-out. - An image removed from the prompt with Ctrl+U, Ctrl+K or Ctrl+W, or replaced by a recalled history entry, is no longer sent with the message, and Ctrl+S can stash the prompt afterwards. - Pasted text containing NEL, Unicode line or paragraph separators now fills separate prompt lines, and pasted DEL and C1 control characters are dropped, instead of being kept in the prompt and cutting characters off the end of the row. - In `copilot -p --plan`, the agent is no longer told to suggest Shift+Tab to leave plan mode, which only works in the interactive interface, and is asked to include the plan's key points in its reply instead. - `copilot --resume <id>` no longer waits with no output and no end when the Copilot task service does not respond; the task lookup now gives up after 10 seconds and resolution continues. - Sandboxed grep, rg, and glob now report Windows launch failures instead of silent no-match results - Model picker shows context window size for flat, unpriced, and single-tier models - Sandboxed local MCP servers respect relative filesystem permissions from the session directory, even when configured with a different working directory. - PowerShell commands work on Windows when the CLI is installed in a long directory path - Switching sessions while other sessions are busy no longer crashes the CLI and leaves a blank terminal - Keep readable image attachments when retrying a prompt that contains a corrupt image - MCP Entra authentication now falls back to the VS Code registration when Copilot CLI preauthorization is unavailable. - Sandboxed local MCP servers now start correctly when configured with a relative cwd. - On Windows, sandboxed sessions in nested Git directories can change to and write at the repository root - Autopilot no longer starts implementing its own recommendation after a request that only asked for a review or analysis - Suppress unnecessary MCP reload summaries when plugin servers remain unchanged - A model request that Copilot's service answers with an empty 404 while under load is now retried instead of ending the turn with \"Execution failed: 404\". - `copilot help config` now lists every setting the settings catalog offers, including the ones that were missing from its hand-written text, such as `askUser`, `effortLevel`, `planModel`, `toolSearch` and `worktreeBaseRef` - ACP clients can switch a session started with --yolo out of autopilot, and allow-all stays on, instead of the switch failing as blocked by policy and a second attempt turning allow-all off. - The @ file picker now underlines a name with a capital dotted I, such as İstanbul.txt, when the query is typed without the dot, and no longer shortens that row's matched folder. - The @ file picker now underlines matches in names stored with decomposed accents or found by a query typed without accents, and no longer shortens such a row's matched folder. - Up and Down in a multi-line prompt keep the column you started from when they pass through a shorter line, instead of leaving the caret near the start of the line. - Ctrl+Y and /share research skip research folder entries that are not readable files, such as a broken link or a folder named like a report, instead of failing or offering them. - Show each agent's selection ID in /agent when multiple agents share a display name. - The edit tool now fails at once on a named pipe, socket or device instead of waiting forever for the other end of a FIFO, which stalled the turn. - An empty plan.md no longer shows the ctrl+y plan hint or Plan: yes in /session, and ctrl+y opens the research report instead, matching /session plan. - The footer keeps the \"N scheduled\", sandbox, YOLO and CI status items whole on narrow terminals by shortening the directory and branch first, instead of cutting the items off the end of the row. - Pull request, issue and gist details, and their load errors, no longer let escape sequences in titles, names, branches, gist files or server messages restyle the terminal. - Show the saved paused goal and continuation guidance when resuming an autopilot session. - Issues and pull requests picked with # are no longer dropped from the message when another one is picked in front of them, and an issue picked twice is sent once. - `copilot help billing` now says the footer shows the AI credits used in this session (nothing by default on the legacy billing platform), and that the `/statusline` `quota` item is off by default and `ai-used` is on. - `copilot help config` now says `copyOnSelect` is on by default on macOS, that `/keep-alive` changes only the current session, that `logLevel` is set in the /settings dialog or settings.json rather than `copilot config`, and that `trustedFolders` lives in config.json and is filled by the folder-trust prompt. - `copilot help environment` now says a `COPILOT_AUTO_TIER` value of \"fast\" is ignored with a notice rather than rejected, and that `USE_TGREP=true` does not override whether indexed search is available for your account or `USE_BUILTIN_RIPGREP=false`. - `copilot help config`, `copilot help environment` and `copilot help acp` no longer name the hidden `--prefer-version`, `--server` and `--stdio` options. - `copilot help limits` shows a status example at the real minimum AI credit limit and says the final-call warning appears when 10% or less of the limit remains - `copilot help monitoring` now says an `http://` OTLP endpoint disables export only when an OTLP CA certificate or client certificate/key variable is set, not for every `http://` endpoint. - `copilot help permissions` now documents glob patterns in `write(path)` and `read(path)` rules, lists the `read` and `memory` kinds, and explains that an unscoped `write` rule approves shell output redirection but not the command itself; it no longer says wildcard matching is coming in the future. - `copilot --help` and `copilot help --help` now list the `acp` help topic, and `copilot help --help` no longer prints its description and topic list with stray indentation. - Form and settings text fields show the control characters of a stored value, such as an MCP server command, instead of letting them recolor or hide its text. - Issue and pull request details on the home screen hide HTML comments from the description, as GitHub does, instead of printing template instructions as text - Issue and pull request details also hide an HTML comment that a blank line splits inside a `<details>` or other HTML block, instead of showing its opening and its text. - Assistant replies keep angle-bracket words that are not HTML, such as `Vec<String>`, `Set<T>` and `<file>` placeholders, instead of silently dropping them from the sentence. - Removing a local marketplace now refuses while one of its plugins is enabled, --force also clears that plugin, and /plugin marketplace remove accepts --force before the name. - A follow-up sent while an earlier one is pending is no longer rejected with \"Submission failed\" when it mentions a file with a very long number after a colon (`@file:99999999999999999999`). - The model picker keeps its Context and Reasoning column labels when a search or scroll hides the first model group. - The /model picker shows token prices in terminals narrower than 64 columns, and the dot leaders start right after each price label. - `--no-ask-user` and the `askUser` setting now say they remove the `ask_user` question form, and that the agent can still ask questions in its replies; they no longer say the agent stops asking questions. - The /user switch, environment and /mcp auth pickers, the Run on: status and the Outgoing connections list no longer let escape sequences in names, paths or URLs restyle the terminal. - Plugin rules with `alwaysApply: false` now stay out of the prompt until you enable them in `/instructions`; before, every session applied them until `/instructions` or `/plugins` was opened. - /pr shows the pull request's title, labels and branch as written, so a title such as Fix **init**.py exports no longer loses its underscores and turns bold. - /pr shows a closed or merged draft as Closed or Merged, keeps branch names and labels that contain a | intact, and counts a check run that failed to start or is waiting on an action as failing instead of pending. - A repository hook file under .github/hooks that cannot be read, or a hook entry in it that is invalid, is now reported with the file and the reason, at startup and after `/cd` into the repository, instead of being skipped silently. - `/session delete --yes=false` and a mistyped `--yes=<value>` no longer delete the current session, and `/session delete --local-only <id>` now previews that session. - Completed /ask and /btw answers left open now reappear when you return to their session within the same CLI process. - copilot skill remove and /skills remove now forget the removed skill's disabled state, so a skill added later under the same name no longer starts disabled. - When `--ui-server` cannot start its server (port already in use or out of range), the session now shows why instead of starting without it silently - Sessions where a tool returned a binary result of a type other than i",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.107 更新情報",
+    "summary_ja": "GitHub Copilot CLI v1.0.107がリリースされました。本バージョンでは、ターミナルでのインライン画像描画のサポート、VS Codeでセッションを開く新しい`/code`コマンドの追加、モデル選択やサンドボックス設定の改善が行われています。また、多数の不具合修正やヘルプ・認証関連の改善が含まれています。",
+    "changes": [
+      "Kitty直接配置を使用したターミナルでのインライン画像描画に対応しました。",
+      "現在のセッションをVS Codeで開く`/code`コマンドを追加しました。",
+      "アカウントで利用可能な場合に、新しいモデルとして「GPT-6.1 Terra」を選択可能になりました。",
+      "サンドボックス内で拡張機能プロセスを実行するためのサンドボックス拡張機能設定を追加しました。",
+      "タスクサービスが応答しない場合の`copilot --resume <id>`のタイムアウト処理を追加しました。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-07T01:35:58Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-07T01:35:55Z"
+  },
+  {
+    "id": "m365-roadmap-73c700e5343b33be7beb",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570866",
+    "published_at": "2026-11-06T23:04:41Z",
+    "title_original": "[Roadmap] Work IQ: Execute (Recipes)",
+    "excerpt_original": "Enable agents to execute reusable Work IQ recipes that coordinate supported tools and actions. GA date: November CY2026 Preview date: October CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ：エグゼキュート（レシピ）",
+    "summary_ja": "Microsoft 365 Copilotにおいて、エージェントが再利用可能なWork IQレシピを実行し、サポートされているツールやアクションを連携させることが可能になります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月を予定しています。",
+    "changes": [
+      "サポートされているツールとアクションを連携させる再利用可能なWork IQレシピの実行機能をエージェントに追加"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-07T01:35:49Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-07T01:35:47Z"
+  },
+  {
+    "id": "m365-roadmap-89a5a0e2c078060f495b",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566523",
+    "published_at": "2026-11-06T23:04:41Z",
+    "title_original": "[Roadmap] Microsoft Teams: Facilitator follow-up mode",
+    "excerpt_original": "Chat naturally with Facilitator without tagging it each time. GA date: December CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Teams: ファシリテーターのフォローアップ モード",
+    "summary_ja": "Microsoft Teamsにおいて、Facilitatorとチャットする際に毎回タグ付けする必要がなくなり、自然な会話が可能になります。この機能はMicrosoft 365 Copilotに関連し、一般提供（GA）は2026年12月を予定しています。",
+    "changes": [
+      "Facilitatorとのチャット時に毎回タグ付けを行う必要がなくなり、自然な対話ができるようになる。"
+    ],
+    "target_user": [
+      "Microsoft Teams users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-07T01:35:50Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-07T01:35:49Z"
   }
 ]

@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Nov 2026 01:59:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 01:36:01 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>@GitHub in Slack および Teams の一般提供開始と新機能</title>
+      <link>https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available</link>
+      <guid isPermaLink="false">github-changelog-2b1caf305a698efd8ff3</guid>
+      <pubDate>Fri, 06 Nov 2026 20:31:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;@GitHub in Slack および Teams の機能が一般提供（GA）開始となりました。ユーザーは会話画面から離れることなく、バグの調査、Issueの作成、変更の実装、プルリクエストの作成を行うことができます。これにより、チャットツール上での共同作業やコード開発が効率化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;@GitHub in Slack および Teams の一般提供（GA）を開始&lt;/li&gt;&lt;li&gt;チャットツールから直接バグの調査やIssueの作成が可能に&lt;/li&gt;&lt;li&gt;チャットツール上でのコード変更の実装とプルリクエストの作成に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot：会計スキル</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=578864</link>
