@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Nov 2026 10:52:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 20:19:41 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.108 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108</link>
+      <guid isPermaLink="false">github-copilot-cli-439362662</guid>
+      <pubDate>Mon, 09 Nov 2026 16:20:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.108がリリースされました。Windows環境でのディレクトリ権限付与設定の追加や、ローカルMCPサーバーの再起動処理の改善、各種コマンドのヘルプおよび動作の修正が行われました。また、SDKやファイル添付に関するエラーハンドリングの強化、UI表示の最適化も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows向けに `sandbox.userPolicy.filesystem.enumeratePaths` 設定を追加&lt;/li&gt;&lt;li&gt;サンドボックス有効時に `/cd` 実行後ローカルMCPサーバーを再起動するよう変更&lt;/li&gt;&lt;li&gt;GrokモデルにおけるPDF添付ファイルのフォールバック処理を改善&lt;/li&gt;&lt;li&gt;Ctrl+Cによる `/compact` の中断に対応&lt;/li&gt;&lt;li&gt;サブコマンドやスキル名の大文字小文字の差異を無視してマッチするように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.108"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.108-1 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108-1</link>
@@ -1996,16 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.97-0がリリースされました。カスタムエージェント向けの宣言型フックの追加、サポートされている端末でのインライン画像表示のデフォルト有効化、AutopilotやMCPサーバー関連の不具合修正が行われています。また、設定ファイルの堅牢性向上やメモリ管理の改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムエージェント向けのエージェントスコープの宣言型フックを追加&lt;/li&gt;&lt;li&gt;サポートされている端末でインライン画像をデフォルトで描画するように改善&lt;/li&gt;&lt;li&gt;無効なconfig.jsonエントリが存在する場合でも、起動時に設定がリセットされないように修正&lt;/li&gt;&lt;li&gt;長時間のセッションにおける緊急メモリ解放がクールダウンをバイパスできるように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.96リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.96</link>
-      <guid isPermaLink="false">github-copilot-cli-410909545</guid>
-      <pubDate>Mon, 12 Oct 2026 18:52:01 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.96がリリースされ、インタラクティブサンドボックス設定やモデルIDの大文字小文字を区別しない処理などの機能改善と修正が行われました。企業ポリシー解決中の起動時における `/allow-all` の維持や、タイムラインでの権限決定元の表示など、利便性とセキュリティ機能が向上しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;インタラクティブなサンドボックス設定で環境シークレットの候補提示とマスク対象ホストの追加が可能になりました。&lt;/li&gt;&lt;li&gt;/model および /config でのモデルIDが大文字小文字を区別しないようになり、正規化されたIDが保存されるようになりました。&lt;/li&gt;&lt;li&gt;企業ポリシーの解決中も起動時に `/allow-all` が利用可能な状態を維持します。&lt;/li&gt;&lt;li&gt;/add-dir コマンドにより、現在のセッションに限り追加したディレクトリへのサンドボックスアクセスが許可されます。&lt;/li&gt;&lt;li&gt;/user list コマンドで、サインインしている各アカウントの認証ソースが表示されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.96"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>
