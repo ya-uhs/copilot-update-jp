@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 03:57:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 12:04:33 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,6 +59,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.109-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109-1</link>
+      <guid isPermaLink="false">github-copilot-cli-439987636</guid>
+      <pubDate>Tue, 10 Nov 2026 05:40:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.109-1がリリースされました。本バージョンでは、サンドボックスのホスト許可・拒否ルールにおけるIPv4/IPv6 CIDRのサポート追加、モデルピッカーでのClaude Fable 5.2の追加、サンドボックスのパス設定における環境変数サポートの改善などが行われています。また、ヘルプメッセージの更新やターミナル表示の調整、各種不具合の修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定内のサンドボックスホストの許可および拒否ルールで、IPv4/IPv6 CIDRのサポートを追加しました。&lt;/li&gt;&lt;li&gt;新規モデルのモデルピッカーでClaude Fable 5.2のサポートを追加しました。&lt;/li&gt;&lt;li&gt;サンドボックスのパス設定で環境変数をサポートし、設定やエディタ内での記述表現を保持するように改善しました。&lt;/li&gt;&lt;li&gt;対話型セッションにおいて、キャッシュを考慮したバックグラウンドの待機タイムアウトをデフォルトで適用するようにしました。&lt;/li&gt;&lt;li&gt;MCPサーバーの削除やディレクトリ選択、エラー表示、プロンプトの動作などに関する多数の不具合修正が行われました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.109-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.109-0 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109-0</link>
       <guid isPermaLink="false">github-copilot-cli-439672427</guid>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.108-1がリリースされました。Grok 4.7およびGrok 4.6におけるPDF添付ファイルのフォールバック処理の修正や、サンドボックス有効時のローカルMCPサーバーの再起動処理の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Grok 4.7およびGrok 4.6でのPDF添付ファイルが失敗する代わりにファイル参照へフォールバックするように修正&lt;/li&gt;&lt;li&gt;サンドボックス有効時に、/cdコマンド実行後に対象ディレクトリの拒否パスを正しく適用するためローカルMCPサーバーが再起動するように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.108-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot コードレビュー：API管理とレビュー概要のアップデート</title>
-      <link>https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates</link>
-      <guid isPermaLink="false">github-changelog-cc9249299f5d778e839b</guid>
-      <pubDate>Sat, 07 Nov 2026 00:27:19 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのコードレビュー設定をRESTおよびGraphQL APIを通じて管理できるようになりました。企業ポリシーから個別のリポジトリレベルまで幅広い設定が可能です。また、Copilotのレビュー概要コメントがよりコンパクトに改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;RESTおよびGraphQL APIを使用したCopilotコードレビュー設定の管理に対応&lt;/li&gt;&lt;li&gt;企業ポリシーレベルから個別リポジトリレベルまでの設定管理が可能&lt;/li&gt;&lt;li&gt;Copilotのレビュー概要コメントのコンパクト化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>

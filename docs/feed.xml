@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 03:57:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 12:04:33 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.109-1 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109-1</link>
+      <guid isPermaLink="false">github-copilot-cli-439987636</guid>
+      <pubDate>Tue, 10 Nov 2026 05:40:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.109-1がリリースされました。本バージョンでは、サンドボックスのホスト許可・拒否ルールにおけるIPv4/IPv6 CIDRのサポート追加、モデルピッカーでのClaude Fable 5.2の追加、サンドボックスのパス設定における環境変数サポートの改善などが行われています。また、ヘルプメッセージの更新やターミナル表示の調整、各種不具合の修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定内のサンドボックスホストの許可および拒否ルールで、IPv4/IPv6 CIDRのサポートを追加しました。&lt;/li&gt;&lt;li&gt;新規モデルのモデルピッカーでClaude Fable 5.2のサポートを追加しました。&lt;/li&gt;&lt;li&gt;サンドボックスのパス設定で環境変数をサポートし、設定やエディタ内での記述表現を保持するように改善しました。&lt;/li&gt;&lt;li&gt;対話型セッションにおいて、キャッシュを考慮したバックグラウンドの待機タイムアウトをデフォルトで適用するようにしました。&lt;/li&gt;&lt;li&gt;MCPサーバーの削除やディレクトリ選択、エラー表示、プロンプトの動作などに関する多数の不具合修正が行われました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.109-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.109-0 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109-0</link>
@@ -1997,16 +2007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.97-1 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97-1</link>
-      <guid isPermaLink="false">github-copilot-cli-411059083</guid>
-      <pubDate>Mon, 12 Oct 2026 22:56:58 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.97-1がリリースされました。今回のアップデートでは、不具合の修正と変更が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>low</category>
     </item>
   </channel>
 </rss>
