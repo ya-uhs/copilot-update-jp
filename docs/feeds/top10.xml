@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Nov 2026 20:19:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 03:57:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,6 +59,26 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.109-0 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109-0</link>
+      <guid isPermaLink="false">github-copilot-cli-439672427</guid>
+      <pubDate>Mon, 09 Nov 2026 21:34:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.109-0では、ファイル保存時やURL許可プロンプトにおけるセキュリティと確認プロセスの改善が行われました。また、設定項目の説明文の修正や、各種ヘルプメッセージおよびエラーハンドリングの精度向上のための多数のバグ修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ローカルファイルの保存時、/share または /export がシンボリックリンクを辿る前に確認を求めるようになりました。&lt;/li&gt;&lt;li&gt;URL許可プロンプトで、現在のセッションにおけるすべてのサブドメインの承認が可能になりました。&lt;/li&gt;&lt;li&gt;読み取り専用のシェルスクリプトでは許可を求める頻度が減少し、git refを変更するスクリプトや隠しパス経由でファイルを読み込むスクリプトは常にレビュー対象となります。&lt;/li&gt;&lt;li&gt;同一トピックに対して /research を再度実行した際、以前のレポートを上書きせず新しいレポートが保存されるようになりました。&lt;/li&gt;&lt;li&gt;Windows環境において、ターン終了やセッション再開、終了時にランタイムが解放したメモリがプロセスに保持されずシステムに返還されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.109-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるClaude Fable 5.2の提供開始</title>
+      <link>https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-f0623286d1ea9bbc2502</guid>
+      <pubDate>Mon, 09 Nov 2026 16:46:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Anthropicの最新モデルであるClaude Fable 5.2が、GitHub Copilotで一般提供（GA）開始されました。ユーザーは、大規模なコードベースにおける複雑で多段階のコーディングタスクにこのモデルを利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude Fable 5.2モデルがGitHub Copilotに追加され、利用可能になりました。&lt;/li&gt;&lt;li&gt;大規模なコードベースにおける複雑な多段階コーディングタスクをサポートします。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.108 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108</link>
       <guid isPermaLink="false">github-copilot-cli-439362662</guid>
@@ -86,26 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのコードレビュー設定をRESTおよびGraphQL APIを通じて管理できるようになりました。企業ポリシーから個別のリポジトリレベルまで幅広い設定が可能です。また、Copilotのレビュー概要コメントがよりコンパクトに改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;RESTおよびGraphQL APIを使用したCopilotコードレビュー設定の管理に対応&lt;/li&gt;&lt;li&gt;企業ポリシーレベルから個別リポジトリレベルまでの設定管理が可能&lt;/li&gt;&lt;li&gt;Copilotのレビュー概要コメントのコンパクト化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.108-0 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108-0</link>
-      <guid isPermaLink="false">github-copilot-cli-437207112</guid>
-      <pubDate>Sat, 07 Nov 2026 00:25:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.108-0では、ディレクトリ権限設定や新しいコマンドの追加が行われました。また、CLIの挙動に関するドキュメント回答機能の改善や、トランスクリプト表示の最適化が実施されています。さらに、MCPサーバーの挙動、エラーハンドリング、および各種コマンドの修正やヘルプの正確性向上など多数の不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows向けにsettings.jsonへsandbox.userPolicy.filesystem.enumeratePathsを追加し、ディレクトリ列挙権限の設定を可能にしました。&lt;/li&gt;&lt;li&gt;Autopilotモードにおいて、 Assisted Permissions利用時にプロンプトで停止せず別の方法を試行するように改善しました。&lt;/li&gt;&lt;li&gt;SDK経由で送信された無効なファイル添付や、モデルリストの再取得失敗時のエラーハンドリングなどの不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.108-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ：エグゼキュート（レシピ）</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570866</link>
-      <guid isPermaLink="false">m365-roadmap-73c700e5343b33be7beb</guid>
-      <pubDate>Fri, 06 Nov 2026 23:04:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントが再利用可能なWork IQレシピを実行し、サポートされているツールやアクションを連携させることが可能になります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているツールとアクションを連携させる再利用可能なWork IQレシピの実行機能をエージェントに追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570866"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>

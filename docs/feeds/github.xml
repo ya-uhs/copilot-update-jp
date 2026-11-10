@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Nov 2026 20:19:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 03:57:17 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.109-0 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109-0</link>
+      <guid isPermaLink="false">github-copilot-cli-439672427</guid>
+      <pubDate>Mon, 09 Nov 2026 21:34:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.109-0では、ファイル保存時やURL許可プロンプトにおけるセキュリティと確認プロセスの改善が行われました。また、設定項目の説明文の修正や、各種ヘルプメッセージおよびエラーハンドリングの精度向上のための多数のバグ修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ローカルファイルの保存時、/share または /export がシンボリックリンクを辿る前に確認を求めるようになりました。&lt;/li&gt;&lt;li&gt;URL許可プロンプトで、現在のセッションにおけるすべてのサブドメインの承認が可能になりました。&lt;/li&gt;&lt;li&gt;読み取り専用のシェルスクリプトでは許可を求める頻度が減少し、git refを変更するスクリプトや隠しパス経由でファイルを読み込むスクリプトは常にレビュー対象となります。&lt;/li&gt;&lt;li&gt;同一トピックに対して /research を再度実行した際、以前のレポートを上書きせず新しいレポートが保存されるようになりました。&lt;/li&gt;&lt;li&gt;Windows環境において、ターン終了やセッション再開、終了時にランタイムが解放したメモリがプロセスに保持されずシステムに返還されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.109-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるClaude Fable 5.2の提供開始</title>
+      <link>https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-f0623286d1ea9bbc2502</guid>
+      <pubDate>Mon, 09 Nov 2026 16:46:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Anthropicの最新モデルであるClaude Fable 5.2が、GitHub Copilotで一般提供（GA）開始されました。ユーザーは、大規模なコードベースにおける複雑で多段階のコーディングタスクにこのモデルを利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude Fable 5.2モデルがGitHub Copilotに追加され、利用可能になりました。&lt;/li&gt;&lt;li&gt;大規模なコードベースにおける複雑な多段階コーディングタスクをサポートします。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.108 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108</link>
