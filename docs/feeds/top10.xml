@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 12:04:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 17:24:18 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,6 +59,26 @@
       <category>high</category>
     </item>
     <item>
+      <title>C++言語サーバーがMSBuildビルドの自動設定に対応</title>
+      <link>https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds</link>
+      <guid isPermaLink="false">github-changelog-ce169ea5d1f169f19da4</guid>
+      <pubDate>Tue, 10 Nov 2026 17:04:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI向けのMicrosoft C++ Language Serverが、MSBuildコンパイルコマンド抽出ツールを同梱し自動実行するようになりました。これにより、エージェントが手動で検出して実行する必要がなくなりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MSBuildコンパイルコマンド抽出ツールが同梱され、自動的に呼び出されるようになりました&lt;/li&gt;&lt;li&gt;エージェント側での抽出ツールの検出および実行が不要になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.109 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109</link>
+      <guid isPermaLink="false">github-copilot-cli-440651335</guid>
+      <pubDate>Tue, 10 Nov 2026 17:02:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.109がリリースされました。本バージョンでは、サンドボックスのホストルールにおけるIPv4/IPv6 CIDRのサポート、モデルピッカーでのClaude Fable 5.2の追加、および多数のバグ修正と動作改善が含まれています。また、プロンプトの入力挙動や設定ヘルプ、MCPサーバー関連の出力なども調整されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定内のサンドボックスのホスト許可・拒否ルールに対して、IPv4およびIPv6のCIDRサポートを追加しました。&lt;/li&gt;&lt;li&gt;モデルピッカーの「New models」にClaude Fable 5.2のサポートを追加しました。&lt;/li&gt;&lt;li&gt;ビルトインのMCPサーバーを削除する際の無効化手順の説明を改善しました。&lt;/li&gt;&lt;li&gt;プロンプトモードで `--output-format json` を使用した場合、実行が早期に失敗しても終了ステータスを含む最終結果レコードが出力されるようになりました。&lt;/li&gt;&lt;li&gt;Windows環境において、ターン終了時やセッション再開後などにランタイムが解放したメモリがプロセスに保持されず、システムに返還されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.109"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.109-1 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109-1</link>
       <guid isPermaLink="false">github-copilot-cli-439987636</guid>
@@ -86,26 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Anthropicの最新モデルであるClaude Fable 5.2が、GitHub Copilotで一般提供（GA）開始されました。ユーザーは、大規模なコードベースにおける複雑で多段階のコーディングタスクにこのモデルを利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude Fable 5.2モデルがGitHub Copilotに追加され、利用可能になりました。&lt;/li&gt;&lt;li&gt;大規模なコードベースにおける複雑な多段階コーディングタスクをサポートします。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>GA</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.108 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108</link>
-      <guid isPermaLink="false">github-copilot-cli-439362662</guid>
-      <pubDate>Mon, 09 Nov 2026 16:20:30 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.108がリリースされました。Windows環境でのディレクトリ権限付与設定の追加や、ローカルMCPサーバーの再起動処理の改善、各種コマンドのヘルプおよび動作の修正が行われました。また、SDKやファイル添付に関するエラーハンドリングの強化、UI表示の最適化も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows向けに `sandbox.userPolicy.filesystem.enumeratePaths` 設定を追加&lt;/li&gt;&lt;li&gt;サンドボックス有効時に `/cd` 実行後ローカルMCPサーバーを再起動するよう変更&lt;/li&gt;&lt;li&gt;GrokモデルにおけるPDF添付ファイルのフォールバック処理を改善&lt;/li&gt;&lt;li&gt;Ctrl+Cによる `/compact` の中断に対応&lt;/li&gt;&lt;li&gt;サブコマンドやスキル名の大文字小文字の差異を無視してマッチするように改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.108"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.108-1 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.108-1</link>
-      <guid isPermaLink="false">github-copilot-cli-437269629</guid>
-      <pubDate>Sat, 07 Nov 2026 02:32:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.108-1がリリースされました。Grok 4.7およびGrok 4.6におけるPDF添付ファイルのフォールバック処理の修正や、サンドボックス有効時のローカルMCPサーバーの再起動処理の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Grok 4.7およびGrok 4.6でのPDF添付ファイルが失敗する代わりにファイル参照へフォールバックするように修正&lt;/li&gt;&lt;li&gt;サンドボックス有効時に、/cdコマンド実行後に対象ディレクトリの拒否パスを正しく適用するためローカルMCPサーバーが再起動するように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.108-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>

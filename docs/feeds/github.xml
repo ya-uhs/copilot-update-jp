@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 12:04:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 17:24:18 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>C++言語サーバーがMSBuildビルドの自動設定に対応</title>
+      <link>https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds</link>
+      <guid isPermaLink="false">github-changelog-ce169ea5d1f169f19da4</guid>
+      <pubDate>Tue, 10 Nov 2026 17:04:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI向けのMicrosoft C++ Language Serverが、MSBuildコンパイルコマンド抽出ツールを同梱し自動実行するようになりました。これにより、エージェントが手動で検出して実行する必要がなくなりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MSBuildコンパイルコマンド抽出ツールが同梱され、自動的に呼び出されるようになりました&lt;/li&gt;&lt;li&gt;エージェント側での抽出ツールの検出および実行が不要になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.109 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109</link>
+      <guid isPermaLink="false">github-copilot-cli-440651335</guid>
+      <pubDate>Tue, 10 Nov 2026 17:02:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.109がリリースされました。本バージョンでは、サンドボックスのホストルールにおけるIPv4/IPv6 CIDRのサポート、モデルピッカーでのClaude Fable 5.2の追加、および多数のバグ修正と動作改善が含まれています。また、プロンプトの入力挙動や設定ヘルプ、MCPサーバー関連の出力なども調整されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定内のサンドボックスのホスト許可・拒否ルールに対して、IPv4およびIPv6のCIDRサポートを追加しました。&lt;/li&gt;&lt;li&gt;モデルピッカーの「New models」にClaude Fable 5.2のサポートを追加しました。&lt;/li&gt;&lt;li&gt;ビルトインのMCPサーバーを削除する際の無効化手順の説明を改善しました。&lt;/li&gt;&lt;li&gt;プロンプトモードで `--output-format json` を使用した場合、実行が早期に失敗しても終了ステータスを含む最終結果レコードが出力されるようになりました。&lt;/li&gt;&lt;li&gt;Windows環境において、ターン終了時やセッション再開後などにランタイムが解放したメモリがプロセスに保持されず、システムに返還されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.109"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.109-1 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.109-1</link>
