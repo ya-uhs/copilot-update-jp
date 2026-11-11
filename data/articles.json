@@ -1,5 +1,120 @@
 [
   {
+    "id": "github-changelog-0da2a3ce8ca2ed1bece8",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+    "published_at": "2026-11-11T00:10:31Z",
+    "title_original": "GitHub App support for Enterprise Copilot seat management",
+    "excerpt_original": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "エンタープライズCopilotシート管理におけるGitHub Appのサポート",
+    "summary_ja": "エンタープライズレベルのGitHub Appsが、Copilotシート管理APIを呼び出し可能になりました。これにより、どのユーザーやエンタープライズチームにCopilotシートが割り当てられているかを制御できるようになります。",
+    "changes": [
+      "Enterprise GitHub AppsからエンタープライズレベルのCopilotシート管理APIの呼び出しが可能に",
+      "APIを通じてユーザーおよびエンタープライズチームへのCopilotシートの割り当てを制御可能"
+    ],
+    "target_user": [
+      "Enterprise Administrators",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-11T01:41:48Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-11T01:41:42Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-441030395",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.110-1",
+    "published_at": "2026-11-10T22:59:08Z",
+    "title_original": "GitHub Copilot CLI v1.0.110-1",
+    "excerpt_original": "**Fixed** - A session reopened with `copilot --resume` is marked in use as soon as it opens, so `copilot -p --resume` and a second window no longer write into it while it sits idle - Custom status lines preserve the first row's indentation so all rows align consistently - Show control characters visibly in /settings list items instead of applying terminal styling or hyperlinks - Markdown tables containing the wavy dash and similar wide symbols render with correctly aligned rows - Show the sign-in prompt after /logout removes the last saved account with invalid credentials, without requiring a restart - Wrapped text uses the full width of each row without inserting extra blank lines inside paragraphs - `copilot mcp add` preserves existing invalid server entries and asks you to remove them before reusing their names - Preserve plugin preferences and settings files at startup when settings.json contains invalid values or cannot be parsed - Shell and Search results show accurate line and file counts and omit model-only cost guidance when an AI-credit limit is set - Vim mode's j/k motions use the current cursor column after gg, ge, operators, or redo - Display custom agent names and models as plain text in /subagents, keeping table columns aligned and preventing embedded terminal formatting or links - A local MCP server whose reply contains a lone UTF-16 surrogate escape (such as a tool description cut inside an emoji) no longer fails after 60 seconds or hangs a tool call for 3 minutes; the reply is read with a replacement character - Plugin toggles now honor repository-controlled live plugin settings and consistently use the same marketplace source across listing and activation.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.110-1",
+    "summary_ja": "GitHub Copilot CLI の v1.0.110-1 では、セッションの競合や表示の整合性に関する不具合が修正されました。設定ファイルのパースエラーやプラグインの挙動も改善され、UTF-16 サロゲート文字を含むレスポンスが正しく処理されるようになりました。",
+    "changes": [
+      "`copilot --resume` で再開したセッションが即座に使用中とマークされ、同時に別ウィンドウで書き込むことが防止された。",
+      "カスタムステータス行のインデントが保持され、テーブルや行の整列が一貫するようになった。",
+      "設定ファイルが無効な JSON でも起動時にプラグイン設定や設定ファイルが保持されるようにした。",
+      "UTF-16 サロゲート文字を含むローカル MCP サーバーの応答がタイムアウトせず、置換文字で処理されるようになった。",
+      "プラグインのトグルがリポジトリ管理のライブプラグイン設定を尊重し、マーケットプレイスのソースが一貫して使用されるようになった。"
+    ],
+    "target_user": [
+      "Developers",
+      "CLI users",
+      "GitHub Copilot users"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-11T01:41:51Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-11T01:41:48Z",
+    "llm_provider": "Groq"
+  },
+  {
+    "id": "github-copilot-cli-440852785",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.110-0",
+    "published_at": "2026-11-10T20:07:40Z",
+    "title_original": "GitHub Copilot CLI v1.0.110-0",
+    "excerpt_original": "**Added** - Experimental: answer git, ssh, and sudo password prompts from agent commands in a masked dialog (enable with /experimental on) **Improved** - Selecting an unavailable account in /user switch shows recovery guidance and a retry action - Click anywhere in expanded reasoning to collapse it without scrolling back to the header - Offer a session AI-credit limit top-up at 90% usage, before the agent loses access to tools **Fixed** - Show failed and cancelled compaction outcomes in the timeline, and explain memory-pressure compactions with restart and resume guidance. - `/diff` on a feature branch now lists committed files whose names have accented or other non-ASCII characters, a double quote, a backslash or a tab, instead of leaving them out of the file list. - copilot help network now quotes the certificate error Copilot reports for an untrusted proxy CA on Linux (\"certificate verify failed\", \"unable to get local issuer certificate\"), not a message it no longer produces - `copilot help permissions` no longer gives `shell(gh pr create)` as a rule example, which never matches; it now uses `shell(gh pr)` and explains that only the first subcommand is part of a command's name. - `/mcp reload` no longer says the servers were restarted when the MCP configuration could not be loaded - MCP tool results that also carry a top-level key such as `skills`, `skill`, `tools` or `messages` now reach the model instead of failing the tool call - /every and /after keep the line breaks and indentation of a multi-line prompt when a natural-language time is parsed from it, instead of merging lines and collapsing repeated spaces. - \"Thought for\" durations update when each reasoning part ends and no longer include time spent streaming the answer - Show forked sessions by name in the exit summary so their resume commands are easier to identify - /share file and /share html reject directory paths instead of creating hidden or misplaced export files - Allow copilot config to read and update settings.json files containing only comments - Shortened paths preserve folder names containing backslashes on Linux and macOS - copilot -p honors trusted repositories' includeCoAuthoredBy setting for commit trailers - Startup auto-install now waits for managed settings before reporting missing plugin marketplaces - Interactive prompts appear correctly after extensions switch a session out of autopilot. - /move preserves edits to files marked assume-unchanged and reports submodule changes left in the original working tree - Changing a setting in /statusline preserves other footer settings updated by another session while the picker is open - Avoid unnecessary path access prompts for in-repository reads after shell commands that change directories - Keep permanently approved URLs approved after /new or /clear without restarting the CLI - JSON prompt mode emits a final result record when authentication fails or the prompt is blank - Reject prompt options combined with subcommands instead of silently dropping the prompt and running the subcommand - Pressing Enter after completing an empty directory path runs /add-dir or /cd reliably on Windows - Use the exact directory name typed in /cd, /cwd, and /add-dir instead of a similarly named sibling directory - Show control characters visibly in folder trust dialogs so folder names display without hidden formatting or extra lines - Show when files or directories are too large to read or list instead of reporting misleading counts in collapsed tool results - Warn when repository settings override a saved default model for new sessions, naming the model and settings file that still apply - Treat empty or fully commented repository settings files as empty settings without startup warnings or parsing errors - Keep the command description and exit status visible in collapsed failed shell rows with multi-line output - Show pasted terminal text plainly in Ctrl+R search and session confirmations so escape sequences cannot recolor or hide text - Sandbox settings show their effective defaults and toggle default-on options off on the first press - Show settings-file errors without duplicate, misleading policy-update warnings when settings.json is invalid - Hook changes saved from /settings apply to the next prompt without restarting the CLI - IDE auto-connect follows your current folder after /cd, keeping editor selections and diffs in the correct IDE - Expanded Shell output preserves text before and after diffs and shows file names for diff-only output - Keep `copilot lsp list` output free of warnings when plugin language servers load successfully - Deleting the active voice model now shows that voice mode is off and how to choose another model. - Show the output size instead of an incorrect match count when search results are too large to list - MCP server and skill enable/disable commands correctly report success for names supplied through --additional-mcp-config or --plugin-dir - Keep dialog borders and padding aligned when a line ends with an invisible zero-width character - List items in plan and task summaries stay on one line when they contain literal asterisks or sentences ending in numbers - Show the enabled state enforced by your organization's managed settings for built-in plugins in `copilot plugin list` and `--json` output - Apply changes to Disable bypass permissions mode in /settings immediately, without restarting the CLI - /cd, /cwd, and /add-dir select the exact directory name you type when siblings differ only by case or accents - Hide custom agents with built-in names from /subagents so their controls cannot change built-in agent settings - Preserve first-line indentation in shell command output so expanded Shell rows correctly show spacing-sensitive results such as git status --short - Shell commands terminated by a signal report the correct exit status, such as 137 for SIGKILL or 139 for a segmentation fault - Show a confirmation when a model switch queued while the agent is working takes effect - Show the output size instead of an incorrect line count in Shell summaries when command output is too large to display - Footer context usage shows the same pre-request percentage as /context. - Plan quota and Copilot usage stay visible in the status line, /usage and the exit summary while a GitHub-hosted model is selected, even when providers.json configures a custom provider; they are hidden only while a model from that provider is selected - Prompt history is no longer hidden, and then erased by the next prompt, when the file that stores session mentions for past prompts is damaged or was written by a newer version - The ctrl+y footer hint no longer misses a plan written right after the session starts, and it keeps updating when the plan file cannot be watched - Hook events and other JSON settings can be saved from their editor in /settings; unset hook events now open as an empty list - Resuming a session by name with --resume no longer sends the session name in telemetry; only a session ID is reported - Exiting no longer writes dozens of errors to the process log about cleaning up a session that has already shut down - /sandbox no longer replaces your saved sandbox settings with defaults when settings.json has an invalid value; it shows the load error instead, and a sandbox path saved from a permission prompt is refused rather than overwriting the sandbox block - A prompt submitted while Compact and switch is compacting shows as queued again, instead of disappearing until the compaction finishes - Disabling an MCP server updates its token count in /mcp without waiting for another model response - On Linux, language servers that watch files are no longer told that files still on disk were deleted after two files or directories are swapped through a temporary name - copilot -p in a trusted folder no longer sometimes runs without the repository's hooks when plugins finish loading at the same time - `copilot mcp remove` and `/mcp remove` now delete an `mcp-config.json` entry that is skipped as invalid instead of reporting that the server was not found - Resuming a session by ID or name with `/resume` now keeps the session you leave open in the background, so it still runs its sessionEnd hooks, records its shutdown and is listed when you exit - `copilot -p` and other CLI runs that exit within a minute now apply process-log retention, so old logs are removed after 7 days and beyond the newest 50 instead of piling up one per run - `copilot plugin marketplace add ./name`, `../name` and `~/name` now add the local marketplace directory instead of trying to clone a GitHub repository - A shell command killed because the sandbox settings changed while it ran is now reported as failed instead of as a successful command with no output - The warning for an unsupported --reasoning-effort value is no longer lost when the session's model changes while the CLI is starting - `copilot help ''` prints the general help and exits successfully, just like `copilot help`. - A `/compact` with nothing to compact no longer leaves a stale \"Compacting conversation history...\" row in the timeline - An mcp-config.json that cannot be read or is not a JSON object now fails with an error that names the file and the actual problem, and a syntax error in a file with comments or trailing commas points at the real mistake instead of the first comment or comma **Removed** - Remove legacy remote steering; cloud sessions and remote connections now require an AHP environment",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.110-0 の更新情報",
+    "summary_ja": "GitHub Copilot CLI v1.0.110-0がリリースされました。エージェントコマンドでのパスワードプロンプト応答機能の実験的追加、アカウント切り替えやセッション管理の改善、および多数の不具合修正と挙動の調整が含まれています。",
+    "changes": [
+      "実験的機能として、エージェントコマンドからのgit、ssh、sudoのパスワードプロンプトをマスクされたダイアログで応答する機能を追加しました。",
+      "利用できないアカウントを選択した際のエリカバリー案内と再試行アクションを追加しました。",
+      "セッションのAIクレジット利用率が90%に達した際に、ツールへのアクセスが失われる前にトップアップを提案するようにしました。",
+      "特殊文字を含むファイル名の処理やMCP設定・ツール結果の受け渡しに関する不具合を多数修正しました。",
+      "レガシーのリモートステアリング機能を削除しました。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-11T01:41:57Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-11T01:41:51Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-changelog-e09c77a9ac2bb834f395",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+    "published_at": "2026-11-10T19:26:51Z",
+    "title_original": "Gemini 4 Carbon in GitHub Copilot",
+    "excerpt_original": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "GitHub CopilotにおけるGemini 4 Carbonの提供開始",
+    "summary_ja": "Googleの最新モデルであるGemini 4 Carbonが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、複雑なコーディング、エージェント型タスク、推論処理向けに設計されており、安全なコード生成に焦点を当てています。",
+    "changes": [
+      "GoogleのGemini 4 CarbonモデルがGitHub Copilotで利用可能になりました。",
+      "複雑なコーディング、エージェント型タスク、推論タスクに対応しています。",
+      "安全なコード生成に重点を置いて設計されています。"
+    ],
+    "target_user": [
+      "開発者",
+      "GitHub Copilot ユーザー"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-11T01:41:59Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-11T01:41:57Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-changelog-ce169ea5d1f169f19da4",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",

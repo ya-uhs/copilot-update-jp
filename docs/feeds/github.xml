@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 17:24:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 01:41:59 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>エンタープライズCopilotシート管理におけるGitHub Appのサポート</title>
+      <link>https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management</link>
+      <guid isPermaLink="false">github-changelog-0da2a3ce8ca2ed1bece8</guid>
+      <pubDate>Wed, 11 Nov 2026 00:10:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;エンタープライズレベルのGitHub Appsが、Copilotシート管理APIを呼び出し可能になりました。これにより、どのユーザーやエンタープライズチームにCopilotシートが割り当てられているかを制御できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Enterprise GitHub AppsからエンタープライズレベルのCopilotシート管理APIの呼び出しが可能に&lt;/li&gt;&lt;li&gt;APIを通じてユーザーおよびエンタープライズチームへのCopilotシートの割り当てを制御可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110-1</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-1</link>
+      <guid isPermaLink="false">github-copilot-cli-441030395</guid>
+      <pubDate>Tue, 10 Nov 2026 22:59:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI の v1.0.110-1 では、セッションの競合や表示の整合性に関する不具合が修正されました。設定ファイルのパースエラーやプラグインの挙動も改善され、UTF-16 サロゲート文字を含むレスポンスが正しく処理されるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;`copilot --resume` で再開したセッションが即座に使用中とマークされ、同時に別ウィンドウで書き込むことが防止された。&lt;/li&gt;&lt;li&gt;カスタムステータス行のインデントが保持され、テーブルや行の整列が一貫するようになった。&lt;/li&gt;&lt;li&gt;設定ファイルが無効な JSON でも起動時にプラグイン設定や設定ファイルが保持されるようにした。&lt;/li&gt;&lt;li&gt;UTF-16 サロゲート文字を含むローカル MCP サーバーの応答がタイムアウトせず、置換文字で処理されるようになった。&lt;/li&gt;&lt;li&gt;プラグインのトグルがリポジトリ管理のライブプラグイン設定を尊重し、マーケットプレイスのソースが一貫して使用されるようになった。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110-0 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-0</link>
+      <guid isPermaLink="false">github-copilot-cli-440852785</guid>
+      <pubDate>Tue, 10 Nov 2026 20:07:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-0がリリースされました。エージェントコマンドでのパスワードプロンプト応答機能の実験的追加、アカウント切り替えやセッション管理の改善、および多数の不具合修正と挙動の調整が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;実験的機能として、エージェントコマンドからのgit、ssh、sudoのパスワードプロンプトをマスクされたダイアログで応答する機能を追加しました。&lt;/li&gt;&lt;li&gt;利用できないアカウントを選択した際のエリカバリー案内と再試行アクションを追加しました。&lt;/li&gt;&lt;li&gt;セッションのAIクレジット利用率が90%に達した際に、ツールへのアクセスが失われる前にトップアップを提案するようにしました。&lt;/li&gt;&lt;li&gt;特殊文字を含むファイル名の処理やMCP設定・ツール結果の受け渡しに関する不具合を多数修正しました。&lt;/li&gt;&lt;li&gt;レガシーのリモートステアリング機能を削除しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるGemini 4 Carbonの提供開始</title>
+      <link>https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-e09c77a9ac2bb834f395</guid>
+      <pubDate>Tue, 10 Nov 2026 19:26:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Googleの最新モデルであるGemini 4 Carbonが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、複雑なコーディング、エージェント型タスク、推論処理向けに設計されており、安全なコード生成に焦点を当てています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GoogleのGemini 4 CarbonモデルがGitHub Copilotで利用可能になりました。&lt;/li&gt;&lt;li&gt;複雑なコーディング、エージェント型タスク、推論タスクに対応しています。&lt;/li&gt;&lt;li&gt;安全なコード生成に重点を置いて設計されています。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>C++言語サーバーがMSBuildビルドの自動設定に対応</title>
       <link>https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds</link>
