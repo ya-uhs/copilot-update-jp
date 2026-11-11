@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Nov 2026 01:41:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 11:40:25 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.146 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_146</link>
+      <guid isPermaLink="false">vscode-4c0f71dc47d14de2554d</guid>
+      <pubDate>Wed, 11 Nov 2026 11:40:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.146では、Copilot harnessが新しいセッションのデフォルトとして継続提供される一方で、旧Local harnessは非推奨となり2027年2月に削除される予定です。また、AgentsウィンドウにおけるInboxモード、チャットウィンドウ、拡張機能の管理、モデル比較機能などの新機能や実験的機能が追加されました。さらに、GitHub Copilot CLIのセッションをVS Codeへ引き継ぐ機能なども導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessがデフォルトとなり、Local harnessは非推奨化され2027年2月に削除予定&lt;/li&gt;&lt;li&gt;Agentsウィンドウでセッションを管理できるInboxモードや、独立したチャットウィンドウ機能を追加（実験的／プレビュー）&lt;/li&gt;&lt;li&gt;Agentsウィンドウ内での拡張機能の検索・インストール・アンインストールに対応&lt;/li&gt;&lt;li&gt;モデル比較機能の強化により、ジャッジやシンセサイザーの構成、Copilot Fusionの選択などが容易に&lt;/li&gt;&lt;li&gt;GitHub Copilot CLIのセッションをコマンド経由でVS CodeのChatビューへ移行する機能を追加（実験的）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_146"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.110-1</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-1</link>

@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Nov 2026 01:41:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 11:40:24 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.146 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_146</link>
+      <guid isPermaLink="false">vscode-4c0f71dc47d14de2554d</guid>
+      <pubDate>Wed, 11 Nov 2026 11:40:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.146では、Copilot harnessが新しいセッションのデフォルトとして継続提供される一方で、旧Local harnessは非推奨となり2027年2月に削除される予定です。また、AgentsウィンドウにおけるInboxモード、チャットウィンドウ、拡張機能の管理、モデル比較機能などの新機能や実験的機能が追加されました。さらに、GitHub Copilot CLIのセッションをVS Codeへ引き継ぐ機能なども導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessがデフォルトとなり、Local harnessは非推奨化され2027年2月に削除予定&lt;/li&gt;&lt;li&gt;Agentsウィンドウでセッションを管理できるInboxモードや、独立したチャットウィンドウ機能を追加（実験的／プレビュー）&lt;/li&gt;&lt;li&gt;Agentsウィンドウ内での拡張機能の検索・インストール・アンインストールに対応&lt;/li&gt;&lt;li&gt;モデル比較機能の強化により、ジャッジやシンセサイザーの構成、Copilot Fusionの選択などが容易に&lt;/li&gt;&lt;li&gt;GitHub Copilot CLIのセッションをコマンド経由でVS CodeのChatビューへ移行する機能を追加（実験的）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_146"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Work IQを通じたビジネスアプリケーションへのアクセス機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573293</link>
+      <guid isPermaLink="false">m365-roadmap-423ce5fea6a229be77be</guid>
+      <pubDate>Wed, 11 Nov 2026 00:53:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Coworkにおいて、Work IQ経由でビジネスアプリケーションにアクセスし、Business Skillsを使用して一連の業務プロセスを完了できるようになります。これにより、エンタープライズデータやアプリに基づいて業務を遂行し、コンテキストの切り替えを削減することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot CoworkのWork IQを通じたビジネスアプリケーションへのアクセス機能を追加&lt;/li&gt;&lt;li&gt;Business Skillsを利用したエンドツーエンドの業務プロセス実行をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573293"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: 組織のビジネスプロセスを管理するビジネススキル</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573290</link>
+      <guid isPermaLink="false">m365-roadmap-e690faf8982a9e36a9a1</guid>
+      <pubDate>Wed, 11 Nov 2026 00:53:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Work IQ MCPのビジネススキルは、組織の業務プロセスやポリシーを自然言語の指示として定義する機能です。エージェントは実行時にこれらを発見して利用し、組織全体で一貫した業務遂行を実現します。プレビューは2026年9月に、GAは2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語でビジネスプロセスやポリシーを記述するビジネススキル機能の導入&lt;/li&gt;&lt;li&gt;Work IQ MCPを介したエージェントによるスキルへの動的なアクセスと実行&lt;/li&gt;&lt;li&gt;複数エージェント間での共通プロセス利用による業務の一貫性確保&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573290"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>エンタープライズCopilotシート管理におけるGitHub Appのサポート</title>
       <link>https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management</link>
@@ -1976,36 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントがWork IQを介して関連するMicrosoft 365のコンテンツやコンテキストを取得できるようになります。プレビュー提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQを通じた関連Microsoft 365コンテンツおよびコンテキストのエージェントによる取得有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570673"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.98-0</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-0</link>
-      <guid isPermaLink="false">github-copilot-cli-412136255</guid>
-      <pubDate>Tue, 13 Oct 2026 21:45:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98-0がリリースされました。このバージョンには不具合の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>low</category>
-    </item>
-    <item>
-      <title>GitHub CopilotにおけるGemini 4 Argonの一般提供開始</title>
-      <link>https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot</link>
-      <guid isPermaLink="false">github-changelog-23347420601cd4d27d10</guid>
-      <pubDate>Tue, 13 Oct 2026 18:39:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Googleの最新フロンティアモデルであるGemini 4 Argonが、GitHub Copilotで一般提供を開始しました。本モデルは、複雑なコーディング、エージェント型タスク、および推論作業向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 ArgonモデルがGitHub Copilotに追加され、一般提供が開始された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.97 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.97</link>
-      <guid isPermaLink="false">github-copilot-cli-411990782</guid>
-      <pubDate>Tue, 13 Oct 2026 18:37:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.97では、カスタムエージェント向けの宣言型フックの追加や、プラグインフェッチ時の認証トークン再試行機能の実装が行われました。また、TLSインターセプトプロキシを使用する環境でのストリーミング応答の改善、設定ファイルの耐障害性向上、および多数の不具合修正とパフォーマンス改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムエージェント向けにエージェントスコープの宣言型フックを追加&lt;/li&gt;&lt;li&gt;HTTPS認証失敗時に、リモートプラグインマーケットプレイスとプラグインフェッチがサインイン済みGitHubトークンで1回再試行するように変更&lt;/li&gt;&lt;li&gt;config.jsonの一部エントリが無効な場合でも、起動ごとのリセットを行わずに保存済み設定を保持&lt;/li&gt;&lt;li&gt;インライン画像が対応端末でデフォルト描画されるようになり、/settings inlineImages falseで無効化が可能に&lt;/li&gt;&lt;li&gt;長時間のセッションにおけるV8のメモリ不足クラッシュを防ぐため、緊急のメモリ解放がクールダウンをバイパス可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.97"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>

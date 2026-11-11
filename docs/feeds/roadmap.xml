@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Nov 2026 01:36:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 11:40:25 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Work IQを通じたビジネスアプリケーションへのアクセス機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573293</link>
+      <guid isPermaLink="false">m365-roadmap-423ce5fea6a229be77be</guid>
+      <pubDate>Wed, 11 Nov 2026 00:53:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Coworkにおいて、Work IQ経由でビジネスアプリケーションにアクセスし、Business Skillsを使用して一連の業務プロセスを完了できるようになります。これにより、エンタープライズデータやアプリに基づいて業務を遂行し、コンテキストの切り替えを削減することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot CoworkのWork IQを通じたビジネスアプリケーションへのアクセス機能を追加&lt;/li&gt;&lt;li&gt;Business Skillsを利用したエンドツーエンドの業務プロセス実行をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573293"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: 組織のビジネスプロセスを管理するビジネススキル</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573290</link>
+      <guid isPermaLink="false">m365-roadmap-e690faf8982a9e36a9a1</guid>
+      <pubDate>Wed, 11 Nov 2026 00:53:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Work IQ MCPのビジネススキルは、組織の業務プロセスやポリシーを自然言語の指示として定義する機能です。エージェントは実行時にこれらを発見して利用し、組織全体で一貫した業務遂行を実現します。プレビューは2026年9月に、GAは2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語でビジネスプロセスやポリシーを記述するビジネススキル機能の導入&lt;/li&gt;&lt;li&gt;Work IQ MCPを介したエージェントによるスキルへの動的なアクセスと実行&lt;/li&gt;&lt;li&gt;複数エージェント間での共通プロセス利用による業務の一貫性確保&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573290"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Work IQ：エグゼキュート（レシピ）</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570866</link>
@@ -984,26 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-01c6b706fea3625795bb</guid>
       <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;クラシック版Outlookにおいて、共有メールボックスおよび代理メールボックスの利用者がCopilot Chatに直接アクセスできるようになります。対象となるのは、読み取り・管理権限（フルアクセス）やメールフォルダレベルの権限を持つユーザーおよび代理人です。本機能は2026年11月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;共有メールボックスおよび代理メールボックスでのCopilot Chatへの直接アクセスに対応&lt;/li&gt;&lt;li&gt;読み取り・管理権限やメールフォルダレベルの権限を持つユーザーおよび代理人が対象&lt;/li&gt;&lt;li&gt;クラシック版Outlookでの利用をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573698"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ: Microsoft IQ</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570870</link>
-      <guid isPermaLink="false">m365-roadmap-501ba4b666484f35aa32</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Work IQは、エージェントが組織内の知識を発見、推論、活用できるようにするための統合されたインテリジェンスレイヤーを提供します。プレビューは2026年11月、一般提供（GA）は2027年1月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織内の知識の発見、推論、活用を支援する統合インテリジェンスレイヤーの提供&lt;/li&gt;&lt;li&gt;Preview提供開始予定: 2026年11月&lt;/li&gt;&lt;li&gt;GA（一般提供）開始予定: 2027年1月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570870"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ: RESTエンドポイントツール</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570868</link>
-      <guid isPermaLink="false">m365-roadmap-65a18f3cf3c8ded2d59a</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのエージェントが、管理されたWork IQ統合を介してサポート対象のRESTエンドポイントをツールとして利用できるようになります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがWork IQ統合を介してRESTエンドポイントをツールとして使用可能になる&lt;/li&gt;&lt;li&gt;Preview提供開始予定: 2026年10月&lt;/li&gt;&lt;li&gt;GA（一般提供）予定: 2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570868"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
