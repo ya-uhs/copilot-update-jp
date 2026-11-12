@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Nov 2026 17:37:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 02:40:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,14 +59,34 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub CopilotがXcodeのコーディングアシスタントで利用可能に</title>
-      <link>https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant</link>
-      <guid isPermaLink="false">github-changelog-d53634b505a78ccb6c4a</guid>
-      <pubDate>Wed, 04 Nov 2026 19:10:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub CopilotがXcodeのビルトインのコーディングアシスタントで直接利用できるようになりました。この統合機能により、ネイティブなXcodeワークフロー内でCopilotを使用することが可能です。現在、本機能はパブリックプレビューとして提供されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;XcodeのビルトインコーディングアシスタントとGitHub Copilotが統合&lt;/li&gt;&lt;li&gt;ネイティブなXcodeワークフロー内でのCopilotの利用に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>Public Preview</category>
-      <category>high</category>
+      <title>[提供予定・ロードマップ] Outlookモバイル版のCopilot ChatのUXアップデート</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579897</link>
+      <guid isPermaLink="false">m365-roadmap-7f740acfa3397edeb0ba</guid>
+      <pubDate>Thu, 12 Nov 2026 01:35:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;iOSおよびAndroid版OutlookのCopilot Chatがアップデートされます。アニメーションの円滑化、テキストの改善、ヘッダーの変更が含まれます。一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アニメーションの動作がよりスムーズに改善&lt;/li&gt;&lt;li&gt;テキスト（文字列）の表現を改善&lt;/li&gt;&lt;li&gt;新規・一時チャットボタンを「...」ボタンの配下に移動するなど、ヘッダー部分を変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579897"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110-3 のアップデート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-3</link>
+      <guid isPermaLink="false">github-copilot-cli-442383990</guid>
+      <pubDate>Thu, 12 Nov 2026 01:32:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-3がリリースされ、Microsoft Entraサインイン時の不要なエラーポップアップの回避や、スクリーンリーダー対応の改善が行われました。また、端末幅に応じた `/usage` モデル行の折り返しや、スキル説明文のパース処理の修正など、複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Entraサインイン時に組織アカウントが利用可能な場合の不要なエラーポップアップを回避&lt;/li&gt;&lt;li&gt;スクリーンリーダーが現在のセッションを識別し、注意が必要な場合やアイドル状態のときにアナウンスするように改善&lt;/li&gt;&lt;li&gt;/usage モデル行が100列での固定ではなく端末の幅で折り返されるように変更&lt;/li&gt;&lt;li&gt;端末のエスケープシーケンス内に隠された単語がスキルとしてリスト表示、事前選択、実行されるのを修正&lt;/li&gt;&lt;li&gt;Ctrl+X ショートカットウィンドウが閉じる直気に入力されたキーを保持&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110-2 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-2</link>
+      <guid isPermaLink="false">github-copilot-cli-442294779</guid>
+      <pubDate>Wed, 11 Nov 2026 23:19:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-2では、中断や失敗した試行のラベル付けの修正、削除されたディレクトリからの起動時のクラッシュ防止、AIクレジットの制限遵守など、多数のバグ修正と安定性向上が行われました。サイドバー表示時のレイアウト調整やMCPサーバーの管理機能も改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;中断または失敗した試行の部分的な応答や推論を不完全としてラベル付けしつつテキストを保持するように修正しました。&lt;/li&gt;&lt;li&gt;削除されたディレクトリから copilot を起動した際にスタックトレースでクラッシュせず、ディレクトリが存在しない旨と復元方法を表示するように改善しました。&lt;/li&gt;&lt;li&gt;/compact コマンドがセッションのAIクレジット制限を尊重し、制限到達時の追加課金を防止するようにしました。&lt;/li&gt;&lt;li&gt;Vimノーマルモードの動作改善や、プラグイン・MCPサーバー・設定まわりのエラー処理および表示不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Work IQを通じたビジネスアプリケーションへのアクセス機能</title>
@@ -86,26 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Work IQ MCPのビジネススキルは、組織の業務プロセスやポリシーを自然言語の指示として定義する機能です。エージェントは実行時にこれらを発見して利用し、組織全体で一貫した業務遂行を実現します。プレビューは2026年9月に、GAは2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語でビジネスプロセスやポリシーを記述するビジネススキル機能の導入&lt;/li&gt;&lt;li&gt;Work IQ MCPを介したエージェントによるスキルへの動的なアクセスと実行&lt;/li&gt;&lt;li&gt;複数エージェント間での共通プロセス利用による業務の一貫性確保&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573290"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>エンタープライズCopilotシート管理におけるGitHub Appのサポート</title>
-      <link>https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management</link>
-      <guid isPermaLink="false">github-changelog-0da2a3ce8ca2ed1bece8</guid>
-      <pubDate>Wed, 11 Nov 2026 00:10:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;エンタープライズレベルのGitHub Appsが、Copilotシート管理APIを呼び出し可能になりました。これにより、どのユーザーやエンタープライズチームにCopilotシートが割り当てられているかを制御できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Enterprise GitHub AppsからエンタープライズレベルのCopilotシート管理APIの呼び出しが可能に&lt;/li&gt;&lt;li&gt;APIを通じてユーザーおよびエンタープライズチームへのCopilotシートの割り当てを制御可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.110-0 の更新情報</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-0</link>
-      <guid isPermaLink="false">github-copilot-cli-440852785</guid>
-      <pubDate>Tue, 10 Nov 2026 20:07:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-0がリリースされました。エージェントコマンドでのパスワードプロンプト応答機能の実験的追加、アカウント切り替えやセッション管理の改善、および多数の不具合修正と挙動の調整が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;実験的機能として、エージェントコマンドからのgit、ssh、sudoのパスワードプロンプトをマスクされたダイアログで応答する機能を追加しました。&lt;/li&gt;&lt;li&gt;利用できないアカウントを選択した際のエリカバリー案内と再試行アクションを追加しました。&lt;/li&gt;&lt;li&gt;セッションのAIクレジット利用率が90%に達した際に、ツールへのアクセスが失われる前にトップアップを提案するようにしました。&lt;/li&gt;&lt;li&gt;特殊文字を含むファイル名の処理やMCP設定・ツール結果の受け渡しに関する不具合を多数修正しました。&lt;/li&gt;&lt;li&gt;レガシーのリモートステアリング機能を削除しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
       <category>medium</category>
     </item>
   </channel>

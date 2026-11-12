@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Nov 2026 11:40:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 02:40:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Outlookモバイル版のCopilot ChatのUXアップデート</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579897</link>
+      <guid isPermaLink="false">m365-roadmap-7f740acfa3397edeb0ba</guid>
+      <pubDate>Thu, 12 Nov 2026 01:35:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;iOSおよびAndroid版OutlookのCopilot Chatがアップデートされます。アニメーションの円滑化、テキストの改善、ヘッダーの変更が含まれます。一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アニメーションの動作がよりスムーズに改善&lt;/li&gt;&lt;li&gt;テキスト（文字列）の表現を改善&lt;/li&gt;&lt;li&gt;新規・一時チャットボタンを「...」ボタンの配下に移動するなど、ヘッダー部分を変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579897"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110-3 のアップデート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-3</link>
+      <guid isPermaLink="false">github-copilot-cli-442383990</guid>
+      <pubDate>Thu, 12 Nov 2026 01:32:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-3がリリースされ、Microsoft Entraサインイン時の不要なエラーポップアップの回避や、スクリーンリーダー対応の改善が行われました。また、端末幅に応じた `/usage` モデル行の折り返しや、スキル説明文のパース処理の修正など、複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Entraサインイン時に組織アカウントが利用可能な場合の不要なエラーポップアップを回避&lt;/li&gt;&lt;li&gt;スクリーンリーダーが現在のセッションを識別し、注意が必要な場合やアイドル状態のときにアナウンスするように改善&lt;/li&gt;&lt;li&gt;/usage モデル行が100列での固定ではなく端末の幅で折り返されるように変更&lt;/li&gt;&lt;li&gt;端末のエスケープシーケンス内に隠された単語がスキルとしてリスト表示、事前選択、実行されるのを修正&lt;/li&gt;&lt;li&gt;Ctrl+X ショートカットウィンドウが閉じる直気に入力されたキーを保持&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110-2 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-2</link>
+      <guid isPermaLink="false">github-copilot-cli-442294779</guid>
+      <pubDate>Wed, 11 Nov 2026 23:19:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-2では、中断や失敗した試行のラベル付けの修正、削除されたディレクトリからの起動時のクラッシュ防止、AIクレジットの制限遵守など、多数のバグ修正と安定性向上が行われました。サイドバー表示時のレイアウト調整やMCPサーバーの管理機能も改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;中断または失敗した試行の部分的な応答や推論を不完全としてラベル付けしつつテキストを保持するように修正しました。&lt;/li&gt;&lt;li&gt;削除されたディレクトリから copilot を起動した際にスタックトレースでクラッシュせず、ディレクトリが存在しない旨と復元方法を表示するように改善しました。&lt;/li&gt;&lt;li&gt;/compact コマンドがセッションのAIクレジット制限を尊重し、制限到達時の追加課金を防止するようにしました。&lt;/li&gt;&lt;li&gt;Vimノーマルモードの動作改善や、プラグイン・MCPサーバー・設定まわりのエラー処理および表示不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.146 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_146</link>
@@ -1974,36 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-65a18f3cf3c8ded2d59a</guid>
       <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのエージェントが、管理されたWork IQ統合を介してサポート対象のRESTエンドポイントをツールとして利用できるようになります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがWork IQ統合を介してRESTエンドポイントをツールとして使用可能になる&lt;/li&gt;&lt;li&gt;Preview提供開始予定: 2026年10月&lt;/li&gt;&lt;li&gt;GA（一般提供）予定: 2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570868"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ: A2AおよびMCPエライシテーション</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570852</link>
-      <guid isPermaLink="false">m365-roadmap-983c96d676cecf23e2f9</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、A2AおよびMCPタスクが不足している情報や承認を要求し、その後処理を再開できるようになります。プレビュー提供は2026年10月、一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A2AおよびMCPタスクでの不足情報の要求機能の追加&lt;/li&gt;&lt;li&gt;A2AおよびMCPタスクでの承認要求と処理の再開機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570852"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ：A2AおよびMCPの長期間実行タスク</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570851</link>
-      <guid isPermaLink="false">m365-roadmap-e6e4a6866fbc3a50d032</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けに、進捗追跡、結果の後からの取得、キャンセル機能を備えた耐久性の高い長期間実行A2AおよびMCPタスクが有効になります。プレビュー版の提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;長期間実行されるA2AおよびMCPタスクのサポート&lt;/li&gt;&lt;li&gt;タスクの進捗追跡機能の追加&lt;/li&gt;&lt;li&gt;タスク結果の後からの取得機能の追加&lt;/li&gt;&lt;li&gt;タスクのキャンセル機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570851"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] [ロードマップ] Work IQ: 取得機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570673</link>
-      <guid isPermaLink="false">m365-roadmap-2f0c2fbbcb5f250ed74b</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントがWork IQを介して関連するMicrosoft 365のコンテンツやコンテキストを取得できるようになります。プレビュー提供は2026年10月、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQを通じた関連Microsoft 365コンテンツおよびコンテキストのエージェントによる取得有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570673"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Nov 2026 11:40:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 02:40:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110-3 のアップデート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-3</link>
+      <guid isPermaLink="false">github-copilot-cli-442383990</guid>
+      <pubDate>Thu, 12 Nov 2026 01:32:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-3がリリースされ、Microsoft Entraサインイン時の不要なエラーポップアップの回避や、スクリーンリーダー対応の改善が行われました。また、端末幅に応じた `/usage` モデル行の折り返しや、スキル説明文のパース処理の修正など、複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Entraサインイン時に組織アカウントが利用可能な場合の不要なエラーポップアップを回避&lt;/li&gt;&lt;li&gt;スクリーンリーダーが現在のセッションを識別し、注意が必要な場合やアイドル状態のときにアナウンスするように改善&lt;/li&gt;&lt;li&gt;/usage モデル行が100列での固定ではなく端末の幅で折り返されるように変更&lt;/li&gt;&lt;li&gt;端末のエスケープシーケンス内に隠された単語がスキルとしてリスト表示、事前選択、実行されるのを修正&lt;/li&gt;&lt;li&gt;Ctrl+X ショートカットウィンドウが閉じる直気に入力されたキーを保持&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110-2 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-2</link>
+      <guid isPermaLink="false">github-copilot-cli-442294779</guid>
+      <pubDate>Wed, 11 Nov 2026 23:19:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-2では、中断や失敗した試行のラベル付けの修正、削除されたディレクトリからの起動時のクラッシュ防止、AIクレジットの制限遵守など、多数のバグ修正と安定性向上が行われました。サイドバー表示時のレイアウト調整やMCPサーバーの管理機能も改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;中断または失敗した試行の部分的な応答や推論を不完全としてラベル付けしつつテキストを保持するように修正しました。&lt;/li&gt;&lt;li&gt;削除されたディレクトリから copilot を起動した際にスタックトレースでクラッシュせず、ディレクトリが存在しない旨と復元方法を表示するように改善しました。&lt;/li&gt;&lt;li&gt;/compact コマンドがセッションのAIクレジット制限を尊重し、制限到達時の追加課金を防止するようにしました。&lt;/li&gt;&lt;li&gt;Vimノーマルモードの動作改善や、プラグイン・MCPサーバー・設定まわりのエラー処理および表示不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.146 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_146</link>
@@ -1987,26 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.83-5 のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.83-5</link>
-      <guid isPermaLink="false">github-copilot-cli-382451182</guid>
-      <pubDate>Fri, 04 Sep 2026 03:01:51 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.83-5がリリースされ、Windows 11のタスクバーでのセッション表示機能が追加されました。また、macOSおよびLinuxにおけるサンドボックス機能のセキュリティと動作が改善されています。さらに、CLIのフリーズを防ぐセッションロックの修正や、Kerberosプロキシ認証の再接続に関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows 11のタスクバーで実行中のCopilotセッションとライブホバーステータスカードを表示する機能を追加&lt;/li&gt;&lt;li&gt;macOSおよびLinuxにおいて、サンドボックス化されたコマンドからローカルマシーン上で実行中のサービスへのアクセスを遮断するように改善&lt;/li&gt;&lt;li&gt;Linuxのサンドボックス機能においてPATH上への依存ツール（slirp4netns、nsenter、iptables、ip6tables、iptables-restore、ip6tables-restore）の配置が必要になるよう変更&lt;/li&gt;&lt;li&gt;同一スレッドで再入されるセッションロックがCLIのフリーズではなくエラー報告を返すように修正&lt;/li&gt;&lt;li&gt;初期チャレンジが Connection: close を返す場合のKerberosプロキシ認証の再接続を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.83-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.83-4 のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.83-4</link>
-      <guid isPermaLink="false">github-copilot-cli-382188685</guid>
-      <pubDate>Thu, 03 Sep 2026 16:55:17 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.83-4では、MCP OAuthサインイン向けのClient ID Metadata Document（CIMD）サポートが追加されました。また、CLIの起動動作やセッション再開時の応答性が改善され、サンドボックス環境のファイルツールやMCPサーバー等に関する複数の不具合が修正されました。さらに、廃止されたClaudeおよびGeminiモデルがモデル選択画面から削除されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCP OAuthサインイン用のClient ID Metadata Document（CIMD）サポートを追加&lt;/li&gt;&lt;li&gt;CLIがデフォルトで中断セッションの復元プロンプトなしで起動するように改善&lt;/li&gt;&lt;li&gt;大きなセッションの再開時に、入力プロンプトがより早く応答可能になるよう改善&lt;/li&gt;&lt;li&gt;サンドボックス化されたファイルツールが、開発ツールのパスやトークンを含むレジストリ設定を読み込めるように修正&lt;/li&gt;&lt;li&gt;タイムアウトしたシェルコマンドの停止時に、キューに保存されたメッセージの実行とアイドル状態への復帰が可能になるよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.83-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>
