@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Nov 2026 02:40:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 02:22:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.111-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.111-0</link>
+      <guid isPermaLink="false">github-copilot-cli-443735173</guid>
+      <pubDate>Fri, 13 Nov 2026 02:15:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.111-0がリリースされました。エンタープライズ管理されたシェル、Bash、PowerShellパーミッションルールへの正規表現サポートの追加や、リモートクライアントがセッションを作成できる新オプションの導入が行われました。また、ポリシーガイダンスの改善、組織サポートリンクの表示、および多数のバグ修正とUI調整が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エンタープライズ管理されたシェル、Bash、PowerShellパーミッションルールに正規表現サポートを追加しました。&lt;/li&gt;&lt;li&gt;CLIホスト上でリモートクライアントが1回起動分のセッションを作成できるようにする --host-allow-session-creation を追加しました。&lt;/li&gt;&lt;li&gt;ポリシーガイダンスや管理設定の通知において、組織のサポートリンクを表示するようにしました。&lt;/li&gt;&lt;li&gt;再起動後のインデックス検索がより早く利用可能になり、インデックスが検索を処理できる場合のみ有効化の通知を表示するように改善しました。&lt;/li&gt;&lt;li&gt;プレミアムリクエスト使用状況の /usage を更新し、パーセンテージが常に最新の状態を維持するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.111-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110 更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110</link>
+      <guid isPermaLink="false">github-copilot-cli-443607978</guid>
+      <pubDate>Thu, 12 Nov 2026 22:59:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110がリリースされ、エージェントコマンドからのパスワードプロンプトの試験的サポートや、Microsoft Entraサインイン時の不要なエラーポップアップの抑制が行われました。また、ターミナル幅に応じた表示の最適化、MCP・設定ファイルの堅牢性向上、UIレイアウトの修正など、多数の不具合修正と改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;git、ssh、sudoのパスワードプロンプトをマスクされたダイアログで応答する試験的機能を追加（/experimental onで有効化）&lt;/li&gt;&lt;li&gt;利用可能な組織アカウントがある場合、Microsoft Entraサインイン時の不要なエラーポップアップを回避&lt;/li&gt;&lt;li&gt;Sessionsリストにおいて、スクリーンリーダーが現在のセッションや注意・アイドル状態をアナウンスするよう改善&lt;/li&gt;&lt;li&gt;/mcp addや/mcp editで無効な設定ファイルに遭遇した際、既存のMCP設定を保持し保存エラーを表示するよう変更&lt;/li&gt;&lt;li&gt;設定（settings.json）が無効な値を含む場合でも、プラグインのインストールや削除等によって他のプラグイン設定が消去されないように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.110-3 のアップデート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110-3</link>
@@ -1987,26 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-0 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-0</link>
-      <guid isPermaLink="false">github-copilot-cli-383018313</guid>
-      <pubDate>Fri, 04 Sep 2026 21:15:17 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.84-0がリリースされました。管理対象のサンドボックスセッションを承認済みバイパスプロンプトから残りのセッション期間無効化できる機能が追加されました。また、PowerShellでのサンドボックスブロックに関する問題や、複数アカウント環境でのghコマンドの動作、Windows環境でのGit実行時の不具合などが修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;承認済みのバイパスプロンプトから、管理対象のサンドボックスセッションを残りのセッション期間中無効化できるようになりました。&lt;/li&gt;&lt;li&gt;PowerShellにおいて、サンドボックスブロックがセッション外でのコマンド実行を提案する問題を修正しました。&lt;/li&gt;&lt;li&gt;資格情報ストアに複数のGitHubアカウントが存在する場合、サンドボックス化されたghコマンドが任意の選択ではなく、現在ログインしているアカウントとして動作するように修正しました。&lt;/li&gt;&lt;li&gt;互換性のあるクリティクスが削除されたことに伴い、モデル更新後に `/rubber-duck` コマンドが非表示になるようにしました。&lt;/li&gt;&lt;li&gt;サンドボックス環境での実行時に、環境変数およびツール設定ファイルから再配置された開発者ツールキャッシュを使用するように変更しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.83 の更新情報</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.83</link>
-      <guid isPermaLink="false">github-copilot-cli-382838246</guid>
-      <pubDate>Fri, 04 Sep 2026 15:38:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.83 がリリースされ、Windows 11タスクバーでのライブホバーステータス表示や、MCP OAuthサインイン向けのClient ID Metadata Document (CIMD) サポートなどの新機能が追加されました。また、カスタムエージェントのフォールバックモデル機能や、セッションサイドバーの並び替えオプション、エンタープライズ向けの強制ログイン組織設定（forceLoginOrgs）などが導入されています。さらに、MCPサーバーやサンドボックス環境、メモリ管理、UI表示に関連する多数のバグ修正と安定性向上が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Windows 11タスクバーで実行中のCopilotセッションとライブホバーステータスカードを表示する機能を追加&lt;/li&gt;&lt;li&gt;MCP OAuthサインインのためのClient ID Metadata Document (CIMD) サポートを追加&lt;/li&gt;&lt;li&gt;カスタムエージェントで複数のモデルを順番に試行する設定と、モデル変更を維持する model-policy: required を追加&lt;/li&gt;&lt;li&gt;claude-fable-5.1 モデルのサポートを追加し、廃止されたClaudeおよびGeminiモデルを /model ピッカーから削除&lt;/li&gt;&lt;li&gt;セッションサイドバーの分割表示に Recent, Created, Name, None の並び替えオプションを追加し、選択した順序を保存&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.83"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>high</category>
     </item>
   </channel>
 </rss>

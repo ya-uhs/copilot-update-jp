@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Nov 2026 02:40:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 02:22:03 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.111-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.111-0</link>
+      <guid isPermaLink="false">github-copilot-cli-443735173</guid>
+      <pubDate>Fri, 13 Nov 2026 02:15:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.111-0がリリースされました。エンタープライズ管理されたシェル、Bash、PowerShellパーミッションルールへの正規表現サポートの追加や、リモートクライアントがセッションを作成できる新オプションの導入が行われました。また、ポリシーガイダンスの改善、組織サポートリンクの表示、および多数のバグ修正とUI調整が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エンタープライズ管理されたシェル、Bash、PowerShellパーミッションルールに正規表現サポートを追加しました。&lt;/li&gt;&lt;li&gt;CLIホスト上でリモートクライアントが1回起動分のセッションを作成できるようにする --host-allow-session-creation を追加しました。&lt;/li&gt;&lt;li&gt;ポリシーガイダンスや管理設定の通知において、組織のサポートリンクを表示するようにしました。&lt;/li&gt;&lt;li&gt;再起動後のインデックス検索がより早く利用可能になり、インデックスが検索を処理できる場合のみ有効化の通知を表示するように改善しました。&lt;/li&gt;&lt;li&gt;プレミアムリクエスト使用状況の /usage を更新し、パーセンテージが常に最新の状態を維持するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.111-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.110 更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.110</link>
+      <guid isPermaLink="false">github-copilot-cli-443607978</guid>
+      <pubDate>Thu, 12 Nov 2026 22:59:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110がリリースされ、エージェントコマンドからのパスワードプロンプトの試験的サポートや、Microsoft Entraサインイン時の不要なエラーポップアップの抑制が行われました。また、ターミナル幅に応じた表示の最適化、MCP・設定ファイルの堅牢性向上、UIレイアウトの修正など、多数の不具合修正と改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;git、ssh、sudoのパスワードプロンプトをマスクされたダイアログで応答する試験的機能を追加（/experimental onで有効化）&lt;/li&gt;&lt;li&gt;利用可能な組織アカウントがある場合、Microsoft Entraサインイン時の不要なエラーポップアップを回避&lt;/li&gt;&lt;li&gt;Sessionsリストにおいて、スクリーンリーダーが現在のセッションや注意・アイドル状態をアナウンスするよう改善&lt;/li&gt;&lt;li&gt;/mcp addや/mcp editで無効な設定ファイルに遭遇した際、既存のMCP設定を保持し保存エラーを表示するよう変更&lt;/li&gt;&lt;li&gt;設定（settings.json）が無効な値を含む場合でも、プラグインのインストールや削除等によって他のプラグイン設定が消去されないように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Outlookモバイル版のCopilot ChatのUXアップデート</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579897</link>
@@ -1984,26 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-01c6b706fea3625795bb</guid>
       <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;クラシック版Outlookにおいて、共有メールボックスおよび代理メールボックスの利用者がCopilot Chatに直接アクセスできるようになります。対象となるのは、読み取り・管理権限（フルアクセス）やメールフォルダレベルの権限を持つユーザーおよび代理人です。本機能は2026年11月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;共有メールボックスおよび代理メールボックスでのCopilot Chatへの直接アクセスに対応&lt;/li&gt;&lt;li&gt;読み取り・管理権限やメールフォルダレベルの権限を持つユーザーおよび代理人が対象&lt;/li&gt;&lt;li&gt;クラシック版Outlookでの利用をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573698"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ: Microsoft IQ</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570870</link>
-      <guid isPermaLink="false">m365-roadmap-501ba4b666484f35aa32</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Work IQは、エージェントが組織内の知識を発見、推論、活用できるようにするための統合されたインテリジェンスレイヤーを提供します。プレビューは2026年11月、一般提供（GA）は2027年1月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織内の知識の発見、推論、活用を支援する統合インテリジェンスレイヤーの提供&lt;/li&gt;&lt;li&gt;Preview提供開始予定: 2026年11月&lt;/li&gt;&lt;li&gt;GA（一般提供）開始予定: 2027年1月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570870"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ: RESTエンドポイントツール</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570868</link>
-      <guid isPermaLink="false">m365-roadmap-65a18f3cf3c8ded2d59a</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotのエージェントが、管理されたWork IQ統合を介してサポート対象のRESTエンドポイントをツールとして利用できるようになります。プレビューは2026年10月に開始され、一般提供（GA）は2026年11月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがWork IQ統合を介してRESTエンドポイントをツールとして使用可能になる&lt;/li&gt;&lt;li&gt;Preview提供開始予定: 2026年10月&lt;/li&gt;&lt;li&gt;GA（一般提供）予定: 2026年11月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570868"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
