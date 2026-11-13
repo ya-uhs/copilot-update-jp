@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 02:22:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 17:26:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.111</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.111</link>
+      <guid isPermaLink="false">github-copilot-cli-444274427</guid>
+      <pubDate>Fri, 13 Nov 2026 13:40:16 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.111 では、エンタープライズ管理シェルの権限ルールに正規表現サポートが追加され、--host-allow-session-creation オプションでリモートクライアントが一時的にセッションを作成できるようになりました。また、/usage のプレミアム使用率が最新の割合を表示するよう更新され、OAuth 再接続の重複が防止されました。さらに、端末幅が狭い環境向けに UI 表示やテーブルの整列が改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エンタープライズ管理シェル（Shell、Bash、PowerShell）の権限ルールで正規表現が使用可能になった&lt;/li&gt;&lt;li&gt;--host-allow-session-creation フラグでリモートクライアントが設定変更なしで一時的にセッションを作成できるようになった&lt;/li&gt;&lt;li&gt;/usage コマンドがプレミアムリクエスト使用率をリアルタイムで更新し、グラフが狭い端末に合わせて表示を調整した&lt;/li&gt;&lt;li&gt;重複した MCP OAuth 再接続が防止され、認証がキャンセルされた後もサーバーが適切に needs-auth 状態を保持するようになった&lt;/li&gt;&lt;li&gt;端末幅が狭い場合のテーブルや UI 要素（例：Markdown テーブル、/environments、/share 画面など）のレイアウトが改善され、スクリーンリーダーやハイコントラストテーマでも可読性が向上した&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.111"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.146 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_146</link>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.110-2では、中断や失敗した試行のラベル付けの修正、削除されたディレクトリからの起動時のクラッシュ防止、AIクレジットの制限遵守など、多数のバグ修正と安定性向上が行われました。サイドバー表示時のレイアウト調整やMCPサーバーの管理機能も改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;中断または失敗した試行の部分的な応答や推論を不完全としてラベル付けしつつテキストを保持するように修正しました。&lt;/li&gt;&lt;li&gt;削除されたディレクトリから copilot を起動した際にスタックトレースでクラッシュせず、ディレクトリが存在しない旨と復元方法を表示するように改善しました。&lt;/li&gt;&lt;li&gt;/compact コマンドがセッションのAIクレジット制限を尊重し、制限到達時の追加課金を防止するようにしました。&lt;/li&gt;&lt;li&gt;Vimノーマルモードの動作改善や、プラグイン・MCPサーバー・設定まわりのエラー処理および表示不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.110-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Work IQを通じたビジネスアプリケーションへのアクセス機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573293</link>
-      <guid isPermaLink="false">m365-roadmap-423ce5fea6a229be77be</guid>
-      <pubDate>Wed, 11 Nov 2026 00:53:34 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Coworkにおいて、Work IQ経由でビジネスアプリケーションにアクセスし、Business Skillsを使用して一連の業務プロセスを完了できるようになります。これにより、エンタープライズデータやアプリに基づいて業務を遂行し、コンテキストの切り替えを削減することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot CoworkのWork IQを通じたビジネスアプリケーションへのアクセス機能を追加&lt;/li&gt;&lt;li&gt;Business Skillsを利用したエンドツーエンドの業務プロセス実行をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573293"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>
