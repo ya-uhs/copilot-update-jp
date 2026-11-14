@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 17:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 01:57:56 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.112</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112</link>
+      <guid isPermaLink="false">github-copilot-cli-444861238</guid>
+      <pubDate>Fri, 13 Nov 2026 23:59:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI の 1.0.112 版では、エラーメッセージの表示改善やプラグイン管理の不具合修正、コピー機能での書式保持など多数の UI/UX 向上が行われました。また、モデル切替や設定項目の表示が狭い端末でも正しく行われるようになり、macOS のサンドボックス制限に関するヘルプ情報も追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/compact コマンドで失敗した際に、内部プレフィックスを除いたモデルプロバイダーのエラーメッセージが直接表示されるようになった&lt;/li&gt;&lt;li&gt;/plugin マネージャーがロードに失敗したリポジトリプラグインを有効として表示せず、外部マーケットプレイス外のソースでディレクトリが見つからない旨のメッセージも削除された&lt;/li&gt;&lt;li&gt;/copy コマンドで貼り付けた際に、Word、Outlook、Teams へ書式（段落、表、リスト、引用）を保持したまま貼り付けられるようになった&lt;/li&gt;&lt;li&gt;/settings のリスト項目が端末幅 20 列以下でも文字が省略されず全て表示されるよう改善された&lt;/li&gt;&lt;li&gt;/subagents のモデルピッカーが同一エージェントで再度開いた際に入力を受け付け、セッション切替後もプロンプトが保持されるようになった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.112"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilotの一部モデルの提供終了について</title>
+      <link>https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december</link>
+      <guid isPermaLink="false">github-changelog-862b82cce5532207ebbb</guid>
+      <pubDate>Fri, 13 Nov 2026 20:40:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、2026年12月14日に、Copilot Chatやコード補完を含むすべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルの提供を終了します。対象となるモデルや詳細なスケジュールについては、今後のアナウンスをご確認ください。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年12月14日に一部のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるGemini 4 Hydrogenの一般提供開始</title>
+      <link>https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-dde13a6350f0c89d7a8f</guid>
+      <pubDate>Fri, 13 Nov 2026 18:23:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Googleの最新FlashモデルであるGemini 4 Hydrogenが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、高速で効率的なエージェント型コーディング、ツール利用、およびマルチステップワークフロー向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 HydrogenモデルがGitHub Copilotに追加された&lt;/li&gt;&lt;li&gt;高速かつ効率的なエージェント型コーディング、ツール利用、マルチステップワークフローに対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.111</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.111</link>

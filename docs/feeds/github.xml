@@ -5,9 +5,59 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 17:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 01:57:56 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.112</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112</link>
+      <guid isPermaLink="false">github-copilot-cli-444861238</guid>
+      <pubDate>Fri, 13 Nov 2026 23:59:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI の 1.0.112 版では、エラーメッセージの表示改善やプラグイン管理の不具合修正、コピー機能での書式保持など多数の UI/UX 向上が行われました。また、モデル切替や設定項目の表示が狭い端末でも正しく行われるようになり、macOS のサンドボックス制限に関するヘルプ情報も追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/compact コマンドで失敗した際に、内部プレフィックスを除いたモデルプロバイダーのエラーメッセージが直接表示されるようになった&lt;/li&gt;&lt;li&gt;/plugin マネージャーがロードに失敗したリポジトリプラグインを有効として表示せず、外部マーケットプレイス外のソースでディレクトリが見つからない旨のメッセージも削除された&lt;/li&gt;&lt;li&gt;/copy コマンドで貼り付けた際に、Word、Outlook、Teams へ書式（段落、表、リスト、引用）を保持したまま貼り付けられるようになった&lt;/li&gt;&lt;li&gt;/settings のリスト項目が端末幅 20 列以下でも文字が省略されず全て表示されるよう改善された&lt;/li&gt;&lt;li&gt;/subagents のモデルピッカーが同一エージェントで再度開いた際に入力を受け付け、セッション切替後もプロンプトが保持されるようになった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.112"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilotの一部モデルの提供終了について</title>
+      <link>https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december</link>
+      <guid isPermaLink="false">github-changelog-862b82cce5532207ebbb</guid>
+      <pubDate>Fri, 13 Nov 2026 20:40:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、2026年12月14日に、Copilot Chatやコード補完を含むすべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルの提供を終了します。対象となるモデルや詳細なスケジュールについては、今後のアナウンスをご確認ください。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年12月14日に一部のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.112-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112-0</link>
+      <guid isPermaLink="false">github-copilot-cli-444656797</guid>
+      <pubDate>Fri, 13 Nov 2026 19:37:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.112-0がリリースされました。macOS Ventura以降での起動改善や、モデルごとの推奨コンテキストウィンドウのデフォルト適用、コスト削減を提案する/chronicle機能の強化が行われています。また、プラグイン管理やサンドボックス接続、UI表示に関する多数の不具合修正と安定性向上が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;macOS Ventura 13.5以降でのベストエフォートな起動処理を改善しました。&lt;/li&gt;&lt;li&gt;明示的なコンテキスト選択を維持しつつ、各モデルの推奨コンテキストウィンドウをデフォルトで適用するようにしました。&lt;/li&gt;&lt;li&gt;/chronicle cost-tipsにCopilot Appセッションの包含、利用状況に基づく安価なモデルや推論設定の推奨、ローカル利用状況の早期報告機能を追加しました。&lt;/li&gt;&lt;li&gt;失敗した/compactで内部プレフィックスを除いたモデルプロバイダーのエラーメッセージを表示するように修正しました。&lt;/li&gt;&lt;li&gt;プラグインマネージャーやサンドボックス、/subagents、/settings、/envなどの表示・動作に関する複数の不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.112-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotアプリにおけるGitHub Enterprise Serverのサポート</title>
+      <link>https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app</link>
+      <guid isPermaLink="false">github-changelog-a82a582d254d179cb311</guid>
+      <pubDate>Fri, 13 Nov 2026 18:27:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub CopilotアプリでGitHub Enterprise Server (GHES) が利用可能になりました。アカウントを追加することで、リモートリポジトリ、Issues、プルリクエストの操作が行えます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Enterprise Serverアカウントの追加に対応&lt;/li&gt;&lt;li&gt;リモートリポジトリ、Issues、プルリクエストの操作が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるGemini 4 Hydrogenの一般提供開始</title>
+      <link>https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-dde13a6350f0c89d7a8f</guid>
+      <pubDate>Fri, 13 Nov 2026 18:23:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Googleの最新FlashモデルであるGemini 4 Hydrogenが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、高速で効率的なエージェント型コーディング、ツール利用、およびマルチステップワークフロー向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 HydrogenモデルがGitHub Copilotに追加された&lt;/li&gt;&lt;li&gt;高速かつ効率的なエージェント型コーディング、ツール利用、マルチステップワークフローに対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.111</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.111</link>
@@ -1956,56 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.84-7がリリースされました。Claudeモデル送信時の思考形状に関する不具合の修正や、インタラクティブセッション終了時のフック実行に関する改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アダプティブ専用に分類されたClaudeモデルへ送信される思考形状の不具合を修正し、失敗せずにアダプティブを維持するように変更（思考が無効な場合は推論負荷がhighに上限設定される）&lt;/li&gt;&lt;li&gt;/clearコマンドでインタラクティブセッションが終了した際にsessionEndフックを実行するように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-7"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-6 のアップデート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-6</link>
-      <guid isPermaLink="false">github-copilot-cli-388559614</guid>
-      <pubDate>Mon, 14 Sep 2026 16:49:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.84-6がリリースされ、設定用サイドバーやネットワーク許可・拒否ルールなどの新機能が追加されました。また、各種機能の改善や、MCP、サンドボックス、Windows環境などにおける多数の不具合修正が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;CLIにサイドバー設定画面を開く /config コマンドを追加しました。&lt;/li&gt;&lt;li&gt;上流プロキシを置き換えることなくネットワークホストの許可・拒否ルールを設定できる /sandbox を追加しました。&lt;/li&gt;&lt;li&gt;マネージドな Edit および Write ルールを認識されたネイティブのシェルリダイレクションやインプレースの sed 操作に適用するように改善しました。&lt;/li&gt;&lt;li&gt;CLIのフッターにアクティブなスケジュール済みプロンプトをデフォルトで表示するようにしました。&lt;/li&gt;&lt;li&gt;/worktree、/move、および --worktree を実験的モードの有効化なしで使用可能にしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-5 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-5</link>
-      <guid isPermaLink="false">github-copilot-cli-387355425</guid>
-      <pubDate>Fri, 11 Sep 2026 21:51:46 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョンv1.0.84-5がリリースされました。本アップデートでは、セッションおよびメモリのインポート機能の追加や、Rust文法へのコマンドライン解析の移行による挙動の改善が行われています。また、サンドボックス環境やMCPサーバーに関連する複数の不具合修正も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;セみがンティックJSONL交換形式に対応するセッションおよびメモリのインポートコマンドを追加&lt;/li&gt;&lt;li&gt;コマンドライン解析をCommanderからRust文法へ移行し、エラー・ヘルプ文言の変更や特定のオプション挙動を修正&lt;/li&gt;&lt;li&gt;/sandboxファイルシステムのパス表示を改善し、独立したリストとして表示するように変更&lt;/li&gt;&lt;li&gt;サブエージェント起動時に、グローバルおよびカスタム指示からのモデル、推論負荷、コンテキスト階層の設定が適用されるよう修正&lt;/li&gt;&lt;li&gt;サンドボックスによるブロックやNode/Goのネットワーク障害をサンドボックス拒否として正しく認識するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-4のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-4</link>
-      <guid isPermaLink="false">github-copilot-cli-386484452</guid>
-      <pubDate>Thu, 10 Sep 2026 17:23:58 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.84-4がリリースされ、新しいコマンドの追加や一部コマンドの置き換えが行われました。プラグイン、MCP、スキルに関するコマンド体系が整理され、出力形式の変更や不具合の修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;copilot instruction listおよびcopilot lsp listを追加し、従来のプラグインリストコマンドからの置き換えを実施&lt;/li&gt;&lt;li&gt;copilot plugin list、copilot plugin marketplace list、copilot plugin marketplace browseに--jsonオプションを追加&lt;/li&gt;&lt;li&gt;copilot plugin、copilot mcp、copilot skillにenableおよびdisableコマンドを追加し、従来の個別有効化/無効化コマンドを置き換え&lt;/li&gt;&lt;li&gt;サンドボックスのステータス表示や、認証前のインタラクティブな--yolo起動、インデックス検索の動作を改善&lt;/li&gt;&lt;li&gt;copilot plugins install --skillなどの古いフラグや構文を削除し、copilot plugins listの出力形式を変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-3 のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-3</link>
-      <guid isPermaLink="false">github-copilot-cli-385153310</guid>
-      <pubDate>Wed, 09 Sep 2026 00:56:07 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.84-3がリリースされました。今回のアップデートでは、/copyコマンドに利用可能なタスク完了メッセージが含まれるようになり、セッション起動時にOAuth認証されたMCPサーバーが確実に接続されるように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/copyコマンドに利用可能なタスク完了メッセージを含めるように修正&lt;/li&gt;&lt;li&gt;セッション起動時におけるOAuth認証されたMCPサーバーの確実な接続を実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-2 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-2</link>
-      <guid isPermaLink="false">github-copilot-cli-384770115</guid>
-      <pubDate>Tue, 08 Sep 2026 13:50:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.84-2がリリースされ、すべてのユーザーに向けてVimモードが追加されました。また、Windowsサンドボックスの動作改善、既存セッション再開時の起動高速化、各種不具合の修正と機能改善が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vimモードが全ユーザー向けに利用可能になり、`/vim` または `editorMode` 設定で有効化できるようになりました&lt;/li&gt;&lt;li&gt;サポートされているWindowsサンドボックスポリシーにおける対話型シェルコマンドのブロックアクセス記録とエスカレーション処理が改善されました&lt;/li&gt;&lt;li&gt;`--resume` を使用して既存のローカルセッションをUUIDで再開する際の起動が高速化されました&lt;/li&gt;&lt;li&gt;tmux、screen、リモートセッションにおける `ctrl+h` の削除挙動に関する修正が行われました&lt;/li&gt;&lt;li&gt;MCPサーバーがセッション接続時と追加時に同じcopilot-cliクライアント識別子を認識するようになりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>

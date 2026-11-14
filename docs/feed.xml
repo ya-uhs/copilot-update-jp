@@ -5,9 +5,79 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 17:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 01:57:56 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.112</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112</link>
+      <guid isPermaLink="false">github-copilot-cli-444861238</guid>
+      <pubDate>Fri, 13 Nov 2026 23:59:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI の 1.0.112 版では、エラーメッセージの表示改善やプラグイン管理の不具合修正、コピー機能での書式保持など多数の UI/UX 向上が行われました。また、モデル切替や設定項目の表示が狭い端末でも正しく行われるようになり、macOS のサンドボックス制限に関するヘルプ情報も追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/compact コマンドで失敗した際に、内部プレフィックスを除いたモデルプロバイダーのエラーメッセージが直接表示されるようになった&lt;/li&gt;&lt;li&gt;/plugin マネージャーがロードに失敗したリポジトリプラグインを有効として表示せず、外部マーケットプレイス外のソースでディレクトリが見つからない旨のメッセージも削除された&lt;/li&gt;&lt;li&gt;/copy コマンドで貼り付けた際に、Word、Outlook、Teams へ書式（段落、表、リスト、引用）を保持したまま貼り付けられるようになった&lt;/li&gt;&lt;li&gt;/settings のリスト項目が端末幅 20 列以下でも文字が省略されず全て表示されるよう改善された&lt;/li&gt;&lt;li&gt;/subagents のモデルピッカーが同一エージェントで再度開いた際に入力を受け付け、セッション切替後もプロンプトが保持されるようになった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.112"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - 自動貼り付けによる迅速なフォーム入力</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579980</link>
+      <guid isPermaLink="false">m365-roadmap-18a7627fb08c32f71670</guid>
+      <pubDate>Fri, 13 Nov 2026 23:01:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralに、クリップボードの内容からAIで関連情報を識別し適切なフィールドへマッピングする自動貼り付け機能が追加されます。これにより、外部ソースからのデータ入力を効率化し、手動での入力作業を削減します。プレビュー版の提供は2026年12月、一般提供（GA）は2027年4月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;クリップボードにコピーされたテキストやHTMLからAIが関連情報を識別する機能の追加&lt;/li&gt;&lt;li&gt;コピーしたコンテンツから複数の関連フィールドを自動入力し、個別のコピー＆ペースト作業を削減&lt;/li&gt;&lt;li&gt;日常的なBusiness CentralのワークフローにおけるAI支援によるデータ入力の拡張&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579980"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilotの一部モデルの提供終了について</title>
+      <link>https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december</link>
+      <guid isPermaLink="false">github-changelog-862b82cce5532207ebbb</guid>
+      <pubDate>Fri, 13 Nov 2026 20:40:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、2026年12月14日に、Copilot Chatやコード補完を含むすべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルの提供を終了します。対象となるモデルや詳細なスケジュールについては、今後のアナウンスをご確認ください。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年12月14日に一部のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.112-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112-0</link>
+      <guid isPermaLink="false">github-copilot-cli-444656797</guid>
+      <pubDate>Fri, 13 Nov 2026 19:37:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.112-0がリリースされました。macOS Ventura以降での起動改善や、モデルごとの推奨コンテキストウィンドウのデフォルト適用、コスト削減を提案する/chronicle機能の強化が行われています。また、プラグイン管理やサンドボックス接続、UI表示に関する多数の不具合修正と安定性向上が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;macOS Ventura 13.5以降でのベストエフォートな起動処理を改善しました。&lt;/li&gt;&lt;li&gt;明示的なコンテキスト選択を維持しつつ、各モデルの推奨コンテキストウィンドウをデフォルトで適用するようにしました。&lt;/li&gt;&lt;li&gt;/chronicle cost-tipsにCopilot Appセッションの包含、利用状況に基づく安価なモデルや推論設定の推奨、ローカル利用状況の早期報告機能を追加しました。&lt;/li&gt;&lt;li&gt;失敗した/compactで内部プレフィックスを除いたモデルプロバイダーのエラーメッセージを表示するように修正しました。&lt;/li&gt;&lt;li&gt;プラグインマネージャーやサンドボックス、/subagents、/settings、/envなどの表示・動作に関する複数の不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.112-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Sales agentにおける推奨リードおよび商談アクションの発見と実行機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579977</link>
+      <guid isPermaLink="false">m365-roadmap-73b70737ee63e02c13c6</guid>
+      <pubDate>Fri, 13 Nov 2026 19:37:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Sales agent内で優先順位付けされたリードや商談の推奨アクションを確認し、同一画面から実行できるようになります。初期リリースでは、Sales qualification agentによるリードへのアプローチアクションと、Sales opportunity agentによる商談リスクアクションが対象となります。推奨アクションはデフォルトで有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales agent上で優先順位付けされたリードおよび商談の推奨アクションを一元的に確認可能&lt;/li&gt;&lt;li&gt;推奨アクションの詳細やビジネスコンテキストの確認、およびその場からのアクション実行に対応&lt;/li&gt;&lt;li&gt;初期リリースはSales qualification agentのリード向けアプローチとSales opportunity agentの商談リスクアクションを対象とし、デフォルトで有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579977"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotアプリにおけるGitHub Enterprise Serverのサポート</title>
+      <link>https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app</link>
+      <guid isPermaLink="false">github-changelog-a82a582d254d179cb311</guid>
+      <pubDate>Fri, 13 Nov 2026 18:27:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub CopilotアプリでGitHub Enterprise Server (GHES) が利用可能になりました。アカウントを追加することで、リモートリポジトリ、Issues、プルリクエストの操作が行えます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Enterprise Serverアカウントの追加に対応&lt;/li&gt;&lt;li&gt;リモートリポジトリ、Issues、プルリクエストの操作が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるGemini 4 Hydrogenの一般提供開始</title>
+      <link>https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-dde13a6350f0c89d7a8f</guid>
+      <pubDate>Fri, 13 Nov 2026 18:23:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Googleの最新FlashモデルであるGemini 4 Hydrogenが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、高速で効率的なエージェント型コーディング、ツール利用、およびマルチステップワークフロー向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 HydrogenモデルがGitHub Copilotに追加された&lt;/li&gt;&lt;li&gt;高速かつ効率的なエージェント型コーディング、ツール利用、マルチステップワークフローに対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.111</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.111</link>
@@ -1936,76 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98がリリースされ、Gemini 4 Argonのサポートが追加されました。また、コマンドフックの安定性向上、MCPステータスの同期修正、セッション再開時の権限処理の改善が行われました。さらに、起動時の入力保持や、/askコマンドなどのキーボード操作に関する機能強化が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 Argonのサポートを追加&lt;/li&gt;&lt;li&gt;Node環境下で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するように修正&lt;/li&gt;&lt;li&gt;分割ビューでのセッション切り替え時にMCPステータスと /mcp コマンドがアクティブセッションと同期した状態を維持するように修正&lt;/li&gt;&lt;li&gt;中断された保留中の権限作業を考慮し、アクティブな権限リクエストのみを続行するようにセッション再開処理を改善&lt;/li&gt;&lt;li&gt;起動時の入力ボックス表示中に入力された通常文字がドロップされずに維持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.98-2 のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-2</link>
-      <guid isPermaLink="false">github-copilot-cli-412336681</guid>
-      <pubDate>Wed, 14 Oct 2026 04:26:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98-2がリリースされました。今回のアップデートでは、Ctrl+Eによる/askの回答展開、Ctrl+Yによる回答全体のコピー、/askや/btwコマンドによる直近の完了した回答の再オープンが可能になりました。また、Node環境で子プロセスの終了シグナルが失われた場合でもコマンドフックが確実に完了するよう修正が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ctrl+E を使用して /ask の回答を展開する機能を追加&lt;/li&gt;&lt;li&gt;Ctrl+Y を使用して回答全体をコピーする機能を追加&lt;/li&gt;&lt;li&gt;/ask または /btw を使用してセッション内の直近の利用可能な完了済み回答を再オープンする機能を追加&lt;/li&gt;&lt;li&gt;Node 環境下で子プロセスの終了シグナルが失われた場合でも、コマンドフックが確実に完了するよう修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.98-1のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.98-1</link>
-      <guid isPermaLink="false">github-copilot-cli-412230905</guid>
-      <pubDate>Wed, 14 Oct 2026 00:46:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.98-1がリリースされました。Gemini 4 Argonのサポートが追加され、MCPステータスと/mcpコマンドの同期、セッション再開時の権限リクエスト処理、および起動時の入力文字のドロップに関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 Argonのサポートを追加&lt;/li&gt;&lt;li&gt;分割ビューでのセッション切り替え時にMCPステータスと/mcpコマンドがアクティブセッションと同期されるように修正&lt;/li&gt;&lt;li&gt;セッション再開時に保留中の未処理の権限作業を考慮し、アクティブな権限リクエストのみを継続するように修正&lt;/li&gt;&lt;li&gt;起動時の入力ボックス表示中に入力された通常の文字が破棄されず保持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.98-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>Visual Studio Code 1.142 — Copilot / Chat / Agents</title>
-      <link>https://code.visualstudio.com/updates/v1_142</link>
-      <guid isPermaLink="false">vscode-5ff0bcef74701c644227</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.142では、Copilot harnessが新しいセッションのデフォルトとして段階的に展開され、組み込みエージェントとしてAskが再導入されました。また、エージェントとの協業用インターフェースであるCanvases（プレビュー）や、チャットを別のフォルダやGit worktreeへ移動する機能が追加されました。さらに、エージェントウィンドウのレイアウトカスタマイズや、バックグラウンドシェルを停止する機能、モデルピッカーの再設計なども行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessが新しいセッションのデフォルトとして順次展開され、Askエージェントが再導入されました。&lt;/li&gt;&lt;li&gt;エージェントと共同作業を行うためのCanvases機能がプレビューとして追加されました。&lt;/li&gt;&lt;li&gt;エージェントウィンドウから、会話履歴を保持したままチャットを別のフォルダやGit worktreeへ移動できるようになりました。&lt;/li&gt;&lt;li&gt;バックグラウンドで実行中のシェルコマンドを手動で停止できるようになりました。&lt;/li&gt;&lt;li&gt;CopilotモデルとBYOKモデルをタブで分離する、再設計されたモデルピッカーが導入されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_142"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot in VS Code</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] SharePoint: Agent chat web part</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575298</link>
-      <guid isPermaLink="false">m365-roadmap-db71a4ec04ffb994554d</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;SharePointのモダンページエディター向けに、新しい「Agent chat web part」が提供されます。このWebパーツは、任意のM365 Copilotエージェントを使用するように設定可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;SharePointのモダンページエディターで利用可能な新しいWebパーツを追加&lt;/li&gt;&lt;li&gt;任意のM365 Copilotエージェントを使用するようWebパーツを設定可能&lt;/li&gt;&lt;li&gt;プレビュー提供予定時期: 2026年11月&lt;/li&gt;&lt;li&gt;一般提供（GA）予定時期: 2027年1月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575298"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Purview データ損失防止（DLP）：CopilotおよびCoworkにおける管理単位（Administrative Units）のサポート</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575287</link>
-      <guid isPermaLink="false">m365-roadmap-49ce2c9e62d6df537b77</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Loss Prevention（DLP）が、Microsoft 365 Copilot、Copilot Chat、Coworkに対する管理単位（Administrative Units）のサポートを拡張します。これにより、組織はテナント全体の権限を付与することなく、割り当てられた管理者に対応するCopilot DLPポリシーの管理を委任できるようになります。既存のテナント全体ポリシーは引き続き適用され、管理単位を活用した管理はオプションとなります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Purview DLPでMicrosoft 365 Copilot、Copilot Chat、Coworkの管理単位サポートを拡張&lt;/li&gt;&lt;li&gt;指定された管理単位内の管理者にCopilot DLPポリシーの管理権限を委任することが可能&lt;/li&gt;&lt;li&gt;既存のテナント全体のポリシーは継続して適用&lt;/li&gt;&lt;li&gt;管理単位に基づくスコープ管理の設定はオプショナル&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575287"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Commerce: POS返品向けMCPツールの有効化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574124</link>
-      <guid isPermaLink="false">m365-roadmap-b85fa24d9af035bfd3f8</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Commerce&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本機能は、Store Commerce POSの返品機能を利用した再利用可能なMCPツールを提供します。顧客、パートナー、エージェント開発者は、これらStructured actionsを用いて、会話型またはエージェント型の返品体験を構築できます。GA予定日は2027年3月、プレビュー予定日は2026年10月です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;レシート、注文、請求書、確認番号などの識別子を使用した元購入の検索機能を提供&lt;/li&gt;&lt;li&gt;一致する取引と返品可能な明細の取得、および返品適格性の判別機能を提供&lt;/li&gt;&lt;li&gt;選択された明細、数量、理由コードを使用した返品作成および元入金返金の実行機能を提供&lt;/li&gt;&lt;li&gt;返品適格性やポリシー制限の説明、および返品リスクインジケーターの分析機能を提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574124"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Dynamics 365 Commerce</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Power Apps：統合された設定からのモデル駆動型アプリのAI機能管理</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574104</link>
-      <guid isPermaLink="false">m365-roadmap-058da4ccad0aef5f84ec</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Appsのモデル駆動型アプリにおけるAI機能の設定が、Maker StudioおよびPower Platform admin centerの2つの補完的なサーフェスで統合されます。Maker StudioのフォームデザイナーにはCopilotおよびAIタブが追加され、管理者はPower Platform admin centerのCopilot Hubで一元管理が可能になります。これにより、従来の「Environment &amp;gt; Settings」の下にあった古いAIスイッチは廃止・削除されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Maker Studioのフォームデザイナーの設定ダイアログに新しいCopilotおよびAIタブを追加&lt;/li&gt;&lt;li&gt;Power Platform admin centerの環境設定からCopilot Hub &amp;gt; Power AppsへAI設定を統合&lt;/li&gt;&lt;li&gt;従来の「Environment &amp;gt; Settings」にある古いモデル駆動型アプリのAIスイッチを廃止および削除&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574104"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>

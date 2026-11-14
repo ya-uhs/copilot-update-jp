@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Nov 2026 02:40:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 01:57:56 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - 自動貼り付けによる迅速なフォーム入力</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579980</link>
+      <guid isPermaLink="false">m365-roadmap-18a7627fb08c32f71670</guid>
+      <pubDate>Fri, 13 Nov 2026 23:01:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralに、クリップボードの内容からAIで関連情報を識別し適切なフィールドへマッピングする自動貼り付け機能が追加されます。これにより、外部ソースからのデータ入力を効率化し、手動での入力作業を削減します。プレビュー版の提供は2026年12月、一般提供（GA）は2027年4月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;クリップボードにコピーされたテキストやHTMLからAIが関連情報を識別する機能の追加&lt;/li&gt;&lt;li&gt;コピーしたコンテンツから複数の関連フィールドを自動入力し、個別のコピー＆ペースト作業を削減&lt;/li&gt;&lt;li&gt;日常的なBusiness CentralのワークフローにおけるAI支援によるデータ入力の拡張&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579980"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Sales agentにおける推奨リードおよび商談アクションの発見と実行機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579977</link>
+      <guid isPermaLink="false">m365-roadmap-73b70737ee63e02c13c6</guid>
+      <pubDate>Fri, 13 Nov 2026 19:37:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Sales agent内で優先順位付けされたリードや商談の推奨アクションを確認し、同一画面から実行できるようになります。初期リリースでは、Sales qualification agentによるリードへのアプローチアクションと、Sales opportunity agentによる商談リスクアクションが対象となります。推奨アクションはデフォルトで有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales agent上で優先順位付けされたリードおよび商談の推奨アクションを一元的に確認可能&lt;/li&gt;&lt;li&gt;推奨アクションの詳細やビジネスコンテキストの確認、およびその場からのアクション実行に対応&lt;/li&gt;&lt;li&gt;初期リリースはSales qualification agentのリード向けアプローチとSales opportunity agentの商談リスクアクションを対象とし、デフォルトで有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579977"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Outlookモバイル版のCopilot ChatのUXアップデート</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579897</link>
@@ -984,26 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-49ce2c9e62d6df537b77</guid>
       <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Loss Prevention（DLP）が、Microsoft 365 Copilot、Copilot Chat、Coworkに対する管理単位（Administrative Units）のサポートを拡張します。これにより、組織はテナント全体の権限を付与することなく、割り当てられた管理者に対応するCopilot DLPポリシーの管理を委任できるようになります。既存のテナント全体ポリシーは引き続き適用され、管理単位を活用した管理はオプションとなります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Purview DLPでMicrosoft 365 Copilot、Copilot Chat、Coworkの管理単位サポートを拡張&lt;/li&gt;&lt;li&gt;指定された管理単位内の管理者にCopilot DLPポリシーの管理権限を委任することが可能&lt;/li&gt;&lt;li&gt;既存のテナント全体のポリシーは継続して適用&lt;/li&gt;&lt;li&gt;管理単位に基づくスコープ管理の設定はオプショナル&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575287"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Commerce: POS返品向けMCPツールの有効化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574124</link>
-      <guid isPermaLink="false">m365-roadmap-b85fa24d9af035bfd3f8</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Commerce&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本機能は、Store Commerce POSの返品機能を利用した再利用可能なMCPツールを提供します。顧客、パートナー、エージェント開発者は、これらStructured actionsを用いて、会話型またはエージェント型の返品体験を構築できます。GA予定日は2027年3月、プレビュー予定日は2026年10月です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;レシート、注文、請求書、確認番号などの識別子を使用した元購入の検索機能を提供&lt;/li&gt;&lt;li&gt;一致する取引と返品可能な明細の取得、および返品適格性の判別機能を提供&lt;/li&gt;&lt;li&gt;選択された明細、数量、理由コードを使用した返品作成および元入金返金の実行機能を提供&lt;/li&gt;&lt;li&gt;返品適格性やポリシー制限の説明、および返品リスクインジケーターの分析機能を提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574124"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Dynamics 365 Commerce</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Power Apps：統合された設定からのモデル駆動型アプリのAI機能管理</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=574104</link>
-      <guid isPermaLink="false">m365-roadmap-058da4ccad0aef5f84ec</guid>
-      <pubDate>Tue, 13 Oct 2026 23:01:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Appsのモデル駆動型アプリにおけるAI機能の設定が、Maker StudioおよびPower Platform admin centerの2つの補完的なサーフェスで統合されます。Maker StudioのフォームデザイナーにはCopilotおよびAIタブが追加され、管理者はPower Platform admin centerのCopilot Hubで一元管理が可能になります。これにより、従来の「Environment &amp;gt; Settings」の下にあった古いAIスイッチは廃止・削除されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Maker Studioのフォームデザイナーの設定ダイアログに新しいCopilotおよびAIタブを追加&lt;/li&gt;&lt;li&gt;Power Platform admin centerの環境設定からCopilot Hub &amp;gt; Power AppsへAI設定を統合&lt;/li&gt;&lt;li&gt;従来の「Environment &amp;gt; Settings」にある古いモデル駆動型アプリのAIスイッチを廃止および削除&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574104"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

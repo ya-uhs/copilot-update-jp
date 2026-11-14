@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Nov 2026 02:40:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 01:57:56 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - 自動貼り付けによる迅速なフォーム入力</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579980</link>
+      <guid isPermaLink="false">m365-roadmap-18a7627fb08c32f71670</guid>
+      <pubDate>Fri, 13 Nov 2026 23:01:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralに、クリップボードの内容からAIで関連情報を識別し適切なフィールドへマッピングする自動貼り付け機能が追加されます。これにより、外部ソースからのデータ入力を効率化し、手動での入力作業を削減します。プレビュー版の提供は2026年12月、一般提供（GA）は2027年4月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;クリップボードにコピーされたテキストやHTMLからAIが関連情報を識別する機能の追加&lt;/li&gt;&lt;li&gt;コピーしたコンテンツから複数の関連フィールドを自動入力し、個別のコピー＆ペースト作業を削減&lt;/li&gt;&lt;li&gt;日常的なBusiness CentralのワークフローにおけるAI支援によるデータ入力の拡張&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579980"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Sales agentにおける推奨リードおよび商談アクションの発見と実行機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579977</link>
+      <guid isPermaLink="false">m365-roadmap-73b70737ee63e02c13c6</guid>
+      <pubDate>Fri, 13 Nov 2026 19:37:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Sales agent内で優先順位付けされたリードや商談の推奨アクションを確認し、同一画面から実行できるようになります。初期リリースでは、Sales qualification agentによるリードへのアプローチアクションと、Sales opportunity agentによる商談リスクアクションが対象となります。推奨アクションはデフォルトで有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales agent上で優先順位付けされたリードおよび商談の推奨アクションを一元的に確認可能&lt;/li&gt;&lt;li&gt;推奨アクションの詳細やビジネスコンテキストの確認、およびその場からのアクション実行に対応&lt;/li&gt;&lt;li&gt;初期リリースはSales qualification agentのリード向けアプローチとSales opportunity agentの商談リスクアクションを対象とし、デフォルトで有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579977"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Outlookモバイル版のCopilot ChatのUXアップデート</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579897</link>
@@ -1984,26 +2004,6 @@
       <guid isPermaLink="false">m365-release-notes-aa686f49fbc6f9d24ced</guid>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの最新アップデートでは、E3およびE5ユーザー向けのAIスキル推論機能の拡張、チャット履歴のフィルタリング機能の刷新、コネクタ向け説明可能AIの導入が行われました。また、Microsoft EdgeでのPDF要約・アドレスバーからの直接質問機能や、Context IQによるTeamsチャンネルのプロンプト絞り込み機能が追加されました。さらに、ShortcutやAmazon S3との連携、Excelでの「Edit with Copilot」、PowerPointのDesigner Editorによる画像編集機能が導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 E3およびE5ユーザー向けにAIによるスキル推論機能が拡張され、管理者がMicrosoft 365 admin centerで有効化できるようになりました。&lt;/li&gt;&lt;li&gt;チャット履歴のフィルタリング画面が刷新され、過去の会話の検索やフィルターの解除が容易になりました。&lt;/li&gt;&lt;li&gt;コネクタを使用した結果に対して、インラインおよびディープシテーションを表示する説明可能AI機能が導入されました。&lt;/li&gt;&lt;li&gt;Microsoft EdgeのPDFリーダーに要約と説明のアクションが追加され、アドレスバーから直接Copilotへ質問できるようになりました。&lt;/li&gt;&lt;li&gt;ShortcutやAmazon S3とのデータ接続、Excelの「Edit with Copilot」、PowerPointのDesigner Editorによる画像編集機能が追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#march-10-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年2月24日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#february-24-2026</link>
-      <guid isPermaLink="false">m365-release-notes-36de63ab396d12f139ed</guid>
-      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年2月24日の更新では、Monday.com、WordPress、Azure File Share、Veeva、Jira Data Centerとの新コネクタが追加されました。また、Copilot検索の動的フィルタリング、宣言型エージェントのGPT-5.1へのアップグレード、PowerPointでのオブジェクト解説機能などが導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monday.com、WordPress、Azure File Share、Veeva、Jira Data Centerに対応するCopilot Connectorが追加され、外部データの取得や要約が可能になりました。&lt;/li&gt;&lt;li&gt;Copilot検索において、選択したデータソースに応じて関連フィルタが自動表示される動的フィルタリング機能が追加されました。&lt;/li&gt;&lt;li&gt;宣言型エージェントがGPT-5.1モデルにアップグレードされ、自動モデル選択機能やローカルファイルの埋め込み知識サポートが追加されました。&lt;/li&gt;&lt;li&gt;PowerPointでオブジェクトやスライドを選択して詳細な説明を得られる「Explain」機能が追加され、プレゼンテーションの長さ、トーン、スタイルの調整が可能になりました。&lt;/li&gt;&lt;li&gt;Viva InsightsのCopilot Studioエージェントレポートが拡張され、自動エージェントの採用状況、インパクト、時間・コスト削減のインサイトが提供されるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#february-24-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年2月10日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#february-10-2026</link>
-      <guid isPermaLink="false">m365-release-notes-29ae57f268a2d7a9bff6</guid>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの2026年2月10日更新では、管理者向けにガイド付きOAuthを用いた迅速なコネクタ認証が導入されました。また、エージェント内でのAdaptive Cardの更新機能、Declarative AgentsにおけるURLベースのダイアログ、MiroやGitHub Serverなどの新しいCopilotコネクタが追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者が簡易化されたガイド付きOAuthエクスペリエンスを使用して、コネクタ認証をより迅速に設定できるようになりました。&lt;/li&gt;&lt;li&gt;ユーザーはエージェント内のAdaptive Cardを更新して、最新の情報を表示できるようになりました。&lt;/li&gt;&lt;li&gt;Declarative AgentsでURLベースのダイアログが有効になり、ユーザーはCopilotを離れることなくリンクされた外部ページを開くことができるようになりました。&lt;/li&gt;&lt;li&gt;ServiceNow Tickets Copilotコネクタが、アクティブおよび非アクティブなチケットの両方を取り込むことで、チケットのステータスをより頻繁に更新できるようになりました。&lt;/li&gt;&lt;li&gt;MiroおよびGitHub Server用のCopilotコネクタが追加され、ビジュアルボードやソースコード管理情報をCopilotから直接クエリできるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#february-10-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Release</category>
       <category>high</category>
