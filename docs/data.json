@@ -11506,5 +11506,31 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-7fb1e28de2e6ac9d3d7c",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
+    "published_at": "2026-11-16T14:30:07Z",
+    "title_original": "Take GitHub Mobile with you on iPhone Duo",
+    "excerpt_original": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.… The post Take GitHub Mobile with you on iPhone Duo appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub MobileのiPhone Duo対応",
+    "summary_ja": "GitHub MobileがiPhone Duoをサポートしました。展開時に適応するレイアウトと、Copilot、Pull Requests、Issues、Notificationsなどの主要な領域間を移動しやすくする縦型タブが搭載されています。",
+    "changes": [
+      "iPhone Duoの展開時に適応するレイアウトに対応",
+      "CopilotやPull Requestsなどの主要領域に移動できる縦型タブを追加"
+    ],
+    "target_user": [
+      "GitHub Mobileユーザー",
+      "iPhoneユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-16T19:56:59Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-16T19:56:58Z"
   }
 ]

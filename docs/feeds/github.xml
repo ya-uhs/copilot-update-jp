@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Nov 2026 01:57:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:57:00 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub MobileのiPhone Duo対応</title>
+      <link>https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo</link>
+      <guid isPermaLink="false">github-changelog-7fb1e28de2e6ac9d3d7c</guid>
+      <pubDate>Mon, 16 Nov 2026 14:30:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub MobileがiPhone Duoをサポートしました。展開時に適応するレイアウトと、Copilot、Pull Requests、Issues、Notificationsなどの主要な領域間を移動しやすくする縦型タブが搭載されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;iPhone Duoの展開時に適応するレイアウトに対応&lt;/li&gt;&lt;li&gt;CopilotやPull Requestsなどの主要領域に移動できる縦型タブを追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.112</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112</link>
@@ -1996,16 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.84-8がリリースされました。 transcriptViewを「concise」に設定してツールのアactivityを展開可能な作業概要にグループ化できるようになり、Agent Factoryの実行の一時停止と再開機能が改善され、サインインやアカウント切り替え時のモデルリストの更新に関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;transcriptViewを「concise」に設定することで、ツールのアクティビティを展開可能な作業概要にグループ化できるように機能を追加&lt;/li&gt;&lt;li&gt;/factoriesダイアログからAgent Factoryの実行を一時停止および再開できるように改善&lt;/li&gt;&lt;li&gt;サインイン、アカウントの切り替え、またはサインアウトを行った後にモデルリストが更新されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-8"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-7のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-7</link>
-      <guid isPermaLink="false">github-copilot-cli-388754125</guid>
-      <pubDate>Mon, 14 Sep 2026 22:37:23 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.84-7がリリースされました。Claudeモデル送信時の思考形状に関する不具合の修正や、インタラクティブセッション終了時のフック実行に関する改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アダプティブ専用に分類されたClaudeモデルへ送信される思考形状の不具合を修正し、失敗せずにアダプティブを維持するように変更（思考が無効な場合は推論負荷がhighに上限設定される）&lt;/li&gt;&lt;li&gt;/clearコマンドでインタラクティブセッションが終了した際にsessionEndフックを実行するように変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-7"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
       <category>medium</category>
     </item>
   </channel>

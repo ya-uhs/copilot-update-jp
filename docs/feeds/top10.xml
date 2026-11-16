@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Nov 2026 01:57:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:57:00 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -79,6 +79,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub MobileのiPhone Duo対応</title>
+      <link>https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo</link>
+      <guid isPermaLink="false">github-changelog-7fb1e28de2e6ac9d3d7c</guid>
+      <pubDate>Mon, 16 Nov 2026 14:30:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub MobileがiPhone Duoをサポートしました。展開時に適応するレイアウトと、Copilot、Pull Requests、Issues、Notificationsなどの主要な領域間を移動しやすくする縦型タブが搭載されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;iPhone Duoの展開時に適応するレイアウトに対応&lt;/li&gt;&lt;li&gt;CopilotやPull Requestsなどの主要領域に移動できる縦型タブを追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - 自動貼り付けによる迅速なフォーム入力</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579980</link>
       <guid isPermaLink="false">m365-roadmap-18a7627fb08c32f71670</guid>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.112-0がリリースされました。macOS Ventura以降での起動改善や、モデルごとの推奨コンテキストウィンドウのデフォルト適用、コスト削減を提案する/chronicle機能の強化が行われています。また、プラグイン管理やサンドボックス接続、UI表示に関する多数の不具合修正と安定性向上が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;macOS Ventura 13.5以降でのベストエフォートな起動処理を改善しました。&lt;/li&gt;&lt;li&gt;明示的なコンテキスト選択を維持しつつ、各モデルの推奨コンテキストウィンドウをデフォルトで適用するようにしました。&lt;/li&gt;&lt;li&gt;/chronicle cost-tipsにCopilot Appセッションの包含、利用状況に基づく安価なモデルや推論設定の推奨、ローカル利用状況の早期報告機能を追加しました。&lt;/li&gt;&lt;li&gt;失敗した/compactで内部プレフィックスを除いたモデルプロバイダーのエラーメッセージを表示するように修正しました。&lt;/li&gt;&lt;li&gt;プラグインマネージャーやサンドボックス、/subagents、/settings、/envなどの表示・動作に関する複数の不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.112-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Sales agentにおける推奨リードおよび商談アクションの発見と実行機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579977</link>
-      <guid isPermaLink="false">m365-roadmap-73b70737ee63e02c13c6</guid>
-      <pubDate>Fri, 13 Nov 2026 19:37:39 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Sales agent内で優先順位付けされたリードや商談の推奨アクションを確認し、同一画面から実行できるようになります。初期リリースでは、Sales qualification agentによるリードへのアプローチアクションと、Sales opportunity agentによる商談リスクアクションが対象となります。推奨アクションはデフォルトで有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales agent上で優先順位付けされたリードおよび商談の推奨アクションを一元的に確認可能&lt;/li&gt;&lt;li&gt;推奨アクションの詳細やビジネスコンテキストの確認、およびその場からのアクション実行に対応&lt;/li&gt;&lt;li&gt;初期リリースはSales qualification agentのリード向けアプローチとSales opportunity agentの商談リスクアクションを対象とし、デフォルトで有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579977"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>
