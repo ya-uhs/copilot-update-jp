@@ -1,5 +1,136 @@
 [
   {
+    "id": "github-copilot-cli-448092011",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.113-1",
+    "published_at": "2026-11-17T03:48:10Z",
+    "title_original": "GitHub Copilot CLI v1.0.113-1",
+    "excerpt_original": "**Added** - Administrators can disable built-in Browser Use with the managed setting features.browserUse, including in running sessions.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.113-1",
+    "summary_ja": "このリリースでは、管理者が組み込みのブラウザ使用機能を無効化できる設定 (features.browserUse) が追加されました。設定は実行中のセッションにも適用されます。",
+    "changes": [
+      "管理者が managed setting features.browserUse を使用して、組み込みブラウザの使用を無効化できるようになった（実行中のセッションにも適用）"
+    ],
+    "target_user": [
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-17T04:19:05Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-17T04:18:45Z",
+    "llm_provider": "Groq"
+  },
+  {
+    "id": "github-copilot-cli-447583716",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.113-0",
+    "published_at": "2026-11-16T20:38:32Z",
+    "title_original": "GitHub Copilot CLI v1.0.113-0",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.113-0",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.113-0がリリースされました。このリリースには、バグ修正と各種変更が含まれています。",
+    "changes": [
+      "バグ修正と変更の実装"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-17T04:19:06Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-17T04:19:05Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-changelog-ff1caf51baeac277f598",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+    "published_at": "2026-11-16T20:25:20Z",
+    "title_original": "GitHub Copilot models deprecated on November 16, 2026",
+    "excerpt_original": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post GitHub Copilot models deprecated on November 16, 2026 appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "2026年11月16日のGitHub Copilotモデルの非推奨化",
+    "summary_ja": "GitHub Copilotは、Copilot Chatやインライン編集、エージェントモード、コード補完などの大部分の機能において、特定のモデルを非推奨としました。この変更は2026年11月16日より適用されています。",
+    "changes": [
+      "大半のGitHub Copilot機能において特定モデルが非推奨化された",
+      "影響を受ける機能にはCopilot Chat、インライン編集、askおよびagentモード、コード補完が含まれる"
+    ],
+    "target_user": [
+      "GitHub Copilot users",
+      "Developers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-17T04:19:08Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-17T04:19:06Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-changelog-a06076806a0e698d5e36",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+    "published_at": "2026-11-16T19:48:33Z",
+    "title_original": "Control where GitHub Copilot customizations come from",
+    "excerpt_original": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions,… The post Control where GitHub Copilot customizations come from appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "GitHub Copilotのカスタマイズソースの制御機能",
+    "summary_ja": "エンタープライズ管理者は、選択したGitHub Copilotのカスタマイズが、スタンドアロンのユーザー設定やプロジェクト設定ではなく、プラグインまたは管理された設定から提供されるように要求できるようになりました。この機能は、マーケットプレイスの制限などと組み合わせて使用されます。",
+    "changes": [
+      "選択したGitHub Copilotのカスタマイズの取得元をプラグインまたは管理された設定に限定することが可能になりました"
+    ],
+    "target_user": [
+      "Enterprise administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-17T04:19:09Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-17T04:19:08Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-changelog-c04e20070f0fc9a3b030",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+    "published_at": "2026-11-16T19:22:56Z",
+    "title_original": "VS Code retires the Local harness in February 2027",
+    "excerpt_original": "Visual Studio Code 1.146 deprecates the Local harness, the older software that coordinates the model, context, and tools for GitHub Copilot agent sessions in the editor. The Local harness will… The post VS Code retires the Local harness in February 2027 appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "VS Code が 2027 年 2 月に Local harness を廃止",
+    "summary_ja": "Visual Studio Code 1.146 では、エディタ内で GitHub Copilot エージェント セッションのモデル、コンテキスト、ツールを調整していた従来のソフトウェアである Local harness が非推奨となり、2027 年 2 月に廃止されます。",
+    "changes": [
+      "Local harness が非推奨になる",
+      "2027 年 2 月に廃止予定",
+      "Visual Studio Code 1.146 での変更が適用"
+    ],
+    "target_user": [
+      "Developers",
+      "VS Code users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-17T04:19:16Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-17T04:19:09Z",
+    "llm_provider": "Groq"
+  },
+  {
     "id": "github-changelog-7fb1e28de2e6ac9d3d7c",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",

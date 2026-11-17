@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 16 Nov 2026 19:57:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 04:19:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>2026年11月16日のGitHub Copilotモデルの非推奨化</title>
+      <link>https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026</link>
+      <guid isPermaLink="false">github-changelog-ff1caf51baeac277f598</guid>
+      <pubDate>Mon, 16 Nov 2026 20:25:20 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotは、Copilot Chatやインライン編集、エージェントモード、コード補完などの大部分の機能において、特定のモデルを非推奨としました。この変更は2026年11月16日より適用されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;大半のGitHub Copilot機能において特定モデルが非推奨化された&lt;/li&gt;&lt;li&gt;影響を受ける機能にはCopilot Chat、インライン編集、askおよびagentモード、コード補完が含まれる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.112</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112</link>
@@ -79,33 +89,23 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub MobileのiPhone Duo対応</title>
-      <link>https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo</link>
-      <guid isPermaLink="false">github-changelog-7fb1e28de2e6ac9d3d7c</guid>
-      <pubDate>Mon, 16 Nov 2026 14:30:07 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub MobileがiPhone Duoをサポートしました。展開時に適応するレイアウトと、Copilot、Pull Requests、Issues、Notificationsなどの主要な領域間を移動しやすくする縦型タブが搭載されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;iPhone Duoの展開時に適応するレイアウトに対応&lt;/li&gt;&lt;li&gt;CopilotやPull Requestsなどの主要領域に移動できる縦型タブを追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - 自動貼り付けによる迅速なフォーム入力</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579980</link>
-      <guid isPermaLink="false">m365-roadmap-18a7627fb08c32f71670</guid>
-      <pubDate>Fri, 13 Nov 2026 23:01:18 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralに、クリップボードの内容からAIで関連情報を識別し適切なフィールドへマッピングする自動貼り付け機能が追加されます。これにより、外部ソースからのデータ入力を効率化し、手動での入力作業を削減します。プレビュー版の提供は2026年12月、一般提供（GA）は2027年4月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;クリップボードにコピーされたテキストやHTMLからAIが関連情報を識別する機能の追加&lt;/li&gt;&lt;li&gt;コピーしたコンテンツから複数の関連フィールドを自動入力し、個別のコピー＆ペースト作業を削減&lt;/li&gt;&lt;li&gt;日常的なBusiness CentralのワークフローにおけるAI支援によるデータ入力の拡張&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579980"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.112-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112-0</link>
-      <guid isPermaLink="false">github-copilot-cli-444656797</guid>
-      <pubDate>Fri, 13 Nov 2026 19:37:45 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.112-0がリリースされました。macOS Ventura以降での起動改善や、モデルごとの推奨コンテキストウィンドウのデフォルト適用、コスト削減を提案する/chronicle機能の強化が行われています。また、プラグイン管理やサンドボックス接続、UI表示に関する多数の不具合修正と安定性向上が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;macOS Ventura 13.5以降でのベストエフォートな起動処理を改善しました。&lt;/li&gt;&lt;li&gt;明示的なコンテキスト選択を維持しつつ、各モデルの推奨コンテキストウィンドウをデフォルトで適用するようにしました。&lt;/li&gt;&lt;li&gt;/chronicle cost-tipsにCopilot Appセッションの包含、利用状況に基づく安価なモデルや推論設定の推奨、ローカル利用状況の早期報告機能を追加しました。&lt;/li&gt;&lt;li&gt;失敗した/compactで内部プレフィックスを除いたモデルプロバイダーのエラーメッセージを表示するように修正しました。&lt;/li&gt;&lt;li&gt;プラグインマネージャーやサンドボックス、/subagents、/settings、/envなどの表示・動作に関する複数の不具合を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.112-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>GitHub Copilot CLI v1.0.113-1</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.113-1</link>
+      <guid isPermaLink="false">github-copilot-cli-448092011</guid>
+      <pubDate>Tue, 17 Nov 2026 03:48:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;このリリースでは、管理者が組み込みのブラウザ使用機能を無効化できる設定 (features.browserUse) が追加されました。設定は実行中のセッションにも適用されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者が managed setting features.browserUse を使用して、組み込みブラウザの使用を無効化できるようになった（実行中のセッションにも適用）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.113-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilotのカスタマイズソースの制御機能</title>
+      <link>https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from</link>
+      <guid isPermaLink="false">github-changelog-a06076806a0e698d5e36</guid>
+      <pubDate>Mon, 16 Nov 2026 19:48:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;エンタープライズ管理者は、選択したGitHub Copilotのカスタマイズが、スタンドアロンのユーザー設定やプロジェクト設定ではなく、プラグインまたは管理された設定から提供されるように要求できるようになりました。この機能は、マーケットプレイスの制限などと組み合わせて使用されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;選択したGitHub Copilotのカスタマイズの取得元をプラグインまたは管理された設定に限定することが可能になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
       <category>medium</category>
     </item>
   </channel>

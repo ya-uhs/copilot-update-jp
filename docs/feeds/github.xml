@@ -5,9 +5,59 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 16 Nov 2026 19:57:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 04:19:17 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.113-1</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.113-1</link>
+      <guid isPermaLink="false">github-copilot-cli-448092011</guid>
+      <pubDate>Tue, 17 Nov 2026 03:48:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;このリリースでは、管理者が組み込みのブラウザ使用機能を無効化できる設定 (features.browserUse) が追加されました。設定は実行中のセッションにも適用されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者が managed setting features.browserUse を使用して、組み込みブラウザの使用を無効化できるようになった（実行中のセッションにも適用）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.113-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.113-0</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.113-0</link>
+      <guid isPermaLink="false">github-copilot-cli-447583716</guid>
+      <pubDate>Mon, 16 Nov 2026 20:38:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.113-0がリリースされました。このリリースには、バグ修正と各種変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;バグ修正と変更の実装&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.113-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>2026年11月16日のGitHub Copilotモデルの非推奨化</title>
+      <link>https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026</link>
+      <guid isPermaLink="false">github-changelog-ff1caf51baeac277f598</guid>
+      <pubDate>Mon, 16 Nov 2026 20:25:20 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotは、Copilot Chatやインライン編集、エージェントモード、コード補完などの大部分の機能において、特定のモデルを非推奨としました。この変更は2026年11月16日より適用されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;大半のGitHub Copilot機能において特定モデルが非推奨化された&lt;/li&gt;&lt;li&gt;影響を受ける機能にはCopilot Chat、インライン編集、askおよびagentモード、コード補完が含まれる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilotのカスタマイズソースの制御機能</title>
+      <link>https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from</link>
+      <guid isPermaLink="false">github-changelog-a06076806a0e698d5e36</guid>
+      <pubDate>Mon, 16 Nov 2026 19:48:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;エンタープライズ管理者は、選択したGitHub Copilotのカスタマイズが、スタンドアロンのユーザー設定やプロジェクト設定ではなく、プラグインまたは管理された設定から提供されるように要求できるようになりました。この機能は、マーケットプレイスの制限などと組み合わせて使用されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;選択したGitHub Copilotのカスタマイズの取得元をプラグインまたは管理された設定に限定することが可能になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>VS Code が 2027 年 2 月に Local harness を廃止</title>
+      <link>https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027</link>
+      <guid isPermaLink="false">github-changelog-c04e20070f0fc9a3b030</guid>
+      <pubDate>Mon, 16 Nov 2026 19:22:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.146 では、エディタ内で GitHub Copilot エージェント セッションのモデル、コンテキスト、ツールを調整していた従来のソフトウェアである Local harness が非推奨となり、2027 年 2 月に廃止されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Local harness が非推奨になる&lt;/li&gt;&lt;li&gt;2027 年 2 月に廃止予定&lt;/li&gt;&lt;li&gt;Visual Studio Code 1.146 での変更が適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub MobileのiPhone Duo対応</title>
       <link>https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo</link>
@@ -1957,56 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.86-1 のアップデート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.86-1</link>
-      <guid isPermaLink="false">github-copilot-cli-390287381</guid>
-      <pubDate>Wed, 16 Sep 2026 21:30:12 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.86-1がリリースされました。カスタムエージェントがリポジトリの指示ファイルをオプトインできるようになり、アクティブセッションの再開時におけるプラグインやスキルの維持機能が修正されました。また、sandboxポリシーのローカルネットワークアクセス表示や、バックグラウンドシェル実行中のステータス表示が改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムエージェントのフロントマターに `include-custom-instructions: true` を設定することで、リポジトリの指示ファイル（AGENTS.md、copilot-instructions.md、CLAUDE.md）をオプトインできるように追加&lt;/li&gt;&lt;li&gt;プラグインディレクトリ、ディスカバリー、作業ディレクトリのオーバーライドなしでアクティブセッションを再開した際に、再読み込み後もマーケットプレイスのプラグインとスキルが維持されるように修正&lt;/li&gt;&lt;li&gt;設定の読み込みや検証の失敗時にアクティブなプラグインが破棄されないよう変更（ファイルの欠損や意図的な削除の動作は変更なし）&lt;/li&gt;&lt;li&gt;/sandboxポリシーが設定済みの構成を使用してローカルネットワークアクセスをレポートするように変更&lt;/li&gt;&lt;li&gt;アタッチされたバックグラウンドシェル（開発サーバーなど）が実行中のままターンが終了した場合、ステータス行の表示を「Working」からバックグラウンドシェルの待機中であることを示す表示に変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.86-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.86-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.86-0</link>
-      <guid isPermaLink="false">github-copilot-cli-389928292</guid>
-      <pubDate>Wed, 16 Sep 2026 12:59:07 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.86-0がリリースされました。トランスクリプトファイルに修復可能な破損が含まれている場合のセッション再開機能の修正や、コンパクトタイムライン内の拡張推論テキストの視認性向上が含まれています。また、受け入れられたタスク完了後にAutopilotが予期せず継続する問題が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;トランスクリプトファイルに修復可能な破損がある場合でもセッションを再開できるように修正&lt;/li&gt;&lt;li&gt;コンパクトタイムライン内の拡張推論テキストのディミングを解除し、他のタイムラインと同等の可読性を確保&lt;/li&gt;&lt;li&gt;受け入れられたタスクの完了後にAutopilotが予期せず継続する動作を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.86-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.85 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.85</link>
-      <guid isPermaLink="false">github-copilot-cli-389603482</guid>
-      <pubDate>Wed, 16 Sep 2026 02:44:45 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.85がリリースされ、Vimモードの一般提供や新しい設定・管理コマンドの追加が行われました。さらに、サンドボックス機能、MCP、プラグイン、およびWindows環境に関連する多数のバグ修正と動作改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;すべてのユーザーがVimモードを利用可能になり、`/vim` または `editorMode` 設定で有効化できるようになりました。&lt;/li&gt;&lt;li&gt;コンテキスト管理ツール、設定サイドバー、ネットワークホストの許可/拒否ルールを追加するための新しい `/settings` および `/config` オプションが追加されました。&lt;/li&gt;&lt;li&gt;GPT-6 Astra モデルのサポートが追加されました。&lt;/li&gt;&lt;li&gt;Windows環境での1コマンドサンドボックスバイパスの修正や、Visual C++ RedistributableなしでのCLI成果物の実行対応が行われました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.85"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-9 のアップデート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-9</link>
-      <guid isPermaLink="false">github-copilot-cli-389443522</guid>
-      <pubDate>Tue, 15 Sep 2026 20:05:42 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.84-9では、エージェントおよびサブエージェント向けのコンテキスト管理ツールを設定するオプトインオプションが追加されました。また、大規模なローカルセッション履歴におけるメタデータスキャン時間の短縮や、カーソル移動、MCPサーバーの読み込みに関する複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントやサブエージェントのコンテキスト管理ツールを有効化するための /settings オプションを追加&lt;/li&gt;&lt;li&gt;大規模なローカルセッション履歴に対するメタデータスキャン時間を短縮 (スレッドとメモリ使用量は増加)&lt;/li&gt;&lt;li&gt;折り返し行における End キーや Ctrl+E によるカーソル移動の動作を修正&lt;/li&gt;&lt;li&gt;--share=~/notes.md がカレントディレクトリに `~` フォルダを作成するのではなくホームディレクトリへ書き込むように変更&lt;/li&gt;&lt;li&gt;ID E接続時の設定検証エラーによる MCP サーバーの読み込み失敗を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-9"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.84-8 のアップデート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.84-8</link>
-      <guid isPermaLink="false">github-copilot-cli-388796513</guid>
-      <pubDate>Tue, 15 Sep 2026 00:45:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.84-8がリリースされました。 transcriptViewを「concise」に設定してツールのアactivityを展開可能な作業概要にグループ化できるようになり、Agent Factoryの実行の一時停止と再開機能が改善され、サインインやアカウント切り替え時のモデルリストの更新に関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;transcriptViewを「concise」に設定することで、ツールのアクティビティを展開可能な作業概要にグループ化できるように機能を追加&lt;/li&gt;&lt;li&gt;/factoriesダイアログからAgent Factoryの実行を一時停止および再開できるように改善&lt;/li&gt;&lt;li&gt;サインイン、アカウントの切り替え、またはサインアウトを行った後にモデルリストが更新されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.84-8"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>
