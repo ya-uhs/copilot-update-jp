@@ -1,5 +1,30 @@
 [
   {
+    "id": "github-copilot-cli-448909563",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.113",
+    "published_at": "2026-11-17T16:35:43Z",
+    "title_original": "GitHub Copilot CLI v1.0.113",
+    "excerpt_original": "2026-11-17 - Administrators can disable built-in Browser Use with the managed setting features.browserUse, including in running sessions.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.113リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.113がリリースされました。管理者はmanaged settingのfeatures.browserUseを使用して、実行中のセッションを含めて組み込みのBrowser Useを無効化できるようになりました。",
+    "changes": [
+      "管理者がmanaged settingのfeatures.browserUseを使用して組み込みのBrowser Useを無効化できる機能を追加"
+    ],
+    "target_user": [
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-17T18:53:18Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-17T18:53:15Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-448092011",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.113-1",

@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 17 Nov 2026 04:19:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 18:53:18 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.113リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.113</link>
+      <guid isPermaLink="false">github-copilot-cli-448909563</guid>
+      <pubDate>Tue, 17 Nov 2026 16:35:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.113がリリースされました。管理者はmanaged settingのfeatures.browserUseを使用して、実行中のセッションを含めて組み込みのBrowser Useを無効化できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者がmanaged settingのfeatures.browserUseを使用して組み込みのBrowser Useを無効化できる機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.113"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.113-1</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.113-1</link>
@@ -1997,16 +2007,6 @@
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.99-1 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.99-1</link>
-      <guid isPermaLink="false">github-copilot-cli-414077014</guid>
-      <pubDate>Thu, 15 Oct 2026 17:21:22 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.99-1がリリースされ、新しいフラグやプラグインのインストール機能が追加されました。Microsoft Entraによるログインやサンドボックス化されたgitの改善に加え、複数の不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--pオプションまたは標準入力からのパイプによる一回限りのプロンプトモードセッション用に、--trust-folderを追加&lt;/li&gt;&lt;li&gt;GitHubのインストールリンクから検証済みスキルやプラグインをインストールする機能を追加&lt;/li&gt;&lt;li&gt;Microsoft Entraでの/loginを改善し、キャッシュされたアカウントの選択や別のアカウントでの明示的なサインインが可能に&lt;/li&gt;&lt;li&gt;github.com上のサンドボックス化されたgitで、credentials.envVarsから設定済みのGITHUB_TOKENを使用可能に&lt;/li&gt;&lt;li&gt;HydraFusionの動作改善やマネージドアカウントポリシーの警告に関する修正を実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.99-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 17 Nov 2026 04:19:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 18:53:19 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.113リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.113</link>
+      <guid isPermaLink="false">github-copilot-cli-448909563</guid>
+      <pubDate>Tue, 17 Nov 2026 16:35:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.113がリリースされました。管理者はmanaged settingのfeatures.browserUseを使用して、実行中のセッションを含めて組み込みのBrowser Useを無効化できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;管理者がmanaged settingのfeatures.browserUseを使用して組み込みのBrowser Useを無効化できる機能を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.113"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.113-1</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.113-1</link>
@@ -1997,16 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Release</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.86-2のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.86-2</link>
-      <guid isPermaLink="false">github-copilot-cli-390361151</guid>
-      <pubDate>Thu, 17 Sep 2026 00:45:18 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.86-2がリリースされました。今回のリリースには、各種の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.86-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>low</category>
     </item>
   </channel>
 </rss>
