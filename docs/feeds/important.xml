@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 17 Nov 2026 04:19:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 03:18:19 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Microsoft 365におけるサービスエージェント機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577829</link>
+      <guid isPermaLink="false">m365-roadmap-935e145299a038c6df29</guid>
+      <pubDate>Tue, 17 Nov 2026 22:45:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けに「Service Agent in Microsoft 365」が提供されます。本機能により、企業の知識ソースやガイドラインを活用した24時間体制のサポートや、管理者の監視・オブザーバビリティ機能を利用可能です。また、CRM非依存でありながら各種MCPツールやカスタムスキルによる拡張性を備えています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;企業の知識ソースやガイドラインを用いた迅速なオンボーディングと、半自律または完全自律モードの選択が可能&lt;/li&gt;&lt;li&gt;Microsoft 365エコシステムにネイティブ接続し、リアルタイムデータやCRMレコード等を用いて24時間体制で対応&lt;/li&gt;&lt;li&gt;エンタープライズグレードのセキュリティとコンプライアンスを維持し、管理者がエージェントの活動や推論プロセスを監視可能&lt;/li&gt;&lt;li&gt;CRMが必須ではなく、必要に応じてCRMと接続してチケット作成等の操作を行うことが可能&lt;/li&gt;&lt;li&gt;MCPツールへの接続やカスタムスキルの作成による拡張性をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577829"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>OpenAIのGPT-6.2 AstraおよびGPT-6.2 Solが利用可能に</title>
+      <link>https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available</link>
+      <guid isPermaLink="false">github-changelog-57e7781a892d4960f0cc</guid>
+      <pubDate>Tue, 17 Nov 2026 20:20:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、OpenAIの「GPT-6.2 Astra」および「GPT-6.2 Sol」が一般提供開始となりました。両モデルはエージェント型コーディングおよびコードレビュー向けに設計されており、従来のGPT-6と比較してより強力なコーディング判断力を備えています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでOpenAIのGPT-6.2 Astraが利用可能になった&lt;/li&gt;&lt;li&gt;GitHub CopilotでOpenAIのGPT-6.2 Solが利用可能になった&lt;/li&gt;&lt;li&gt;エージェント型コーディングとコードレビュー向けの機能強化が提供された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>2026年11月16日のGitHub Copilotモデルの非推奨化</title>
       <link>https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026</link>
