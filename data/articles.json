@@ -1,5 +1,61 @@
 [
   {
+    "id": "vscode-092d312dd2f17011c777",
+    "source": "VS Code Release Notes",
+    "source_url": "https://code.visualstudio.com/updates/v1_147",
+    "published_at": "2026-11-18T12:38:09Z",
+    "date_basis": "first_seen",
+    "title_original": "Visual Studio Code 1.147 — Copilot / Chat / Agents",
+    "excerpt_original": "Agent sessions\nSend Later for chat requests (Experimental)\nSetting : sessions.sendLater.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nSometimes you want an agent to run a request after some time has passed. You might want to check a build after it finishes, or follow up on a review in the morning. With the Send Later feature, you can postpone sending a chat request until a specific time.\nYou can schedule a chat request by using the Send Later menu on the send button in chat.\n\nFor a specific time, select Choose Date and Time , pick a day in the calendar and a time from the dropdown, and select Schedule .\n\nWhere the request waits depends on where you scheduled it:\nNew session : In the Drafts section of the sessions list. Existing chat : In that chat's Scheduled area, with its send time. If the agent is still busy at the scheduled time, the request waits its turn instead of interrupting.\n\nAlternatively, you can ask the agent to schedule a request for you by using plain language in the chat prompt, for example: \"Check the build in 10 minutes.\"\nThe agent schedules a one-time, text-only request in the current chat and confirms when it will be sent. The request appears in the chat's Scheduled area, like one you scheduled from the menu.\n\nThe local agent host must be running at the scheduled time. Scheduling doesn't wake a sleeping computer. A missed request is processed once the host is available again.\nTo manage your scheduled requests (edit, send immediately, reschedule, or cancel), use the options available when you hover over them in the chat or session list. To find sessions with pending requests, look for the clock indicator in the session list, or select Scheduled Only in the sessions filter menu.\nLearn more about scheduling requests in the Send Later documentation .\nNote : Scheduled requests work only for sessions on This Computer and require automations to be enabled ( chat.automations.enabled Open in VS Code Open in VS Code Insiders ).\nSave and resume drafts (Experimental)\nSetting : sessions.drafts.enabled Open in VS Code Open in VS Code Insiders\nPreviously, the new-session input held a single unsent request at a time. With drafts, you can keep several unsent requests side by side, each with its own workspace, agent, and configuration, and come back to any of them later.\nWhen you leave a new session that has content, VS Code saves it to the Drafts section of the sessions list. Nothing is sent, and no agent session starts. To jump right back, select Open Draft in the notification.\n\nEach draft keeps everything you set up: text, attachments, inline references, workspace, agent, model, and other configuration. Drafts survive reloads and restarts.\nFrom the Drafts list, you can preview, open, or delete a draft. When you send a draft, it's removed only after the request is accepted, so a failed send doesn't lose your work.\nTurning off the setting hides the Drafts section but keeps your saved drafts.\nShare remote environments as GitHub Environments\nShare a remote as a GitHub Environment to pick up its agent sessions from another device or supported Copilot app, using your GitHub account.\nTo share a connected SSH host, WSL distribution, or Dev Tunnel, open the Remote Environments editor in the Agents window and select Share as GitHub Environment (GitHub icon) on the remote's row.\nA shared remote stays in its group and shows a GitHub icon after its name. Select the action again to stop sharing.\n\nLearn more about remote agent sessions .\nKeep chat sessions across Dev Container rebuilds (Experimental)\nSettings : dev.containers.stateVolume.enabled Open in VS Code Open in VS Code Insiders , chat.agentHost.devContainer.stateVolume.enabled Open in VS Code Open in VS Code Insiders\nRebuilding a Dev Container used to remove the Copilot chat sessions stored inside it. When you enable these settings, VS Code stores the user and agent state of a new Dev Container on a Docker volume, preserving your chat sessions across rebuilds.\nImportant : A container gets the volume only when it's created with the setting enabled, so rebuild once to start keeping your sessions.\nInbox mode improvements (Experimental)\nSetting : sessions.list.inboxEnabled Open in VS Code Open in VS Code Insiders\nInbox mode groups your Agents window sessions by what needs your attention. You can switch to Inbox mode at any time with Grouping > Inbox Mode in the sessions list. The sessions.list.inboxEnabled Open in VS Code Open in VS Code Insiders setting makes it the default grouping.\nThis release builds on your feedback to make Inbox mode more useful and manageable:\nAcknowledge sessions you've handled If a session doesn't need your attention but isn't finished, you can mark it as acknowledged (eye icon). Acknowledging a session moves it out of the Inbox and into the Acknowledged section. The session isn't marked as read or done, archived, or closed. When there is new activity in the session, it returns to the Inbox. You can acknowledge several selected sessions at once. Focus on one workspace or environment Use the workspace and environment pickers at the top of the sessions list to see only the sessions you care about right now. The filter applies to every section, including pinned and archived sessions, and is remembered across reloads.\n\nAgent experience\nDecision model-based model routers (Experimental)\nSetting : chat.copilot.modelRouter.enabled\nWith a model router, you describe which model you want for which kind of work. A decision model, gpt-6-luna-decisions , then matches your request to one of your routes, and VS Code runs the chat on that route's model. A router is a YAML file in ~/.agents/model-routers/ that appears in the model picker in Copilot harness sessions.\nModel routers are at an early stage, and your feedback will help shape them. Tell us what works and what doesn't by filing an issue .\nversion : 1 description : Opus to build, GPT-6 Luna for quick questions. routes : - model : opus when : Building or changing code over many steps, such as a feature, a bug fix, or a refactor. - model : gpt-6-luna when : Quick answers and small chores, such as where something is or what a setting does.\nTo try model routers, add \"chat.copilot.modelRouter.enabled\": true to your user settings.json file.\nTo author a router, type /model-router in a Copilot harness chat and describe how you want your requests routed. Then select the router in the model picker.\nModel comparison improvements (Preview)\nModel comparison lets you run the same prompt across models in the Agents window, so you can review, judge, and combine their results. This release makes comparisons easier to find and understand:\nComparisons stay with their chat : When you ask an agent to run a comparison , it appears beneath that chat in the sessions list. The agent's response includes an Open Comparison action to go straight to the results. See how a comparison was set up : Hover over a comparison in the sessions list to see its original settings: repository, isolation, base branch, each attempt's model and effort level, judge, and synthesizer. You no longer need to open each attempt to check.\nHTML previews and native visuals in agent responses\nSettings : chat.htmlPreview.enabled Open in VS Code Open in VS Code Insiders , chat.nativeComponents.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nSome agent responses are easier to review as a visual or a chart than as text, such as a comparison of approaches, a mockup, or build times before and after a change. In the Agents window , agents can show these inline in the response in two ways. Each has its own setting, which is off by default.\nHTML previews : For free-form layouts, such as reports, diagrams, and mockups. Previews display HTML, CSS, tables, inline SVG, and expandable sections. Scripts, forms, external links, and external resources aren't supported. Enable chat.htmlPreview.enabled Open in VS Code Open in VS Code Insiders and use the built-in /html-preview skill in your request, for example /html-preview compare the two caching approaches . Native visuals (Experimental) : For data, such as key numbers and comparisons. Agents can show metrics, badges, tables, bar charts, and expandable details that VS Code renders itself, so they match your theme, including high-contrast themes. Enable chat.nativeComponents.enabled Open in VS Code Open in VS Code Insiders and use the built-in /vscode-ui skill in your request, for example /vscode-ui compare the full and incremental build times .\n\nBoth appear as part of the response, without a title bar or permanent buttons. Right-click a preview or visual and select Show Source to see its markup. For an HTML preview, you can also select Open Preview for a larger view or Save HTML to export a self-contained HTML file.\nAutomations\nAutomations allow you to define tasks that run automatically based on specific triggers and conditions. You can create, manage, and monitor automations from the Automations view in the Agents window. This release adds guided setup, end dates, and filters for automation runs:\nAgent-guided automation creation Creating an automation with an agent is now a more guided experience. The agent helps you define what a successful result looks like, decide when the automation runs, and choose where it runs. To start, ask an agent to create an automation. You can also select Create with Agent in the Automations view to continue in chat. If you prefer configuring everything yourself, open the dropdown next to Create with Agent and select Create Manually . Set an end date for automations Automations can stop automatically after a specified duration. Set an end date when creating an automation with an agent, or choose Days , Weeks , or Months under Advanced Settings in the manual configuration form. Select Never to remove an existing end date. Filter automation runs in session lists Automation runs are hidden from session lists by default. Use the Automations filter to include or exclude them in the Agents window and the editor Chat sessions list.\nMore context for assisted permissions\nSetting : chat.permissions.assisted.instructions Open in VS Code Open in VS Code Insiders\nWith assisted permissions , an LLM reviewer assesses each tool call in Copilot harness sessions and approves low-risk calls for you. Previously, the reviewer relied only on its default guidance, so it couldn't account for what you consider safe or risky in your own work.\nUse chat.permissions.assisted.instructions Open in VS Code Open in VS Code Insiders to give the LLM reviewer your own instructions, for example:\nAlways ask before installing packages or pushing to a remote. Running tests and read-only Git commands doesn't need my approval.\nYour instructions take precedence over the reviewer's default guidance. Changes to the setting apply to sessions that are already open. They can't override permission rules, organization policy, or the sandbox, and they aren't sent to the agent.\nThe reviewer also takes into account who asked for the work:\nAutomations and other agents : Requests that an automation starts or that another agent sends are no longer treated as if you wrote them. In these sessions, tool calls might ask for approval where they previously didn't. Your answers : Your answers to an agent's questions and plan reviews count, including when you decline. An approval can cover later work that your answer describes, and a refusal can block an action that was approved before.\nArrange the Details panel around the editor (Experimental)\nSettings : sessions.experimental.detailsPosition Open in VS Code Open in VS Code Insiders , sessions.experimental.floatingDetails Open in VS Code Open in VS Code Insiders (Agents window only)\nIn the Agents window, you can position Files, Changes, and other Details views around the editor to make better use of the available space. Open View > Appearance > Details Position and choose Left , Right , Above Editor , Below Editor , ",
+    "product": "GitHub Copilot in VS Code",
+    "status": "Release",
+    "title_ja": "Visual Studio Code 1.147 (Copilot / Chat / Agents)",
+    "summary_ja": "Visual Studio Codeの最新リリースでは、エージェントセッション向けの「Send Later」やドラフト保存機能が実験的機能として追加されました。また、GitHub Environmentsを通じたリモート環境の共有、Inboxモードの改善、HTMLプレビューやネイティブビジュアルの表示機能が導入されています。さらに、自動化機能のセットアップガイドやアシステッドパーミッションのカスタム指示など、多くの拡張が行われています。",
+    "changes": [
+      "Send Later機能により、チャットリクエストの送信を指定時間まで延期できるようになりました。",
+      "ドラフト機能を使用して、送信前のリクエストを複数保持し、ワークスペースや設定ごとに管理できるようになりました。",
+      "リモート環境（SSH、WSL、Dev Tunnel）をGitHub Environmentとして共有できるようになりました。",
+      "Inbox modeの改善により、対応が必要なセッションのグループ化や確認済み（Acknowledged）状態への移行が容易になりました。",
+      "エージェントの応答内でHTMLプレビューやネイティブビジュアル（チャートやメトリクスなど）を表示できるようになりました。"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot User"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:13Z",
+    "source_id": "vscode",
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T12:38:11Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-449582336",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.114",
+    "published_at": "2026-11-18T05:59:26Z",
+    "title_original": "GitHub Copilot CLI v1.0.114",
+    "excerpt_original": "2026-11-18 Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.114 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.114がリリースされました。本バージョンには、各種の修正と変更が含まれています。",
+    "changes": [
+      "各種の修正と変更の実施"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:13Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T12:38:13Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-449300583",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.114-0",
@@ -286,16 +342,26 @@
     "excerpt_original": "Information workers can now use model-app-builder skill in Copilot Cowork to create and refine model-driven apps from natural-language requirements. Cowork turns a business scenario into an app specification and build plan for review before creating the model-driven app and its supporting Power Apps and Microsoft Dataverse artifacts. By handling repetitive artifact creation, makers can move from an idea to a working app fast and spend more time refining the app's design and business experience. Makers can continue iterating through conversation in Cowork or open the generated artifacts in Power Apps for direct customization. Availability Field Value Release Channel Not applicable Applies to Model-driven apps Feature Scope Admins or makers GA date: January CY2027 Preview date: November CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Power Apps: Copilot Coworkによるモデル駆動型アプリの構築",
+    "summary_ja": "情報ワーカーはCopilot Coworkのmodel-app-builderスキルを使用して、自然言語の要件からモデル駆動型アプリを作成および洗練できるようになります。Coworkはビジネスシナリオをアプリの仕様と構築計画に変換し、レビューを経てからアプリや関連するPower AppsおよびMicrosoft Dataverseの成果物を自動作成します。製作者は反復的な成果物の作成作業を効率化し、アプリの設計やビジネス体験の洗練に集中することが可能です。",
+    "changes": [
+      "自然言語の要件からモデル駆動型アプリを作成・洗練するmodel-app-builderスキルを追加",
+      "ビジネスシナリオをアプリの仕様および構築計画に変換する機能を提供",
+      "作成された成果物はPower Appsで直接カスタマイズまたは対話形式で反復修正が可能"
+    ],
+    "target_user": [
+      "Information workers",
+      "Admins",
+      "Makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:15Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T12:38:13Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-2cb5ec25b94518356cce",
@@ -306,16 +372,25 @@
     "excerpt_original": "When sellers open Dynamics 365 Sales, they can land in Sales agent: an agentic home for all sales AI instead of a traditional dashboard. Structured workflows in Sales agent bring agent recommendations and customer-engagement preparation together, giving sellers one place to understand what needs attention and what to do next without navigating separate agent experiences or working out the right prompt. From this home, sellers can review prioritized recommendations and next steps from their agents, prepare for upcoming customer meetings, and review past meetings when the required meeting information is available. Sellers can understand the context behind their work and move from an insight to the next action in their selling workflow. GA date: January CY2027 Preview date: December CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 SalesにおけるSales agentの導入",
+    "summary_ja": "Dynamics 365 Salesに、従来のダッシュボードの代わりにすべてのセールスAIを集約した「Sales agent」が導入されます。構造化されたワークフローにより、エージェントからの推奨事項や顧客エンゲージメントの準備機能が統合され、ユーザーはプロンプトの入力や複数の画面を行き来することなく次のアクションを把握できます。これにより、優先順位付けされた推奨事項の確認、ミーティングの準備や振り返り、インサイトからワークフローへの移行がスムーズに行えるようになります。",
+    "changes": [
+      "従来のダッシュボードに代わり、Sales agentをホームページとして表示する機能の追加",
+      "エージェントからの推奨事項や顧客エンゲージメント準備機能の統合",
+      "今後の顧客ミーティングの準備および過去のミーティング情報の確認機能"
+    ],
+    "target_user": [
+      "Sellers",
+      "Sales professionals"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:16Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T12:38:15Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-2ec81254642aa77a0ac3",
@@ -326,16 +401,24 @@
     "excerpt_original": "Learning Agent proactively delivers personalized AI and Copilot upskilling notifications through Microsoft Teams, helping users discover relevant learning opportunities in their flow of work. These notifications are tailored to users' roles, Copilot adoption stages, and usage patterns, guiding them toward practical scenarios and skills they can apply in everyday tasks. GA date: December CY2026 Preview date: November CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Learning AgentによるMicrosoft Teams内のAI・Copilotスキル向上通知",
+    "summary_ja": "Learning AgentがMicrosoft Teamsを通じて、パーソナライズされたAIおよびCopilotのスキル向上通知をプロアクティブに配信します。この機能はユーザーの役割、Copilotの導入段階、利用パターンに合わせて調整され、日々の業務で活用できる実践的な学習機会の発見を支援します。",
+    "changes": [
+      "Learning AgentによるMicrosoft Teams内でのAIおよびCopilotスキル向上通知の提供",
+      "ユーザーの役割、導入段階、利用パターンに基づくパーソナライズされた通知",
+      "プレビュー提供開始時期は2026年11月、一般提供（GA）開始時期は2026年12月を予定"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:18Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T12:38:16Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-20a2202f494fc036afc6",
@@ -346,16 +429,24 @@
     "excerpt_original": "With new Copilot Workspaces updates, Work IQ can suggest relevant workspaces based on current workstreams to help people get started quickly. Once in a workspace, team members can work together on shared documents while Copilot connects the dots across the work, surfacing what changed, what remains unresolved, and which actions need attention so everyone can quickly catch up and keep the work moving. More info: https://support.microsoft.com/en-us/microsoft-365-copilot/copilot-notebooks-to-copilot-workspaces GA date: January CY2027 Preview date: November CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Copilot Workspacesのアップデート",
+    "summary_ja": "Microsoft 365 CopilotのCopilot Workspacesに新しいアップデートが追加されます。Work IQにより現在のワークストリームに基づいた関連ワークスペースの提案が可能になり、チームメンバーは共有ドキュメント上で共同作業を行いながら、Copilotを通じて変更点や未解決の事項、必要なアクションを把握できるようになります。",
+    "changes": [
+      "Work IQによる現在のワークストリームに基づいた関連ワークスペースの提案機能の追加",
+      "共有ドキュメント上でのチーム共同作業機能",
+      "変更点、未解決事項、要対応アクションをCopilotが提示する機能の追加"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:19Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T12:38:18Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-f9ae29a431d7d70c140e",
@@ -366,16 +457,26 @@
     "excerpt_original": "Agent 365 Business Analytics brings AI spend, usage, and value together in one place, helping leaders understand where AI investment is going, what value it’s delivering, and where to invest next. Explore cost across services, models, agents, and users, understand the business use cases AI supports and the value it creates, and forecast future spend to make more informed investment decisions. GA date: December CY2026 Preview date: November CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Agent 365 ビジネスアナリティクス エクスペリエンス",
+    "summary_ja": "Agent 365 Business Analyticsは、AIの支出、利用状況、価値を1箇所に統合し、リーダーが投資対効果の把握や将来の支出予測を行えるようにする機能です。サービス、モデル、エージェント、ユーザーごとのコスト確認や、AIがサポートするビジネスユースケースの理解を支援します。プレビュー版の提供は2026年11月、一般提供（GA）は2026年12月に予定されています。",
+    "changes": [
+      "AIの支出、利用状況、価値を統合して確認できるダッシュボードの提供",
+      "サービス、モデル、エージェント、ユーザーごとのコスト分析機能",
+      "AIがサポートするビジネスユースケースと創出される価値の可視化",
+      "将来のAI支出の予測による投資判断の支援"
+    ],
+    "target_user": [
+      "リーダー",
+      "意思決定者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:20Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T12:38:19Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-0feaa8b2942b5607a307",
@@ -386,16 +487,26 @@
     "excerpt_original": "Copilot Code is a new AI-powered coding experience in Microsoft Copilot that helps people turn ideas into working software, starting from the work they already do and building through natural language, grounded in their work by Work IQ. Projects can be published as managed apps on Copilot Managed Runtime with IT in control, and can optionally extend when connected to GitHub repositories and pull requests for review and further development. GA date: December CY2026 Preview date: October CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot: Copilot Code",
+    "summary_ja": "Copilot Codeは、Microsoft Copilotに導入されるAI駆動のコーディング体験であり、自然言語や既存の作業を基にアイデアをソフトウェアへと変換することを支援します。Work IQに基づき、GitHubリポジトリやプルリクエストとの連携、およびCopilot Managed Runtimeを通じた管理アプリとしての公開に対応します。プレビュー版の提供は2026年10月、一般提供（GA）は2026年12月に予定されています。",
+    "changes": [
+      "自然言語とWork IQに基づくデータ連携を活用したAIコーディング機能の追加",
+      "GitHubリポジトリおよびプルリクエストとの連携による開発・レビューの拡張",
+      "Copilot Managed Runtimeを通じた管理アプリとしてのプロジェクト公開機能"
+    ],
+    "target_user": [
+      "Developers",
+      "Information Workers",
+      "IT Administrators"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:22Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T12:38:20Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "m365-roadmap-adea4ca1a95323628079",
@@ -406,16 +517,25 @@
     "excerpt_original": "Understand, summarize, edit, review and draft legal documents with Copilot in Word. GA date: December CY2026 Preview date: April CY2026",
     "product": "Microsoft 365 Copilot",
     "status": "Roadmap",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "[提供予定・ロードマップ] [ロードマップ] Word: リーガルプラグイン",
+    "summary_ja": "WordのCopilotを使用して、法的文書の理解、要約、編集、レビュー、ドラフト作成が可能になります。2026年4月にプレビュー版が提供され、2026年12月に一般提供（GA）が開始される予定です。",
+    "changes": [
+      "WordのCopilotで法的文書の理解、要約、編集、レビュー、ドラフト作成機能を提供",
+      "プレビュー提供時期: 2026年4月",
+      "一般提供（GA）時期: 2026年12月"
+    ],
+    "target_user": [
+      "Word users",
+      "Legal professionals"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:23Z",
     "content_type": "roadmap",
     "source_id": "m365-roadmap",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T12:38:22Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-848186ead70c7091d6f2",
@@ -426,15 +546,24 @@
     "excerpt_original": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare… The post GitHub Copilot Fusion updates: more availability, benchmarks, and models appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot Fusion のアップデート：可用性の拡大、ベンチマーク、新しいモデル",
+    "summary_ja": "GitHub Copilot Fusionが新しいモデルの追加や利用可能なサーフェスの拡大を行い、さらに2つの公開Terminal-Benchリーダーボードの結果が公開されました。これにより、Fusionの活用方法の多様化とパフォーマンスの比較が可能になります。",
+    "changes": [
+      "新しいモデルの追加",
+      "利用可能なCopilotサーフェスの拡大",
+      "2つの公開Terminal-Benchリーダーボードにおける結果の公開"
+    ],
+    "target_user": [
+      "GitHub Copilot users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:25Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T12:38:23Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-ec0e66ec63db4a6c9f3f",

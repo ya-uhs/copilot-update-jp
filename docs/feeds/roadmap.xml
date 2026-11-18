@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 03:18:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 12:38:25 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -89,74 +89,74 @@
       <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Power Apps: Build model-driven apps with Copilot Cowork</title>
+      <title>[提供予定・ロードマップ] Power Apps: Copilot Coworkによるモデル駆動型アプリの構築</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579979</link>
       <guid isPermaLink="false">m365-roadmap-d979e2161d89af2e3ebd</guid>
       <pubDate>Tue, 17 Nov 2026 18:36:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Information workers can now use model-app-builder skill in Copilot Cowork to create and refine model-driven apps from natural-language requirements. Cowork turns a business scenario into an app specification and build plan for review before creating the model-driven app and its supporting Power Apps and Microsoft Dataverse artifacts. By handling repetitive artifact creation, makers can move from an idea to a working app fast and spend more time refining the app&amp;#x27;s design and business experience. Makers can continue iterating through conversation in Cowork or open the generated artifacts in Power Apps for direct customization. Availability Field Value Release Channel Not applicable Applies to Model-driven apps Feature Scope Admins or makers GA date: January CY2027 Preview date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579979"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;情報ワーカーはCopilot Coworkのmodel-app-builderスキルを使用して、自然言語の要件からモデル駆動型アプリを作成および洗練できるようになります。Coworkはビジネスシナリオをアプリの仕様と構築計画に変換し、レビューを経てからアプリや関連するPower AppsおよびMicrosoft Dataverseの成果物を自動作成します。製作者は反復的な成果物の作成作業を効率化し、アプリの設計やビジネス体験の洗練に集中することが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語の要件からモデル駆動型アプリを作成・洗練するmodel-app-builderスキルを追加&lt;/li&gt;&lt;li&gt;ビジネスシナリオをアプリの仕様および構築計画に変換する機能を提供&lt;/li&gt;&lt;li&gt;作成された成果物はPower Appsで直接カスタマイズまたは対話形式で反復修正が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579979"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Dynamics 365 Sales: An agentic home for all sales AI</title>
+      <title>[提供予定・ロードマップ] Dynamics 365 SalesにおけるSales agentの導入</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579978</link>
       <guid isPermaLink="false">m365-roadmap-2cb5ec25b94518356cce</guid>
       <pubDate>Tue, 17 Nov 2026 18:36:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;When sellers open Dynamics 365 Sales, they can land in Sales agent: an agentic home for all sales AI instead of a traditional dashboard. Structured workflows in Sales agent bring agent recommendations and customer-engagement preparation together, giving sellers one place to understand what needs attention and what to do next without navigating separate agent experiences or working out the right prompt. From this home, sellers can review prioritized recommendations and next steps from their agents, prepare for upcoming customer meetings, and review past meetings when the required meeting information is available. Sellers can understand the context behind their work and move from an insight to the next action in their selling workflow. GA date: January CY2027 Preview date: December CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579978"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Salesに、従来のダッシュボードの代わりにすべてのセールスAIを集約した「Sales agent」が導入されます。構造化されたワークフローにより、エージェントからの推奨事項や顧客エンゲージメントの準備機能が統合され、ユーザーはプロンプトの入力や複数の画面を行き来することなく次のアクションを把握できます。これにより、優先順位付けされた推奨事項の確認、ミーティングの準備や振り返り、インサイトからワークフローへの移行がスムーズに行えるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;従来のダッシュボードに代わり、Sales agentをホームページとして表示する機能の追加&lt;/li&gt;&lt;li&gt;エージェントからの推奨事項や顧客エンゲージメント準備機能の統合&lt;/li&gt;&lt;li&gt;今後の顧客ミーティングの準備および過去のミーティング情報の確認機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579978"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot (Microsoft 365): AI and Copilot Upskilling Nudges in Microsoft Teams by Learning Agent</title>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Learning AgentによるMicrosoft Teams内のAI・Copilotスキル向上通知</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579905</link>
       <guid isPermaLink="false">m365-roadmap-2ec81254642aa77a0ac3</guid>
       <pubDate>Tue, 17 Nov 2026 18:36:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Learning Agent proactively delivers personalized AI and Copilot upskilling notifications through Microsoft Teams, helping users discover relevant learning opportunities in their flow of work. These notifications are tailored to users&amp;#x27; roles, Copilot adoption stages, and usage patterns, guiding them toward practical scenarios and skills they can apply in everyday tasks. GA date: December CY2026 Preview date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579905"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Learning AgentがMicrosoft Teamsを通じて、パーソナライズされたAIおよびCopilotのスキル向上通知をプロアクティブに配信します。この機能はユーザーの役割、Copilotの導入段階、利用パターンに合わせて調整され、日々の業務で活用できる実践的な学習機会の発見を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Learning AgentによるMicrosoft Teams内でのAIおよびCopilotスキル向上通知の提供&lt;/li&gt;&lt;li&gt;ユーザーの役割、導入段階、利用パターンに基づくパーソナライズされた通知&lt;/li&gt;&lt;li&gt;プレビュー提供開始時期は2026年11月、一般提供（GA）開始時期は2026年12月を予定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579905"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Copilot Workspaces updates</title>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Copilot Workspacesのアップデート</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579889</link>
       <guid isPermaLink="false">m365-roadmap-20a2202f494fc036afc6</guid>
       <pubDate>Tue, 17 Nov 2026 18:36:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;With new Copilot Workspaces updates, Work IQ can suggest relevant workspaces based on current workstreams to help people get started quickly. Once in a workspace, team members can work together on shared documents while Copilot connects the dots across the work, surfacing what changed, what remains unresolved, and which actions need attention so everyone can quickly catch up and keep the work moving. More info: https://support.microsoft.com/en-us/microsoft-365-copilot/copilot-notebooks-to-copilot-workspaces GA date: January CY2027 Preview date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579889"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのCopilot Workspacesに新しいアップデートが追加されます。Work IQにより現在のワークストリームに基づいた関連ワークスペースの提案が可能になり、チームメンバーは共有ドキュメント上で共同作業を行いながら、Copilotを通じて変更点や未解決の事項、必要なアクションを把握できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Work IQによる現在のワークストリームに基づいた関連ワークスペースの提案機能の追加&lt;/li&gt;&lt;li&gt;共有ドキュメント上でのチーム共同作業機能&lt;/li&gt;&lt;li&gt;変更点、未解決事項、要対応アクションをCopilotが提示する機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579889"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Agent 365 Business Analytics experience</title>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Agent 365 ビジネスアナリティクス エクスペリエンス</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577548</link>
       <guid isPermaLink="false">m365-roadmap-f9ae29a431d7d70c140e</guid>
       <pubDate>Tue, 17 Nov 2026 18:36:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Agent 365 Business Analytics brings AI spend, usage, and value together in one place, helping leaders understand where AI investment is going, what value it’s delivering, and where to invest next. Explore cost across services, models, agents, and users, understand the business use cases AI supports and the value it creates, and forecast future spend to make more informed investment decisions. GA date: December CY2026 Preview date: November CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577548"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Agent 365 Business Analyticsは、AIの支出、利用状況、価値を1箇所に統合し、リーダーが投資対効果の把握や将来の支出予測を行えるようにする機能です。サービス、モデル、エージェント、ユーザーごとのコスト確認や、AIがサポートするビジネスユースケースの理解を支援します。プレビュー版の提供は2026年11月、一般提供（GA）は2026年12月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIの支出、利用状況、価値を統合して確認できるダッシュボードの提供&lt;/li&gt;&lt;li&gt;サービス、モデル、エージェント、ユーザーごとのコスト分析機能&lt;/li&gt;&lt;li&gt;AIがサポートするビジネスユースケースと創出される価値の可視化&lt;/li&gt;&lt;li&gt;将来のAI支出の予測による投資判断の支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577548"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>[Roadmap] Microsoft Copilot (Microsoft 365): Copilot Code</title>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Copilot Code</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571887</link>
       <guid isPermaLink="false">m365-roadmap-0feaa8b2942b5607a307</guid>
       <pubDate>Tue, 17 Nov 2026 18:36:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Copilot Code is a new AI-powered coding experience in Microsoft Copilot that helps people turn ideas into working software, starting from the work they already do and building through natural language, grounded in their work by Work IQ. Projects can be published as managed apps on Copilot Managed Runtime with IT in control, and can optionally extend when connected to GitHub repositories and pull requests for review and further development. GA date: December CY2026 Preview date: October CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571887"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Copilot Codeは、Microsoft Copilotに導入されるAI駆動のコーディング体験であり、自然言語や既存の作業を基にアイデアをソフトウェアへと変換することを支援します。Work IQに基づき、GitHubリポジトリやプルリクエストとの連携、およびCopilot Managed Runtimeを通じた管理アプリとしての公開に対応します。プレビュー版の提供は2026年10月、一般提供（GA）は2026年12月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語とWork IQに基づくデータ連携を活用したAIコーディング機能の追加&lt;/li&gt;&lt;li&gt;GitHubリポジトリおよびプルリクエストとの連携による開発・レビューの拡張&lt;/li&gt;&lt;li&gt;Copilot Managed Runtimeを通じた管理アプリとしてのプロジェクト公開機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571887"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>high</category>
     </item>
     <item>
-      <title>[Roadmap] Word: legal plugin</title>
+      <title>[提供予定・ロードマップ] [ロードマップ] Word: リーガルプラグイン</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=571885</link>
       <guid isPermaLink="false">m365-roadmap-adea4ca1a95323628079</guid>
       <pubDate>Tue, 17 Nov 2026 18:36:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Understand, summarize, edit, review and draft legal documents with Copilot in Word. GA date: December CY2026 Preview date: April CY2026&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571885"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;WordのCopilotを使用して、法的文書の理解、要約、編集、レビュー、ドラフト作成が可能になります。2026年4月にプレビュー版が提供され、2026年12月に一般提供（GA）が開始される予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;WordのCopilotで法的文書の理解、要約、編集、レビュー、ドラフト作成機能を提供&lt;/li&gt;&lt;li&gt;プレビュー提供時期: 2026年4月&lt;/li&gt;&lt;li&gt;一般提供（GA）時期: 2026年12月&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571885"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - 自動貼り付けによる迅速なフォーム入力</title>

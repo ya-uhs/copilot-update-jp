@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 03:18:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 12:38:25 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.147 (Copilot / Chat / Agents)</title>
+      <link>https://code.visualstudio.com/updates/v1_147</link>
+      <guid isPermaLink="false">vscode-092d312dd2f17011c777</guid>
+      <pubDate>Wed, 18 Nov 2026 12:38:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Codeの最新リリースでは、エージェントセッション向けの「Send Later」やドラフト保存機能が実験的機能として追加されました。また、GitHub Environmentsを通じたリモート環境の共有、Inboxモードの改善、HTMLプレビューやネイティブビジュアルの表示機能が導入されています。さらに、自動化機能のセットアップガイドやアシステッドパーミッションのカスタム指示など、多くの拡張が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Send Later機能により、チャットリクエストの送信を指定時間まで延期できるようになりました。&lt;/li&gt;&lt;li&gt;ドラフト機能を使用して、送信前のリクエストを複数保持し、ワークスペースや設定ごとに管理できるようになりました。&lt;/li&gt;&lt;li&gt;リモート環境（SSH、WSL、Dev Tunnel）をGitHub Environmentとして共有できるようになりました。&lt;/li&gt;&lt;li&gt;Inbox modeの改善により、対応が必要なセッションのグループ化や確認済み（Acknowledged）状態への移行が容易になりました。&lt;/li&gt;&lt;li&gt;エージェントの応答内でHTMLプレビューやネイティブビジュアル（チャートやメトリクスなど）を表示できるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_147"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Microsoft 365におけるサービスエージェント機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=577829</link>
@@ -26,6 +36,16 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、OpenAIの「GPT-6.2 Astra」および「GPT-6.2 Sol」が一般提供開始となりました。両モデルはエージェント型コーディングおよびコードレビュー向けに設計されており、従来のGPT-6と比較してより強力なコーディング判断力を備えています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub CopilotでOpenAIのGPT-6.2 Astraが利用可能になった&lt;/li&gt;&lt;li&gt;GitHub CopilotでOpenAIのGPT-6.2 Solが利用可能になった&lt;/li&gt;&lt;li&gt;エージェント型コーディングとコードレビュー向けの機能強化が提供された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Copilot Code</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571887</link>
+      <guid isPermaLink="false">m365-roadmap-0feaa8b2942b5607a307</guid>
+      <pubDate>Tue, 17 Nov 2026 18:36:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Copilot Codeは、Microsoft Copilotに導入されるAI駆動のコーディング体験であり、自然言語や既存の作業を基にアイデアをソフトウェアへと変換することを支援します。Work IQに基づき、GitHubリポジトリやプルリクエストとの連携、およびCopilot Managed Runtimeを通じた管理アプリとしての公開に対応します。プレビュー版の提供は2026年10月、一般提供（GA）は2026年12月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語とWork IQに基づくデータ連携を活用したAIコーディング機能の追加&lt;/li&gt;&lt;li&gt;GitHubリポジトリおよびプルリクエストとの連携による開発・レビューの拡張&lt;/li&gt;&lt;li&gt;Copilot Managed Runtimeを通じた管理アプリとしてのプロジェクト公開機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571887"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
       <category>high</category>
     </item>
     <item>
@@ -79,31 +99,11 @@
       <category>high</category>
     </item>
     <item>
-      <title>Visual Studio Code 1.146 — Copilot / Chat / Agents</title>
-      <link>https://code.visualstudio.com/updates/v1_146</link>
-      <guid isPermaLink="false">vscode-4c0f71dc47d14de2554d</guid>
-      <pubDate>Wed, 11 Nov 2026 11:40:18 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.146では、Copilot harnessが新しいセッションのデフォルトとして継続提供される一方で、旧Local harnessは非推奨となり2027年2月に削除される予定です。また、AgentsウィンドウにおけるInboxモード、チャットウィンドウ、拡張機能の管理、モデル比較機能などの新機能や実験的機能が追加されました。さらに、GitHub Copilot CLIのセッションをVS Codeへ引き継ぐ機能なども導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessがデフォルトとなり、Local harnessは非推奨化され2027年2月に削除予定&lt;/li&gt;&lt;li&gt;Agentsウィンドウでセッションを管理できるInboxモードや、独立したチャットウィンドウ機能を追加（実験的／プレビュー）&lt;/li&gt;&lt;li&gt;Agentsウィンドウ内での拡張機能の検索・インストール・アンインストールに対応&lt;/li&gt;&lt;li&gt;モデル比較機能の強化により、ジャッジやシンセサイザーの構成、Copilot Fusionの選択などが容易に&lt;/li&gt;&lt;li&gt;GitHub Copilot CLIのセッションをコマンド経由でVS CodeのChatビューへ移行する機能を追加（実験的）&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_146"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot in VS Code</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot (Microsoft 365): ページ上のキャンバスでのCopilotによる編集機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=580449</link>
       <guid isPermaLink="false">m365-roadmap-6e9067a061636fc3ea20</guid>
       <pubDate>Tue, 17 Nov 2026 22:45:29 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;ページ上のチャットボックスだけでなく、コラボレーションフローの中にMicrosoft Copilotを統合する機能です。ページ上にコメントを残してCopilotに質問したり直接編集を依頼することが可能になり、ユーザーとCopilotがプレゼンスや変更を確認しながらページ上で共同作業を行えるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ページ上のコメントを通じてCopilotに質問や直接の編集リクエストが可能になります&lt;/li&gt;&lt;li&gt;ユーザーとCopilotがプレゼンスと変更を確認しながらページ上で共同作業を行えるようになります&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580449"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Pagesによるインタラクティブなレポートとダッシュボードの構築</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580445</link>
-      <guid isPermaLink="false">m365-roadmap-668a5806737ea733dea2</guid>
-      <pubDate>Tue, 17 Nov 2026 22:45:29 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの「Pages」機能により、プロンプトからコンテンツ、ビジュアル、チャート、インタラクティブ要素を統合したリッチなレポートやダッシュボードの作成が可能になります。作成したPageは他の共同作業者やエージェントと共有でき、他のMicrosoft 365ファイルと同様に直接編集が可能です。プレビュー提供は2026年11月、一般提供（GA）は2026年12月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロンプトを起点として、コンテンツやビジュアル、チャート、インタラクティブ要素を統合したPageを作成可能&lt;/li&gt;&lt;li&gt;作成したPageを共同作業者やエージェントと共有し、Microsoft 365ファイルと同様に直接編集が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580445"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

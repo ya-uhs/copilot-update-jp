@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 03:18:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 12:38:25 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.147 (Copilot / Chat / Agents)</title>
+      <link>https://code.visualstudio.com/updates/v1_147</link>
+      <guid isPermaLink="false">vscode-092d312dd2f17011c777</guid>
+      <pubDate>Wed, 18 Nov 2026 12:38:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Codeの最新リリースでは、エージェントセッション向けの「Send Later」やドラフト保存機能が実験的機能として追加されました。また、GitHub Environmentsを通じたリモート環境の共有、Inboxモードの改善、HTMLプレビューやネイティブビジュアルの表示機能が導入されています。さらに、自動化機能のセットアップガイドやアシステッドパーミッションのカスタム指示など、多くの拡張が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Send Later機能により、チャットリクエストの送信を指定時間まで延期できるようになりました。&lt;/li&gt;&lt;li&gt;ドラフト機能を使用して、送信前のリクエストを複数保持し、ワークスペースや設定ごとに管理できるようになりました。&lt;/li&gt;&lt;li&gt;リモート環境（SSH、WSL、Dev Tunnel）をGitHub Environmentとして共有できるようになりました。&lt;/li&gt;&lt;li&gt;Inbox modeの改善により、対応が必要なセッションのグループ化や確認済み（Acknowledged）状態への移行が容易になりました。&lt;/li&gt;&lt;li&gt;エージェントの応答内でHTMLプレビューやネイティブビジュアル（チャートやメトリクスなど）を表示できるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_147"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.114 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.114</link>
+      <guid isPermaLink="false">github-copilot-cli-449582336</guid>
+      <pubDate>Wed, 18 Nov 2026 05:59:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.114がリリースされました。本バージョンには、各種の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;各種の修正と変更の実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.114"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>low</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.114-0 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.114-0</link>
@@ -29,14 +49,14 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub Copilot Fusion updates: more availability, benchmarks, and models</title>
+      <title>GitHub Copilot Fusion のアップデート：可用性の拡大、ベンチマーク、新しいモデル</title>
       <link>https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models</link>
       <guid isPermaLink="false">github-changelog-848186ead70c7091d6f2</guid>
       <pubDate>Tue, 17 Nov 2026 18:04:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare… The post GitHub Copilot Fusion updates: more availability, benchmarks, and models appeared first on The GitHub Blog .&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot Fusionが新しいモデルの追加や利用可能なサーフェスの拡大を行い、さらに2つの公開Terminal-Benchリーダーボードの結果が公開されました。これにより、Fusionの活用方法の多様化とパフォーマンスの比較が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;新しいモデルの追加&lt;/li&gt;&lt;li&gt;利用可能なCopilotサーフェスの拡大&lt;/li&gt;&lt;li&gt;2つの公開Terminal-Benchリーダーボードにおける結果の公開&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>unclassified</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot app, Microsoft Ignite releases</title>
@@ -1987,26 +2007,6 @@
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot BusinessおよびEnterpriseにおけるCopilot機能のデフォルト有効化</title>
-      <link>https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise</link>
-      <guid isPermaLink="false">github-changelog-9111ec33ec962e748182</guid>
-      <pubDate>Fri, 25 Sep 2026 03:13:23 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Enterpriseおよび組織のGitHub Copilot設定において、一般提供（GA）されているGitHub Copilot機能およびサポートされるクライアント機能に対する新しいグローバルデフォルトポリシーが導入されました。今後28日間にわたり、管理者は設定の確認と調整を行うことができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Enterpriseおよび組織のCopilot設定に新しいグローバルデフォルトポリシーを導入&lt;/li&gt;&lt;li&gt;一般提供（GA）されているGitHub Copilot機能とサポートされるクライアント機能が対象&lt;/li&gt;&lt;li&gt;適用に向けた移行期間として今後28日間を設定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-3のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-3</link>
-      <guid isPermaLink="false">github-copilot-cli-396087135</guid>
-      <pubDate>Thu, 24 Sep 2026 21:18:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.89-3がリリースされました。今回のアップデートでは、Ask-userフォームにおける修正が含まれています。具体的には、複数の質問の間でカスタムの「Other」の回答がそれぞれ独立して保持されるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ask-user forms keep custom Other answers separate across questions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>low</category>
     </item>
   </channel>
 </rss>
