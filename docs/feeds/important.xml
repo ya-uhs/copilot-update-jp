@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:38:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 18:33:10 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -46,6 +46,16 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Copilot Codeは、Microsoft Copilotに導入されるAI駆動のコーディング体験であり、自然言語や既存の作業を基にアイデアをソフトウェアへと変換することを支援します。Work IQに基づき、GitHubリポジトリやプルリクエストとの連携、およびCopilot Managed Runtimeを通じた管理アプリとしての公開に対応します。プレビュー版の提供は2026年10月、一般提供（GA）は2026年12月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語とWork IQに基づくデータ連携を活用したAIコーディング機能の追加&lt;/li&gt;&lt;li&gt;GitHubリポジトリおよびプルリクエストとの連携による開発・レビューの拡張&lt;/li&gt;&lt;li&gt;Copilot Managed Runtimeを通じた管理アプリとしてのプロジェクト公開機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571887"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilot リリースノート（2026年11月17日）</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#november-17-2026</link>
+      <guid isPermaLink="false">m365-release-notes-f18759254b030397c226</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotおよび関連サービスの更新情報が公開されました。Confluence CloudやTableauコネクタの機能強化、Outlookでのカスタムエンジンエージェントの利用、Copilot Studioにおけるエージェントノードの追加などが含まれています。また、管理者向けの組織属性の共有機能やOutlookのメッセージリストのソート改善なども提供されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 Organizational Data Serviceに、管理者がカスタム組織属性をMicrosoft 365のピープルストアに共有できる設定が追加されました。&lt;/li&gt;&lt;li&gt;Confluence Cloudコネクタにおいて、スペースの含め方・除外やConfluence Query Language（CQL）文字列を使用したクエリフィルターの絞り込みがサポートされました。&lt;/li&gt;&lt;li&gt;Microsoft CopilotでTableauダッシュボードや視覚化を探索・解釈できるTableau Copilotコネクタが追加されました。&lt;/li&gt;&lt;li&gt;Outlook内でカスタムエンジンエージェントに直接アクセスし、メール処理やワークフローを自動化できるようになりました。&lt;/li&gt;&lt;li&gt;Microsoft 365 Copilot Studioのワークフローに、データ推論・ツール呼び出し・応答生成を1つのステップで行う「エージェントノード」が追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#november-17-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Release</category>
       <category>high</category>
     </item>
     <item>

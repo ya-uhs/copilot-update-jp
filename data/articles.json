@@ -574,15 +574,23 @@
     "excerpt_original": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub CopilotアプリのアップデートとMicrosoft Igniteでのリリース",
+    "summary_ja": "GitHub Copilotアプリが拡張され、Azure DevOpsリポジトリ、GitHub Enterprise Serverインスタンス、およびブラウザのサポートが追加されました。これにより、ユーザーの作業環境に合わせてCopilotを利用できるようになります。",
+    "changes": [
+      "Azure DevOpsリポジトリのサポートを追加",
+      "GitHub Enterprise Serverインスタンスのサポートを追加",
+      "ブラウザでの利用をサポート"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:20Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:13Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-11d7f4207e0fe0d2a885",
@@ -593,15 +601,23 @@
     "excerpt_original": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot コードレビューのアップデート：適応型エフォートとシークレット検出",
+    "summary_ja": "GitHub Copilotのコードレビュー機能がアップデートされ、より多くの問題を早期に発見できるようになりました。プルリクエストの変更内容に応じてレビューの深さを自動調整する適応型エフォート機能などが導入されています。",
+    "changes": [
+      "プルリクエストごとにレビューの深さを合わせる適応型エフォート機能を導入",
+      "定型的な変更には短いレビューを行い効率化"
+    ],
+    "target_user": [
+      "開発者",
+      "コードレビュー担当者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:26Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:20Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-467e19c06d56952c4a19",
@@ -612,15 +628,23 @@
     "excerpt_original": "The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major… The post MAI Code 2 and MAI Code 2 Flash in GitHub Copilot appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub CopilotにおけるMAI Code 2およびMAI Code 2 Flashの提供",
+    "summary_ja": "次世代のMicrosoft AI（MAI）コーディングモデルであるMAI Code 2およびMAI Code 2 FlashがGitHub Copilotに導入されました。これら2つの新しいモデルが、開発環境において利用可能となっています。",
+    "changes": [
+      "MAI Code 2の導入",
+      "MAI Code 2 Flashの導入"
+    ],
+    "target_user": [
+      "GitHub Copilot ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:29Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:26Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-e3592706e986cff320d9",
@@ -631,15 +655,26 @@
     "excerpt_original": "This update brings remote access, on-device voice dictation, and browser use controls to GitHub Copilot for JetBrains. Copilot users in JetBrains IDEs also get context usage shortcuts, historical diffs, simpler… The post GitHub Copilot in JetBrains, Ignite releases appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "JetBrains 用 GitHub Copilot、Ignite リリース",
+    "summary_ja": "このアップデートにより、GitHub Copilot for JetBrains にリモートアクセス、デバイス上での音声入力、ブラウザ使用制御が追加されました。JetBrains IDE の利用者は、コンテキスト使用ショートカットや過去の差分表示などの機能も利用可能になります。",
+    "changes": [
+      "リモートアクセス機能の追加",
+      "デバイス上での音声入力（音声ディクテーション）機能の追加",
+      "ブラウザ使用制御の導入",
+      "コンテキスト使用ショートカットの提供",
+      "過去の差分（historical diffs）表示機能の提供"
+    ],
+    "target_user": [
+      "JetBrains IDE ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:37Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:29Z",
+    "llm_provider": "Groq"
   },
   {
     "id": "github-changelog-d42dbfbf4445ea07f392",
@@ -650,15 +685,23 @@
     "excerpt_original": "Enterprises can now stream GitHub Copilot agent activity directly into Microsoft Agent 365. This lets you bring audit data from across GitHub Copilot clients into Microsoft’s agent control plane, where… The post Monitor GitHub Copilot activity through Microsoft Agent 365 appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "Microsoft Agent 365を通じたGitHub Copilotアクティビティの監視",
+    "summary_ja": "企業はGitHub CopilotのエージェントアクティビティをMicrosoft Agent 365へ直接ストリーミングできるようになりました。これにより、さまざまなGitHub Copilotクライアントからの監査データをMicrosoftのエージェントコントロールプレーンに集約することが可能です。",
+    "changes": [
+      "GitHub CopilotのエージェントアクティビティをMicrosoft Agent 365へストリーミングする機能を追加",
+      "各GitHub Copilotクライアントからの監査データをMicrosoftのエージェントコントロールプレーンへ統合"
+    ],
+    "target_user": [
+      "Enterprises",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:43Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:37Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-b78f9687534c5dcde9d8",
@@ -668,16 +711,24 @@
     "title_original": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
     "excerpt_original": "GitHub Copilot CLI now supports Microsoft Entra authentication in public preview. You can sign in with your Microsoft Entra account to silently authenticate to a linked GitHub Enterprise Managed User… The post GitHub Copilot CLI adds Microsoft Entra sign-in as a preview appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Public Preview",
+    "title_ja": "GitHub Copilot CLIがMicrosoft Entraサインインをプレビューとして追加",
+    "summary_ja": "GitHub Copilot CLIが、パブリックプレビューとしてMicrosoft Entra認証のサポートを追加しました。ユーザーはMicrosoft Entraアカウントでサインインすることで、リンクされたGitHub Enterprise Managed Userに対してサイレント認証が可能になります。",
+    "changes": [
+      "GitHub Copilot CLIでのMicrosoft Entra認証のサポート（パブリックプレビュー）",
+      "Microsoft Entraアカウントを使用した、リンク済みGitHub Enterprise Managed Userへのサイレント認証機能の追加"
+    ],
+    "target_user": [
+      "GitHub Enterprise Managed User",
+      "GitHub Copilot CLI ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:49Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:43Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-0c029933681c9df412cc",
@@ -688,15 +739,23 @@
     "excerpt_original": "You can now see how Copilot code review feedback lands in each repository. A new “Repository insights” page, the first item in a repository’s Insights tab, brings Copilot code review… The post Track Copilot code review outcomes in Repository insights appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "Repository insightsでのGitHub Copilotコードレビュー結果の追跡",
+    "summary_ja": "各リポジトリにおけるGitHub Copilotのコードレビューフィードバックの適用状況を確認できるようになりました。リポジトリのInsightsタブ内の最初の項目として、新しい「Repository insights」ページが追加されます。",
+    "changes": [
+      "リポジトリのInsightsタブに新しい「Repository insights」ページを追加",
+      "GitHub Copilotのコードレビューフィードバックの適用状況を追跡可能に"
+    ],
+    "target_user": [
+      "Developers",
+      "Repository Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:55Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:49Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-changelog-7fdabf7446c0026f08de",
@@ -706,16 +765,22 @@
     "title_original": "GitHub Copilot Evals is now in public preview",
     "excerpt_original": "You can now use GitHub Copilot Evals to optimize GitHub Copilot for yourself. As your prompts, models, skills, and tools change, are you still getting the most out of Copilot?… The post GitHub Copilot Evals is now in public preview appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Public Preview",
+    "title_ja": "GitHub Copilot Evalsのパブリックプレビュー提供開始",
+    "summary_ja": "GitHub Copilot Evalsのパブリックプレビューが開始されました。プロンプト、モデル、スキル、ツールの変更に合わせてGitHub Copilotを最適化することができます。",
+    "changes": [
+      "GitHub Copilot Evalsのパブリックプレビューが利用可能になりました"
+    ],
+    "target_user": [
+      "GitHub Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:33:03Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:55Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-448909563",
@@ -776,15 +841,27 @@
     "excerpt_original": "Updates released between November 03, 2026, and November 17, 2026. Microsoft 365 admin center Share custom organizational attributes with Microsoft 365 people experiences [Web] We're introducing a new capability in Microsoft 365 Organizational Data Service that enables organizations to share selected custom organizational attributes with the Microsoft 365 people store. Details: What changed: Microsoft 365 Organizational Data Service now includes a setting that allows administrators to share selected custom organizational attributes with the Microsoft 365 people store. Custom attributes shared to Microsoft 365 experiences will be visible to all users in the tenant, and guests. This feature is off by default and requires administrator action to enable. During setup, administrators configure visibility for each attribute before it is shared. Organizations that do not use Microsoft 365 Organizational Data Service, or that do not enable this capability, experience no change. Why: The change allows organizations to select custom organizational data to make available in Microsoft 365 people experiences. Try this: Review existing custom attributes in Microsoft 365 Organizational Data Service. Determine whether Microsoft 365 experiences would benefit from including any custom attributes. Review internal organizational privacy, governance, and data-sharing requirements before enabling the capability. Confirm that custom attributes are appropriate to be shared with all users and guests in the tenant. Configure app access settings in Microsoft 365 Organizational Data Service to select custom attributes to make available to Microsoft 365. Why this matters: Organizations can enable new organizational data scenarios for Microsoft 365 while controlling which attributes are visible to Microsoft 365 experiences. Business impact: Administrators can extend people-related experiences with approved organizational data while aligning with governance and privacy policies. Personal impact: Users can access additional organizational information in Microsoft 365 experiences when their organization chooses to share it. Learn: Applications powered by Microsoft 365 Organizational Data Service Microsoft 365 Copilot extensibility Support for refining query filters for the Confluence Cloud Copilot connector [Web] This feature gives admins more control over what the Confluence Cloud connector indexes. By default, the connector indexes all blogs and pages. Admins can now include or exclude specific spaces. For advanced scenarios, they can write a Confluence Query Language (CQL) string that sets the conditions for which pages are synced. Roadmap ID: 503571 Details: What changed: The Confluence Cloud connector now supports two kinds of filters. You can include or exclude spaces, and you can use CQL strings to sync only the pages that meet your conditions. For example, you can index only pages modified in the last two years. Before this release, the connector indexed all blogs and pages, and you had little control over its scope. Why: These filters let you choose more precisely which content gets indexed. They help keep content that's outdated or out of scope out of Copilot results. Try this: Open your Confluence Cloud connector settings in Microsoft Copilot. Under Include or exclude data, select the spaces you want to include or exclude. To filter further, enter a CQL string. For example, lastModified >= \"2024/12/31\" indexes only content modified after that date. Choose Preview results to check sample values for the selected properties and CQL string. Why this matters: Better filters help users find relevant Confluence Cloud content faster, which makes Copilot search results more useful. Business impact: Teams can control exactly which Confluence Cloud spaces and pages Copilot indexes. This helps with compliance and data governance and keeps outdated content out of results. Personal impact: Users spend less time sorting through results that don't apply to them and get more current, relevant Confluence Cloud content in Copilot. Learn: Deploy the Confluence Cloud connector in the Microsoft 365 admin center Connect Tableau data to Copilot [Web] Customers can connect Microsoft Copilot with Tableau to explore and interpret dashboards and visualizations through a Copilot connector. Details: What changed: Microsoft Copilot now supports a Tableau Copilot connector. Users can explore and interpret Tableau dashboards and visualizations through Copilot using connected Tableau content. Previously, Tableau data was not available through this connector-based integration. Access to connected content continues to rely on the permissions enforced by the source system. Why: Business information is often spread across analytics platforms and productivity tools. This integration helps users understand dashboard content through natural language interactions in Copilot. Try this: Open the Microsoft 365 admin experience and configure the Tableau Copilot connector. Ask Copilot questions about available Tableau dashboards and visualizations. Review Copilot-generated interpretations based on connected Tableau content. Why this matters: Users can gain insights from Tableau content without manually navigating every dashboard. Business impact: Organizations can extend Copilot access to analytics content and improve discoverability of business information. Personal impact: Users can find and interpret dashboard information more quickly through conversational prompts. Access custom engine agents directly in Outlook [Web] Users can now access custom engine agents within Outlook to automate tasks and extend email workflows. Details: What changed: Custom engine agents are now available inside Outlook, allowing users to run tailored automation workflows without leaving the app. Previously, accessing these agents required separate tools or platforms. This integration supports consistent agent experiences across Microsoft 365 apps and enhances security by running agents within Outlook's trusted environment. Why: Providing access to custom agents in Outlook streamlines email-related automation and reduces context switching. Users can now: Automate email processing and management Integrate custom workflows directly in Outlook Improve productivity by using agents where they work most Try this: Open Outlook and access the agent pane. Select a custom engine agent from your agent list. Run the agent to automate email tasks such as sorting or summarizing messages. Why this matters: Integrating custom agents in Outlook enhances workflow automation where users spend significant time, improving efficiency and reducing manual effort. Business impact: Teams benefit from consistent automation capabilities across Microsoft 365 apps, enabling streamlined email management and collaboration. Personal impact: You save time managing emails and related tasks by using custom agents directly within Outlook. Microsoft 365 Copilot Studio Invoke agents as workflow steps with the agent node [Web] Add an agent node to your workflow to reason over data, call tools, and return a response, all within a single step. The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead. Roadmap ID: 562222 What changed: The agent node now allows workflows to embed reasoning directly within a single step, replacing prior multi-step manual handoffs. This integration supports data reasoning, tool invocation, and response generation in one workflow node, reducing complexity and accelerating processing times. Workflows can now handle nuanced decisions without additional development effort, improving automation capabilities and lowering operational overhead. Why: Embedding reasoning in workflows reduces manual intervention and speeds up process execution. Teams can now: Automate more end-to-end processes. Reduce operational overhead by simplifying workflow design. Try this: In Copilot Studio, add an agent node to your workflow canvas. Configure the agent node to call specific tools and process data. Run the workflow to see combined reasoning and tool responses in one step. Why this matters: This change streamlines workflows by reducing manual steps and enabling more complex automation without extra development. Business impact: Teams can automate complex processes more efficiently, reducing delays and operational costs. Personal impact: You save time by managing fewer workflow steps and reduce errors from manual handoffs. Invoke agents as workflow steps with the agent node [Web] The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead. Roadmap ID: 566998 What changed: Workflows now include an agent node that performs data reasoning, calls tools, and returns responses within a single step. Previously, these actions required multiple workflow steps and manual coordination. This update enables workflows to handle nuanced decisions without extra development effort, improving automation and reducing operational overhead. Why: Embedding reasoning into workflows simplifies automation and accelerates processing. Teams can: Automate more complex processes end-to-end. Reduce operational overhead by minimizing manual workflow steps. Try this: Add an agent node in Copilot Studio to your workflow. Configure the node to integrate reasoning and tool calls. Execute the workflow to observe streamlined processing. Why this matters: This update reduces workflow complexity and enables faster, more capable automation. Business impact: Teams improve process automation efficiency and reduce operational costs. Personal impact: You save time by reducing manual workflow steps and gain more reliable automation. Outlook Sort improvements to the message list [Windows] When sorting on Outlook for Web or Outlook for Windows, if the Sort By field is not one of From, Subject, or Date Received, we will now show an additional column for the Sort By value (e.g., Size). We will also support sorting by Flag Due Date. Roadmap ID: 564803 What changed: Previously, sorting in Outlook for Web and Windows only displayed columns for From, Subject, or Date Received. Now, when sorting by other fields like Size or Flag Due Date, Outlook adds a new column showing the sorted value. This change applies to both Outlook for Web and Outlook for Windows, improving visibility of sort criteria. Why: Adding a column for the Sort By value clarifies which attribute is controlling message order, reducing confusion and improving message list usability. Try this: Open Outlook for Web or Windows. Click the Sort By dropdown above your message list. Select a field like Size or Flag Due Date to see the new column appear. Why this matters: This update helps users quickly identify how their messages are sorted, improving email management efficiency. Business impact: Teams can organize and prioritize emails more effectively by clearly seeing the sorting criteria in their message list. Personal impact: You save time by easily understanding message order without guessing which field controls sorting. Teams Express voice enrollment in Microsoft Teams [Windows, Mac] Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room, transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you donât yet have a voice profile, go to the recognition tab in Teams settings and opt in to enroll your voice from audio during your Teams meetings",
     "product": "Microsoft 365 Copilot",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "Microsoft 365 Copilot リリースノート（2026年11月17日）",
+    "summary_ja": "Microsoft 365 Copilotおよび関連サービスの更新情報が公開されました。Confluence CloudやTableauコネクタの機能強化、Outlookでのカスタムエンジンエージェントの利用、Copilot Studioにおけるエージェントノードの追加などが含まれています。また、管理者向けの組織属性の共有機能やOutlookのメッセージリストのソート改善なども提供されます。",
+    "changes": [
+      "Microsoft 365 Organizational Data Serviceに、管理者がカスタム組織属性をMicrosoft 365のピープルストアに共有できる設定が追加されました。",
+      "Confluence Cloudコネクタにおいて、スペースの含め方・除外やConfluence Query Language（CQL）文字列を使用したクエリフィルターの絞り込みがサポートされました。",
+      "Microsoft CopilotでTableauダッシュボードや視覚化を探索・解釈できるTableau Copilotコネクタが追加されました。",
+      "Outlook内でカスタムエンジンエージェントに直接アクセスし、メール処理やワークフローを自動化できるようになりました。",
+      "Microsoft 365 Copilot Studioのワークフローに、データ推論・ツール呼び出し・応答生成を1つのステップで行う「エージェントノード」が追加されました。"
+    ],
+    "target_user": [
+      "Administrators",
+      "Users",
+      "Developers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-18T18:33:10Z",
     "source_id": "m365-release-notes",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T18:33:03Z",
+    "llm_provider": "Gemini"
   },
   {
     "id": "github-copilot-cli-447583716",

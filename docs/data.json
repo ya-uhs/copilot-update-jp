@@ -1,5 +1,59 @@
 [
   {
+    "id": "vscode-092d312dd2f17011c777",
+    "source": "VS Code Release Notes",
+    "source_url": "https://code.visualstudio.com/updates/v1_147",
+    "published_at": "2026-11-18T12:38:09Z",
+    "date_basis": "first_seen",
+    "title_original": "Visual Studio Code 1.147 — Copilot / Chat / Agents",
+    "excerpt_original": "Agent sessions\nSend Later for chat requests (Experimental)\nSetting : sessions.sendLater.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nSometimes you want an agent to run a request after some time has passed. You might want to check a build after it finishes, or follow up on a review in the morning. With the Send Later feature, you can postpone sending a chat request until a specific time.\nYou can schedule a chat request by using the Send Later menu on the send button in chat.\n\nFor a specific time, select Choose Date and Time , pick a day in the calendar and a time from the dropdown, and select Schedule .\n\nWhere the request waits depends on where you scheduled it:\nNew session : In the Drafts section of the sessions list. Existing chat : In that chat's Scheduled area, with its send time. If the agent is still busy at the scheduled time, the request waits its turn instead of interrupting.\n\nAlternatively, you can ask the agent to schedule a request for you by using plain language in the chat prompt, for example: \"Check the build in 10 minutes.\"\nThe agent schedules a one-time, text-only request in the current chat and confirms when it will be sent. The request appears in the chat's Scheduled area, like one you scheduled from the menu.\n\nThe local agent host must be running at the scheduled time. Scheduling doesn't wake a sleeping computer. A missed request is processed once the host is available again.\nTo manage your scheduled requests (edit, send immediately, reschedule, or cancel), use the options available when you hover over them in the chat or session list. To find sessions with pending requests, look for the clock indicator in the session list, or select Scheduled Only in the sessions filter menu.\nLearn more about scheduling requests in the Send Later documentation .\nNote : Scheduled requests work only for sessions on This Computer and require automations to be enabled ( chat.automations.enabled Open in VS Code Open in VS Code Insiders ).\nSave and resume drafts (Experimental)\nSetting : sessions.drafts.enabled Open in VS Code Open in VS Code Insiders\nPreviously, the new-session input held a single unsent request at a time. With drafts, you can keep several unsent requests side by side, each with its own workspace, agent, and configuration, and come back to any of them later.\nWhen you leave a new session that has content, VS Code saves it to the Drafts section of the sessions list. Nothing is sent, and no agent session starts. To jump right back, select Open Draft in the notification.\n\nEach draft keeps everything you set up: text, attachments, inline references, workspace, agent, model, and other configuration. Drafts survive reloads and restarts.\nFrom the Drafts list, you can preview, open, or delete a draft. When you send a draft, it's removed only after the request is accepted, so a failed send doesn't lose your work.\nTurning off the setting hides the Drafts section but keeps your saved drafts.\nShare remote environments as GitHub Environments\nShare a remote as a GitHub Environment to pick up its agent sessions from another device or supported Copilot app, using your GitHub account.\nTo share a connected SSH host, WSL distribution, or Dev Tunnel, open the Remote Environments editor in the Agents window and select Share as GitHub Environment (GitHub icon) on the remote's row.\nA shared remote stays in its group and shows a GitHub icon after its name. Select the action again to stop sharing.\n\nLearn more about remote agent sessions .\nKeep chat sessions across Dev Container rebuilds (Experimental)\nSettings : dev.containers.stateVolume.enabled Open in VS Code Open in VS Code Insiders , chat.agentHost.devContainer.stateVolume.enabled Open in VS Code Open in VS Code Insiders\nRebuilding a Dev Container used to remove the Copilot chat sessions stored inside it. When you enable these settings, VS Code stores the user and agent state of a new Dev Container on a Docker volume, preserving your chat sessions across rebuilds.\nImportant : A container gets the volume only when it's created with the setting enabled, so rebuild once to start keeping your sessions.\nInbox mode improvements (Experimental)\nSetting : sessions.list.inboxEnabled Open in VS Code Open in VS Code Insiders\nInbox mode groups your Agents window sessions by what needs your attention. You can switch to Inbox mode at any time with Grouping > Inbox Mode in the sessions list. The sessions.list.inboxEnabled Open in VS Code Open in VS Code Insiders setting makes it the default grouping.\nThis release builds on your feedback to make Inbox mode more useful and manageable:\nAcknowledge sessions you've handled If a session doesn't need your attention but isn't finished, you can mark it as acknowledged (eye icon). Acknowledging a session moves it out of the Inbox and into the Acknowledged section. The session isn't marked as read or done, archived, or closed. When there is new activity in the session, it returns to the Inbox. You can acknowledge several selected sessions at once. Focus on one workspace or environment Use the workspace and environment pickers at the top of the sessions list to see only the sessions you care about right now. The filter applies to every section, including pinned and archived sessions, and is remembered across reloads.\n\nAgent experience\nDecision model-based model routers (Experimental)\nSetting : chat.copilot.modelRouter.enabled\nWith a model router, you describe which model you want for which kind of work. A decision model, gpt-6-luna-decisions , then matches your request to one of your routes, and VS Code runs the chat on that route's model. A router is a YAML file in ~/.agents/model-routers/ that appears in the model picker in Copilot harness sessions.\nModel routers are at an early stage, and your feedback will help shape them. Tell us what works and what doesn't by filing an issue .\nversion : 1 description : Opus to build, GPT-6 Luna for quick questions. routes : - model : opus when : Building or changing code over many steps, such as a feature, a bug fix, or a refactor. - model : gpt-6-luna when : Quick answers and small chores, such as where something is or what a setting does.\nTo try model routers, add \"chat.copilot.modelRouter.enabled\": true to your user settings.json file.\nTo author a router, type /model-router in a Copilot harness chat and describe how you want your requests routed. Then select the router in the model picker.\nModel comparison improvements (Preview)\nModel comparison lets you run the same prompt across models in the Agents window, so you can review, judge, and combine their results. This release makes comparisons easier to find and understand:\nComparisons stay with their chat : When you ask an agent to run a comparison , it appears beneath that chat in the sessions list. The agent's response includes an Open Comparison action to go straight to the results. See how a comparison was set up : Hover over a comparison in the sessions list to see its original settings: repository, isolation, base branch, each attempt's model and effort level, judge, and synthesizer. You no longer need to open each attempt to check.\nHTML previews and native visuals in agent responses\nSettings : chat.htmlPreview.enabled Open in VS Code Open in VS Code Insiders , chat.nativeComponents.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nSome agent responses are easier to review as a visual or a chart than as text, such as a comparison of approaches, a mockup, or build times before and after a change. In the Agents window , agents can show these inline in the response in two ways. Each has its own setting, which is off by default.\nHTML previews : For free-form layouts, such as reports, diagrams, and mockups. Previews display HTML, CSS, tables, inline SVG, and expandable sections. Scripts, forms, external links, and external resources aren't supported. Enable chat.htmlPreview.enabled Open in VS Code Open in VS Code Insiders and use the built-in /html-preview skill in your request, for example /html-preview compare the two caching approaches . Native visuals (Experimental) : For data, such as key numbers and comparisons. Agents can show metrics, badges, tables, bar charts, and expandable details that VS Code renders itself, so they match your theme, including high-contrast themes. Enable chat.nativeComponents.enabled Open in VS Code Open in VS Code Insiders and use the built-in /vscode-ui skill in your request, for example /vscode-ui compare the full and incremental build times .\n\nBoth appear as part of the response, without a title bar or permanent buttons. Right-click a preview or visual and select Show Source to see its markup. For an HTML preview, you can also select Open Preview for a larger view or Save HTML to export a self-contained HTML file.\nAutomations\nAutomations allow you to define tasks that run automatically based on specific triggers and conditions. You can create, manage, and monitor automations from the Automations view in the Agents window. This release adds guided setup, end dates, and filters for automation runs:\nAgent-guided automation creation Creating an automation with an agent is now a more guided experience. The agent helps you define what a successful result looks like, decide when the automation runs, and choose where it runs. To start, ask an agent to create an automation. You can also select Create with Agent in the Automations view to continue in chat. If you prefer configuring everything yourself, open the dropdown next to Create with Agent and select Create Manually . Set an end date for automations Automations can stop automatically after a specified duration. Set an end date when creating an automation with an agent, or choose Days , Weeks , or Months under Advanced Settings in the manual configuration form. Select Never to remove an existing end date. Filter automation runs in session lists Automation runs are hidden from session lists by default. Use the Automations filter to include or exclude them in the Agents window and the editor Chat sessions list.\nMore context for assisted permissions\nSetting : chat.permissions.assisted.instructions Open in VS Code Open in VS Code Insiders\nWith assisted permissions , an LLM reviewer assesses each tool call in Copilot harness sessions and approves low-risk calls for you. Previously, the reviewer relied only on its default guidance, so it couldn't account for what you consider safe or risky in your own work.\nUse chat.permissions.assisted.instructions Open in VS Code Open in VS Code Insiders to give the LLM reviewer your own instructions, for example:\nAlways ask before installing packages or pushing to a remote. Running tests and read-only Git commands doesn't need my approval.\nYour instructions take precedence over the reviewer's default guidance. Changes to the setting apply to sessions that are already open. They can't override permission rules, organization policy, or the sandbox, and they aren't sent to the agent.\nThe reviewer also takes into account who asked for the work:\nAutomations and other agents : Requests that an automation starts or that another agent sends are no longer treated as if you wrote them. In these sessions, tool calls might ask for approval where they previously didn't. Your answers : Your answers to an agent's questions and plan reviews count, including when you decline. An approval can cover later work that your answer describes, and a refusal can block an action that was approved before.\nArrange the Details panel around the editor (Experimental)\nSettings : sessions.experimental.detailsPosition Open in VS Code Open in VS Code Insiders , sessions.experimental.floatingDetails Open in VS Code Open in VS Code Insiders (Agents window only)\nIn the Agents window, you can position Files, Changes, and other Details views around the editor to make better use of the available space. Open View > Appearance > Details Position and choose Left , Right , Above Editor , Below Editor , ",
+    "product": "GitHub Copilot in VS Code",
+    "status": "Release",
+    "title_ja": "Visual Studio Code 1.147 (Copilot / Chat / Agents)",
+    "summary_ja": "Visual Studio Codeの最新リリースでは、エージェントセッション向けの「Send Later」やドラフト保存機能が実験的機能として追加されました。また、GitHub Environmentsを通じたリモート環境の共有、Inboxモードの改善、HTMLプレビューやネイティブビジュアルの表示機能が導入されています。さらに、自動化機能のセットアップガイドやアシステッドパーミッションのカスタム指示など、多くの拡張が行われています。",
+    "changes": [
+      "Send Later機能により、チャットリクエストの送信を指定時間まで延期できるようになりました。",
+      "ドラフト機能を使用して、送信前のリクエストを複数保持し、ワークスペースや設定ごとに管理できるようになりました。",
+      "リモート環境（SSH、WSL、Dev Tunnel）をGitHub Environmentとして共有できるようになりました。",
+      "Inbox modeの改善により、対応が必要なセッションのグループ化や確認済み（Acknowledged）状態への移行が容易になりました。",
+      "エージェントの応答内でHTMLプレビューやネイティブビジュアル（チャートやメトリクスなど）を表示できるようになりました。"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot User"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:13Z",
+    "source_id": "vscode",
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T12:38:11Z"
+  },
+  {
+    "id": "github-copilot-cli-449582336",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.114",
+    "published_at": "2026-11-18T05:59:26Z",
+    "title_original": "GitHub Copilot CLI v1.0.114",
+    "excerpt_original": "2026-11-18 Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.114 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.114がリリースされました。本バージョンには、各種の修正と変更が含まれています。",
+    "changes": [
+      "各種の修正と変更の実施"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-18T12:38:13Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T12:38:13Z"
+  },
+  {
     "id": "github-copilot-cli-449300583",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.114-0",
@@ -500,15 +554,22 @@
     "excerpt_original": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub CopilotアプリのアップデートとMicrosoft Igniteでのリリース",
+    "summary_ja": "GitHub Copilotアプリが拡張され、Azure DevOpsリポジトリ、GitHub Enterprise Serverインスタンス、およびブラウザのサポートが追加されました。これにより、ユーザーの作業環境に合わせてCopilotを利用できるようになります。",
+    "changes": [
+      "Azure DevOpsリポジトリのサポートを追加",
+      "GitHub Enterprise Serverインスタンスのサポートを追加",
+      "ブラウザでの利用をサポート"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:20Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:13Z"
   },
   {
     "id": "github-changelog-11d7f4207e0fe0d2a885",
@@ -519,15 +580,22 @@
     "excerpt_original": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub Copilot コードレビューのアップデート：適応型エフォートとシークレット検出",
+    "summary_ja": "GitHub Copilotのコードレビュー機能がアップデートされ、より多くの問題を早期に発見できるようになりました。プルリクエストの変更内容に応じてレビューの深さを自動調整する適応型エフォート機能などが導入されています。",
+    "changes": [
+      "プルリクエストごとにレビューの深さを合わせる適応型エフォート機能を導入",
+      "定型的な変更には短いレビューを行い効率化"
+    ],
+    "target_user": [
+      "開発者",
+      "コードレビュー担当者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:26Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:20Z"
   },
   {
     "id": "github-changelog-467e19c06d56952c4a19",
@@ -538,15 +606,22 @@
     "excerpt_original": "The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major… The post MAI Code 2 and MAI Code 2 Flash in GitHub Copilot appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "GitHub CopilotにおけるMAI Code 2およびMAI Code 2 Flashの提供",
+    "summary_ja": "次世代のMicrosoft AI（MAI）コーディングモデルであるMAI Code 2およびMAI Code 2 FlashがGitHub Copilotに導入されました。これら2つの新しいモデルが、開発環境において利用可能となっています。",
+    "changes": [
+      "MAI Code 2の導入",
+      "MAI Code 2 Flashの導入"
+    ],
+    "target_user": [
+      "GitHub Copilot ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:29Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:26Z"
   },
   {
     "id": "github-changelog-e3592706e986cff320d9",
@@ -557,15 +632,25 @@
     "excerpt_original": "This update brings remote access, on-device voice dictation, and browser use controls to GitHub Copilot for JetBrains. Copilot users in JetBrains IDEs also get context usage shortcuts, historical diffs, simpler… The post GitHub Copilot in JetBrains, Ignite releases appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "JetBrains 用 GitHub Copilot、Ignite リリース",
+    "summary_ja": "このアップデートにより、GitHub Copilot for JetBrains にリモートアクセス、デバイス上での音声入力、ブラウザ使用制御が追加されました。JetBrains IDE の利用者は、コンテキスト使用ショートカットや過去の差分表示などの機能も利用可能になります。",
+    "changes": [
+      "リモートアクセス機能の追加",
+      "デバイス上での音声入力（音声ディクテーション）機能の追加",
+      "ブラウザ使用制御の導入",
+      "コンテキスト使用ショートカットの提供",
+      "過去の差分（historical diffs）表示機能の提供"
+    ],
+    "target_user": [
+      "JetBrains IDE ユーザー",
+      "開発者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:37Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:29Z"
   },
   {
     "id": "github-changelog-d42dbfbf4445ea07f392",
@@ -576,15 +661,22 @@
     "excerpt_original": "Enterprises can now stream GitHub Copilot agent activity directly into Microsoft Agent 365. This lets you bring audit data from across GitHub Copilot clients into Microsoft’s agent control plane, where… The post Monitor GitHub Copilot activity through Microsoft Agent 365 appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "Microsoft Agent 365を通じたGitHub Copilotアクティビティの監視",
+    "summary_ja": "企業はGitHub CopilotのエージェントアクティビティをMicrosoft Agent 365へ直接ストリーミングできるようになりました。これにより、さまざまなGitHub Copilotクライアントからの監査データをMicrosoftのエージェントコントロールプレーンに集約することが可能です。",
+    "changes": [
+      "GitHub CopilotのエージェントアクティビティをMicrosoft Agent 365へストリーミングする機能を追加",
+      "各GitHub Copilotクライアントからの監査データをMicrosoftのエージェントコントロールプレーンへ統合"
+    ],
+    "target_user": [
+      "Enterprises",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:43Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:37Z"
   },
   {
     "id": "github-changelog-b78f9687534c5dcde9d8",
@@ -594,16 +686,23 @@
     "title_original": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
     "excerpt_original": "GitHub Copilot CLI now supports Microsoft Entra authentication in public preview. You can sign in with your Microsoft Entra account to silently authenticate to a linked GitHub Enterprise Managed User… The post GitHub Copilot CLI adds Microsoft Entra sign-in as a preview appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Public Preview",
+    "title_ja": "GitHub Copilot CLIがMicrosoft Entraサインインをプレビューとして追加",
+    "summary_ja": "GitHub Copilot CLIが、パブリックプレビューとしてMicrosoft Entra認証のサポートを追加しました。ユーザーはMicrosoft Entraアカウントでサインインすることで、リンクされたGitHub Enterprise Managed Userに対してサイレント認証が可能になります。",
+    "changes": [
+      "GitHub Copilot CLIでのMicrosoft Entra認証のサポート（パブリックプレビュー）",
+      "Microsoft Entraアカウントを使用した、リンク済みGitHub Enterprise Managed Userへのサイレント認証機能の追加"
+    ],
+    "target_user": [
+      "GitHub Enterprise Managed User",
+      "GitHub Copilot CLI ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:49Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:43Z"
   },
   {
     "id": "github-changelog-0c029933681c9df412cc",
@@ -614,15 +713,22 @@
     "excerpt_original": "You can now see how Copilot code review feedback lands in each repository. A new “Repository insights” page, the first item in a repository’s Insights tab, brings Copilot code review… The post Track Copilot code review outcomes in Repository insights appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
     "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "Repository insightsでのGitHub Copilotコードレビュー結果の追跡",
+    "summary_ja": "各リポジトリにおけるGitHub Copilotのコードレビューフィードバックの適用状況を確認できるようになりました。リポジトリのInsightsタブ内の最初の項目として、新しい「Repository insights」ページが追加されます。",
+    "changes": [
+      "リポジトリのInsightsタブに新しい「Repository insights」ページを追加",
+      "GitHub Copilotのコードレビューフィードバックの適用状況を追跡可能に"
+    ],
+    "target_user": [
+      "Developers",
+      "Repository Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:32:55Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:49Z"
   },
   {
     "id": "github-changelog-7fdabf7446c0026f08de",
@@ -632,16 +738,21 @@
     "title_original": "GitHub Copilot Evals is now in public preview",
     "excerpt_original": "You can now use GitHub Copilot Evals to optimize GitHub Copilot for yourself. As your prompts, models, skills, and tools change, are you still getting the most out of Copilot?… The post GitHub Copilot Evals is now in public preview appeared first on The GitHub Blog .",
     "product": "GitHub Copilot",
-    "status": "unknown",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "status": "Public Preview",
+    "title_ja": "GitHub Copilot Evalsのパブリックプレビュー提供開始",
+    "summary_ja": "GitHub Copilot Evalsのパブリックプレビューが開始されました。プロンプト、モデル、スキル、ツールの変更に合わせてGitHub Copilotを最適化することができます。",
+    "changes": [
+      "GitHub Copilot Evalsのパブリックプレビューが利用可能になりました"
+    ],
+    "target_user": [
+      "GitHub Copilot ユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-18T18:33:03Z",
     "source_id": "github-changelog",
-    "family": "github"
+    "family": "github",
+    "translation_attempted_at": "2026-11-18T18:32:55Z"
   },
   {
     "id": "github-copilot-cli-448909563",
@@ -700,15 +811,26 @@
     "excerpt_original": "Updates released between November 03, 2026, and November 17, 2026. Microsoft 365 admin center Share custom organizational attributes with Microsoft 365 people experiences [Web] We're introducing a new capability in Microsoft 365 Organizational Data Service that enables organizations to share selected custom organizational attributes with the Microsoft 365 people store. Details: What changed: Microsoft 365 Organizational Data Service now includes a setting that allows administrators to share selected custom organizational attributes with the Microsoft 365 people store. Custom attributes shared to Microsoft 365 experiences will be visible to all users in the tenant, and guests. This feature is off by default and requires administrator action to enable. During setup, administrators configure visibility for each attribute before it is shared. Organizations that do not use Microsoft 365 Organizational Data Service, or that do not enable this capability, experience no change. Why: The change allows organizations to select custom organizational data to make available in Microsoft 365 people experiences. Try this: Review existing custom attributes in Microsoft 365 Organizational Data Service. Determine whether Microsoft 365 experiences would benefit from including any custom attributes. Review internal organizational privacy, governance, and data-sharing requirements before enabling the capability. Confirm that custom attributes are appropriate to be shared with all users and guests in the tenant. Configure app access settings in Microsoft 365 Organizational Data Service to select custom attributes to make available to Microsoft 365. Why this matters: Organizations can enable new organizational data scenarios for Microsoft 365 while controlling which attributes are visible to Microsoft 365 experiences. Business impact: Administrators can extend people-related experiences with approved organizational data while aligning with governance and privacy policies. Personal impact: Users can access additional organizational information in Microsoft 365 experiences when their organization chooses to share it. Learn: Applications powered by Microsoft 365 Organizational Data Service Microsoft 365 Copilot extensibility Support for refining query filters for the Confluence Cloud Copilot connector [Web] This feature gives admins more control over what the Confluence Cloud connector indexes. By default, the connector indexes all blogs and pages. Admins can now include or exclude specific spaces. For advanced scenarios, they can write a Confluence Query Language (CQL) string that sets the conditions for which pages are synced. Roadmap ID: 503571 Details: What changed: The Confluence Cloud connector now supports two kinds of filters. You can include or exclude spaces, and you can use CQL strings to sync only the pages that meet your conditions. For example, you can index only pages modified in the last two years. Before this release, the connector indexed all blogs and pages, and you had little control over its scope. Why: These filters let you choose more precisely which content gets indexed. They help keep content that's outdated or out of scope out of Copilot results. Try this: Open your Confluence Cloud connector settings in Microsoft Copilot. Under Include or exclude data, select the spaces you want to include or exclude. To filter further, enter a CQL string. For example, lastModified >= \"2024/12/31\" indexes only content modified after that date. Choose Preview results to check sample values for the selected properties and CQL string. Why this matters: Better filters help users find relevant Confluence Cloud content faster, which makes Copilot search results more useful. Business impact: Teams can control exactly which Confluence Cloud spaces and pages Copilot indexes. This helps with compliance and data governance and keeps outdated content out of results. Personal impact: Users spend less time sorting through results that don't apply to them and get more current, relevant Confluence Cloud content in Copilot. Learn: Deploy the Confluence Cloud connector in the Microsoft 365 admin center Connect Tableau data to Copilot [Web] Customers can connect Microsoft Copilot with Tableau to explore and interpret dashboards and visualizations through a Copilot connector. Details: What changed: Microsoft Copilot now supports a Tableau Copilot connector. Users can explore and interpret Tableau dashboards and visualizations through Copilot using connected Tableau content. Previously, Tableau data was not available through this connector-based integration. Access to connected content continues to rely on the permissions enforced by the source system. Why: Business information is often spread across analytics platforms and productivity tools. This integration helps users understand dashboard content through natural language interactions in Copilot. Try this: Open the Microsoft 365 admin experience and configure the Tableau Copilot connector. Ask Copilot questions about available Tableau dashboards and visualizations. Review Copilot-generated interpretations based on connected Tableau content. Why this matters: Users can gain insights from Tableau content without manually navigating every dashboard. Business impact: Organizations can extend Copilot access to analytics content and improve discoverability of business information. Personal impact: Users can find and interpret dashboard information more quickly through conversational prompts. Access custom engine agents directly in Outlook [Web] Users can now access custom engine agents within Outlook to automate tasks and extend email workflows. Details: What changed: Custom engine agents are now available inside Outlook, allowing users to run tailored automation workflows without leaving the app. Previously, accessing these agents required separate tools or platforms. This integration supports consistent agent experiences across Microsoft 365 apps and enhances security by running agents within Outlook's trusted environment. Why: Providing access to custom agents in Outlook streamlines email-related automation and reduces context switching. Users can now: Automate email processing and management Integrate custom workflows directly in Outlook Improve productivity by using agents where they work most Try this: Open Outlook and access the agent pane. Select a custom engine agent from your agent list. Run the agent to automate email tasks such as sorting or summarizing messages. Why this matters: Integrating custom agents in Outlook enhances workflow automation where users spend significant time, improving efficiency and reducing manual effort. Business impact: Teams benefit from consistent automation capabilities across Microsoft 365 apps, enabling streamlined email management and collaboration. Personal impact: You save time managing emails and related tasks by using custom agents directly within Outlook. Microsoft 365 Copilot Studio Invoke agents as workflow steps with the agent node [Web] Add an agent node to your workflow to reason over data, call tools, and return a response, all within a single step. The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead. Roadmap ID: 562222 What changed: The agent node now allows workflows to embed reasoning directly within a single step, replacing prior multi-step manual handoffs. This integration supports data reasoning, tool invocation, and response generation in one workflow node, reducing complexity and accelerating processing times. Workflows can now handle nuanced decisions without additional development effort, improving automation capabilities and lowering operational overhead. Why: Embedding reasoning in workflows reduces manual intervention and speeds up process execution. Teams can now: Automate more end-to-end processes. Reduce operational overhead by simplifying workflow design. Try this: In Copilot Studio, add an agent node to your workflow canvas. Configure the agent node to call specific tools and process data. Run the workflow to see combined reasoning and tool responses in one step. Why this matters: This change streamlines workflows by reducing manual steps and enabling more complex automation without extra development. Business impact: Teams can automate complex processes more efficiently, reducing delays and operational costs. Personal impact: You save time by managing fewer workflow steps and reduce errors from manual handoffs. Invoke agents as workflow steps with the agent node [Web] The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead. Roadmap ID: 566998 What changed: Workflows now include an agent node that performs data reasoning, calls tools, and returns responses within a single step. Previously, these actions required multiple workflow steps and manual coordination. This update enables workflows to handle nuanced decisions without extra development effort, improving automation and reducing operational overhead. Why: Embedding reasoning into workflows simplifies automation and accelerates processing. Teams can: Automate more complex processes end-to-end. Reduce operational overhead by minimizing manual workflow steps. Try this: Add an agent node in Copilot Studio to your workflow. Configure the node to integrate reasoning and tool calls. Execute the workflow to observe streamlined processing. Why this matters: This update reduces workflow complexity and enables faster, more capable automation. Business impact: Teams improve process automation efficiency and reduce operational costs. Personal impact: You save time by reducing manual workflow steps and gain more reliable automation. Outlook Sort improvements to the message list [Windows] When sorting on Outlook for Web or Outlook for Windows, if the Sort By field is not one of From, Subject, or Date Received, we will now show an additional column for the Sort By value (e.g., Size). We will also support sorting by Flag Due Date. Roadmap ID: 564803 What changed: Previously, sorting in Outlook for Web and Windows only displayed columns for From, Subject, or Date Received. Now, when sorting by other fields like Size or Flag Due Date, Outlook adds a new column showing the sorted value. This change applies to both Outlook for Web and Outlook for Windows, improving visibility of sort criteria. Why: Adding a column for the Sort By value clarifies which attribute is controlling message order, reducing confusion and improving message list usability. Try this: Open Outlook for Web or Windows. Click the Sort By dropdown above your message list. Select a field like Size or Flag Due Date to see the new column appear. Why this matters: This update helps users quickly identify how their messages are sorted, improving email management efficiency. Business impact: Teams can organize and prioritize emails more effectively by clearly seeing the sorting criteria in their message list. Personal impact: You save time by easily understanding message order without guessing which field controls sorting. Teams Express voice enrollment in Microsoft Teams [Windows, Mac] Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room, transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you donât yet have a voice profile, go to the recognition tab in Teams settings and opt in to enroll your voice from audio during your Teams meetings",
     "product": "Microsoft 365 Copilot",
     "status": "Release",
-    "title_ja": "",
-    "summary_ja": "",
-    "changes": [],
-    "target_user": [],
-    "importance": "low",
-    "translated": false,
-    "processed_at": null,
+    "title_ja": "Microsoft 365 Copilot リリースノート（2026年11月17日）",
+    "summary_ja": "Microsoft 365 Copilotおよび関連サービスの更新情報が公開されました。Confluence CloudやTableauコネクタの機能強化、Outlookでのカスタムエンジンエージェントの利用、Copilot Studioにおけるエージェントノードの追加などが含まれています。また、管理者向けの組織属性の共有機能やOutlookのメッセージリストのソート改善なども提供されます。",
+    "changes": [
+      "Microsoft 365 Organizational Data Serviceに、管理者がカスタム組織属性をMicrosoft 365のピープルストアに共有できる設定が追加されました。",
+      "Confluence Cloudコネクタにおいて、スペースの含め方・除外やConfluence Query Language（CQL）文字列を使用したクエリフィルターの絞り込みがサポートされました。",
+      "Microsoft CopilotでTableauダッシュボードや視覚化を探索・解釈できるTableau Copilotコネクタが追加されました。",
+      "Outlook内でカスタムエンジンエージェントに直接アクセスし、メール処理やワークフローを自動化できるようになりました。",
+      "Microsoft 365 Copilot Studioのワークフローに、データ推論・ツール呼び出し・応答生成を1つのステップで行う「エージェントノード」が追加されました。"
+    ],
+    "target_user": [
+      "Administrators",
+      "Users",
+      "Developers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-18T18:33:10Z",
     "source_id": "m365-release-notes",
-    "family": "microsoft365"
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-18T18:33:03Z"
   },
   {
     "id": "github-copilot-cli-447583716",
@@ -12345,59 +12467,5 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
-  },
-  {
-    "id": "github-copilot-cli-449582336",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.114",
-    "published_at": "2026-11-18T05:59:26Z",
-    "title_original": "GitHub Copilot CLI v1.0.114",
-    "excerpt_original": "2026-11-18 Fixes and changes",
-    "product": "GitHub Copilot CLI",
-    "status": "Release",
-    "title_ja": "GitHub Copilot CLI v1.0.114 リリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.114がリリースされました。本バージョンには、各種の修正と変更が含まれています。",
-    "changes": [
-      "各種の修正と変更の実施"
-    ],
-    "target_user": [
-      "developers"
-    ],
-    "importance": "low",
-    "translated": true,
-    "processed_at": "2026-11-18T12:38:13Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-11-18T12:38:13Z"
-  },
-  {
-    "id": "vscode-092d312dd2f17011c777",
-    "source": "VS Code Release Notes",
-    "source_url": "https://code.visualstudio.com/updates/v1_147",
-    "published_at": "2026-11-18T12:38:09Z",
-    "date_basis": "first_seen",
-    "title_original": "Visual Studio Code 1.147 — Copilot / Chat / Agents",
-    "excerpt_original": "Agent sessions\nSend Later for chat requests (Experimental)\nSetting : sessions.sendLater.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nSometimes you want an agent to run a request after some time has passed. You might want to check a build after it finishes, or follow up on a review in the morning. With the Send Later feature, you can postpone sending a chat request until a specific time.\nYou can schedule a chat request by using the Send Later menu on the send button in chat.\n\nFor a specific time, select Choose Date and Time , pick a day in the calendar and a time from the dropdown, and select Schedule .\n\nWhere the request waits depends on where you scheduled it:\nNew session : In the Drafts section of the sessions list. Existing chat : In that chat's Scheduled area, with its send time. If the agent is still busy at the scheduled time, the request waits its turn instead of interrupting.\n\nAlternatively, you can ask the agent to schedule a request for you by using plain language in the chat prompt, for example: \"Check the build in 10 minutes.\"\nThe agent schedules a one-time, text-only request in the current chat and confirms when it will be sent. The request appears in the chat's Scheduled area, like one you scheduled from the menu.\n\nThe local agent host must be running at the scheduled time. Scheduling doesn't wake a sleeping computer. A missed request is processed once the host is available again.\nTo manage your scheduled requests (edit, send immediately, reschedule, or cancel), use the options available when you hover over them in the chat or session list. To find sessions with pending requests, look for the clock indicator in the session list, or select Scheduled Only in the sessions filter menu.\nLearn more about scheduling requests in the Send Later documentation .\nNote : Scheduled requests work only for sessions on This Computer and require automations to be enabled ( chat.automations.enabled Open in VS Code Open in VS Code Insiders ).\nSave and resume drafts (Experimental)\nSetting : sessions.drafts.enabled Open in VS Code Open in VS Code Insiders\nPreviously, the new-session input held a single unsent request at a time. With drafts, you can keep several unsent requests side by side, each with its own workspace, agent, and configuration, and come back to any of them later.\nWhen you leave a new session that has content, VS Code saves it to the Drafts section of the sessions list. Nothing is sent, and no agent session starts. To jump right back, select Open Draft in the notification.\n\nEach draft keeps everything you set up: text, attachments, inline references, workspace, agent, model, and other configuration. Drafts survive reloads and restarts.\nFrom the Drafts list, you can preview, open, or delete a draft. When you send a draft, it's removed only after the request is accepted, so a failed send doesn't lose your work.\nTurning off the setting hides the Drafts section but keeps your saved drafts.\nShare remote environments as GitHub Environments\nShare a remote as a GitHub Environment to pick up its agent sessions from another device or supported Copilot app, using your GitHub account.\nTo share a connected SSH host, WSL distribution, or Dev Tunnel, open the Remote Environments editor in the Agents window and select Share as GitHub Environment (GitHub icon) on the remote's row.\nA shared remote stays in its group and shows a GitHub icon after its name. Select the action again to stop sharing.\n\nLearn more about remote agent sessions .\nKeep chat sessions across Dev Container rebuilds (Experimental)\nSettings : dev.containers.stateVolume.enabled Open in VS Code Open in VS Code Insiders , chat.agentHost.devContainer.stateVolume.enabled Open in VS Code Open in VS Code Insiders\nRebuilding a Dev Container used to remove the Copilot chat sessions stored inside it. When you enable these settings, VS Code stores the user and agent state of a new Dev Container on a Docker volume, preserving your chat sessions across rebuilds.\nImportant : A container gets the volume only when it's created with the setting enabled, so rebuild once to start keeping your sessions.\nInbox mode improvements (Experimental)\nSetting : sessions.list.inboxEnabled Open in VS Code Open in VS Code Insiders\nInbox mode groups your Agents window sessions by what needs your attention. You can switch to Inbox mode at any time with Grouping > Inbox Mode in the sessions list. The sessions.list.inboxEnabled Open in VS Code Open in VS Code Insiders setting makes it the default grouping.\nThis release builds on your feedback to make Inbox mode more useful and manageable:\nAcknowledge sessions you've handled If a session doesn't need your attention but isn't finished, you can mark it as acknowledged (eye icon). Acknowledging a session moves it out of the Inbox and into the Acknowledged section. The session isn't marked as read or done, archived, or closed. When there is new activity in the session, it returns to the Inbox. You can acknowledge several selected sessions at once. Focus on one workspace or environment Use the workspace and environment pickers at the top of the sessions list to see only the sessions you care about right now. The filter applies to every section, including pinned and archived sessions, and is remembered across reloads.\n\nAgent experience\nDecision model-based model routers (Experimental)\nSetting : chat.copilot.modelRouter.enabled\nWith a model router, you describe which model you want for which kind of work. A decision model, gpt-6-luna-decisions , then matches your request to one of your routes, and VS Code runs the chat on that route's model. A router is a YAML file in ~/.agents/model-routers/ that appears in the model picker in Copilot harness sessions.\nModel routers are at an early stage, and your feedback will help shape them. Tell us what works and what doesn't by filing an issue .\nversion : 1 description : Opus to build, GPT-6 Luna for quick questions. routes : - model : opus when : Building or changing code over many steps, such as a feature, a bug fix, or a refactor. - model : gpt-6-luna when : Quick answers and small chores, such as where something is or what a setting does.\nTo try model routers, add \"chat.copilot.modelRouter.enabled\": true to your user settings.json file.\nTo author a router, type /model-router in a Copilot harness chat and describe how you want your requests routed. Then select the router in the model picker.\nModel comparison improvements (Preview)\nModel comparison lets you run the same prompt across models in the Agents window, so you can review, judge, and combine their results. This release makes comparisons easier to find and understand:\nComparisons stay with their chat : When you ask an agent to run a comparison , it appears beneath that chat in the sessions list. The agent's response includes an Open Comparison action to go straight to the results. See how a comparison was set up : Hover over a comparison in the sessions list to see its original settings: repository, isolation, base branch, each attempt's model and effort level, judge, and synthesizer. You no longer need to open each attempt to check.\nHTML previews and native visuals in agent responses\nSettings : chat.htmlPreview.enabled Open in VS Code Open in VS Code Insiders , chat.nativeComponents.enabled Open in VS Code Open in VS Code Insiders (Agents window only)\nSome agent responses are easier to review as a visual or a chart than as text, such as a comparison of approaches, a mockup, or build times before and after a change. In the Agents window , agents can show these inline in the response in two ways. Each has its own setting, which is off by default.\nHTML previews : For free-form layouts, such as reports, diagrams, and mockups. Previews display HTML, CSS, tables, inline SVG, and expandable sections. Scripts, forms, external links, and external resources aren't supported. Enable chat.htmlPreview.enabled Open in VS Code Open in VS Code Insiders and use the built-in /html-preview skill in your request, for example /html-preview compare the two caching approaches . Native visuals (Experimental) : For data, such as key numbers and comparisons. Agents can show metrics, badges, tables, bar charts, and expandable details that VS Code renders itself, so they match your theme, including high-contrast themes. Enable chat.nativeComponents.enabled Open in VS Code Open in VS Code Insiders and use the built-in /vscode-ui skill in your request, for example /vscode-ui compare the full and incremental build times .\n\nBoth appear as part of the response, without a title bar or permanent buttons. Right-click a preview or visual and select Show Source to see its markup. For an HTML preview, you can also select Open Preview for a larger view or Save HTML to export a self-contained HTML file.\nAutomations\nAutomations allow you to define tasks that run automatically based on specific triggers and conditions. You can create, manage, and monitor automations from the Automations view in the Agents window. This release adds guided setup, end dates, and filters for automation runs:\nAgent-guided automation creation Creating an automation with an agent is now a more guided experience. The agent helps you define what a successful result looks like, decide when the automation runs, and choose where it runs. To start, ask an agent to create an automation. You can also select Create with Agent in the Automations view to continue in chat. If you prefer configuring everything yourself, open the dropdown next to Create with Agent and select Create Manually . Set an end date for automations Automations can stop automatically after a specified duration. Set an end date when creating an automation with an agent, or choose Days , Weeks , or Months under Advanced Settings in the manual configuration form. Select Never to remove an existing end date. Filter automation runs in session lists Automation runs are hidden from session lists by default. Use the Automations filter to include or exclude them in the Agents window and the editor Chat sessions list.\nMore context for assisted permissions\nSetting : chat.permissions.assisted.instructions Open in VS Code Open in VS Code Insiders\nWith assisted permissions , an LLM reviewer assesses each tool call in Copilot harness sessions and approves low-risk calls for you. Previously, the reviewer relied only on its default guidance, so it couldn't account for what you consider safe or risky in your own work.\nUse chat.permissions.assisted.instructions Open in VS Code Open in VS Code Insiders to give the LLM reviewer your own instructions, for example:\nAlways ask before installing packages or pushing to a remote. Running tests and read-only Git commands doesn't need my approval.\nYour instructions take precedence over the reviewer's default guidance. Changes to the setting apply to sessions that are already open. They can't override permission rules, organization policy, or the sandbox, and they aren't sent to the agent.\nThe reviewer also takes into account who asked for the work:\nAutomations and other agents : Requests that an automation starts or that another agent sends are no longer treated as if you wrote them. In these sessions, tool calls might ask for approval where they previously didn't. Your answers : Your answers to an agent's questions and plan reviews count, including when you decline. An approval can cover later work that your answer describes, and a refusal can block an action that was approved before.\nArrange the Details panel around the editor (Experimental)\nSettings : sessions.experimental.detailsPosition Open in VS Code Open in VS Code Insiders , sessions.experimental.floatingDetails Open in VS Code Open in VS Code Insiders (Agents window only)\nIn the Agents window, you can position Files, Changes, and other Details views around the editor to make better use of the available space. Open View > Appearance > Details Position and choose Left , Right , Above Editor , Below Editor , ",
-    "product": "GitHub Copilot in VS Code",
-    "status": "Release",
-    "title_ja": "Visual Studio Code 1.147 (Copilot / Chat / Agents)",
-    "summary_ja": "Visual Studio Codeの最新リリースでは、エージェントセッション向けの「Send Later」やドラフト保存機能が実験的機能として追加されました。また、GitHub Environmentsを通じたリモート環境の共有、Inboxモードの改善、HTMLプレビューやネイティブビジュアルの表示機能が導入されています。さらに、自動化機能のセットアップガイドやアシステッドパーミッションのカスタム指示など、多くの拡張が行われています。",
-    "changes": [
-      "Send Later機能により、チャットリクエストの送信を指定時間まで延期できるようになりました。",
-      "ドラフト機能を使用して、送信前のリクエストを複数保持し、ワークスペースや設定ごとに管理できるようになりました。",
-      "リモート環境（SSH、WSL、Dev Tunnel）をGitHub Environmentとして共有できるようになりました。",
-      "Inbox modeの改善により、対応が必要なセッションのグループ化や確認済み（Acknowledged）状態への移行が容易になりました。",
-      "エージェントの応答内でHTMLプレビューやネイティブビジュアル（チャートやメトリクスなど）を表示できるようになりました。"
-    ],
-    "target_user": [
-      "Developer",
-      "GitHub Copilot User"
-    ],
-    "importance": "high",
-    "translated": true,
-    "processed_at": "2026-11-18T12:38:13Z",
-    "source_id": "vscode",
-    "family": "github",
-    "translation_attempted_at": "2026-11-18T12:38:11Z"
   }
 ]
