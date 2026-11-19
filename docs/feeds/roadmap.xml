@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:38:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：PPAC Reporting API</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579968</link>
+      <guid isPermaLink="false">m365-roadmap-39b40a6e19e078762085</guid>
+      <pubDate>Wed, 18 Nov 2026 18:32:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Copilot Studio&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioにPPAC Reporting APIが導入され、サポート対象外となっていた従来の消費データ取得方法に代わり、レイクハウスから利用データをスケーラブルかつプログラムで取得できるようになります。環境、ユーザー、エージェント、機能ごとの日次JSONデータにより、ダッシュボード、FinOpsレポート、自動コスト管理が可能になります。プレビュー版の提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PPAC Reporting APIの提供開始により、レイクハウスからCopilot Studioの利用データへプログラムによるスケーラブルなアクセスが可能になる&lt;/li&gt;&lt;li&gt;環境、ユーザー、エージェント、機能ごとの日次JSONデータによって、ダッシュボード、FinOpsレポート、自動コスト管理を実現する&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579968"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Copilot Studio</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot (Microsoft 365): ページ上のキャンバスでのCopilotによる編集機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=580449</link>
@@ -994,16 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-dd765d293c7a5637b5b8</guid>
       <pubDate>Fri, 16 Oct 2026 19:09:08 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralのドキュメントレポートシステムにおいて、読み取り専用の新しいAPIが導入されます。これらのAPIを利用することで、Business Central外でのドキュメントレポートに関する自動化を確立できます。Power AutomateやMicrosoft Copilot Studio、MCP Serverとの統合を通じて、インテリジェントな自動化の機会が開かれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ドキュメントレポートシステムに読み取り専用APIを導入&lt;/li&gt;&lt;li&gt;販売、購買、在庫、組立に関連する各種ドキュメントのクエリが可能&lt;/li&gt;&lt;li&gt;Power AutomateやMicrosoft Copilot StudioおよびMCP Serverとの統合をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576792"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilot and agents - MCPサーバー機能強化によるBusiness Centralデータの活用拡大</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576789</link>
-      <guid isPermaLink="false">m365-roadmap-f90209ba08d8d38cba44</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:06 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Business CentralのMCPサーバーのアップデートにより、顧客や開発者はより広範なBusiness Central APIやAPIクエリをツールとして公開できるようになります。これにより、カスタム拡張機能の必要性が軽減され、より一貫性のある効率的なデータアクセスや統合ソリューションの構築が可能になります。本機能はすべてのエンドユーザー向けに自動的に有効化され、GA（一般提供）は2026年6月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;すべてのMicrosoft標準APIへのアクセスに対応し、エージェントや統合機能が標準のまま多様なエンティティやアクションを処理可能に&lt;/li&gt;&lt;li&gt;APIクエリのサポートにより、事前集約され最適化されたデータセットを直接取得し、レポートや分析のパフォーマンスと正確性を向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576789"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

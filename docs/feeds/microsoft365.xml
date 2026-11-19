@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 18:33:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：PPAC Reporting API</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579968</link>
+      <guid isPermaLink="false">m365-roadmap-39b40a6e19e078762085</guid>
+      <pubDate>Wed, 18 Nov 2026 18:32:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Copilot Studio&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioにPPAC Reporting APIが導入され、サポート対象外となっていた従来の消費データ取得方法に代わり、レイクハウスから利用データをスケーラブルかつプログラムで取得できるようになります。環境、ユーザー、エージェント、機能ごとの日次JSONデータにより、ダッシュボード、FinOpsレポート、自動コスト管理が可能になります。プレビュー版の提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PPAC Reporting APIの提供開始により、レイクハウスからCopilot Studioの利用データへプログラムによるスケーラブルなアクセスが可能になる&lt;/li&gt;&lt;li&gt;環境、ユーザー、エージェント、機能ごとの日次JSONデータによって、ダッシュボード、FinOpsレポート、自動コスト管理を実現する&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579968"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Copilot Studio</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot (Microsoft 365): ページ上のキャンバスでのCopilotによる編集機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=580449</link>
@@ -1997,16 +2007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilot リリースノート（2026年8月25日）</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026</link>
-      <guid isPermaLink="false">m365-release-notes-1eb781bec200fc92b38a</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotの更新プログラムがリリースされ、ExcelでのPython編集機能やOrganizational Messagesのハイブリッド結合デバイスへの対応、Viva Engageのプライベートコンテンツのグラウンディングソースとしての利用などが追加されました。また、Copilot NotebooksのUX刷新、Copilot Search利用時のCopilot Chatのサイドペイン表示、Outlookメールの直接参照やノートブックへのソース追加など、利便性とワークフローの効率化を図る機能拡張が含まれています。さらに、ウェブとワークチャットの統合、モバイルでのページ制御機能、デスクトップおよびウェブアプリのデザイン簡素化が行われました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ExcelでのCopilot編集時にPythonコードを実行した高度なデータ分析、自動化、データ変換が可能に。&lt;/li&gt;&lt;li&gt;Microsoft 365 admin centerのOrganizational MessagesがハイブリッドAzure AD参加済みデバイスをサポート。&lt;/li&gt;&lt;li&gt;Viva EngageのプライベートコミュニティやイベントのコンテンツをMicrosoft 365 Copilotのグラウンディングソースとして利用可能に。&lt;/li&gt;&lt;li&gt;Copilot NotebooksのUX刷新、Copilot Search時のチャットサイドペイン表示、Outlookメールの直接閲覧・ノートブックへの追加に対応。&lt;/li&gt;&lt;li&gt;ウェブとワークチャットの統合（Work IQボタンの追加）およびモバイルでのページ自動生成・制御、アプリデザインの簡素化。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Release</category>
-      <category>high</category>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 18:33:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>SupabaseやBox、CalendlyなどのサービスをCopilotに接続可能に</title>
+      <link>https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot</link>
+      <guid isPermaLink="false">github-changelog-4e5c57bd6246e60b3e71</guid>
+      <pubDate>Wed, 18 Nov 2026 22:04:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub検証済みのMCPサーバーおよびコネクタを使用して、新たに8つのサービスをCopilotに接続できるようになりました。これにより、すでに接続可能な25以上のサービスに加えて、Supabase、Box、Calendlyなどが利用可能になります。これらの機能は現在パブリックプレビューとして提供されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub検証済みのMCPサーバーとコネクタを使用し、新たに8つのサービスをCopilotに接続可能にした&lt;/li&gt;&lt;li&gt;Supabase、Box、Calendlyなどのサービスが新たに追加され、合計で25以上のサービスと連携できるようになった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Public Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるGemini 4 Neonの一般提供開始</title>
+      <link>https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-362ee7bc4f1920475e98</guid>
+      <pubDate>Wed, 18 Nov 2026 21:49:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Gemini 4 NeonがGitHub Copilotで一般提供（GA）開始されました。本モデルは、エージェント型コーディング、多段階のツール利用、ナレッジワーク向けに設計されています。Googleによると、高い品質を提供するとしています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 NeonがGitHub Copilotで利用可能になりました。&lt;/li&gt;&lt;li&gt;エージェント型コーディングや多段階のツール利用に対応しています。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：PPAC Reporting API</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=579968</link>
+      <guid isPermaLink="false">m365-roadmap-39b40a6e19e078762085</guid>
+      <pubDate>Wed, 18 Nov 2026 18:32:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Copilot Studio&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioにPPAC Reporting APIが導入され、サポート対象外となっていた従来の消費データ取得方法に代わり、レイクハウスから利用データをスケーラブルかつプログラムで取得できるようになります。環境、ユーザー、エージェント、機能ごとの日次JSONデータにより、ダッシュボード、FinOpsレポート、自動コスト管理が可能になります。プレビュー版の提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PPAC Reporting APIの提供開始により、レイクハウスからCopilot Studioの利用データへプログラムによるスケーラブルなアクセスが可能になる&lt;/li&gt;&lt;li&gt;環境、ユーザー、エージェント、機能ごとの日次JSONデータによって、ダッシュボード、FinOpsレポート、自動コスト管理を実現する&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=579968"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Copilot Studio</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>チーム向けのGitHub Copilotカスタマイズ機能</title>
+      <link>https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team</link>
+      <guid isPermaLink="false">github-changelog-6e93a4cc09914f56e319</guid>
+      <pubDate>Wed, 18 Nov 2026 16:00:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、組織のチーム全体でプラグインやカスタマイズを共有できるようになりました。各メンバーが個別に同じセットアップを行う必要がなくなります。このチーム向けカスタマイズ機能は、組織のチームを対象に一般提供（GA）されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織のチーム向けにGitHub Copilotのカスタマイズ機能が提供開始&lt;/li&gt;&lt;li&gt;チームが利用するプラグインを共有し、個別のセットアップ作業を省略可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.147 (Copilot / Chat / Agents)</title>
       <link>https://code.visualstudio.com/updates/v1_147</link>
@@ -1964,46 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-c1b29a4407f6a906b514</guid>
       <pubDate>Fri, 16 Oct 2026 19:10:11 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本リリースでは、Scheduling Operations Agentの最適化機能が拡張され、複数リソースのサポートが追加されます。エージェントはリソースの空き状況、スケジュール、未割当の要件を考慮し、設定された制約と目的に沿った最適なスケジュール案を提案します。ディスパッチャーは、変更を適用する前に提案されたスケジュールを確認および比較することができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;スケジュールボードから直接最大5つのリソースのスケジュールを最適化&lt;/li&gt;&lt;li&gt;最適化プランを使用して最大30人のリソースのスケジュールを最適化&lt;/li&gt;&lt;li&gt;カスタムの目標と重み付け目標の作成&lt;/li&gt;&lt;li&gt;最適化プランで使用するカスタム最適化スコープの作成&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576884"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: 相談および転送時のピン留めされた連絡先とキューの利用</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576875</link>
-      <guid isPermaLink="false">m365-roadmap-b33bb4ac82e4894d81cf</guid>
-      <pubDate>Fri, 16 Oct 2026 19:10:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilot Service 管理センターにおいて、管理者は担当者向けのピン留めされた連絡先やキューを設定および管理できるようになります。管理者は、顧客設定ページからピン留めを有効にしたり、特定の連絡先やキューを割り当てたり、ビジネスユニットに基づいてアイテムを表示させることが可能です。これにより、複数の相談先や転送先の追跡にかかる手間を削減し、担当者がより迅速で信頼性の高いサポートを提供できるようにします。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Service 管理センターでのピン留めされた連絡先とキューの設定および管理機能の追加&lt;/li&gt;&lt;li&gt;Customer settings の Manage pins および Admin pins ページを通じたピン留め機能の有効化&lt;/li&gt;&lt;li&gt;ビジネスユニットに基づく担当者へのピン留めアイテムの表示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576875"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: 承認ワークフロー分析向けの新API提供</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576864</link>
-      <guid isPermaLink="false">m365-roadmap-82f0d5e24ec6e86c1b63</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralにおいて、承認ワークフローシステム向けの読み取り専用APIが導入されます。これにより、Power BIやMicrosoft Copilot Studioなどを活用したセキュリティおよび監査レポートの作成が可能になります。また、API利用に必要な新たな権限セットも追加され、ガバナンスと透明性が向上します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ワークフロー、ユーザー、アクション履歴などを照会するための読み取り専用APIの導入&lt;/li&gt;&lt;li&gt;承認APIの利用を許可する新しい権限セットの追加&lt;/li&gt;&lt;li&gt;Power BIやMicrosoft Copilot Studio等との連携による監査・分析・自動化の強化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576864"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: ワークフォースエンゲージメント管理 - プランニンググループによるアドヒアランス トラッカーのフィルタリング</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576855</link>
-      <guid isPermaLink="false">m365-roadmap-f927deecb98b5ba5e513</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Serviceのワークフォースエンゲージメント管理において、アドヒアランス トラッカーにプランニンググループフィルター機能が追加されます。スーパーバイザーは特定のプランニンググループで表示を絞り込み、既存のシフトプランやサービス担当者フィルターと組み合わせることが可能です。設定されたフィルターはセッション間で保存され、フィルタリングされた範囲に基づいてアドヒアランス率や例外件数が再計算されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アドヒアランス トラッカーにプランニンググループフィルターを追加し、特定のグループに表示を限定することが可能に&lt;/li&gt;&lt;li&gt;既存のシフトプランおよびサービス代表者フィルターとの組み合わせや、セッション間でのフィルター選択の保持に対応&lt;/li&gt;&lt;li&gt;フィルタリングされた範囲に基づくアドヒアランス率およびアウト・オブ・アドヒアランス数の再計算機能を提供&lt;/li&gt;&lt;li&gt;Copilot Service workspaceの「Workforce management &amp;gt; Adherence tracker」からアクセス可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576855"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: 計画グループによる遵守率の履歴分析の絞り込み</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576854</link>
-      <guid isPermaLink="false">m365-roadmap-5d7f90a0b18ff2ecaec3</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Serviceのワークフォースエンゲージメント管理において、遵守率の履歴分析レポートに計画グループフィルターが追加されました。管理者は特定の計画グループを選択して結果を絞り込み、グループ単位での遵守パフォーマンスを確認できるようになります。本機能を利用するには、管理者によるPower Platform管理センターからのパッケージインストールが必要です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;遵守率の履歴分析レポートに計画グループフィルターを追加&lt;/li&gt;&lt;li&gt;計画グループ、日付範囲、その他のパラメーターを組み合わせた表示が可能&lt;/li&gt;&lt;li&gt;担当者のスケジュールされたシフトに基づいて計画グループと関連付け&lt;/li&gt;&lt;li&gt;Power Platform管理センターからのWorkforce Management for Customer Serviceパッケージのインストールが前提条件&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576854"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

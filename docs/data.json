@@ -12467,5 +12467,111 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-changelog-4e5c57bd6246e60b3e71",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+    "published_at": "2026-11-18T22:04:50Z",
+    "title_original": "Connect Supabase, Box, Calendly, and more to Copilot",
+    "excerpt_original": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "Public Preview",
+    "title_ja": "SupabaseやBox、CalendlyなどのサービスをCopilotに接続可能に",
+    "summary_ja": "GitHub検証済みのMCPサーバーおよびコネクタを使用して、新たに8つのサービスをCopilotに接続できるようになりました。これにより、すでに接続可能な25以上のサービスに加えて、Supabase、Box、Calendlyなどが利用可能になります。これらの機能は現在パブリックプレビューとして提供されています。",
+    "changes": [
+      "GitHub検証済みのMCPサーバーとコネクタを使用し、新たに8つのサービスをCopilotに接続可能にした",
+      "Supabase、Box、Calendlyなどのサービスが新たに追加され、合計で25以上のサービスと連携できるようになった"
+    ],
+    "target_user": [
+      "GitHub Copilot users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-19T02:55:34Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-19T02:55:33Z"
+  },
+  {
+    "id": "github-changelog-362ee7bc4f1920475e98",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+    "published_at": "2026-11-18T21:49:21Z",
+    "title_original": "Gemini 4 Neon in GitHub Copilot",
+    "excerpt_original": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "GitHub CopilotにおけるGemini 4 Neonの一般提供開始",
+    "summary_ja": "Gemini 4 NeonがGitHub Copilotで一般提供（GA）開始されました。本モデルは、エージェント型コーディング、多段階のツール利用、ナレッジワーク向けに設計されています。Googleによると、高い品質を提供するとしています。",
+    "changes": [
+      "Gemini 4 NeonがGitHub Copilotで利用可能になりました。",
+      "エージェント型コーディングや多段階のツール利用に対応しています。"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-19T02:55:35Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-19T02:55:34Z"
+  },
+  {
+    "id": "github-changelog-6e93a4cc09914f56e319",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+    "published_at": "2026-11-18T16:00:13Z",
+    "title_original": "Customize GitHub Copilot for your team",
+    "excerpt_original": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team… The post Customize GitHub Copilot for your team appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "GA",
+    "title_ja": "チーム向けのGitHub Copilotカスタマイズ機能",
+    "summary_ja": "GitHub Copilotにおいて、組織のチーム全体でプラグインやカスタマイズを共有できるようになりました。各メンバーが個別に同じセットアップを行う必要がなくなります。このチーム向けカスタマイズ機能は、組織のチームを対象に一般提供（GA）されています。",
+    "changes": [
+      "組織のチーム向けにGitHub Copilotのカスタマイズ機能が提供開始",
+      "チームが利用するプラグインを共有し、個別のセットアップ作業を省略可能"
+    ],
+    "target_user": [
+      "開発者",
+      "チーム管理者",
+      "組織メンバー"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-19T02:55:39Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-19T02:55:36Z"
+  },
+  {
+    "id": "m365-roadmap-39b40a6e19e078762085",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=579968",
+    "published_at": "2026-11-18T18:32:08Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: PPAC Reporting API",
+    "excerpt_original": "The PPAC Reporting API gives customers scalable, programmatic access to Copilot Studio usage data from our lakehouse, replacing older unsupported methods for pulling consumption data. Daily JSON data by environment, user, agent and feature powers dashboards, FinOps reporting and automated cost controls. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft Copilot Studio",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio：PPAC Reporting API",
+    "summary_ja": "Microsoft Copilot StudioにPPAC Reporting APIが導入され、サポート対象外となっていた従来の消費データ取得方法に代わり、レイクハウスから利用データをスケーラブルかつプログラムで取得できるようになります。環境、ユーザー、エージェント、機能ごとの日次JSONデータにより、ダッシュボード、FinOpsレポート、自動コスト管理が可能になります。プレビュー版の提供は2026年11月、一般提供（GA）は2027年1月を予定しています。",
+    "changes": [
+      "PPAC Reporting APIの提供開始により、レイクハウスからCopilot Studioの利用データへプログラムによるスケーラブルなアクセスが可能になる",
+      "環境、ユーザー、エージェント、機能ごとの日次JSONデータによって、ダッシュボード、FinOpsレポート、自動コスト管理を実現する"
+    ],
+    "target_user": [
+      "管理者",
+      "開発者",
+      "データアナリスト"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-19T02:55:36Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-19T02:55:35Z"
   }
 ]

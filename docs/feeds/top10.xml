@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 18:33:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub CopilotにおけるGemini 4 Neonの一般提供開始</title>
+      <link>https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-362ee7bc4f1920475e98</guid>
+      <pubDate>Wed, 18 Nov 2026 21:49:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Gemini 4 NeonがGitHub Copilotで一般提供（GA）開始されました。本モデルは、エージェント型コーディング、多段階のツール利用、ナレッジワーク向けに設計されています。Googleによると、高い品質を提供するとしています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 NeonがGitHub Copilotで利用可能になりました。&lt;/li&gt;&lt;li&gt;エージェント型コーディングや多段階のツール利用に対応しています。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>チーム向けのGitHub Copilotカスタマイズ機能</title>
+      <link>https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team</link>
+      <guid isPermaLink="false">github-changelog-6e93a4cc09914f56e319</guid>
+      <pubDate>Wed, 18 Nov 2026 16:00:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、組織のチーム全体でプラグインやカスタマイズを共有できるようになりました。各メンバーが個別に同じセットアップを行う必要がなくなります。このチーム向けカスタマイズ機能は、組織のチームを対象に一般提供（GA）されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織のチーム向けにGitHub Copilotのカスタマイズ機能が提供開始&lt;/li&gt;&lt;li&gt;チームが利用するプラグインを共有し、個別のセットアップ作業を省略可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.147 (Copilot / Chat / Agents)</title>
       <link>https://code.visualstudio.com/updates/v1_147</link>
@@ -86,26 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、2026年12月14日に、Copilot Chatやコード補完を含むすべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルの提供を終了します。対象となるモデルや詳細なスケジュールについては、今後のアナウンスをご確認ください。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年12月14日に一部のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub CopilotにおけるGemini 4 Hydrogenの一般提供開始</title>
-      <link>https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot</link>
-      <guid isPermaLink="false">github-changelog-dde13a6350f0c89d7a8f</guid>
-      <pubDate>Fri, 13 Nov 2026 18:23:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Googleの最新FlashモデルであるGemini 4 Hydrogenが、GitHub Copilotで一般提供（GA）開始されました。本モデルは、高速で効率的なエージェント型コーディング、ツール利用、およびマルチステップワークフロー向けに設計されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 HydrogenモデルがGitHub Copilotに追加された&lt;/li&gt;&lt;li&gt;高速かつ効率的なエージェント型コーディング、ツール利用、マルチステップワークフローに対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.111</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.111</link>
-      <guid isPermaLink="false">github-copilot-cli-444274427</guid>
-      <pubDate>Fri, 13 Nov 2026 13:40:16 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.111 では、エンタープライズ管理シェルの権限ルールに正規表現サポートが追加され、--host-allow-session-creation オプションでリモートクライアントが一時的にセッションを作成できるようになりました。また、/usage のプレミアム使用率が最新の割合を表示するよう更新され、OAuth 再接続の重複が防止されました。さらに、端末幅が狭い環境向けに UI 表示やテーブルの整列が改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エンタープライズ管理シェル（Shell、Bash、PowerShell）の権限ルールで正規表現が使用可能になった&lt;/li&gt;&lt;li&gt;--host-allow-session-creation フラグでリモートクライアントが設定変更なしで一時的にセッションを作成できるようになった&lt;/li&gt;&lt;li&gt;/usage コマンドがプレミアムリクエスト使用率をリアルタイムで更新し、グラフが狭い端末に合わせて表示を調整した&lt;/li&gt;&lt;li&gt;重複した MCP OAuth 再接続が防止され、認証がキャンセルされた後もサーバーが適切に needs-auth 状態を保持するようになった&lt;/li&gt;&lt;li&gt;端末幅が狭い場合のテーブルや UI 要素（例：Markdown テーブル、/environments、/share 画面など）のレイアウトが改善され、スクリーンリーダーやハイコントラストテーマでも可読性が向上した&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.111"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
       <category>high</category>
     </item>
   </channel>

@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 18:33:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>SupabaseやBox、CalendlyなどのサービスをCopilotに接続可能に</title>
+      <link>https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot</link>
+      <guid isPermaLink="false">github-changelog-4e5c57bd6246e60b3e71</guid>
+      <pubDate>Wed, 18 Nov 2026 22:04:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub検証済みのMCPサーバーおよびコネクタを使用して、新たに8つのサービスをCopilotに接続できるようになりました。これにより、すでに接続可能な25以上のサービスに加えて、Supabase、Box、Calendlyなどが利用可能になります。これらの機能は現在パブリックプレビューとして提供されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub検証済みのMCPサーバーとコネクタを使用し、新たに8つのサービスをCopilotに接続可能にした&lt;/li&gt;&lt;li&gt;Supabase、Box、Calendlyなどのサービスが新たに追加され、合計で25以上のサービスと連携できるようになった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>Public Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub CopilotにおけるGemini 4 Neonの一般提供開始</title>
+      <link>https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot</link>
+      <guid isPermaLink="false">github-changelog-362ee7bc4f1920475e98</guid>
+      <pubDate>Wed, 18 Nov 2026 21:49:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Gemini 4 NeonがGitHub Copilotで一般提供（GA）開始されました。本モデルは、エージェント型コーディング、多段階のツール利用、ナレッジワーク向けに設計されています。Googleによると、高い品質を提供するとしています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 NeonがGitHub Copilotで利用可能になりました。&lt;/li&gt;&lt;li&gt;エージェント型コーディングや多段階のツール利用に対応しています。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>チーム向けのGitHub Copilotカスタマイズ機能</title>
+      <link>https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team</link>
+      <guid isPermaLink="false">github-changelog-6e93a4cc09914f56e319</guid>
+      <pubDate>Wed, 18 Nov 2026 16:00:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、組織のチーム全体でプラグインやカスタマイズを共有できるようになりました。各メンバーが個別に同じセットアップを行う必要がなくなります。このチーム向けカスタマイズ機能は、組織のチームを対象に一般提供（GA）されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織のチーム向けにGitHub Copilotのカスタマイズ機能が提供開始&lt;/li&gt;&lt;li&gt;チームが利用するプラグインを共有し、個別のセットアップ作業を省略可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>GA</category>
+      <category>high</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.147 (Copilot / Chat / Agents)</title>
       <link>https://code.visualstudio.com/updates/v1_147</link>
@@ -1974,36 +2004,6 @@
       <guid isPermaLink="false">github-changelog-0a10d0252c63a3f9d568</guid>
       <pubDate>Fri, 25 Sep 2026 21:09:40 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;企業および組織のレポジトリレベルにおけるGitHub Copilotの利用状況メトリクスレポートが、プルリクエストが各レビュー段階で費やす時間の内訳を表示するようになりました。各repos-1-day行に、新しいpull_request_review_times配列が追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プルリクエストのレビュー段階ごとの所要時間を内訳として表示するように変更&lt;/li&gt;&lt;li&gt;各repos-1-day行に新しい pull_request_review_times 配列を追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>エージェント型自動修正機能におけるCopilot Memoryの利用開始</title>
-      <link>https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory</link>
-      <guid isPermaLink="false">github-changelog-2653f5794fb9985f870e</guid>
-      <pubDate>Fri, 25 Sep 2026 17:25:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotのエージェント型自動修正機能が、有効化しているユーザーに対してCopilot Memoryを利用できるようになりました。これにより、セキュリティアラートの解決を支援するコンテキストとして既存のメモリがレビューされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェント型自動修正機能でCopilot Memoryの利用が可能になりました&lt;/li&gt;&lt;li&gt;セキュリティアラート解決のためのコンテキストとして既存のメモリがレビューされます&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot 週次リリース (9月21日)</title>
-      <link>https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21</link>
-      <guid isPermaLink="false">github-changelog-48eaa8bbafaa8bc422c9</guid>
-      <pubDate>Fri, 25 Sep 2026 16:42:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの今週のリリースでは、新しいモデルの追加やCopilotアプリでのローカルサンドボックス機能が導入されました。また、Slack、Microsoft Teams、JetBrains、VS CodeにおけるCopilotのアップデートも含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilotへ新しいモデルを追加&lt;/li&gt;&lt;li&gt;Copilotアプリにローカルサンドボックス機能を追加&lt;/li&gt;&lt;li&gt;Slack、Microsoft Teams、JetBrains、VS CodeにおけるCopilotのアップデート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot for Slack と Microsoft Teams の更新</title>
-      <link>https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams</link>
-      <guid isPermaLink="false">github-changelog-c1d4e08f8273da72d80c</guid>
-      <pubDate>Fri, 25 Sep 2026 16:33:42 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot が Slack と Microsoft Teams で利用できる機能が強化され、会話に対してより多くのコンテキストが提供され、制御が向上しました。また、チャットから GitHub の作業へ移行する流れが明確になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;会話に対するコンテキストが増加&lt;/li&gt;&lt;li&gt;ユーザーが Copilot の動作をより細かく制御可能に&lt;/li&gt;&lt;li&gt;チャットから GitHub の作業への移行が分かりやすくなった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>medium</category>
