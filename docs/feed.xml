@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 18:45:31 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115-1のリリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-1</link>
+      <guid isPermaLink="false">github-copilot-cli-451659730</guid>
+      <pubDate>Thu, 19 Nov 2026 17:08:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.115-1がリリースされました。今回のアップデートでは、MCPのサインイン処理とダイレクトワークフローの実行に関するバグが修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCPサインイン処理において、サーバーが必須スコープを付与したものの自動要求されたリフレッシュトークンスコープを省略した場合でも、処理を継続できるように修正しました。&lt;/li&gt;&lt;li&gt;ダイレクトワークフローの実行が、プロジェクト拡張機能のワークフローの登録を待機するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115-0 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-0</link>
+      <guid isPermaLink="false">github-copilot-cli-451343387</guid>
+      <pubDate>Thu, 19 Nov 2026 12:54:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.115-0がリリースされました。本バージョンには、各種の修正と変更が含まれています。詳細な変更内容は公開されていません。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;各種の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
     <item>
       <title>SupabaseやBox、CalendlyなどのサービスをCopilotに接続可能に</title>
       <link>https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot</link>
@@ -1984,26 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-ec80e627185c33926b5e</guid>
       <pubDate>Fri, 16 Oct 2026 22:00:35 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、Agent 365ライセンスなしでエージェントのインサイト閲覧が可能になりました。顧客はMicrosoftプラットフォームで構築されたエージェントのレポートを統合的に確認でき、作成者や作成目的のコンテキストも把握できます。本機能のGA（一般提供）時期は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent 365ライセンスなしでのAgent 365 Dashboardにおけるエージェントインサイトの閲覧が可能に&lt;/li&gt;&lt;li&gt;Microsoftプラットフォームで構築されたエージェントに関するレポートの統合的な表示&lt;/li&gt;&lt;li&gt;各エージェントの作成者と作成目的に関するコンテキストの確認&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575292"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.100-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.100-0</link>
-      <guid isPermaLink="false">github-copilot-cli-415339872</guid>
-      <pubDate>Fri, 16 Oct 2026 20:10:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.100-0がリリースされました。マスクされたホストの変更時にサンドボックスプロキシ証明機関の更新を促す改善や、管理ポリシー変更時のプラグイン更新の修正が含まれています。また、MCPサーバーのハングアップによるセッションの停止や、Geminiのツール呼び出しおよびチャットに関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;マスクされたホストの変更時にサンドボックスプロキシ証明機関の更新を促すプロンプトを追加&lt;/li&gt;&lt;li&gt;既存のセッションにおけるマネージドプラグインの更新アクティベーション（管理ポリシー変更時）を修正&lt;/li&gt;&lt;li&gt;ツールの読み込み中にMCPサーバーがハングアップした際、セッションが数分間停止する問題を修正&lt;/li&gt;&lt;li&gt;配列パラメータがenum値を定義している場合にGeminiのツール呼び出しが失敗する問題を修正&lt;/li&gt;&lt;li&gt;以前のツール結果に読み取り可能なコンテンツが含まれていない場合にGeminiのチャットが失敗する問題を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.100-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Field Service: Scheduling Operations Agentによる複数リソースの最適化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576884</link>
-      <guid isPermaLink="false">m365-roadmap-c1b29a4407f6a906b514</guid>
-      <pubDate>Fri, 16 Oct 2026 19:10:11 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本リリースでは、Scheduling Operations Agentの最適化機能が拡張され、複数リソースのサポートが追加されます。エージェントはリソースの空き状況、スケジュール、未割当の要件を考慮し、設定された制約と目的に沿った最適なスケジュール案を提案します。ディスパッチャーは、変更を適用する前に提案されたスケジュールを確認および比較することができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;スケジュールボードから直接最大5つのリソースのスケジュールを最適化&lt;/li&gt;&lt;li&gt;最適化プランを使用して最大30人のリソースのスケジュールを最適化&lt;/li&gt;&lt;li&gt;カスタムの目標と重み付け目標の作成&lt;/li&gt;&lt;li&gt;最適化プランで使用するカスタム最適化スコープの作成&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576884"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
