@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Nov 2026 18:45:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 02:49:15 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のステップとしてのPythonコード実行</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580866</link>
+      <guid isPermaLink="false">m365-roadmap-eff4d788b6b380128a40</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioに、式やコネクタで対応できないロジックを処理するため、ワークフロー内でPythonコードを実行できる新しいCodeノードが追加されます。データ変換、計算、正規表現、高度な解析、ファイル変換などの処理をサポートします。AIによる自然言語からのコード生成、または手動での記述と編集が可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ワークフロー内でPythonコードを実行できる新しいCodeノードの追加&lt;/li&gt;&lt;li&gt;データ変換、計算、正規表現、高度な解析、ファイル変換などの処理に対応&lt;/li&gt;&lt;li&gt;AIによる自然言語からのコード生成機能、または手動でのコード記述・編集機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580866"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のAgentノードからのドキュメント生成</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580865</link>
+      <guid isPermaLink="false">m365-roadmap-6c3fea4bafb11c458c07</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Copilot Studio&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioのAgentノードが、PDF、Word、Excel、PowerPoint、CSVなどの生成ファイルをワークフローの出力として返せるようになりました。インラインエージェントと公開済みエージェントの両方で動作し、生成されたファイルは下流のステップで利用可能です。ファイルはコネクタを経由してメール送信、SharePointやOneDriveへの保存、レコードへの添付などに使用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AgentノードがPDF、Word、Excel、PowerPoint、CSVなどの生成ファイルをワークフロー出力として返却可能に&lt;/li&gt;&lt;li&gt;インラインエージェントおよび公開済みエージェントの両方に対応&lt;/li&gt;&lt;li&gt;生成されたファイルは名前、コンテンツタイプ、コンテンツを含む順序付きファイル出力として下流のステップで利用可能&lt;/li&gt;&lt;li&gt;コネクタを使用してファイルをメール送信、SharePoint/OneDriveへ保存、またはレコードへ添付が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580865"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Copilot Studio</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：共同所有者によるワークフローの共有と共同編集機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580864</link>
+      <guid isPermaLink="false">m365-roadmap-a141c0dc01ed20a000e2</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、作成者がワークフローを他のユーザーと共同所有者として共有し、閲覧、編集、管理を行えるようになります。共有時にはワークフローで使用されている接続と権限を確認でき、共同所有者はワークフローの編集と実行が可能になります。一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;作成者がワークフローを他のユーザーと共同所有者として共有可能に&lt;/li&gt;&lt;li&gt;ワークフローページまたはデザイナーから共有操作を実行可能&lt;/li&gt;&lt;li&gt;共有前に接続と権限の確認が可能&lt;/li&gt;&lt;li&gt;共同所有者によるワークフローの編集と実行に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580864"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフローのサービスプリンシパルオーナー</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580863</link>
+      <guid isPermaLink="false">m365-roadmap-0c536808eb4f4dd71810</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、ワークフローの所有権を特定のユーザーアカウントではなく、サービスプリンシパル（Microsoft Entraアプリ登録）に設定できるようになりました。この機能の一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ワークフローの所有者をMicrosoft Entraアプリ登録（サービスプリンシパル）に変更可能になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580863"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115-1のリリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-1</link>
@@ -1967,46 +2007,6 @@
       <category>GitHub Copilot</category>
       <category>unknown</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.101-0 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.101-0</link>
-      <guid isPermaLink="false">github-copilot-cli-417762213</guid>
-      <pubDate>Mon, 19 Oct 2026 21:13:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.101-0がリリースされ、ダイナミックワークフローのサブエージェント向けネイティブ構造化出力の追加や、Assisted Permissions確認用の設定導入が行われました。また、認証エラーの修正やモデル切り替え時の不具合解消、MCP画像の保持などの各種バグ修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているモデルでのダイナミックワークフローサブエージェント向けに、ネイティブ構造化出力を追加&lt;/li&gt;&lt;li&gt;Assisted Permissionsの確認判断をガイドする assistedApprovalInstructions 設定を追加&lt;/li&gt;&lt;li&gt;GPTモデルからGeminiへの切り替え時にカスタムツール呼び出しを含む過去のターンで失敗していた問題を修正&lt;/li&gt;&lt;li&gt;起動時にモデルが未選択の場合に最初のプロンプトが沈黙してフリーズせず、/modelでの選択を促してプロンプトを保持するように変更&lt;/li&gt;&lt;li&gt;Windowsシェルコマンドが復元されたセッションで確実に対象プロセスを開始し、孤立した子プロセスをクリーンアップするように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.101-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.100 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.100</link>
-      <guid isPermaLink="false">github-copilot-cli-417622960</guid>
-      <pubDate>Mon, 19 Oct 2026 18:43:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.100では、クライアントテレメトリを無効化する新しいフラグや一時セッション向けの信頼フォルダ指定機能が追加されました。また、MCPサーバーの応答待ちやプロキシ設定、サンドボックス環境におけるネットワークと証明書の処理に関する多数の修正と改善が含まれています。さらに、プラグイン管理の信頼性向上や、Geminiモデルでのツール呼び出しのエラー修正など、安定性が強化されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;クライアントテレメトリのアップロードを停止する `--disable-client-telemetry` フラグを追加&lt;/li&gt;&lt;li&gt;-p またはパイプ入力で開始するプロンプトモードセッション向けに `--trust-folder` を追加&lt;/li&gt;&lt;li&gt;GitHubのインストールリンクから検証済みスキルやプラグインをインストール可能に&lt;/li&gt;&lt;li&gt;引数なしで `/share` を実行して現在のセッションを共有するフルスクリーンアクションメニューを表示&lt;/li&gt;&lt;li&gt;MCPサーバーがツール読み込み時にハングした場合にセッションが数分間停止する問題を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.100"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.100-1 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.100-1</link>
-      <guid isPermaLink="false">github-copilot-cli-415437555</guid>
-      <pubDate>Fri, 16 Oct 2026 22:41:25 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.100-1がリリースされました。今回のアップデートでは、セッション関連コマンドで統合Sessionsブラウザーがデフォルトで使用されるようになり、アカウント検出数の上限設定やリトライ制御が改善されました。また、サンドイッチのホストルールにおけるプロキシ設定の不具合や、音声ディクテーション機能で言語マーカーが挿入される問題が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/sessions、/session、および /resume コマンドで統合 Sessions ブラウザーをデフォルトで使用するように改善&lt;/li&gt;&lt;li&gt;セッションブラウジングにおけるアカウント検出を最大500レコードまでに制限し、自動更新タイミングの Retry-After ヒントを尊重するように変更&lt;/li&gt;&lt;li&gt;サンドボックスプロキシが未設定の場合に、サンドボックスのホストルールトラフィックが HTTPS_PROXY と HTTP_PROXY を正しく尊重するように修正&lt;/li&gt;&lt;li&gt;音声ディクテーションにおいて、トランスクリプトテキストに &amp;lt;en-US&amp;gt; などの言語マーカーが混入しないように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.100-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>low</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Viva：Copilot AnalyticsでのAgent 365レポート機能の提供開始</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575292</link>
-      <guid isPermaLink="false">m365-roadmap-ec80e627185c33926b5e</guid>
-      <pubDate>Fri, 16 Oct 2026 22:00:35 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva Insights（Copilot Analytics）内のAgent 365 Dashboardにおいて、Agent 365ライセンスなしでエージェントのインサイト閲覧が可能になりました。顧客はMicrosoftプラットフォームで構築されたエージェントのレポートを統合的に確認でき、作成者や作成目的のコンテキストも把握できます。本機能のGA（一般提供）時期は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent 365ライセンスなしでのAgent 365 Dashboardにおけるエージェントインサイトの閲覧が可能に&lt;/li&gt;&lt;li&gt;Microsoftプラットフォームで構築されたエージェントに関するレポートの統合的な表示&lt;/li&gt;&lt;li&gt;各エージェントの作成者と作成目的に関するコンテキストの確認&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575292"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

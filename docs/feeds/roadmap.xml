@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 02:49:15 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のステップとしてのPythonコード実行</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580866</link>
+      <guid isPermaLink="false">m365-roadmap-eff4d788b6b380128a40</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioに、式やコネクタで対応できないロジックを処理するため、ワークフロー内でPythonコードを実行できる新しいCodeノードが追加されます。データ変換、計算、正規表現、高度な解析、ファイル変換などの処理をサポートします。AIによる自然言語からのコード生成、または手動での記述と編集が可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ワークフロー内でPythonコードを実行できる新しいCodeノードの追加&lt;/li&gt;&lt;li&gt;データ変換、計算、正規表現、高度な解析、ファイル変換などの処理に対応&lt;/li&gt;&lt;li&gt;AIによる自然言語からのコード生成機能、または手動でのコード記述・編集機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580866"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のAgentノードからのドキュメント生成</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580865</link>
+      <guid isPermaLink="false">m365-roadmap-6c3fea4bafb11c458c07</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Copilot Studio&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioのAgentノードが、PDF、Word、Excel、PowerPoint、CSVなどの生成ファイルをワークフローの出力として返せるようになりました。インラインエージェントと公開済みエージェントの両方で動作し、生成されたファイルは下流のステップで利用可能です。ファイルはコネクタを経由してメール送信、SharePointやOneDriveへの保存、レコードへの添付などに使用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AgentノードがPDF、Word、Excel、PowerPoint、CSVなどの生成ファイルをワークフロー出力として返却可能に&lt;/li&gt;&lt;li&gt;インラインエージェントおよび公開済みエージェントの両方に対応&lt;/li&gt;&lt;li&gt;生成されたファイルは名前、コンテンツタイプ、コンテンツを含む順序付きファイル出力として下流のステップで利用可能&lt;/li&gt;&lt;li&gt;コネクタを使用してファイルをメール送信、SharePoint/OneDriveへ保存、またはレコードへ添付が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580865"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Copilot Studio</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：共同所有者によるワークフローの共有と共同編集機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580864</link>
+      <guid isPermaLink="false">m365-roadmap-a141c0dc01ed20a000e2</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、作成者がワークフローを他のユーザーと共同所有者として共有し、閲覧、編集、管理を行えるようになります。共有時にはワークフローで使用されている接続と権限を確認でき、共同所有者はワークフローの編集と実行が可能になります。一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;作成者がワークフローを他のユーザーと共同所有者として共有可能に&lt;/li&gt;&lt;li&gt;ワークフローページまたはデザイナーから共有操作を実行可能&lt;/li&gt;&lt;li&gt;共有前に接続と権限の確認が可能&lt;/li&gt;&lt;li&gt;共同所有者によるワークフローの編集と実行に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580864"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフローのサービスプリンシパルオーナー</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580863</link>
+      <guid isPermaLink="false">m365-roadmap-0c536808eb4f4dd71810</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、ワークフローの所有権を特定のユーザーアカウントではなく、サービスプリンシパル（Microsoft Entraアプリ登録）に設定できるようになりました。この機能の一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ワークフローの所有者をMicrosoft Entraアプリ登録（サービスプリンシパル）に変更可能になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580863"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot Studio：PPAC Reporting API</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579968</link>
@@ -964,46 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-fc7b2c7c7bb71830ace4</guid>
       <pubDate>Fri, 16 Oct 2026 19:09:32 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 ERP MCPサーバーを通じて生成されるCopilotの応答に、基データへのディープリンクが含まれるようになります。これにより、AI生成応答の透明性、追跡可能性、および信頼性が向上します。管理者、メーカー、マーケター向けに自動的に有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 ERP MCPサーバーによるCopilotの応答に、使用されたデータへのディープリンクを追加&lt;/li&gt;&lt;li&gt;AI生成の応答における透明性と追跡可能性の向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576825"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Customer Service: Microsoft 365 CopilotでのService Agentによる顧客成果の向上</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576818</link>
-      <guid isPermaLink="false">m365-roadmap-2bc3b7c8b3d9d3eea376</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Chatの体験がDynamics 365 Customer Serviceに統合され、サービス向けに最適化されたコンテキストとワークフローが利用可能になります。ユーザーはツールを切り替えることなく、Dynamics 365のデータとMicrosoft 365のコンテキストを活用して、業務の優先順位付けや通信文のドラフト作成などを行えるようになります。本機能は管理者が有効化し、2026年3月にプレビュー提供、2026年6月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 Customer ServiceでMicrosoft 365 Copilot Chatのエクスペリエンスを利用可能にする&lt;/li&gt;&lt;li&gt;優先すべき作業の確認や顧客向けコミュニケーションのドラフト作成を支援する&lt;/li&gt;&lt;li&gt;ケース全体のトレンドや運用シグナルを特定し、早期の対応を可能にする&lt;/li&gt;&lt;li&gt;サポート知識から回答を検索・発見する機能を備える&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576818"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Sales: Sales agent内での営業案件インサイトに関するチャット機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576814</link>
-      <guid isPermaLink="false">m365-roadmap-395651e591624c06f01a</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Salesにおいて、Sales agent内から営業案件のリサーチについて直接質問できるようになります。アクション指向のインサイトを起点にし、必要に応じて詳細な分析を要求することが可能です。これにより、ミーティング準備やステージ移行などの重要な場面で、状況に適したガイダンスが得られます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales agentのコンテキスト内で営業案件に関する質問が可能に&lt;/li&gt;&lt;li&gt;アクション指向のインサイトから必要に応じた詳細分析への展開に対応&lt;/li&gt;&lt;li&gt;管理者がエンドユーザー向けに有効化可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576814"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Project Operations: フィールド実行からの実際のプロジェクト進捗追跡による最適化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576798</link>
-      <guid isPermaLink="false">m365-roadmap-0996869c2c547818ed4f</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:12 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Project Operations&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本機能により、Field ServiceとProject Operationsの統合が有効な場合、Field Serviceで承認された時間をProject Operationsの作業分解構成図（WBS）の工数追跡に含めることが可能になります。承認されたフィールド作業時間は、完了工数、残工数、完了率、完成時予測、スケジュール差異などのタスクレベルのWBS実行指標に直接反映されます。これにより、プロジェクトマネージャーは手動での調整なしに、現場の実際の実行状況に基づいて正確なプロジェクト状況を把握できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Field ServiceとProject Operationsの統合時に、承認されたField Serviceの時間をプロジェクトタスクレベルのWBS実行指標に直接反映&lt;/li&gt;&lt;li&gt;完了工数、残工数、完了率、完成時予測（EAC）、スケジュール差異などの計算に承認済みのフィールド作業時間を適用&lt;/li&gt;&lt;li&gt;リーフタスクレベルでの計算結果がサマリータスクおよびプロジェクトのルートに自動的にロールアップされる機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576798"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Dynamics 365 Project Operations</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Business Central: ドキュメントレポートのPDF取得用新規API</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576792</link>
-      <guid isPermaLink="false">m365-roadmap-dd765d293c7a5637b5b8</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Business Centralのドキュメントレポートシステムにおいて、読み取り専用の新しいAPIが導入されます。これらのAPIを利用することで、Business Central外でのドキュメントレポートに関する自動化を確立できます。Power AutomateやMicrosoft Copilot Studio、MCP Serverとの統合を通じて、インテリジェントな自動化の機会が開かれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ドキュメントレポートシステムに読み取り専用APIを導入&lt;/li&gt;&lt;li&gt;販売、購買、在庫、組立に関連する各種ドキュメントのクエリが可能&lt;/li&gt;&lt;li&gt;Power AutomateやMicrosoft Copilot StudioおよびMCP Serverとの統合をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576792"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

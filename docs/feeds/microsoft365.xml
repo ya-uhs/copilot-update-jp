@@ -5,9 +5,49 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 02:49:15 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のステップとしてのPythonコード実行</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580866</link>
+      <guid isPermaLink="false">m365-roadmap-eff4d788b6b380128a40</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioに、式やコネクタで対応できないロジックを処理するため、ワークフロー内でPythonコードを実行できる新しいCodeノードが追加されます。データ変換、計算、正規表現、高度な解析、ファイル変換などの処理をサポートします。AIによる自然言語からのコード生成、または手動での記述と編集が可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ワークフロー内でPythonコードを実行できる新しいCodeノードの追加&lt;/li&gt;&lt;li&gt;データ変換、計算、正規表現、高度な解析、ファイル変換などの処理に対応&lt;/li&gt;&lt;li&gt;AIによる自然言語からのコード生成機能、または手動でのコード記述・編集機能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580866"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のAgentノードからのドキュメント生成</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580865</link>
+      <guid isPermaLink="false">m365-roadmap-6c3fea4bafb11c458c07</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Copilot Studio&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioのAgentノードが、PDF、Word、Excel、PowerPoint、CSVなどの生成ファイルをワークフローの出力として返せるようになりました。インラインエージェントと公開済みエージェントの両方で動作し、生成されたファイルは下流のステップで利用可能です。ファイルはコネクタを経由してメール送信、SharePointやOneDriveへの保存、レコードへの添付などに使用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AgentノードがPDF、Word、Excel、PowerPoint、CSVなどの生成ファイルをワークフロー出力として返却可能に&lt;/li&gt;&lt;li&gt;インラインエージェントおよび公開済みエージェントの両方に対応&lt;/li&gt;&lt;li&gt;生成されたファイルは名前、コンテンツタイプ、コンテンツを含む順序付きファイル出力として下流のステップで利用可能&lt;/li&gt;&lt;li&gt;コネクタを使用してファイルをメール送信、SharePoint/OneDriveへ保存、またはレコードへ添付が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580865"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Copilot Studio</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：共同所有者によるワークフローの共有と共同編集機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580864</link>
+      <guid isPermaLink="false">m365-roadmap-a141c0dc01ed20a000e2</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、作成者がワークフローを他のユーザーと共同所有者として共有し、閲覧、編集、管理を行えるようになります。共有時にはワークフローで使用されている接続と権限を確認でき、共同所有者はワークフローの編集と実行が可能になります。一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;作成者がワークフローを他のユーザーと共同所有者として共有可能に&lt;/li&gt;&lt;li&gt;ワークフローページまたはデザイナーから共有操作を実行可能&lt;/li&gt;&lt;li&gt;共有前に接続と権限の確認が可能&lt;/li&gt;&lt;li&gt;共同所有者によるワークフローの編集と実行に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580864"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフローのサービスプリンシパルオーナー</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580863</link>
+      <guid isPermaLink="false">m365-roadmap-0c536808eb4f4dd71810</guid>
+      <pubDate>Thu, 19 Nov 2026 21:30:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、ワークフローの所有権を特定のユーザーアカウントではなく、サービスプリンシパル（Microsoft Entraアプリ登録）に設定できるようになりました。この機能の一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ワークフローの所有者をMicrosoft Entraアプリ登録（サービスプリンシパル）に変更可能になりました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580863"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot Studio：PPAC Reporting API</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=579968</link>
@@ -1964,46 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-3897773019dcda8b66db</guid>
       <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GCC、GCC High、およびDoD環境のMicrosoft Teamsにおいて、チャット、チャネル、通話、ミーティングで利用可能なCopilot Chatが提供されます。本機能により、ユーザーは情報把握やキャッチアップを迅速に行うことが可能になります。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC、GCC High、DoD環境のTeams（チャット、チャネル、通話、ミーティング）でCopilot Chatを利用可能化&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期を2026年10月に設定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569214"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: Microsoft 365 CopilotにおけるCopilot Studioエージェントの体験統合</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570435</link>
-      <guid isPermaLink="false">m365-roadmap-43d80ec8258937f767d2</guid>
-      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;このアップデートにより、Microsoft 365 Copilot内のCopilot Studioエージェントの体験がCopilot Chatの体験と統合されます。エージェントの応答の見た目、操作感、動作がCopilot Chatの応答と同等になるよう改善されます。一般提供（GA）は2026年9月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Chatにおけるエージェントの応答のフォーマットとチェーンオブソート表示を統一&lt;/li&gt;&lt;li&gt;スムーズなストリーミング、再開・再試行、音声入力に対応&lt;/li&gt;&lt;li&gt;クリック可能な引用とツール実行トレースの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570435"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：ツール実行における人間の承認を必須化する機能の追加</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570434</link>
-      <guid isPermaLink="false">m365-roadmap-1d4a08028bd4848c885d</guid>
-      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、エージェントが特定のツールを実行する前に人間の承認を必須とする機能が追加されました。作成者はエージェントおよびツールごとに承認を有効化でき、メール送信や決済処理などの重要・機密性の高い操作に対して、独立したガードレールを適用できます。承認依頼はMicrosoft TeamsやMicrosoft 365 Copilotなどの展開チャネルにインラインで表示されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントによる特定ツールの実行前に人間の承認を求める設定が可能になった&lt;/li&gt;&lt;li&gt;ツールごと・エージェントごとのトグルで承認の有効化を設定できる&lt;/li&gt;&lt;li&gt;承認依頼には「承認」「セッション中の承認」「拒否」の選択肢が含まれ、展開チャネルにインラインで表示される&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570434"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365: Organizational Data ServiceがGCC-High環境で利用可能に</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570431</link>
-      <guid isPermaLink="false">m365-roadmap-d8bf44d785a81b28cbfa</guid>
-      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365のOrganizational Data Serviceが、GCC-High環境で利用可能になりました。複数の人事管理システム（HRIS）からの組織・人事データの迅速な取り込みを単一の統合ポイントで実現し、Microsoft CopilotやMicrosoft 365アプリで活用できます。データの品質問題を事前に検知・通知・解決するフレームワークを備えており、一般提供（GA）の時期は2026年9月予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC-High環境におけるMicrosoft 365 Organizational Data Serviceの提供開始&lt;/li&gt;&lt;li&gt;単一の統合ポイントを通じた複数のHRISシステムからの組織・人事データの迅速な取り込み&lt;/li&gt;&lt;li&gt;Microsoft CopilotおよびMicrosoft 365アプリでの組織データの利用&lt;/li&gt;&lt;li&gt;データ品質問題を検知・通知・解決するフレームワークの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570431"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Viva: GCC-HighにおけるViva InsightsとCopilot Analytics</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570428</link>
-      <guid isPermaLink="false">m365-roadmap-dbb2cd2a6bf32a7c1d7f</guid>
-      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Government Community Cloud High (GCC High)環境において、Microsoft Viva InsightsとCopilot Analyticsの提供が開始されます。対象組織は、プライバシー保護されたロールベースの分析を通じて、Microsoft 365 Copilotの導入状況や利用状況、影響を把握できるようになります。また、従業員のコラボレーションに関するデータ駆動型の行動インサイトを提供し、組織の生産性とウェルビーイングの向上を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC High環境向けにMicrosoft 365 Copilotの導入、利用、影響を把握する分析機能を提供&lt;/li&gt;&lt;li&gt;プライバシー保護とロールベースの分析体験を実現&lt;/li&gt;&lt;li&gt;従業員のコラボレーションに関するデータ駆動型の行動インサイトにより、生産性とウェルビーイングの向上を支援&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570428"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

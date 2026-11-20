@@ -1,5 +1,55 @@
 [
   {
+    "id": "github-copilot-cli-451659730",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-1",
+    "published_at": "2026-11-19T17:08:22Z",
+    "title_original": "GitHub Copilot CLI v1.0.115-1",
+    "excerpt_original": "**Fixed** - MCP sign-in can continue when a server grants the required scopes but omits an automatically requested refresh-token scope. - Make direct workflow execution wait for project extension workflows to register",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.115-1のリリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.115-1がリリースされました。今回のアップデートでは、MCPのサインイン処理とダイレクトワークフローの実行に関するバグが修正されています。",
+    "changes": [
+      "MCPサインイン処理において、サーバーが必須スコープを付与したものの自動要求されたリフレッシュトークンスコープを省略した場合でも、処理を継続できるように修正しました。",
+      "ダイレクトワークフローの実行が、プロジェクト拡張機能のワークフローの登録を待機するように修正しました。"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-19T18:45:30Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-19T18:45:28Z"
+  },
+  {
+    "id": "github-copilot-cli-451343387",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-0",
+    "published_at": "2026-11-19T12:54:34Z",
+    "title_original": "GitHub Copilot CLI v1.0.115-0",
+    "excerpt_original": "Fixes and changes",
+    "product": "GitHub Copilot CLI",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.115-0 リリース",
+    "summary_ja": "GitHub Copilot CLIのバージョン1.0.115-0がリリースされました。本バージョンには、各種の修正と変更が含まれています。詳細な変更内容は公開されていません。",
+    "changes": [
+      "各種の修正と変更の適用"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-19T18:45:31Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-19T18:45:30Z"
+  },
+  {
     "id": "github-changelog-4e5c57bd6246e60b3e71",
     "source": "GitHub Changelog",
     "source_url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
@@ -12575,53 +12625,114 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-451659730",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-1",
-    "published_at": "2026-11-19T17:08:22Z",
-    "title_original": "GitHub Copilot CLI v1.0.115-1",
-    "excerpt_original": "**Fixed** - MCP sign-in can continue when a server grants the required scopes but omits an automatically requested refresh-token scope. - Make direct workflow execution wait for project extension workflows to register",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.115-1のリリースノート",
-    "summary_ja": "GitHub Copilot CLI v1.0.115-1がリリースされました。今回のアップデートでは、MCPのサインイン処理とダイレクトワークフローの実行に関するバグが修正されています。",
+    "id": "m365-roadmap-eff4d788b6b380128a40",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=580866",
+    "published_at": "2026-11-19T21:30:10Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Run Python code as a step in workflows",
+    "excerpt_original": "The new Code node lets makers run Python as a step in a workflow for logic that expressions and connectors can't handle. Data transforms, calculations, regex, and advanced parsing. File conversion and parsing (for example PDF → text, CSV, XML). Generate the code from natural language with AI, or write and edit it by hand. GA date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のステップとしてのPythonコード実行",
+    "summary_ja": "Microsoft Copilot Studioに、式やコネクタで対応できないロジックを処理するため、ワークフロー内でPythonコードを実行できる新しいCodeノードが追加されます。データ変換、計算、正規表現、高度な解析、ファイル変換などの処理をサポートします。AIによる自然言語からのコード生成、または手動での記述と編集が可能です。",
     "changes": [
-      "MCPサインイン処理において、サーバーが必須スコープを付与したものの自動要求されたリフレッシュトークンスコープを省略した場合でも、処理を継続できるように修正しました。",
-      "ダイレクトワークフローの実行が、プロジェクト拡張機能のワークフローの登録を待機するように修正しました。"
+      "ワークフロー内でPythonコードを実行できる新しいCodeノードの追加",
+      "データ変換、計算、正規表現、高度な解析、ファイル変換などの処理に対応",
+      "AIによる自然言語からのコード生成機能、または手動でのコード記述・編集機能"
+    ],
+    "target_user": [
+      "makers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-20T02:49:11Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-20T02:49:10Z"
+  },
+  {
+    "id": "m365-roadmap-6c3fea4bafb11c458c07",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=580865",
+    "published_at": "2026-11-19T21:30:10Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Generate documents from the Agent node in workflows",
+    "excerpt_original": "The Agent node can now return files that the agent generates, such as PDF, Word, Excel, PowerPoint, and CSV, as workflow outputs. Works with both inline agents and existing (published) agents. Generated files appear as an ordered files output (name, content type, content) that's available to downstream steps. Pass files to connectors to email, save to SharePoint/OneDrive, or attach to records. GA date: November CY2026",
+    "product": "Microsoft Copilot Studio",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のAgentノードからのドキュメント生成",
+    "summary_ja": "Microsoft Copilot StudioのAgentノードが、PDF、Word、Excel、PowerPoint、CSVなどの生成ファイルをワークフローの出力として返せるようになりました。インラインエージェントと公開済みエージェントの両方で動作し、生成されたファイルは下流のステップで利用可能です。ファイルはコネクタを経由してメール送信、SharePointやOneDriveへの保存、レコードへの添付などに使用できます。",
+    "changes": [
+      "AgentノードがPDF、Word、Excel、PowerPoint、CSVなどの生成ファイルをワークフロー出力として返却可能に",
+      "インラインエージェントおよび公開済みエージェントの両方に対応",
+      "生成されたファイルは名前、コンテンツタイプ、コンテンツを含む順序付きファイル出力として下流のステップで利用可能",
+      "コネクタを使用してファイルをメール送信、SharePoint/OneDriveへ保存、またはレコードへ添付が可能"
     ],
     "target_user": [
       "Developer",
-      "GitHub Copilot CLI User"
+      "Administrator"
     ],
-    "importance": "low",
+    "importance": "medium",
     "translated": true,
-    "processed_at": "2026-11-19T18:45:30Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-11-19T18:45:28Z"
+    "processed_at": "2026-11-20T02:49:13Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-20T02:49:11Z"
   },
   {
-    "id": "github-copilot-cli-451343387",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-0",
-    "published_at": "2026-11-19T12:54:34Z",
-    "title_original": "GitHub Copilot CLI v1.0.115-0",
-    "excerpt_original": "Fixes and changes",
-    "product": "GitHub Copilot CLI",
-    "status": "Pre-release",
-    "title_ja": "GitHub Copilot CLI v1.0.115-0 リリース",
-    "summary_ja": "GitHub Copilot CLIのバージョン1.0.115-0がリリースされました。本バージョンには、各種の修正と変更が含まれています。詳細な変更内容は公開されていません。",
+    "id": "m365-roadmap-a141c0dc01ed20a000e2",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=580864",
+    "published_at": "2026-11-19T21:30:10Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Share workflows with co-owners for collaborative editing",
+    "excerpt_original": "Makers can share a workflow with other users as co-owners so they can view, edit, and manage it. Share from the workflows page or the designer. Review the connections the workflow uses and their permissions before sharing. See who the workflow is shared with when reopening Share. Co-owners can edit and run the workflow. GA date: December CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio：共同所有者によるワークフローの共有と共同編集機能",
+    "summary_ja": "Microsoft Copilot Studioにおいて、作成者がワークフローを他のユーザーと共同所有者として共有し、閲覧、編集、管理を行えるようになります。共有時にはワークフローで使用されている接続と権限を確認でき、共同所有者はワークフローの編集と実行が可能になります。一般提供（GA）は2026年12月を予定しています。",
     "changes": [
-      "各種の修正と変更の適用"
+      "作成者がワークフローを他のユーザーと共同所有者として共有可能に",
+      "ワークフローページまたはデザイナーから共有操作を実行可能",
+      "共有前に接続と権限の確認が可能",
+      "共同所有者によるワークフローの編集と実行に対応"
     ],
     "target_user": [
-      "developers"
+      "Makers",
+      "Developers"
     ],
-    "importance": "low",
+    "importance": "medium",
     "translated": true,
-    "processed_at": "2026-11-19T18:45:31Z",
-    "source_id": "github-copilot-cli",
-    "family": "github",
-    "translation_attempted_at": "2026-11-19T18:45:30Z"
+    "processed_at": "2026-11-20T02:49:14Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-20T02:49:13Z"
+  },
+  {
+    "id": "m365-roadmap-0c536808eb4f4dd71810",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=580863",
+    "published_at": "2026-11-19T21:30:10Z",
+    "title_original": "[Roadmap] Microsoft Copilot Studio: Service principal owner for workflows",
+    "excerpt_original": "Workflows can now be owned under a service principal (a Microsoft Entra app registration) instead of a named user account. GA date: December CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフローのサービスプリンシパルオーナー",
+    "summary_ja": "Microsoft Copilot Studioにおいて、ワークフローの所有権を特定のユーザーアカウントではなく、サービスプリンシパル（Microsoft Entraアプリ登録）に設定できるようになりました。この機能の一般提供（GA）は2026年12月を予定しています。",
+    "changes": [
+      "ワークフローの所有者をMicrosoft Entraアプリ登録（サービスプリンシパル）に変更可能になりました"
+    ],
+    "target_user": [
+      "Administrators",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-20T02:49:15Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-20T02:49:14Z"
   }
 ]
