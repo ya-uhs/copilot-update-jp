@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 02:58:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:05:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=581992</link>
+      <guid isPermaLink="false">m365-roadmap-025185174f64620021a7</guid>
+      <pubDate>Sat, 21 Nov 2026 02:55:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを介して Microsoft 365 Copilot と統合され、上司やカスタマーサービス担当者が自然言語で勤務リクエストを操作できるようになります。上司は権限のある休暇、シフト交換、シフト入札リクエストを一覧表示・フィルタし、詳細を確認し、休暇リクエストを承認または却下できます。担当者は自分のリクエストを一覧・ステータス確認し、詳細を閲覧できます。既存の Dynamics 365 と Dataverse のセキュリティロールが適用され、別途権限設定やモバイルアプリは不要です。シフト交換・入札は閲覧のみで、承認は現在休暇リクエストに限定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを通じて Microsoft 365 Copilot と統合された&lt;/li&gt;&lt;li&gt;上司が自然言語で休暇リクエストを一覧・フィルタし、承認・却下できる機能が追加された&lt;/li&gt;&lt;li&gt;カスタマーサービス担当者が自分のリクエストを一覧・ステータス確認できるようになった&lt;/li&gt;&lt;li&gt;既存の Dynamics 365 と Dataverse のセキュリティロールがそのまま適用され、別途権限設定が不要となった&lt;/li&gt;&lt;li&gt;リクエスト一覧と詳細がチャット内のインタラクティブなアプリ体験として提供され、承認・却下はテキストで確認できる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=581992"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Work IQ: Listen</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570867</link>
@@ -994,16 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-347ab6d77f56cee76e2c</guid>
       <pubDate>Fri, 16 Oct 2026 19:09:36 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Adherence History Reportは、カスタマーサービス担当者のスケジュールされたタスクや活動に対する過去の遵守状況を包括的に提供します。管理者はこのレポートを使用して傾向を分析し、ギャップを特定し、人員効率を改善することができます。機能にはトレンドチャート、メトリクスダッシュボード、アクティビティサマリービューが含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;トレンドチャートによる個別またはチーム全体の遵守パターンの可視化&lt;/li&gt;&lt;li&gt;遵守率、総予定時間、遵守時間外の時間を追跡するメトリクスダッシュボード&lt;/li&gt;&lt;li&gt;詳細な活動記録と正確な期間を確認できるアクティビティサマリービュー&lt;/li&gt;&lt;li&gt;Copilot Service ワークスペース内の Workforce Management からアクセス可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576831"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Finance and Operations cross-app: Copilotによる生産性向上 - Dynamics 365 ERP MCPサーバーを介した添付ファイルへのエージェントのアクセス</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576826</link>
-      <guid isPermaLink="false">m365-roadmap-e921b0c306674fb44d30</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:33 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 ERP MCPサーバーを通じて、エージェントがERPレコードの添付ファイルを読み取り、推論、作成、削除できるようになります。これにより、エージェント型のエクスペリエンスにおいてドキュメント添付ファイルを活用した強力な処理が可能になります。機能は管理者に自動的に有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 ERP MCPサーバーにより、エージェントがERPの添付ファイルを操作可能に&lt;/li&gt;&lt;li&gt;添付ファイルの作成、削除、読み取り、およびコンテンツの推論をエージェントフロー内でサポート&lt;/li&gt;&lt;li&gt;管理者に自動的に有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576826"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

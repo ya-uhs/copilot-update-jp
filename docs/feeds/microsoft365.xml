@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 02:58:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:05:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=581992</link>
+      <guid isPermaLink="false">m365-roadmap-025185174f64620021a7</guid>
+      <pubDate>Sat, 21 Nov 2026 02:55:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを介して Microsoft 365 Copilot と統合され、上司やカスタマーサービス担当者が自然言語で勤務リクエストを操作できるようになります。上司は権限のある休暇、シフト交換、シフト入札リクエストを一覧表示・フィルタし、詳細を確認し、休暇リクエストを承認または却下できます。担当者は自分のリクエストを一覧・ステータス確認し、詳細を閲覧できます。既存の Dynamics 365 と Dataverse のセキュリティロールが適用され、別途権限設定やモバイルアプリは不要です。シフト交換・入札は閲覧のみで、承認は現在休暇リクエストに限定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを通じて Microsoft 365 Copilot と統合された&lt;/li&gt;&lt;li&gt;上司が自然言語で休暇リクエストを一覧・フィルタし、承認・却下できる機能が追加された&lt;/li&gt;&lt;li&gt;カスタマーサービス担当者が自分のリクエストを一覧・ステータス確認できるようになった&lt;/li&gt;&lt;li&gt;既存の Dynamics 365 と Dataverse のセキュリティロールがそのまま適用され、別途権限設定が不要となった&lt;/li&gt;&lt;li&gt;リクエスト一覧と詳細がチャット内のインタラクティブなアプリ体験として提供され、承認・却下はテキストで確認できる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=581992"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Work IQ: Listen</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=570867</link>
@@ -1994,16 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-df41e5e9b221c7d8c662</guid>
       <pubDate>Wed, 02 Sep 2026 22:56:59 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioのAIエージェントは、Model Context Protocolの拡張であるMCP Appsを利用して、インラインでリッチなインタラクティブUIを描画できるようになりました。エージェントが互換性のあるMCPサーバーからツールを呼び出すことで、並べ替え可能なテーブルやドリルダウンなどの操作をチャット内で行うことが可能です。UIを描画できないサーフェイス向けにはプレーンテキストのフォールバックが提供され、メーカーは準拠するMCPサーバーを接続するだけでこの機能を利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCP Appsの導入により、Copilot StudioエージェントがインラインでインタラクティブUIを描画可能になった&lt;/li&gt;&lt;li&gt;並べ替え可能なテーブルやドリルダウンなどのインタラクティブ体験をチャット内で直接利用できる&lt;/li&gt;&lt;li&gt;UI非対応のサーフェイス向けにプレーンテキストのフォールバック機能が用意されている&lt;/li&gt;&lt;li&gt;準拠するMCPサーバーを接続するだけでメーカーがこの機能を利用可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570433"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio：アプリおよびインテント駆動型の新しいエージェント作成エクスペリエンスの導入</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=569474</link>
-      <guid isPermaLink="false">m365-roadmap-df4985f14ccff72d77a3</guid>
-      <pubDate>Wed, 02 Sep 2026 22:56:59 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioは、アプリファーストのエージェント作成エクスペリエンスへと進化します。製作者はエージェントが連携するアプリケーションから開始し、必要な機能を設定することが可能です。このアップデートにより、ツールとナレッジがより統合されたエクスペリエンスにまとめられ、エージェントの作成と設定が簡素化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントが連携するアプリケーションから開始するアプリファーストの作成エクスペリエンスの導入&lt;/li&gt;&lt;li&gt;ツールとナレッジを統合した統一感のある設定プロセスの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569474"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

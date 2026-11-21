@@ -1,5 +1,62 @@
 [
   {
+    "id": "github-copilot-cli-453484583",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-5",
+    "published_at": "2026-11-21T06:15:21Z",
+    "title_original": "GitHub Copilot CLI v1.0.115-5",
+    "excerpt_original": "**Improved** - Long-running local sessions take up less disk space and resume faster. **Fixed** - When you queue a switch from a specific model to Copilot Fusion, the CLI acknowledges the requested routing profile instead of showing the previous profile.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.115-5のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.115-5がリリースされました。長時間のローカルセッションにおけるディスク使用量の削減と再開処理の高速化が行われました。また、特定モデルからCopilot Fusionへの切り替えをキューに入れた際のルーティングプロファイル表示に関する不具合が修正されました。",
+    "changes": [
+      "長時間のローカルセッションで消費するディスクスペースが減少し、再開速度が向上しました。",
+      "特定モデルからCopilot Fusionへの切り替えをキューに入れた際、以前のプロファイルではなく要求されたルーティングプロファイルが正しく認識されるように修正されました。"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-21T12:05:48Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-21T12:05:47Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "m365-roadmap-025185174f64620021a7",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=581992",
+    "published_at": "2026-11-21T02:55:45Z",
+    "title_original": "[Roadmap] Manage workforce requests in Microsoft 365 Copilot",
+    "excerpt_original": "Dynamics 365 Workforce Engagement Management (WEM) integrates with Microsoft 365 Copilot through Model Context Protocol (MCP) tools. These tools connect Microsoft 365 Copilot with Dynamics 365 and Dataverse so supervisors and customer service representatives can use natural language to work with workforce requests. Supervisors can list and filter the time-off, shift-swap, and shift-bid requests they are authorized to access. They can open an individual request to review its details and scheduling context. Supervisors with the required reviewer permission can also approve or reject pending time-off requests. When a supervisor rejects a request, the reason is saved as the reviewer note. The decision records the reviewer and updates the request in Dynamics 365. Customer service representatives can list their own time-off, shift-swap, and shift-bid requests, check request status, and open an individual request to review its details. The integration uses a registered WEM MCP tool set that enforces existing Dynamics 365 and Dataverse security roles and data boundaries. Supervisors can access only the workforce requests within their authorized scope, and customer service representatives can access only their own records. The integration uses the existing permission model, so organizations don't need to configure a separate permissions framework for these tools or build and maintain a standalone mobile application for these request scenarios. Request lists and request details appear as interactive app-in-chat experiences. Approval and rejection actions return a text confirmation. The current decision capability applies only to time-off requests; shift-swap and shift-bid requests can be listed and reviewed but not approved or rejected through these tools. More info: https://learn.microsoft.com/en-us/dynamics365/customer-service/develop/workforce-mcp-tools-overview-service-agent GA date: July CY2026 Preview date: June CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理",
+    "summary_ja": "Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを介して Microsoft 365 Copilot と統合され、上司やカスタマーサービス担当者が自然言語で勤務リクエストを操作できるようになります。上司は権限のある休暇、シフト交換、シフト入札リクエストを一覧表示・フィルタし、詳細を確認し、休暇リクエストを承認または却下できます。担当者は自分のリクエストを一覧・ステータス確認し、詳細を閲覧できます。既存の Dynamics 365 と Dataverse のセキュリティロールが適用され、別途権限設定やモバイルアプリは不要です。シフト交換・入札は閲覧のみで、承認は現在休暇リクエストに限定されています。",
+    "changes": [
+      "Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを通じて Microsoft 365 Copilot と統合された",
+      "上司が自然言語で休暇リクエストを一覧・フィルタし、承認・却下できる機能が追加された",
+      "カスタマーサービス担当者が自分のリクエストを一覧・ステータス確認できるようになった",
+      "既存の Dynamics 365 と Dataverse のセキュリティロールがそのまま適用され、別途権限設定が不要となった",
+      "リクエスト一覧と詳細がチャット内のインタラクティブなアプリ体験として提供され、承認・却下はテキストで確認できる"
+    ],
+    "target_user": [
+      "スーパーバイザー",
+      "カスタマーサービス担当者"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-21T12:05:52Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-21T12:05:48Z",
+    "llm_provider": "Groq"
+  },
+  {
     "id": "github-copilot-cli-453366081",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-4",

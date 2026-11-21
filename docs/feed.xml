@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 02:58:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:05:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115-5のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-5</link>
+      <guid isPermaLink="false">github-copilot-cli-453484583</guid>
+      <pubDate>Sat, 21 Nov 2026 06:15:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.115-5がリリースされました。長時間のローカルセッションにおけるディスク使用量の削減と再開処理の高速化が行われました。また、特定モデルからCopilot Fusionへの切り替えをキューに入れた際のルーティングプロファイル表示に関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;長時間のローカルセッションで消費するディスクスペースが減少し、再開速度が向上しました。&lt;/li&gt;&lt;li&gt;特定モデルからCopilot Fusionへの切り替えをキューに入れた際、以前のプロファイルではなく要求されたルーティングプロファイルが正しく認識されるように修正されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=581992</link>
+      <guid isPermaLink="false">m365-roadmap-025185174f64620021a7</guid>
+      <pubDate>Sat, 21 Nov 2026 02:55:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを介して Microsoft 365 Copilot と統合され、上司やカスタマーサービス担当者が自然言語で勤務リクエストを操作できるようになります。上司は権限のある休暇、シフト交換、シフト入札リクエストを一覧表示・フィルタし、詳細を確認し、休暇リクエストを承認または却下できます。担当者は自分のリクエストを一覧・ステータス確認し、詳細を閲覧できます。既存の Dynamics 365 と Dataverse のセキュリティロールが適用され、別途権限設定やモバイルアプリは不要です。シフト交換・入札は閲覧のみで、承認は現在休暇リクエストに限定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを通じて Microsoft 365 Copilot と統合された&lt;/li&gt;&lt;li&gt;上司が自然言語で休暇リクエストを一覧・フィルタし、承認・却下できる機能が追加された&lt;/li&gt;&lt;li&gt;カスタマーサービス担当者が自分のリクエストを一覧・ステータス確認できるようになった&lt;/li&gt;&lt;li&gt;既存の Dynamics 365 と Dataverse のセキュリティロールがそのまま適用され、別途権限設定が不要となった&lt;/li&gt;&lt;li&gt;リクエスト一覧と詳細がチャット内のインタラクティブなアプリ体験として提供され、承認・却下はテキストで確認できる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=581992"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115-4 のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-4</link>
@@ -1984,26 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-7f98cd8fef7d46927a7a</guid>
       <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioエージェントが、GitHub Copilot Harnessを活用してウェブサイトの閲覧や操作を行えるネイティブ機能が追加されます。自然言語の指示に基づき、エージェントはウェブページの閲覧、情報抽出、ファイルのダウンロードを実行し、従来の知識ソースやAPI連携を超えたエンドツーエンドのワークフローを完了させることが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot Harnessを基盤としたウェブブラウジングとウェブサイト操作機能の有効化&lt;/li&gt;&lt;li&gt;自然言語指示によるウェブページのナビゲーション、情報抽出、ファイルダウンロード機能の提供&lt;/li&gt;&lt;li&gt;抽出した情報やファイルを利用したエンドツーエンドのワークフロー実行による対応範囲の拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576272"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot Studio: Microsoft Purview Information Protection (MPIP)で保護された機密文書のサポート</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=571305</link>
-      <guid isPermaLink="false">m365-roadmap-0b2bba8ca6b60c2fe536</guid>
-      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioにおいて、Microsoft Purview Information Protection (MPIP)の機密性ラベルが付与されたファイルをM365チャネルにデプロイされたエージェントへアップロードできるようになります。これにより、ユーザーやエージェントのアカウント権限に基づいてコンテンツが処理され、ラベルによる保護がエンドツーエンドで適用されます。プレビューおよびGA（一般提供）は2026年10月に予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MPIPの機密性ラベルで保護されたファイルのアップロードに対応&lt;/li&gt;&lt;li&gt;ユーザーおよびエージェントのアカウント権限に基づくコンテンツ処理の実現&lt;/li&gt;&lt;li&gt;エンドツーエンドでのラベル保護の強制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=571305"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Work IQ: Human in the loop</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570672</link>
-      <guid isPermaLink="false">m365-roadmap-3efa3fd3c5b324c416b3</guid>
-      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントおよびエージェントのフローが処理を一時停止し、人間の入力や承認を得てから続行する機能が追加されます。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントおよびエージェントフローが人間の入力や承認のために処理を一時停止する機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570672"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

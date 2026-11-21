@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 02:58:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:05:52 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115-5のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-5</link>
+      <guid isPermaLink="false">github-copilot-cli-453484583</guid>
+      <pubDate>Sat, 21 Nov 2026 06:15:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.115-5がリリースされました。長時間のローカルセッションにおけるディスク使用量の削減と再開処理の高速化が行われました。また、特定モデルからCopilot Fusionへの切り替えをキューに入れた際のルーティングプロファイル表示に関する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;長時間のローカルセッションで消費するディスクスペースが減少し、再開速度が向上しました。&lt;/li&gt;&lt;li&gt;特定モデルからCopilot Fusionへの切り替えをキューに入れた際、以前のプロファイルではなく要求されたルーティングプロファイルが正しく認識されるように修正されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115-4 のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-4</link>
@@ -1997,16 +2007,6 @@
       <category>GitHub Copilot</category>
       <category>GA</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.89-7 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.89-7</link>
-      <guid isPermaLink="false">github-copilot-cli-398393281</guid>
-      <pubDate>Mon, 28 Sep 2026 15:42:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.89-7がリリースされました。本バージョンには、各種の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;各種の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.89-7"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>low</category>
     </item>
   </channel>
 </rss>
