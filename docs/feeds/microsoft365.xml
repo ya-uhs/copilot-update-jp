@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Nov 2026 02:49:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 02:58:12 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: Listen</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570867</link>
+      <guid isPermaLink="false">m365-roadmap-13ba1ef318620ce8a8d7</guid>
+      <pubDate>Fri, 20 Nov 2026 23:20:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントがサポートされているWork IQイベントを監視し、関連する変更が発生した際に応答できるようになります。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがサポートされるWork IQイベントをリスニングし、関連する変更に応答する機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570867"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のステップとしてのPythonコード実行</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=580866</link>
@@ -1994,16 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-df4985f14ccff72d77a3</guid>
       <pubDate>Wed, 02 Sep 2026 22:56:59 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioは、アプリファーストのエージェント作成エクスペリエンスへと進化します。製作者はエージェントが連携するアプリケーションから開始し、必要な機能を設定することが可能です。このアップデートにより、ツールとナレッジがより統合されたエクスペリエンスにまとめられ、エージェントの作成と設定が簡素化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントが連携するアプリケーションから開始するアプリファーストの作成エクスペリエンスの導入&lt;/li&gt;&lt;li&gt;ツールとナレッジを統合した統一感のある設定プロセスの提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569474"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Teams: GCC、GCC High、DoD環境におけるCopilot Chatの提供</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=569214</link>
-      <guid isPermaLink="false">m365-roadmap-3897773019dcda8b66db</guid>
-      <pubDate>Tue, 01 Sep 2026 22:59:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GCC、GCC High、およびDoD環境のMicrosoft Teamsにおいて、チャット、チャネル、通話、ミーティングで利用可能なCopilot Chatが提供されます。本機能により、ユーザーは情報把握やキャッチアップを迅速に行うことが可能になります。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC、GCC High、DoD環境のTeams（チャット、チャネル、通話、ミーティング）でCopilot Chatを利用可能化&lt;/li&gt;&lt;li&gt;一般提供（GA）の時期を2026年10月に設定&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=569214"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

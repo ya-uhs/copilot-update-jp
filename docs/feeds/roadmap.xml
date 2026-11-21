@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Nov 2026 02:49:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 02:58:12 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Work IQ: Listen</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570867</link>
+      <guid isPermaLink="false">m365-roadmap-13ba1ef318620ce8a8d7</guid>
+      <pubDate>Fri, 20 Nov 2026 23:20:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントがサポートされているWork IQイベントを監視し、関連する変更が発生した際に応答できるようになります。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがサポートされるWork IQイベントをリスニングし、関連する変更に応答する機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570867"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft Copilot Studio: ワークフロー内のステップとしてのPythonコード実行</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=580866</link>
@@ -994,16 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-e921b0c306674fb44d30</guid>
       <pubDate>Fri, 16 Oct 2026 19:09:33 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 ERP MCPサーバーを通じて、エージェントがERPレコードの添付ファイルを読み取り、推論、作成、削除できるようになります。これにより、エージェント型のエクスペリエンスにおいてドキュメント添付ファイルを活用した強力な処理が可能になります。機能は管理者に自動的に有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 ERP MCPサーバーにより、エージェントがERPの添付ファイルを操作可能に&lt;/li&gt;&lt;li&gt;添付ファイルの作成、削除、読み取り、およびコンテンツの推論をエージェントフロー内でサポート&lt;/li&gt;&lt;li&gt;管理者に自動的に有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576826"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Finance and Operations クロスアプリ: CopilotからのディープリンクでERPのレコードを開く</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576825</link>
-      <guid isPermaLink="false">m365-roadmap-fc7b2c7c7bb71830ace4</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 ERP MCPサーバーを通じて生成されるCopilotの応答に、基データへのディープリンクが含まれるようになります。これにより、AI生成応答の透明性、追跡可能性、および信頼性が向上します。管理者、メーカー、マーケター向けに自動的に有効化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 ERP MCPサーバーによるCopilotの応答に、使用されたデータへのディープリンクを追加&lt;/li&gt;&lt;li&gt;AI生成の応答における透明性と追跡可能性の向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576825"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

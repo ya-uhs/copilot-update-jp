@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Nov 2026 02:55:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 02:58:11 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -89,24 +89,24 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.112</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.112</link>
-      <guid isPermaLink="false">github-copilot-cli-444861238</guid>
-      <pubDate>Fri, 13 Nov 2026 23:59:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI の 1.0.112 版では、エラーメッセージの表示改善やプラグイン管理の不具合修正、コピー機能での書式保持など多数の UI/UX 向上が行われました。また、モデル切替や設定項目の表示が狭い端末でも正しく行われるようになり、macOS のサンドボックス制限に関するヘルプ情報も追加されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/compact コマンドで失敗した際に、内部プレフィックスを除いたモデルプロバイダーのエラーメッセージが直接表示されるようになった&lt;/li&gt;&lt;li&gt;/plugin マネージャーがロードに失敗したリポジトリプラグインを有効として表示せず、外部マーケットプレイス外のソースでディレクトリが見つからない旨のメッセージも削除された&lt;/li&gt;&lt;li&gt;/copy コマンドで貼り付けた際に、Word、Outlook、Teams へ書式（段落、表、リスト、引用）を保持したまま貼り付けられるようになった&lt;/li&gt;&lt;li&gt;/settings のリスト項目が端末幅 20 列以下でも文字が省略されず全て表示されるよう改善された&lt;/li&gt;&lt;li&gt;/subagents のモデルピッカーが同一エージェントで再度開いた際に入力を受け付け、セッション切替後もプロンプトが保持されるようになった&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.112"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>GitHub Copilot CLI v1.0.115-4 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-4</link>
+      <guid isPermaLink="false">github-copilot-cli-453366081</guid>
+      <pubDate>Sat, 21 Nov 2026 01:53:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.115-4 がリリースされました。フォームをサポートするACPエディタでの構造化された確認質問の有効化や、プラグイン初期化に関する競合状態の修正、Windows環境における子プロセスのクリーンアップ改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フォームをサポートするACPエディタにおいて、構造化された確認質問を有効化しました。&lt;/li&gt;&lt;li&gt;プラグイン初期化時の競合状態により新規セッションの開始や既存セッションの再開が失敗する問題を修正しました。&lt;/li&gt;&lt;li&gt;Windows環境において、親プロセス終了後もGitコマンド、フック、言語サーバーチェックの子プロセスが適切にクリーンアップされるように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>high</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilotの一部モデルの提供終了について</title>
-      <link>https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december</link>
-      <guid isPermaLink="false">github-changelog-862b82cce5532207ebbb</guid>
-      <pubDate>Fri, 13 Nov 2026 20:40:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHubは、2026年12月14日に、Copilot Chatやコード補完を含むすべてのGitHub Copilotエクスペリエンスにおいて、特定のモデルの提供を終了します。対象となるモデルや詳細なスケジュールについては、今後のアナウンスをご確認ください。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2026年12月14日に一部のGitHub Copilotモデルのサポートを終了&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>high</category>
+      <title>[提供予定・ロードマップ] Work IQ: Listen</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570867</link>
+      <guid isPermaLink="false">m365-roadmap-13ba1ef318620ce8a8d7</guid>
+      <pubDate>Fri, 20 Nov 2026 23:20:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotにおいて、エージェントがサポートされているWork IQイベントを監視し、関連する変更が発生した際に応答できるようになります。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;エージェントがサポートされるWork IQイベントをリスニングし、関連する変更に応答する機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570867"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,84 @@
 [
   {
+    "id": "github-copilot-cli-453366081",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-4",
+    "published_at": "2026-11-21T01:53:21Z",
+    "title_original": "GitHub Copilot CLI v1.0.115-4",
+    "excerpt_original": "**Added** - Enable structured clarification questions in ACP editors that support forms **Fixed** - Prevent a plugin initialization race from blocking new sessions or making existing sessions fail to resume - On Windows, clean up child processes from Git commands, hooks, and language server checks even after their parent process exits.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.115-4 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.115-4 がリリースされました。フォームをサポートするACPエディタでの構造化された確認質問の有効化や、プラグイン初期化に関する競合状態の修正、Windows環境における子プロセスのクリーンアップ改善が含まれています。",
+    "changes": [
+      "フォームをサポートするACPエディタにおいて、構造化された確認質問を有効化しました。",
+      "プラグイン初期化時の競合状態により新規セッションの開始や既存セッションの再開が失敗する問題を修正しました。",
+      "Windows環境において、親プロセス終了後もGitコマンド、フック、言語サーバーチェックの子プロセスが適切にクリーンアップされるように修正しました。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-21T02:58:09Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-21T02:58:08Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "m365-roadmap-13ba1ef318620ce8a8d7",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570867",
+    "published_at": "2026-11-20T23:20:27Z",
+    "title_original": "[Roadmap] Work IQ: Listen",
+    "excerpt_original": "Enable agents to listen for supported Work IQ events and respond as relevant changes occur. GA date: January CY2027 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Work IQ: Listen",
+    "summary_ja": "Microsoft 365 Copilotにおいて、エージェントがサポートされているWork IQイベントを監視し、関連する変更が発生した際に応答できるようになります。プレビュー提供は2026年11月、一般提供（GA）は2027年1月を予定しています。",
+    "changes": [
+      "エージェントがサポートされるWork IQイベントをリスニングし、関連する変更に応答する機能の追加"
+    ],
+    "target_user": [
+      "Developers",
+      "Administrators"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-21T02:58:10Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-21T02:58:09Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-453202193",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-3",
+    "published_at": "2026-11-20T21:36:53Z",
+    "title_original": "GitHub Copilot CLI v1.0.115-3",
+    "excerpt_original": "**Fixed** - Keep the @ mention picker visible until an empty search finishes, so Ctrl+Y and Tab resume their normal actions when it closes",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.115-3のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.115-3がリリースされました。今回のアップデートでは、空の検索が完了するまで@メンションピッカーを表示し続ける修正が行われています。これにより、ピッカーが閉じた際にCtrl+YおよびTabキーの通常の動作が再開されるようになります。",
+    "changes": [
+      "空の検索が完了するまで@メンションピッカーを表示し続けるように修正"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-21T02:58:11Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-21T02:58:10Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-452799100",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-2",
