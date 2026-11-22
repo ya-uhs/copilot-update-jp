@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 22 Nov 2026 01:53:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:16:16 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115-7 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-7</link>
+      <guid isPermaLink="false">github-copilot-cli-454405342</guid>
+      <pubDate>Sun, 22 Nov 2026 11:40:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.115-7がリリースされました。今回のアップデートでは、--ui-serverを使用するクライアントがサーバー起動直後に再開されたCLIセッションへ接続できるよう修正されました。また、npm版Copilot CLIの起動中に停止処理を行った際、バックグラウンドで動作し続ける問題が解消されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--ui-serverを使用するクライアントが、サーバーのリスニング開始と同時に再開されたCLIセッションにアタッチできるよう修正&lt;/li&gt;&lt;li&gt;npm版Copilot CLIの起動中に停止した際、バックグラウンドでプロセスが残り続ける不具合を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-7"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115-6 リリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-6</link>
@@ -1996,16 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.101-1がリリースされ、セッション再開時の応答性向上や、サンドボックス化されたMCPサーバーの起動処理が最適化されました。また、ディレクトリ操作に関するパーミッションの修正や、ヘッドレス・SDKセッションにおけるMCP接続の安定化など、複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;セッション再開時のプレースホルダー環境設定待ちをなくし、会話をより早く表示するように改善&lt;/li&gt;&lt;li&gt;サンドボックス化されたMCPサーバーでのセッション開始時の不要な再起動を回避し、高速に応答するよう改善&lt;/li&gt;&lt;li&gt;/config および /settings で showReasoning の設定・解除ができるように許可&lt;/li&gt;&lt;li&gt;パーミッション承認プロンプトでエスカレーションの原因を説明し、リクエスト固有の診断コマンドを表示&lt;/li&gt;&lt;li&gt;ディレクトリを作成して移動するシェルコマンドが、早期に拒否されるのではなくパスの承認を要求するように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.101-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Viva EngageにおけるMicrosoft 365 Copilotエクスペリエンスの強化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576709</link>
-      <guid isPermaLink="false">m365-roadmap-b0a7f9f1e3d35a1c8088</guid>
-      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Engage MCPを搭載したMicrosoft 365 Copilotの強化により、Viva Engageでの会話の深掘りや洞察の抽出が可能になります。Work IQの統合やMicrosoft 365エコシステムとの連携が深化し、投稿に対するフィードバックの分析やPowerPointデッキの作成などがサポートされます。また、Microsoft 365エージェントへの直接アクセスも可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Engage MCPによる会話の深掘り、議論の統合、洞察の発見機能の追加&lt;/li&gt;&lt;li&gt;リーダーの投稿に対するフィードバックの分析やPowerPointデッキの作成機能&lt;/li&gt;&lt;li&gt;Work IQ統合によるMicrosoft 365全体での作業コンテキストの共有&lt;/li&gt;&lt;li&gt;Copilot in Engage内からのMicrosoft 365エージェントへの直接アクセスの実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576709"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>
