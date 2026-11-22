@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:05:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 01:53:11 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115-6 リリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-6</link>
+      <guid isPermaLink="false">github-copilot-cli-453978950</guid>
+      <pubDate>Sat, 21 Nov 2026 20:57:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.115-6がリリースされ、組織必須プラグインのインストール中断時の再試行改善や、未ログイン時の`/delegate`コマンドの挙動修正が行われました。また、Unix環境でのシェルコマンドキャンセル時の孤立した子プロセスの停止や、セッションサイドバーの表示改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;一時的なポリシー変更により中断された組織必須プラグインのインストールが、通常の再試行待ち時間なしで次の試行時にインストールされるように修正しました。&lt;/li&gt;&lt;li&gt;未ログイン時に`/delegate`を実行した際、何も動作しない状態からログインが必要であることを説明するように変更しました。&lt;/li&gt;&lt;li&gt;Unix環境において、シェルコマンドのキャンセル時にシェルのプロセスグループに残る孤立した子プロセスが停止するように修正しました。&lt;/li&gt;&lt;li&gt;セッションサイドバーで、Copilot Fusionセッションがバックグラウンドでモデルを選択している間、動作中として表示されるようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-6"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>low</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115-5のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-5</link>
@@ -1994,16 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-b0a7f9f1e3d35a1c8088</guid>
       <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Engage MCPを搭載したMicrosoft 365 Copilotの強化により、Viva Engageでの会話の深掘りや洞察の抽出が可能になります。Work IQの統合やMicrosoft 365エコシステムとの連携が深化し、投稿に対するフィードバックの分析やPowerPointデッキの作成などがサポートされます。また、Microsoft 365エージェントへの直接アクセスも可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Engage MCPによる会話の深掘り、議論の統合、洞察の発見機能の追加&lt;/li&gt;&lt;li&gt;リーダーの投稿に対するフィードバックの分析やPowerPointデッキの作成機能&lt;/li&gt;&lt;li&gt;Work IQ統合によるMicrosoft 365全体での作業コンテキストの共有&lt;/li&gt;&lt;li&gt;Copilot in Engage内からのMicrosoft 365エージェントへの直接アクセスの実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576709"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Copilot Studio: GitHub Copilot Harnessを利用したウェブブラウジングのためのComputer Use</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576272</link>
-      <guid isPermaLink="false">m365-roadmap-7f98cd8fef7d46927a7a</guid>
-      <pubDate>Mon, 19 Oct 2026 23:15:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot Studioエージェントが、GitHub Copilot Harnessを活用してウェブサイトの閲覧や操作を行えるネイティブ機能が追加されます。自然言語の指示に基づき、エージェントはウェブページの閲覧、情報抽出、ファイルのダウンロードを実行し、従来の知識ソースやAPI連携を超えたエンドツーエンドのワークフローを完了させることが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot Harnessを基盤としたウェブブラウジングとウェブサイト操作機能の有効化&lt;/li&gt;&lt;li&gt;自然言語指示によるウェブページのナビゲーション、情報抽出、ファイルダウンロード機能の提供&lt;/li&gt;&lt;li&gt;抽出した情報やファイルを利用したエンドツーエンドのワークフロー実行による対応範囲の拡大&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576272"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

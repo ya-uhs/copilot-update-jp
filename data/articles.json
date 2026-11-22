@@ -1,5 +1,34 @@
 [
   {
+    "id": "github-copilot-cli-453978950",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-6",
+    "published_at": "2026-11-21T20:57:31Z",
+    "title_original": "GitHub Copilot CLI v1.0.115-6",
+    "excerpt_original": "**Fixed** - Organization-required plugins can install on the next attempt when a temporary policy change interrupts setup, without waiting for the usual retry delay. - /delegate now explains that a login is needed instead of doing nothing when you are not signed in. - On Unix, canceling a shell command now stops orphaned child processes that remain in the shell's process group. - The Sessions sidebar shows Copilot Fusion sessions as working while they choose a model in the background.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.115-6 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.115-6がリリースされ、組織必須プラグインのインストール中断時の再試行改善や、未ログイン時の`/delegate`コマンドの挙動修正が行われました。また、Unix環境でのシェルコマンドキャンセル時の孤立した子プロセスの停止や、セッションサイドバーの表示改善が含まれています。",
+    "changes": [
+      "一時的なポリシー変更により中断された組織必須プラグインのインストールが、通常の再試行待ち時間なしで次の試行時にインストールされるように修正しました。",
+      "未ログイン時に`/delegate`を実行した際、何も動作しない状態からログインが必要であることを説明するように変更しました。",
+      "Unix環境において、シェルコマンドのキャンセル時にシェルのプロセスグループに残る孤立した子プロセスが停止するように修正しました。",
+      "セッションサイドバーで、Copilot Fusionセッションがバックグラウンドでモデルを選択している間、動作中として表示されるようにしました。"
+    ],
+    "target_user": [
+      "Developer",
+      "CLI User"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-22T01:53:11Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-22T01:53:10Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-453484583",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-5",
