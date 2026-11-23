@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:05:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:50:59 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115-8</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-8</link>
+      <guid isPermaLink="false">github-copilot-cli-455867204</guid>
+      <pubDate>Mon, 23 Nov 2026 19:10:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.115-8 では、`--usage-output-file` がサブエージェントの使用状況を名前単位で集計し、起動回数を報告するよう改善されました。Assisted Permissions が最初のレビューが停止または失敗した際に別モデルを試行し、同一リクエストに対しては同一セッション内で承認を再利用できるようになり、不要な承認プロンプトが減少します。その他、セッション再開時にフッターに現在のモデルと推論コストを表示、`/worktree new` の作成確認表示の安定化、複数リンクワークツリーや大容量ディレクトリを含むリポジトリでのサンドボックス化された `git add`/`commit` が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;`--usage-output-file` がサブエージェント名で使用状況をグループ化し、起動回数を報告&lt;/li&gt;&lt;li&gt;Assisted Permissions が失敗時に別レビュー・モデルを試行し、同一リクエストの承認を再利用できるよう改善&lt;/li&gt;&lt;li&gt;セッション再開時にフッターに現在のモデルと推論コストを表示&lt;/li&gt;&lt;li&gt;`/worktree new` が新しいセッションへの切替後に作成確認を確実に表示&lt;/li&gt;&lt;li&gt;多数のリンクワークツリーや大容量 `.git` ディレクトリを含むリポジトリでサンドボックス化された `git add` と `commit` が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-8"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=581992</link>

@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:16:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:50:59 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115-8</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-8</link>
+      <guid isPermaLink="false">github-copilot-cli-455867204</guid>
+      <pubDate>Mon, 23 Nov 2026 19:10:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.115-8 では、`--usage-output-file` がサブエージェントの使用状況を名前単位で集計し、起動回数を報告するよう改善されました。Assisted Permissions が最初のレビューが停止または失敗した際に別モデルを試行し、同一リクエストに対しては同一セッション内で承認を再利用できるようになり、不要な承認プロンプトが減少します。その他、セッション再開時にフッターに現在のモデルと推論コストを表示、`/worktree new` の作成確認表示の安定化、複数リンクワークツリーや大容量ディレクトリを含むリポジトリでのサンドボックス化された `git add`/`commit` が可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;`--usage-output-file` がサブエージェント名で使用状況をグループ化し、起動回数を報告&lt;/li&gt;&lt;li&gt;Assisted Permissions が失敗時に別レビュー・モデルを試行し、同一リクエストの承認を再利用できるよう改善&lt;/li&gt;&lt;li&gt;セッション再開時にフッターに現在のモデルと推論コストを表示&lt;/li&gt;&lt;li&gt;`/worktree new` が新しいセッションへの切替後に作成確認を確実に表示&lt;/li&gt;&lt;li&gt;多数のリンクワークツリーや大容量 `.git` ディレクトリを含むリポジトリでサンドボックス化された `git add` と `commit` が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-8"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>high</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=581992</link>
@@ -86,16 +96,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotおよび関連サービスの更新情報が公開されました。Confluence CloudやTableauコネクタの機能強化、Outlookでのカスタムエンジンエージェントの利用、Copilot Studioにおけるエージェントノードの追加などが含まれています。また、管理者向けの組織属性の共有機能やOutlookのメッセージリストのソート改善なども提供されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft 365 Organizational Data Serviceに、管理者がカスタム組織属性をMicrosoft 365のピープルストアに共有できる設定が追加されました。&lt;/li&gt;&lt;li&gt;Confluence Cloudコネクタにおいて、スペースの含め方・除外やConfluence Query Language（CQL）文字列を使用したクエリフィルターの絞り込みがサポートされました。&lt;/li&gt;&lt;li&gt;Microsoft CopilotでTableauダッシュボードや視覚化を探索・解釈できるTableau Copilotコネクタが追加されました。&lt;/li&gt;&lt;li&gt;Outlook内でカスタムエンジンエージェントに直接アクセスし、メール処理やワークフローを自動化できるようになりました。&lt;/li&gt;&lt;li&gt;Microsoft 365 Copilot Studioのワークフローに、データ推論・ツール呼び出し・応答生成を1つのステップで行う「エージェントノード」が追加されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#november-17-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>2026年11月16日のGitHub Copilotモデルの非推奨化</title>
-      <link>https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026</link>
-      <guid isPermaLink="false">github-changelog-ff1caf51baeac277f598</guid>
-      <pubDate>Mon, 16 Nov 2026 20:25:20 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotは、Copilot Chatやインライン編集、エージェントモード、コード補完などの大部分の機能において、特定のモデルを非推奨としました。この変更は2026年11月16日より適用されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;大半のGitHub Copilot機能において特定モデルが非推奨化された&lt;/li&gt;&lt;li&gt;影響を受ける機能にはCopilot Chat、インライン編集、askおよびagentモード、コード補完が含まれる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
       <category>high</category>
     </item>
     <item>

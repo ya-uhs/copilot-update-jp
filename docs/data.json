@@ -12945,5 +12945,34 @@
     "source_id": "m365-release-notes",
     "family": "microsoft365",
     "translation_attempted_at": "2026-09-29T10:23:55Z"
+  },
+  {
+    "id": "github-copilot-cli-455867204",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-8",
+    "published_at": "2026-11-23T19:10:51Z",
+    "title_original": "GitHub Copilot CLI v1.0.115-8",
+    "excerpt_original": "**Improved** - `--usage-output-file` groups subagent usage by configured name instead of invocation ID and reports how many times each subagent was launched. - Assisted Permissions can try another review model when the first stalls or fails, reducing unnecessary approval prompts. - Assisted Permissions can reuse a one-time approval for an identical request in the same session, reducing repeat prompts. **Fixed** - Show the current model and reasoning effort in the footer when resuming a session. - `/worktree new` reliably shows the worktree creation confirmation after switching to the new session. - New and resumed ACP sessions honor your image generation setting, enabling image generation by default where supported. - Allow sandboxed Git add and commit operations in repositories with many linked worktrees or large directories under .git - SDK connection errors no longer overwrite the interactive prompt when the CLI runs with `--ui-server`. - `/worktree` and `/move` show the Git reason when a worktree operation fails instead of an internal error wrapper. - Keep detached terminals visible and other terminal statuses updating in shared sessions. - The /agent wizard keeps text typed immediately after submitting the agent name in the description field, even while the name is being validated. - Assisted Permissions keeps reviewing later requests after a message or an answer to an agent question of up to 128,000 characters, instead of asking for approval every time. - In Assisted Permissions, approving a custom tool or memory request for the session also clears queued prompts covered by that approval. - Assisted Permissions no longer prompts again for parallel tool calls already covered by an approval you granted while they were under review.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.115-8",
+    "summary_ja": "GitHub Copilot CLI v1.0.115-8 では、`--usage-output-file` がサブエージェントの使用状況を名前単位で集計し、起動回数を報告するよう改善されました。Assisted Permissions が最初のレビューが停止または失敗した際に別モデルを試行し、同一リクエストに対しては同一セッション内で承認を再利用できるようになり、不要な承認プロンプトが減少します。その他、セッション再開時にフッターに現在のモデルと推論コストを表示、`/worktree new` の作成確認表示の安定化、複数リンクワークツリーや大容量ディレクトリを含むリポジトリでのサンドボックス化された `git add`/`commit` が可能になりました。",
+    "changes": [
+      "`--usage-output-file` がサブエージェント名で使用状況をグループ化し、起動回数を報告",
+      "Assisted Permissions が失敗時に別レビュー・モデルを試行し、同一リクエストの承認を再利用できるよう改善",
+      "セッション再開時にフッターに現在のモデルと推論コストを表示",
+      "`/worktree new` が新しいセッションへの切替後に作成確認を確実に表示",
+      "多数のリンクワークツリーや大容量 `.git` ディレクトリを含むリポジトリでサンドボックス化された `git add` と `commit` が可能"
+    ],
+    "target_user": [
+      "開発者",
+      "CLI ユーザー"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-23T21:50:58Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-23T21:50:54Z"
   }
 ]
