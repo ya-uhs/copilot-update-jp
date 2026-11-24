@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 05:43:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 14:32:20 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115</link>
+      <guid isPermaLink="false">github-copilot-cli-456773309</guid>
+      <pubDate>Tue, 24 Nov 2026 13:03:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI の v1.0.115 では、ACP エディタでの構造化質問機能や Windows のサンドボックスパッケージクエリのデフォルト有効化など、複数の機能強化が行われました。また、Gemini 4 Hydrogen や GPT‑6.2 Astra といった新しいモデルが利用可能になり、/model コマンドから直接管理できるようになりました。さらに、/sandbox ポリシー表示やタイムラインタイムスタンプ表示など、ユーザーインターフェイスの改善も多数含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ACP エディタで構造化された確認質問をサポートし、フォーム対応エディタで利用可能にした。&lt;/li&gt;&lt;li&gt;Windows でサンドボックスパッケージクエリをデフォルトで有効化し、sandbox.userPolicy.capabilities を空配列に設定することでオプトアウトできるようにした。&lt;/li&gt;&lt;li&gt;Gemini 4 Hydrogen と GPT‑6.2 Astra をモデルピッカーに追加し、/model コマンドから新モデルを選択・管理できるようにした。&lt;/li&gt;&lt;li&gt;showTimelineTimestamps 設定を追加し、タイムライン項目に開始時刻・終了時刻・経過時間を表示できるようにした。&lt;/li&gt;&lt;li&gt;サンドボックス化された Git の add/commit が多数のリンクされた worktree や大容量ディレクトリでも動作するよう改善した。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115-8</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-8</link>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Word、Excel、PowerPoint、OneNoteなどのMicrosoft 365 Copilotがメモリ機能を利用できるようになります。これにより、ユーザーの作業パターンを学習し、時間の経過とともに好みやパーソナライズされた応答に適応することが可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Word、Excel、PowerPoint、OneNote、WorkspacesのCopilot Appでメモリ機能が導入される&lt;/li&gt;&lt;li&gt;ユーザーの作業パターンを学習し、より関連性の高い提案やパーソナライズされた応答を提供する&lt;/li&gt;&lt;li&gt;プレビューおよび一般提供（GA）の開始時期は2026年11月を予定している&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580889"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.115-7 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-7</link>
-      <guid isPermaLink="false">github-copilot-cli-454405342</guid>
-      <pubDate>Sun, 22 Nov 2026 11:40:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIのバージョン1.0.115-7がリリースされました。今回のアップデートでは、--ui-serverを使用するクライアントがサーバー起動直後に再開されたCLIセッションへ接続できるよう修正されました。また、npm版Copilot CLIの起動中に停止処理を行った際、バックグラウンドで動作し続ける問題が解消されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--ui-serverを使用するクライアントが、サーバーのリスニング開始と同時に再開されたCLIセッションにアタッチできるよう修正&lt;/li&gt;&lt;li&gt;npm版Copilot CLIの起動中に停止した際、バックグラウンドでプロセスが残り続ける不具合を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115-7"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
       <category>medium</category>
     </item>
   </channel>

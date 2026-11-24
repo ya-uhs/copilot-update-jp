@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 Nov 2026 21:50:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 14:32:20 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.115</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115</link>
+      <guid isPermaLink="false">github-copilot-cli-456773309</guid>
+      <pubDate>Tue, 24 Nov 2026 13:03:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI の v1.0.115 では、ACP エディタでの構造化質問機能や Windows のサンドボックスパッケージクエリのデフォルト有効化など、複数の機能強化が行われました。また、Gemini 4 Hydrogen や GPT‑6.2 Astra といった新しいモデルが利用可能になり、/model コマンドから直接管理できるようになりました。さらに、/sandbox ポリシー表示やタイムラインタイムスタンプ表示など、ユーザーインターフェイスの改善も多数含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ACP エディタで構造化された確認質問をサポートし、フォーム対応エディタで利用可能にした。&lt;/li&gt;&lt;li&gt;Windows でサンドボックスパッケージクエリをデフォルトで有効化し、sandbox.userPolicy.capabilities を空配列に設定することでオプトアウトできるようにした。&lt;/li&gt;&lt;li&gt;Gemini 4 Hydrogen と GPT‑6.2 Astra をモデルピッカーに追加し、/model コマンドから新モデルを選択・管理できるようにした。&lt;/li&gt;&lt;li&gt;showTimelineTimestamps 設定を追加し、タイムライン項目に開始時刻・終了時刻・経過時間を表示できるようにした。&lt;/li&gt;&lt;li&gt;サンドボックス化された Git の add/commit が多数のリンクされた worktree や大容量ディレクトリでも動作するよう改善した。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.115"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115-8</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-8</link>
@@ -1997,16 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.90-1 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-1</link>
-      <guid isPermaLink="false">github-copilot-cli-398769553</guid>
-      <pubDate>Tue, 29 Sep 2026 02:11:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-1がリリースされました。Datadogなどのサーバーに対するMCP OAuthサインインにおいて、有効なキャッシュトークンが再利用されるように修正されました。また、セッション再開後も中止したプロンプトが非表示のまま維持されるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Datadogなどのサーバー向けMCP OAuthサインインで、有効なキャッシュトークンの再利用を修正&lt;/li&gt;&lt;li&gt;セッション再開後に中止したプロンプトが非表示のまま維持されるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>
