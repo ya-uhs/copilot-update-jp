@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:32:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 20:27:18 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-1のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-1</link>
+      <guid isPermaLink="false">github-copilot-cli-457286769</guid>
+      <pubDate>Tue, 24 Nov 2026 20:19:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-1がリリースされました。このバージョンでは、プラグインとスタンドアロンMCPサーバーが同じエンドポイントに接続した際の警告追加、プロンプトキャンセル処理の改善、および長時間のセッションにおけるメモリ使用量の削減が行われました。さらに、Unix環境でのバックグラウンド/フォアグラウンド処理の修正や、狭いターミナルでのアクセシビリティ向上などの不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プラグインとスタンドアロンMCPサーバーが同一エンドポイントに接続した際の警告機能を追加し、/mcpでの無効化手順を表示するようにしました。&lt;/li&gt;&lt;li&gt;保留中のプロンプトをアクティビティの更新を待たずにキャンセルできるようになり、ホスト再接続後にアイドルセッションがビジーと表示される不具合を修正しました。&lt;/li&gt;&lt;li&gt;Unix環境で、キャンセルされたフォアグラウンドシェルコマンドがシャットダウン中の出力を行ってもクリーンアップを完了できるようにしました。&lt;/li&gt;&lt;li&gt;テキスト計測キャッシュのメモリ保持方法を見直し、長時間のセッションにおけるメモリ増加とJavaScriptヒープ枯渇のリスクを軽減しました。&lt;/li&gt;&lt;li&gt;スクリーンリーダーモード有効時、狭いターミナルでハイライトされたテーマとその説明文の視認性を維持するようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-0</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-0</link>
+      <guid isPermaLink="false">github-copilot-cli-457051348</guid>
+      <pubDate>Tue, 24 Nov 2026 16:43:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI の v1.0.116-0 では、組織管理 MCP サーバーの接続警告を抑制し起動時にサインイン要件をサマリ表示する改善や、サンドボックスでブロックされたコマンドに対しセッションで無効化できる旨を通知する機能が追加されました。また、/restart 時に選択したカスタムエージェントが保持され、設定ファイルのコメントや末尾カンマを許容して MCP サーバーをロードできるようになり、長時間の Copilot Fusion 応答遅延が軽減されました。さらに、拡張機能の有効/無効制御やログ出力先の統一、Bun コマンドのキャッシュ利用など多数のバグ修正と機能強化が含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織管理 MCP サーバーの遅延接続警告をスキップし、起動サマリでサインイン要件を表示&lt;/li&gt;&lt;li&gt;サンドボックスがコマンドをブロックした際に、セッションでサンドボックスを無効化できる旨を通知&lt;/li&gt;&lt;li&gt;/restart コマンドで選択したカスタムエージェントが保持され、--agent オプションに戻らない&lt;/li&gt;&lt;li&gt;.mcp.json と .github/mcp.json のコメントや末尾カンマを許容してワークスペース MCP サーバーをロード&lt;/li&gt;&lt;li&gt;/diff がディレクトリを多数のファイルで置き換えるシンボリックリンクのパッチを正しく表示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115</link>
@@ -1987,26 +2007,6 @@
       <category>GitHub Copilot</category>
       <category>GA</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.90-3 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-3</link>
-      <guid isPermaLink="false">github-copilot-cli-399273874</guid>
-      <pubDate>Tue, 29 Sep 2026 15:18:34 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-3がリリースされました。今回のアップデートにより、GitHubアカウント認証を承認済みのMCPサーバーオリジンに制限するオプションと、セッションスコープでの読み取り専用ディレクトリ承認機能が追加されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;--mcp-github-authを追加し、GitHubアカウント認証を承認済みのMCPサーバーオリジンにスコープ設定可能にした&lt;/li&gt;&lt;li&gt;パスアクセスプロンプトにセッションスコープの読み取り専用ディレクトリ承認機能を追加した&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.90-2 のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-2</link>
-      <guid isPermaLink="false">github-copilot-cli-398964897</guid>
-      <pubDate>Tue, 29 Sep 2026 08:48:59 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-2がリリースされました。このバージョンには、不具合の修正と変更が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不具合の修正と変更の適用&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>low</category>
     </item>
   </channel>
 </rss>
