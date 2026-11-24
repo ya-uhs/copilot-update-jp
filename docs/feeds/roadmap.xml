@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:05:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 05:43:43 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilotのメモリ機能追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580889</link>
+      <guid isPermaLink="false">m365-roadmap-1c26f76433198593f8b8</guid>
+      <pubDate>Tue, 24 Nov 2026 00:13:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Word、Excel、PowerPoint、OneNoteなどのMicrosoft 365 Copilotがメモリ機能を利用できるようになります。これにより、ユーザーの作業パターンを学習し、時間の経過とともに好みやパーソナライズされた応答に適応することが可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Word、Excel、PowerPoint、OneNote、WorkspacesのCopilot Appでメモリ機能が導入される&lt;/li&gt;&lt;li&gt;ユーザーの作業パターンを学習し、より関連性の高い提案やパーソナライズされた応答を提供する&lt;/li&gt;&lt;li&gt;プレビューおよび一般提供（GA）の開始時期は2026年11月を予定している&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580889"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=581992</link>
@@ -994,16 +1004,6 @@
       <guid isPermaLink="false">m365-roadmap-589eb131fcb77add83df</guid>
       <pubDate>Fri, 16 Oct 2026 19:09:41 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilot Service admin centerのキューに対して「自動割り当てなし（No auto assignment）」メソッドが追加されました。これにより、会話は自動割り当てされず、担当者が自身の受信トレイからピックアップするか、スーパーバイザーが手動で割り当てるまでキューにとどまります。このピックベースのモデルにより、組織は業務処理のコントロールを向上させることができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Service admin centerのキューで「自動割り当てなし」メソッドが利用可能になりました。&lt;/li&gt;&lt;li&gt;会話は自動的に割り当てられず、担当者による手動ピックアップまたはスーパーバイザーによる手動割り当てを行います。&lt;/li&gt;&lt;li&gt;担当者の可用性と容量に基づく従来のプッシュ型モデルとは異なり、手動での確認と割り当てをサポートします。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576837"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: ワークフォースエンゲージメント管理 - 遵守履歴の分析による人員計画の最適化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576831</link>
-      <guid isPermaLink="false">m365-roadmap-347ab6d77f56cee76e2c</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:36 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Adherence History Reportは、カスタマーサービス担当者のスケジュールされたタスクや活動に対する過去の遵守状況を包括的に提供します。管理者はこのレポートを使用して傾向を分析し、ギャップを特定し、人員効率を改善することができます。機能にはトレンドチャート、メトリクスダッシュボード、アクティビティサマリービューが含まれます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;トレンドチャートによる個別またはチーム全体の遵守パターンの可視化&lt;/li&gt;&lt;li&gt;遵守率、総予定時間、遵守時間外の時間を追跡するメトリクスダッシュボード&lt;/li&gt;&lt;li&gt;詳細な活動記録と正確な期間を確認できるアクティビティサマリービュー&lt;/li&gt;&lt;li&gt;Copilot Service ワークスペース内の Workforce Management からアクセス可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576831"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

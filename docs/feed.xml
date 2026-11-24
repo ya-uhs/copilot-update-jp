@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 Nov 2026 21:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 05:43:43 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilotのメモリ機能追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580889</link>
+      <guid isPermaLink="false">m365-roadmap-1c26f76433198593f8b8</guid>
+      <pubDate>Tue, 24 Nov 2026 00:13:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Word、Excel、PowerPoint、OneNoteなどのMicrosoft 365 Copilotがメモリ機能を利用できるようになります。これにより、ユーザーの作業パターンを学習し、時間の経過とともに好みやパーソナライズされた応答に適応することが可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Word、Excel、PowerPoint、OneNote、WorkspacesのCopilot Appでメモリ機能が導入される&lt;/li&gt;&lt;li&gt;ユーザーの作業パターンを学習し、より関連性の高い提案やパーソナライズされた応答を提供する&lt;/li&gt;&lt;li&gt;プレビューおよび一般提供（GA）の開始時期は2026年11月を予定している&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580889"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.115-8</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.115-8</link>
@@ -1996,16 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Power Platform&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Power Platformにおいて、同一の評価に対して複数のグレーダーの結果を比較できる「マルチグレーダー比較」機能が導入されます。これにより、複数のグレーダー間での合意点や相違点、全体的な評価傾向を確認できるようになります。2026年9月にプレビュー版が提供開始され、2026年10月に一般提供（GA）となる予定です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;グレーダーのサイドバイサイド比較、スコア比較、各グレーダーからの説明の確認、評価の一貫性分析が可能&lt;/li&gt;&lt;li&gt;比較スコアビュー、合否比較、グレーダーの説明、各評価を裏付ける証拠を含む結果エクスペリエンスを提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577183"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft Power Platform</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.101 リリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.101</link>
-      <guid isPermaLink="false">github-copilot-cli-418747415</guid>
-      <pubDate>Tue, 20 Oct 2026 18:49:53 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.101がリリースされ、構造化出力の追加やサンドボックス・認証処理の改善が行われました。また、AIモデル切り替え時の不具合修正やMCP関連の安定性向上が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;サポートされているモデルにおいて、動的ワークフローサブエージェント向けのネイティブな構造化出力を追加しました。&lt;/li&gt;&lt;li&gt;assistedApprovalInstructions設定を追加し、アシステッドパーミッションの確認判断をガイドするようにしました。&lt;/li&gt;&lt;li&gt;OAuthハンドラーのないヘッドレスセッションおよびSDKセッションにおいて、保存されたトークンのサインインが必要な場合にMCP接続をスキップするようにしました。&lt;/li&gt;&lt;li&gt;Googleモデルにおいて、画像制限を超えるセッションでの不要なリクエスト書き換えを回避し、トークン消費を削減しました。&lt;/li&gt;&lt;li&gt;管理者管理モデルが利用可能な場合に、モデルピッカーでデフォルトとしてマークされるよう変更しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.101"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
       <category>medium</category>
     </item>
   </channel>

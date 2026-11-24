@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:05:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 05:43:43 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft 365 Copilotのメモリ機能追加</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580889</link>
+      <guid isPermaLink="false">m365-roadmap-1c26f76433198593f8b8</guid>
+      <pubDate>Tue, 24 Nov 2026 00:13:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Word、Excel、PowerPoint、OneNoteなどのMicrosoft 365 Copilotがメモリ機能を利用できるようになります。これにより、ユーザーの作業パターンを学習し、時間の経過とともに好みやパーソナライズされた応答に適応することが可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Word、Excel、PowerPoint、OneNote、WorkspacesのCopilot Appでメモリ機能が導入される&lt;/li&gt;&lt;li&gt;ユーザーの作業パターンを学習し、より関連性の高い提案やパーソナライズされた応答を提供する&lt;/li&gt;&lt;li&gt;プレビューおよび一般提供（GA）の開始時期は2026年11月を予定している&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580889"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=581992</link>
@@ -1997,16 +2007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>unknown</category>
       <category>low</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Copilot StudioにおけるMCP Appsによるリッチなインタラクティブアプリ体験の提供</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570433</link>
-      <guid isPermaLink="false">m365-roadmap-df41e5e9b221c7d8c662</guid>
-      <pubDate>Wed, 02 Sep 2026 22:56:59 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot StudioのAIエージェントは、Model Context Protocolの拡張であるMCP Appsを利用して、インラインでリッチなインタラクティブUIを描画できるようになりました。エージェントが互換性のあるMCPサーバーからツールを呼び出すことで、並べ替え可能なテーブルやドリルダウンなどの操作をチャット内で行うことが可能です。UIを描画できないサーフェイス向けにはプレーンテキストのフォールバックが提供され、メーカーは準拠するMCPサーバーを接続するだけでこの機能を利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MCP Appsの導入により、Copilot StudioエージェントがインラインでインタラクティブUIを描画可能になった&lt;/li&gt;&lt;li&gt;並べ替え可能なテーブルやドリルダウンなどのインタラクティブ体験をチャット内で直接利用できる&lt;/li&gt;&lt;li&gt;UI非対応のサーフェイス向けにプレーンテキストのフォールバック機能が用意されている&lt;/li&gt;&lt;li&gt;準拠するMCPサーバーを接続するだけでメーカーがこの機能を利用可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570433"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

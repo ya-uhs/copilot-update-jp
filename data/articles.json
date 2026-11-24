@@ -1,5 +1,33 @@
 [
   {
+    "id": "m365-roadmap-1c26f76433198593f8b8",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=580889",
+    "published_at": "2026-11-24T00:13:11Z",
+    "title_original": "[Roadmap] Microsoft Copilot (Microsoft 365): The more you use Copilot in Office the better it gets",
+    "excerpt_original": "Copilot in Word, Excel, PowerPoint, and Workspaces across Copilot App and OneNote will use memory to learn your work patterns and personalize responses. With memory, Copilot can offer more relevant suggestions, hold the pen in a way that represents you, and adapt to your preferences over time GA date: November CY2026 Preview date: November CY2026",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft 365 Copilotのメモリ機能追加",
+    "summary_ja": "Word、Excel、PowerPoint、OneNoteなどのMicrosoft 365 Copilotがメモリ機能を利用できるようになります。これにより、ユーザーの作業パターンを学習し、時間の経過とともに好みやパーソナライズされた応答に適応することが可能になります。",
+    "changes": [
+      "Word、Excel、PowerPoint、OneNote、WorkspacesのCopilot Appでメモリ機能が導入される",
+      "ユーザーの作業パターンを学習し、より関連性の高い提案やパーソナライズされた応答を提供する",
+      "プレビューおよび一般提供（GA）の開始時期は2026年11月を予定している"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-24T05:43:43Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-24T05:43:42Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-455867204",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115-8",
