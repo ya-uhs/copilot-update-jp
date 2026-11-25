@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 04:46:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 13:52:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.148 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_148</link>
+      <guid isPermaLink="false">vscode-5c360d4dec9f23f964dc</guid>
+      <pubDate>Wed, 25 Nov 2026 13:52:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;このリリースでは、Agent Host におけるチャットの応答開始が約30%高速化され、旧ハーネスと同等の速度になりました。また、エージェントが作業中にマシンがスリープしないようにするプレビュー設定（sessions.keepAwakeWhileWorking）や、Inbox モードによるエージェントセッションの整理機能が追加されました。リモート環境エディタが再設計され、ステータスやOS情報が一覧で確認でき、ワークツリーのクリーンアップがチャットビューやコマンドパレットから実行可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chat performance improved: responses start ~30% faster and are now within ~5% of the previous harness speed.&lt;/li&gt;&lt;li&gt;Preview setting (sessions.keepAwakeWhileWorking) to prevent idle sleep while an agent works, with modes whenPluggedIn, always, and never.&lt;/li&gt;&lt;li&gt;Experimental Inbox mode for organizing agent sessions, configurable via sessions.list.inboxAutoAdvance and related settings.&lt;/li&gt;&lt;li&gt;Remote Environments editor redesigned to display status, last activity, and OS, with filter and more actions for managing environments.&lt;/li&gt;&lt;li&gt;Worktree cleanup can be invoked from the Chat view or Command Palette to reclaim disk space on remote Agent Hosts.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_148"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-5</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-5</link>
+      <guid isPermaLink="false">github-copilot-cli-457790615</guid>
+      <pubDate>Wed, 25 Nov 2026 07:44:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;このリリースでは、複数の表示や動作の不具合が修正されました。`copilot help parallel-work` の説明が正しくなり、ACP クライアントのシェル承認プロンプトがコマンド名を表示するようになりました。また、無効な端末名が原因で HTTP フックが停止しないようになり、/rewind が復元できないファイルを報告し、狭い端末やスクリーンリーダーモードで /environments の設定が1行に収まるよう改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;`copilot help parallel-work` が Autopilot の継続選択を誤って表示しなくなった&lt;/li&gt;&lt;li&gt;ACP クライアントのシェル承認プロンプトがコマンドの説明ではなくコマンド名を表示するよう修正&lt;/li&gt;&lt;li&gt;TERM_PROGRAM に無効文字が含まれても HTTP フックが実行され、ツール呼び出しがブロックされなくなった&lt;/li&gt;&lt;li&gt;/rewind がファイルキャプチャ上限を超えたターンで復元できないファイルを報告するようになった&lt;/li&gt;&lt;li&gt;狭い端末やスクリーンリーダーモードで /environments の Incoming connections 設定が1行に収まるよう表示を調整&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-4 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-4</link>
+      <guid isPermaLink="false">github-copilot-cli-457680054</guid>
+      <pubDate>Wed, 25 Nov 2026 05:12:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-4 がリリースされ、拡張機能マニフェスト用のビルド時 JSON スキーマが追加されました。PowerShell のパラメータ名に数字が含まれるコマンドやフォルダー信頼プロンプトの挙動が修正され、Swift ツールが macOS と Linux のキャッシュへ書き込めるようになりました。また、プロンプトやイベントログの表示内容が改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;拡張機能マニフェスト用のビルド時 JSON スキーマを追加。&lt;/li&gt;&lt;li&gt;PowerShell コマンドで数字を含むパラメータ名（例: -n1、-ExpectedSha256）が許可ルールを尊重し、フルスクリプト承認を要求しなくなった。&lt;/li&gt;&lt;li&gt;フォルダー信頼プロンプトで「Yes」を選択した際、MCP サーバーの再接続待ちせずにダイアログが閉じるよう修正。&lt;/li&gt;&lt;li&gt;macOS と Linux の Copilot CLI サンドボックスで Swift ツールがコンパイラモジュールキャッシュと SwiftPM 共有キャッシュへの書き込みを許可。&lt;/li&gt;&lt;li&gt;プロンプト（-i オプションやリポジトリ起動時）でフォルダー信頼開始後、最大30秒間 MCP サーバーの起動を待機し、最初のリクエストにツールを含めるよう変更。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.116-3 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-3</link>
@@ -1976,36 +2006,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのSales Development Agentが、見込み客とのミーティング調整を自動化する機能を追加します。Agentは希望日時の確認や販売者のカレンダー評価を行い、条件に合う初回の日時を自動予約します。予約完了時には双方へ招待が送信され、販売者には引き継ぎ用の文脈情報が提供されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;見込み客の希望日時の取得と販売者のカレンダー確認によるミーティングの自動予約&lt;/li&gt;&lt;li&gt;予約成功時の双方への招待送信と、販売者への追加の会話コンテキストの提供&lt;/li&gt;&lt;li&gt;スケジューリング不可時の販売者へのリクエストおよび関連コンテキストの引き継ぎ&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575289"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Sales agentにおけるセマンティックモデルの有効化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=573294</link>
-      <guid isPermaLink="false">m365-roadmap-bad2e0550466771f858e</guid>
-      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Sales agentが組織のCRMデータの構造と意味を理解するためのセマンティックモデル機能が追加されます。管理者はPower Apps Maker Portal等を使用して、モデルのデータ範囲、メタデータ、関係性などを設定・有効化できます。これにより、ビジネス用語の解釈力と複雑な質問への回答能力が向上します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sales agentがCRMデータのメタデータや関係性などのコンテキストを利用して質問に回答できるようになる&lt;/li&gt;&lt;li&gt;Dynamics 365管理者はPower Apps Maker Portalでセマンティックモデルを有効化し、データ範囲やシグナルを設定できる&lt;/li&gt;&lt;li&gt;Salesforce利用者の場合、既存のSales agentの設定やPower Apps Maker Portalを通じて追加のシグナルを設定可能になる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=573294"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>利用状況メトリクスAPIにおけるカスタムスキル、エージェント、MCPサーバーのサポート</title>
-      <link>https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api</link>
-      <guid isPermaLink="false">github-changelog-dea8ba729eb28582daac</guid>
-      <pubDate>Thu, 22 Oct 2026 22:19:17 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilotの利用状況メトリクスAPIにおいて、組織が作成したカスタムスキル、エージェント、Model Context Protocol（MCP）サーバー、スラッシュコマンド、プラグインの名前が表示されるようになりました。これにより、これまでのように一括してグループ化されることがなくなります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;利用状況メトリクスAPIでカスタムスキルの名前を表示&lt;/li&gt;&lt;li&gt;カスタムエージェントおよびModel Context Protocol（MCP）サーバーの名前を表示&lt;/li&gt;&lt;li&gt;スラッシュコマンドおよびプラグインの名前を表示&lt;/li&gt;&lt;li&gt;従来のように一括グループ化されず個別識別が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>Copilot機能のグローバルデフォルト設定が一般提供（GA）へ</title>
-      <link>https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available</link>
-      <guid isPermaLink="false">github-changelog-767a7f383549ba646ff2</guid>
-      <pubDate>Thu, 22 Oct 2026 20:44:28 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHubは、Copilot BusinessおよびCopilot Enterpriseプランにおける一般提供中のGitHub Copilot機能とサポートされるクライアント機能に対するグローバルデフォルトポリシーを発表しました。本日より、このポリシーの段階的なロールアウトが開始されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot BusinessおよびCopilot Enterpriseプラン向けのグローバルデフォルトポリシーの段階的ロールアウトを開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
       <category>medium</category>
     </item>
   </channel>

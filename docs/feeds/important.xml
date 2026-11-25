@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:27:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 13:52:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/important.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.148 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_148</link>
+      <guid isPermaLink="false">vscode-5c360d4dec9f23f964dc</guid>
+      <pubDate>Wed, 25 Nov 2026 13:52:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;このリリースでは、Agent Host におけるチャットの応答開始が約30%高速化され、旧ハーネスと同等の速度になりました。また、エージェントが作業中にマシンがスリープしないようにするプレビュー設定（sessions.keepAwakeWhileWorking）や、Inbox モードによるエージェントセッションの整理機能が追加されました。リモート環境エディタが再設計され、ステータスやOS情報が一覧で確認でき、ワークツリーのクリーンアップがチャットビューやコマンドパレットから実行可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chat performance improved: responses start ~30% faster and are now within ~5% of the previous harness speed.&lt;/li&gt;&lt;li&gt;Preview setting (sessions.keepAwakeWhileWorking) to prevent idle sleep while an agent works, with modes whenPluggedIn, always, and never.&lt;/li&gt;&lt;li&gt;Experimental Inbox mode for organizing agent sessions, configurable via sessions.list.inboxAutoAdvance and related settings.&lt;/li&gt;&lt;li&gt;Remote Environments editor redesigned to display status, last activity, and OS, with filter and more actions for managing environments.&lt;/li&gt;&lt;li&gt;Worktree cleanup can be invoked from the Chat view or Command Palette to reclaim disk space on remote Agent Hosts.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_148"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.116-0</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-0</link>

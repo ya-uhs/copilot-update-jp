@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 04:46:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 13:52:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.148 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_148</link>
+      <guid isPermaLink="false">vscode-5c360d4dec9f23f964dc</guid>
+      <pubDate>Wed, 25 Nov 2026 13:52:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;このリリースでは、Agent Host におけるチャットの応答開始が約30%高速化され、旧ハーネスと同等の速度になりました。また、エージェントが作業中にマシンがスリープしないようにするプレビュー設定（sessions.keepAwakeWhileWorking）や、Inbox モードによるエージェントセッションの整理機能が追加されました。リモート環境エディタが再設計され、ステータスやOS情報が一覧で確認でき、ワークツリーのクリーンアップがチャットビューやコマンドパレットから実行可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chat performance improved: responses start ~30% faster and are now within ~5% of the previous harness speed.&lt;/li&gt;&lt;li&gt;Preview setting (sessions.keepAwakeWhileWorking) to prevent idle sleep while an agent works, with modes whenPluggedIn, always, and never.&lt;/li&gt;&lt;li&gt;Experimental Inbox mode for organizing agent sessions, configurable via sessions.list.inboxAutoAdvance and related settings.&lt;/li&gt;&lt;li&gt;Remote Environments editor redesigned to display status, last activity, and OS, with filter and more actions for managing environments.&lt;/li&gt;&lt;li&gt;Worktree cleanup can be invoked from the Chat view or Command Palette to reclaim disk space on remote Agent Hosts.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_148"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-5</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-5</link>
+      <guid isPermaLink="false">github-copilot-cli-457790615</guid>
+      <pubDate>Wed, 25 Nov 2026 07:44:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;このリリースでは、複数の表示や動作の不具合が修正されました。`copilot help parallel-work` の説明が正しくなり、ACP クライアントのシェル承認プロンプトがコマンド名を表示するようになりました。また、無効な端末名が原因で HTTP フックが停止しないようになり、/rewind が復元できないファイルを報告し、狭い端末やスクリーンリーダーモードで /environments の設定が1行に収まるよう改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;`copilot help parallel-work` が Autopilot の継続選択を誤って表示しなくなった&lt;/li&gt;&lt;li&gt;ACP クライアントのシェル承認プロンプトがコマンドの説明ではなくコマンド名を表示するよう修正&lt;/li&gt;&lt;li&gt;TERM_PROGRAM に無効文字が含まれても HTTP フックが実行され、ツール呼び出しがブロックされなくなった&lt;/li&gt;&lt;li&gt;/rewind がファイルキャプチャ上限を超えたターンで復元できないファイルを報告するようになった&lt;/li&gt;&lt;li&gt;狭い端末やスクリーンリーダーモードで /environments の Incoming connections 設定が1行に収まるよう表示を調整&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-4 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-4</link>
+      <guid isPermaLink="false">github-copilot-cli-457680054</guid>
+      <pubDate>Wed, 25 Nov 2026 05:12:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-4 がリリースされ、拡張機能マニフェスト用のビルド時 JSON スキーマが追加されました。PowerShell のパラメータ名に数字が含まれるコマンドやフォルダー信頼プロンプトの挙動が修正され、Swift ツールが macOS と Linux のキャッシュへ書き込めるようになりました。また、プロンプトやイベントログの表示内容が改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;拡張機能マニフェスト用のビルド時 JSON スキーマを追加。&lt;/li&gt;&lt;li&gt;PowerShell コマンドで数字を含むパラメータ名（例: -n1、-ExpectedSha256）が許可ルールを尊重し、フルスクリプト承認を要求しなくなった。&lt;/li&gt;&lt;li&gt;フォルダー信頼プロンプトで「Yes」を選択した際、MCP サーバーの再接続待ちせずにダイアログが閉じるよう修正。&lt;/li&gt;&lt;li&gt;macOS と Linux の Copilot CLI サンドボックスで Swift ツールがコンパイラモジュールキャッシュと SwiftPM 共有キャッシュへの書き込みを許可。&lt;/li&gt;&lt;li&gt;プロンプト（-i オプションやリポジトリ起動時）でフォルダー信頼開始後、最大30秒間 MCP サーバーの起動を待機し、最初のリクエストにツールを含めるよう変更。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.116-3 リリースノート</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-3</link>
@@ -1977,36 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>Visual Studio CodeとGitHub CopilotアプリにおけるHydraFusionの提供開始</title>
-      <link>https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app</link>
-      <guid isPermaLink="false">github-changelog-cad13c49eff0df4a6694</guid>
-      <pubDate>Wed, 30 Sep 2026 14:31:19 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;HydraFusionのリサーチプレビューがVisual Studio CodeおよびGitHub Copilotアプリで利用可能になりました。これにより、対応範囲がCopilot CLIから拡張され、モデルピッカーから選択できるようになりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HydraFusionのリサーチプレビューがVisual Studio CodeとGitHub Copilotアプリで利用可能に&lt;/li&gt;&lt;li&gt;対応範囲がCopilot CLIから拡張され、モデルピッカーに表示される仕様に変更&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>Visual Studio Code 1.140 — Copilot / Chat / Agents</title>
-      <link>https://code.visualstudio.com/updates/v1_140</link>
-      <guid isPermaLink="false">vscode-fefbbe2fa28d302e6d44</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Code 1.140では、おなじみのワークフローを維持しながらエージェント機能を追加するCopilot harnessが導入されました。また、タスクごとに最適なモデルやワークフローを選択するHydraFusionモデルオーケストレーション（研究用プレビュー）や、複数のリポジトリやワークツリーを管理できるマルチフォルダーセッション（実験的機能）が追加されています。さらに、Dev Containerの自動クリーンアップや起動の高速化、リモートエージェントホストへのタスク委任などの機能拡張が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot harnessの追加により、スタンドアロンのGitHub CopilotアプリやCopilot CLIと一貫したエージェント機能を利用可能にしました。&lt;/li&gt;&lt;li&gt;アダプティブなモデルオーケストレーションシステムであるHydraFusion（研究用プレビュー）を導入し、タスクに応じたモデル選択やエスカレーションを自動化しました。&lt;/li&gt;&lt;li&gt;複数のリポジトリや隔離されたワークツリーを1つのセッション内で調整できるマルチフォルダーセッション（実験的機能）を追加しました。&lt;/li&gt;&lt;li&gt;Dev Containerの自動クリーンアップ機能と、キャッシュされたダウンロードの再利用による起動の高速化を実現しました。&lt;/li&gt;&lt;li&gt;リモートエージェントホストでのワークスペースなしチャットの実行や、エージェントによるリモートホストへのタスク委任（実験的機能）に対応しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_140"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot in VS Code</category>
-      <category>Release</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.90-5のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-5</link>
-      <guid isPermaLink="false">github-copilot-cli-399539598</guid>
-      <pubDate>Tue, 29 Sep 2026 21:25:01 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-5がリリースされました。今回のアップデートでは、設定済みのプロバイダーが存在する場合に起動時やモデルピッカーで「No supported model available」エラーが表示されないように修正されました。また、サーバーが応答後も進捗更新を送信し続ける場合にMCPツール呼び出しが完了する問題も修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;設定済みのプロバイダーがモデルを供給している場合、起動時やモデルピッカーで「No supported model available」が表示されないように修正された&lt;/li&gt;&lt;li&gt;サーバーが応答後に進捗更新を送信し続ける場合でも、MCPツール呼び出しが完了するように修正された&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>low</category>
     </item>
   </channel>
 </rss>

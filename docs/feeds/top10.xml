@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 04:46:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 13:52:37 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>Visual Studio Code 1.148 — Copilot / Chat / Agents</title>
+      <link>https://code.visualstudio.com/updates/v1_148</link>
+      <guid isPermaLink="false">vscode-5c360d4dec9f23f964dc</guid>
+      <pubDate>Wed, 25 Nov 2026 13:52:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;このリリースでは、Agent Host におけるチャットの応答開始が約30%高速化され、旧ハーネスと同等の速度になりました。また、エージェントが作業中にマシンがスリープしないようにするプレビュー設定（sessions.keepAwakeWhileWorking）や、Inbox モードによるエージェントセッションの整理機能が追加されました。リモート環境エディタが再設計され、ステータスやOS情報が一覧で確認でき、ワークツリーのクリーンアップがチャットビューやコマンドパレットから実行可能になりました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chat performance improved: responses start ~30% faster and are now within ~5% of the previous harness speed.&lt;/li&gt;&lt;li&gt;Preview setting (sessions.keepAwakeWhileWorking) to prevent idle sleep while an agent works, with modes whenPluggedIn, always, and never.&lt;/li&gt;&lt;li&gt;Experimental Inbox mode for organizing agent sessions, configurable via sessions.list.inboxAutoAdvance and related settings.&lt;/li&gt;&lt;li&gt;Remote Environments editor redesigned to display status, last activity, and OS, with filter and more actions for managing environments.&lt;/li&gt;&lt;li&gt;Worktree cleanup can be invoked from the Chat view or Command Palette to reclaim disk space on remote Agent Hosts.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_148"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot in VS Code</category>
+      <category>Release</category>
+      <category>high</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.116-0</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-0</link>
@@ -69,14 +79,24 @@
       <category>high</category>
     </item>
     <item>
-      <title>Visual Studio Code 1.147 (Copilot / Chat / Agents)</title>
-      <link>https://code.visualstudio.com/updates/v1_147</link>
-      <guid isPermaLink="false">vscode-092d312dd2f17011c777</guid>
-      <pubDate>Wed, 18 Nov 2026 12:38:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot in VS Code&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Visual Studio Codeの最新リリースでは、エージェントセッション向けの「Send Later」やドラフト保存機能が実験的機能として追加されました。また、GitHub Environmentsを通じたリモート環境の共有、Inboxモードの改善、HTMLプレビューやネイティブビジュアルの表示機能が導入されています。さらに、自動化機能のセットアップガイドやアシステッドパーミッションのカスタム指示など、多くの拡張が行われています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Send Later機能により、チャットリクエストの送信を指定時間まで延期できるようになりました。&lt;/li&gt;&lt;li&gt;ドラフト機能を使用して、送信前のリクエストを複数保持し、ワークスペースや設定ごとに管理できるようになりました。&lt;/li&gt;&lt;li&gt;リモート環境（SSH、WSL、Dev Tunnel）をGitHub Environmentとして共有できるようになりました。&lt;/li&gt;&lt;li&gt;Inbox modeの改善により、対応が必要なセッションのグループ化や確認済み（Acknowledged）状態への移行が容易になりました。&lt;/li&gt;&lt;li&gt;エージェントの応答内でHTMLプレビューやネイティブビジュアル（チャートやメトリクスなど）を表示できるようになりました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://code.visualstudio.com/updates/v1_147"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot in VS Code</category>
-      <category>Release</category>
-      <category>high</category>
+      <title>GitHub Copilot CLI v1.0.116-5</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-5</link>
+      <guid isPermaLink="false">github-copilot-cli-457790615</guid>
+      <pubDate>Wed, 25 Nov 2026 07:44:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;このリリースでは、複数の表示や動作の不具合が修正されました。`copilot help parallel-work` の説明が正しくなり、ACP クライアントのシェル承認プロンプトがコマンド名を表示するようになりました。また、無効な端末名が原因で HTTP フックが停止しないようになり、/rewind が復元できないファイルを報告し、狭い端末やスクリーンリーダーモードで /environments の設定が1行に収まるよう改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;`copilot help parallel-work` が Autopilot の継続選択を誤って表示しなくなった&lt;/li&gt;&lt;li&gt;ACP クライアントのシェル承認プロンプトがコマンドの説明ではなくコマンド名を表示するよう修正&lt;/li&gt;&lt;li&gt;TERM_PROGRAM に無効文字が含まれても HTTP フックが実行され、ツール呼び出しがブロックされなくなった&lt;/li&gt;&lt;li&gt;/rewind がファイルキャプチャ上限を超えたターンで復元できないファイルを報告するようになった&lt;/li&gt;&lt;li&gt;狭い端末やスクリーンリーダーモードで /environments の Incoming connections 設定が1行に収まるよう表示を調整&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-4 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-4</link>
+      <guid isPermaLink="false">github-copilot-cli-457680054</guid>
+      <pubDate>Wed, 25 Nov 2026 05:12:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-4 がリリースされ、拡張機能マニフェスト用のビルド時 JSON スキーマが追加されました。PowerShell のパラメータ名に数字が含まれるコマンドやフォルダー信頼プロンプトの挙動が修正され、Swift ツールが macOS と Linux のキャッシュへ書き込めるようになりました。また、プロンプトやイベントログの表示内容が改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;拡張機能マニフェスト用のビルド時 JSON スキーマを追加。&lt;/li&gt;&lt;li&gt;PowerShell コマンドで数字を含むパラメータ名（例: -n1、-ExpectedSha256）が許可ルールを尊重し、フルスクリプト承認を要求しなくなった。&lt;/li&gt;&lt;li&gt;フォルダー信頼プロンプトで「Yes」を選択した際、MCP サーバーの再接続待ちせずにダイアログが閉じるよう修正。&lt;/li&gt;&lt;li&gt;macOS と Linux の Copilot CLI サンドボックスで Swift ツールがコンパイラモジュールキャッシュと SwiftPM 共有キャッシュへの書き込みを許可。&lt;/li&gt;&lt;li&gt;プロンプト（-i オプションやリポジトリ起動時）でフォルダー信頼開始後、最大30秒間 MCP サーバーの起動を待機し、最初のリクエストにツールを含めるよう変更。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.116-3 リリースノート</title>
@@ -86,26 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-3がリリースされ、フルスクリーンタイムラインの「Jump to latest」機能の追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、環境変数の設定機能が追加され、検索やモデル切り替え、パーミッションに関する複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フルスクリーンタイムラインに「Jump to latest」ボタンを追加し、最新の出力に戻って追従を再開できるようにしました。&lt;/li&gt;&lt;li&gt;ACP互換エディタにおいて、保存されたデフォルトを変更せずにサポート対象モデルのコンテキストサイズを選択できるようにしました。&lt;/li&gt;&lt;li&gt;サンドボックスの有無に関わらず、Copilotが起動するすべてのプロセス（シェルコマンド、ローカルLSPおよびMCPサーバー、フック、拡張機能）に対してenv設定で環境変数を設定できるようにしました。&lt;/li&gt;&lt;li&gt;別のCopilotプロファイルがリポジトリのアクティブなインデックスを所有している場合、検索がripgrepにフォールバックするように修正しました。&lt;/li&gt;&lt;li&gt;最初のプロンプトを送信する前にモデルを切り替えた際、コンパクションをスキップして正常に完了するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.116-2 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-2</link>
-      <guid isPermaLink="false">github-copilot-cli-457487204</guid>
-      <pubDate>Wed, 25 Nov 2026 00:12:08 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-2がリリースされました。このバージョンでは、プラグインとMCPサーバーのエンドポイント重複に関する警告機能の追加や、未処理プロンプトのキャンセル処理の改善、メモリ消費の削減など複数の不具合修正が行われています。狭いターミナル環境やスクリーンリーダー使用時の表示改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プラグインとスタンドアロンMCPサーバーが同じエンドポイントに接続した際の警告追加と/mcpでの無効化手順の表示&lt;/li&gt;&lt;li&gt;活動の更新を待たずに保留中のプロンプトをキャンセルし、再接続後のアイドルセッションの誤表示を修正&lt;/li&gt;&lt;li&gt;Unix環境において、キャンセルされたフォアグラウンドシェルコマンドが終了時の標準出力・標準エラー出力への書き込み中もクリーンアップを完了できるように修正&lt;/li&gt;&lt;li&gt;複数CLIセッションによる同一MCPサーバーのアクセストークン更新時の重複サインインプロンプトを防止&lt;/li&gt;&lt;li&gt;研究レポート作成開始時にCtrl+Yのヒントが非表示のままになる不具合を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Human Resources: 新入社員向けエージェント型オンボーディング機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=581772</link>
-      <guid isPermaLink="false">m365-roadmap-efe71ab31acad6e93bd4</guid>
-      <pubDate>Wed, 25 Nov 2026 00:10:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Human Resourcesに、新入社員のオンボーディング作業を対話形式で統合する新しいエージェント型体験が追加されます。HR管理者向けの作業リストや誘導付きの採用プロセスのほか、新入社員向けのセルフサービス機能や本人確認書類の自動読み取りが含まれます。機能は法的エンティティごとに設定され、2027年3月にプレビュー、2027年7月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;未処理の候補者を表示する準備完了ワークリストの提供&lt;/li&gt;&lt;li&gt;実データのルックアップを使用した誘導付き採用プロセスの導入&lt;/li&gt;&lt;li&gt;新入社員セルフサービスによるチェックリストや個人情報の管理機能の追加&lt;/li&gt;&lt;li&gt;身分証明書画像からの情報抽出機能（画像は保持されず、確認が必要）の搭載&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=581772"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
       <category>medium</category>
     </item>
   </channel>
