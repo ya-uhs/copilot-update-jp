@@ -5,9 +5,29 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:27:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 04:46:23 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-3 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-3</link>
+      <guid isPermaLink="false">github-copilot-cli-457592849</guid>
+      <pubDate>Wed, 25 Nov 2026 02:54:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-3がリリースされ、フルスクリーンタイムラインの「Jump to latest」機能の追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、環境変数の設定機能が追加され、検索やモデル切り替え、パーミッションに関する複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フルスクリーンタイムラインに「Jump to latest」ボタンを追加し、最新の出力に戻って追従を再開できるようにしました。&lt;/li&gt;&lt;li&gt;ACP互換エディタにおいて、保存されたデフォルトを変更せずにサポート対象モデルのコンテキストサイズを選択できるようにしました。&lt;/li&gt;&lt;li&gt;サンドボックスの有無に関わらず、Copilotが起動するすべてのプロセス（シェルコマンド、ローカルLSPおよびMCPサーバー、フック、拡張機能）に対してenv設定で環境変数を設定できるようにしました。&lt;/li&gt;&lt;li&gt;別のCopilotプロファイルがリポジトリのアクティブなインデックスを所有している場合、検索がripgrepにフォールバックするように修正しました。&lt;/li&gt;&lt;li&gt;最初のプロンプトを送信する前にモデルを切り替えた際、コンパクションをスキップして正常に完了するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116-2 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-2</link>
+      <guid isPermaLink="false">github-copilot-cli-457487204</guid>
+      <pubDate>Wed, 25 Nov 2026 00:12:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-2がリリースされました。このバージョンでは、プラグインとMCPサーバーのエンドポイント重複に関する警告機能の追加や、未処理プロンプトのキャンセル処理の改善、メモリ消費の削減など複数の不具合修正が行われています。狭いターミナル環境やスクリーンリーダー使用時の表示改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プラグインとスタンドアロンMCPサーバーが同じエンドポイントに接続した際の警告追加と/mcpでの無効化手順の表示&lt;/li&gt;&lt;li&gt;活動の更新を待たずに保留中のプロンプトをキャンセルし、再接続後のアイドルセッションの誤表示を修正&lt;/li&gt;&lt;li&gt;Unix環境において、キャンセルされたフォアグラウンドシェルコマンドが終了時の標準出力・標準エラー出力への書き込み中もクリーンアップを完了できるように修正&lt;/li&gt;&lt;li&gt;複数CLIセッションによる同一MCPサーバーのアクセストークン更新時の重複サインインプロンプトを防止&lt;/li&gt;&lt;li&gt;研究レポート作成開始時にCtrl+Yのヒントが非表示のままになる不具合を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.116-1のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-1</link>
@@ -1987,26 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Pre-release</category>
       <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.90-4のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.90-4</link>
-      <guid isPermaLink="false">github-copilot-cli-399415595</guid>
-      <pubDate>Tue, 29 Sep 2026 18:26:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.90-4がリリースされました。初回起動時のサインイン中に発生していたモデルプロバイダー属性の読み込みエラーが出力されないように修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;初回起動時のサインイン中に「Failed to read model provider attribution」エラーが出力される不具合を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.90-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>low</category>
-    </item>
-    <item>
-      <title>GitHub CopilotにおけるGPT-6.1 Solの提供開始</title>
-      <link>https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot</link>
-      <guid isPermaLink="false">github-changelog-27fa41ed5cc26a14950e</guid>
-      <pubDate>Tue, 29 Sep 2026 17:02:27 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;OpenAIの最新モデルであるGPT-6.1 Solが一般提供され、GitHub Copilotへの展開が開始されました。ユーザーは、強力なマルチステップ処理を伴うエージェント型のコーディングおよびターミナルワークフローでこのモデルを利用できます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;OpenAIの最新モデル「GPT-6.1 Sol」が一般提供され、GitHub Copilotへの展開を開始&lt;/li&gt;&lt;li&gt;強力なマルチステップ処理によるエージェント型コーディングおよびターミナルワークフローでの利用が可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
     </item>
   </channel>
 </rss>

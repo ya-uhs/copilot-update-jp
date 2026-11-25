@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:27:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 04:46:23 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -79,31 +79,31 @@
       <category>high</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot: Microsoft 365におけるサービスエージェント機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577829</link>
-      <guid isPermaLink="false">m365-roadmap-935e145299a038c6df29</guid>
-      <pubDate>Tue, 17 Nov 2026 22:45:29 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot向けに「Service Agent in Microsoft 365」が提供されます。本機能により、企業の知識ソースやガイドラインを活用した24時間体制のサポートや、管理者の監視・オブザーバビリティ機能を利用可能です。また、CRM非依存でありながら各種MCPツールやカスタムスキルによる拡張性を備えています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;企業の知識ソースやガイドラインを用いた迅速なオンボーディングと、半自律または完全自律モードの選択が可能&lt;/li&gt;&lt;li&gt;Microsoft 365エコシステムにネイティブ接続し、リアルタイムデータやCRMレコード等を用いて24時間体制で対応&lt;/li&gt;&lt;li&gt;エンタープライズグレードのセキュリティとコンプライアンスを維持し、管理者がエージェントの活動や推論プロセスを監視可能&lt;/li&gt;&lt;li&gt;CRMが必須ではなく、必要に応じてCRMと接続してチケット作成等の操作を行うことが可能&lt;/li&gt;&lt;li&gt;MCPツールへの接続やカスタムスキルの作成による拡張性をサポート&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577829"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
+      <title>GitHub Copilot CLI v1.0.116-3 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-3</link>
+      <guid isPermaLink="false">github-copilot-cli-457592849</guid>
+      <pubDate>Wed, 25 Nov 2026 02:54:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-3がリリースされ、フルスクリーンタイムラインの「Jump to latest」機能の追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、環境変数の設定機能が追加され、検索やモデル切り替え、パーミッションに関する複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フルスクリーンタイムラインに「Jump to latest」ボタンを追加し、最新の出力に戻って追従を再開できるようにしました。&lt;/li&gt;&lt;li&gt;ACP互換エディタにおいて、保存されたデフォルトを変更せずにサポート対象モデルのコンテキストサイズを選択できるようにしました。&lt;/li&gt;&lt;li&gt;サンドボックスの有無に関わらず、Copilotが起動するすべてのプロセス（シェルコマンド、ローカルLSPおよびMCPサーバー、フック、拡張機能）に対してenv設定で環境変数を設定できるようにしました。&lt;/li&gt;&lt;li&gt;別のCopilotプロファイルがリポジトリのアクティブなインデックスを所有している場合、検索がripgrepにフォールバックするように修正しました。&lt;/li&gt;&lt;li&gt;最初のプロンプトを送信する前にモデルを切り替えた際、コンパクションをスキップして正常に完了するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.116-1のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-1</link>
-      <guid isPermaLink="false">github-copilot-cli-457286769</guid>
-      <pubDate>Tue, 24 Nov 2026 20:19:11 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-1がリリースされました。このバージョンでは、プラグインとスタンドアロンMCPサーバーが同じエンドポイントに接続した際の警告追加、プロンプトキャンセル処理の改善、および長時間のセッションにおけるメモリ使用量の削減が行われました。さらに、Unix環境でのバックグラウンド/フォアグラウンド処理の修正や、狭いターミナルでのアクセシビリティ向上などの不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プラグインとスタンドアロンMCPサーバーが同一エンドポイントに接続した際の警告機能を追加し、/mcpでの無効化手順を表示するようにしました。&lt;/li&gt;&lt;li&gt;保留中のプロンプトをアクティビティの更新を待たずにキャンセルできるようになり、ホスト再接続後にアイドルセッションがビジーと表示される不具合を修正しました。&lt;/li&gt;&lt;li&gt;Unix環境で、キャンセルされたフォアグラウンドシェルコマンドがシャットダウン中の出力を行ってもクリーンアップを完了できるようにしました。&lt;/li&gt;&lt;li&gt;テキスト計測キャッシュのメモリ保持方法を見直し、長時間のセッションにおけるメモリ増加とJavaScriptヒープ枯渇のリスクを軽減しました。&lt;/li&gt;&lt;li&gt;スクリーンリーダーモード有効時、狭いターミナルでハイライトされたテーマとその説明文の視認性を維持するようにしました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>GitHub Copilot CLI v1.0.116-2 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-2</link>
+      <guid isPermaLink="false">github-copilot-cli-457487204</guid>
+      <pubDate>Wed, 25 Nov 2026 00:12:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-2がリリースされました。このバージョンでは、プラグインとMCPサーバーのエンドポイント重複に関する警告機能の追加や、未処理プロンプトのキャンセル処理の改善、メモリ消費の削減など複数の不具合修正が行われています。狭いターミナル環境やスクリーンリーダー使用時の表示改善も含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プラグインとスタンドアロンMCPサーバーが同じエンドポイントに接続した際の警告追加と/mcpでの無効化手順の表示&lt;/li&gt;&lt;li&gt;活動の更新を待たずに保留中のプロンプトをキャンセルし、再接続後のアイドルセッションの誤表示を修正&lt;/li&gt;&lt;li&gt;Unix環境において、キャンセルされたフォアグラウンドシェルコマンドが終了時の標準出力・標準エラー出力への書き込み中もクリーンアップを完了できるように修正&lt;/li&gt;&lt;li&gt;複数CLIセッションによる同一MCPサーバーのアクセストークン更新時の重複サインインプロンプトを防止&lt;/li&gt;&lt;li&gt;研究レポート作成開始時にCtrl+Yのヒントが非表示のままになる不具合を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>medium</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilotのメモリ機能追加</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=580889</link>
-      <guid isPermaLink="false">m365-roadmap-1c26f76433198593f8b8</guid>
-      <pubDate>Tue, 24 Nov 2026 00:13:11 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Word、Excel、PowerPoint、OneNoteなどのMicrosoft 365 Copilotがメモリ機能を利用できるようになります。これにより、ユーザーの作業パターンを学習し、時間の経過とともに好みやパーソナライズされた応答に適応することが可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Word、Excel、PowerPoint、OneNote、WorkspacesのCopilot Appでメモリ機能が導入される&lt;/li&gt;&lt;li&gt;ユーザーの作業パターンを学習し、より関連性の高い提案やパーソナライズされた応答を提供する&lt;/li&gt;&lt;li&gt;プレビューおよび一般提供（GA）の開始時期は2026年11月を予定している&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=580889"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Dynamics 365 Human Resources: 新入社員向けエージェント型オンボーディング機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=581772</link>
+      <guid isPermaLink="false">m365-roadmap-efe71ab31acad6e93bd4</guid>
+      <pubDate>Wed, 25 Nov 2026 00:10:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Human Resourcesに、新入社員のオンボーディング作業を対話形式で統合する新しいエージェント型体験が追加されます。HR管理者向けの作業リストや誘導付きの採用プロセスのほか、新入社員向けのセルフサービス機能や本人確認書類の自動読み取りが含まれます。機能は法的エンティティごとに設定され、2027年3月にプレビュー、2027年7月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;未処理の候補者を表示する準備完了ワークリストの提供&lt;/li&gt;&lt;li&gt;実データのルックアップを使用した誘導付き採用プロセスの導入&lt;/li&gt;&lt;li&gt;新入社員セルフサービスによるチェックリストや個人情報の管理機能の追加&lt;/li&gt;&lt;li&gt;身分証明書画像からの情報抽出機能（画像は保持されず、確認が必要）の搭載&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=581772"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

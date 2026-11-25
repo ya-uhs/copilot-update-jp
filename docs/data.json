@@ -1,5 +1,62 @@
 [
   {
+    "id": "github-copilot-cli-457286769",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116-1",
+    "published_at": "2026-11-24T20:19:11Z",
+    "title_original": "GitHub Copilot CLI v1.0.116-1",
+    "excerpt_original": "**Added** - Warn when a plugin and a standalone MCP server connect to the same endpoint, and show how to disable one in /mcp **Fixed** - Cancel pending prompts without waiting for activity to refresh, and avoid showing idle sessions as busy after reconnecting to a host. - On Unix, canceled foreground shell commands can finish cleanup even if they write to stdout or stderr during shutdown. - Reduce memory growth in long sessions: text measurement caches kept a full copy of each streamed reply, which could exhaust the JavaScript heap. - Keep the highlighted theme and its description readable in narrow terminals when screen-reader mode is on.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.116-1のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.116-1がリリースされました。このバージョンでは、プラグインとスタンドアロンMCPサーバーが同じエンドポイントに接続した際の警告追加、プロンプトキャンセル処理の改善、および長時間のセッションにおけるメモリ使用量の削減が行われました。さらに、Unix環境でのバックグラウンド/フォアグラウンド処理の修正や、狭いターミナルでのアクセシビリティ向上などの不具合修正が含まれています。",
+    "changes": [
+      "プラグインとスタンドアロンMCPサーバーが同一エンドポイントに接続した際の警告機能を追加し、/mcpでの無効化手順を表示するようにしました。",
+      "保留中のプロンプトをアクティビティの更新を待たずにキャンセルできるようになり、ホスト再接続後にアイドルセッションがビジーと表示される不具合を修正しました。",
+      "Unix環境で、キャンセルされたフォアグラウンドシェルコマンドがシャットダウン中の出力を行ってもクリーンアップを完了できるようにしました。",
+      "テキスト計測キャッシュのメモリ保持方法を見直し、長時間のセッションにおけるメモリ増加とJavaScriptヒープ枯渇のリスクを軽減しました。",
+      "スクリーンリーダーモード有効時、狭いターミナルでハイライトされたテーマとその説明文の視認性を維持するようにしました。"
+    ],
+    "target_user": [
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-24T20:27:13Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-24T20:27:12Z"
+  },
+  {
+    "id": "github-copilot-cli-457051348",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116-0",
+    "published_at": "2026-11-24T16:43:35Z",
+    "title_original": "GitHub Copilot CLI v1.0.116-0",
+    "excerpt_original": "**Improved** - Skip individual slow-connection and sign-in warnings for organization-managed MCP servers (except Connectors) and flag their sign-in needs in the startup summary. - Summarize MCP server status at startup when attention is needed, and wait for /mcp auth <name> before opening a browser for initial sign-in. - Experimental extensions use Enabled/Disabled controls. Existing Load Only settings migrate to disabled with a one-time notice. - When the sandbox blocks a command, Copilot now stops and, if your policy allows it, says you could disable the sandbox for the session, instead of asking you to hand execution back - Assisted Permissions resolves routine requests faster on eligible plans and gives more specific reasons when it asks for approval **Fixed** - `copilot help billing` no longer says `--usage-output-file` writes an `agentMetrics` entry for each subagent; entries are per agent name, summed over its runs with `invocationCount` - `/restart` keeps the custom agent chosen with `/agent`, or no agent after deselecting one, instead of switching back to the agent given with `--agent` at launch. - Load workspace MCP servers from `.mcp.json` and `.github/mcp.json` even when those files contain comments or trailing commas - Reduce delays before the final answer on long Copilot Fusion turns when progress updates pile up. - Sandboxed shell commands can read the session plan without prompting you to bypass the sandbox. - Preserve text styling such as bold, italics, and underlines after /restart when NO_COLOR is set, without re-enabling color. - Keep the Home tab bar visible when a draft wraps in a short terminal. - Copilot CLI starts normally when settings contain large integers, and `/settings show` displays their exact values without rounding. - Keep /mcp search usable when a registry result has a missing or invalid description - Pressing Escape cancels push-to-talk without restarting the microphone or inserting a transcript afterward - `/diff` shows the patch for a small file or symlink that replaces a directory with many tracked files instead of incorrectly reporting it as too large. - Prevent editor shortcuts pressed while submitting /exit or /quit from opening an editor when the CLI quits - `--log-dir` puts extension process logs in the same directory as the CLI process log. - Closed background sessions appear as saved in the Sessions tab and reopen with their conversation history when you press Enter. - Pressing Ctrl+C to cancel a running queued extension command shows a cancellation notice without a misleading failure message. - Keep shell output on separate lines in the interactive CLI when it contains an unterminated terminal control sequence - `/init suppress` keeps init suggestions hidden in repositories where you suppressed them from another CLI session using the same profile. - The Sessions browser now lists cloud sessions beyond the first page. - Bun commands can use their caches and read their configuration in the CLI sandbox when developer tool access is enabled. - Honor `--effort none` on the first request with GPT-5.4 instead of falling back to medium reasoning effort. - Resuming a session no longer attributes an automatic Assisted Permissions denial to you. **Removed** - Plan approval no longer offers the fleet option. You can still start fleet mode with /fleet.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.116-0",
+    "summary_ja": "GitHub Copilot CLI の v1.0.116-0 では、組織管理 MCP サーバーの接続警告を抑制し起動時にサインイン要件をサマリ表示する改善や、サンドボックスでブロックされたコマンドに対しセッションで無効化できる旨を通知する機能が追加されました。また、/restart 時に選択したカスタムエージェントが保持され、設定ファイルのコメントや末尾カンマを許容して MCP サーバーをロードできるようになり、長時間の Copilot Fusion 応答遅延が軽減されました。さらに、拡張機能の有効/無効制御やログ出力先の統一、Bun コマンドのキャッシュ利用など多数のバグ修正と機能強化が含まれます。",
+    "changes": [
+      "組織管理 MCP サーバーの遅延接続警告をスキップし、起動サマリでサインイン要件を表示",
+      "サンドボックスがコマンドをブロックした際に、セッションでサンドボックスを無効化できる旨を通知",
+      "/restart コマンドで選択したカスタムエージェントが保持され、--agent オプションに戻らない",
+      ".mcp.json と .github/mcp.json のコメントや末尾カンマを許容してワークスペース MCP サーバーをロード",
+      "/diff がディレクトリを多数のファイルで置き換えるシンボリックリンクのパッチを正しく表示"
+    ],
+    "target_user": [
+      "開発者",
+      "CLI ユーザー"
+    ],
+    "importance": "high",
+    "translated": true,
+    "processed_at": "2026-11-24T20:27:18Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-24T20:27:13Z"
+  },
+  {
     "id": "github-copilot-cli-456773309",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115",
@@ -13031,60 +13088,218 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-457286769",
+    "id": "github-copilot-cli-457592849",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116-1",
-    "published_at": "2026-11-24T20:19:11Z",
-    "title_original": "GitHub Copilot CLI v1.0.116-1",
-    "excerpt_original": "**Added** - Warn when a plugin and a standalone MCP server connect to the same endpoint, and show how to disable one in /mcp **Fixed** - Cancel pending prompts without waiting for activity to refresh, and avoid showing idle sessions as busy after reconnecting to a host. - On Unix, canceled foreground shell commands can finish cleanup even if they write to stdout or stderr during shutdown. - Reduce memory growth in long sessions: text measurement caches kept a full copy of each streamed reply, which could exhaust the JavaScript heap. - Keep the highlighted theme and its description readable in narrow terminals when screen-reader mode is on.",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116-3",
+    "published_at": "2026-11-25T02:54:06Z",
+    "title_original": "GitHub Copilot CLI v1.0.116-3",
+    "excerpt_original": "**Added** - Click \"Jump to latest\" in the fullscreen timeline to return to the newest output and resume following it. - Choose the context size for supported models in ACP-compatible editors without changing your saved defaults. - Set environment variables for every process Copilot starts (shell commands, local LSP and MCP servers, hooks and extensions) with the env setting, with or without the sandbox **Fixed** - Search falls back to ripgrep when another Copilot profile owns the repository's active index. On Windows, search helpers no longer use profile folders as their working directory. - Switching models before your first prompt now skips compaction and completes successfully - Assisted Permissions honors later chat approvals or withdrawals of earlier permission decisions, including session approvals - Keep your place when reading older output in the terminal while a large reply arrives. - Open the link when clicking anywhere on linked inline code or color swatches, including their shaded edges. - Keep the selected MCP servers or Skills view visible in /config on very narrow terminals. - Gemini reasoning summaries honor your saved visibility preference, and Ctrl+T shows or hides them and saves your choice. - Built-in search keeps full filenames and correct line numbers when compacting matches from files with numeric suffixes. - `/worktree` and `/move` preserve Git diagnostics when branch names, paths, or hook output contain HTML-like text.",
     "product": "GitHub Copilot CLI",
-    "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.116-1のリリース",
-    "summary_ja": "GitHub Copilot CLI v1.0.116-1がリリースされました。このバージョンでは、プラグインとスタンドアロンMCPサーバーが同じエンドポイントに接続した際の警告追加、プロンプトキャンセル処理の改善、および長時間のセッションにおけるメモリ使用量の削減が行われました。さらに、Unix環境でのバックグラウンド/フォアグラウンド処理の修正や、狭いターミナルでのアクセシビリティ向上などの不具合修正が含まれています。",
+    "status": "Pre-release",
+    "title_ja": "GitHub Copilot CLI v1.0.116-3 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.116-3がリリースされ、フルスクリーンタイムラインの「Jump to latest」機能の追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、環境変数の設定機能が追加され、検索やモデル切り替え、パーミッションに関する複数の不具合が修正されています。",
     "changes": [
-      "プラグインとスタンドアロンMCPサーバーが同一エンドポイントに接続した際の警告機能を追加し、/mcpでの無効化手順を表示するようにしました。",
-      "保留中のプロンプトをアクティビティの更新を待たずにキャンセルできるようになり、ホスト再接続後にアイドルセッションがビジーと表示される不具合を修正しました。",
-      "Unix環境で、キャンセルされたフォアグラウンドシェルコマンドがシャットダウン中の出力を行ってもクリーンアップを完了できるようにしました。",
-      "テキスト計測キャッシュのメモリ保持方法を見直し、長時間のセッションにおけるメモリ増加とJavaScriptヒープ枯渇のリスクを軽減しました。",
-      "スクリーンリーダーモード有効時、狭いターミナルでハイライトされたテーマとその説明文の視認性を維持するようにしました。"
+      "フルスクリーンタイムラインに「Jump to latest」ボタンを追加し、最新の出力に戻って追従を再開できるようにしました。",
+      "ACP互換エディタにおいて、保存されたデフォルトを変更せずにサポート対象モデルのコンテキストサイズを選択できるようにしました。",
+      "サンドボックスの有無に関わらず、Copilotが起動するすべてのプロセス（シェルコマンド、ローカルLSPおよびMCPサーバー、フック、拡張機能）に対してenv設定で環境変数を設定できるようにしました。",
+      "別のCopilotプロファイルがリポジトリのアクティブなインデックスを所有している場合、検索がripgrepにフォールバックするように修正しました。",
+      "最初のプロンプトを送信する前にモデルを切り替えた際、コンパクションをスキップして正常に完了するように修正しました。"
     ],
     "target_user": [
-      "Developers"
+      "developers",
+      "CLI users"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-11-24T20:27:13Z",
+    "processed_at": "2026-11-25T04:46:14Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-11-24T20:27:12Z"
+    "translation_attempted_at": "2026-11-25T04:46:13Z"
   },
   {
-    "id": "github-copilot-cli-457051348",
+    "id": "github-copilot-cli-457487204",
     "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116-0",
-    "published_at": "2026-11-24T16:43:35Z",
-    "title_original": "GitHub Copilot CLI v1.0.116-0",
-    "excerpt_original": "**Improved** - Skip individual slow-connection and sign-in warnings for organization-managed MCP servers (except Connectors) and flag their sign-in needs in the startup summary. - Summarize MCP server status at startup when attention is needed, and wait for /mcp auth <name> before opening a browser for initial sign-in. - Experimental extensions use Enabled/Disabled controls. Existing Load Only settings migrate to disabled with a one-time notice. - When the sandbox blocks a command, Copilot now stops and, if your policy allows it, says you could disable the sandbox for the session, instead of asking you to hand execution back - Assisted Permissions resolves routine requests faster on eligible plans and gives more specific reasons when it asks for approval **Fixed** - `copilot help billing` no longer says `--usage-output-file` writes an `agentMetrics` entry for each subagent; entries are per agent name, summed over its runs with `invocationCount` - `/restart` keeps the custom agent chosen with `/agent`, or no agent after deselecting one, instead of switching back to the agent given with `--agent` at launch. - Load workspace MCP servers from `.mcp.json` and `.github/mcp.json` even when those files contain comments or trailing commas - Reduce delays before the final answer on long Copilot Fusion turns when progress updates pile up. - Sandboxed shell commands can read the session plan without prompting you to bypass the sandbox. - Preserve text styling such as bold, italics, and underlines after /restart when NO_COLOR is set, without re-enabling color. - Keep the Home tab bar visible when a draft wraps in a short terminal. - Copilot CLI starts normally when settings contain large integers, and `/settings show` displays their exact values without rounding. - Keep /mcp search usable when a registry result has a missing or invalid description - Pressing Escape cancels push-to-talk without restarting the microphone or inserting a transcript afterward - `/diff` shows the patch for a small file or symlink that replaces a directory with many tracked files instead of incorrectly reporting it as too large. - Prevent editor shortcuts pressed while submitting /exit or /quit from opening an editor when the CLI quits - `--log-dir` puts extension process logs in the same directory as the CLI process log. - Closed background sessions appear as saved in the Sessions tab and reopen with their conversation history when you press Enter. - Pressing Ctrl+C to cancel a running queued extension command shows a cancellation notice without a misleading failure message. - Keep shell output on separate lines in the interactive CLI when it contains an unterminated terminal control sequence - `/init suppress` keeps init suggestions hidden in repositories where you suppressed them from another CLI session using the same profile. - The Sessions browser now lists cloud sessions beyond the first page. - Bun commands can use their caches and read their configuration in the CLI sandbox when developer tool access is enabled. - Honor `--effort none` on the first request with GPT-5.4 instead of falling back to medium reasoning effort. - Resuming a session no longer attributes an automatic Assisted Permissions denial to you. **Removed** - Plan approval no longer offers the fleet option. You can still start fleet mode with /fleet.",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116-2",
+    "published_at": "2026-11-25T00:12:08Z",
+    "title_original": "GitHub Copilot CLI v1.0.116-2",
+    "excerpt_original": "**Added** - Warn when a plugin and a standalone MCP server connect to the same endpoint, and show how to disable one in /mcp **Fixed** - Cancel pending prompts without waiting for activity to refresh, and avoid showing idle sessions as busy after reconnecting to a host. - On Unix, canceled foreground shell commands can finish cleanup even if they write to stdout or stderr during shutdown. - Prevent repeated sign-in prompts when multiple CLI sessions refresh access to the same MCP server. - The Ctrl+Y hint no longer stays hidden when a research report is created while the CLI starts watching for reports. - Reduce memory growth in long sessions: text measurement caches kept a full copy of each streamed reply, which could exhaust the JavaScript heap. - Keep the highlighted theme and its description readable in narrow terminals when screen-reader mode is on.",
     "product": "GitHub Copilot CLI",
     "status": "Preview",
-    "title_ja": "GitHub Copilot CLI v1.0.116-0",
-    "summary_ja": "GitHub Copilot CLI の v1.0.116-0 では、組織管理 MCP サーバーの接続警告を抑制し起動時にサインイン要件をサマリ表示する改善や、サンドボックスでブロックされたコマンドに対しセッションで無効化できる旨を通知する機能が追加されました。また、/restart 時に選択したカスタムエージェントが保持され、設定ファイルのコメントや末尾カンマを許容して MCP サーバーをロードできるようになり、長時間の Copilot Fusion 応答遅延が軽減されました。さらに、拡張機能の有効/無効制御やログ出力先の統一、Bun コマンドのキャッシュ利用など多数のバグ修正と機能強化が含まれます。",
+    "title_ja": "GitHub Copilot CLI v1.0.116-2 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.116-2がリリースされました。このバージョンでは、プラグインとMCPサーバーのエンドポイント重複に関する警告機能の追加や、未処理プロンプトのキャンセル処理の改善、メモリ消費の削減など複数の不具合修正が行われています。狭いターミナル環境やスクリーンリーダー使用時の表示改善も含まれています。",
     "changes": [
-      "組織管理 MCP サーバーの遅延接続警告をスキップし、起動サマリでサインイン要件を表示",
-      "サンドボックスがコマンドをブロックした際に、セッションでサンドボックスを無効化できる旨を通知",
-      "/restart コマンドで選択したカスタムエージェントが保持され、--agent オプションに戻らない",
-      ".mcp.json と .github/mcp.json のコメントや末尾カンマを許容してワークスペース MCP サーバーをロード",
-      "/diff がディレクトリを多数のファイルで置き換えるシンボリックリンクのパッチを正しく表示"
+      "プラグインとスタンドアロンMCPサーバーが同じエンドポイントに接続した際の警告追加と/mcpでの無効化手順の表示",
+      "活動の更新を待たずに保留中のプロンプトをキャンセルし、再接続後のアイドルセッションの誤表示を修正",
+      "Unix環境において、キャンセルされたフォアグラウンドシェルコマンドが終了時の標準出力・標準エラー出力への書き込み中もクリーンアップを完了できるように修正",
+      "複数CLIセッションによる同一MCPサーバーのアクセストークン更新時の重複サインインプロンプトを防止",
+      "研究レポート作成開始時にCtrl+Yのヒントが非表示のままになる不具合を修正"
     ],
     "target_user": [
-      "開発者",
-      "CLI ユーザー"
+      "developers"
     ],
-    "importance": "high",
+    "importance": "medium",
     "translated": true,
-    "processed_at": "2026-11-24T20:27:18Z",
+    "processed_at": "2026-11-25T04:46:16Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-11-24T20:27:13Z"
+    "translation_attempted_at": "2026-11-25T04:46:14Z"
+  },
+  {
+    "id": "m365-blog-98378e0aceaf1994f74e",
+    "source": "Microsoft 365 Copilot Blog",
+    "source_url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+    "published_at": "2026-11-17T18:05:00Z",
+    "title_original": "Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work",
+    "excerpt_original": "Explore new Microsoft Copilot experiences and capabilities announced at Microsoft Ignite 2026, including Home, Autopilot, Workspaces, and Code. The post Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work appeared first on Microsoft Copilot Blog .",
+    "product": "Microsoft 365 Copilot",
+    "status": "unknown",
+    "title_ja": "Microsoft Ignite 2026で発表されたMicrosoft Copilotの新しい体験と機能",
+    "summary_ja": "Microsoft Ignite 2026において、Microsoft Copilotの新しい体験および機能が発表されました。発表された新機能には、Home、Autopilot、Workspaces、Codeなどが含まれています。仕事向けに構築されたインテリジェンスを通じて、Copilotの可能性を拡張する内容となっています。",
+    "changes": [
+      "Home機能の追加",
+      "Autopilot機能の追加",
+      "Workspaces機能の追加",
+      "Code機能の追加"
+    ],
+    "target_user": [
+      "Copilot利用者",
+      "ビジネスユーザー"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-25T04:46:18Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-25T04:46:17Z"
+  },
+  {
+    "id": "m365-blog-4b5cce1cd5642474ce15",
+    "source": "Microsoft 365 Copilot Blog",
+    "source_url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/",
+    "published_at": "2026-11-16T16:00:00Z",
+    "title_original": "What AI at work really costs",
+    "excerpt_original": "What does AI at work really cost? New research compares the total cost of leading enterprise AI options and explores the factors that can shape the cost of everyday and advanced AI work. The post What AI at work really costs appeared first on Microsoft Copilot Blog .",
+    "product": "Microsoft 365 Copilot",
+    "status": "unknown",
+    "title_ja": "仕事におけるAIの実際のコストに関する新しい調査の発表",
+    "summary_ja": "Microsoft 365 Copilotブログにおいて、主要なエンタープライズ向けAIオプションの総コストを比較し、日常および高度なAI作業のコストに影響を与える要因を探る新しい調査が公開されました。この投稿では、職場でのAI導入にかかる実際の費用について考察しています。",
+    "changes": [
+      "主要なエンタープライズAIオプションの総コストを比較する新しい調査の公開",
+      "日常および高度なAI作業のコストを形作る要因の検証"
+    ],
+    "target_user": [
+      "enterprise users",
+      "IT decision makers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-25T04:46:20Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-25T04:46:18Z"
+  },
+  {
+    "id": "m365-blog-0dd02290bab304b25d5e",
+    "source": "Microsoft 365 Copilot Blog",
+    "source_url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/",
+    "published_at": "2026-11-05T16:00:00Z",
+    "title_original": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
+    "excerpt_original": "Greater model choice, consistent protection. Claude models are coming to the EU Data Boundary in Microsoft Copilot. The post Bringing Claude models in Microsoft Copilot into the EU Data Boundary appeared first on Microsoft Copilot Blog .",
+    "product": "Microsoft 365 Copilot",
+    "status": "unknown",
+    "title_ja": "Microsoft CopilotのEUデータ境界へのClaudeモデル導入",
+    "summary_ja": "Microsoft Copilotにおいて、EUデータ境界内でAnthropicのClaudeモデルが利用可能になります。これによりユーザーのモデル選択肢が拡大し、一貫した保護が提供されます。",
+    "changes": [
+      "Microsoft CopilotのEUデータ境界内でのClaudeモデルの提供開始"
+    ],
+    "target_user": [
+      "Microsoft 365 Copilot users in the EU"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-25T04:46:21Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-25T04:46:20Z"
+  },
+  {
+    "id": "m365-blog-54f3f50ab879563e844f",
+    "source": "Microsoft 365 Copilot Blog",
+    "source_url": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/",
+    "published_at": "2026-10-29T15:00:00Z",
+    "title_original": "Microsoft Copilot for finance: Purpose-built for the way finance teams work",
+    "excerpt_original": "Discover Microsoft Copilot for finance, purpose-built skills for accounting, capital markets, and broader finance work. The post Microsoft Copilot for finance: Purpose-built for the way finance teams work appeared first on Microsoft Copilot Blog .",
+    "product": "Microsoft Copilot",
+    "status": "unknown",
+    "title_ja": "Microsoft Copilot for financeの紹介",
+    "summary_ja": "Microsoft Copilot for financeは、会計や資本市場、その他の財務業務向けに特化したスキルを備えた新しいツールです。財務チームの働き方に合わせて設計されており、業務の効率化を支援します。",
+    "changes": [
+      "会計、資本市場、および一般的な財務業務向けに特化した機能の提供"
+    ],
+    "target_user": [
+      "財務チーム",
+      "会計担当者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-25T04:46:21Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-25T04:46:21Z"
+  },
+  {
+    "id": "m365-blog-768428ce1d7499680c84",
+    "source": "Microsoft 365 Copilot Blog",
+    "source_url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246",
+    "published_at": "2026-10-23T15:00:00Z",
+    "title_original": "Introducing Microsoft Copilot for legal",
+    "excerpt_original": "In legal work, the answer rarely sits neatly in one place. It may depend on precedent, organizational standards, or a regulatory consideration that changes the whole analysis. The post Introducing Microsoft Copilot for legal appeared first on Microsoft Copilot Blog .",
+    "product": "Microsoft 365 Copilot",
+    "status": "unknown",
+    "title_ja": "法務向け Microsoft Copilot の発表",
+    "summary_ja": "Microsoftは、法務業務を対象としたMicrosoft Copilotを発表しました。法務業務では前例や組織基準、規制など複数の要素が複雑に関係することが多いため、この新機能はそうした業務を支援することを目的としています。",
+    "changes": [
+      "法務業務向けのMicrosoft Copilotが発表されました。"
+    ],
+    "target_user": [
+      "法務専門家",
+      "法務担当者"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-25T04:46:22Z",
+    "source_id": "m365-blog",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-25T04:46:21Z"
+  },
+  {
+    "id": "m365-roadmap-efe71ab31acad6e93bd4",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=581772",
+    "published_at": "2026-11-25T00:10:31Z",
+    "title_original": "[Roadmap] Dynamics 365 Human Resources: Agent onboarding for new employees",
+    "excerpt_original": "Business value Onboarding in Dynamics 365 Human Resources spans several pages and two people: HR administrators hire the candidate, enroll leave and set compensation, while the new employee completes personal details, address, emergency contacts and identification. Steps are easy to miss. A new agentic onboarding experience will brings the tasks into one guided conversation over live Human Resources data. Every change is previewed and confirmed explicitly, and all reads and writes run under the signed-in user's security roles and legal entities, so teams move faster without giving up control. Capability details Ready-to-start worklist: unprocessed candidates whose estimated start date falls in the configured trigger lead-days window, across the HR manager's legal entities. Guided hire: opens the standard Hire new worker dialog with real lookup values (worker type, employment type, dates, position, personnel number, checklist templates), then creates the worker and re-reads the result. Start date adjustment, leave plan enrollment and fixed compensation, each confirmed and read back, plus a read-only onboarding status view. New employee self-service: own checklist grouped overdue, pending and done, plus personal details, home address, emergency contacts and identification. Identification capture: the employee uploads a passport, license, national ID or work permit image; the agent proposes the type, number, issuing country and dates, masks the number and requires confirmation. The image is not retained. Also included: natural-language address entry, progress summary, an introductory email draft and resource links. Enablement Configured per legal entity in Human resources parameters: the Copilot HR manager toggle and Copilot trigger lead days drive the candidate worklist. Administrator capabilities require the Human resource manager or assistant role; employee capabilities run under self-service access GA date: July CY2027 Preview date: March CY2027",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Dynamics 365 Human Resources: 新入社員向けエージェント型オンボーディング機能",
+    "summary_ja": "Dynamics 365 Human Resourcesに、新入社員のオンボーディング作業を対話形式で統合する新しいエージェント型体験が追加されます。HR管理者向けの作業リストや誘導付きの採用プロセスのほか、新入社員向けのセルフサービス機能や本人確認書類の自動読み取りが含まれます。機能は法的エンティティごとに設定され、2027年3月にプレビュー、2027年7月に一般提供（GA）が予定されています。",
+    "changes": [
+      "未処理の候補者を表示する準備完了ワークリストの提供",
+      "実データのルックアップを使用した誘導付き採用プロセスの導入",
+      "新入社員セルフサービスによるチェックリストや個人情報の管理機能の追加",
+      "身分証明書画像からの情報抽出機能（画像は保持されず、確認が必要）の搭載"
+    ],
+    "target_user": [
+      "HR administrators",
+      "HR managers",
+      "New employees"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-25T04:46:17Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-25T04:46:16Z"
   }
 ]

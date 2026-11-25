@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 05:43:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 04:46:23 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Human Resources: 新入社員向けエージェント型オンボーディング機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=581772</link>
+      <guid isPermaLink="false">m365-roadmap-efe71ab31acad6e93bd4</guid>
+      <pubDate>Wed, 25 Nov 2026 00:10:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Human Resourcesに、新入社員のオンボーディング作業を対話形式で統合する新しいエージェント型体験が追加されます。HR管理者向けの作業リストや誘導付きの採用プロセスのほか、新入社員向けのセルフサービス機能や本人確認書類の自動読み取りが含まれます。機能は法的エンティティごとに設定され、2027年3月にプレビュー、2027年7月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;未処理の候補者を表示する準備完了ワークリストの提供&lt;/li&gt;&lt;li&gt;実データのルックアップを使用した誘導付き採用プロセスの導入&lt;/li&gt;&lt;li&gt;新入社員セルフサービスによるチェックリストや個人情報の管理機能の追加&lt;/li&gt;&lt;li&gt;身分証明書画像からの情報抽出機能（画像は保持されず、確認が必要）の搭載&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=581772"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilotのメモリ機能追加</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=580889</link>
@@ -997,16 +1007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: 統一ルーティングにおけるピックベースの割り当て方法の導入</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576837</link>
-      <guid isPermaLink="false">m365-roadmap-589eb131fcb77add83df</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilot Service admin centerのキューに対して「自動割り当てなし（No auto assignment）」メソッドが追加されました。これにより、会話は自動割り当てされず、担当者が自身の受信トレイからピックアップするか、スーパーバイザーが手動で割り当てるまでキューにとどまります。このピックベースのモデルにより、組織は業務処理のコントロールを向上させることができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilot Service admin centerのキューで「自動割り当てなし」メソッドが利用可能になりました。&lt;/li&gt;&lt;li&gt;会話は自動的に割り当てられず、担当者による手動ピックアップまたはスーパーバイザーによる手動割り当てを行います。&lt;/li&gt;&lt;li&gt;担当者の可用性と容量に基づく従来のプッシュ型モデルとは異なり、手動での確認と割り当てをサポートします。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576837"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

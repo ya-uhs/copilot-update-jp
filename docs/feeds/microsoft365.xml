@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 05:43:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 04:46:23 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/microsoft365.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Dynamics 365 Human Resources: 新入社員向けエージェント型オンボーディング機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=581772</link>
+      <guid isPermaLink="false">m365-roadmap-efe71ab31acad6e93bd4</guid>
+      <pubDate>Wed, 25 Nov 2026 00:10:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Human Resourcesに、新入社員のオンボーディング作業を対話形式で統合する新しいエージェント型体験が追加されます。HR管理者向けの作業リストや誘導付きの採用プロセスのほか、新入社員向けのセルフサービス機能や本人確認書類の自動読み取りが含まれます。機能は法的エンティティごとに設定され、2027年3月にプレビュー、2027年7月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;未処理の候補者を表示する準備完了ワークリストの提供&lt;/li&gt;&lt;li&gt;実データのルックアップを使用した誘導付き採用プロセスの導入&lt;/li&gt;&lt;li&gt;新入社員セルフサービスによるチェックリストや個人情報の管理機能の追加&lt;/li&gt;&lt;li&gt;身分証明書画像からの情報抽出機能（画像は保持されず、確認が必要）の搭載&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=581772"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Microsoft 365 Copilotのメモリ機能追加</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=580889</link>
@@ -239,6 +249,16 @@
       <category>medium</category>
     </item>
     <item>
+      <title>Microsoft Ignite 2026で発表されたMicrosoft Copilotの新しい体験と機能</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/</link>
+      <guid isPermaLink="false">m365-blog-98378e0aceaf1994f74e</guid>
+      <pubDate>Tue, 17 Nov 2026 18:05:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Ignite 2026において、Microsoft Copilotの新しい体験および機能が発表されました。発表された新機能には、Home、Autopilot、Workspaces、Codeなどが含まれています。仕事向けに構築されたインテリジェンスを通じて、Copilotの可能性を拡張する内容となっています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Home機能の追加&lt;/li&gt;&lt;li&gt;Autopilot機能の追加&lt;/li&gt;&lt;li&gt;Workspaces機能の追加&lt;/li&gt;&lt;li&gt;Code機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>Microsoft 365 Copilot リリースノート（2026年11月17日）</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#november-17-2026</link>
       <guid isPermaLink="false">m365-release-notes-f18759254b030397c226</guid>
@@ -247,6 +267,16 @@
       <category>Microsoft 365 Copilot</category>
       <category>Release</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>仕事におけるAIの実際のコストに関する新しい調査の発表</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/</link>
+      <guid isPermaLink="false">m365-blog-4b5cce1cd5642474ce15</guid>
+      <pubDate>Mon, 16 Nov 2026 16:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilotブログにおいて、主要なエンタープライズ向けAIオプションの総コストを比較し、日常および高度なAI作業のコストに影響を与える要因を探る新しい調査が公開されました。この投稿では、職場でのAI導入にかかる実際の費用について考察しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;主要なエンタープライズAIオプションの総コストを比較する新しい調査の公開&lt;/li&gt;&lt;li&gt;日常および高度なAI作業のコストを形作る要因の検証&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>unknown</category>
+      <category>low</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Business Central: Copilotおよびエージェント - 自動貼り付けによる迅速なフォーム入力</title>
@@ -337,6 +367,16 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>high</category>
+    </item>
+    <item>
+      <title>Microsoft CopilotのEUデータ境界へのClaudeモデル導入</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/</link>
+      <guid isPermaLink="false">m365-blog-0dd02290bab304b25d5e</guid>
+      <pubDate>Thu, 05 Nov 2026 16:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilotにおいて、EUデータ境界内でAnthropicのClaudeモデルが利用可能になります。これによりユーザーのモデル選択肢が拡大し、一貫した保護が提供されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft CopilotのEUデータ境界内でのClaudeモデルの提供開始&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
     </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Supply Chain Management: フェーズイン・フェーズアウト規則の作成機能の刷新</title>
@@ -436,6 +476,16 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Customer Service&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Serviceは、拡張性とAIに対応したレイクハウスベースの共有アナリティクス基盤を活用した、標準の履歴レポート機能を提供します。本基盤により、データ量に応じたスケーリング、直接クエリ用のキュレーション済みアナリティクスデータセットのサポート、およびレポートやエージェント、Copilot間での一貫したレポート作成とセマンティック定義が可能になります。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;レイクハウスベースのアーキテクチャによる、データ量に応じたスケーリング対応の拡張可能なデータ基盤の導入&lt;/li&gt;&lt;li&gt;直接クエリをサポートするキュレーション済みアナリティクスデータセットの提供&lt;/li&gt;&lt;li&gt;レポート、エージェント、Copilot間での一貫したレポート作成とセマンティック定義の有効化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=574114"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Dynamics 365 Customer Service</category>
       <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Microsoft Copilot for financeの紹介</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/</link>
+      <guid isPermaLink="false">m365-blog-54f3f50ab879563e844f</guid>
+      <pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Copilot for financeは、会計や資本市場、その他の財務業務向けに特化したスキルを備えた新しいツールです。財務チームの働き方に合わせて設計されており、業務の効率化を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;会計、資本市場、および一般的な財務業務向けに特化した機能の提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft Copilot</category>
+      <category>unknown</category>
       <category>medium</category>
     </item>
     <item>
@@ -656,6 +706,16 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft TeamsのGCC環境において、会議をサポートするファシリテーター機能が提供されます。本機能により、リアルタイムでのノート作成、会議に関する質問への回答、アジェンダや議論の進行管理が可能になります。利用にはMicrosoft 365 Copilotライセンスが必要です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GCC環境のMicrosoft Teams会議でFacilitatorエージェントを利用可能になります。&lt;/li&gt;&lt;li&gt;リアルタイムでのノート作成や、会議に関する質問への回答機能が追加されます。&lt;/li&gt;&lt;li&gt;アジェンダと議論を軌道に乗せるための進行サポート機能が提供されます。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577401"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>法務向け Microsoft Copilot の発表</title>
+      <link>https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246</link>
+      <guid isPermaLink="false">m365-blog-768428ce1d7499680c84</guid>
+      <pubDate>Fri, 23 Oct 2026 15:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoftは、法務業務を対象としたMicrosoft Copilotを発表しました。法務業務では前例や組織基準、規制など複数の要素が複雑に関係することが多いため、この新機能はそうした業務を支援することを目的としています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;法務業務向けのMicrosoft Copilotが発表されました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>unknown</category>
       <category>medium</category>
     </item>
     <item>
@@ -1947,66 +2007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>unknown</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] SharePoint：FAQ Webパーツのオーサリング体験の変更</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570647</link>
-      <guid isPermaLink="false">m365-roadmap-875936a9d73ed6670743</guid>
-      <pubDate>Wed, 09 Sep 2026 22:36:54 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;SharePointのFAQ Webパーツにおいて、手動での作成や編集などの標準的な非AI機能が提供されるようになります。AIを活用したFAQの作成およびインポート機能はCopilot in SharePointのオーサリング体験へ移行し、自然言語のプロンプトや指定したグラウンディングソースを使用してコンテンツを生成できるようになります。既存のFAQ Webパーツおよびそのコンテンツは、移行なしで引き続き表示されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;FAQ Webパーツの標準機能が手動での作成・編集・管理に変更される&lt;/li&gt;&lt;li&gt;AI支援によるFAQ作成とインポート機能がCopilot in SharePointへ移行する&lt;/li&gt;&lt;li&gt;既存のFAQ Webパーツおよびコンテンツは移行なしで引き続き動作する&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570647"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Outlook: メール作成用インラインチャット</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570440</link>
-      <guid isPermaLink="false">m365-roadmap-1de1d1f9651de9e8031f</guid>
-      <pubDate>Wed, 09 Sep 2026 22:36:54 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Outlookのメール作成において、サイドバーを開くことなくCopilotと対話できるインラインチャットコンポーネントが導入されます。この変更により、メッセージ作成プロセスが効率化されます。一般提供（GA）は2026年10月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;メール作成時にサイドバーを開かずにCopilotを利用可能にするインラインチャットコンポーネントの追加&lt;/li&gt;&lt;li&gt;メッセージ作成プロセスの効率化&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570440"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Teams：ミーティング共有ファイル機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570427</link>
-      <guid isPermaLink="false">m365-roadmap-227c92063ebac7fcd0ec</guid>
-      <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft Teams&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsに、ミーティングに関連するファイルやリンクを追加して参加者と自動共有できる「Meeting Shared Files」機能が追加されます。AI（Facilitatorエージェントなど）がこれらのファイルをターゲットグラウンディングに活用し、質問への回答やスキル機能の向上を支援します。一般提供（GA）は2026年11月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ミーティングに関連するファイルやリンクを追加し、参加者間で自動共有が可能になる&lt;/li&gt;&lt;li&gt;Facilitatorエージェントなどのミーティング内AIが、追加されたファイルをターゲットグラウンディングに使用する&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570427"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft Teams</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Viva：Copilot Analytics - Agent 365 ダッシュボードにおけるエージェント価値インサイト</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570847</link>
-      <guid isPermaLink="false">m365-roadmap-fa538e868f2b76669881</guid>
-      <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Viva InsightsのCopilot Analyticsにおいて、Agent 365 Dashboardで価値インサイトの閲覧が可能になりました。これにより、ビジネスリーダーや変革・定着化の専門家は、エージェントの利用状況だけでなく、推定アシスト時間や価値に寄与する業務の種類を把握できるようになります。本機能は、エージェントの活動と組織全体でのサポート業務をより明確に結びつけるものです。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agent 365 Dashboardに価値インサイトの閲覧機能を追加&lt;/li&gt;&lt;li&gt;エージェントの推定アシスト時間や貢献する業務タイプの可視化に対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570847"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Purview：Microsoft Cowork向けデータ損失防止（DLP）</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=570845</link>
-      <guid isPermaLink="false">m365-roadmap-f9eb61d3420151243c77</guid>
-      <pubDate>Tue, 08 Sep 2026 22:57:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Purview Data Loss Prevention（DLP）がMicrosoft Coworkに拡張され、管理者はMicrosoft 365 CopilotとCoworkの間で単一のポリシーを適用できるようになります。この統合により、機密性の高いラベル付きナレッジソースの利用防止、機密情報タイプを含むプロンプトのブロック、Bingでのウェブ検索への機密プロンプトの送信制限を通じて、AIインタラクションにおけるデータ保護が強化されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Microsoft Purview DLPがMicrosoft Coworkに対応し、Microsoft 365 Copilotと共通のポリシー運用が可能に&lt;/li&gt;&lt;li&gt;ラベル付きナレッジソースの利用防止や、サポートされている機密情報タイプを含むプロンプトのブロック機能を追加&lt;/li&gt;&lt;li&gt;Bingを用いたウェブ検索への機密プロンプトの送信を制限&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=570845"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>PPCC 2026: AIとビジネスプロセスの統合</title>
-      <link>https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/</link>
-      <guid isPermaLink="false">m365-blog-3d21d372e8928f091131</guid>
-      <pubDate>Thu, 03 Sep 2026 15:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;Microsoft 365 Copilot Blogにおいて、企業におけるビジネスプロセスとAIの統合に関する情報が発表されました。企業運営において人間が果たしている判断、例外管理、およびシステムの接続という役割に焦点が当てられています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;AIとビジネスプロセスを組み合わせる取り組みについての発表が行われました&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>unknown</category>
-      <category>low</category>
     </item>
   </channel>
 </rss>
