@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 13:52:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:41:36 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -69,14 +69,14 @@
       <category>high</category>
     </item>
     <item>
-      <title>チーム向けのGitHub Copilotカスタマイズ機能</title>
-      <link>https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team</link>
-      <guid isPermaLink="false">github-changelog-6e93a4cc09914f56e319</guid>
-      <pubDate>Wed, 18 Nov 2026 16:00:13 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilotにおいて、組織のチーム全体でプラグインやカスタマイズを共有できるようになりました。各メンバーが個別に同じセットアップを行う必要がなくなります。このチーム向けカスタマイズ機能は、組織のチームを対象に一般提供（GA）されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;組織のチーム向けにGitHub Copilotのカスタマイズ機能が提供開始&lt;/li&gt;&lt;li&gt;チームが利用するプラグインを共有し、個別のセットアップ作業を省略可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
+      <title>GitHub Copilot CLI v1.0.116</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116</link>
+      <guid isPermaLink="false">github-copilot-cli-458394773</guid>
+      <pubDate>Wed, 25 Nov 2026 17:03:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116がリリースされ、拡張機能マニフェスト用のビルド時JSON Schemaの追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、サンドボックス設定における環境変数の追加、重複するMCPサーバー接続の警告、各種パフォーマンスおよび安定性の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;拡張機能マニフェスト用のビルド時JSON Schemaを追加&lt;/li&gt;&lt;li&gt;ACP互換エディタで保存済みのデフォルトを変更せずにサポートモデルのコンテキストサイズを選択可能に&lt;/li&gt;&lt;li&gt;env設定を使用してCopilotが起動するすべてのプロセスに環境変数を設定可能に&lt;/li&gt;&lt;li&gt;プラグインとスタンドアロンのMCPサーバーが同じエンドポイントに接続した場合の警告表示機能を追加&lt;/li&gt;&lt;li&gt;長期セッションにおけるテキスト測定キャッシュのメモリ肥大化を抑制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.116-5</title>

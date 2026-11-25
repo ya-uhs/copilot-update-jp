@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 13:52:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:41:36 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.116</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116</link>
+      <guid isPermaLink="false">github-copilot-cli-458394773</guid>
+      <pubDate>Wed, 25 Nov 2026 17:03:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116がリリースされ、拡張機能マニフェスト用のビルド時JSON Schemaの追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、サンドボックス設定における環境変数の追加、重複するMCPサーバー接続の警告、各種パフォーマンスおよび安定性の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;拡張機能マニフェスト用のビルド時JSON Schemaを追加&lt;/li&gt;&lt;li&gt;ACP互換エディタで保存済みのデフォルトを変更せずにサポートモデルのコンテキストサイズを選択可能に&lt;/li&gt;&lt;li&gt;env設定を使用してCopilotが起動するすべてのプロセスに環境変数を設定可能に&lt;/li&gt;&lt;li&gt;プラグインとスタンドアロンのMCPサーバーが同じエンドポイントに接続した場合の警告表示機能を追加&lt;/li&gt;&lt;li&gt;長期セッションにおけるテキスト測定キャッシュのメモリ肥大化を抑制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>Visual Studio Code 1.148 — Copilot / Chat / Agents</title>
       <link>https://code.visualstudio.com/updates/v1_148</link>
@@ -1994,16 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-20dd090c7ef2077af3ab</guid>
       <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;教育者は、Microsoft TeamsやLMS（学習管理システム）の課題において、Student AI GuidelinesからCopilotのスタータープロンプトを提供できるようになります。これにより、学生は教育者が用意した課題に合わせた指示があらかじめ入力された状態のチャットでCopilotを開くことが可能になります。本機能は2026年10月にプレビュー版が提供され、2026年11月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;教育者がTeamsおよびLMSの課題でCopilotスタータープロンプトを提供可能になる&lt;/li&gt;&lt;li&gt;学生が課題に合わせた指示があらかじめ入力された状態でCopilotを開けるようになる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577173"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Sales Development Agentによるミーティングスケジューリング機能</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=575289</link>
-      <guid isPermaLink="false">m365-roadmap-80e6b1b7b08eda2cace6</guid>
-      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft 365 CopilotのSales Development Agentが、見込み客とのミーティング調整を自動化する機能を追加します。Agentは希望日時の確認や販売者のカレンダー評価を行い、条件に合う初回の日時を自動予約します。予約完了時には双方へ招待が送信され、販売者には引き継ぎ用の文脈情報が提供されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;見込み客の希望日時の取得と販売者のカレンダー確認によるミーティングの自動予約&lt;/li&gt;&lt;li&gt;予約成功時の双方への招待送信と、販売者への追加の会話コンテキストの提供&lt;/li&gt;&lt;li&gt;スケジューリング不可時の販売者へのリクエストおよび関連コンテキストの引き継ぎ&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=575289"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
