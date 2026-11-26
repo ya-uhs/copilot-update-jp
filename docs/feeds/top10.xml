@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 19:41:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 03:56:13 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,53 +59,53 @@
       <category>high</category>
     </item>
     <item>
-      <title>GitHub CopilotにおけるGemini 4 Neonの一般提供開始</title>
-      <link>https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot</link>
-      <guid isPermaLink="false">github-changelog-362ee7bc4f1920475e98</guid>
-      <pubDate>Wed, 18 Nov 2026 21:49:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; GA&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Gemini 4 NeonがGitHub Copilotで一般提供（GA）開始されました。本モデルは、エージェント型コーディング、多段階のツール利用、ナレッジワーク向けに設計されています。Googleによると、高い品質を提供するとしています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemini 4 NeonがGitHub Copilotで利用可能になりました。&lt;/li&gt;&lt;li&gt;エージェント型コーディングや多段階のツール利用に対応しています。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>GA</category>
-      <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.116</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116</link>
-      <guid isPermaLink="false">github-copilot-cli-458394773</guid>
-      <pubDate>Wed, 25 Nov 2026 17:03:13 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116がリリースされ、拡張機能マニフェスト用のビルド時JSON Schemaの追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、サンドボックス設定における環境変数の追加、重複するMCPサーバー接続の警告、各種パフォーマンスおよび安定性の改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;拡張機能マニフェスト用のビルド時JSON Schemaを追加&lt;/li&gt;&lt;li&gt;ACP互換エディタで保存済みのデフォルトを変更せずにサポートモデルのコンテキストサイズを選択可能に&lt;/li&gt;&lt;li&gt;env設定を使用してCopilotが起動するすべてのプロセスに環境変数を設定可能に&lt;/li&gt;&lt;li&gt;プラグインとスタンドアロンのMCPサーバーが同じエンドポイントに接続した場合の警告表示機能を追加&lt;/li&gt;&lt;li&gt;長期セッションにおけるテキスト測定キャッシュのメモリ肥大化を抑制&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.116-5</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-5</link>
-      <guid isPermaLink="false">github-copilot-cli-457790615</guid>
-      <pubDate>Wed, 25 Nov 2026 07:44:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;このリリースでは、複数の表示や動作の不具合が修正されました。`copilot help parallel-work` の説明が正しくなり、ACP クライアントのシェル承認プロンプトがコマンド名を表示するようになりました。また、無効な端末名が原因で HTTP フックが停止しないようになり、/rewind が復元できないファイルを報告し、狭い端末やスクリーンリーダーモードで /environments の設定が1行に収まるよう改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;`copilot help parallel-work` が Autopilot の継続選択を誤って表示しなくなった&lt;/li&gt;&lt;li&gt;ACP クライアントのシェル承認プロンプトがコマンドの説明ではなくコマンド名を表示するよう修正&lt;/li&gt;&lt;li&gt;TERM_PROGRAM に無効文字が含まれても HTTP フックが実行され、ツール呼び出しがブロックされなくなった&lt;/li&gt;&lt;li&gt;/rewind がファイルキャプチャ上限を超えたターンで復元できないファイルを報告するようになった&lt;/li&gt;&lt;li&gt;狭い端末やスクリーンリーダーモードで /environments の Incoming connections 設定が1行に収まるよう表示を調整&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.116-4 の更新情報</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-4</link>
-      <guid isPermaLink="false">github-copilot-cli-457680054</guid>
-      <pubDate>Wed, 25 Nov 2026 05:12:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-4 がリリースされ、拡張機能マニフェスト用のビルド時 JSON スキーマが追加されました。PowerShell のパラメータ名に数字が含まれるコマンドやフォルダー信頼プロンプトの挙動が修正され、Swift ツールが macOS と Linux のキャッシュへ書き込めるようになりました。また、プロンプトやイベントログの表示内容が改善されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;拡張機能マニフェスト用のビルド時 JSON スキーマを追加。&lt;/li&gt;&lt;li&gt;PowerShell コマンドで数字を含むパラメータ名（例: -n1、-ExpectedSha256）が許可ルールを尊重し、フルスクリプト承認を要求しなくなった。&lt;/li&gt;&lt;li&gt;フォルダー信頼プロンプトで「Yes」を選択した際、MCP サーバーの再接続待ちせずにダイアログが閉じるよう修正。&lt;/li&gt;&lt;li&gt;macOS と Linux の Copilot CLI サンドボックスで Swift ツールがコンパイラモジュールキャッシュと SwiftPM 共有キャッシュへの書き込みを許可。&lt;/li&gt;&lt;li&gt;プロンプト（-i オプションやリポジトリ起動時）でフォルダー信頼開始後、最大30秒間 MCP サーバーの起動を待機し、最初のリクエストにツールを含めるよう変更。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>GitHub Copilot CLI v1.0.117-2のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-2</link>
+      <guid isPermaLink="false">github-copilot-cli-458857519</guid>
+      <pubDate>Thu, 26 Nov 2026 02:03:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-2がリリースされました。拡張機能の読み込み動作の修正やビルトイン検索の安定性向上、共有セッションの再開機能の改善、PowerShellフックでの終了コードの保持が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;copilot help extensionsコマンドのメッセージを修正し、拡張機能の起動条件を正確に反映させるようにしました。&lt;/li&gt;&lt;li&gt;Copilotがフラグやパスのリストをテキストとして送信した際、ビルトイン検索が失敗する不具合を修正しました。&lt;/li&gt;&lt;li&gt;選択されたモデルが利用できない場合でも共有セッションを再開できるようにし、/modelコマンドで別のモデルを選択可能にしました。&lt;/li&gt;&lt;li&gt;Windows環境のPowerShellフックでネイティブプログラムの終了コードを保持するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>medium</category>
     </item>
     <item>
-      <title>GitHub Copilot CLI v1.0.116-3 リリースノート</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116-3</link>
-      <guid isPermaLink="false">github-copilot-cli-457592849</guid>
-      <pubDate>Wed, 25 Nov 2026 02:54:06 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.116-3がリリースされ、フルスクリーンタイムラインの「Jump to latest」機能の追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、環境変数の設定機能が追加され、検索やモデル切り替え、パーミッションに関する複数の不具合が修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;フルスクリーンタイムラインに「Jump to latest」ボタンを追加し、最新の出力に戻って追従を再開できるようにしました。&lt;/li&gt;&lt;li&gt;ACP互換エディタにおいて、保存されたデフォルトを変更せずにサポート対象モデルのコンテキストサイズを選択できるようにしました。&lt;/li&gt;&lt;li&gt;サンドボックスの有無に関わらず、Copilotが起動するすべてのプロセス（シェルコマンド、ローカルLSPおよびMCPサーバー、フック、拡張機能）に対してenv設定で環境変数を設定できるようにしました。&lt;/li&gt;&lt;li&gt;別のCopilotプロファイルがリポジトリのアクティブなインデックスを所有している場合、検索がripgrepにフォールバックするように修正しました。&lt;/li&gt;&lt;li&gt;最初のプロンプトを送信する前にモデルを切り替えた際、コンパクションをスキップして正常に完了するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.116-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <title>[提供予定・ロードマップ] Microsoft Viva: Copilot Analytics のアクセス管理機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578862</link>
+      <guid isPermaLink="false">m365-roadmap-4f73048acffc57b03afe</guid>
+      <pubDate>Thu, 26 Nov 2026 00:16:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;管理者は、Microsoft Viva InsightsのCopilot Analyticsにおけるアクセス権限やユーザーの操作権限を製品内で直接管理できるようになりました。ロール割り当てとアクセス権限が1つの管理画面に統合され、管理者はユーザーの役割とデータ範囲を組み合わせたアクセスポリシーを作成できます。既存のロール割り当てはそのまま維持され、ユーザーは自動的にシステム定義のアクセスポリシーに移行されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Global administrators、AI administrators、Viva Insights administrators向けにロール割り当てと権限を統合した新しいAccess Managementエクスペリエンスを提供&lt;/li&gt;&lt;li&gt;権限セット（ユーザーの操作権限）とパーティション（閲覧可能な人口統計とデータセット）を組み合わせたアクセスポリシーの作成が可能&lt;/li&gt;&lt;li&gt;アクセスポリシーの割り当て先として、個別のユーザー、Microsoft Entraセキュリティグループ、組織属性（グループマネージャー向け）を指定可能&lt;/li&gt;&lt;li&gt;既存のロール割り当ては継続して機能し、ユーザーは自動的にシステム定義のアクセスポリシーへ移行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578862"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-1 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-1</link>
+      <guid isPermaLink="false">github-copilot-cli-458774378</guid>
+      <pubDate>Wed, 25 Nov 2026 23:48:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-1 がリリースされました。モデル選択画面でのサービス通知や廃止予定モデルの表示対応のほか、プロバイダー切り替え時のエラー表示、自動コンパクト後のセッションチェックポイント通知の修正、Linux環境でのキーボード入力の復旧など、複数の改善と不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/model ピッカーにサービス通知と廃止予定モデルの警告が表示されるように改善&lt;/li&gt;&lt;li&gt;リポジトリが利用不可能なプロバイダーのモデルを指定した場合に、サイレント切り替えを行わずエラーを表示するように修正&lt;/li&gt;&lt;li&gt;自動コンパクト後、チェックポイントが保存された場合のみ新しいセッションチェックポイントを通知するように修正&lt;/li&gt;&lt;li&gt;現在のセッションでフォルダを信頼した際、MCPサーバーの再読み込みを1回にし、単一の再読み込みサマリーを表示するように修正&lt;/li&gt;&lt;li&gt;Linuxにおいて、`$`で開いたインタラクティブシェルが終了した後にCopilotがキーボード入力を再度受け付けるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>GitHub Copilot CLI</category>
-      <category>Pre-release</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Copilotコードレビューの課金設定が組織負担へデフォルト変更</title>
+      <link>https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization</link>
+      <guid isPermaLink="false">github-changelog-69c0601d70f93f1e53f8</guid>
+      <pubDate>Wed, 25 Nov 2026 22:18:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilotライセンスを持つメンバーに対するCopilotコードレビューの課金方法が未設定の場合、2026年12月30日より組織に請求されるようデフォルトで変更されます。管理者は必要に応じて設定を確認および変更することができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;未設定の場合、Copilotコードレビューの費用が組織に請求されるようになります&lt;/li&gt;&lt;li&gt;変更の適用開始日は2026年12月30日です&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-0 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-0</link>
+      <guid isPermaLink="false">github-copilot-cli-458663444</guid>
+      <pubDate>Wed, 25 Nov 2026 21:21:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-0 がリリースされました。カスタムエージェント向けの明示的なツール公開機能の追加に加え、セッションの再開、権限管理、MCPツールキャッシュ、サンドボックスポリシーなどに関する複数の修正と改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムエージェントがツールを選択的に利用できるようにするため、明示的なツール公開機能を追加&lt;/li&gt;&lt;li&gt;GitHubサインイン処理中にCLIセッションを再開した際の、接続済みCopilot Connectorsの読み込みを修正&lt;/li&gt;&lt;li&gt;CLIの再起動とセッション再開後もバックグラウンドエージェントが会話を継続できるように修正&lt;/li&gt;&lt;li&gt;フォルダ信頼プロンプトでEnterキーを複数回押した際、拡張機能の過剰な再起動ではなく1度だけプラグインを再読み込みするように改善&lt;/li&gt;&lt;li&gt;Assisted Permissionsでのシェルコマンドの再試行、Autopilotの動作、プランモード時の権限確認に関する挙動を改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>

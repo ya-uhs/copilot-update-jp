@@ -5,9 +5,59 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 19:41:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 03:56:13 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-2のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-2</link>
+      <guid isPermaLink="false">github-copilot-cli-458857519</guid>
+      <pubDate>Thu, 26 Nov 2026 02:03:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-2がリリースされました。拡張機能の読み込み動作の修正やビルトイン検索の安定性向上、共有セッションの再開機能の改善、PowerShellフックでの終了コードの保持が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;copilot help extensionsコマンドのメッセージを修正し、拡張機能の起動条件を正確に反映させるようにしました。&lt;/li&gt;&lt;li&gt;Copilotがフラグやパスのリストをテキストとして送信した際、ビルトイン検索が失敗する不具合を修正しました。&lt;/li&gt;&lt;li&gt;選択されたモデルが利用できない場合でも共有セッションを再開できるようにし、/modelコマンドで別のモデルを選択可能にしました。&lt;/li&gt;&lt;li&gt;Windows環境のPowerShellフックでネイティブプログラムの終了コードを保持するように修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-2"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Viva: Copilot Analytics のアクセス管理機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578862</link>
+      <guid isPermaLink="false">m365-roadmap-4f73048acffc57b03afe</guid>
+      <pubDate>Thu, 26 Nov 2026 00:16:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;管理者は、Microsoft Viva InsightsのCopilot Analyticsにおけるアクセス権限やユーザーの操作権限を製品内で直接管理できるようになりました。ロール割り当てとアクセス権限が1つの管理画面に統合され、管理者はユーザーの役割とデータ範囲を組み合わせたアクセスポリシーを作成できます。既存のロール割り当てはそのまま維持され、ユーザーは自動的にシステム定義のアクセスポリシーに移行されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Global administrators、AI administrators、Viva Insights administrators向けにロール割り当てと権限を統合した新しいAccess Managementエクスペリエンスを提供&lt;/li&gt;&lt;li&gt;権限セット（ユーザーの操作権限）とパーティション（閲覧可能な人口統計とデータセット）を組み合わせたアクセスポリシーの作成が可能&lt;/li&gt;&lt;li&gt;アクセスポリシーの割り当て先として、個別のユーザー、Microsoft Entraセキュリティグループ、組織属性（グループマネージャー向け）を指定可能&lt;/li&gt;&lt;li&gt;既存のロール割り当ては継続して機能し、ユーザーは自動的にシステム定義のアクセスポリシーへ移行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578862"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-1 の更新情報</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-1</link>
+      <guid isPermaLink="false">github-copilot-cli-458774378</guid>
+      <pubDate>Wed, 25 Nov 2026 23:48:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-1 がリリースされました。モデル選択画面でのサービス通知や廃止予定モデルの表示対応のほか、プロバイダー切り替え時のエラー表示、自動コンパクト後のセッションチェックポイント通知の修正、Linux環境でのキーボード入力の復旧など、複数の改善と不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/model ピッカーにサービス通知と廃止予定モデルの警告が表示されるように改善&lt;/li&gt;&lt;li&gt;リポジトリが利用不可能なプロバイダーのモデルを指定した場合に、サイレント切り替えを行わずエラーを表示するように修正&lt;/li&gt;&lt;li&gt;自動コンパクト後、チェックポイントが保存された場合のみ新しいセッションチェックポイントを通知するように修正&lt;/li&gt;&lt;li&gt;現在のセッションでフォルダを信頼した際、MCPサーバーの再読み込みを1回にし、単一の再読み込みサマリーを表示するように修正&lt;/li&gt;&lt;li&gt;Linuxにおいて、`$`で開いたインタラクティブシェルが終了した後にCopilotがキーボード入力を再度受け付けるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>Copilotコードレビューの課金設定が組織負担へデフォルト変更</title>
+      <link>https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization</link>
+      <guid isPermaLink="false">github-changelog-69c0601d70f93f1e53f8</guid>
+      <pubDate>Wed, 25 Nov 2026 22:18:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilotライセンスを持つメンバーに対するCopilotコードレビューの課金方法が未設定の場合、2026年12月30日より組織に請求されるようデフォルトで変更されます。管理者は必要に応じて設定を確認および変更することができます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;未設定の場合、Copilotコードレビューの費用が組織に請求されるようになります&lt;/li&gt;&lt;li&gt;変更の適用開始日は2026年12月30日です&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot</category>
+      <category>unknown</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-0 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-0</link>
+      <guid isPermaLink="false">github-copilot-cli-458663444</guid>
+      <pubDate>Wed, 25 Nov 2026 21:21:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-0 がリリースされました。カスタムエージェント向けの明示的なツール公開機能の追加に加え、セッションの再開、権限管理、MCPツールキャッシュ、サンドボックスポリシーなどに関する複数の修正と改善が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムエージェントがツールを選択的に利用できるようにするため、明示的なツール公開機能を追加&lt;/li&gt;&lt;li&gt;GitHubサインイン処理中にCLIセッションを再開した際の、接続済みCopilot Connectorsの読み込みを修正&lt;/li&gt;&lt;li&gt;CLIの再起動とセッション再開後もバックグラウンドエージェントが会話を継続できるように修正&lt;/li&gt;&lt;li&gt;フォルダ信頼プロンプトでEnterキーを複数回押した際、拡張機能の過剰な再起動ではなく1度だけプラグインを再読み込みするように改善&lt;/li&gt;&lt;li&gt;Assisted Permissionsでのシェルコマンドの再試行、Autopilotの動作、プランモード時の権限確認に関する挙動を改善&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.116</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.116</link>
@@ -1957,56 +2007,6 @@
       <category>Dynamics 365 Contact Center</category>
       <category>Roadmap</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Journey Creation Agentによる素早いジャーニー作成</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577418</link>
-      <guid isPermaLink="false">m365-roadmap-d4a27daeb3b279d49f61</guid>
-      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Insights - JourneysにJourney Creation Agentが導入されます。ユーザーは日常的な言葉で説明するだけで、AIを活用したガイド付きエクスペリエンスを通じて、数分でジャーニーを作成できるようになります。エージェントが目標を解釈し、適切なフォローアップの質問を行って意図を洗練させます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;日常的な言葉を用いた自然言語によるジャーニー作成機能の追加&lt;/li&gt;&lt;li&gt;AIを活用したガイド付きエクスペリエンスによる最適化された結果の提供&lt;/li&gt;&lt;li&gt;複雑な設定や技術的な専門用語を必要とせず、数分でジャーニーを構築可能&lt;/li&gt;&lt;li&gt;エージェントによる目標の解釈と、精度を高めるための関連するフォローアップ質問の実施&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577418"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Customer Insights - Journeys: Outreach Optimization Agentによるエンゲージメントとメッセージ配信タイミングの改善</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577417</link>
-      <guid isPermaLink="false">m365-roadmap-385e6a2993be3fbec6b1</guid>
-      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Customer Insights - JourneysにOutreach Optimization Agentが追加されます。このエージェントは、過去のエンゲージメントパターンに基づいてスマートなベースラインプランを作成し、リアルタイムの反応に応じてメッセージのタイミングや頻度を自動調整します。また、承認された通信時間外の送信を防ぐクワイエットタイムの設定を厳格に適用します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;過去のエンゲージメントパターンを分析し、インテリジェントなベースラインのメッセージングプランを自動作成する機能の追加&lt;/li&gt;&lt;li&gt;受信するインタラクションを継続的に監視し、フォローアップのタイミングや頻度をリアルタイムで調整、またはプランを終了する機能の追加&lt;/li&gt;&lt;li&gt;承認された通信時間外にメッセージが送信されないよう、クワイエットタイム設定をハード制約として適用する機能の追加&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577417"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Commerce: Copilot Coworkによるコマースレシートフォーマットの作成</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577405</link>
-      <guid isPermaLink="false">m365-roadmap-8ab05acf7c33214306bc</guid>
-      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilot Coworkにおいて自然言語を使用して、Dynamics 365 Commerceの本部にある既存フォーマットを活用したレシートレイアウトの作成、更新、翻訳、確認が行えるようになります。Store CommerceのPOSで使用されるレシートフォーマットが対象となり、認可されたユーザーは自然言語の指示を通じてレイアウトを操作できます。プレビューは2026年10月に開始され、一般提供（GA）は2026年12月を予定しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語によるレシートフォーマットの新規作成および既存フォーマットの変更が可能&lt;/li&gt;&lt;li&gt;ヘッダー、行、フッターの内容、フィールド位置、配置、フォーマットの編集に対応&lt;/li&gt;&lt;li&gt;動的フィールドを維持したまま、静的ラベルの翻訳やテキストの追加が可能&lt;/li&gt;&lt;li&gt;レイアウトの構造的または幾何学的チェックを行い、重なりや幅の違反などを特定して修正案を提示&lt;/li&gt;&lt;li&gt;保存された設定を再読み込みして更新内容の確認が可能&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577405"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Microsoft Teams：会議における Copilot および AI コントロールの強化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577399</link>
-      <guid isPermaLink="false">m365-roadmap-a2252d97ff8e1fa743d0</guid>
-      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Teamsの会議向けに、CopilotとAI体験に関するコントロール機能が強化されます。会議の主催者はAIの有効化とアクセス権を管理でき、IT管理者は会議中および会議後のAIを統制するためのシンプルなポリシーモデルを利用できるようになります。これらのアップデートにより、予測可能な管理と、コンプライアンスやガバナンスにおける柔軟性が向上します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;主催者によるAIの有効化とアクセス権の管理機能の提供&lt;/li&gt;&lt;li&gt;IT管理者向けの、会議および会議後におけるAI統制用シンプルポリシーモデルの導入&lt;/li&gt;&lt;li&gt;予測可能な管理体制と、コンプライアンスおよびガバナンスシナリオにおける柔軟性の向上&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577399"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] TeamsおよびLMSの課題におけるCopilotスタータープロンプトの提供</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577173</link>
-      <guid isPermaLink="false">m365-roadmap-20dd090c7ef2077af3ab</guid>
-      <pubDate>Thu, 22 Oct 2026 22:58:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;教育者は、Microsoft TeamsやLMS（学習管理システム）の課題において、Student AI GuidelinesからCopilotのスタータープロンプトを提供できるようになります。これにより、学生は教育者が用意した課題に合わせた指示があらかじめ入力された状態のチャットでCopilotを開くことが可能になります。本機能は2026年10月にプレビュー版が提供され、2026年11月に一般提供（GA）が予定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;教育者がTeamsおよびLMSの課題でCopilotスタータープロンプトを提供可能になる&lt;/li&gt;&lt;li&gt;学生が課題に合わせた指示があらかじめ入力された状態でCopilotを開けるようになる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577173"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

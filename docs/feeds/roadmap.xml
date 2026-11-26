@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 04:46:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 03:56:13 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/roadmap.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>[提供予定・ロードマップ] Microsoft Viva: Copilot Analytics のアクセス管理機能</title>
+      <link>https://www.microsoft.com/microsoft-365/roadmap?id=578862</link>
+      <guid isPermaLink="false">m365-roadmap-4f73048acffc57b03afe</guid>
+      <pubDate>Thu, 26 Nov 2026 00:16:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;管理者は、Microsoft Viva InsightsのCopilot Analyticsにおけるアクセス権限やユーザーの操作権限を製品内で直接管理できるようになりました。ロール割り当てとアクセス権限が1つの管理画面に統合され、管理者はユーザーの役割とデータ範囲を組み合わせたアクセスポリシーを作成できます。既存のロール割り当てはそのまま維持され、ユーザーは自動的にシステム定義のアクセスポリシーに移行されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Global administrators、AI administrators、Viva Insights administrators向けにロール割り当てと権限を統合した新しいAccess Managementエクスペリエンスを提供&lt;/li&gt;&lt;li&gt;権限セット（ユーザーの操作権限）とパーティション（閲覧可能な人口統計とデータセット）を組み合わせたアクセスポリシーの作成が可能&lt;/li&gt;&lt;li&gt;アクセスポリシーの割り当て先として、個別のユーザー、Microsoft Entraセキュリティグループ、組織属性（グループマネージャー向け）を指定可能&lt;/li&gt;&lt;li&gt;既存のロール割り当ては継続して機能し、ユーザーは自動的にシステム定義のアクセスポリシーへ移行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578862"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Microsoft 365 Copilot</category>
+      <category>Roadmap</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>[提供予定・ロードマップ] Dynamics 365 Human Resources: 新入社員向けエージェント型オンボーディング機能</title>
       <link>https://www.microsoft.com/microsoft-365/roadmap?id=581772</link>
@@ -997,16 +1007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Finance and Operations クロスアプリ: Copilotで生産性を向上</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=576838</link>
-      <guid isPermaLink="false">m365-roadmap-55d1e62287c7bfd29ffd</guid>
-      <pubDate>Fri, 16 Oct 2026 19:09:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365のfinance and operationsアプリ向けにCopilot Coworkプラグインが提供されます。ユーザーはビジネスの意図に基づいて、ERPデータやMicrosoft 365のデータソースを横断したワークフローの調整や洞察の生成、次のアクションの実行が可能になります。これにより、手動での調整削減や意思決定の迅速化が期待されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ERPデータ、メール、ドキュメント、スプレッドシート、コラボレーションツールを横断したワークフローのオーケストレーション&lt;/li&gt;&lt;li&gt;ビジネスデータの分析とコンテキストに応じた洞察の生成&lt;/li&gt;&lt;li&gt;財務、オペレーション、サプライチェーンの各ドメインにわたる推論と推奨事項の作成&lt;/li&gt;&lt;li&gt;人間の関与を維持しながらのアクション実行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=576838"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
     </item>
   </channel>
 </rss>

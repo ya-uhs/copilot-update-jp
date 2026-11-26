@@ -1,5 +1,151 @@
 [
   {
+    "id": "github-copilot-cli-458857519",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.117-2",
+    "published_at": "2026-11-26T02:03:04Z",
+    "title_original": "GitHub Copilot CLI v1.0.117-2",
+    "excerpt_original": "**Fixed** - `copilot help extensions` no longer says your own and plugin extensions load with -p; an extension starts there only if its launch is already approved, by --allow-all-tools or --yolo or by an approval saved earlier - Built-in searches no longer fail when Copilot sends flags such as line numbers and result limits, or a list of paths, as text. - Resume shared sessions even when their selected model is unavailable, so you can choose a different model with /model. - PowerShell hooks on Windows preserve native program exit codes, so exit code 2 is treated as a warning or denial rather than a hook failure.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.117-2のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.117-2がリリースされました。拡張機能の読み込み動作の修正やビルトイン検索の安定性向上、共有セッションの再開機能の改善、PowerShellフックでの終了コードの保持が含まれています。",
+    "changes": [
+      "copilot help extensionsコマンドのメッセージを修正し、拡張機能の起動条件を正確に反映させるようにしました。",
+      "Copilotがフラグやパスのリストをテキストとして送信した際、ビルトイン検索が失敗する不具合を修正しました。",
+      "選択されたモデルが利用できない場合でも共有セッションを再開できるようにし、/modelコマンドで別のモデルを選択可能にしました。",
+      "Windows環境のPowerShellフックでネイティブプログラムの終了コードを保持するように修正しました。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:04Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-26T03:56:00Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "m365-roadmap-4f73048acffc57b03afe",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=578862",
+    "published_at": "2026-11-26T00:16:54Z",
+    "title_original": "[Roadmap] Microsoft Viva: Access Management for Copilot Analytics",
+    "excerpt_original": "Admins can now manage who has access to Viva Insights - Copilot Analytics, and what they can do, directly in the product. The new Access Management experience brings role assignment and permissions into one place for Global administrators, AI administrators and Viva Insights administrators, instead of managing access across Viva Feature Access Management (VFAM) settings in the Microsoft 365 admin center and in-product Manager Settings. Admins create access policies that combine a permission set, which defines what users can do, with a partition, which defines the population and datasets users can see. Policies can be assigned to individual users, Microsoft Entra security groups or, for group managers, organizational attributes. Existing role assignments continue to work, and users are automatically moved to system-defined access policies. GA date: January CY2027",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Viva: Copilot Analytics のアクセス管理機能",
+    "summary_ja": "管理者は、Microsoft Viva InsightsのCopilot Analyticsにおけるアクセス権限やユーザーの操作権限を製品内で直接管理できるようになりました。ロール割り当てとアクセス権限が1つの管理画面に統合され、管理者はユーザーの役割とデータ範囲を組み合わせたアクセスポリシーを作成できます。既存のロール割り当てはそのまま維持され、ユーザーは自動的にシステム定義のアクセスポリシーに移行されます。",
+    "changes": [
+      "Global administrators、AI administrators、Viva Insights administrators向けにロール割り当てと権限を統合した新しいAccess Managementエクスペリエンスを提供",
+      "権限セット（ユーザーの操作権限）とパーティション（閲覧可能な人口統計とデータセット）を組み合わせたアクセスポリシーの作成が可能",
+      "アクセスポリシーの割り当て先として、個別のユーザー、Microsoft Entraセキュリティグループ、組織属性（グループマネージャー向け）を指定可能",
+      "既存のロール割り当ては継続して機能し、ユーザーは自動的にシステム定義のアクセスポリシーへ移行"
+    ],
+    "target_user": [
+      "Global administrators",
+      "AI administrators",
+      "Viva Insights administrators",
+      "Admins"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:07Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-26T03:56:04Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-458774378",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.117-1",
+    "published_at": "2026-11-25T23:48:58Z",
+    "title_original": "GitHub Copilot CLI v1.0.117-1",
+    "excerpt_original": "**Improved** - The /model picker shows service notices and marks retiring models so you can see warnings before choosing a model. **Fixed** - Show an error instead of silently switching providers when a repository pins a model to an unavailable provider. - Only announce a new session checkpoint after automatic compaction if the checkpoint was saved. - Trusting a folder for the current session reloads MCP servers once and shows a single reload summary. - On Linux, Copilot accepts keyboard input again if the interactive shell opened with `$` is killed. - Subagents respect the tool list in their custom agent file, even when the file has no prompt.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.117-1 の更新情報",
+    "summary_ja": "GitHub Copilot CLI v1.0.117-1 がリリースされました。モデル選択画面でのサービス通知や廃止予定モデルの表示対応のほか、プロバイダー切り替え時のエラー表示、自動コンパクト後のセッションチェックポイント通知の修正、Linux環境でのキーボード入力の復旧など、複数の改善と不具合修正が含まれています。",
+    "changes": [
+      "/model ピッカーにサービス通知と廃止予定モデルの警告が表示されるように改善",
+      "リポジトリが利用不可能なプロバイダーのモデルを指定した場合に、サイレント切り替えを行わずエラーを表示するように修正",
+      "自動コンパクト後、チェックポイントが保存された場合のみ新しいセッションチェックポイントを通知するように修正",
+      "現在のセッションでフォルダを信頼した際、MCPサーバーの再読み込みを1回にし、単一の再読み込みサマリーを表示するように修正",
+      "Linuxにおいて、`$`で開いたインタラクティブシェルが終了した後にCopilotがキーボード入力を再度受け付けるように修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:09Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-26T03:56:07Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-changelog-69c0601d70f93f1e53f8",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+    "published_at": "2026-11-25T22:18:03Z",
+    "title_original": "Copilot code review billing will default to the organization",
+    "excerpt_original": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "Copilotコードレビューの課金設定が組織負担へデフォルト変更",
+    "summary_ja": "Copilotライセンスを持つメンバーに対するCopilotコードレビューの課金方法が未設定の場合、2026年12月30日より組織に請求されるようデフォルトで変更されます。管理者は必要に応じて設定を確認および変更することができます。",
+    "changes": [
+      "未設定の場合、Copilotコードレビューの費用が組織に請求されるようになります",
+      "変更の適用開始日は2026年12月30日です"
+    ],
+    "target_user": [
+      "organization administrators",
+      "organization owners"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:11Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-26T03:56:09Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-458663444",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.117-0",
+    "published_at": "2026-11-25T21:21:51Z",
+    "title_original": "GitHub Copilot CLI v1.0.117-0",
+    "excerpt_original": "**Added** - Add explicit tool exposure so custom agents can opt in to tools **Fixed** - Load connected Copilot Connectors when resuming a CLI session while GitHub sign-in is still finishing. - Background agents can continue their conversations after restarting the CLI and resuming a session - Pressing Enter more than once on the folder trust prompt trusts the folder and reloads plugins once, instead of restarting every extension for each extra key press - Subagent details in /tasks show the reasoning effort the agent uses when the requested level isn't supported. - Running tasks in `/tasks` stay on one line and keep their spinners visible in narrow terminals. - Successful non-interactive CLI runs exit with code 0 when a session write fails temporarily but the final save succeeds. - Remove extra blank lines below wrapped text in narrow terminals, including task descriptions and IDs in /tasks. - Keep the MCP tool cache disabled across reloads when `COPILOT_MCP_TOOL_CACHE=false`, so Copilot neither reads nor writes tool snapshots. - `/sandbox policy` identifies grants that point to broken symlinks and warns that they can prevent sandboxed commands from starting. - Permission prompts and help clarify which approvals stay in effect when you resume the same session. - Assisted Permissions no longer denies a shell command retry as a duplicate solely because the previous attempt ran and failed. - Autopilot with Assisted Permissions can retry an automatically denied action once if you ask for it in a later chat message. The retry still goes through permission review. - In plan mode, Assisted Permissions asks before actions like creating a Git branch or installing packages instead of automatically approving them before you approve the plan. - --trust-folder from a subdirectory no longer runs the repository root's hooks when --add-dir names a folder in the same repository, including the root itself",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.117-0 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.117-0 がリリースされました。カスタムエージェント向けの明示的なツール公開機能の追加に加え、セッションの再開、権限管理、MCPツールキャッシュ、サンドボックスポリシーなどに関する複数の修正と改善が含まれています。",
+    "changes": [
+      "カスタムエージェントがツールを選択的に利用できるようにするため、明示的なツール公開機能を追加",
+      "GitHubサインイン処理中にCLIセッションを再開した際の、接続済みCopilot Connectorsの読み込みを修正",
+      "CLIの再起動とセッション再開後もバックグラウンドエージェントが会話を継続できるように修正",
+      "フォルダ信頼プロンプトでEnterキーを複数回押した際、拡張機能の過剰な再起動ではなく1度だけプラグインを再読み込みするように改善",
+      "Assisted Permissionsでのシェルコマンドの再試行、Autopilotの動作、プランモード時の権限確認に関する挙動を改善"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:13Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-26T03:56:11Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-458394773",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116",

@@ -1,5 +1,34 @@
 [
   {
+    "id": "github-copilot-cli-458394773",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116",
+    "published_at": "2026-11-25T17:03:13Z",
+    "title_original": "GitHub Copilot CLI v1.0.116",
+    "excerpt_original": "2026-11-25 - Add a build-time JSON Schema for extension manifests - Click \"Jump to latest\" in the fullscreen timeline to return to the newest output and resume following it. - Choose the context size for supported models in ACP-compatible editors without changing your saved defaults. - Set environment variables for every process Copilot starts (shell commands, local LSP and MCP servers, hooks and extensions) with the env setting, with or without the sandbox - Warn when a plugin and a standalone MCP server connect to the same endpoint, and show how to disable one in /mcp - Warn when a plugin and a standalone MCP server connect to the same endpoint, and show how to disable one in /mcp - `copilot help parallel-work` no longer says approving a plan can offer to continue in Autopilot with /fleet; plan approval no longer offers that choice - Shell approval prompts in ACP clients show the command you're authorizing instead of its description. - Configured HTTP hooks still run when TERM_PROGRAM contains invalid characters, so an invalid terminal name no longer blocks tool calls. - /rewind reports files it cannot restore because a turn exceeded the file capture limit - Keep Incoming connections settings in /environments on one line per row in narrow terminals, including in screen-reader mode - PowerShell commands with digits in a parameter name, such as -n1 or -ExpectedSha256, honor allow rules again instead of requiring full-script approval. - Choosing \"Yes\" in the folder trust prompt closes it without waiting for MCP servers to finish reconnecting - Allow Swift tools in the Copilot CLI sandbox to write to the compiler module cache and SwiftPM shared cache on macOS and Linux. - A prompt passed with -i, a repository startup prompt or a restored schedule now waits for the MCP servers that trusting the folder starts, for up to 30 seconds, so its first request includes their tools - Show the selected preview model's name in /model switch notices and /exit print when settings.json is empty. - Sub-agent events in a session's event log now record when they happened (`occurredAt`), not only when they reached the main session. - Search falls back to ripgrep when another Copilot profile owns the repository's active index. On Windows, search helpers no longer use profile folders as their working directory. - Switching models before your first prompt now skips compaction and completes successfully - Assisted Permissions honors later chat approvals or withdrawals of earlier permission decisions, including session approvals - Keep your place when reading older output in the terminal while a large reply arrives. - Open the link when clicking anywhere on linked inline code or color swatches, including their shaded edges. - Keep the selected MCP servers or Skills view visible in /config on very narrow terminals. - Gemini reasoning summaries honor your saved visibility preference, and Ctrl+T shows or hides them and saves your choice. - Built-in search keeps full filenames and correct line numbers when compacting matches from files with numeric suffixes. - `/worktree` and `/move` preserve Git diagnostics when branch names, paths, or hook output contain HTML-like text. - Cancel pending prompts without waiting for activity to refresh, and avoid showing idle sessions as busy after reconnecting to a host. - On Unix, canceled foreground shell commands can finish cleanup even if they write to stdout or stderr during shutdown. - Prevent repeated sign-in prompts when multiple CLI sessions refresh access to the same MCP server. - The Ctrl+Y hint no longer stays hidden when a research report is created while the CLI starts watching for reports. - Reduce memory growth in long sessions: text measurement caches kept a full copy of each streamed reply, which could exhaust the JavaScript heap. - Keep the highlighted theme and its description readable in narrow terminals when screen-reader mode is on. - Cancel pending prompts without waiting for activity to refresh, and avoid showing idle sessions as busy after reconnecting to a host. - On Unix, canceled foreground shell commands can finish cleanup even if they write to stdout or stderr during shutdown. - Reduce memory growth in long sessions: text measurement caches kept a full copy of each streamed reply, which could exhaust the JavaScript heap. - Keep the highlighted theme and its description readable in narrow terminals when screen-reader mode is on. - `copilot help billing` no longer says `--usage-output-file` writes an `agentMetrics` entry for each subagent; entries are per agent name, summed over its runs with `invocationCount` - `/restart` keeps the custom agent chosen with `/agent`, or no agent after deselecting one, instead of switching back to the agent given with `--agent` at launch. - Load workspace MCP servers from `.mcp.json` and `.github/mcp.json` even when those files contain comments or trailing commas - Reduce delays before the final answer on long Copilot Fusion turns when progress updates pile up. - Sandboxed shell commands can read the session plan without prompting you to bypass the sandbox. - Preserve text styling such as bold, italics, and underlines after /restart when NO_COLOR is set, without re-enabling color. - Keep the Home tab bar visible when a draft wraps in a short terminal. - Copilot CLI starts normally when settings contain large integers, and `/settings show` displays their exact values without rounding. - Keep /mcp search usable when a registry result has a missing or invalid description - Pressing Escape cancels push-to-talk without restarting the microphone or inserting a transcript afterward - `/diff` shows the patch for a small file or symlink that replaces a directory with many tracked files instead of incorrectly reporting it as too large. - Prevent editor shortcuts pressed while submitting /exit or /quit from opening an editor when the CLI quits - `--log-dir` puts extension process logs in the same directory as the CLI process log. - Closed background sessions appear as saved in the Sessions tab and reopen with their conversation history when you press Enter. - Pressing Ctrl+C to cancel a running queued extension command shows a cancellation notice without a misleading failure message. - Keep shell output on separate lines in the interactive CLI when it contains an unterminated terminal control sequence - `/init suppress` keeps init suggestions hidden in repositories where you suppressed them from another CLI session using the same profile. - The Sessions browser now lists cloud sessions beyond the first page. - Bun commands can use their caches and read their configuration in the CLI sandbox when developer tool access is enabled. - Honor `--effort none` on the first request with GPT-5.4 instead of falling back to medium reasoning effort. - Resuming a session no longer attributes an automatic Assisted Permissions denial to you. - Skip individual slow-connection and sign-in warnings for organization-managed MCP servers (except Connectors) and flag their sign-in needs in the startup summary. - Summarize MCP server status at startup when attention is needed, and wait for /mcp auth <name> before opening a browser for initial sign-in. - Experimental extensions use Enabled/Disabled controls. Existing Load Only settings migrate to disabled with a one-time notice. - When the sandbox blocks a command, Copilot now stops and, if your policy allows it, says you could disable the sandbox for the session, instead of asking you to hand execution back - Assisted Permissions resolves routine requests faster on eligible plans and gives more specific reasons when it asks for approval - Plan approval no longer offers the fleet option. You can still start fleet mode with /fleet.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.116",
+    "summary_ja": "GitHub Copilot CLI v1.0.116がリリースされ、拡張機能マニフェスト用のビルド時JSON Schemaの追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、サンドボックス設定における環境変数の追加、重複するMCPサーバー接続の警告、各種パフォーマンスおよび安定性の改善が含まれています。",
+    "changes": [
+      "拡張機能マニフェスト用のビルド時JSON Schemaを追加",
+      "ACP互換エディタで保存済みのデフォルトを変更せずにサポートモデルのコンテキストサイズを選択可能に",
+      "env設定を使用してCopilotが起動するすべてのプロセスに環境変数を設定可能に",
+      "プラグインとスタンドアロンのMCPサーバーが同じエンドポイントに接続した場合の警告表示機能を追加",
+      "長期セッションにおけるテキスト測定キャッシュのメモリ肥大化を抑制"
+    ],
+    "target_user": [
+      "Developer",
+      "Administrator"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-25T19:41:36Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-25T19:41:35Z"
+  },
+  {
     "id": "vscode-5c360d4dec9f23f964dc",
     "source": "VS Code Release Notes",
     "source_url": "https://code.visualstudio.com/updates/v1_148",
@@ -13391,32 +13420,144 @@
     "translation_attempted_at": "2026-09-29T10:23:55Z"
   },
   {
-    "id": "github-copilot-cli-458394773",
-    "source": "GitHub Copilot CLI Releases",
-    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.116",
-    "published_at": "2026-11-25T17:03:13Z",
-    "title_original": "GitHub Copilot CLI v1.0.116",
-    "excerpt_original": "2026-11-25 - Add a build-time JSON Schema for extension manifests - Click \"Jump to latest\" in the fullscreen timeline to return to the newest output and resume following it. - Choose the context size for supported models in ACP-compatible editors without changing your saved defaults. - Set environment variables for every process Copilot starts (shell commands, local LSP and MCP servers, hooks and extensions) with the env setting, with or without the sandbox - Warn when a plugin and a standalone MCP server connect to the same endpoint, and show how to disable one in /mcp - Warn when a plugin and a standalone MCP server connect to the same endpoint, and show how to disable one in /mcp - `copilot help parallel-work` no longer says approving a plan can offer to continue in Autopilot with /fleet; plan approval no longer offers that choice - Shell approval prompts in ACP clients show the command you're authorizing instead of its description. - Configured HTTP hooks still run when TERM_PROGRAM contains invalid characters, so an invalid terminal name no longer blocks tool calls. - /rewind reports files it cannot restore because a turn exceeded the file capture limit - Keep Incoming connections settings in /environments on one line per row in narrow terminals, including in screen-reader mode - PowerShell commands with digits in a parameter name, such as -n1 or -ExpectedSha256, honor allow rules again instead of requiring full-script approval. - Choosing \"Yes\" in the folder trust prompt closes it without waiting for MCP servers to finish reconnecting - Allow Swift tools in the Copilot CLI sandbox to write to the compiler module cache and SwiftPM shared cache on macOS and Linux. - A prompt passed with -i, a repository startup prompt or a restored schedule now waits for the MCP servers that trusting the folder starts, for up to 30 seconds, so its first request includes their tools - Show the selected preview model's name in /model switch notices and /exit print when settings.json is empty. - Sub-agent events in a session's event log now record when they happened (`occurredAt`), not only when they reached the main session. - Search falls back to ripgrep when another Copilot profile owns the repository's active index. On Windows, search helpers no longer use profile folders as their working directory. - Switching models before your first prompt now skips compaction and completes successfully - Assisted Permissions honors later chat approvals or withdrawals of earlier permission decisions, including session approvals - Keep your place when reading older output in the terminal while a large reply arrives. - Open the link when clicking anywhere on linked inline code or color swatches, including their shaded edges. - Keep the selected MCP servers or Skills view visible in /config on very narrow terminals. - Gemini reasoning summaries honor your saved visibility preference, and Ctrl+T shows or hides them and saves your choice. - Built-in search keeps full filenames and correct line numbers when compacting matches from files with numeric suffixes. - `/worktree` and `/move` preserve Git diagnostics when branch names, paths, or hook output contain HTML-like text. - Cancel pending prompts without waiting for activity to refresh, and avoid showing idle sessions as busy after reconnecting to a host. - On Unix, canceled foreground shell commands can finish cleanup even if they write to stdout or stderr during shutdown. - Prevent repeated sign-in prompts when multiple CLI sessions refresh access to the same MCP server. - The Ctrl+Y hint no longer stays hidden when a research report is created while the CLI starts watching for reports. - Reduce memory growth in long sessions: text measurement caches kept a full copy of each streamed reply, which could exhaust the JavaScript heap. - Keep the highlighted theme and its description readable in narrow terminals when screen-reader mode is on. - Cancel pending prompts without waiting for activity to refresh, and avoid showing idle sessions as busy after reconnecting to a host. - On Unix, canceled foreground shell commands can finish cleanup even if they write to stdout or stderr during shutdown. - Reduce memory growth in long sessions: text measurement caches kept a full copy of each streamed reply, which could exhaust the JavaScript heap. - Keep the highlighted theme and its description readable in narrow terminals when screen-reader mode is on. - `copilot help billing` no longer says `--usage-output-file` writes an `agentMetrics` entry for each subagent; entries are per agent name, summed over its runs with `invocationCount` - `/restart` keeps the custom agent chosen with `/agent`, or no agent after deselecting one, instead of switching back to the agent given with `--agent` at launch. - Load workspace MCP servers from `.mcp.json` and `.github/mcp.json` even when those files contain comments or trailing commas - Reduce delays before the final answer on long Copilot Fusion turns when progress updates pile up. - Sandboxed shell commands can read the session plan without prompting you to bypass the sandbox. - Preserve text styling such as bold, italics, and underlines after /restart when NO_COLOR is set, without re-enabling color. - Keep the Home tab bar visible when a draft wraps in a short terminal. - Copilot CLI starts normally when settings contain large integers, and `/settings show` displays their exact values without rounding. - Keep /mcp search usable when a registry result has a missing or invalid description - Pressing Escape cancels push-to-talk without restarting the microphone or inserting a transcript afterward - `/diff` shows the patch for a small file or symlink that replaces a directory with many tracked files instead of incorrectly reporting it as too large. - Prevent editor shortcuts pressed while submitting /exit or /quit from opening an editor when the CLI quits - `--log-dir` puts extension process logs in the same directory as the CLI process log. - Closed background sessions appear as saved in the Sessions tab and reopen with their conversation history when you press Enter. - Pressing Ctrl+C to cancel a running queued extension command shows a cancellation notice without a misleading failure message. - Keep shell output on separate lines in the interactive CLI when it contains an unterminated terminal control sequence - `/init suppress` keeps init suggestions hidden in repositories where you suppressed them from another CLI session using the same profile. - The Sessions browser now lists cloud sessions beyond the first page. - Bun commands can use their caches and read their configuration in the CLI sandbox when developer tool access is enabled. - Honor `--effort none` on the first request with GPT-5.4 instead of falling back to medium reasoning effort. - Resuming a session no longer attributes an automatic Assisted Permissions denial to you. - Skip individual slow-connection and sign-in warnings for organization-managed MCP servers (except Connectors) and flag their sign-in needs in the startup summary. - Summarize MCP server status at startup when attention is needed, and wait for /mcp auth <name> before opening a browser for initial sign-in. - Experimental extensions use Enabled/Disabled controls. Existing Load Only settings migrate to disabled with a one-time notice. - When the sandbox blocks a command, Copilot now stops and, if your policy allows it, says you could disable the sandbox for the session, instead of asking you to hand execution back - Assisted Permissions resolves routine requests faster on eligible plans and gives more specific reasons when it asks for approval - Plan approval no longer offers the fleet option. You can still start fleet mode with /fleet.",
-    "product": "GitHub Copilot CLI",
-    "status": "Release",
-    "title_ja": "GitHub Copilot CLI v1.0.116",
-    "summary_ja": "GitHub Copilot CLI v1.0.116がリリースされ、拡張機能マニフェスト用のビルド時JSON Schemaの追加や、ACP互換エディタでのコンテキストサイズ選択が可能になりました。また、サンドボックス設定における環境変数の追加、重複するMCPサーバー接続の警告、各種パフォーマンスおよび安定性の改善が含まれています。",
+    "id": "github-changelog-69c0601d70f93f1e53f8",
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+    "published_at": "2026-11-25T22:18:03Z",
+    "title_original": "Copilot code review billing will default to the organization",
+    "excerpt_original": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog .",
+    "product": "GitHub Copilot",
+    "status": "unknown",
+    "title_ja": "Copilotコードレビューの課金設定が組織負担へデフォルト変更",
+    "summary_ja": "Copilotライセンスを持つメンバーに対するCopilotコードレビューの課金方法が未設定の場合、2026年12月30日より組織に請求されるようデフォルトで変更されます。管理者は必要に応じて設定を確認および変更することができます。",
     "changes": [
-      "拡張機能マニフェスト用のビルド時JSON Schemaを追加",
-      "ACP互換エディタで保存済みのデフォルトを変更せずにサポートモデルのコンテキストサイズを選択可能に",
-      "env設定を使用してCopilotが起動するすべてのプロセスに環境変数を設定可能に",
-      "プラグインとスタンドアロンのMCPサーバーが同じエンドポイントに接続した場合の警告表示機能を追加",
-      "長期セッションにおけるテキスト測定キャッシュのメモリ肥大化を抑制"
+      "未設定の場合、Copilotコードレビューの費用が組織に請求されるようになります",
+      "変更の適用開始日は2026年12月30日です"
     ],
     "target_user": [
-      "Developer",
-      "Administrator"
+      "organization administrators",
+      "organization owners"
     ],
     "importance": "medium",
     "translated": true,
-    "processed_at": "2026-11-25T19:41:36Z",
+    "processed_at": "2026-11-26T03:56:11Z",
+    "source_id": "github-changelog",
+    "family": "github",
+    "translation_attempted_at": "2026-11-26T03:56:09Z"
+  },
+  {
+    "id": "github-copilot-cli-458857519",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.117-2",
+    "published_at": "2026-11-26T02:03:04Z",
+    "title_original": "GitHub Copilot CLI v1.0.117-2",
+    "excerpt_original": "**Fixed** - `copilot help extensions` no longer says your own and plugin extensions load with -p; an extension starts there only if its launch is already approved, by --allow-all-tools or --yolo or by an approval saved earlier - Built-in searches no longer fail when Copilot sends flags such as line numbers and result limits, or a list of paths, as text. - Resume shared sessions even when their selected model is unavailable, so you can choose a different model with /model. - PowerShell hooks on Windows preserve native program exit codes, so exit code 2 is treated as a warning or denial rather than a hook failure.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.117-2のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.117-2がリリースされました。拡張機能の読み込み動作の修正やビルトイン検索の安定性向上、共有セッションの再開機能の改善、PowerShellフックでの終了コードの保持が含まれています。",
+    "changes": [
+      "copilot help extensionsコマンドのメッセージを修正し、拡張機能の起動条件を正確に反映させるようにしました。",
+      "Copilotがフラグやパスのリストをテキストとして送信した際、ビルトイン検索が失敗する不具合を修正しました。",
+      "選択されたモデルが利用できない場合でも共有セッションを再開できるようにし、/modelコマンドで別のモデルを選択可能にしました。",
+      "Windows環境のPowerShellフックでネイティブプログラムの終了コードを保持するように修正しました。"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:04Z",
     "source_id": "github-copilot-cli",
     "family": "github",
-    "translation_attempted_at": "2026-11-25T19:41:35Z"
+    "translation_attempted_at": "2026-11-26T03:56:00Z"
+  },
+  {
+    "id": "github-copilot-cli-458774378",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.117-1",
+    "published_at": "2026-11-25T23:48:58Z",
+    "title_original": "GitHub Copilot CLI v1.0.117-1",
+    "excerpt_original": "**Improved** - The /model picker shows service notices and marks retiring models so you can see warnings before choosing a model. **Fixed** - Show an error instead of silently switching providers when a repository pins a model to an unavailable provider. - Only announce a new session checkpoint after automatic compaction if the checkpoint was saved. - Trusting a folder for the current session reloads MCP servers once and shows a single reload summary. - On Linux, Copilot accepts keyboard input again if the interactive shell opened with `$` is killed. - Subagents respect the tool list in their custom agent file, even when the file has no prompt.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.117-1 の更新情報",
+    "summary_ja": "GitHub Copilot CLI v1.0.117-1 がリリースされました。モデル選択画面でのサービス通知や廃止予定モデルの表示対応のほか、プロバイダー切り替え時のエラー表示、自動コンパクト後のセッションチェックポイント通知の修正、Linux環境でのキーボード入力の復旧など、複数の改善と不具合修正が含まれています。",
+    "changes": [
+      "/model ピッカーにサービス通知と廃止予定モデルの警告が表示されるように改善",
+      "リポジトリが利用不可能なプロバイダーのモデルを指定した場合に、サイレント切り替えを行わずエラーを表示するように修正",
+      "自動コンパクト後、チェックポイントが保存された場合のみ新しいセッションチェックポイントを通知するように修正",
+      "現在のセッションでフォルダを信頼した際、MCPサーバーの再読み込みを1回にし、単一の再読み込みサマリーを表示するように修正",
+      "Linuxにおいて、`$`で開いたインタラクティブシェルが終了した後にCopilotがキーボード入力を再度受け付けるように修正"
+    ],
+    "target_user": [
+      "Developer"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:09Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-26T03:56:07Z"
+  },
+  {
+    "id": "github-copilot-cli-458663444",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.117-0",
+    "published_at": "2026-11-25T21:21:51Z",
+    "title_original": "GitHub Copilot CLI v1.0.117-0",
+    "excerpt_original": "**Added** - Add explicit tool exposure so custom agents can opt in to tools **Fixed** - Load connected Copilot Connectors when resuming a CLI session while GitHub sign-in is still finishing. - Background agents can continue their conversations after restarting the CLI and resuming a session - Pressing Enter more than once on the folder trust prompt trusts the folder and reloads plugins once, instead of restarting every extension for each extra key press - Subagent details in /tasks show the reasoning effort the agent uses when the requested level isn't supported. - Running tasks in `/tasks` stay on one line and keep their spinners visible in narrow terminals. - Successful non-interactive CLI runs exit with code 0 when a session write fails temporarily but the final save succeeds. - Remove extra blank lines below wrapped text in narrow terminals, including task descriptions and IDs in /tasks. - Keep the MCP tool cache disabled across reloads when `COPILOT_MCP_TOOL_CACHE=false`, so Copilot neither reads nor writes tool snapshots. - `/sandbox policy` identifies grants that point to broken symlinks and warns that they can prevent sandboxed commands from starting. - Permission prompts and help clarify which approvals stay in effect when you resume the same session. - Assisted Permissions no longer denies a shell command retry as a duplicate solely because the previous attempt ran and failed. - Autopilot with Assisted Permissions can retry an automatically denied action once if you ask for it in a later chat message. The retry still goes through permission review. - In plan mode, Assisted Permissions asks before actions like creating a Git branch or installing packages instead of automatically approving them before you approve the plan. - --trust-folder from a subdirectory no longer runs the repository root's hooks when --add-dir names a folder in the same repository, including the root itself",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.117-0 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.117-0 がリリースされました。カスタムエージェント向けの明示的なツール公開機能の追加に加え、セッションの再開、権限管理、MCPツールキャッシュ、サンドボックスポリシーなどに関する複数の修正と改善が含まれています。",
+    "changes": [
+      "カスタムエージェントがツールを選択的に利用できるようにするため、明示的なツール公開機能を追加",
+      "GitHubサインイン処理中にCLIセッションを再開した際の、接続済みCopilot Connectorsの読み込みを修正",
+      "CLIの再起動とセッション再開後もバックグラウンドエージェントが会話を継続できるように修正",
+      "フォルダ信頼プロンプトでEnterキーを複数回押した際、拡張機能の過剰な再起動ではなく1度だけプラグインを再読み込みするように改善",
+      "Assisted Permissionsでのシェルコマンドの再試行、Autopilotの動作、プランモード時の権限確認に関する挙動を改善"
+    ],
+    "target_user": [
+      "Developer",
+      "GitHub Copilot CLI User"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:13Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-26T03:56:11Z"
+  },
+  {
+    "id": "m365-roadmap-4f73048acffc57b03afe",
+    "source": "Microsoft 365 Roadmap",
+    "source_url": "https://www.microsoft.com/microsoft-365/roadmap?id=578862",
+    "published_at": "2026-11-26T00:16:54Z",
+    "title_original": "[Roadmap] Microsoft Viva: Access Management for Copilot Analytics",
+    "excerpt_original": "Admins can now manage who has access to Viva Insights - Copilot Analytics, and what they can do, directly in the product. The new Access Management experience brings role assignment and permissions into one place for Global administrators, AI administrators and Viva Insights administrators, instead of managing access across Viva Feature Access Management (VFAM) settings in the Microsoft 365 admin center and in-product Manager Settings. Admins create access policies that combine a permission set, which defines what users can do, with a partition, which defines the population and datasets users can see. Policies can be assigned to individual users, Microsoft Entra security groups or, for group managers, organizational attributes. Existing role assignments continue to work, and users are automatically moved to system-defined access policies. GA date: January CY2027",
+    "product": "Microsoft 365 Copilot",
+    "status": "Roadmap",
+    "title_ja": "[提供予定・ロードマップ] Microsoft Viva: Copilot Analytics のアクセス管理機能",
+    "summary_ja": "管理者は、Microsoft Viva InsightsのCopilot Analyticsにおけるアクセス権限やユーザーの操作権限を製品内で直接管理できるようになりました。ロール割り当てとアクセス権限が1つの管理画面に統合され、管理者はユーザーの役割とデータ範囲を組み合わせたアクセスポリシーを作成できます。既存のロール割り当てはそのまま維持され、ユーザーは自動的にシステム定義のアクセスポリシーに移行されます。",
+    "changes": [
+      "Global administrators、AI administrators、Viva Insights administrators向けにロール割り当てと権限を統合した新しいAccess Managementエクスペリエンスを提供",
+      "権限セット（ユーザーの操作権限）とパーティション（閲覧可能な人口統計とデータセット）を組み合わせたアクセスポリシーの作成が可能",
+      "アクセスポリシーの割り当て先として、個別のユーザー、Microsoft Entraセキュリティグループ、組織属性（グループマネージャー向け）を指定可能",
+      "既存のロール割り当ては継続して機能し、ユーザーは自動的にシステム定義のアクセスポリシーへ移行"
+    ],
+    "target_user": [
+      "Global administrators",
+      "AI administrators",
+      "Viva Insights administrators",
+      "Admins"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-26T03:56:07Z",
+    "content_type": "roadmap",
+    "source_id": "m365-roadmap",
+    "family": "microsoft365",
+    "translation_attempted_at": "2026-11-26T03:56:04Z"
   }
 ]
