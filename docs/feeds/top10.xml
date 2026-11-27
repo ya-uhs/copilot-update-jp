@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Nov 2026 03:55:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 13:27:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -59,6 +59,16 @@
       <category>high</category>
     </item>
     <item>
+      <title>GitHub Copilot CLI v1.0.117 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117</link>
+      <guid isPermaLink="false">github-copilot-cli-460609837</guid>
+      <pubDate>Fri, 27 Nov 2026 13:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117がリリースされ、カスタムCA証明書のサポート追加やMCPサーバーの権限管理の改善が行われました。また、ターミナル表示の修正、サンドボックスおよび権限機能の安全性向上、各種バグフィックスが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムCA証明書を信頼するための sandbox.userPolicy.network.extraCaCertificates 設定を追加しました。&lt;/li&gt;&lt;li&gt;MCPサーバー名の権限適用範囲を調整し、ビルトイン要求の自動承認を防ぐようにしました。&lt;/li&gt;&lt;li&gt;autopilotモードの開始時に、すべての拡張機能を一括拒否せず個別に確認するようにしました。&lt;/li&gt;&lt;li&gt;選択したモデルが利用できない場合でも、共有セッションを再開して /model でモデルを変更できるようにしました。&lt;/li&gt;&lt;li&gt;計画モードにおいて、アシステッド権限が自動承認を行わずに事前に確認を求めるように変更しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
+    <item>
       <title>GitHub Copilot CLI v1.0.117-5のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-5</link>
       <guid isPermaLink="false">github-copilot-cli-460047115</guid>
@@ -96,16 +106,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;管理者は、Microsoft Viva InsightsのCopilot Analyticsにおけるアクセス権限やユーザーの操作権限を製品内で直接管理できるようになりました。ロール割り当てとアクセス権限が1つの管理画面に統合され、管理者はユーザーの役割とデータ範囲を組み合わせたアクセスポリシーを作成できます。既存のロール割り当てはそのまま維持され、ユーザーは自動的にシステム定義のアクセスポリシーに移行されます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Global administrators、AI administrators、Viva Insights administrators向けにロール割り当てと権限を統合した新しいAccess Managementエクスペリエンスを提供&lt;/li&gt;&lt;li&gt;権限セット（ユーザーの操作権限）とパーティション（閲覧可能な人口統計とデータセット）を組み合わせたアクセスポリシーの作成が可能&lt;/li&gt;&lt;li&gt;アクセスポリシーの割り当て先として、個別のユーザー、Microsoft Entraセキュリティグループ、組織属性（グループマネージャー向け）を指定可能&lt;/li&gt;&lt;li&gt;既存のロール割り当ては継続して機能し、ユーザーは自動的にシステム定義のアクセスポリシーへ移行&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=578862"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.117-1 の更新情報</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-1</link>
-      <guid isPermaLink="false">github-copilot-cli-458774378</guid>
-      <pubDate>Wed, 25 Nov 2026 23:48:58 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-1 がリリースされました。モデル選択画面でのサービス通知や廃止予定モデルの表示対応のほか、プロバイダー切り替え時のエラー表示、自動コンパクト後のセッションチェックポイント通知の修正、Linux環境でのキーボード入力の復旧など、複数の改善と不具合修正が含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/model ピッカーにサービス通知と廃止予定モデルの警告が表示されるように改善&lt;/li&gt;&lt;li&gt;リポジトリが利用不可能なプロバイダーのモデルを指定した場合に、サイレント切り替えを行わずエラーを表示するように修正&lt;/li&gt;&lt;li&gt;自動コンパクト後、チェックポイントが保存された場合のみ新しいセッションチェックポイントを通知するように修正&lt;/li&gt;&lt;li&gt;現在のセッションでフォルダを信頼した際、MCPサーバーの再読み込みを1回にし、単一の再読み込みサマリーを表示するように修正&lt;/li&gt;&lt;li&gt;Linuxにおいて、`$`で開いたインタラクティブシェルが終了した後にCopilotがキーボード入力を再度受け付けるように修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-1"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Preview</category>
       <category>medium</category>
     </item>
   </channel>

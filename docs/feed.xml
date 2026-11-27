@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Nov 2026 03:55:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 13:27:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117</link>
+      <guid isPermaLink="false">github-copilot-cli-460609837</guid>
+      <pubDate>Fri, 27 Nov 2026 13:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117がリリースされ、カスタムCA証明書のサポート追加やMCPサーバーの権限管理の改善が行われました。また、ターミナル表示の修正、サンドボックスおよび権限機能の安全性向上、各種バグフィックスが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムCA証明書を信頼するための sandbox.userPolicy.network.extraCaCertificates 設定を追加しました。&lt;/li&gt;&lt;li&gt;MCPサーバー名の権限適用範囲を調整し、ビルトイン要求の自動承認を防ぐようにしました。&lt;/li&gt;&lt;li&gt;autopilotモードの開始時に、すべての拡張機能を一括拒否せず個別に確認するようにしました。&lt;/li&gt;&lt;li&gt;選択したモデルが利用できない場合でも、共有セッションを再開して /model でモデルを変更できるようにしました。&lt;/li&gt;&lt;li&gt;計画モードにおいて、アシステッド権限が自動承認を行わずに事前に確認を求めるように変更しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.117-5のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-5</link>
@@ -1994,16 +2004,6 @@
       <guid isPermaLink="false">m365-roadmap-cda1888513ee3ca84bd1</guid>
       <pubDate>Thu, 22 Oct 2026 23:45:41 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Microsoft Dataverseにおいて、自然言語のプロンプトを使用するコーディングエージェントにより、テーブルやソリューションの構築を自動化できるようになります。エージェントは環境の検出、Microsoft Power Platform CLIを用いたソリューション作成、サンプルデータのロードなどを一貫して処理します。これにより、UIを通じた手動での作成作業が不要になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;自然言語のプロンプトによるコーディングエージェントを活用したDataverseソリューションの構築&lt;/li&gt;&lt;li&gt;Microsoft Power Platform CLIを通じたソリューションやテーブル、リレーションシップの自動作成&lt;/li&gt;&lt;li&gt;Pythonスクリプトによるリアルなサンプルデータのバルクローディングとデータのクエリ実行&lt;/li&gt;&lt;li&gt;Dataverseスキルによる環境への接続と一連のプロセスエンドツーエンドのオーケストレーション&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577815"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Power Pages Copilot: Power Pages MCPサーバー機能の利用</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577813</link>
-      <guid isPermaLink="false">m365-roadmap-d6797c14e8b68b5ab96f</guid>
-      <pubDate>Thu, 22 Oct 2026 23:45:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Power Pages MCPサーバーは、AIクライアントと互換性のある安全で標準化されたインターフェイスを通じて、サイトのデータと操作を公開できるようにします。パブリックプレビューでは、カスタムコードを書くことなく、Web API層を介したCRUD操作を有効化し、AIチャットクライアントからの自然言語クエリによる安全なデータ操作が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Power Pages MCPサーバーにより、サイトデータと操作をAIアシスタント向けの構造化されたツールとして公開可能&lt;/li&gt;&lt;li&gt;カスタムコードなしでWeb API層を介したCRUD操作をパブリックプレビューで有効化&lt;/li&gt;&lt;li&gt;サイト設定を通じてMCPサーバーのエンドポイントをプロビジョニングし、自然言語によるデータ操作を実現&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577813"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>

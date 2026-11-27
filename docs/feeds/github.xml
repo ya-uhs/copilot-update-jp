@@ -5,9 +5,19 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Nov 2026 03:55:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 13:27:58 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117 リリースノート</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117</link>
+      <guid isPermaLink="false">github-copilot-cli-460609837</guid>
+      <pubDate>Fri, 27 Nov 2026 13:04:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117がリリースされ、カスタムCA証明書のサポート追加やMCPサーバーの権限管理の改善が行われました。また、ターミナル表示の修正、サンドボックスおよび権限機能の安全性向上、各種バグフィックスが含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;カスタムCA証明書を信頼するための sandbox.userPolicy.network.extraCaCertificates 設定を追加しました。&lt;/li&gt;&lt;li&gt;MCPサーバー名の権限適用範囲を調整し、ビルトイン要求の自動承認を防ぐようにしました。&lt;/li&gt;&lt;li&gt;autopilotモードの開始時に、すべての拡張機能を一括拒否せず個別に確認するようにしました。&lt;/li&gt;&lt;li&gt;選択したモデルが利用できない場合でも、共有セッションを再開して /model でモデルを変更できるようにしました。&lt;/li&gt;&lt;li&gt;計画モードにおいて、アシステッド権限が自動承認を行わずに事前に確認を求めるように変更しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Release</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.117-5のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-5</link>
@@ -1997,16 +2007,6 @@
       <category>GitHub Copilot CLI</category>
       <category>Preview</category>
       <category>low</category>
-    </item>
-    <item>
-      <title>GitHub Copilotがデスクトップアプリと連携するコンピューター使用機能に対応</title>
-      <link>https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</link>
-      <guid isPermaLink="false">github-changelog-e11a5d7f0be16c7ae710</guid>
-      <pubDate>Thu, 01 Oct 2026 19:11:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Public Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIおよびmacoshとWindows上のGitHub Copilotアプリにおいて、コンピューター使用機能がパブリックプレビューとして利用可能になりました。これにより、Copilotがユーザーの代わりにデスクトップアプリケーションと対話できるようになります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIおよびmacOS/Windows向けGitHub Copilotアプリでコンピューター使用機能が利用可能に&lt;/li&gt;&lt;li&gt;Copilotがユーザーに代わってデスクトップアプリケーションと対話することが可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>Public Preview</category>
-      <category>high</category>
     </item>
   </channel>
 </rss>
