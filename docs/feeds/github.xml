@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Nov 2026 03:56:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 03:55:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/github.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-5のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-5</link>
+      <guid isPermaLink="false">github-copilot-cli-460047115</guid>
+      <pubDate>Fri, 27 Nov 2026 01:02:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIの最新バージョンv1.0.117-5がリリースされました。ユーザー設定または管理された設定において、カスタムCA証明書を信頼するための新しい設定項目が追加されました。これにより、TLSインターセプティングプロキシを介したサンドボックス環境でのコマンド実行がサポートされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;sandbox.userPolicy.network.extraCaCertificates設定を追加し、ユーザー設定または管理された設定でカスタムCA証明書を信頼できるようにした&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-4のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-4</link>
+      <guid isPermaLink="false">github-copilot-cli-459975044</guid>
+      <pubDate>Thu, 26 Nov 2026 22:51:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-4がリリースされました。タブが有効な10行のターミナルにおいて、ピン留めされたプロンプトでPage Downキーが停止する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;タブが有効な10行のターミナルにおいて、ピン留めされたプロンプトでのPage Downキーの停止する不具合を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-3のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-3</link>
+      <guid isPermaLink="false">github-copilot-cli-459864130</guid>
+      <pubDate>Thu, 26 Nov 2026 20:17:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-3がリリースされ、アシステッドパーミッションの改善やMCPサーバーの承認処理、自動パイロット起動時の確認プロンプトなどの不具合が修正されました。また、ワークツリーでのGit操作の復旧やセッション終了時の処理改善なども含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アシステッドパーミッションが、同一セッション内でプロセスIDにより開始されたプロセスを停止した際不要な確認プロンプトを回避できるよう改善&lt;/li&gt;&lt;li&gt;MCPサーバー名が組み込みの許可タイプと一致する場合に、サーバーのツール承認がCopilotの組み込みリクエストまで誤って承認してしまう不具合を修正&lt;/li&gt;&lt;li&gt;自動パイロット起動時、すべての拡張機能を拒否するのではなく、各拡張機能の起動前に確認を行うよう変更&lt;/li&gt;&lt;li&gt;Forgeドラフト拒否時に元のバイナリスキルアセットを復元し、生成後の編集内容を保持&lt;/li&gt;&lt;li&gt;/mcp searchでレジストリサーバーがインストールできない理由を表示するよう修正し、無限のインストーラースピナーを解消&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.117-2のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-2</link>
@@ -1977,36 +2007,6 @@
       <category>GitHub Copilot</category>
       <category>Public Preview</category>
       <category>high</category>
-    </item>
-    <item>
-      <title>GitHub Copilot in VS Code: 2026年9月リリース</title>
-      <link>https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases</link>
-      <guid isPermaLink="false">github-changelog-20cb5bafb529461d3752</guid>
-      <pubDate>Thu, 01 Oct 2026 19:09:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;本チャングロッグは、2026年9月にリリースされたVS Code v1.136からv1.140におけるGitHub Copilotの更新情報をカバーしています。9月のリリースでは、実装からプルリクエストのマージに至るまでのエージェント主導型開発が効率化されています。また、自動化機能による反復作業の処理や、エージェントマージ機能などが導入されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;VS Code v1.136からv1.140における変更を網羅&lt;/li&gt;&lt;li&gt;実装からプルリクエストのマージまでのエージェント主導型開発の効率化&lt;/li&gt;&lt;li&gt;反復作業を処理する自動化機能の追加&lt;/li&gt;&lt;li&gt;エージェントマージ機能の導入&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI v1.0.91のリリース</title>
-      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.91</link>
-      <guid isPermaLink="false">github-copilot-cli-401192726</guid>
-      <pubDate>Thu, 01 Oct 2026 17:25:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.91がリリースされ、プロキシCA管理用の新しいサンドボックスコマンドやWindows環境向けの改善が追加されました。また、セッションのビジー状態のクリア機能や、テレメトリーの確実な送信処理などが実装されています。さらに、読み取り専用のシェルパイプラインにおける実行エビデンスレビューの挙動が改善されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;プロキシCA証明書の確認・作成・信頼・ローテーション・削除を行う `copilot sandbox ca` コマンドを追加（`/sandbox ca install` は `create` と `trust` に変更）&lt;/li&gt;&lt;li&gt;中断されたターンが終了した後にセッションタイムラインのビジー状態がクリアされるように修正&lt;/li&gt;&lt;li&gt;ファイルシステム列挙サポートのないWindowsバージョンでもサンドボックスコマンドの実行が可能になり、PowerShellの現在位置に関する警告を表示&lt;/li&gt;&lt;li&gt;フッターの拡大・縮小時にフッター内のテキスト選択が同じ表示行にとどまるよう修正&lt;/li&gt;&lt;li&gt;WindowsでのNode/npm EACCESソケット拒否に対するサンドボックスネットワークバイパスを提供&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.91"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot CLI</category>
-      <category>Release</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>Copilot CLI、Copilotアプリ、Copilot SDKにおけるDynamic workflowsの提供開始</title>
-      <link>https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app</link>
-      <guid isPermaLink="false">github-changelog-20f94898ac7397b2decb</guid>
-      <pubDate>Thu, 01 Oct 2026 16:30:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; unknown&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI、GitHub Copilotアプリ、およびGitHub Copilot SDKでDynamic workflowsが利用可能になりました。これにより、コード内でオーケストレーションを定義し、信頼性などを向上させることが可能です。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GitHub Copilot CLIでDynamic workflowsを利用可能に&lt;/li&gt;&lt;li&gt;GitHub CopilotアプリでDynamic workflowsを利用可能に&lt;/li&gt;&lt;li&gt;GitHub Copilot SDKでDynamic workflowsを利用可能に&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>GitHub Copilot</category>
-      <category>unknown</category>
-      <category>medium</category>
     </item>
   </channel>
 </rss>

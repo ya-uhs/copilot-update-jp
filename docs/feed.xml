@@ -5,9 +5,39 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Nov 2026 03:56:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 03:55:42 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feed.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-5のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-5</link>
+      <guid isPermaLink="false">github-copilot-cli-460047115</guid>
+      <pubDate>Fri, 27 Nov 2026 01:02:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLIの最新バージョンv1.0.117-5がリリースされました。ユーザー設定または管理された設定において、カスタムCA証明書を信頼するための新しい設定項目が追加されました。これにより、TLSインターセプティングプロキシを介したサンドボックス環境でのコマンド実行がサポートされます。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;sandbox.userPolicy.network.extraCaCertificates設定を追加し、ユーザー設定または管理された設定でカスタムCA証明書を信頼できるようにした&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-5"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-4のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-4</link>
+      <guid isPermaLink="false">github-copilot-cli-459975044</guid>
+      <pubDate>Thu, 26 Nov 2026 22:51:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Pre-release&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; low&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-4がリリースされました。タブが有効な10行のターミナルにおいて、ピン留めされたプロンプトでPage Downキーが停止する不具合が修正されました。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;タブが有効な10行のターミナルにおいて、ピン留めされたプロンプトでのPage Downキーの停止する不具合を修正&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-4"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Pre-release</category>
+      <category>low</category>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI v1.0.117-3のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-3</link>
+      <guid isPermaLink="false">github-copilot-cli-459864130</guid>
+      <pubDate>Thu, 26 Nov 2026 20:17:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.117-3がリリースされ、アシステッドパーミッションの改善やMCPサーバーの承認処理、自動パイロット起動時の確認プロンプトなどの不具合が修正されました。また、ワークツリーでのGit操作の復旧やセッション終了時の処理改善なども含まれています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;アシステッドパーミッションが、同一セッション内でプロセスIDにより開始されたプロセスを停止した際不要な確認プロンプトを回避できるよう改善&lt;/li&gt;&lt;li&gt;MCPサーバー名が組み込みの許可タイプと一致する場合に、サーバーのツール承認がCopilotの組み込みリクエストまで誤って承認してしまう不具合を修正&lt;/li&gt;&lt;li&gt;自動パイロット起動時、すべての拡張機能を拒否するのではなく、各拡張機能の起動前に確認を行うよう変更&lt;/li&gt;&lt;li&gt;Forgeドラフト拒否時に元のバイナリスキルアセットを復元し、生成後の編集内容を保持&lt;/li&gt;&lt;li&gt;/mcp searchでレジストリサーバーがインストールできない理由を表示するよう修正し、無限のインストーラースピナーを解消&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.117-3"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
+    </item>
     <item>
       <title>GitHub Copilot CLI v1.0.117-2のリリース</title>
       <link>https://github.com/github/copilot-cli/releases/tag/v1.0.117-2</link>
@@ -1977,36 +2007,6 @@
       <category>Microsoft 365 Copilot</category>
       <category>Roadmap</category>
       <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: Service Operations Agentによる管理者体験の向上</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577808</link>
-      <guid isPermaLink="false">m365-roadmap-7d171ca4c4c536b8f28e</guid>
-      <pubDate>Thu, 22 Oct 2026 23:45:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Copilot Service admin centerに導入されるService Operations Agentは、Dynamics 365 Contact Centerの設定プロセスを統合する会話型AIアシスタントです。管理者は会話形式のセットアップを通じて、チャネル、音声設定、Teams Phoneの拡張性、ナレッジソース、ルーティング規則などの構成を効率化できます。また、リアルタイムでの設定検証や診断情報の提示、推奨事項の解説機能により、導入の迅速化とエラー削減を支援します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;会話型セットアップとオーケストレーションによるチャネル、音声設定、Teams Phone拡張性、ナレッジソースの構成&lt;/li&gt;&lt;li&gt;route-to-queueルールやキュー・AIエージェントの割り当て戦略の迅速な設定&lt;/li&gt;&lt;li&gt;リアルタイムでの設定の生成と検証、診断情報および実用的なインサイトの提供&lt;/li&gt;&lt;li&gt;推奨事項やセットアップ選択肢に対する明確な解説の提示&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577808"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Field Service: Scheduling Operations Agentによるリソーススケジュールの最適化</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577807</link>
-      <guid isPermaLink="false">m365-roadmap-b9c836844542cbbcdac2</guid>
-      <pubDate>Thu, 22 Oct 2026 23:45:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;Dynamics 365 Field ServiceにScheduling Operations Agentが導入され、ディスパッチャーはCopilotに依頼して日々のスケジュール変更に応じた最適なスケジュール案を迅速に得ることができるようになります。Copilotは、スキルセットの一致、担当地域、顧客との約束時間などの要因を考慮し、技術者の稼働率最大化や優先度の高い作業などのビジネス目標に合わせてスケジュールを最適化します。本機能により、急なキャンセルや遅延などの状況変化に対する手動での調整作業が軽減され、ディスパッチャーの生産性が向上します。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Copilotを利用して、状況の変化に応じた技術者のスケジュールを最適化する機能の追加&lt;/li&gt;&lt;li&gt;技術者の稼働率向上や作業指示の優先度などのビジネス目標に合わせたスケジュールの調整&lt;/li&gt;&lt;li&gt;スキルセット、担当地域、約束時間などの条件に基づいた既存の予約と未割り当て作業のインテリジェントな選定&lt;/li&gt;&lt;li&gt;Dynamics 365 Field Serviceアプリケーション内のCopilotサイドペインからのアクセスに対応&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577807"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>medium</category>
-    </item>
-    <item>
-      <title>[提供予定・ロードマップ] Dynamics 365 Contact Center: 統一ルーティング - 自然言語プレイブックによる会話配信のオーケストレーション</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=577788</link>
-      <guid isPermaLink="false">m365-roadmap-db854d362769689471df</guid>
-      <pubDate>Thu, 22 Oct 2026 23:45:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Dynamics 365 Contact Center&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Contact Centerの統一ルーティングに、AIを活用した会話オーケストレーション機能が追加されます。管理者は自然言語のプレイブックを用いて、動的な優先度エスカレーション、複数条件に対応するオーバーフロー処理、担当者への再接続、ブルズアイ・ルーティングなどのシナリオを設定できます。これにより、会話のライフサイクルを通じて条件の変化に応じた自動対応が可能になります。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;動的優先度エスカレーション: 待ち時間や顧客ランクなどの条件に応じて、会話の優先度をリアルタイムに再評価し自動調整します。&lt;/li&gt;&lt;li&gt;複数条件に基づくオーバーフロー処理: 営業時間外、担当者の不在、待ち時間や待機数の上限超過などの状況に応じて、コールバックの提供や代替キューへのルーティングを自動化します。&lt;/li&gt;&lt;li&gt;担当者の再接続・優先割り当て: 過去に対応した担当者や希望する担当者への再接続を優先し、対応不可の場合は最適な代替担当者へシームレスに引き継ぎます。&lt;/li&gt;&lt;li&gt;ブルズアイ・ルーティング: 一定時間が経過しても割り当てられない場合、スキルやチームの基準に基づいて担当者の範囲を段階的に拡大します。&lt;/li&gt;&lt;li&gt;自然言語プレイブックとビルトイン検証: ガイド付きテンプレートを用いてシナリオを設定でき、公開前に競合を検出する組み込み検証機能を備えています。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=577788"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Dynamics 365 Contact Center</category>
-      <category>Roadmap</category>
-      <category>high</category>
     </item>
   </channel>
 </rss>
