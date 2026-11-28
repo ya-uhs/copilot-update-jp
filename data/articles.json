@@ -1,5 +1,85 @@
 [
   {
+    "id": "github-copilot-cli-461199431",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.118-2",
+    "published_at": "2026-11-28T00:57:00Z",
+    "title_original": "GitHub Copilot CLI v1.0.118-2",
+    "excerpt_original": "**Fixed** - Use Up and Down after a Ctrl+R search match to navigate prompt history without applying hidden suggestions.",
+    "product": "GitHub Copilot CLI",
+    "status": "Release",
+    "title_ja": "GitHub Copilot CLI v1.0.118-2 リリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.118-2がリリースされました。Ctrl+Rでの検索一致後にUpキーとDownキーを使用することで、非表示の候補を適用せずにプロンプト履歴をナビゲートできるよう修正されました。",
+    "changes": [
+      "Ctrl+Rによる検索一致後、非表示の候補を適用せずにUpおよびDownキーでプロンプト履歴を移動できるように修正"
+    ],
+    "target_user": [
+      "developers"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-28T03:42:09Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-28T03:42:08Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-461139365",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.118-1",
+    "published_at": "2026-11-27T23:01:45Z",
+    "title_original": "GitHub Copilot CLI v1.0.118-1",
+    "excerpt_original": "**Fixed** - Preserve changes to different MCP servers when `copilot mcp enable` or `copilot mcp disable` commands run at the same time.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.118-1 リリースノート",
+    "summary_ja": "GitHub Copilot CLI v1.0.118-1がリリースされました。今回の更新では、複数の `copilot mcp enable` または `copilot mcp disable` コマンドが同時に実行された際に、異なるMCPサーバーへの変更が保持されるように修正されました。",
+    "changes": [
+      "copilot mcp enable または copilot mcp disable コマンドを同時に実行した際、異なるMCPサーバーへの変更が保持されるように修正"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users"
+    ],
+    "importance": "low",
+    "translated": true,
+    "processed_at": "2026-11-28T03:42:09Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-28T03:42:09Z",
+    "llm_provider": "Gemini"
+  },
+  {
+    "id": "github-copilot-cli-461021114",
+    "source": "GitHub Copilot CLI Releases",
+    "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.118-0",
+    "published_at": "2026-11-27T20:08:25Z",
+    "title_original": "GitHub Copilot CLI v1.0.118-0",
+    "excerpt_original": "**Fixed** - Show paths to additional CA certificates trusted by the sandbox in `/sandbox policy`, including certificates from managed settings. - Show reasoning effort and context tier in the /tasks footer for subagents that start their own subagents. - The detailed transcript shows match counts for grep and rg searches with automatically corrected flags, and shows clean results when expanded. - Copilot Fusion shows shell commands interrupted with Ctrl+C as aborted instead of pending, including after you resume the session. - Organization custom agents use their configured model when it is available and you haven't specified a model with --model. - The Issues and Pull requests tabs become available without restarting Copilot CLI when you add a GitHub remote to the current repository - Fix interactive turns failing when an MCP tool advertises a null anyOf in its output schema. - Keep Git configuration and hooks read-only in sandboxed repositories granted write access through readwritePaths, even when automatic working directory access is disabled - Git authentication for plugin marketplaces no longer opens an extra console window on Windows - On Linux with non-setuid Bubblewrap 0.11 or later, sandboxed commands can start when a denied path under a read-only mount does not yet exist. - Keep the current CLI session signed out after /logout instead of automatically signing back in with another available credential. - Keep newer notifications in /settings visible for their full duration when an older notification expires.",
+    "product": "GitHub Copilot CLI",
+    "status": "Preview",
+    "title_ja": "GitHub Copilot CLI v1.0.118-0 のリリース",
+    "summary_ja": "GitHub Copilot CLI v1.0.118-0がリリースされ、サンドボックスポリシーやサブエージェントの表示機能、検索結果のトランスクリプト表示が改善されました。また、組織カスタムモデルの適用、GitHubリモート追加時のタブ自動有効化、およびMCPツールの出力スキーマに関する不具合などが修正されています。",
+    "changes": [
+      "/sandbox policy において、マネージド設定からの証明書を含む、サンドボックスが信頼する追加のCA証明書のパスを表示するように修正しました。",
+      "サブエージェントが独自の子エージェントを起動する場合の /tasks フッターに、推論の労力とコンテキスト階層を表示するようにしました。",
+      "自動修正されたフラグを使用した grep および rg 検索のマッチ件数と、展開時のクリーンな結果を詳細トランスクリプトに表示するようにしました。",
+      "セッション再開後を含め、Ctrl+Cで中断されたシェルコマンドを保留中ではなく中断として表示するように修正しました。",
+      "MCPツールが出力スキーマで null の anyOf を宣伝している場合にインタラクティブターンが失敗する問題を修正しました。"
+    ],
+    "target_user": [
+      "GitHub Copilot CLI users",
+      "Developers"
+    ],
+    "importance": "medium",
+    "translated": true,
+    "processed_at": "2026-11-28T03:42:11Z",
+    "source_id": "github-copilot-cli",
+    "family": "github",
+    "translation_attempted_at": "2026-11-28T03:42:09Z",
+    "llm_provider": "Gemini"
+  },
+  {
     "id": "github-copilot-cli-460609837",
     "source": "GitHub Copilot CLI Releases",
     "source_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.117",

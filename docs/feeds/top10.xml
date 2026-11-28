@@ -5,7 +5,7 @@
     <link>https://ya-uhs.github.io/copilot-update-jp/</link>
     <description>Microsoft 365 Copilot と GitHub Copilot の公式更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Nov 2026 13:27:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 03:42:11 +0000</lastBuildDate>
     <atom:link href="https://ya-uhs.github.io/copilot-update-jp/feeds/top10.xml" rel="self" type="application/rss+xml" />
     <ttl>360</ttl>
     <item>
@@ -49,14 +49,14 @@
       <category>high</category>
     </item>
     <item>
-      <title>[提供予定・ロードマップ] Microsoft 365 Copilot でのワークフォースリクエスト管理</title>
-      <link>https://www.microsoft.com/microsoft-365/roadmap?id=581992</link>
-      <guid isPermaLink="false">m365-roadmap-025185174f64620021a7</guid>
-      <pubDate>Sat, 21 Nov 2026 02:55:45 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; Microsoft 365 Copilot&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Roadmap&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; high&lt;/p&gt;&lt;p&gt;Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを介して Microsoft 365 Copilot と統合され、上司やカスタマーサービス担当者が自然言語で勤務リクエストを操作できるようになります。上司は権限のある休暇、シフト交換、シフト入札リクエストを一覧表示・フィルタし、詳細を確認し、休暇リクエストを承認または却下できます。担当者は自分のリクエストを一覧・ステータス確認し、詳細を閲覧できます。既存の Dynamics 365 と Dataverse のセキュリティロールが適用され、別途権限設定やモバイルアプリは不要です。シフト交換・入札は閲覧のみで、承認は現在休暇リクエストに限定されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamics 365 Workforce Engagement Management が Model Context Protocol ツールを通じて Microsoft 365 Copilot と統合された&lt;/li&gt;&lt;li&gt;上司が自然言語で休暇リクエストを一覧・フィルタし、承認・却下できる機能が追加された&lt;/li&gt;&lt;li&gt;カスタマーサービス担当者が自分のリクエストを一覧・ステータス確認できるようになった&lt;/li&gt;&lt;li&gt;既存の Dynamics 365 と Dataverse のセキュリティロールがそのまま適用され、別途権限設定が不要となった&lt;/li&gt;&lt;li&gt;リクエスト一覧と詳細がチャット内のインタラクティブなアプリ体験として提供され、承認・却下はテキストで確認できる&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.microsoft.com/microsoft-365/roadmap?id=581992"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
-      <category>Microsoft 365 Copilot</category>
-      <category>Roadmap</category>
-      <category>high</category>
+      <title>GitHub Copilot CLI v1.0.118-0 のリリース</title>
+      <link>https://github.com/github/copilot-cli/releases/tag/v1.0.118-0</link>
+      <guid isPermaLink="false">github-copilot-cli-461021114</guid>
+      <pubDate>Fri, 27 Nov 2026 20:08:25 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Product:&lt;/strong&gt; GitHub Copilot CLI&lt;br&gt;&lt;strong&gt;Status:&lt;/strong&gt; Preview&lt;br&gt;&lt;strong&gt;Importance:&lt;/strong&gt; medium&lt;/p&gt;&lt;p&gt;GitHub Copilot CLI v1.0.118-0がリリースされ、サンドボックスポリシーやサブエージェントの表示機能、検索結果のトランスクリプト表示が改善されました。また、組織カスタムモデルの適用、GitHubリモート追加時のタブ自動有効化、およびMCPツールの出力スキーマに関する不具合などが修正されています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;/sandbox policy において、マネージド設定からの証明書を含む、サンドボックスが信頼する追加のCA証明書のパスを表示するように修正しました。&lt;/li&gt;&lt;li&gt;サブエージェントが独自の子エージェントを起動する場合の /tasks フッターに、推論の労力とコンテキスト階層を表示するようにしました。&lt;/li&gt;&lt;li&gt;自動修正されたフラグを使用した grep および rg 検索のマッチ件数と、展開時のクリーンな結果を詳細トランスクリプトに表示するようにしました。&lt;/li&gt;&lt;li&gt;セッション再開後を含め、Ctrl+Cで中断されたシェルコマンドを保留中ではなく中断として表示するように修正しました。&lt;/li&gt;&lt;li&gt;MCPツールが出力スキーマで null の anyOf を宣伝している場合にインタラクティブターンが失敗する問題を修正しました。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://github.com/github/copilot-cli/releases/tag/v1.0.118-0"&gt;Original Source&lt;/a&gt;&lt;/p&gt;</description>
+      <category>GitHub Copilot CLI</category>
+      <category>Preview</category>
+      <category>medium</category>
     </item>
     <item>
       <title>GitHub Copilot CLI v1.0.117 リリースノート</title>
